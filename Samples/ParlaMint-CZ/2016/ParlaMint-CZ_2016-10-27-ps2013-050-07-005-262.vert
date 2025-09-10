@@ -1,18 +1,18 @@
 <note type="speaker" content="Místopředseda PSP Jan Bartošek"/>
-<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1" text_id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="ps2013/050/262" date="2016-10-27" title="Parlament České republiky, Poslanecká sněmovna, 2016-10-27, 262. Ústní interpelace" speaker_role="Předsedající" speaker_id="JanBartosek.1971" speaker_name="Bartošek, Jan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KDU-ČSL" speaker_party_name="Poslanecký klub KDU-ČSL" party_status="Coalition" party_orientation="Střed a středo-pravice" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1" text_id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="-" date="2016-10-27" title="Parlament České republiky, Poslanecká sněmovna, 2016-10-27, 262. Ústní interpelace" speaker_role="Předsedající" topic="Ostatní" speaker_id="JanBartosek.1971" speaker_name="Bartošek, Jan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KDU-ČSL" speaker_party_name="Poslanecký klub KDU-ČSL" party_status="Coalition" party_orientation="Střed a středo-pravice" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1" lang="čeština">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s1" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.274">
 262	262	262	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	262	NUM	NumForm=Digit NumType=Card	w1
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s2" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="2.716">
 Ústní	Ústní	ústní	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing Polarity=Pos	w1	amod	interpelace	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2
 interpelace	interpelace	interpelace	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2" lang="čeština">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="2.350">
 které	které	který	DET	Animacy=Inan Case=Nom Gender=Masc Number=Plur PronType=Int,Rel	w1	nsubj	určený	ADJ	Animacy=Inan Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
 jsou	jsou	být	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	cop	určený	ADJ	Animacy=Inan Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
 určeny	určeny	určený	ADJ	Animacy=Inan Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3	root	-	-	-	-
@@ -32,7 +32,7 @@ vlády	vlády	vláda	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w12	nmod	
 </s>
 </p>
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3" lang="čeština">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.332">
 Na	Na	na	ADP	AdpType=Prep Case=Acc	w1	case	začátek	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w2
 začátek	začátek	začátek	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w2	obl	dovolit	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 Polarity=Pos VerbForm=Fin	w4
 mi	mi	já	PRON	Case=Dat Number=Sing Person=1 PronType=Prs Variant=Short	w3	obl:arg	dovolit	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 Polarity=Pos VerbForm=Fin	w4
@@ -45,7 +45,7 @@ omluvy	omluvy	omluva	NOUN	Case=Acc Gender=Fem Number=Plur Polarity=Pos	w10	obj	p
 <g/>
 .	.	.	PUNCT	-	w11	punct	dovolit	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 Polarity=Pos VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="1.878">
 Z	Z	z	ADP	AdpType=Prep Case=Gen	w1	case	den	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w4
 celého	celého	celý	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w2	amod	den	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w4
 jednacího	jednacího	jednací	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w3	amod	den	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w4
@@ -66,7 +66,7 @@ dne	dne	den	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w13	
 <g/>
 .	.	.	PUNCT	-	w15	punct	omlouvat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w6
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3" senti_3="Negativní" senti_6="smíšeně negativní" senti_n="1.312">
 10	10	10	NUM	NumForm=Digit NumType=Card	w1	obl	omlouvat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12
 <g/>
 .	.	.	PUNCT	-	w2	punct	omlouvat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12
@@ -219,7 +219,7 @@ Marksová	Marksová	Marksová	PROPN	Case=Nom Gender=Fem NameType=Sur Number=Sing
 </s>
 </p>
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4" lang="čeština">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="2.483">
 Dnes	Dnes	dnes	ADV	-	w1	advmod	vylosovat	VERB	Animacy=Anim Aspect=Perf Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w6
 jsme	jsme	být	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	aux	vylosovat	VERB	Animacy=Anim Aspect=Perf Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w6
 za	za	za	ADP	AdpType=Prep Case=Gen	w3	case	účast	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w4
@@ -263,7 +263,7 @@ vlády	vlády	vláda	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w35	nmod	
 <g/>
 .	.	.	PUNCT	-	w36	punct	vylosovat	VERB	Animacy=Anim Aspect=Perf Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w6
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="2.100">
 Vzhledem	Vzhledem	vzhledem	ADP	AdpType=Comprep	w1	case	ten	DET	Case=Dat Gender=Masc,Neut Number=Sing PronType=Dem	w3
 k	k	k	ADP	AdpType=Prep Case=Dat	w2	fixed	vzhledem	ADP	AdpType=Comprep	w1
 tomu	tomu	ten	DET	Case=Dat Gender=Masc,Neut Number=Sing PronType=Dem	w3	obl	následovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w20
@@ -300,7 +300,7 @@ vlády	vlády	vláda	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w27	nmod	
 </s>
 </p>
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5" lang="čeština">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.144">
 Nyní	Nyní	nyní	ADV	PronType=Dem	w1	advmod	dávat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 dávám	dávám	dávat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	root	-	-	-	-
 slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w3	obj	dávat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
@@ -346,7 +346,7 @@ Marek	Marek	Marek	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Si
 </name>
 .	.	.	PUNCT	-	w34	punct	dávat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="3.802">
 Prosím	Prosím	prosit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	prosit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -358,9 +358,9 @@ poslanče	poslanče	poslanč	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Sing 
 </p>
 </speech>
 <note type="speaker" content="Poslanec Jiří Zlatuška"/>
-<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2" text_id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="ps2013/050/262" date="2016-10-27" title="Parlament České republiky, Poslanecká sněmovna, 2016-10-27, 262. Ústní interpelace" speaker_role="Poslanec" speaker_id="JiriZlatuska.1957" speaker_name="Zlatuška, Jiří" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="Coalition" party_orientation="Střed a středo-pravice" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2" text_id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="-" date="2016-10-27" title="Parlament České republiky, Poslanecká sněmovna, 2016-10-27, 262. Ústní interpelace" speaker_role="Poslanec" topic="Ostatní" speaker_id="JiriZlatuska.1957" speaker_name="Zlatuška, Jiří" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="Coalition" party_orientation="Střed a středo-pravice" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1" lang="čeština">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1" senti_3="Negativní" senti_6="negativní" senti_n="0.185">
 Já	Já	já	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	chtít	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3
 jsem	jsem	být	AUX	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	aux	chtít	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3
 chtěl	chtěl	chtít	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3	root	-	-	-	-
@@ -424,7 +424,7 @@ být	být	být	AUX	Polarity=Pos VerbForm=Inf	w52	cop	špatný	ADJ	Case=Nom Degre
 <g/>
 .	.	.	PUNCT	-	w54	punct	chtít	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2" senti_3="Negativní" senti_6="negativní" senti_n="0.035">
 A	A	a	CCONJ	-	w1	cc	jednat	VERB	Aspect=Imp Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w2
 jednalo	jednalo	jednat	VERB	Aspect=Imp Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w2	root	-	-	-	-
 se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w3	expl:pv	jednat	VERB	Aspect=Imp Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w2
@@ -528,7 +528,7 @@ univerzitě	univerzitě	univerzita	NOUN	Case=Loc Gender=Fem Number=Sing Polarity
 </name>
 .	.	.	PUNCT	-	w84	punct	jednat	VERB	Aspect=Imp Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w2
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3" senti_3="Negativní" senti_6="negativní" senti_n="0.046">
 Tento	Tento	tento	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	w1	det	rozpor	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2
 rozpor	rozpor	rozpor	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2	nsubj	myslit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w4
 si	si	se	PRON	Case=Dat PronType=Prs Reflex=Yes Variant=Short	w3	expl:pv	myslit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w4
@@ -603,7 +603,7 @@ prošlo	prošlo	projít	VERB	Gender=Neut Number=Sing Polarity=Pos Tense=Past Ver
 <g/>
 .	.	.	PUNCT	-	w64	punct	myslit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w4
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4" senti_3="Negativní" senti_6="negativní" senti_n="0.413">
 Ale	Ale	ale	CCONJ	-	w1	cc	pokládat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w13
 pokud	pokud	pokud	SCONJ	-	w2	mark	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w6
 tady	tady	tady	ADV	PronType=Dem	w3	advmod	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w6
@@ -628,7 +628,7 @@ příležitost	příležitost	příležitost	NOUN	Case=Acc Gender=Fem Number=Sin
 <g/>
 .	.	.	PUNCT	-	w21	punct	pokládat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w13
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s5">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s5" senti_3="Pozitivní" senti_6="pozitivní" senti_n="4.655">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -636,9 +636,9 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157" text_id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="ps2013/050/262" date="2016-10-27" title="Parlament České republiky, Poslanecká sněmovna, 2016-10-27, 262. Ústní interpelace" speaker_role="Poslanec" speaker_id="PetrBendl.1966" speaker_name="Bendl, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="Opposition" party_orientation="Středo-pravice a pravice" speaker_gender="M" speaker_birth="1966">
+<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157" text_id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="-" date="2016-10-27" title="Parlament České republiky, Poslanecká sněmovna, 2016-10-27, 262. Ústní interpelace" speaker_role="Poslanec" topic="Smíšený" speaker_id="PetrBendl.1966" speaker_name="Bendl, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="Opposition" party_orientation="Středo-pravice a pravice" speaker_gender="M" speaker_birth="1966">
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1" lang="čeština">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="4.263">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -647,7 +647,7 @@ předsedající	předsedající	předsedající	ADJ	Animacy=Anim Aspect=Imp Case
 <g/>
 .	.	.	PUNCT	-	w5	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.195">
 Moje	Moje	můj	DET	Case=Nom Gender=Fem,Neut Number=Sing Number[psor]=Sing Person=1 Poss=Yes PronType=Prs	w1	det	otázka	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2
 otázka	otázka	otázka	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2	nsubj	jednoduchý	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing Polarity=Pos	w4
 je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	cop	jednoduchý	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing Polarity=Pos	w4
@@ -655,7 +655,7 @@ jednoduchá	jednoduchá	jednoduchý	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Si
 <g/>
 .	.	.	PUNCT	-	w5	punct	jednoduchý	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing Polarity=Pos	w4
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.046">
 Mě	Mě	já	PRON	Case=Acc Number=Sing Person=1 PronType=Prs Variant=Short	w1	obj	zajímat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 zajímá	zajímá	zajímat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	root	-	-	-	-
 celkový	celkový	celkový	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w3	amod	stav	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w4
@@ -681,7 +681,7 @@ dispozici	dispozici	dispozice	NOUN	Case=Dat Gender=Fem Number=Sing Polarity=Pos	
 <g/>
 .	.	.	PUNCT	-	w20	punct	zajímat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.152">
 Proto	Proto	proto	CCONJ	-	w1	cc	prosit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 prosím	prosím	prosit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	root	-	-	-	-
 o	o	o	ADP	AdpType=Prep Case=Acc	w3	case	odpověď	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w4
@@ -713,7 +713,7 @@ až	až	až	CCONJ	-	w22	cc	2020	NUM	NumForm=Digit NumType=Card	w23
 <g/>
 .	.	.	PUNCT	-	w24	punct	prosit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="2.207">
 Kolik	Kolik	kolik	DET	Case=Nom NumType=Card PronType=Int,Rel	w1	nsubj:pass	vyčerpaný	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w5
 bylo	bylo	být	AUX	Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w2	aux:pass	vyčerpaný	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w5
 už	už	už	ADV	-	w3	advmod	vyčerpaný	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w5
@@ -728,7 +728,7 @@ zesmluvněno	zesmluvněno	zesmluvněný	ADJ	Gender=Neut Number=Sing Polarity=Pos
 <g/>
 ?	?	?	PUNCT	-	w12	punct	vyčerpaný	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w5
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="2.300">
 Dále	Dále	dále	ADV	-	w1	advmod	zajímat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 mě	mě	já	PRON	Case=Acc Number=Sing Person=1 PronType=Prs Variant=Short	w2	obj	zajímat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 zajímá	zajímá	zajímat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	root	-	-	-	-
@@ -786,7 +786,7 @@ plánu	plánu	plán	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing Polarity=
 <g/>
 .	.	.	PUNCT	-	w50	punct	zajímat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="4.201">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 vám	vám	ty	PRON	Case=Dat Number=Plur Person=2 PronType=Prs	w2	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 za	za	za	ADP	AdpType=Prep Case=Acc	w3	case	odpověď	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w5
@@ -798,14 +798,14 @@ odpověď	odpověď	odpověď	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	
 </p>
 </speech>
 <note type="speaker" content="Místopředseda PSP Petr Gazdík"/>
-<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158" text_id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="ps2013/050/262" date="2016-10-27" title="Parlament České republiky, Poslanecká sněmovna, 2016-10-27, 262. Ústní interpelace" speaker_role="Předsedající" speaker_id="PetrGazdik.1974" speaker_name="Gazdík, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="TOP09-S" speaker_party_name="Poslanecký klub TOP 09 a Starostové" party_status="Opposition" party_orientation="Středo-pravice" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158" text_id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="-" date="2016-10-27" title="Parlament České republiky, Poslanecká sněmovna, 2016-10-27, 262. Ústní interpelace" speaker_role="Předsedající" topic="Ostatní" speaker_id="PetrGazdik.1974" speaker_name="Gazdík, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="TOP09-S" speaker_party_name="Poslanecký klub TOP 09 a Starostové" party_status="Opposition" party_orientation="Středo-pravice" speaker_gender="M" speaker_birth="1974">
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1" lang="čeština">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s1" senti_3="Pozitivní" senti_6="pozitivní" senti_n="4.655">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2" senti_3="Negativní" senti_6="smíšeně negativní" senti_n="0.942">
 Omlouvám	Omlouvám	omlouvat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w2	expl:pv	omlouvat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 panu	panu	pan	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing Polarity=Pos	w3	obl:arg	omlouvat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -861,7 +861,7 @@ programu	programu	program	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Pol
 <g/>
 .	.	.	PUNCT	-	w44	punct	omlouvat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3" senti_3="Pozitivní" senti_6="pozitivní" senti_n="4.891">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 a	a	a	CCONJ	-	w2	cc	přát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 přeji	přeji	přát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	conj	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1

@@ -16,6 +16,10 @@
                <persName>Costanza Navarretta</persName>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
@@ -27,7 +31,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="167" xml:lang="en">167 speeches</measure>
@@ -38,12 +42,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -82,8 +86,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-16">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2022-10-31">
             <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
       </revisionDesc>
@@ -93,10 +99,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-DK_2020-04-21-20191-M94.head1">Punkt 0</head>
             <note type="agendaItem" xml:id="ParlaMint-DK_2020-04-21-20191-M94.note1">2020-04-21-0</note>
-            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200421130023" ana="#chair #domain.other">
+            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200421130023" ana="#chair #DK-domain.other topic:mixed">
                <seg xml:id="ParlaMint-DK_20200421130023.seg1">Mødet er åbnet. I dag er der følgende anmeldelser: Uddannelses- og forskningsministeren (Ane Halsboe-Jørgensen): Lovforslag nr. 171 (Forslag til lov om ændring af SU-loven. Klima-, energi- og forsyningsministeren (Dan Jørgensen): Lovforslag nr. L 172 (Forslag til lov om ændring af lov om fremme af vedvarende energi og lov om naturgasforsyning. Skatteministeren (Morten Bødskov): Lovforslag nr. L 175 (Forslag til lov om rentefrie lån svarende til angivet moms og lønsumsafgift og fremrykket udbetaling af skattekreditter m.v. i forbindelse med covid-19). Titlerne på de anmeldte sager vil fremgå af www.folketingstidende.dk (jf. ovenfor).</seg>
             </u>
-            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200421130104" ana="#chair #domain.other">
+            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200421130104" ana="#chair #DK-domain.other topic:other">
                <seg xml:id="ParlaMint-DK_20200421130104.seg2">De punkter, som er opført som nr. 2 og 3 på dagsordenen, kan kun med Tingets samtykke behandles i dette møde, og hvis ingen gør indsigelse, betragter jeg dette som givet. Samtykket er givet.</seg>
             </u>
             <gap reason="editorial">
@@ -104,14 +110,14 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u who="#TorpTrine" xml:id="ParlaMint-DK_20200421152214" ana="#chair #domain.Labour #domain.Social">
+            <u who="#TorpTrine" xml:id="ParlaMint-DK_20200421152214" ana="#chair #DK-domain.Labour #DK-domain.Social topic:other">
                <seg xml:id="ParlaMint-DK_20200421152214.seg166">Ønskes afstemning om ændringsforslag nr. 1, tiltrådt af udvalget? Det er vedtaget. Hvis ikke afstemning begæres, betragter jeg ændringsforslag nr. 9 og 10 uden for betænkningen af Lars Boje Mathiesen (NB) som forkastet. De er forkastet. Ønskes afstemning om ændringsforslag nr. 2 og 3, tiltrådt af et flertal (udvalget med undtagelse af KF, NB og LA)? De er vedtaget. Hvis ikke afstemning begæres, betragter jeg ændringsforslag nr. 11 uden for betænkningen af Lars Boje Mathisen (NB) som forkastet. Det er forkastet. Hvis ikke afstemning begæres, betragter jeg ændringsforslag nr. 4 af et mindretal (EL), tiltrådt af et mindretal (RV, SF og ALT), som forkastet. Det er forkastet. Ønskes afstemning om ændringsforslag nr. 5-8, tiltrådt af udvalget? De er vedtaget. Der er stillet forslag om, at lovforslaget henvises til fornyet udvalgsbehandling, og hvis ingen gør indsigelse, betragter jeg dette som vedtaget. Det er vedtaget.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head xml:id="ParlaMint-DK_2020-04-21-20191-M94.head14">Punkt 0</head>
             <note type="agendaItem" xml:id="ParlaMint-DK_2020-04-21-20191-M94.note14">2020-04-21-0</note>
-            <u who="#TorpTrine" xml:id="ParlaMint-DK_20200421152411" ana="#chair #domain.other">
+            <u who="#TorpTrine" xml:id="ParlaMint-DK_20200421152411" ana="#chair #DK-domain.other topic:other">
                <seg xml:id="ParlaMint-DK_20200421152411.seg167">Der er ikke mere at foretage i dette møde. Næste møde afholdes i dag kl. 16.55 med 3. behandling af L 136, L 169 og 2.</seg>
             </u>
          </div>

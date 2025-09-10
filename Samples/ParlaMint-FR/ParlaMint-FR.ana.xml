@@ -19,12 +19,28 @@
                <resp xml:lang="fr">Encodage du corpus selon ParlaMint TEI XML</resp>
                <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName>The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="714860" xml:lang="en">714,860 speeches</measure>
@@ -34,12 +50,12 @@
          </extent>
          <publicationStmt>
             <publisher>CLARIN research infrastructure</publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="fr">This work is licensed under the terms of the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -82,6 +98,7 @@
                <tagUsage gi="kinesic" occurs="69105"/>
                <tagUsage gi="link" occurs="56985731"/>
                <tagUsage gi="linkGrp" occurs="2405054"/>
+               <tagUsage gi="measure" occurs="2405054"/>
                <tagUsage gi="name" occurs="1172864"/>
                <tagUsage gi="note" occurs="22126"/>
                <tagUsage gi="pc" occurs="5913114"/>
@@ -101,16 +118,32 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-topic.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-sentiment.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
                <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+            <prefixDef ident="topic" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Topic taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+            <prefixDef ident="senti" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Sentiment taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
          </listPrefixDef>
          <appInfo>
             <application version="1.2.0" ident="stanza-stanfordnlp">
                <label>Stanza</label>
                <desc xml:lang="en">Stanza – A Python NLP Package for Many Human Languages, pretrained neural network model for French, available from <ref target="https://github.com/stanfordnlp/stanza">https://github.com/stanfordnlp/stanza</ref>.</desc>
+            </application>
+            <application ident="parlacap" version="1.0">
+               <label>ParlaCAP</label>
+               <desc>Automatic annotation with <ref target="https://www.comparativeagendas.net/pages/master-codebook">CAP (Comparative Agendas Project)</ref> major topic labels, produced with the multilingual ParlaCAP classifier, available from <ref target="https://huggingface.co/classla/ParlaCAP-Topic-Classifier">https://huggingface.co/classla/ParlaCAP-Topic-Classifier</ref>.</desc>
+            </application>
+            <application ident="parlasent" version="1.0">
+               <label>ParlaSent</label>
+               <desc>Automatic annotation of sentence-level sentiment, produced with the multilingual ParlaSent classifier, available from <ref target="https://huggingface.co/classla/xlm-r-parlasent">https://huggingface.co/classla/xlm-r-parlasent</ref>.</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -137,12 +170,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2024-05-14">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2022-12-26">
             <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
          <change when="2024-05-14">parlamint-add-common-content script: Adding common content.</change>
+         <change when="2025-06-15">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-FR_2019-01-16-O1119.ana.xml"/>

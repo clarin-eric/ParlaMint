@@ -1,12 +1,12 @@
-<speech id="ParlaMint-IS_2022-06-15.u1" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Viðskipti|Orkumál og auðlindir|Fjárreiður ríkisins|Skattar og tollar|Félagsmál|Samgöngur" speaker_id="GudbrandurEinarsson" speaker_name="Einarsson, Guðbrandur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-IS_2022-06-15.u1" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Umhverfismál" topic_is="Viðskipti|Orkumál og auðlindir|Fjárreiður ríkisins|Skattar og tollar|Félagsmál|Samgöngur" speaker_id="GudbrandurEinarsson" speaker_name="Einarsson, Guðbrandur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-IS_2022-06-15.seg1" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg1.1">
+<s id="ParlaMint-IS_2022-06-15.seg1.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.977">
 Virðulegur	Virðulegur	virðulegur	ADJ	Case=Nom Degree=Pos	1	amod	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.2">
+<s id="ParlaMint-IS_2022-06-15.seg1.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.246">
 Við	Við	ég	PRON	Case=Nom	1	root	-	-	-	-
 erum	erum	vera	AUX	Mood=Ind Tense=Pres	2	cop	ég	PRON	Case=Nom	1
 hér	hér	hér	ADV	Degree=Pos	3	advmod	ég	PRON	Case=Nom	1
@@ -42,7 +42,7 @@ af	af	af	ADP	-	31	obl	veita	VERB	Tense=Past VerbForm=Part	29
 <g/>
 .	.	.	PUNCT	-	32	punct	af	ADP	-	31
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.3">
+<s id="ParlaMint-IS_2022-06-15.seg1.3" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.222">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	verða	VERB	Mood=Ind Tense=Pres	2
 verð	verð	verða	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 nú	nú	nú	ADV	Degree=Pos	3	advmod	verða	VERB	Mood=Ind Tense=Pres	2
@@ -96,7 +96,7 @@ tímapunkti	tímapunkti	tímapunktur	NOUN	Case=Dat Definite=Ind Number=Sing	50	o
 <g/>
 .	.	.	PUNCT	-	51	punct	tímapunktur	NOUN	Case=Dat Definite=Ind Number=Sing	50
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.4">
+<s id="ParlaMint-IS_2022-06-15.seg1.4" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.418">
 Talið	Talið	telja	VERB	Tense=Past VerbForm=Part	1	root	-	-	-	-
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	telja	VERB	Tense=Past VerbForm=Part	1
 að	að	að	SCONJ	-	3	mark	nema	VERB	Tense=Past VerbForm=Part	8
@@ -140,7 +140,7 @@ séð	séð	sjá	VERB	Tense=Past VerbForm=Part	37	acl	réttur	ADJ	Case=Nom Degre
 <g/>
 .	.	.	PUNCT	-	38	punct	sjá	VERB	Tense=Past VerbForm=Part	37
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.5">
+<s id="ParlaMint-IS_2022-06-15.seg1.5" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.520">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	hægur	ADJ	Case=Nom Degree=Pos	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	hægur	ADJ	Case=Nom Degree=Pos	3
 hægt	hægt	hægur	ADJ	Case=Nom Degree=Pos	3	root	-	-	-	-
@@ -169,7 +169,7 @@ er	er	vera	AUX	Mood=Ind Tense=Pres	25	cop	leið	NOUN	Case=Nom Definite=Ind Numbe
 <g/>
 ?	?	?	PUNCT	-	26	punct	vera	AUX	Mood=Ind Tense=Pres	25
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.6">
+<s id="ParlaMint-IS_2022-06-15.seg1.6" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.786">
 Erum	Erum	vera	AUX	Mood=Ind Tense=Pres	1	cop	nýta	VERB	VerbForm=Inf	4
 við	við	ég	PRON	Case=Nom	2	nsubj	nýta	VERB	VerbForm=Inf	4
 að	að	að	PART	-	3	mark	nýta	VERB	VerbForm=Inf	4
@@ -188,14 +188,14 @@ mengun	mengun	mengun	NOUN	Case=Dat Definite=Ind Number=Sing	14	obl	draga	VERB	Ve
 <g/>
 ?	?	?	PUNCT	-	16	punct	það	PRON	Case=Acc	15
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.7">
+<s id="ParlaMint-IS_2022-06-15.seg1.7" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="4.203">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	halda	VERB	Mood=Ind Tense=Pres	2
 held	held	halda	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 það	það	það	PRON	Case=Acc	3	obj	halda	VERB	Mood=Ind Tense=Pres	2
 <g/>
 .	.	.	PUNCT	-	4	punct	það	PRON	Case=Acc	3
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.8">
+<s id="ParlaMint-IS_2022-06-15.seg1.8" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.981">
 Fólk	Fólk	fólk	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	sammála	ADJ	Case=Nom Degree=Pos	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	sammála	ADJ	Case=Nom Degree=Pos	4
 ekki	ekki	ekki	ADV	-	3	advmod	sammála	ADJ	Case=Nom Degree=Pos	4
@@ -210,7 +210,7 @@ leiðin	leiðin	leið	NOUN	Case=Nom Definite=Ind Number=Sing	11	amod	sammála	AD
 <g/>
 .	.	.	PUNCT	-	12	punct	leið	NOUN	Case=Nom Definite=Ind Number=Sing	11
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.9">
+<s id="ParlaMint-IS_2022-06-15.seg1.9" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.720">
 Vissulega	Vissulega	vissulega	ADV	Degree=Pos	1	advmod	fá	VERB	Mood=Ind Tense=Past	2
 fengum	fengum	fá	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 við	við	ég	PRON	Case=Nom	3	nsubj	fá	VERB	Mood=Ind Tense=Past	2
@@ -233,7 +233,7 @@ hætti	hætti	háttur	NOUN	Case=Dat Definite=Ind Number=Sing	19	ccomp	það	PRON
 <g/>
 .	.	.	PUNCT	-	20	punct	háttur	NOUN	Case=Dat Definite=Ind Number=Sing	19
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.10">
+<s id="ParlaMint-IS_2022-06-15.seg1.10" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.754">
 En	En	en	CCONJ	-	1	cc	fá	VERB	Mood=Ind Tense=Past	3
 við	við	ég	PRON	Case=Nom	2	nsubj	fá	VERB	Mood=Ind Tense=Past	3
 fengum	fengum	fá	VERB	Mood=Ind Tense=Past	3	root	-	-	-	-
@@ -267,7 +267,7 @@ mengun	mengun	mengun	NOUN	Case=Dat Definite=Ind Number=Sing	30	obl	draga	VERB	Ve
 <g/>
 .	.	.	PUNCT	-	31	punct	mengun	NOUN	Case=Dat Definite=Ind Number=Sing	30
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.11">
+<s id="ParlaMint-IS_2022-06-15.seg1.11" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="4.098">
 Helstu	Helstu	heldri	ADJ	Case=Nom Degree=Sup	1	amod	efni	NOUN	Case=Nom Definite=Ind Number=Plur	2
 efni	efni	efni	NOUN	Case=Nom Definite=Ind Number=Plur	2	root	-	-	-	-
 þessa	þessa	þessi	DET	Case=Gen	3	det	frumvarp	NOUN	Case=Gen Definite=Ind Number=Sing	4
@@ -327,7 +327,7 @@ verði	verði	verð	NOUN	Case=Dat Definite=Ind Number=Sing	55	obl	koma	VERB	Verb
 <g/>
 .	.	.	PUNCT	-	56	punct	verð	NOUN	Case=Dat Definite=Ind Number=Sing	55
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.12">
+<s id="ParlaMint-IS_2022-06-15.seg1.12" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.912">
 En	En	en	CCONJ	-	1	cc	niðurgreiðsla	NOUN	Case=Nom Definite=Ind Number=Sing	17
 það	það	sá	DET	Case=Nom	2	nsubj	niðurgreiðsla	NOUN	Case=Nom Definite=Ind Number=Sing	17
 sem	sem	sem	SCONJ	-	3	mark	finna	VERB	Mood=Ind Tense=Pres	5
@@ -376,7 +376,7 @@ gagnvart	gagnvart	gagnvart	ADP	-	43	case	þessi	DET	Case=Dat	44
 <g/>
 .	.	.	PUNCT	-	45	punct	þessi	DET	Case=Dat	44
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.13">
+<s id="ParlaMint-IS_2022-06-15.seg1.13" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.508">
 Þeir	Þeir	hann	PRON	Case=Nom Gender=Masc Number=Plur PronType=Prs	1	nsubj	hafa	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	4
 voru	voru	vera	AUX	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	2	cop	hafa	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	4
 auðvitað	auðvitað	auðvitað	ADV	-	3	advmod	hafa	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	4
@@ -398,7 +398,7 @@ bíla	bíla	bíll	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	17	obj	fá	
 <g/>
 .	.	.	PUNCT	-	18	punct	bíll	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	17
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.14">
+<s id="ParlaMint-IS_2022-06-15.seg1.14" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.495">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	hægur	ADJ	Case=Nom Degree=Pos	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	hægur	ADJ	Case=Nom Degree=Pos	3
 hægt	hægt	hægur	ADJ	Case=Nom Degree=Pos	3	root	-	-	-	-
@@ -527,7 +527,7 @@ jarðefnaeldsneyti	jarðefnaeldsneyti	jarðefnaeldsneyti	NOUN	Case=Acc Definite=
 <g/>
 .	.	.	PUNCT	-	123	punct	þannig	ADV	Degree=Pos	122
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg1.15">
+<s id="ParlaMint-IS_2022-06-15.seg1.15" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.758">
 Þeir	Þeir	hann	PRON	Case=Nom	1	nsubj	undanskilinn	VERB	Degree=Pos VerbForm=Part	3
 eru	eru	vera	AUX	Mood=Ind Tense=Pres	2	cop	undanskilinn	VERB	Degree=Pos VerbForm=Part	3
 undanskildir	undanskildir	undanskilinn	VERB	Degree=Pos VerbForm=Part	3	root	-	-	-	-
@@ -540,7 +540,7 @@ varðar	varðar	varða	VERB	Mood=Ind Tense=Pres	7	advmod	undanskilinn	VERB	Degre
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg2" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg2.1">
+<s id="ParlaMint-IS_2022-06-15.seg2.1" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.628">
 Mig	Mig	ég	PRON	Case=Acc	1	nsubj	langa	VERB	Mood=Ind Tense=Pres	2
 langar	langar	langa	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 <g/>
@@ -591,7 +591,7 @@ lagafrumvarp	lagafrumvarp	lagafrumvarp	NOUN	Case=Acc Definite=Ind Number=Sing	42
 <g/>
 .	.	.	PUNCT	-	43	punct	lagafrumvarp	NOUN	Case=Acc Definite=Ind Number=Sing	42
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg2.2">
+<s id="ParlaMint-IS_2022-06-15.seg2.2" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.595">
 Fyrsta	Fyrsta	fyrstur	ADJ	Case=Nom Degree=Sup	1	amod	gagnrýni	NOUN	Case=Nom Definite=Ind Number=Sing	2
 gagnrýni	gagnrýni	gagnrýni	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	varða	VERB	Mood=Ind Tense=Pres	4
 okkar	okkar	ég	PRON	Case=Gen	3	nmod:poss	gagnrýni	NOUN	Case=Nom Definite=Ind Number=Sing	2
@@ -601,7 +601,7 @@ frumvarpsins	frumvarpsins	frumvarp	NOUN	Case=Gen Definite=Ind Number=Sing	6	nmod
 <g/>
 .	.	.	PUNCT	-	7	punct	frumvarp	NOUN	Case=Gen Definite=Ind Number=Sing	6
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg2.3">
+<s id="ParlaMint-IS_2022-06-15.seg2.3" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.778">
 Viljum	Viljum	vilja	VERB	Mood=Ind Tense=Pres	1	root	-	-	-	-
 við	við	ég	PRON	Case=Nom	2	nsubj	vilja	VERB	Mood=Ind Tense=Pres	1
 að	að	að	SCONJ	-	3	mark	verja	VERB	Tense=Past VerbForm=Part	6
@@ -629,7 +629,7 @@ gróðurhúsalofttegunda	gróðurhúsalofttegunda	gróðurhúsalofttegund	NOUN	C
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg3" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg3.1">
+<s id="ParlaMint-IS_2022-06-15.seg3.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.621">
 Seinni	Seinni	seinn	ADJ	Case=Nom Degree=Cmp	1	amod	gagnrýni	NOUN	Case=Nom Definite=Ind Number=Sing	2
 gagnrýni	gagnrýni	gagnrýni	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	varða	VERB	Mood=Ind Tense=Pres	4
 okkar	okkar	ég	PRON	Case=Gen	3	nmod:poss	gagnrýni	NOUN	Case=Nom Definite=Ind Number=Sing	2
@@ -653,7 +653,7 @@ umsagnarfrest	umsagnarfrest	umsagnarfrestur	NOUN	Case=Acc Definite=Ind Number=Si
 <g/>
 .	.	.	PUNCT	-	21	punct	umsagnarfrestur	NOUN	Case=Acc Definite=Ind Number=Sing	20
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg3.2">
+<s id="ParlaMint-IS_2022-06-15.seg3.2" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.195">
 Það	Það	sá	DET	Case=Nom	1	root	-	-	-	-
 sem	sem	sem	SCONJ	-	2	mark	skipta	VERB	Mood=Ind Tense=Pres	3
 skiptir	skiptir	skipta	VERB	Mood=Ind Tense=Pres	3	acl:relcl	sá	DET	Case=Nom	1
@@ -688,7 +688,7 @@ almennings	almennings	almenningur	NOUN	Case=Gen Definite=Ind Number=Sing	31	nmod
 <g/>
 .	.	.	PUNCT	-	32	punct	almenningur	NOUN	Case=Gen Definite=Ind Number=Sing	31
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg3.3">
+<s id="ParlaMint-IS_2022-06-15.seg3.3" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.544">
 Besta	Besta	góður	ADJ	Case=Nom Degree=Sup	1	amod	leið	NOUN	Case=Nom Definite=Ind Number=Sing	2
 leiðin	leiðin	leið	NOUN	Case=Nom Definite=Ind Number=Sing	2	root	-	-	-	-
 til	til	til	ADP	-	3	case	það	PRON	Case=Gen	4
@@ -717,7 +717,7 @@ tonn	tonn	tonn	NOUN	Case=Acc Definite=Ind Number=Sing	25	conj	króna	NOUN	Case=G
 <g/>
 .	.	.	PUNCT	-	26	punct	tonn	NOUN	Case=Acc Definite=Ind Number=Sing	25
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg3.4">
+<s id="ParlaMint-IS_2022-06-15.seg3.4" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.486">
 Þó	Þó	þó	ADP	-	1	case	góður	ADJ	Case=Nom Degree=Pos	5
 að	að	að	SCONJ	-	2	mark	góður	ADJ	Case=Nom Degree=Pos	5
 grunnhugsunin	grunnhugsunin	grunnhugsun	NOUN	Case=Nom Definite=Ind Number=Sing	3	nsubj	góður	ADJ	Case=Nom Degree=Pos	5
@@ -761,7 +761,7 @@ ríkissjóði	ríkissjóði	ríkissjóður	NOUN	Case=Dat Definite=Ind Number=Sin
 <g/>
 .	.	.	PUNCT	-	40	punct	ríkissjóður	NOUN	Case=Dat Definite=Ind Number=Sing	39
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg3.5">
+<s id="ParlaMint-IS_2022-06-15.seg3.5" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="4.113">
 Einnig	Einnig	einnig	ADV	-	1	advmod	beita	VERB	VerbForm=Inf	3
 mætti	mætti	mega	AUX	Mood=Sub Tense=Past	2	aux	beita	VERB	VerbForm=Inf	3
 beita	beita	beita	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -816,7 +816,7 @@ loftslagsaðgerðir	loftslagsaðgerðir	loftslagsaðgerð	NOUN	Case=Acc Definite
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg4" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg4.1">
+<s id="ParlaMint-IS_2022-06-15.seg4.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.709">
 Í	Í	í	ADP	-	1	case	greinargerð	NOUN	Case=Dat Definite=Ind Number=Sing	2
 greinargerðinni	greinargerðinni	greinargerð	NOUN	Case=Dat Definite=Ind Number=Sing	2	obl	koma	VERB	Mood=Ind Tense=Pres	7
 sem	sem	sem	SCONJ	-	3	mark	fylgja	VERB	Mood=Ind Tense=Pres	4
@@ -848,7 +848,7 @@ orðin	orðin	verða	VERB	Tense=Past VerbForm=Part	23	ccomp	markmið	NOUN	Case=N
 <g/>
 .	.	.	PUNCT	-	27	punct	2030	NUM	Case=Acc	26
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.2">
+<s id="ParlaMint-IS_2022-06-15.seg4.2" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.355">
 Þetta	Þetta	þessi	DET	Case=Nom	1	det	markmið	NOUN	Case=Nom Definite=Ind Number=Sing	2
 markmið	markmið	markmið	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	ásættanlegur	ADJ	Case=Nom Degree=Pos	5
 er	er	vera	AUX	Mood=Ind Tense=Pres	3	cop	ásættanlegur	ADJ	Case=Nom Degree=Pos	5
@@ -857,7 +857,7 @@ ekki	ekki	ekki	ADV	-	4	advmod	ásættanlegur	ADJ	Case=Nom Degree=Pos	5
 <g/>
 .	.	.	PUNCT	-	6	punct	ásættanlegur	ADJ	Case=Nom Degree=Pos	5
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.3">
+<s id="ParlaMint-IS_2022-06-15.seg4.3" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.878">
 Markmið	Markmið	markmið	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	eiga	VERB	Mood=Ind Tense=Pres	2
 á	á	eiga	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 ekki	ekki	ekki	ADV	-	3	advmod	eiga	VERB	Mood=Ind Tense=Pres	2
@@ -889,7 +889,7 @@ bíla	bíla	bíll	NOUN	Case=Gen Definite=Ind Number=Plur	28	nmod:poss	notkun	NOU
 <g/>
 .	.	.	PUNCT	-	29	punct	bíll	NOUN	Case=Gen Definite=Ind Number=Plur	28
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.4">
+<s id="ParlaMint-IS_2022-06-15.seg4.4" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.571">
 Þetta	Þetta	þessi	DET	Case=Nom	1	nsubj	byggja	VERB	Tense=Past VerbForm=Part	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	byggja	VERB	Tense=Past VerbForm=Part	3
 byggt	byggt	byggja	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -909,7 +909,7 @@ endurvinnslu	endurvinnslu	endurvinnsla	NOUN	Case=Dat Definite=Ind Number=Sing	15
 <g/>
 .	.	.	PUNCT	-	16	punct	endurvinnsla	NOUN	Case=Dat Definite=Ind Number=Sing	15
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.5">
+<s id="ParlaMint-IS_2022-06-15.seg4.5" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.829">
 Á	Á	á	ADP	-	1	case	rafmagnsbíll	NOUN	Case=Dat Definite=Ind Number=Plur	2
 rafmagnsbílum	rafmagnsbílum	rafmagnsbíll	NOUN	Case=Dat Definite=Ind Number=Plur	2	obl	hafa	VERB	Mood=Ind Tense=Pres	3
 hefur	hefur	hafa	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -923,7 +923,7 @@ för	för	för	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	10	obl	hafa	VER
 <g/>
 .	.	.	PUNCT	-	11	punct	för	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	10
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.6">
+<s id="ParlaMint-IS_2022-06-15.seg4.6" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.957">
 Markmiðið	Markmiðið	markmið	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	eiga	VERB	Mood=Sub Tense=Past	2
 ætti	ætti	eiga	VERB	Mood=Sub Tense=Past	2	root	-	-	-	-
 miklu	miklu	mikill	DET	Case=Dat Degree=Pos	3	obl	frekar	ADV	Degree=Cmp	4
@@ -961,7 +961,7 @@ orðið	orðið	verða	VERB	Tense=Past VerbForm=Part	27	conj	að	SCONJ	-	23
 <g/>
 .	.	.	PUNCT	-	33	punct	30	NUM	Case=Nom	32
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.7">
+<s id="ParlaMint-IS_2022-06-15.seg4.7" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.577">
 Þetta	Þetta	þessi	DET	Case=Nom	1	nsubj	sjónarmið	NOUN	Case=Nom Definite=Ind Number=Sing	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	sjónarmið	NOUN	Case=Nom Definite=Ind Number=Sing	4
 bara	bara	bara	ADV	Degree=Pos	3	advmod	sjónarmið	NOUN	Case=Nom Definite=Ind Number=Sing	4
@@ -1028,7 +1028,7 @@ ekki	ekki	ekki	ADV	-	61	advmod	hafa	AUX	Mood=Sub Tense=Past	60
 <g/>
 .	.	.	PUNCT	-	62	punct	ekki	ADV	-	61
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.8">
+<s id="ParlaMint-IS_2022-06-15.seg4.8" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.277">
 Það	Það	það	PRON	Case=Nom	1	nsubj	fá	VERB	Tense=Past VerbForm=Part	4
 hafði	hafði	hafa	AUX	Mood=Ind Tense=Past	2	aux	fá	VERB	Tense=Past VerbForm=Part	4
 ekki	ekki	ekki	ADV	-	3	advmod	fá	VERB	Tense=Past VerbForm=Part	4
@@ -1068,7 +1068,7 @@ varðar	varðar	varða	VERB	Mood=Ind Tense=Pres	35	advmod	halda	VERB	VerbForm=In
 <g/>
 .	.	.	PUNCT	-	36	punct	varða	VERB	Mood=Ind Tense=Pres	35
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.9">
+<s id="ParlaMint-IS_2022-06-15.seg4.9" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.005">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	óska	VERB	Mood=Ind Tense=Past	7
 hef	hef	hafa	AUX	Mood=Ind Tense=Pres	2	aux	óska	VERB	Mood=Ind Tense=Past	7
 vegna	vegna	vegna	ADP	-	3	case	skoðun	NOUN	Case=Gen Definite=Ind Number=Plur	5
@@ -1109,7 +1109,7 @@ nr.	nr.	nr.	NOUN	Case=Gen Definite=Ind Number=Sing	36	nmod:poss	lið	NOUN	Case=A
 <g/>
 .	.	.	PUNCT	-	38	punct	2	NUM	Case=Nom	37
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.10">
+<s id="ParlaMint-IS_2022-06-15.seg4.10" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.950">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	ákveða	VERB	Mood=Ind Tense=Past	2
 ákvað	ákvað	ákveða	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 það	það	það	PRON	Case=Acc	3	obj	ákveða	VERB	Mood=Ind Tense=Past	2
@@ -1146,7 +1146,7 @@ leyfir	leyfir	leyfa	VERB	Mood=Ind Tense=Pres	31	conj	frjálslyndur	ADJ	Case=Nom 
 <g/>
 .	.	.	PUNCT	-	32	punct	leyfa	VERB	Mood=Ind Tense=Pres	31
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.11">
+<s id="ParlaMint-IS_2022-06-15.seg4.11" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.433">
 Það	Það	það	PRON	Case=Nom	1	nsubj	leyfa	VERB	Mood=Ind Tense=Pres	2
 leyfir	leyfir	leyfa	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 að	að	að	SCONJ	-	3	mark	sammála	ADJ	Case=Nom Degree=Pos	8
@@ -1189,7 +1189,7 @@ móti	móti	móti	NOUN	Case=Dat Definite=Ind Number=Sing	39	obl	greiða	VERB	Ver
 <g/>
 .	.	.	PUNCT	-	40	punct	móti	NOUN	Case=Dat Definite=Ind Number=Sing	39
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg4.12">
+<s id="ParlaMint-IS_2022-06-15.seg4.12" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.226">
 En	En	en	CCONJ	-	1	cc	mál	NOUN	Case=Nom Definite=Ind Number=Sing	4
 þetta	þetta	þessi	DET	Case=Nom	2	nsubj	mál	NOUN	Case=Nom Definite=Ind Number=Sing	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	3	cop	það	PRON	Case=Dat	17
@@ -1234,9 +1234,9 @@ mengun	mengun	mengun	NOUN	Case=Dat Definite=Ind Number=Sing	39	obl	draga	VERB	Ve
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2022-06-15.u2" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Skattar og tollar|Almannatryggingar|Félagsmál" speaker_id="GudrunHafsteinsdottir" speaker_name="Hafsteinsdóttir, Guðrún" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-IS_2022-06-15.u2" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Atvinnumál" topic_is="Skattar og tollar|Almannatryggingar|Félagsmál" speaker_id="GudrunHafsteinsdottir" speaker_name="Hafsteinsdóttir, Guðrún" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-IS_2022-06-15.seg5" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg5.1">
+<s id="ParlaMint-IS_2022-06-15.seg5.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.537">
 <name type="PER">
 Hafsteinsdóttir	Hafsteinsdóttir	Hafsteinsdóttir	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
@@ -1245,13 +1245,13 @@ Hafsteinsdóttir	Hafsteinsdóttir	Hafsteinsdóttir	PROPN	Case=Nom Definite=Ind G
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg6" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg6.1">
+<s id="ParlaMint-IS_2022-06-15.seg6.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.689">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Degree=Pos	1	amod	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg6.2">
+<s id="ParlaMint-IS_2022-06-15.seg6.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.957">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	mæla	VERB	Mood=Ind Tense=Pres	2
 mæli	mæli	mæla	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 fyrir	fyrir	fyrir	ADP	-	3	case	hönd	NOUN	Case=Acc Definite=Ind Number=Sing	4
@@ -1278,7 +1278,7 @@ lífeyrissjóðs	lífeyrissjóðs	lífeyrissjóður	NOUN	Case=Gen Definite=Ind N
 <g/>
 .	.	.	PUNCT	-	23	punct	lífeyrissjóður	NOUN	Case=Gen Definite=Ind Number=Sing	22
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg6.3">
+<s id="ParlaMint-IS_2022-06-15.seg6.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.056">
 Með	Með	með	ADP	-	1	case	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	2
 frumvarpinu	frumvarpinu	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	2	obl	leggja	VERB	Tense=Past VerbForm=Part	4
 eru	eru	vera	AUX	Mood=Ind Tense=Pres	3	cop	leggja	VERB	Tense=Past VerbForm=Part	4
@@ -1344,7 +1344,7 @@ almannatryggingum	almannatryggingum	almannatrygging	NOUN	Case=Dat Definite=Ind N
 <g/>
 .	.	.	PUNCT	-	59	punct	almannatrygging	NOUN	Case=Dat Definite=Ind Number=Plur	58
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg6.4">
+<s id="ParlaMint-IS_2022-06-15.seg6.4" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.749">
 Heimild	Heimild	heimild	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	1	nsubj	kaup	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Plur	9
 til	til	til	ADP	-	2	case	ráðstöfun	NOUN	Case=Gen Definite=Ind Gender=Fem Number=Sing	4
 skattfrjálsrar	skattfrjálsrar	skattfrjáls	ADJ	Case=Gen Definite=Ind Degree=Pos Gender=Fem Number=Sing	3	amod	ráðstöfun	NOUN	Case=Gen Definite=Ind Gender=Fem Number=Sing	4
@@ -1362,7 +1362,7 @@ fyrsta	fyrsta	fyrstur	ADJ	Case=Dat Definite=Def Degree=Sup Gender=Neut Number=Si
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg7" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg7.1">
+<s id="ParlaMint-IS_2022-06-15.seg7.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.746">
 Nefndin	Nefndin	nefnd	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	fjalla	VERB	Mood=Ind Tense=Past	2
 fjallaði	fjallaði	fjalla	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 um	um	um	ADP	-	3	case	mál	NOUN	Case=Acc Definite=Ind Number=Sing	4
@@ -1378,7 +1378,7 @@ bárust	bárust	bera	VERB	Mood=Ind Tense=Past	12	conj	fjalla	VERB	Mood=Ind Tense
 <g/>
 .	.	.	PUNCT	-	13	punct	bera	VERB	Mood=Ind Tense=Past	12
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg7.2">
+<s id="ParlaMint-IS_2022-06-15.seg7.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.317">
 Umsagnir	Umsagnir	umsögn	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	greina	VERB	Mood=Ind Tense=Past	2
 greindi	greindi	greina	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 frá	frá	frá	ADP	-	3	case	það	PRON	Case=Dat	4
@@ -1391,7 +1391,7 @@ frammi	frammi	frammi	ADV	Degree=Pos	9	advmod	liggja	VERB	Mood=Ind Tense=Pres	8
 <g/>
 .	.	.	PUNCT	-	10	punct	frammi	ADV	Degree=Pos	9
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg7.3">
+<s id="ParlaMint-IS_2022-06-15.seg7.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.336">
 Fyrirliggjandi	Fyrirliggjandi	fyrirliggjandi	ADJ	Case=Nom Degree=Pos	1	amod	frumvarp	NOUN	Case=Nom Definite=Ind Number=Sing	2
 frumvarp	frumvarp	frumvarp	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	byggja	VERB	Mood=Ind Tense=Pres	3
 byggist	byggist	byggja	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -1412,7 +1412,7 @@ samning	samning	samningur	NOUN	Case=Acc Definite=Ind Number=Sing	17	obl	stuðnin
 <g/>
 .	.	.	PUNCT	-	18	punct	samningur	NOUN	Case=Acc Definite=Ind Number=Sing	17
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg7.4">
+<s id="ParlaMint-IS_2022-06-15.seg7.4" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.620">
 Í	Í	í	ADP	-	1	case	stjórnarsáttmáli	NOUN	Case=Dat Definite=Ind Number=Sing	2
 stjórnarsáttmála	stjórnarsáttmála	stjórnarsáttmáli	NOUN	Case=Dat Definite=Ind Number=Sing	2	obl	koma	VERB	Mood=Ind Tense=Pres	4
 ríkisstjórnarinnar	ríkisstjórnarinnar	ríkisstjórn	NOUN	Case=Gen Definite=Ind Number=Sing	3	nmod:poss	stjórnarsáttmáli	NOUN	Case=Dat Definite=Ind Number=Sing	2
@@ -1440,7 +1440,7 @@ um	um	um	ADP	-	23	case	útfærsla	NOUN	Case=Acc Definite=Ind Number=Sing	24
 <g/>
 .	.	.	PUNCT	-	25	punct	útfærsla	NOUN	Case=Acc Definite=Ind Number=Sing	24
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg7.5">
+<s id="ParlaMint-IS_2022-06-15.seg7.5" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.626">
 Um	Um	um	ADP	-	1	root	-	-	-	-
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	um	ADP	-	1
 að	að	að	PART	-	3	mark	ræða	VERB	VerbForm=Inf	4
@@ -1474,7 +1474,7 @@ lífeyrisréttindum	lífeyrisréttindum	lífeyrisréttindi	NOUN	Case=Dat Definit
 <g/>
 .	.	.	PUNCT	-	31	punct	lífeyrisréttindi	NOUN	Case=Dat Definite=Ind Number=Plur	30
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg7.6">
+<s id="ParlaMint-IS_2022-06-15.seg7.6" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.898">
 Í	Í	í	ADP	-	1	case	lög	NOUN	Case=Dat Definite=Ind Number=Plur	3
 gildandi	gildandi	gildandi	ADJ	Case=Dat Degree=Pos	2	amod	lög	NOUN	Case=Dat Definite=Ind Number=Plur	3
 lögum	lögum	lög	NOUN	Case=Dat Definite=Ind Number=Plur	3	root	-	-	-	-
@@ -1542,7 +1542,7 @@ komma	komma	komma	ADV	Degree=Pos	60	advmod	ávinnsla	NOUN	Case=Acc Definite=Ind 
 <g/>
 .	.	.	PUNCT	-	65	punct	ár	NOUN	Case=Dat Definite=Ind Number=Sing	64
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg7.7">
+<s id="ParlaMint-IS_2022-06-15.seg7.7" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.338">
 Með	Með	með	ADP	-	1	case	lögfesting	NOUN	Case=Dat Definite=Ind Number=Sing	2
 lögfestingu	lögfestingu	lögfesting	NOUN	Case=Dat Definite=Ind Number=Sing	2	obl	fela	VERB	Tense=Past VerbForm=Part	8
 á	á	á	ADP	-	3	case	séreign	NOUN	Case=Dat Definite=Ind Number=Sing	5
@@ -1568,7 +1568,7 @@ séreign	séreign	séreign	NOUN	Case=Acc Definite=Ind Number=Sing	22	conj	samtry
 <g/>
 .	.	.	PUNCT	-	23	punct	séreign	NOUN	Case=Acc Definite=Ind Number=Sing	22
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg7.8">
+<s id="ParlaMint-IS_2022-06-15.seg7.8" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.334">
 Ef	Ef	ef	ADP	-	1	case	velja	VERB	Mood=Ind Tense=Pres	3
 sjóðsfélagi	sjóðsfélagi	sjóðsfélagi	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	velja	VERB	Mood=Ind Tense=Pres	3
 velur	velur	velja	VERB	Mood=Ind Tense=Pres	3	obl	fara	VERB	Mood=Ind Tense=Pres	6
@@ -1604,7 +1604,7 @@ sagði	sagði	segja	VERB	Mood=Ind Tense=Past	31	obl	eins	ADV	Degree=Cmp	28
 <g/>
 .	.	.	PUNCT	-	32	punct	segja	VERB	Mood=Ind Tense=Past	31
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg7.9">
+<s id="ParlaMint-IS_2022-06-15.seg7.9" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.722">
 Fyrir	Fyrir	fyrir	ADP	-	1	case	sjóðsfélagi	NOUN	Case=Acc Definite=Ind Number=Plur	3
 yngri	yngri	ungur	ADJ	Case=Acc Degree=Cmp	2	amod	sjóðsfélagi	NOUN	Case=Acc Definite=Ind Number=Plur	3
 sjóðsfélaga	sjóðsfélaga	sjóðsfélagi	NOUN	Case=Acc Definite=Ind Number=Plur	3	obl	skipta	VERB	Mood=Ind Tense=Pres	4
@@ -1635,7 +1635,7 @@ verða	verða	verða	VERB	Mood=Ind Tense=Pres	27	obl	skuldbinding	NOUN	Case=Acc 
 <g/>
 .	.	.	PUNCT	-	28	punct	verða	VERB	Mood=Ind Tense=Pres	27
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg7.10">
+<s id="ParlaMint-IS_2022-06-15.seg7.10" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.980">
 Mikilvægt	Mikilvægt	mikilvægur	ADJ	Case=Nom Degree=Pos	1	root	-	-	-	-
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	mikilvægur	ADJ	Case=Nom Degree=Pos	1
 að	að	að	SCONJ	-	3	mark	gerir	VERB	Mood=Sub Tense=Pres	5
@@ -1674,7 +1674,7 @@ séreign	séreign	séreign	NOUN	Case=Acc Definite=Ind Number=Sing	33	obl	ráðst
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg8" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg8.1">
+<s id="ParlaMint-IS_2022-06-15.seg8.1" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.320">
 Í	Í	í	ADP	-	1	case	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	2
 frumvarpinu	frumvarpinu	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	2	obl	gera	VERB	Tense=Past VerbForm=Part	5
 eru	eru	vera	AUX	Mood=Ind Tense=Pres	3	cop	gera	VERB	Tense=Past VerbForm=Part	5
@@ -1711,7 +1711,7 @@ launagreiðenda	launagreiðenda	launagreiðandi	NOUN	Case=Gen Definite=Ind Numbe
 <g/>
 .	.	.	PUNCT	-	34	punct	launagreiðandi	NOUN	Case=Gen Definite=Ind Number=Plur	33
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg8.2">
+<s id="ParlaMint-IS_2022-06-15.seg8.2" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.354">
 Með	Með	með	ADP	-	1	case	orð	NOUN	Case=Dat Definite=Ind Number=Plur	3
 öðrum	öðrum	annar	PRON	Case=Dat	2	det	orð	NOUN	Case=Dat Definite=Ind Number=Plur	3
 orðum	orðum	orð	NOUN	Case=Dat Definite=Ind Number=Plur	3	root	-	-	-	-
@@ -1742,7 +1742,7 @@ lágmarksiðgjaldi	lágmarksiðgjaldi	lágmarksiðgjald	NOUN	Case=Dat Definite=I
 <g/>
 .	.	.	PUNCT	-	28	punct	lágmarksiðgjald	NOUN	Case=Dat Definite=Ind Number=Sing	27
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg8.3">
+<s id="ParlaMint-IS_2022-06-15.seg8.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.609">
 Talið	Talið	telja	VERB	Tense=Past VerbForm=Part	1	root	-	-	-	-
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	telja	VERB	Tense=Past VerbForm=Part	1
 að	að	að	SCONJ	-	3	mark	fara	VERB	VerbForm=Inf	14
@@ -1769,7 +1769,7 @@ fyrirkomulag	fyrirkomulag	fyrirkomulag	NOUN	Case=Acc Definite=Ind Number=Sing	21
 <g/>
 .	.	.	PUNCT	-	22	punct	fyrirkomulag	NOUN	Case=Acc Definite=Ind Number=Sing	21
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg8.4">
+<s id="ParlaMint-IS_2022-06-15.seg8.4" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.415">
 Með	Með	með	ADP	-	1	case	orð	NOUN	Case=Dat Definite=Ind Number=Plur	3
 öðrum	öðrum	annar	PRON	Case=Dat	2	det	orð	NOUN	Case=Dat Definite=Ind Number=Plur	3
 orðum	orðum	orð	NOUN	Case=Dat Definite=Ind Number=Plur	3	obl	taka	VERB	Tense=Past VerbForm=Part	13
@@ -1805,7 +1805,7 @@ sér	sér	sig	PRON	Case=Dat	32	obl	bankareikningur	NOUN	Case=Acc Definite=Ind Nu
 <g/>
 .	.	.	PUNCT	-	33	punct	sig	PRON	Case=Dat	32
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg8.5">
+<s id="ParlaMint-IS_2022-06-15.seg8.5" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.435">
 Þetta	Þetta	þessi	DET	Case=Nom	1	nsubj	mat	NOUN	Case=Dat Definite=Ind Number=Sing	5
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	mat	NOUN	Case=Dat Definite=Ind Number=Sing	5
 að	að	að	ADP	-	3	case	mat	NOUN	Case=Dat Definite=Ind Number=Sing	5
@@ -1816,7 +1816,7 @@ hagsmunamál	hagsmunamál	hagsmunamál	NOUN	Case=Nom Definite=Ind Number=Sing	7	
 <g/>
 .	.	.	PUNCT	-	8	punct	hagsmunamál	NOUN	Case=Nom Definite=Ind Number=Sing	7
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg8.6">
+<s id="ParlaMint-IS_2022-06-15.seg8.6" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.983">
 Hér	Hér	hér	ADV	Degree=Pos	1	advmod	land	NOUN	Case=Dat Definite=Ind Number=Sing	3
 á	á	á	ADP	-	2	case	land	NOUN	Case=Dat Definite=Ind Number=Sing	3
 landi	landi	land	NOUN	Case=Dat Definite=Ind Number=Sing	3	obl	eiga	VERB	Mood=Ind Tense=Pres	4
@@ -1830,7 +1830,7 @@ velferðarkerfi	velferðarkerfi	velferðarkerfi	NOUN	Case=Acc Definite=Ind Numbe
 <g/>
 .	.	.	PUNCT	-	9	punct	velferðarkerfi	NOUN	Case=Acc Definite=Ind Number=Sing	8
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg8.7">
+<s id="ParlaMint-IS_2022-06-15.seg8.7" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.023">
 Lífeyriskerfið	Lífeyriskerfið	lífeyriskerfi	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	mikilvægur	ADJ	Case=Nom Degree=Pos	4
 okkar	okkar	ég	PRON	Case=Gen	2	nmod:poss	lífeyriskerfi	NOUN	Case=Nom Definite=Ind Number=Sing	1
 er	er	vera	AUX	Mood=Ind Tense=Pres	3	cop	mikilvægur	ADJ	Case=Nom Degree=Pos	4
@@ -1851,7 +1851,7 @@ starfslok	starfslok	starfslok	NOUN	Case=Acc Definite=Ind Number=Plur	17	obl	leyt
 <g/>
 .	.	.	PUNCT	-	18	punct	starfslok	NOUN	Case=Acc Definite=Ind Number=Plur	17
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg8.8">
+<s id="ParlaMint-IS_2022-06-15.seg8.8" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.778">
 Íslenska	Íslenska	íslenskur	ADJ	Case=Nom Degree=Pos	1	amod	lífeyriskerfi	NOUN	Case=Nom Definite=Ind Number=Sing	2
 lífeyriskerfið	lífeyriskerfið	lífeyriskerfi	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	verða	VERB	Tense=Past VerbForm=Part	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	3	cop	verða	VERB	Tense=Past VerbForm=Part	4
@@ -1878,7 +1878,7 @@ vísitölunnar	vísitölunnar	vísitala	NOUN	Case=Gen Definite=Ind Number=Sing	2
 <g/>
 .	.	.	PUNCT	-	22	punct	vísitala	NOUN	Case=Gen Definite=Ind Number=Sing	21
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg8.9">
+<s id="ParlaMint-IS_2022-06-15.seg8.9" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="4.439">
 Á	Á	á	ADP	-	1	case	ár	NOUN	Case=Dat Definite=Ind Number=Sing	3
 síðasta	síðasta	síðari	ADJ	Case=Dat Degree=Sup	2	amod	ár	NOUN	Case=Dat Definite=Ind Number=Sing	3
 ári	ári	ár	NOUN	Case=Dat Definite=Ind Number=Sing	3	obl	hafa	VERB	Mood=Ind Tense=Pres	4
@@ -1899,7 +1899,7 @@ Hollandi	Hollandi	Holland	PROPN	-	13	dep	Danmörk	PROPN	-	11
 </name>
 .	.	.	PUNCT	-	14	punct	Holland	PROPN	-	13
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg8.10">
+<s id="ParlaMint-IS_2022-06-15.seg8.10" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.704">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	mikilvægur	ADJ	Case=Nom Degree=Pos	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	mikilvægur	ADJ	Case=Nom Degree=Pos	3
 mikilvægt	mikilvægt	mikilvægur	ADJ	Case=Nom Degree=Pos	3	root	-	-	-	-
@@ -1927,7 +1927,7 @@ liður	liður	liður	NOUN	Case=Nom Definite=Ind Number=Sing	20	conj	mikilvægur	
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg9" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg9.1">
+<s id="ParlaMint-IS_2022-06-15.seg9.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.079">
 Meiri	Meiri	mikill	DET	Case=Nom Degree=Pos	1	amod	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 hlutinn	hlutinn	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	mæla	VERB	Mood=Ind Tense=Pres	3
 mælist	mælist	mæla	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -1962,7 +1962,7 @@ skýringa	skýringa	skýring	NOUN	Case=Acc Definite=Ind Number=Sing	31	obj	þarf
 <g/>
 .	.	.	PUNCT	-	32	punct	skýring	NOUN	Case=Acc Definite=Ind Number=Sing	31
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg9.2">
+<s id="ParlaMint-IS_2022-06-15.seg9.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.730">
 Þá	Þá	þá	ADV	Degree=Pos	1	advmod	leggja	VERB	Mood=Ind Tense=Pres	2
 leggur	leggur	leggja	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 meiri	meiri	mikill	DET	Case=Nom Degree=Pos	3	amod	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	4
@@ -1995,7 +1995,7 @@ séreign	séreign	séreign	NOUN	Case=Acc Definite=Ind Number=Sing	29	obl	óska	V
 <g/>
 .	.	.	PUNCT	-	30	punct	séreign	NOUN	Case=Acc Definite=Ind Number=Sing	29
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg9.3">
+<s id="ParlaMint-IS_2022-06-15.seg9.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.704">
 Er	Er	vera	AUX	Mood=Ind Tense=Pres	1	cop	leggja	VERB	Tense=Past VerbForm=Part	3
 því	því	því	PRON	Case=Dat	2	obl	leggja	VERB	Tense=Past VerbForm=Part	3
 lagt	lagt	leggja	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -2016,7 +2016,7 @@ sínum	sínum	sinn	PRON	Case=Dat	15	nmod:poss	samþykkt	NOUN	Case=Dat Definite=I
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg10" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg10.1">
+<s id="ParlaMint-IS_2022-06-15.seg10.1" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="5.050">
 Formaður	Formaður	formaður	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	þakka	VERB	VerbForm=Inf	3
 vill	vill	vilja	AUX	Mood=Ind Tense=Pres	2	aux	þakka	VERB	VerbForm=Inf	3
 þakka	þakka	þakka	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -2034,7 +2034,7 @@ samstarf	samstarf	samstarf	NOUN	Case=Acc Definite=Ind Number=Sing	13	obl	þakka	
 <g/>
 .	.	.	PUNCT	-	14	punct	samstarf	NOUN	Case=Acc Definite=Ind Number=Sing	13
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg10.2">
+<s id="ParlaMint-IS_2022-06-15.seg10.2" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.671">
 Við	Við	við	ADP	-	1	case	vinnsla	NOUN	Case=Acc Definite=Ind Number=Sing	2
 vinnslu	vinnslu	vinnsla	NOUN	Case=Acc Definite=Ind Number=Sing	2	obl	vísa	VERB	Mood=Ind Tense=Pres	5
 þessa	þessa	þessi	DET	Case=Gen	3	det	frumvarp	NOUN	Case=Gen Definite=Ind Number=Sing	4
@@ -2059,7 +2059,7 @@ samþykkt	samþykkt	samþykkja	VERB	Tense=Past VerbForm=Part	21	obl	leggja	VERB	
 <g/>
 .	.	.	PUNCT	-	22	punct	samþykkja	VERB	Tense=Past VerbForm=Part	21
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg10.3">
+<s id="ParlaMint-IS_2022-06-15.seg10.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.355">
 Með	Með	með	ADP	-	1	case	breyting	NOUN	Case=Dat Definite=Ind Number=Sing	3
 fyrrgreindri	fyrrgreindri	fyrrgreindur	ADJ	Case=Dat Degree=Pos	2	amod	breyting	NOUN	Case=Dat Definite=Ind Number=Sing	3
 breytingu	breytingu	breyting	NOUN	Case=Dat Definite=Ind Number=Sing	3	root	-	-	-	-
@@ -2068,7 +2068,7 @@ breytingu	breytingu	breyting	NOUN	Case=Dat Definite=Ind Number=Sing	3	root	-	-	-
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg11" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg11.1">
+<s id="ParlaMint-IS_2022-06-15.seg11.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.105">
 Undir	Undir	undir	ADP	-	1	case	álit	NOUN	Case=Acc Definite=Ind Number=Sing	2
 álit	álit	álit	NOUN	Case=Acc Definite=Ind Number=Sing	2	obl	rita	VERB	Mood=Ind Tense=Pres	5
 meiri	meiri	mikill	DET	Case=Gen Degree=Pos	3	nmod:poss	álit	NOUN	Case=Acc Definite=Ind Number=Sing	2
@@ -2122,15 +2122,15 @@ Steinunn	Steinunn	Steinunn	PROPN	-	30	conj	Ágúst	PROPN	-	15
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2022-06-15.u214" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Viðskipti|Fjárreiður ríkisins|Félagsmál|Heilbrigðismál" speaker_id="LineikSaevarsdottir" speaker_name="Sævarsdóttir, Líneik Anna" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1964">
+<speech id="ParlaMint-IS_2022-06-15.u214" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Heilbrigðismál" topic_is="Viðskipti|Fjárreiður ríkisins|Félagsmál|Heilbrigðismál" speaker_id="LineikSaevarsdottir" speaker_name="Sævarsdóttir, Líneik Anna" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1964">
 <p id="ParlaMint-IS_2022-06-15.seg518" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg518.1">
+<s id="ParlaMint-IS_2022-06-15.seg518.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.689">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Degree=Pos	1	amod	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg518.2">
+<s id="ParlaMint-IS_2022-06-15.seg518.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.908">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	mæla	VERB	Mood=Ind Tense=Pres	2
 mæli	mæli	mæla	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 hér	hér	hér	ADV	Degree=Pos	3	advmod	mæla	VERB	Mood=Ind Tense=Pres	2
@@ -2168,7 +2168,7 @@ nikótínvörur	nikótínvörur	nikótínvara	NOUN	Case=Acc Definite=Ind Number=
 <g/>
 .	.	.	PUNCT	-	32	punct	nikótínvara	NOUN	Case=Acc Definite=Ind Number=Plur	31
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg518.3">
+<s id="ParlaMint-IS_2022-06-15.seg518.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.802">
 Með	Með	með	ADP	-	1	case	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	2
 frumvarpinu	frumvarpinu	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	2	obl	leggja	VERB	Tense=Past VerbForm=Part	4
 eru	eru	vera	AUX	Mood=Ind Tense=Pres	3	cop	leggja	VERB	Tense=Past VerbForm=Part	4
@@ -2214,7 +2214,7 @@ laganna	laganna	lög	NOUN	Case=Gen Definite=Ind Number=Plur	36	nmod:poss	ákvæ�
 <g/>
 .	.	.	PUNCT	-	37	punct	lög	NOUN	Case=Gen Definite=Ind Number=Plur	36
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg518.4">
+<s id="ParlaMint-IS_2022-06-15.seg518.4" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.834">
 Hingað	Hingað	hingað	ADV	Degree=Pos	1	obl	ná	VERB	Tense=Past VerbForm=Part	6
 til	til	til	ADP	-	2	case	hingað	ADV	Degree=Pos	1
 hafa	hafa	hafa	AUX	Mood=Ind Tense=Pres	3	aux	ná	VERB	Tense=Past VerbForm=Part	6
@@ -2230,7 +2230,7 @@ landi	landi	land	NOUN	Case=Dat Definite=Ind Number=Sing	12	obl	nikótínvara	PRO
 <g/>
 .	.	.	PUNCT	-	13	punct	land	NOUN	Case=Dat Definite=Ind Number=Sing	12
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg518.5">
+<s id="ParlaMint-IS_2022-06-15.seg518.5" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.741">
 Verði	Verði	verða	VERB	Mood=Sub Tense=Pres	1	advcl	hafa	VERB	Mood=Ind Tense=Pres	6
 frumvarp	frumvarp	frumvarp	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	verða	VERB	Mood=Sub Tense=Pres	1
 þetta	þetta	þessi	DET	Case=Nom	3	det	frumvarp	NOUN	Case=Nom Definite=Ind Number=Sing	2
@@ -2262,7 +2262,7 @@ fyrir	fyrir	fyrir	ADP	-	27	case	hún	PRON	Case=Acc	28
 <g/>
 .	.	.	PUNCT	-	29	punct	hún	PRON	Case=Acc	28
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg518.6">
+<s id="ParlaMint-IS_2022-06-15.seg518.6" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.242">
 Markmiðið	Markmiðið	markmið	NOUN	Case=Nom Definite=Ind Number=Sing	1	root	-	-	-	-
 með	með	með	ADP	-	2	case	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	3
 frumvarpinu	frumvarpinu	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	3	obl	markmið	NOUN	Case=Nom Definite=Ind Number=Sing	1
@@ -2306,7 +2306,7 @@ rafrettur	rafrettur	rafretta	NOUN	Case=Acc Definite=Ind Number=Plur	37	obl	rafre
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg519" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg519.1">
+<s id="ParlaMint-IS_2022-06-15.seg519.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.085">
 Nefndin	Nefndin	nefnd	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	fjalla	VERB	Mood=Ind Tense=Past	2
 fjallaði	fjallaði	fjalla	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 um	um	um	ADP	-	3	case	mál	NOUN	Case=Acc Definite=Ind Number=Sing	4
@@ -2324,7 +2324,7 @@ umsagnir	umsagnir	umsögn	NOUN	Case=Nom Definite=Ind Number=Plur	14	obl	bera	VER
 <g/>
 .	.	.	PUNCT	-	15	punct	umsögn	NOUN	Case=Nom Definite=Ind Number=Plur	14
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg519.2">
+<s id="ParlaMint-IS_2022-06-15.seg519.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.848">
 Greint	Greint	greina	VERB	Tense=Past VerbForm=Part	1	root	-	-	-	-
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	greina	VERB	Tense=Past VerbForm=Part	1
 frá	frá	frá	ADP	-	3	case	hún	PRON	Case=Dat	4
@@ -2340,7 +2340,7 @@ frammi	frammi	frammi	ADV	Degree=Pos	9	advmod	liggja	VERB	Mood=Ind Tense=Pres	8
 <g/>
 .	.	.	PUNCT	-	13	punct	1318	NUM	Case=Acc	12
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg519.3">
+<s id="ParlaMint-IS_2022-06-15.seg519.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.675">
 Nikótínvörur	Nikótínvörur	nikótínvara	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	vara	NOUN	Case=Nom Definite=Ind Number=Sing	12
 eins	eins	eins	ADV	Degree=Cmp	2	advmod	vara	NOUN	Case=Nom Definite=Ind Number=Sing	12
 og	og	og	ADP	-	3	case	dæmi	NOUN	Case=Nom Definite=Ind Number=Plur	7
@@ -2374,7 +2374,7 @@ markað	markað	markaður	NOUN	Case=Acc Definite=Ind Number=Sing	26	obl	koma	VER
 </name>
 .	.	.	PUNCT	-	29	punct	Ísland	PROPN	-	28
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg519.4">
+<s id="ParlaMint-IS_2022-06-15.seg519.4" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.676">
 Neysla	Neysla	neysla	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	auka	VERB	Tense=Past VerbForm=Part	4
 vörunnar	vörunnar	vara	NOUN	Case=Gen Definite=Ind Number=Sing	2	nmod:poss	neysla	NOUN	Case=Nom Definite=Ind Number=Sing	1
 hefur	hefur	hafa	AUX	Mood=Ind Tense=Pres	3	aux	auka	VERB	Tense=Past VerbForm=Part	4
@@ -2445,7 +2445,7 @@ frumvarpsins	frumvarpsins	frumvarp	NOUN	Case=Gen Definite=Ind Number=Sing	62	nmo
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg520" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg520.1">
+<s id="ParlaMint-IS_2022-06-15.seg520.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.735">
 Í	Í	í	ADP	-	1	case	umsögn	NOUN	Case=Dat Definite=Ind Number=Plur	2
 umsögnunum	umsögnunum	umsögn	NOUN	Case=Dat Definite=Ind Number=Plur	2	obl	koma	VERB	Mood=Ind Tense=Past	7
 <g/>
@@ -2486,7 +2486,7 @@ nikótínvörur	nikótínvörur	nikótínvara	PROPN	-	35	obl	sýnileiki	NOUN	Cas
 <g/>
 .	.	.	PUNCT	-	36	punct	nikótínvara	PROPN	-	35
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg520.2">
+<s id="ParlaMint-IS_2022-06-15.seg520.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.089">
 Meiri	Meiri	mikill	DET	Case=Nom Degree=Pos	1	amod	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 hlutinn	hlutinn	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	leggja	VERB	Mood=Ind Tense=Past	3
 lagði	lagði	leggja	VERB	Mood=Ind Tense=Past	3	root	-	-	-	-
@@ -2510,7 +2510,7 @@ ungmenni	ungmenni	ungmenni	NOUN	Case=Acc Definite=Ind Number=Plur	20	conj	barn	N
 <g/>
 .	.	.	PUNCT	-	21	punct	ungmenni	NOUN	Case=Acc Definite=Ind Number=Plur	20
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg520.3">
+<s id="ParlaMint-IS_2022-06-15.seg520.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.434">
 Í	Í	í	ADP	-	1	case	kjölfar	NOUN	Case=Acc Definite=Ind Number=Sing	2
 kjölfar	kjölfar	kjölfar	NOUN	Case=Acc Definite=Ind Number=Sing	2	obl	árétta	VERB	VerbForm=Inf	10
 umfjöllun	umfjöllun	umfjöllun	NOUN	Case=Acc Definite=Ind Number=Sing	3	nmod:poss	kjölfar	NOUN	Case=Acc Definite=Ind Number=Sing	2
@@ -2528,7 +2528,7 @@ til	til	til	ADP	-	14	compound:prt	leggja	VERB	Tense=Past VerbForm=Part	12
 <g/>
 .	.	.	PUNCT	-	15	punct	til	ADP	-	14
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg520.4">
+<s id="ParlaMint-IS_2022-06-15.seg520.4" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.334">
 Með	Með	með	ADP	-	1	case	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	2
 frumvarpinu	frumvarpinu	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	2	obl	leggja	VERB	Tense=Past VerbForm=Part	4
 eru	eru	vera	AUX	Mood=Ind Tense=Pres	3	cop	leggja	VERB	Tense=Past VerbForm=Part	4
@@ -2603,7 +2603,7 @@ tímarit	tímarit	tímarit	NOUN	Case=Acc Definite=Ind Number=Plur	65	conj	hljó�
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg521" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg521.1">
+<s id="ParlaMint-IS_2022-06-15.seg521.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.864">
 Að	Að	að	ADP	-	1	case	sagður	VERB	Case=Dat Degree=Pos Tense=Past	3
 því	því	það	PRON	Case=Dat	2	nsubj	sagður	VERB	Case=Dat Degree=Pos Tense=Past	3
 sögðu	sögðu	sagður	VERB	Case=Dat Degree=Pos Tense=Past	3	obl	beina	VERB	Mood=Ind Tense=Pres	4
@@ -2661,7 +2661,7 @@ tvær	tvær	tveir	NUM	Case=Nom	51	conj	beina	VERB	Mood=Ind Tense=Pres	4
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg522" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg522.1">
+<s id="ParlaMint-IS_2022-06-15.seg522.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.090">
 Í	Í	í	ADP	-	1	case	lag	NOUN	Case=Dat Definite=Ind Number=Sing	3
 fyrsta	fyrsta	fyrstur	ADJ	Case=Dat Degree=Sup	2	amod	lag	NOUN	Case=Dat Definite=Ind Number=Sing	3
 lagi	lagi	lag	NOUN	Case=Dat Definite=Ind Number=Sing	3	obl	leggja	VERB	Tense=Past VerbForm=Part	5
@@ -2698,7 +2698,7 @@ brott	brott	brott	ADV	Degree=Pos	32	obl	fella	VERB	Tense=Past VerbForm=Part	30
 <g/>
 .	.	.	PUNCT	-	33	punct	brott	ADV	Degree=Pos	32
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg522.2">
+<s id="ParlaMint-IS_2022-06-15.seg522.2" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.555">
 Nefndinni	Nefndinni	nefnd	NOUN	Case=Dat Definite=Ind Number=Sing	1	nsubj	bera	VERB	Mood=Ind Tense=Past	2
 bárust	bárust	bera	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 nokkrar	nokkrar	nokkur	DET	Case=Nom Degree=Pos	3	amod	umsögn	NOUN	Case=Nom Definite=Ind Number=Plur	4
@@ -2715,7 +2715,7 @@ gagnrýnt	gagnrýnt	gagnrýna	VERB	Tense=Past VerbForm=Part	13	acl:relcl	umsögn
 <g/>
 .	.	.	PUNCT	-	14	punct	gagnrýna	VERB	Tense=Past VerbForm=Part	13
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg522.3">
+<s id="ParlaMint-IS_2022-06-15.seg522.3" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.001">
 Þá	Þá	þá	ADV	Degree=Pos	1	advmod	áhrif	NOUN	Case=Dat Definite=Ind Number=Plur	5
 eru	eru	vera	AUX	Mood=Ind Tense=Pres	2	cop	áhrif	NOUN	Case=Dat Definite=Ind Number=Plur	5
 rannsóknir	rannsóknir	rannsókn	NOUN	Case=Nom Definite=Ind Number=Plur	3	nsubj	áhrif	NOUN	Case=Dat Definite=Ind Number=Plur	5
@@ -2765,7 +2765,7 @@ sagt	sagt	segja	VERB	Tense=Past VerbForm=Part	41	obl	eins	ADV	Degree=Cmp	37
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg523" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg523.1">
+<s id="ParlaMint-IS_2022-06-15.seg523.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.339">
 Í	Í	í	ADP	-	1	case	umsögn	NOUN	Case=Dat Definite=Ind Number=Plur	2
 umsögnum	umsögnum	umsögn	NOUN	Case=Dat Definite=Ind Number=Plur	2	obl	koma	VERB	Tense=Past VerbForm=Part	10
 og	og	og	CCONJ	-	3	cc	umfjöllun	NOUN	Case=Dat Definite=Ind Number=Sing	4
@@ -2795,12 +2795,12 @@ bragð	bragð	bragð	NOUN	Case=Acc Definite=Ind Number=Sing	26	obj	varða	VERB	T
 <g/>
 .	.	.	PUNCT	-	27	punct	bragð	NOUN	Case=Acc Definite=Ind Number=Sing	26
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg523.2">
+<s id="ParlaMint-IS_2022-06-15.seg523.2" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.569">
 Bannið	Bannið	banna	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	banna	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	1
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg523.3">
+<s id="ParlaMint-IS_2022-06-15.seg523.3" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.170">
 Þrátt	Þrátt	þrátt	ADV	Degree=Pos	1	advmod	kunna	VERB	Mood=Sub Tense=Pres	6
 fyrir	fyrir	fyrir	ADP	-	2	case	kunna	VERB	Mood=Sub Tense=Pres	6
 að	að	að	SCONJ	-	3	mark	kunna	VERB	Mood=Sub Tense=Pres	6
@@ -2847,7 +2847,7 @@ framfylgja	framfylgja	framfylgja	VERB	VerbForm=Inf	42	acl	afmarka	VERB	VerbForm=
 <g/>
 .	.	.	PUNCT	-	44	punct	það	PRON	Case=Dat	43
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg523.4">
+<s id="ParlaMint-IS_2022-06-15.seg523.4" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.363">
 Að	Að	að	ADP	-	1	case	mat	NOUN	Case=Dat Definite=Ind Number=Sing	2
 mati	mati	mat	NOUN	Case=Dat Definite=Ind Number=Sing	2	root	-	-	-	-
 meiri	meiri	mikill	DET	Case=Gen Degree=Pos	3	nmod:poss	mat	NOUN	Case=Dat Definite=Ind Number=Sing	2
@@ -2893,7 +2893,7 @@ frumvarpi	frumvarpi	frumvarp	NOUN	Case=Dat Definite=Ind Number=Sing	40	obl	setja
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg524" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg524.1">
+<s id="ParlaMint-IS_2022-06-15.seg524.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.839">
 Meiri	Meiri	mikill	DET	Case=Nom Degree=Pos	1	amod	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 hlutinn	hlutinn	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	hvetja	VERB	Mood=Ind Tense=Pres	3
 hvetur	hvetur	hvetja	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -2927,7 +2927,7 @@ henni	henni	hún	PRON	Case=Dat	30	obl	draga	VERB	VerbForm=Inf	28
 <g/>
 .	.	.	PUNCT	-	31	punct	hún	PRON	Case=Dat	30
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg524.2">
+<s id="ParlaMint-IS_2022-06-15.seg524.2" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.515">
 Meiri	Meiri	mikill	DET	Case=Nom Degree=Pos	1	amod	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 hlutinn	hlutinn	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	leggja	VERB	Mood=Ind Tense=Pres	3
 leggur	leggur	leggja	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -2964,7 +2964,7 @@ brott	brott	brott	ADV	Degree=Pos	30	advmod	fella	VERB	Tense=Past VerbForm=Part	2
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg525" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg525.1">
+<s id="ParlaMint-IS_2022-06-15.seg525.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.060">
 Í	Í	í	ADP	-	1	case	lag	NOUN	Case=Dat Definite=Ind Number=Sing	3
 öðru	öðru	annar	ADJ	Case=Dat Degree=Pos	2	amod	lag	NOUN	Case=Dat Definite=Ind Number=Sing	3
 lagi	lagi	lag	NOUN	Case=Dat Definite=Ind Number=Sing	3	obl	leggja	VERB	Mood=Ind Tense=Pres	4
@@ -2984,7 +2984,7 @@ notkun	notkun	notkun	NOUN	Case=Acc Definite=Ind Number=Sing	16	obl	bann	NOUN	Cas
 <g/>
 .	.	.	PUNCT	-	17	punct	notkun	NOUN	Case=Acc Definite=Ind Number=Sing	16
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg525.2">
+<s id="ParlaMint-IS_2022-06-15.seg525.2" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.768">
 Nikótín	Nikótín	nikótín	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	1	nsubj	staður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	4
 var	var	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2	cop	staður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	4
 á	á	á	ADP	-	3	case	staður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	4
@@ -3006,7 +3006,7 @@ frum	frum	frum	NOUN	Case=Dat Number=Plur	16	obl	eins	ADV	-	12
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg526" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg526.1">
+<s id="ParlaMint-IS_2022-06-15.seg526.1" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.303">
 Í	Í	í	ADP	-	1	case	gr.	NOUN	Case=Dat Definite=Ind Number=Sing	3
 12.	12.	12.	ADJ	Case=Dat Degree=Pos	2	amod	gr.	NOUN	Case=Dat Definite=Ind Number=Sing	3
 gr.	gr.	gr.	NOUN	Case=Dat Definite=Ind Number=Sing	3	obl	leggja	VERB	Tense=Past VerbForm=Part	6
@@ -3050,7 +3050,7 @@ saman	saman	saman	ADV	Degree=Pos	40	advmod	safna	VERB	Mood=Ind Tense=Pres	39
 <g/>
 .	.	.	PUNCT	-	41	punct	saman	ADV	Degree=Pos	40
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg526.2">
+<s id="ParlaMint-IS_2022-06-15.seg526.2" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.698">
 Fyrir	Fyrir	fyrir	ADP	-	1	case	nefnd	NOUN	Case=Dat Definite=Ind Number=Sing	2
 nefndinni	nefndinni	nefnd	NOUN	Case=Dat Definite=Ind Number=Sing	2	obl	koma	VERB	Mood=Ind Tense=Past	3
 kom	kom	koma	VERB	Mood=Ind Tense=Past	3	root	-	-	-	-
@@ -3104,7 +3104,7 @@ börn	börn	barn	NOUN	Case=Acc Definite=Ind Number=Plur	50	obl	starf	NOUN	Case=D
 <g/>
 .	.	.	PUNCT	-	51	punct	barn	NOUN	Case=Acc Definite=Ind Number=Plur	50
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg526.3">
+<s id="ParlaMint-IS_2022-06-15.seg526.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.241">
 Meiri	Meiri	mikill	DET	Case=Nom Degree=Pos	1	amod	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 hlutinn	hlutinn	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	taka	VERB	Mood=Ind Tense=Pres	3
 tekur	tekur	taka	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -3208,7 +3208,7 @@ um	um	um	ADP	-	93	case	ár	NOUN	Case=Acc Definite=Ind Number=Plur	95
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg527" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg527.1">
+<s id="ParlaMint-IS_2022-06-15.seg527.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.993">
 Að	Að	að	ADP	-	1	case	virtur	VERB	Case=Dat Tense=Past	3
 framansögðu	framansögðu	framansagður	ADJ	Case=Dat Degree=Pos	2	nsubj	virtur	VERB	Case=Dat Tense=Past	3
 virtu	virtu	virtur	VERB	Case=Dat Tense=Past	3	obl	leggja	VERB	Mood=Ind Tense=Pres	4
@@ -3233,7 +3233,7 @@ fyrir	fyrir	fyrir	ADP	-	21	obl	gera	VERB	Tense=Past VerbForm=Part	17
 <g/>
 .	.	.	PUNCT	-	22	punct	fyrir	ADP	-	21
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg527.2">
+<s id="ParlaMint-IS_2022-06-15.seg527.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.961">
 Undir	Undir	undir	ADP	-	1	case	álit	NOUN	Case=Acc Definite=Ind Number=Sing	2
 álit	álit	álit	NOUN	Case=Acc Definite=Ind Number=Sing	2	obl	rita	VERB	Mood=Ind Tense=Pres	6
 meiri	meiri	mikill	DET	Case=Gen Degree=Pos	3	nmod:poss	álit	NOUN	Case=Acc Definite=Ind Number=Sing	2
@@ -3304,13 +3304,13 @@ Jóhannsson	Jóhannsson	Jóhannsson	PROPN	-	41	dep	Orri	PROPN	-	39
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg528" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg528.1">
+<s id="ParlaMint-IS_2022-06-15.seg528.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.689">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Degree=Pos	1	amod	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg528.2">
+<s id="ParlaMint-IS_2022-06-15.seg528.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.397">
 Eins	Eins	eins	ADV	Degree=Cmp	1	advmod	skipti	NOUN	Case=Acc Definite=Ind Number=Sing	9
 og	og	og	ADP	-	2	case	koma	VERB	Tense=Past VerbForm=Part	5
 fram	fram	fram	ADP	-	3	compound:prt	koma	VERB	Tense=Past VerbForm=Part	5
@@ -3360,7 +3360,7 @@ rafrettur	rafrettur	rafretta	NOUN	Case=Acc Definite=Ind Number=Plur	45	obl	rafre
 <g/>
 .	.	.	PUNCT	-	46	punct	rafretta	NOUN	Case=Acc Definite=Ind Number=Plur	45
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg528.3">
+<s id="ParlaMint-IS_2022-06-15.seg528.3" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.642">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	telja	VERB	Mood=Ind Tense=Pres	2
 tel	tel	telja	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 þetta	þetta	þessi	DET	Case=Acc	3	nsubj	skref	NOUN	Case=Acc Definite=Ind Number=Sing	6
@@ -3403,7 +3403,7 @@ tvö	tvö	tveir	NUM	Case=Acc	36	nummod	ár	NOUN	Case=Acc Definite=Ind Number=Plu
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg529" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg529.1">
+<s id="ParlaMint-IS_2022-06-15.seg529.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.684">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	nefna	VERB	VerbForm=Inf	4
 vil	vil	vilja	AUX	Mood=Ind Tense=Pres	2	aux	nefna	VERB	VerbForm=Inf	4
 líka	líka	líka	ADV	-	3	advmod	nefna	VERB	VerbForm=Inf	4
@@ -3460,15 +3460,15 @@ málsháttur	málsháttur	málsháttur	NOUN	Case=Nom Definite=Ind Number=Sing	49
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2022-06-15.u215" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Viðskipti|Fjárreiður ríkisins|Félagsmál|Heilbrigðismál" speaker_id="SigmarGudmundsson" speaker_name="Guðmundsson, Sigmar" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1969">
+<speech id="ParlaMint-IS_2022-06-15.u215" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Heilbrigðismál" topic_is="Viðskipti|Fjárreiður ríkisins|Félagsmál|Heilbrigðismál" speaker_id="SigmarGudmundsson" speaker_name="Guðmundsson, Sigmar" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1969">
 <p id="ParlaMint-IS_2022-06-15.seg530" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg530.1">
+<s id="ParlaMint-IS_2022-06-15.seg530.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.689">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Degree=Pos	1	amod	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.2">
+<s id="ParlaMint-IS_2022-06-15.seg530.2" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.169">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	láta	VERB	Tense=Past VerbForm=Part	4
 get	get	geta	AUX	Mood=Ind Tense=Pres	2	aux	láta	VERB	Tense=Past VerbForm=Part	4
 ekki	ekki	ekki	ADV	-	3	advmod	láta	VERB	Tense=Past VerbForm=Part	4
@@ -3509,7 +3509,7 @@ umræðunni	umræðunni	umræða	NOUN	Case=Dat Definite=Ind Number=Sing	37	obl	�
 <g/>
 .	.	.	PUNCT	-	38	punct	umræða	NOUN	Case=Dat Definite=Ind Number=Sing	37
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.3">
+<s id="ParlaMint-IS_2022-06-15.seg530.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.158">
 Við	Við	ég	PRON	Case=Nom	1	root	-	-	-	-
 erum	erum	vera	AUX	Mood=Ind Tense=Pres	2	cop	ég	PRON	Case=Nom	1
 auðvitað	auðvitað	auðvitað	ADV	Degree=Pos	3	advmod	ég	PRON	Case=Nom	1
@@ -3569,7 +3569,7 @@ tekið	tekið	taka	VERB	Tense=Past VerbForm=Part	54	advcl	svo	ADV	Degree=Pos	51
 <g/>
 .	.	.	PUNCT	-	55	punct	taka	VERB	Tense=Past VerbForm=Part	54
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.4">
+<s id="ParlaMint-IS_2022-06-15.seg530.4" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.812">
 Aðgengi	Aðgengi	aðgengi	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
 að	að	að	ADP	-	2	case	það	PRON	Case=Dat Gender=Masc Number=Plur PronType=Prs	3
 þeim	þeim	það	PRON	Case=Dat Gender=Masc Number=Plur PronType=Prs	3	obl	aðgengi	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	1
@@ -3584,7 +3584,7 @@ hugsun	hugsun	hugsun	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	11	conj	b
 <g/>
 .	.	.	PUNCT	-	12	punct	hugsun	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	11
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.5">
+<s id="ParlaMint-IS_2022-06-15.seg530.5" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="5.036">
 Heildarhugsun	Heildarhugsun	heildarhugsun	NOUN	Case=Nom Definite=Ind Number=Sing	1	obj	styðja	VERB	Mood=Ind Person=1 Tense=Pres	2
 styð	styð	styðja	VERB	Mood=Ind Person=1 Tense=Pres	2	root	-	-	-	-
 ég	ég	ég	PRON	Case=Nom	3	nsubj	styðja	VERB	Mood=Ind Person=1 Tense=Pres	2
@@ -3593,7 +3593,7 @@ hugar	hugar	hugur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	5	obl	styð
 <g/>
 .	.	.	PUNCT	-	6	punct	hugur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	5
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.6">
+<s id="ParlaMint-IS_2022-06-15.seg530.6" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.280">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	það	PRON	Case=Gen	6
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	það	PRON	Case=Gen	6
 engin	engin	enginn	DET	Case=Nom Degree=Pos	3	amod	ástæða	NOUN	Case=Nom Definite=Ind Number=Sing	4
@@ -3612,7 +3612,7 @@ vöru	vöru	vara	NOUN	Case=Acc Definite=Ind Number=Sing	15	obj	nota	VERB	VerbFor
 <g/>
 .	.	.	PUNCT	-	16	punct	vara	NOUN	Case=Acc Definite=Ind Number=Sing	15
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.7">
+<s id="ParlaMint-IS_2022-06-15.seg530.7" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.755">
 En	En	en	CCONJ	-	1	cc	þessi	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	5
 það	það	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	2	nsubj	þessi	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	5
 er	er	vera	AUX	Mood=Ind Tense=Pres	3	cop	þessi	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	5
@@ -3626,7 +3626,7 @@ annað	annað	annar	PRON	Case=Acc Gender=Neut Number=Sing PronType=Ind	10	obl	ei
 <g/>
 .	.	.	PUNCT	-	11	punct	annar	PRON	Case=Acc Gender=Neut Number=Sing PronType=Ind	10
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.8">
+<s id="ParlaMint-IS_2022-06-15.seg530.8" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.484">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	hægur	ADJ	Case=Nom Degree=Pos	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	hægur	ADJ	Case=Nom Degree=Pos	3
 hægt	hægt	hægur	ADJ	Case=Nom Degree=Pos	3	root	-	-	-	-
@@ -3665,7 +3665,7 @@ sínum	sínum	sinn	PRON	Case=Dat	34	nmod:poss	tilgangur	NOUN	Case=Dat Definite=I
 <g/>
 .	.	.	PUNCT	-	35	punct	sinn	PRON	Case=Dat	34
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.9">
+<s id="ParlaMint-IS_2022-06-15.seg530.9" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.296">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	verða	VERB	Mood=Ind Tense=Pres	2
 verð	verð	verða	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 að	að	að	PART	-	3	mark	segja	VERB	VerbForm=Inf	4
@@ -3690,7 +3690,7 @@ og	og	og	CCONJ	-	20	cc	þessi	DET	Case=Dat	21
 <g/>
 .	.	.	PUNCT	-	22	punct	þessi	DET	Case=Dat	21
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.10">
+<s id="ParlaMint-IS_2022-06-15.seg530.10" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.311">
 Svona	Svona	svona	ADV	Degree=Pos	1	amod	ofurtrú	NOUN	Case=Nom Definite=Ind Number=Sing	2
 ofurtrú	ofurtrú	ofurtrú	NOUN	Case=Nom Definite=Ind Number=Sing	2	root	-	-	-	-
 á	á	á	ADP	-	3	case	boð	NOUN	Case=Acc Definite=Ind Number=Plur	4
@@ -3740,7 +3740,7 @@ einfaldlega	einfaldlega	einfaldlega	ADV	Degree=Pos	42	advmod	það	PRON	Case=Nom
 <g/>
 .	.	.	PUNCT	-	44	punct	þannig	ADV	Degree=Pos	43
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.11">
+<s id="ParlaMint-IS_2022-06-15.seg530.11" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="4.405">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	hægur	ADJ	Case=Nom Degree=Pos	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	hægur	ADJ	Case=Nom Degree=Pos	4
 vel	vel	vel	ADV	Degree=Pos	3	amod	hægur	ADJ	Case=Nom Degree=Pos	4
@@ -3758,7 +3758,7 @@ hætti	hætti	háttur	NOUN	Case=Dat Definite=Ind Number=Sing	14	obl	ná	VERB	Ver
 <g/>
 .	.	.	PUNCT	-	15	punct	háttur	NOUN	Case=Dat Definite=Ind Number=Sing	14
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.12">
+<s id="ParlaMint-IS_2022-06-15.seg530.12" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.495">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	heppilegur	ADJ	Case=Nom Degree=Cmp	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	heppilegur	ADJ	Case=Nom Degree=Cmp	4
 reyndar	reyndar	reyndar	ADV	Degree=Pos	3	advmod	heppilegur	ADJ	Case=Nom Degree=Cmp	4
@@ -3796,7 +3796,7 @@ bann	bann	bann	NOUN	Case=Acc Definite=Ind Number=Sing	31	appos	bragð	NOUN	Case=
 <g/>
 .	.	.	PUNCT	-	32	punct	bann	NOUN	Case=Acc Definite=Ind Number=Sing	31
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.13">
+<s id="ParlaMint-IS_2022-06-15.seg530.13" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.350">
 Þá	Þá	þá	ADV	Degree=Pos	1	advmod	vera	AUX	Tense=Past VerbForm=Part	4
 var	var	vera	AUX	Mood=Ind Tense=Past	2	cop	vera	AUX	Tense=Past VerbForm=Part	4
 auðvitað	auðvitað	auðvitað	ADV	Degree=Pos	3	advmod	vera	AUX	Tense=Past VerbForm=Part	4
@@ -3847,7 +3847,7 @@ og	og	og	CCONJ	-	44	cc	nammi	NOUN	Case=Dat Definite=Ind Number=Sing	43
 <g/>
 .	.	.	PUNCT	-	46	punct	ávaxtabragð	NOUN	Case=Dat Definite=Ind Number=Sing	45
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.14">
+<s id="ParlaMint-IS_2022-06-15.seg530.14" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.254">
 Ráðherra	Ráðherra	ráðherra	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	setja	VERB	VerbForm=Inf	3
 skal	skal	skulu	AUX	Mood=Ind Tense=Pres	2	aux	setja	VERB	VerbForm=Inf	3
 setja	setja	setja	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -3860,7 +3860,7 @@ nánari	nánari	náinn	ADJ	Case=Acc Degree=Cmp	6	amod	útfærsla	NOUN	Case=Acc D
 <g/>
 .	.	.	PUNCT	-	10	punct	ákvæði	NOUN	Case=Gen Definite=Ind Number=Sing	9
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg530.15">
+<s id="ParlaMint-IS_2022-06-15.seg530.15" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.629">
 Þannig	Þannig	þannig	ADV	Degree=Pos	1	advmod	koma	VERB	Mood=Ind Tense=Past	2
 kom	kom	koma	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 þetta	þetta	þessi	DET	Case=Nom	3	nsubj	koma	VERB	Mood=Ind Tense=Past	2
@@ -3895,7 +3895,7 @@ gott	gott	góður	ADJ	Case=Nom Degree=Pos	29	conj	koma	VERB	Mood=Ind Tense=Past	
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg531" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg531.1">
+<s id="ParlaMint-IS_2022-06-15.seg531.1" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.198">
 En	En	en	CCONJ	-	1	cc	langa	VERB	Mood=Ind Tense=Pres	3
 mig	mig	ég	PRON	Case=Acc	2	nsubj	langa	VERB	Mood=Ind Tense=Pres	3
 langar	langar	langa	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -3943,7 +3943,7 @@ sínum	sínum	sinn	PRON	Case=Dat	42	nmod:poss	tilgangur	NOUN	Case=Dat Definite=I
 <g/>
 .	.	.	PUNCT	-	43	punct	sinn	PRON	Case=Dat	42
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg531.2">
+<s id="ParlaMint-IS_2022-06-15.seg531.2" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.526">
 Hvernig	Hvernig	hvernig	ADV	Degree=Pos	1	advmod	standa	VERB	Mood=Ind Tense=Pres	2
 stendur	stendur	standa	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 á	á	á	ADP	-	3	case	það	PRON	Case=Dat	4
@@ -3984,7 +3984,7 @@ undir	undir	undir	ADP	-	36	case	ávaxtabragð	NOUN	Case=Dat Definite=Ind Number=
 <g/>
 ?	?	?	PUNCT	-	38	punct	ávaxtabragð	NOUN	Case=Dat Definite=Ind Number=Sing	37
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg531.3">
+<s id="ParlaMint-IS_2022-06-15.seg531.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.978">
 Menn	Menn	maður	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	fara	VERB	Tense=Past VerbForm=Part	4
 geta	geta	geta	AUX	Mood=Ind Tense=Pres	2	aux	fara	VERB	Tense=Past VerbForm=Part	4
 fljótt	fljótt	fljótt	ADV	Degree=Pos	3	advmod	fara	VERB	Tense=Past VerbForm=Part	4
@@ -3997,7 +3997,7 @@ farið	farið	fara	VERB	Tense=Past VerbForm=Part	4	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	10	punct	það	PRON	Case=Dat	9
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg531.4">
+<s id="ParlaMint-IS_2022-06-15.seg531.4" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.251">
 Þetta	Þetta	þessi	DET	Case=Nom	1	nsubj	hljóma	VERB	Mood=Ind Tense=Pres	2
 hljómar	hljómar	hljóma	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 auðvitað	auðvitað	auðvitað	ADV	Degree=Pos	3	advmod	hljóma	VERB	Mood=Ind Tense=Pres	2
@@ -4062,7 +4062,7 @@ fullorðinna	fullorðinna	fullorðinn	NOUN	Case=Gen Definite=Ind Number=Plur	61	
 <g/>
 .	.	.	PUNCT	-	62	punct	fullorðinn	NOUN	Case=Gen Definite=Ind Number=Plur	61
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg531.5">
+<s id="ParlaMint-IS_2022-06-15.seg531.5" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.250">
 Það	Það	það	PRON	Case=Nom	1	nsubj	réttur	ADJ	Case=Nom Degree=Pos	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	réttur	ADJ	Case=Nom Degree=Pos	4
 ekki	ekki	ekki	ADV	-	3	advmod	réttur	ADJ	Case=Nom Degree=Pos	4
@@ -4118,12 +4118,12 @@ skilgreiningaratriði	skilgreiningaratriði	skilgreiningaratriði	NOUN	Case=Dat 
 <g/>
 .	.	.	PUNCT	-	51	punct	skilgreiningaratriði	NOUN	Case=Dat Definite=Ind Number=Sing	50
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg531.6">
+<s id="ParlaMint-IS_2022-06-15.seg531.6" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.610">
 Sjálfur	Sjálfur	sjálfur	PRON	Case=Nom Gender=Masc Number=Sing PronType=Dem	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	sjálfur	PRON	Case=Nom Gender=Masc Number=Sing PronType=Dem	1
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg531.7">
+<s id="ParlaMint-IS_2022-06-15.seg531.7" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.714">
 Honum	Honum	hann	PRON	Case=Dat	1	nsubj	falla	VERB	Tense=Past VerbForm=Part	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	falla	VERB	Tense=Past VerbForm=Part	3
 fallið	fallið	falla	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -4206,7 +4206,7 @@ og	og	og	CCONJ	-	77	cc	nammi	NOUN	Case=Acc Definite=Ind Number=Sing	76
 <g/>
 .	.	.	PUNCT	-	79	punct	ávaxtabragð	NOUN	Case=Dat Definite=Ind Number=Sing	78
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg531.8">
+<s id="ParlaMint-IS_2022-06-15.seg531.8" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.194">
 Við	Við	ég	PRON	Case=Nom	1	nsubj	skot	NOUN	Case=Acc Definite=Ind Number=Sing	5
 erum	erum	vera	AUX	Mood=Ind Tense=Pres	2	cop	skot	NOUN	Case=Acc Definite=Ind Number=Sing	5
 með	með	með	ADP	-	3	case	skot	NOUN	Case=Acc Definite=Ind Number=Sing	5
@@ -4258,7 +4258,7 @@ vega	vega	vegi	NOUN	Case=Acc Definite=Ind Number=Plur	45	obl	sætta	VERB	VerbFor
 <g/>
 .	.	.	PUNCT	-	46	punct	vegi	NOUN	Case=Acc Definite=Ind Number=Plur	45
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg531.9">
+<s id="ParlaMint-IS_2022-06-15.seg531.9" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="4.246">
 Þetta	Þetta	þessi	DET	Case=Nom	1	root	-	-	-	-
 er	er	vera	SCONJ	Mood=Ind Tense=Pres	2	cop	fara	VERB	Tense=Past VerbForm=Part	5
 þetta	þetta	þessi	DET	Case=Nom	3	nsubj	fara	VERB	Tense=Past VerbForm=Part	5
@@ -4275,7 +4275,7 @@ vel	vel	vel	ADV	Degree=Pos	11	advmod	það	PRON	Case=Nom	8
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg532" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg532.1">
+<s id="ParlaMint-IS_2022-06-15.seg532.1" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.300">
 En	En	en	CCONJ	-	1	cc	langa	VERB	Mood=Ind Tense=Pres	3
 mig	mig	ég	PRON	Case=Acc	2	nsubj	langa	VERB	Mood=Ind Tense=Pres	3
 langar	langar	langa	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -4302,7 +4302,7 @@ inn	inn	inn	ADP	-	23	compound:prt	koma	VERB	Mood=Ind Tense=Pres	22
 <g/>
 .	.	.	PUNCT	-	24	punct	inn	ADP	-	23
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg532.2">
+<s id="ParlaMint-IS_2022-06-15.seg532.2" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.894">
 Rannsóknir	Rannsóknir	rannsókn	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	sýna	VERB	Mood=Ind Tense=Pres	2
 sýna	sýna	sýna	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 að	að	að	SCONJ	-	3	mark	spila	VERB	Mood=Sub Tense=Pres	11
@@ -4349,7 +4349,7 @@ ungmennum	ungmennum	ungmenni	NOUN	Case=Dat Definite=Ind Number=Plur	41	obl	eiga	
 <g/>
 .	.	.	PUNCT	-	42	punct	ungmenni	NOUN	Case=Dat Definite=Ind Number=Plur	41
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg532.3">
+<s id="ParlaMint-IS_2022-06-15.seg532.3" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.182">
 Þetta	Þetta	þessi	DET	Case=Acc	1	obl	eiga	VERB	Mood=Ind Tense=Pres	2
 á	á	eiga	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 ég	ég	ég	PRON	Case=Nom	3	nsubj	eiga	VERB	Mood=Ind Tense=Pres	2
@@ -4413,7 +4413,7 @@ aðfinnsluvert	aðfinnsluvert	aðfinnsluverður	ADJ	Case=Nom Degree=Pos	57	xcomp
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg533" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg533.1">
+<s id="ParlaMint-IS_2022-06-15.seg533.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.799">
 Svo	Svo	svo	ADV	Degree=Pos	1	advmod	segja	VERB	Mood=Ind Tense=Pres	2
 segir	segir	segja	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 líka	líka	líka	ADV	-	3	advmod	segja	VERB	Mood=Ind Tense=Pres	2
@@ -4449,7 +4449,7 @@ nýrra	nýrra	nýr	ADJ	Case=Gen Definite=Ind Degree=Pos Number=Plur	30	amod	innr
 <g/>
 .	.	.	PUNCT	-	32	punct	ávanabindandi	ADJ	Degree=Pos	31
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.2">
+<s id="ParlaMint-IS_2022-06-15.seg533.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.154">
 Nikótín	Nikótín	nikótín	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	1	root	-	-	-	-
 vara	vara	vara	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	2	appos	nikótín	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	1
 inn	inn	inn	ADP	-	3	compound:prt	markaður	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	5
@@ -4458,7 +4458,7 @@ markað	markað	markaður	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	5	o
 <g/>
 .	.	.	PUNCT	-	6	punct	markaður	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	5
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.3">
+<s id="ParlaMint-IS_2022-06-15.seg533.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.551">
 Þarna	Þarna	þarna	ADV	Degree=Pos	1	advmod	segja	VERB	VerbForm=Inf	3
 má	má	mega	AUX	Mood=Ind Tense=Pres	2	aux	segja	VERB	VerbForm=Inf	3
 segja	segja	segja	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -4470,7 +4470,7 @@ fólkið	fólkið	fólk	NOUN	Case=Acc Definite=Ind Number=Sing	8	obl	segja	VERB	
 <g/>
 .	.	.	PUNCT	-	9	punct	fólk	NOUN	Case=Acc Definite=Ind Number=Sing	8
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.4">
+<s id="ParlaMint-IS_2022-06-15.seg533.4" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.529">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	þarna	ADV	Degree=Pos	6
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	þarna	ADV	Degree=Pos	6
 bara	bara	bara	ADV	Degree=Pos	3	advmod	þarna	ADV	Degree=Pos	6
@@ -4482,7 +4482,7 @@ milli	milli	milli	ADV	-	8	obl	þarna	ADV	Degree=Pos	6
 <g/>
 .	.	.	PUNCT	-	9	punct	milli	ADV	-	8
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.5">
+<s id="ParlaMint-IS_2022-06-15.seg533.5" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="4.305">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	nsubj	margur	DET	Case=Nom Degree=Pos	4
 voru	voru	vera	AUX	Mood=Ind Tense=Past	2	cop	margur	DET	Case=Nom Degree=Pos	4
 mjög	mjög	mjög	ADV	Degree=Pos	3	amod	margur	DET	Case=Nom Degree=Pos	4
@@ -4509,7 +4509,7 @@ nikótín	nikótín	nikótín	NOUN	Case=Gen Definite=Ind Number=Sing	23	nmod:pos
 <g/>
 .	.	.	PUNCT	-	24	punct	nikótín	NOUN	Case=Gen Definite=Ind Number=Sing	23
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.6">
+<s id="ParlaMint-IS_2022-06-15.seg533.6" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.873">
 Púðarnir	Púðarnir	púði	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	koma	VERB	Mood=Ind Tense=Past	2
 komu	komu	koma	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 þannig	þannig	þannig	ADV	Degree=Pos	3	advmod	koma	VERB	Mood=Ind Tense=Past	2
@@ -4545,7 +4545,7 @@ ungmennum	ungmennum	ungmenni	NOUN	Case=Dat Definite=Ind Number=Plur	31	conj	barn
 <g/>
 .	.	.	PUNCT	-	32	punct	ungmenni	NOUN	Case=Dat Definite=Ind Number=Plur	31
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.7">
+<s id="ParlaMint-IS_2022-06-15.seg533.7" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.741">
 En	En	en	CCONJ	-	1	cc	vilja	VERB	Mood=Ind Tense=Pres	3
 auðvitað	auðvitað	auðvitað	ADV	Degree=Pos	2	advmod	vilja	VERB	Mood=Ind Tense=Pres	3
 viljum	viljum	vilja	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -4565,7 +4565,7 @@ vörur	vörur	vara	NOUN	Case=Acc Definite=Ind Number=Plur	16	obj	nota	VERB	VerbF
 <g/>
 .	.	.	PUNCT	-	17	punct	vara	NOUN	Case=Acc Definite=Ind Number=Plur	16
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.8">
+<s id="ParlaMint-IS_2022-06-15.seg533.8" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.230">
 Þar	Þar	þar	ADV	Degree=Pos	1	advmod	góður	ADJ	Case=Nom Degree=Cmp	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	góður	ADJ	Case=Nom Degree=Cmp	3
 betra	betra	góður	ADJ	Case=Nom Degree=Cmp	3	root	-	-	-	-
@@ -4575,7 +4575,7 @@ samtal	samtal	samtal	NOUN	Case=Acc Definite=Ind Number=Sing	6	obj	nota	VERB	Verb
 <g/>
 .	.	.	PUNCT	-	7	punct	samtal	NOUN	Case=Acc Definite=Ind Number=Sing	6
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.9">
+<s id="ParlaMint-IS_2022-06-15.seg533.9" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.205">
 Börn	Börn	barn	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	1	nsubj	vitleysingur	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	6
 og	og	og	CCONJ	-	2	cc	barn	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	1
 ungmenni	ungmenni	ungmenni	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	3	conj	barn	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	1
@@ -4585,7 +4585,7 @@ vitleysingar	vitleysingar	vitleysingur	NOUN	Case=Nom Definite=Ind Gender=Masc Nu
 <g/>
 .	.	.	PUNCT	-	7	punct	vitleysingur	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	6
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.10">
+<s id="ParlaMint-IS_2022-06-15.seg533.10" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.742">
 Þau	Þau	það	PRON	Case=Nom	1	nsubj	taka	VERB	Mood=Ind Tense=Pres	2
 taka	taka	taka	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 rökum	rökum	rök	NOUN	Case=Dat Definite=Ind Number=Plur	3	obj	taka	VERB	Mood=Ind Tense=Pres	2
@@ -4597,7 +4597,7 @@ skynsöm	skynsöm	skynsamur	ADJ	Case=Nom Degree=Pos Gender=Neut	7	conj	taka	VERB
 <g/>
 .	.	.	PUNCT	-	8	punct	skynsamur	ADJ	Case=Nom Degree=Pos Gender=Neut	7
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.11">
+<s id="ParlaMint-IS_2022-06-15.seg533.11" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.704">
 Þetta	Þetta	þessi	DET	Case=Nom	1	nsubj	spurning	NOUN	Case=Nom Definite=Ind Number=Sing	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	spurning	NOUN	Case=Nom Definite=Ind Number=Sing	4
 bara	bara	bara	ADV	Degree=Pos	3	advmod	spurning	NOUN	Case=Nom Definite=Ind Number=Sing	4
@@ -4613,7 +4613,7 @@ hætti	hætti	háttur	NOUN	Case=Dat Definite=Ind Number=Sing	12	obl	nálgast	VER
 <g/>
 .	.	.	PUNCT	-	13	punct	háttur	NOUN	Case=Dat Definite=Ind Number=Sing	12
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.12">
+<s id="ParlaMint-IS_2022-06-15.seg533.12" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.966">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	sannfærður	ADJ	Case=Nom Degree=Pos	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	sannfærður	ADJ	Case=Nom Degree=Pos	4
 algerlega	algerlega	algerlega	ADV	Degree=Pos	3	amod	sannfærður	ADJ	Case=Nom Degree=Pos	4
@@ -4635,7 +4635,7 @@ er	er	vera	AUX	Mood=Ind Tense=Pres	18	cop	þarna	ADV	Degree=Pos	17
 <g/>
 .	.	.	PUNCT	-	19	punct	vera	AUX	Mood=Ind Tense=Pres	18
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.13">
+<s id="ParlaMint-IS_2022-06-15.seg533.13" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.114">
 Þarna	Þarna	þarna	ADV	Degree=Pos	1	advmod	vera	AUX	Tense=Past VerbForm=Part	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	vera	AUX	Tense=Past VerbForm=Part	3
 verið	verið	vera	AUX	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -4704,7 +4704,7 @@ bragði	bragði	bragð	NOUN	Case=Dat Definite=Ind Number=Sing	62	ccomp	það	PRO
 <g/>
 .	.	.	PUNCT	-	63	punct	bragð	NOUN	Case=Dat Definite=Ind Number=Sing	62
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.14">
+<s id="ParlaMint-IS_2022-06-15.seg533.14" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.394">
 Við	Við	ég	PRON	Case=Nom	1	nsubj	taka	VERB	Mood=Ind Tense=Past	2
 tókum	tókum	taka	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 ekki	ekki	ekki	ADV	-	3	advmod	taka	VERB	Mood=Ind Tense=Past	2
@@ -4728,7 +4728,7 @@ bannað	bannað	banna	VERB	Tense=Past VerbForm=Part	20	advcl	regla	NOUN	Case=Acc
 <g/>
 .	.	.	PUNCT	-	21	punct	banna	VERB	Tense=Past VerbForm=Part	20
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg533.15">
+<s id="ParlaMint-IS_2022-06-15.seg533.15" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.865">
 Við	Við	ég	PRON	Case=Nom	1	nsubj	gera	VERB	Mood=Ind Tense=Past	2
 gerðum	gerðum	gera	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 það	það	það	PRON	Case=Acc	3	obj	gera	VERB	Mood=Ind Tense=Past	2
@@ -4763,7 +4763,7 @@ erum	erum	vera	AUX	Mood=Ind Tense=Pres	26	cop	þessi	DET	Case=Dat	28
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg534" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg534.1">
+<s id="ParlaMint-IS_2022-06-15.seg534.1" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.429">
 En	En	en	CCONJ	-	1	cc	gera	VERB	VerbForm=Inf	6
 síðan	síðan	síðan	ADV	Degree=Pos	2	advmod	gera	VERB	VerbForm=Inf	6
 vil	vil	vilja	AUX	Mood=Ind Tense=Pres	3	aux	gera	VERB	VerbForm=Inf	6
@@ -4842,7 +4842,7 @@ nefndarálitinu	nefndarálitinu	nefndarálit	NOUN	Case=Dat Definite=Ind Number=S
 <g/>
 .	.	.	PUNCT	-	74	punct	nefndarálit	NOUN	Case=Dat Definite=Ind Number=Sing	73
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.2">
+<s id="ParlaMint-IS_2022-06-15.seg534.2" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.147">
 Þrátt	Þrátt	þrátt	ADV	Degree=Pos	1	advmod	kunna	VERB	Mood=Sub Tense=Pres	8
 fyrir	fyrir	fyrir	ADP	-	2	case	kunna	VERB	Mood=Sub Tense=Pres	8
 að	að	að	SCONJ	-	3	mark	kunna	VERB	Mood=Sub Tense=Pres	8
@@ -4912,7 +4912,7 @@ stoðum	stoðum	stoð	NOUN	Case=Dat Definite=Ind Number=Plur	66	obj	skjóta	VERB
 <g/>
 .	.	.	PUNCT	-	67	punct	stoð	NOUN	Case=Dat Definite=Ind Number=Plur	66
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.3">
+<s id="ParlaMint-IS_2022-06-15.seg534.3" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.087">
 Bannið	Bannið	bann	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	undirbyggja	VERB	Degree=Pos Tense=Past VerbForm=Part	9
 sé	sé	vera	AUX	Mood=Sub Tense=Pres	2	cop	undirbyggja	VERB	Degree=Pos Tense=Past VerbForm=Part	9
 með	með	með	ADP	-	3	case	orð	NOUN	Case=Dat Definite=Ind Number=Plur	5
@@ -4968,7 +4968,7 @@ draga	draga	draga	VERB	VerbForm=Inf	50	obl	leið	NOUN	Case=Dat Definite=Ind Numb
 <g/>
 .	.	.	PUNCT	-	53	punct	það	PRON	Case=Dat	52
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.4">
+<s id="ParlaMint-IS_2022-06-15.seg534.4" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.243">
 Og	Og	og	CCONJ	-	1	cc	finna	VERB	Mood=Ind Tense=Pres	3
 þetta	þetta	þessi	DET	Case=Nom	2	obl	finna	VERB	Mood=Ind Tense=Pres	3
 finnst	finnst	finna	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -5029,12 +5029,12 @@ nefndaráliti	nefndaráliti	nefndarálit	NOUN	Case=Dat Definite=Ind Number=Sing	
 <g/>
 .	.	.	PUNCT	-	58	punct	nefndarálit	NOUN	Case=Dat Definite=Ind Number=Sing	57
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.5">
+<s id="ParlaMint-IS_2022-06-15.seg534.5" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.888">
 Afsakið	Afsakið	afsaka	VERB	Mood=Imp Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	afsaka	VERB	Mood=Imp Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.6">
+<s id="ParlaMint-IS_2022-06-15.seg534.6" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.669">
 En	En	en	CCONJ	-	1	cc	tiltæka	VERB	VerbForm=Inf	6
 það	það	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	2	expl	tiltæka	VERB	VerbForm=Inf	6
 má	má	mega	AUX	Mood=Ind Tense=Pres	3	aux	tiltæka	VERB	VerbForm=Inf	6
@@ -5050,7 +5050,7 @@ jákvætt	jákvætt	jákvæður	ADJ	Case=Nom Degree=Pos	10	acl:relcl	annar	PRON	
 <g/>
 .	.	.	PUNCT	-	13	punct	þessi	DET	Case=Dat	12
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.7">
+<s id="ParlaMint-IS_2022-06-15.seg534.7" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.748">
 Það	Það	það	PRON	Case=Nom	1	root	-	-	-	-
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	það	PRON	Case=Nom	1
 að	að	að	SCONJ	-	3	mark	leggja	VERB	Mood=Ind Tense=Past	5
@@ -5120,7 +5120,7 @@ svo	svo	svo	ADV	Degree=Pos	66	obl	öðruvísi	ADV	Degree=Pos	64
 <g/>
 .	.	.	PUNCT	-	67	punct	svo	ADV	Degree=Pos	66
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.8">
+<s id="ParlaMint-IS_2022-06-15.seg534.8" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.843">
 En	En	en	CCONJ	-	1	cc	fela	VERB	VerbForm=Inf	8
 að	að	að	SCONJ	-	2	mark	fela	VERB	VerbForm=Inf	8
 meiri	meiri	mikill	DET	Case=Nom Degree=Pos	3	amod	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	4
@@ -5228,7 +5228,7 @@ lending	lending	lending	NOUN	Case=Nom Definite=Ind Number=Sing	97	obl	ná	VERB	M
 <g/>
 .	.	.	PUNCT	-	100	punct	það	PRON	Case=Dat	99
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.9">
+<s id="ParlaMint-IS_2022-06-15.seg534.9" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.347">
 En	En	en	CCONJ	-	1	cc	nefna	VERB	VerbForm=Inf	4
 ég	ég	ég	PRON	Case=Nom	2	nsubj	nefna	VERB	VerbForm=Inf	4
 vildi	vildi	vilja	AUX	Mood=Ind Tense=Past	3	aux	nefna	VERB	VerbForm=Inf	4
@@ -5329,7 +5329,7 @@ nikótínvörur	nikótínvörur	nikótínvara	NOUN	Case=Acc Definite=Ind Number=
 <g/>
 .	.	.	PUNCT	-	93	punct	nikótínvara	NOUN	Case=Acc Definite=Ind Number=Plur	92
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.10">
+<s id="ParlaMint-IS_2022-06-15.seg534.10" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.539">
 Sex	Sex	sex	NUM	Case=Nom	1	nummod	mánuður	NOUN	Case=Nom Definite=Ind Number=Plur	2
 mánuðir	mánuðir	mánuður	NOUN	Case=Nom Definite=Ind Number=Plur	2	nsubj	rafretta	NOUN	Case=Acc Definite=Ind Number=Plur	6
 voru	voru	vera	AUX	Mood=Ind Tense=Past	3	cop	rafretta	NOUN	Case=Acc Definite=Ind Number=Plur	6
@@ -5374,7 +5374,7 @@ bæta	bæta	bæta	VERB	VerbForm=Inf	40	acl	eiga	VERB	Mood=Ind Tense=Pres	38
 <g/>
 .	.	.	PUNCT	-	42	punct	ástand	NOUN	Case=Acc Definite=Ind Number=Sing	41
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.11">
+<s id="ParlaMint-IS_2022-06-15.seg534.11" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.533">
 En	En	en	CCONJ	-	1	cc	áleitinn	ADJ	Case=Nom Degree=Pos	5
 það	það	það	PRON	Case=Nom Gender=Neut Number=Sing	2	expl	áleitinn	ADJ	Case=Nom Degree=Pos	5
 er	er	vera	AUX	Mood=Ind Tense=Pres	3	cop	áleitinn	ADJ	Case=Nom Degree=Pos	5
@@ -5430,7 +5430,7 @@ gengið	gengið	ganga	VERB	Tense=Past VerbForm=Part	52	xcomp	finna	VERB	Mood=Ind
 <g/>
 .	.	.	PUNCT	-	53	punct	ganga	VERB	Tense=Past VerbForm=Part	52
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.12">
+<s id="ParlaMint-IS_2022-06-15.seg534.12" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.671">
 Þarna	Þarna	þarna	ADV	Degree=Pos	1	advmod	lenda	VERB	Tense=Past VerbForm=Part	4
 gætu	gætu	geta	AUX	Mood=Sub Tense=Past	2	aux	lenda	VERB	Tense=Past VerbForm=Part	4
 menn	menn	maður	NOUN	Case=Nom Definite=Ind Number=Plur	3	nsubj	lenda	VERB	Tense=Past VerbForm=Part	4
@@ -5504,7 +5504,7 @@ góðum	góðum	góður	ADJ	Case=Dat Degree=Pos	66	amod	ásetningur	NOUN	Case=Da
 <g/>
 .	.	.	PUNCT	-	69	punct	ásetningur	NOUN	Case=Acc Definite=Ind Number=Sing	68
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.13">
+<s id="ParlaMint-IS_2022-06-15.seg534.13" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.700">
 Ásetningurinn	Ásetningurinn	ásetningur	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	góður	ADJ	Case=Nom Degree=Pos	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	góður	ADJ	Case=Nom Degree=Pos	3
 góður	góður	góður	ADJ	Case=Nom Degree=Pos	3	root	-	-	-	-
@@ -5528,7 +5528,7 @@ mál	mál	mál	NOUN	Case=Nom Definite=Ind Number=Sing	20	xcomp	verða	VERB	Mood=
 <g/>
 .	.	.	PUNCT	-	21	punct	mál	NOUN	Case=Nom Definite=Ind Number=Sing	20
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg534.14">
+<s id="ParlaMint-IS_2022-06-15.seg534.14" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.256">
 Þannig	Þannig	þannig	ADV	Degree=Pos	1	root	-	-	-	-
 að	að	að	SCONJ	-	2	mark	hafa	AUX	Mood=Ind Tense=Pres	5
 ef	ef	ef	ADP	-	3	case	hafa	AUX	Mood=Ind Tense=Pres	5
@@ -5548,7 +5548,7 @@ sér	sér	sig	PRON	Case=Dat	14	obl	velta	VERB	VerbForm=Inf	10
 </s>
 </p>
 <p id="ParlaMint-IS_2022-06-15.seg535" lang="Íslenska">
-<s id="ParlaMint-IS_2022-06-15.seg535.1">
+<s id="ParlaMint-IS_2022-06-15.seg535.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.640">
 Þetta	Þetta	þessi	DET	Case=Nom	1	root	-	-	-	-
 eru	eru	vera	AUX	Mood=Ind Tense=Pres	2	cop	þessi	DET	Case=Nom	1
 auðvitað	auðvitað	auðvitað	ADV	Degree=Pos	3	advmod	þessi	DET	Case=Nom	1
@@ -5564,7 +5564,7 @@ nefndinni	nefndinni	nefnd	NOUN	Case=Dat Definite=Ind Number=Sing	12	obl	koma	VER
 <g/>
 .	.	.	PUNCT	-	13	punct	nefnd	NOUN	Case=Dat Definite=Ind Number=Sing	12
 </s>
-<s id="ParlaMint-IS_2022-06-15.seg535.2">
+<s id="ParlaMint-IS_2022-06-15.seg535.2" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.258">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	eiga	VERB	Mood=Ind Tense=Pres	6
 satt	satt	sannur	ADJ	Case=Acc Degree=Pos	2	obl	eiga	VERB	Mood=Ind Tense=Pres	6
 best	best	vel	ADV	Degree=Sup	3	amod	sannur	ADJ	Case=Acc Degree=Pos	2

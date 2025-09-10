@@ -13,9 +13,9 @@
 <note type="editorial" content="- Peter Buysrogge à Philippe Goffin (Affaires étrangères et Défense) sur \"Le retard dans le développement des nouvelles frégates\" (55006700C)"/>
 <note type="editorial" content="- Melissa Depraetere à Philippe Goffin (Affaires étrangères et Défense) sur \"La construction des nouvelles frégates M\" (55006711C)"/>
 <note type="speaker" content="01.01 Annick Ponthier (VB):"/>
-<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" text_id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="Nederlands" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020" speaker_role="Vast" speaker_id="PonthierAnnick" speaker_name="Ponthier, Annick" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VB" speaker_party_name="Vlaams Belang" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" text_id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="Nederlands" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020" speaker_role="Vast" topic="Defensie" speaker_id="PonthierAnnick" speaker_name="Ponthier, Annick" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VB" speaker_party_name="Vlaams Belang" party_status="Opposition" party_orientation="rechts tot extreemrechts" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg1" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s18">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s18" senti_3="Negatief" senti_6="negatief" senti_n="0.224">
 Mijnheer	Mijnheer	mijnheer	NOUN	Gender=Com Number=Sing	w254	parataxis	lopen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w260
 de	de	de	DET	Definite=Def	w255	det	minister	NOUN	Gender=Com Number=Sing	w256
 minister	minister	minister	NOUN	Gender=Com Number=Sing	w256	appos	mijnheer	NOUN	Gender=Com Number=Sing	w254
@@ -52,7 +52,7 @@ op	op	op	ADP	-	w278	compound:prt	lopen	VERB	Number=Sing Tense=Pres VerbForm=Fin	
 <g/>
 .	.	.	PUNCT	-	pc80	punct	lopen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w260
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s19">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s19" senti_3="Negatief" senti_6="gemengd negatief" senti_n="0.787">
 Het	Het	het	PRON	Person=3 PronType=Prs	w279	expl	onduidelijk	ADJ	Degree=Pos	w282
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w280	cop	onduidelijk	ADJ	Degree=Pos	w282
 momenteel	momenteel	momenteel	ADJ	Degree=Pos	w281	advmod	onduidelijk	ADJ	Degree=Pos	w282
@@ -69,7 +69,7 @@ liggen	liggen	liggen	VERB	VerbForm=Inf	w291	csubj	onduidelijk	ADJ	Degree=Pos	w28
 <g/>
 .	.	.	PUNCT	-	pc81	punct	onduidelijk	ADJ	Degree=Pos	w282
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s20">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s20" senti_3="Negatief" senti_6="gemengd negatief" senti_n="1.364">
 Het	Het	het	PRON	Person=3 PronType=Prs	w292	nsubj	gaan	VERB	VerbForm=Inf	w294
 zou	zou	zullen	AUX	Number=Sing Tense=Past VerbForm=Fin	w293	aux	gaan	VERB	VerbForm=Inf	w294
 gaan	gaan	gaan	VERB	VerbForm=Inf	w294	root	-	-	-	-
@@ -94,7 +94,7 @@ inzetbaarheid	inzetbaarheid	inzetbaarheid	NOUN	Gender=Com Number=Sing	w308	nmod	
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg2" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s21">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s21" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.527">
 U	U	u	PRON	Case=Nom Person=2 PronType=Prs	w309	nsubj	weten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w310
 weet	weet	weten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w310	root	-	-	-	-
 dat	dat	dat	SCONJ	-	w311	mark	belang	NOUN	Gender=Neut Number=Sing	w329
@@ -127,7 +127,7 @@ vragen	vragen	vraag	NOUN	Number=Plur	w333	parataxis	vandaar	ADV	-	w331
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg3" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s22">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s22" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.553">
 Kunt	Kunt	kunnen	AUX	Number=Sing Tense=Pres VerbForm=Fin	w334	aux	geven	VERB	VerbForm=Inf	w338
 u	u	u	PRON	Case=Nom Person=2 PronType=Prs	w335	nsubj	geven	VERB	VerbForm=Inf	w338
 meer	meer	meer	DET	-	w336	det	duiding	NOUN	Gender=Com Number=Sing	w337
@@ -152,7 +152,7 @@ dossier	dossier	dossier	NOUN	Gender=Neut Number=Sing	w350	nmod	stand	NOUN	Gender
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg4" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s23">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s23" senti_3="Negatief" senti_6="gemengd negatief" senti_n="0.792">
 Waar	Waar	waar	ADV	-	w351	advmod	liggen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w352
 ligt	ligt	liggen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w352	root	-	-	-	-
 momenteel	momenteel	momenteel	ADJ	Degree=Pos	w353	advmod	liggen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w352
@@ -166,7 +166,7 @@ gegevens	gegevens	gegeven	NOUN	Number=Plur	w358	obl	liggen	VERB	Number=Sing Tens
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg5" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s24">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s24" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.030">
 Wat	Wat	wat	PRON	Person=3 PronType=Int	w359	root	-	-	-	-
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w360	cop	wat	PRON	Person=3 PronType=Int	w359
 de	de	de	DET	Definite=Def	w361	det	levensduur	NOUN	Gender=Com Number=Sing	w363
@@ -187,7 +187,7 @@ beschikt	beschikt	beschikken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w371	acl:r
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg6" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s25">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s25" senti_3="Negatief" senti_6="gemengd negatief" senti_n="0.716">
 Welke	Welke	welke	DET	-	w372	det	gevolg	NOUN	Number=Plur	w373
 gevolgen	gevolgen	gevolg	NOUN	Number=Plur	w373	obj	hebben	VERB	VerbForm=Inf	w378
 zal	zal	zullen	AUX	Number=Sing Tense=Pres VerbForm=Fin	w374	aux	hebben	VERB	VerbForm=Inf	w378
@@ -203,7 +203,7 @@ zake	zake	zake	NOUN	Number=Sing	w383	fixed	ter	ADP	-	w382
 <g/>
 ?	?	?	PUNCT	-	pc90	punct	hebben	VERB	VerbForm=Inf	w378
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s26">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s26" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.507">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w384	nsubj	denken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w385
 denk	denk	denken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w385	root	-	-	-	-
 aan	aan	aan	ADP	-	w386	case	onderhoudskosten	NOUN	Number=Plur	w388
@@ -218,7 +218,7 @@ kosten	kosten	kost	NOUN	Number=Plur	w392	conj	onderhoudskosten	NOUN	Number=Plur	
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg7" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s27">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s27" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.479">
 Initieel	Initieel	initieel	NOUN	Gender=Neut Number=Sing	w393	nsubj:pass	vooropstellen	VERB	VerbForm=Part	w396
 werd	werd	worden	AUX	Number=Sing Tense=Past VerbForm=Fin	w394	aux:pass	vooropstellen	VERB	VerbForm=Part	w396
 er	er	er	PRON	Person=3 PronType=Dem	w395	expl	hebben	VERB	VerbForm=Inf	w402
@@ -234,7 +234,7 @@ tegen	tegen	tegen	ADP	-	w403	case	2024	NUM	-	w404
 <g/>
 .	.	.	PUNCT	-	pc92	punct	vooropstellen	VERB	VerbForm=Part	w396
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s28">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s28" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.681">
 Welke	Welke	welke	DET	-	w405	det	termijn	NOUN	Gender=Com Number=Sing	w406
 termijn	termijn	termijn	NOUN	Gender=Com Number=Sing	w406	nsubj:pass	vooropstellen	VERB	VerbForm=Part	w410
 wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w407	aux:pass	vooropstellen	VERB	VerbForm=Part	w410
@@ -247,9 +247,9 @@ vooropgesteld	vooropgesteld	vooropstellen	VERB	VerbForm=Part	w410	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="01.02 Sammy Mahdi (CD&V):"/>
-<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u2" text_id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="Nederlands" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020" speaker_role="Vast" speaker_id="MahdiSammy" speaker_name="Mahdi, Sammy" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1988">
+<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u2" text_id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="Nederlands" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020" speaker_role="Vast" topic="Defensie" speaker_id="MahdiSammy" speaker_name="Mahdi, Sammy" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1988">
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg8" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s30">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s30" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.719">
 Mijnheer	Mijnheer	mijnheer	NOUN	Gender=Com Number=Sing	w415	parataxis	sluiten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w419
 de	de	de	DET	Definite=Def	w416	det	voorzitter	NOUN	Gender=Com Number=Sing	w417
 voorzitter	voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w417	appos	mijnheer	NOUN	Gender=Com Number=Sing	w415
@@ -273,7 +273,7 @@ herhalen	herhalen	herhalen	VERB	VerbForm=Inf	w432	conj	sluiten	VERB	Number=Sing 
 <g/>
 .	.	.	PUNCT	-	pc97	punct	sluiten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w419
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s31">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s31" senti_3="Positief" senti_6="positief" senti_n="4.899">
 Het	Het	het	PRON	Person=3 PronType=Prs	w433	expl	zaak	NOUN	Gender=Com Number=Sing	w437
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w434	cop	zaak	NOUN	Gender=Com Number=Sing	w437
 een	een	een	DET	Definite=Ind	w435	det	zaak	NOUN	Gender=Com Number=Sing	w437
@@ -312,7 +312,7 @@ Defensie	Defensie	defensie	NOUN	Gender=Com Number=Sing	w457	nmod	vlak	NOUN	Gende
 </name>
 .	.	.	PUNCT	-	pc101	punct	zaak	NOUN	Gender=Com Number=Sing	w437
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s32">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s32" senti_3="Negatief" senti_6="negatief" senti_n="0.284">
 Het	Het	het	DET	Definite=Def	w458	det	probleem	NOUN	Gender=Neut Number=Sing	w459
 probleem	probleem	probleem	NOUN	Gender=Neut Number=Sing	w459	root	-	-	-	-
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w460	cop	probleem	NOUN	Gender=Neut Number=Sing	w459
@@ -331,7 +331,7 @@ aankoop	aankoop	aankoop	NOUN	Gender=Com Number=Sing	w470	obl	verantwoordelijk	AD
 <g/>
 .	.	.	PUNCT	-	pc102	punct	probleem	NOUN	Gender=Neut Number=Sing	w459
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s33">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s33" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.142">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w471	nsubj	benieuwen	ADJ	Degree=Pos	w473
 ben	ben	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w472	cop	benieuwen	ADJ	Degree=Pos	w473
 benieuwd	benieuwd	benieuwen	ADJ	Degree=Pos	w473	root	-	-	-	-
@@ -341,7 +341,7 @@ leveringstermijn	leveringstermijn	leveringstermijn	NOUN	Gender=Com Number=Sing	w
 <g/>
 .	.	.	PUNCT	-	pc103	punct	benieuwen	ADJ	Degree=Pos	w473
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s34">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s34" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.294">
 Wanneer	Wanneer	wanneer	ADV	-	w477	advmod	liggen	VERB	VerbForm=Inf	w484
 zullen	zullen	zullen	AUX	Number=Plur Tense=Pres VerbForm=Fin	w478	aux	liggen	VERB	VerbForm=Inf	w484
 de	de	de	DET	Definite=Def	w479	det	fregat	NOUN	Number=Plur	w480
@@ -355,7 +355,7 @@ liggen	liggen	liggen	VERB	VerbForm=Inf	w484	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg9" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s35">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s35" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="1.980">
 Zijn	Zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w485	aux	zijn	VERB	VerbForm=Part	w489
 er	er	er	ADV	-	w486	advmod	zijn	VERB	VerbForm=Part	w489
 al	al	al	ADV	-	w487	advmod	zijn	VERB	VerbForm=Part	w489
@@ -370,7 +370,7 @@ collega's	collega's	collega	NOUN	Number=Plur	w493	nmod	contact	NOUN	Number=Plur	
 <g/>
 ?	?	?	PUNCT	-	pc105	punct	zijn	VERB	VerbForm=Part	w489
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s36">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s36" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.810">
 Wat	Wat	wat	PRON	Person=3 PronType=Int	w494	obj	opleveren	VERB	VerbForm=Part	w497
 hebben	hebben	hebben	AUX	Number=Plur Tense=Pres VerbForm=Fin	w495	aux	opleveren	VERB	VerbForm=Part	w497
 die	die	die	PRON	Person=3 PronType=Dem	w496	nsubj	opleveren	VERB	VerbForm=Part	w497
@@ -378,7 +378,7 @@ opgeleverd	opgeleverd	opleveren	VERB	VerbForm=Part	w497	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	pc106	punct	opleveren	VERB	VerbForm=Part	w497
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s37">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s37" senti_3="Negatief" senti_6="gemengd negatief" senti_n="1.047">
 Zullen	Zullen	zullen	AUX	Number=Plur Tense=Pres VerbForm=Fin	w498	aux	aankopen	VERB	VerbForm=Part	w504
 alle	alle	al	DET	-	w499	det	wapensysteem	NOUN	Number=Plur	w501
 nodige	nodige	nodig	ADJ	Degree=Pos	w500	amod	wapensysteem	NOUN	Number=Plur	w501
@@ -405,9 +405,9 @@ bestellingen	bestellingen	bestelling	NOUN	Number=Plur	w515	nmod	aantal	NOUN	Gend
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u89" text_id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020" speaker_role="Vast" speaker_id="BombledChristophe" speaker_name="Bombled, Christophe" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u89" text_id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020" speaker_role="Vast" topic="Overig" speaker_id="BombledChristophe" speaker_name="Bombled, Christophe" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="Coalition" party_orientation="Centrum-rechts" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg375" lang="Frans">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1333">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1333" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.469">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w21762	nsubj	remercier	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w21764
 vous	vous	il	PRON	Number=Plur Person=2 PronType=Prs	w21763	obj	remercier	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w21764
 remercie	remercie	remercier	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w21764	root	-	-	-	-
@@ -433,9 +433,9 @@ remarque	remarque	remarque	NOUN	Gender=Fem Number=Sing	w21772	obj	avoir	VERB	Moo
 <note type="editorial" content="Het incident is gesloten."/>
 <note type="editorial" content="L'incident est clos."/>
 <note type="speaker" content="De voorzitter:"/>
-<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u90" text_id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="Nederlands" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020" speaker_role="Voorzitter" speaker_id="BuysroggePeter" speaker_name="Buysrogge, Peter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u90" text_id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="Nederlands" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020" speaker_role="Voorzitter" topic="Overig" speaker_id="BuysroggePeter" speaker_name="Buysrogge, Peter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Opposition" party_orientation="Centrum-rechts tot rechts" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg376" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1337">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1337" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.175">
 Tot	Tot	tot	ADP	-	w21782	case	slot	NOUN	Gender=Neut Number=Sing	w21783
 slot	slot	slot	NOUN	Gender=Neut Number=Sing	w21783	obl	meegeven	VERB	VerbForm=Inf	w21787
 wil	wil	willen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w21784	root	-	-	-	-
@@ -481,7 +481,7 @@ vragen	vragen	vraag	NOUN	Number=Plur	w21813	obl	omzetten	VERB	VerbForm=Part	w218
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg377" lang="Nederlands">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1338">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1338" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.592">
 De	De	de	DET	Definite=Def	w21814	det	vergadering	NOUN	Gender=Com Number=Sing	w21816
 volgende	volgende	volgend	VERB	VerbForm=Part	w21815	amod	vergadering	NOUN	Gender=Com Number=Sing	w21816
 vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w21816	obj	beginnen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w21817

@@ -3,9 +3,9 @@
 <note type="time" content="Beginning of session: 14 a.m.: 49 p.m."/>
 <note type="chairpersons" content="Third President Ing. NorbertHofer"/>
 <note type="speaker" content="President Ing. Norbert Hofer"/>
-<speech id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e370" text_id="ParlaMint-AT-en_2015-01-14-025-XXV-NRSITZ-00058" subcorpus="Reference" lang="English" body="Lower house" term="Legislative period XXV" session="-" meeting="-" sitting="Sitting 58" agenda="-" date="2015-01-14" title="Sitting Number 58, Legislative period XXV, Wednesday, 14. January 2015" speaker_role="Chairperson" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="parliamentary group of the Austrian Freedom Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e370" text_id="ParlaMint-AT-en_2015-01-14-025-XXV-NRSITZ-00058" subcorpus="Reference" lang="English" body="Lower house" term="Legislative period XXV" session="-" meeting="-" sitting="Sitting 58" agenda="-" date="2015-01-14" title="Sitting Number 58, Legislative period XXV, Wednesday, 14. January 2015" speaker_role="Chairperson" topic="Other" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="parliamentary group of the Austrian Freedom Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196" lang="English">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.633">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'll	'll	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -26,7 +26,7 @@ Council	Council	Council	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 </s>
 </p>
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198" lang="English">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.750">
 Deputies	Deputies	deputy	NOUN	Number=Plur	Z2,Z3c	Z2	Z2: Geographical names	t1
 of	of	of	ADP	-	Z2,Z3c	Z2	Z2: Geographical names	t2
 <name type="LOC">
@@ -122,7 +122,7 @@ preventable	preventable	preventable	ADJ	Degree=Pos	Z99	Z99	Z99: Unmatched	t40
 </p>
 <note type="time" content="14:49:16"/>
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203" lang="English">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.772">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Entry	Entry	entry	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -132,9 +132,9 @@ allocations	allocations	allocation	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period
 </p>
 </speech>
 <note type="speaker" content="President Ing. Norbert Hofer"/>
-<speech id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e401" text_id="ParlaMint-AT-en_2015-01-14-025-XXV-NRSITZ-00058" subcorpus="Reference" lang="English" body="Lower house" term="Legislative period XXV" session="-" meeting="-" sitting="Sitting 58" agenda="-" date="2015-01-14" title="Sitting Number 58, Legislative period XXV, Wednesday, 14. January 2015" speaker_role="Chairperson" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="parliamentary group of the Austrian Freedom Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e401" text_id="ParlaMint-AT-en_2015-01-14-025-XXV-NRSITZ-00058" subcorpus="Reference" lang="English" body="Lower house" term="Legislative period XXV" session="-" meeting="-" sitting="Sitting 58" agenda="-" date="2015-01-14" title="Sitting Number 58, Legislative period XXV, Wednesday, 14. January 2015" speaker_role="Chairperson" topic="Other" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="parliamentary group of the Austrian Freedom Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208" lang="English">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.407">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 regards	regards	regards	NOUN	Number=Plur	X2.1,S1.2.4+	X2.1	X2.1: Thought, belief	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -181,7 +181,7 @@ room	room	room	NOUN	Number=Sing	Df/H2	H2	H2: Parts of buildings	t33
 </s>
 </p>
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210" lang="English">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.030">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 written	written	write	VERB	Tense=Past VerbForm=Part	Q1.2,I2.1	Q1.2	Q1.2: Paper documents and writing	t2
 communication	communication	communication	NOUN	Number=Sing	Q2.1,Q1.2,Q1.3,Q4.3	Q2.1	Q2.1: Speech: Communicative	t3

@@ -42,9 +42,25 @@
                <resp xml:lang="it">Riconoscimento Entità Nominate</resp>
                <resp xml:lang="en">NER</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="it">Commissione Europea</orgName>
@@ -64,7 +80,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="23" unit="speeches" xml:lang="it">23 discorsi</measure>
@@ -78,13 +94,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -112,6 +128,7 @@
                <tagUsage gi="kinesic" occurs="4"/>
                <tagUsage gi="link" occurs="2591"/>
                <tagUsage gi="linkGrp" occurs="91"/>
+               <tagUsage gi="measure" occurs="91"/>
                <tagUsage gi="name" occurs="70"/>
                <tagUsage gi="note" occurs="26"/>
                <tagUsage gi="pc" occurs="299"/>
@@ -135,8 +152,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war" xml:lang="it">
@@ -144,9 +163,10 @@
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.note1">Presidenza del vice presidente LA RUSSA</note>
             <note type="speaker" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.note2">PRESIDENTE</note>
-            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u1">
+            <u ana="#chair topic:other" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u1">
                <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1">
                   <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1">
+                     <measure type="sentiment" quantity="3.621" ana="senti:mixpos" corresp="#ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1"/>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.1" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">La</w>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.2" lemma="seduta" pos="S" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">seduta</w>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.3" lemma="essere" pos="VA" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">è</w>
@@ -169,6 +189,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2">
+                     <measure type="sentiment" quantity="2.730" ana="senti:neupos" corresp="#ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2"/>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2.1" lemma="si" pos="PC" msd="UPosTag=PRON|Clitic=Yes|Person=3|PronType=Prs">Si</w>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2.2" lemma="dare" pos="V" msd="UPosTag=VERB|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">dia</w>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2.3" lemma="lettura" pos="S" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">lettura</w>
@@ -188,6 +209,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3">
+                     <measure type="sentiment" quantity="2.743" ana="senti:neupos" corresp="#ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3"/>
                      <name type="PER">
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.1" lemma="DURNWALDER" pos="SP" msd="UPosTag=PROPN" join="right">DURNWALDER</w>
                      </name>
@@ -227,6 +249,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4">
+                     <measure type="sentiment" quantity="3.687" ana="senti:mixpos" corresp="#ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4"/>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.1" lemma="presidente" pos="S" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">PRESIDENTE</w>
 <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.2" pos="FS" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -235,6 +258,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5">
+                     <measure type="sentiment" quantity="3.184" ana="senti:neupos" corresp="#ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5"/>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.1" lemma="non" pos="BN" msd="UPosTag=ADV|PronType=Neg">Non</w>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.2-3">essendovi<w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.2" norm="essendo" lemma="essere" pos="VA" msd="UPosTag=AUX|VerbForm=Ger"/><w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.3" norm="vi" lemma="vi" pos="PC" msd="UPosTag=PRON|Clitic=Yes|PronType=Prs"/></w>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.4" lemma="osservazione" pos="S" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" join="right">osservazioni</w>
@@ -268,9 +292,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.head1">Comunicazioni della Presidenza</head>
             <note type="speaker" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.note3">PRESIDENTE</note>
-            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u2">
+            <u ana="#chair topic:other" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u2">
                <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2">
                   <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1">
+                     <measure type="sentiment" quantity="1.990" ana="senti:neuneg" corresp="#ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1"/>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.1" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art" join="right">L'</w>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.2" lemma="elenco" pos="S" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">elenco</w>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.3-4">dei<w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.3" norm="di" lemma="di" pos="E" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.4" norm="i" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art"/></w>
@@ -351,9 +376,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u22">
+            <u ana="#chair topic:other" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u22">
                <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41">
                   <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1">
+                     <measure type="sentiment" quantity="2.081" ana="senti:neuneg" corresp="#ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1"/>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.1" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art">Le</w>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.2" lemma="mozione" pos="S" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" join="right">mozioni</w>
 <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.3" pos="FF" msd="UPosTag=PUNCT">,</pc>
@@ -465,9 +491,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.head8">Ordine del giorno per la seduta di martedì 13 settembre 2022</head>
             <note type="speaker" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.note26">PRESIDENTE</note>
-            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u23">
+            <u ana="#chair topic:other" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u23">
                <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42">
                   <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1">
+                     <measure type="sentiment" quantity="2.595" ana="senti:neupos" corresp="#ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1"/>
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.1" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">Il</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.2" lemma="Senato" pos="SP" msd="UPosTag=PROPN">Senato</w>

@@ -1,14 +1,14 @@
 <note type="speaker" content="LEHENDAKARIAK (Tejeria Otermin):"/>
-<speech id="ParlaMint-ES-PV_2022-10-14.u0" text_id="ParlaMint-ES-PV_2022-10-14" subcorpus="COVID,War" lang="Euskara" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2022-10-14" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2022-10-14.u0" text_id="ParlaMint-ES-PV_2022-10-14" subcorpus="COVID,War" lang="Euskara" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2022-10-14" speaker_role="Chairperson" topic="Law and Crime" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2022-10-14.seg2" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg2.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg2.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.697">
 Egun	Egun	egun	NOUN	-	w1	root	-	-	-	-
 on	on	on	ADJ	-	w2	amod	egun	NOUN	-	w1
 guztioi	guztioi	guzti	NUM	NumType=Card	w3	det	egun	NOUN	-	w1
 <g/>
 .	.	.	PUNCT	-	w4	punct	egun	NOUN	-	w1
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg2.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg2.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.065">
 Osoko	Osoko	osoko	ADJ	-	w1	amod	bilkura	NOUN	-	w2
 bilkurari	bilkurari	bilkura	NOUN	-	w2	nmod	hasiera	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 hasiera	hasiera	hasiera	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3	obj	eman	VERB	Aspect=Prosp VerbForm=Part	w4
@@ -19,7 +19,7 @@ diogu	diogu	*edun	AUX	Mood=Ind Number[abs]=Sing Number[dat]=Sing Number[erg]=Plu
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg3" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg3.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg3.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.350">
 <name type="ORG">
 Gai-zerrendako	Gai-zerrendako	Gai-zerrenda	PROPN	Case=Loc Definite=Def Number=Sing	w1	nmod	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 </name>
@@ -28,7 +28,7 @@ puntua	puntua	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3	root	
 <g/>
 :	:	:	PUNCT	-	w4	punct	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg3.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg3.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.234">
 "	"	"	PUNCT	-	w1	punct	egin	VERB	Case=Abs Definite=Def Number=Sing VerbForm=Part	w17
 <g/>
 Galdera	Galdera	galdera	NUM	Case=Abs Definite=Ind NumType=Card	w2	obl	egin	VERB	Case=Abs Definite=Def Number=Sing VerbForm=Part	w17
@@ -77,7 +77,7 @@ buruz	buruz	buruz	ADP	Definite=Def Number=Sing	w30	case	jarduera	NOUN	Case=Dat	w
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg4" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg4.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg4.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.532">
 Atutxa	Atutxa	Atutxa	PROPN	-	w1	nmod	jaun	NOUN	Case=Abs Definite=Def Number=Sing	w2
 jauna	jauna	jaun	NOUN	Case=Abs Definite=Def Number=Sing	w2	nsubj	zure	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w4
 <g/>
@@ -91,9 +91,9 @@ hitza	hitza	hitz	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w6	root	-	-
 </p>
 </speech>
 <note type="speaker" content="ATUTXA SAINZ jaunak:"/>
-<speech id="ParlaMint-ES-PV_2022-10-14.u1" text_id="ParlaMint-ES-PV_2022-10-14" subcorpus="COVID,War" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2022-10-14" speaker_role="Regular" speaker_id="AtutxaSainz" speaker_name="Atutxa Sainz, Jon Andoni" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="M" speaker_birth="1970">
+<speech id="ParlaMint-ES-PV_2022-10-14.u1" text_id="ParlaMint-ES-PV_2022-10-14" subcorpus="COVID,War" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2022-10-14" speaker_role="Regular" topic="Law and Crime" speaker_id="AtutxaSainz" speaker_name="Atutxa Sainz, Jon Andoni" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="M" speaker_birth="1970">
 <p id="ParlaMint-ES-PV_2022-10-14.seg5" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg5.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg5.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.380">
 Eskerrik	Eskerrik	Esker	NOUN	-	w1	root	-	-	-	-
 asko	asko	asko	DET	Case=Abs Definite=Ind	w2	det	Esker	NOUN	-	w1
 <g/>
@@ -103,7 +103,7 @@ andrea	andrea	andre	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w5	conj	
 <g/>
 .	.	.	PUNCT	-	w6	punct	Esker	NOUN	-	w1
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg5.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg5.s2" senti_3="Positive" senti_6="mixed positive" senti_n="4.035">
 Lehendakari	Lehendakari	lehendakari	NOUN	Animacy=Inan Case=Dat Definite=Def Number=Sing	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	sailburu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Plur	w3
@@ -120,7 +120,7 @@ on	on	on	ADJ	Case=Abs Definite=Ind	w8	amod	egun	NOUN	-	w7
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg6" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2022-10-14.seg6.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg6.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.316">
 Señor	Señor	Señor	PROPN	-	w1	nsubj	aportar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w13
 <name type="ORG">
 Erkoreka	Erkoreka	Erkoreka	PROPN	-	w2	flat	Señor	PROPN	-	w1
@@ -149,7 +149,7 @@ destacable	destacable	destacable	ADJ	Number=Sing	w22	obj	entender	VERB	Mood=Ind 
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w23	punct	aportar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w13
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg6.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg6.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.559">
 Y	Y	y	CCONJ	-	w1	advmod	otro	PRON	Gender=Masc Number=Sing PronType=Ind	w6
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	w2	det	dato	NOUN	Gender=Masc Number=Sing	w3
 dato	dato	dato	NOUN	Gender=Masc Number=Sing	w3	nsubj	otro	PRON	Gender=Masc Number=Sing PronType=Ind	w6
@@ -191,7 +191,7 @@ informáticos	informáticos	informático	ADJ	Gender=Masc Number=Plur	w34	amod	me
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg7" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg7.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg7.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.268">
 Delitu	Delitu	delitu	NOUN	-	w1	nsubj	berri	ADJ	Case=Abs Definite=Def Number=Plur	w5
 informatikoak	informatikoak	informatiko	ADJ	Case=Abs Definite=Def Number=Plur	w2	amod	delitu	NOUN	-	w1
 ez	ez	ez	PART	Polarity=Neg	w3	advmod	berri	ADJ	Case=Abs Definite=Def Number=Plur	w5
@@ -211,7 +211,7 @@ hazten	hazten	hazi	VERB	Case=Ine	w13	advcl	izan	VERB	Aspect=Prog Mood=Ind Number
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg8" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg8.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg8.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.310">
 Erkoreka	Erkoreka	Erkoreka	NOUN	-	w1	nmod	jaun	NOUN	Case=Abs Definite=Def Number=Sing	w2
 jauna	jauna	jaun	NOUN	Case=Abs Definite=Def Number=Sing	w2	root	-	-	-	-
 <g/>
@@ -251,7 +251,7 @@ da	da	izan	AUX	Mood=Ind Number[abs]=Sing Person[abs]=3	w30	aux	digitalizatu	VERB
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg9" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg9.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg9.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.513">
 Erkoreka	Erkoreka	Erkoreka	NOUN	-	w1	nmod	jaun	NOUN	Case=Abs Definite=Def Number=Sing	w2
 jauna	jauna	jaun	NOUN	Case=Abs Definite=Def Number=Sing	w2	nsubj	ukan	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Number[erg]=Sing Person[abs]=3 Person[erg]=3	w12
 <g/>
@@ -280,12 +280,12 @@ egiteko	egiteko	egin	VERB	Case=Abs Definite=Ind	w20	conj	ukan	VERB	Aspect=Prog M
 .	.	.	PUNCT	-	w21	punct	ukan	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Number[erg]=Sing Person[abs]=3 Person[erg]=3	w12
 <g/>
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg9.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg9.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.739">
 ?	?	?	PUNCT	-	w1	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg10" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg10.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg10.s1" senti_3="Positive" senti_6="positive" senti_n="4.759">
 Eskerrik	Eskerrik	Esker	NOUN	-	w1	root	-	-	-	-
 asko	asko	asko	DET	Case=Abs Definite=Ind	w2	det	Esker	NOUN	-	w1
 <g/>
@@ -294,9 +294,9 @@ asko	asko	asko	DET	Case=Abs Definite=Ind	w2	det	Esker	NOUN	-	w1
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-PV_2022-10-14.u135" text_id="ParlaMint-ES-PV_2022-10-14" subcorpus="COVID,War" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2022-10-14" speaker_role="Regular" speaker_id="ZupiriaGorostidi" speaker_name="Zupiria Gorostidi, Bingen" speaker_mp="notMP" speaker_minister="Minister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="M" speaker_birth="1961">
+<speech id="ParlaMint-ES-PV_2022-10-14.u135" text_id="ParlaMint-ES-PV_2022-10-14" subcorpus="COVID,War" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2022-10-14" speaker_role="Regular" topic="Culture" speaker_id="ZupiriaGorostidi" speaker_name="Zupiria Gorostidi, Bingen" speaker_mp="notMP" speaker_minister="Minister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="M" speaker_birth="1961">
 <p id="ParlaMint-ES-PV_2022-10-14.seg690" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2022-10-14.seg690.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg690.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.324">
 Presidente	Presidente	presidente	NOUN	Gender=Masc Number=Sing	w1	root	-	-	-	-
 andrea	andrea	andrea	ADJ	Gender=Fem Number=Sing	w2	amod	presidente	NOUN	Gender=Masc Number=Sing	w1
 <g/>
@@ -304,7 +304,7 @@ andrea	andrea	andrea	ADJ	Gender=Fem Number=Sing	w2	amod	presidente	NOUN	Gender=M
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg691" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2022-10-14.seg691.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg691.s1" senti_3="Negative" senti_6="negative" senti_n="0.396">
 Barrio	Barrio	barrio	NOUN	-	w1	obl	llegar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w7
 jauna	jauna	jauna	NOUN	-	w2	compound	barrio	NOUN	-	w1
 <g/>
@@ -330,7 +330,7 @@ Bizkaia	Bizkaia	Bizkaia	PROPN	-	w17	acl	punto	NOUN	Gender=Masc Number=Sing	w10
 </name>
 .	.	.	PUNCT	PunctType=Peri	w18	punct	llegar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w7
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg691.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg691.s2" senti_3="Negative" senti_6="negative" senti_n="0.259">
 Pero	Pero	pero	CCONJ	-	w1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	eludir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w10
@@ -374,7 +374,7 @@ no	no	no	ADV	Polarity=Neg	w35	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg692" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2022-10-14.seg692.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg692.s1" senti_3="Positive" senti_6="positive" senti_n="4.584">
 Mire	Mire	mire	INTJ	-	w1	dep	enriquecedor	ADJ	Gender=Fem Number=Sing	w31
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	mire	INTJ	-	w1
@@ -476,7 +476,7 @@ territorio	territorio	territorio	NOUN	Gender=Masc Number=Sing	w92	obl	desarrolla
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w93	punct	enriquecedor	ADJ	Gender=Fem Number=Sing	w31
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg692.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg692.s2" senti_3="Positive" senti_6="positive" senti_n="5.006">
 Creo	Creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 que	que	que	SCONJ	-	w2	mark	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8
 fruto	fruto	fruto	NOUN	Gender=Masc Number=Sing	w3	nsubj	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8
@@ -499,7 +499,7 @@ alavés	alavés	alavés	ADJ	Gender=Masc Number=Sing	w19	amod	territorio	NOUN	Gen
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w20	punct	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg692.s3">
+<s id="ParlaMint-ES-PV_2022-10-14.seg692.s3" senti_3="Negative" senti_6="mixed negative" senti_n="0.903">
 A	A	a	ADP	-	w1	advmod	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 veces	veces	veces	NOUN	-	w2	fixed	a	ADP	-	w1
 hace	hace	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	root	-	-	-	-
@@ -518,7 +518,7 @@ cosas	cosas	cosa	NOUN	Gender=Fem Number=Plur	w13	obj	crear	VERB	Mood=Sub Number=
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg693" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2022-10-14.seg693.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg693.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.875">
 Yo	Yo	yo	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 creo	creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -529,7 +529,7 @@ que	que	que	SCONJ	-	w3	mark	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres 
 <note type="-" content="32. zintaren amaiera"/>
 <note type="-" content="33. zintaren hasiera"/>
 <p id="ParlaMint-ES-PV_2022-10-14.seg694" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2022-10-14.seg694.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg694.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.405">
 …	…	…	PUNCT	-	w1	punct	clarísimo	NOUN	Gender=Fem Number=Plur	w2
 clarísimas	clarísimas	clarísimo	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 de	de	de	ADP	-	w3	case	departamento	NOUN	Gender=Masc Number=Sing	w5
@@ -542,7 +542,7 @@ alavés	alavés	alavés	ADJ	Gender=Masc Number=Sing	w9	amod	territorio	NOUN	Gend
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w10	punct	clarísimo	NOUN	Gender=Fem Number=Plur	w2
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg694.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg694.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.903">
 A	A	a	ADP	-	w1	advmod	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 veces	veces	veces	NOUN	-	w2	fixed	a	ADP	-	w1
 hace	hace	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	root	-	-	-	-
@@ -561,7 +561,7 @@ cosas	cosas	cosa	NOUN	Gender=Fem Number=Plur	w13	obj	crear	VERB	Mood=Sub Number=
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg695" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2022-10-14.seg695.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg695.s1" senti_3="Positive" senti_6="positive" senti_n="4.730">
 Yo	Yo	yo	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 creo	creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	zona	NOUN	Gender=Fem Number=Sing	w18
@@ -630,7 +630,7 @@ económicas	económicas	económico	ADJ	Gender=Fem Number=Plur	w57	amod	actividad
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w58	punct	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg695.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg695.s2" senti_3="Negative" senti_6="mixed negative" senti_n="1.376">
 Y	Y	y	CCONJ	-	w1	advmod	hecho	NOUN	Gender=Masc Number=Sing	w14
 claro	claro	claro	ADV	-	w2	advmod	hecho	NOUN	Gender=Masc Number=Sing	w14
 <g/>
@@ -659,7 +659,7 @@ falta	falta	falta	NOUN	Gender=Fem Number=Sing	w22	compound	echar	VERB	Mood=Ind N
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg696" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2022-10-14.seg696.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg696.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.905">
 En	En	en	ADP	-	w1	case	caso	NOUN	Gender=Masc Number=Sing	w3
 cualquier	cualquier	cualquiera	DET	Number=Sing PronType=Ind	w2	det	caso	NOUN	Gender=Masc Number=Sing	w3
 caso	caso	caso	NOUN	Gender=Masc Number=Sing	w3	obl	ir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w9
@@ -753,7 +753,7 @@ Europa	Europa	Europa	PROPN	-	w71	nmod	incluso	ADV	-	w69
 </name>
 .	.	.	PUNCT	PunctType=Peri	w72	punct	ir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w9
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg696.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg696.s2" senti_3="Negative" senti_6="mixed negative" senti_n="1.261">
 Y	Y	y	CCONJ	-	w1	advmod	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 eso	eso	ese	PRON	Number=Sing PronType=Dem	w2	nsubj	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 también	también	también	ADV	-	w3	advmod	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
@@ -766,7 +766,7 @@ creamos	creamos	crear	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w10	punct	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg696.s3">
+<s id="ParlaMint-ES-PV_2022-10-14.seg696.s3" senti_3="Positive" senti_6="positive" senti_n="4.561">
 De	De	de	ADP	-	w1	case	forma	NOUN	Gender=Fem Number=Plur	w3
 todas	todas	todo	DET	Gender=Fem Number=Plur PronType=Tot	w2	det	forma	NOUN	Gender=Fem Number=Plur	w3
 formas	formas	forma	NOUN	Gender=Fem Number=Plur	w3	obl	ter	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w13
@@ -794,7 +794,7 @@ acuerdos	acuerdos	acuerdo	NOUN	Gender=Masc Number=Plur	w20	obl	lleguar	VERB	Mood
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg697" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg697.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg697.s1" senti_3="Positive" senti_6="positive" senti_n="4.759">
 Eskerrik	Eskerrik	Esker	NOUN	-	w1	root	-	-	-	-
 asko	asko	asko	DET	Case=Abs Definite=Ind	w2	det	Esker	NOUN	-	w1
 <g/>
@@ -803,9 +803,9 @@ asko	asko	asko	DET	Case=Abs Definite=Ind	w2	det	Esker	NOUN	-	w1
 </p>
 </speech>
 <note type="speaker" content="LEHENDAKARIAK:"/>
-<speech id="ParlaMint-ES-PV_2022-10-14.u136" text_id="ParlaMint-ES-PV_2022-10-14" subcorpus="COVID,War" lang="Euskara" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2022-10-14" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2022-10-14.u136" text_id="ParlaMint-ES-PV_2022-10-14" subcorpus="COVID,War" lang="Euskara" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2022-10-14" speaker_role="Chairperson" topic="Other" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2022-10-14.seg698" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg698.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg698.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.881">
 Eskerrik	Eskerrik	Esker	NOUN	-	w1	nmod	jaun	NOUN	Case=Abs Definite=Def Number=Sing	w5
 asko	asko	asko	DET	Case=Abs Definite=Ind	w2	det	Esker	NOUN	-	w1
 <g/>
@@ -817,7 +817,7 @@ jauna	jauna	jaun	NOUN	Case=Abs Definite=Def Number=Sing	w5	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg699" lang="Euskara">
-<s id="ParlaMint-ES-PV_2022-10-14.seg699.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg699.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.006">
 Gai-zerrenda	Gai-zerrenda	Gai-zerrenda	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w1	obj	agortu	VERB	Aspect=Perf VerbForm=Part	w2
 agortu	agortu	agortu	VERB	Aspect=Perf VerbForm=Part	w2	advcl	eman	VERB	Aspect=Imp VerbForm=Inf	w8
 dugunez	dugunez	*edun	AUX	Mood=Ind Number[abs]=Sing Number[erg]=Plur Person[abs]=3 Person[erg]=1	w3	aux	agortu	VERB	Aspect=Perf VerbForm=Part	w2
@@ -831,7 +831,7 @@ diot	diot	*edun	AUX	Mood=Ind Number[abs]=Sing Number[dat]=Sing Number[erg]=Sing 
 <g/>
 .	.	.	PUNCT	-	w10	punct	eman	VERB	Aspect=Imp VerbForm=Inf	w8
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg699.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg699.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.955">
 Goizeko	Goizeko	goiz	NOUN	Animacy=Inan Case=Loc Definite=Def Number=Sing	w1	nmod	ordu	NOUN	-	w2
 ordu	ordu	ordu	NOUN	-	w2	obl	amaitu	VERB	Aspect=Perf VerbForm=Part	w6
 bata	bata	bat	NUM	NumType=Card	w3	nummod	ordu	NOUN	-	w2

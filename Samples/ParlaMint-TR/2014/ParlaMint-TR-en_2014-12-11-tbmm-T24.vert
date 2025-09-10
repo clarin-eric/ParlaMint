@@ -1,8 +1,8 @@
 <note type="time" content="11:00."/>
 <note type="president" content="Ayşe Nur Bahçakılı"/>
-<speech id="tbmm-2014-12-11sit01spe0001par0001" text_id="ParlaMint-TR-en_2014-12-11-tbmm-T24" subcorpus="Reference" lang="English" body="Unicameralism" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 24, Year 5, Session 26" speaker_role="Chairperson" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="1954">
+<speech id="tbmm-2014-12-11sit01spe0001par0001" text_id="ParlaMint-TR-en_2014-12-11-tbmm-T24" subcorpus="Reference" lang="English" body="Unicameralism" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 24, Year 5, Session 26" speaker_role="Chairperson" topic="Government Operations" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="1954">
 <p id="tbmm-2014-12-11sit01spe0001par0001.seg0" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0001-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0001-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.350">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 opening	opening	open	VERB	Tense=Pres VerbForm=Part	A1.1.1,T2+	A1.1.1	A1.1.1: General actions / making	t3
@@ -23,7 +23,7 @@ Turkey	Turkey	Turkey	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t13
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0002.seg1" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0002-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0002-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.249">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -48,7 +48,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	A7+	A7p	A7+: Likely	t12
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0003.seg2" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0003-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0003-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.919">
 <phr usas_tags="G1.1/S2mf" usas_cats="G1.1 S2" usas_glosses="G1.1: Government|S2: People">
 Members	Members	member	NOUN	Number=Plur	G1.1/S2mf	G1.1 S2	G1.1: Government|S2: People	t1
 of	of	of	ADP	-	G1.1/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
@@ -89,7 +89,7 @@ Bill	Bill	Bill	PROPN	Number=Sing	I1.3,G1.1,Q1.2,L2	I1.3	I1.3: Money: Cost and pr
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0004.seg3" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0004-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0004-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.038">
 According	According	accord	VERB	ExtPos=ADP VerbForm=Ger	A9-,A6.1+	A9n	A9-: Giving	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -110,7 +110,7 @@ today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultan
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0005.seg4" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0005-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0005-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.271">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t2
 round	round	round	NOUN	Number=Sing	N5,K5.1,M1,F2,B3,F1,K2%,G3%	N5	N5: Quantities	t3
@@ -237,7 +237,7 @@ Turkey	Turkey	Turkey	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t82
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0011.seg5" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0011-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0011-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.631">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -251,7 +251,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0012.seg6" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0012-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0012-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.438">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -267,7 +267,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0014.seg7" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0014-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0014-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.733">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -289,7 +289,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0015.seg8" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0015-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0015-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.473">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -312,7 +312,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0017.seg9" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0017-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0017-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.415">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -328,7 +328,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t8
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0018.seg10" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0018-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0018-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.301">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -351,7 +351,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0020.seg11" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0020-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0020-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.457">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -369,7 +369,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0021.seg12" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0021-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0021-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.327">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -391,7 +391,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0023.seg13" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0023-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0023-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.467">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -407,7 +407,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0024.seg14" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0024-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0024-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.447">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -427,7 +427,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0026.seg15" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0026-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0026-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.502">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -443,7 +443,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0027.seg16" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0027-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0027-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.329">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -460,7 +460,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0029.seg17" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0029-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0029-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.452">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -483,7 +483,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0030.seg18" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0030-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0030-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.345">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -504,7 +504,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0032.seg19" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0032-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0032-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.685">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -521,7 +521,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0033.seg20" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0033-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0033-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.461">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -547,7 +547,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0034.seg21" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0034-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0034-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.624">
 THE	THE	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 MILITARY	MILITARY	military	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -562,7 +562,7 @@ INVESTIGATION	INVESTIGATION	investigation	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Perso
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0035.seg22" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0035-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0035-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.397">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -582,7 +582,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0036.seg23" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0036-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0036-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.308">
 2)	2)	2)	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 Undersecretary	Undersecretary	Undersecretary	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -595,7 +595,7 @@ Agency	Agency	Agency	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0038.seg24" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0038-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0038-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.383">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -615,7 +615,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0039.seg25" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0039-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0039-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.293">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -638,7 +638,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0041.seg26" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0041-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0041-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.465">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -663,7 +663,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0042.seg27" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0042-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0042-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.380">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -686,7 +686,7 @@ Account	Account	account	PROPN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t14
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0044.seg28" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0044-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0044-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.526">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -705,7 +705,7 @@ Budget	Budget	budget	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t10
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0045.seg29" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0045-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0045-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.369">
 2)	2)	2)	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	General	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -725,7 +725,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0047.seg30" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0047-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0047-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.527">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -743,7 +743,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t1
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0048.seg31" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0048-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0048-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.316">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -767,33 +767,33 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0049.seg32" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0049-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0049-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.129">
 <name type="ORG">
 Commission	Commission	commission	NOUN	Number=Sing	I2.2,G3/S7.1+	I2.2	I2.2: Business: Selling	t1
 <g/>
 </name>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="tbmm-2014-12-11sit01spe0001par0049-000020">
+<s id="tbmm-2014-12-11sit01spe0001par0049-000020" senti_3="Neutral" senti_6="neutral positive" senti_n="3.256">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0050.seg33" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0050-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0050-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="1.946">
 Government	Government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t1
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="tbmm-2014-12-11sit01spe0001par0050-000020">
+<s id="tbmm-2014-12-11sit01spe0001par0050-000020" senti_3="Neutral" senti_6="neutral positive" senti_n="3.256">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0051.seg34" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0051-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0051-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.220">
 <phr usas_tags="G1.1/S2mf" usas_cats="G1.1 S2" usas_glosses="G1.1: Government|S2: People">
 Members	Members	member	NOUN	Number=Plur	G1.1/S2mf	G1.1 S2	G1.1: Government|S2: People	t1
 of	of	of	ADP	-	G1.1/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
@@ -835,7 +835,7 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t29
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0052.seg35" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0052-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0052-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.548">
 According	According	accord	VERB	ExtPos=ADP VerbForm=Ger	A9-,A6.1+	A9n	A9-: Giving	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -860,7 +860,7 @@ system	system	system	NOUN	Number=Sing	X4.2,O3,M3,M4,Q1.3,Y2,B1,N2,G1.1c	X4.2	X4.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="tbmm-2014-12-11sit01spe0001par0052-000020">
+<s id="tbmm-2014-12-11sit01spe0001par0052-000020" senti_3="Neutral" senti_6="neutral positive" senti_n="3.056">
 After	After	after	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 talks	talks	talk	NOUN	Number=Plur	Q2.1	Q2.1	Q2.1: Speech: Communicative	t3
@@ -891,7 +891,7 @@ screen	screen	screen	NOUN	Number=Sing	Y2,Q4.3,H5,A10-	Y2	Y2: Information technol
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="tbmm-2014-12-11sit01spe0001par0052-000030">
+<s id="tbmm-2014-12-11sit01spe0001par0052-000030" senti_3="Neutral" senti_6="neutral positive" senti_n="2.700">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 question	question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t2
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -903,7 +903,7 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="tbmm-2014-12-11sit01spe0001par0052-000040">
+<s id="tbmm-2014-12-11sit01spe0001par0052-000040" senti_3="Neutral" senti_6="neutral positive" senti_n="3.437">
 Ten	Ten	ten	NUM	NumForm=Word NumType=Card	N1,T3	N1	N1: Numbers	t1
 minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -914,7 +914,7 @@ given	given	give	VERB	Tense=Past VerbForm=Part Voice=Pass	A9-,A1.1.1	A9n	A9-: Gi
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="tbmm-2014-12-11sit01spe0001par0052-000050">
+<s id="tbmm-2014-12-11sit01spe0001par0052-000050" senti_3="Neutral" senti_6="neutral positive" senti_n="3.071">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -926,7 +926,7 @@ information	information	information	NOUN	Number=Sing	X2.2+	X2.2p	X2.2+: Knowledg
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0053.seg36" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0053-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0053-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.821">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t3
@@ -962,7 +962,7 @@ individuals	individuals	individual	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0054.seg37" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0054-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0054-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.760">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 behalf	behalf	behalf	NOUN	Number=Sing	S1.1.1	S1.1.1	S1.1.1: Social Actions, States And Processes	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1019,7 +1019,7 @@ MPs	MPs	mp	PROPN	Number=Plur	G1.1/S2mf,G3/G2.1/S2mf@	G1.1 S2	G1.1: Government|S2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0055.seg38" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0055-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0055-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.684">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 behalf	behalf	behalf	NOUN	Number=Sing	S1.1.1	S1.1.1	S1.1.1: Social Actions, States And Processes	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1123,7 +1123,7 @@ speak	speak	speak	VERB	VerbForm=Inf	Q2.1	Q2.1	Q2.1: Speech: Communicative	t60
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0056.seg39" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0056-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0056-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.899">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 behalf	behalf	behalf	NOUN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t2
 of	of	of	ADP	-	Z2,Z3c	Z2	Z2: Geographical names	t3
@@ -1181,7 +1181,7 @@ Yıldırım	Yıldırım	Yıldırım	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal n
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0057.seg40" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0057-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0057-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.425">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 behalf	behalf	behalf	NOUN	Number=Sing	S1.1.1	S1.1.1	S1.1.1: Social Actions, States And Processes	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1312,7 +1312,7 @@ Yıldız	Yıldız	Yıldız	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t73
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0058.seg41" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0058-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0058-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.600">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 behalf	behalf	behalf	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -1344,7 +1344,7 @@ MPs	MPs	mp	PROPN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t17
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0059.seg42" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0059-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0059-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.440">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 behalf	behalf	behalf	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -1370,7 +1370,7 @@ speak	speak	speak	VERB	VerbForm=Inf	Q2.1	Q2.1	Q2.1: Speech: Communicative	t13
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0060.seg43" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0060-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0060-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.122">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 behalf	behalf	behalf	NOUN	Number=Sing	S1.1.1	S1.1.1	S1.1.1: Social Actions, States And Processes	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1397,7 +1397,7 @@ Kaya	Kaya	Kaya	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t16
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0001par0061.seg44" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0061-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0061-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.746">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 go	go	go	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t3
@@ -1407,7 +1407,7 @@ go	go	go	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	M1,A2.1+,A1.
 </p>
 <note type="kinesic:applause" content="A round of applause from MHP rows"/>
 <p id="tbmm-2014-12-11sit01spe0001par0063.seg45" lang="English">
-<s id="tbmm-2014-12-11sit01spe0001par0063-000010">
+<s id="tbmm-2014-12-11sit01spe0001par0063-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.856">
 Your	Your	you	PRON	Person=2 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1418,9 +1418,9 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-12-11sit01spe0002par0064" text_id="ParlaMint-TR-en_2014-12-11-tbmm-T24" subcorpus="Reference" lang="English" body="Unicameralism" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 24, Year 5, Session 26" speaker_role="Regular" speaker_id="Atila.Kaya" speaker_name="Kaya, Atila" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MHP" speaker_party_name="Nationalist Movement Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1957">
+<speech id="tbmm-2014-12-11sit01spe0002par0064" text_id="ParlaMint-TR-en_2014-12-11-tbmm-T24" subcorpus="Reference" lang="English" body="Unicameralism" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 24, Year 5, Session 26" speaker_role="Regular" topic="Government Operations" speaker_id="Atila.Kaya" speaker_name="Kaya, Atila" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MHP" speaker_party_name="Nationalist Movement Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1957">
 <p id="tbmm-2014-12-11sit01spe0002par0064.seg0" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0064-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0064-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.083">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1450,7 +1450,7 @@ budget	budget	budget	NOUN	Number=Sing	I1,G1.1/I1,I1.3-	I1	I1: Money generally	t2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0064-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0064-000020" senti_3="Positive" senti_6="mixed positive" senti_n="4.374">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 salute	salute	salute	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.1.1	S1.1.1	S1.1.1: Social Actions, States And Processes	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1461,7 +1461,7 @@ Council	Council	Council	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t5
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0064-000030">
+<s id="tbmm-2014-12-11sit01spe0002par0064-000030" senti_3="Positive" senti_6="positive" senti_n="4.903">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="N1" usas_cats="N1" usas_glosses="N1: Numbers">
 2015	2015	2015	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
@@ -1490,7 +1490,7 @@ country	country	country	NOUN	Number=Sing	G1.1c,W3,F4/M7,K2	G1.1	G1.1: Government
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0065.seg1" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0065-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0065-000010" senti_3="Negative" senti_6="mixed negative" senti_n="1.204">
 Dear	Dear	dear	ADJ	Degree=Pos	E2+,I1.3+	E2p	E2+: Like	t1
 MPs	MPs	mp	NOUN	Number=Plur	G1.1/S2mf,G3/G2.1/S2mf@	G1.1 S2	G1.1: Government|S2: People	t2
 <g/>
@@ -1543,7 +1543,7 @@ public	public	public	NOUN	Number=Sing	S5+c	S5p	S5+: Belonging to a group	t41
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0065-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0065-000020" senti_3="Negative" senti_6="negative" senti_n="0.157">
 During	During	during	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 seven	seven	seven	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t3
@@ -1605,7 +1605,7 @@ wrong	wrong	wrong	ADJ	Degree=Pos	A5.3-,A5.1-,G2.2-,B2-	A5.3n	A5.3-: Evaluation: 
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0066.seg2" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0066-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0066-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="1.746">
 Dear	Dear	dear	ADJ	Degree=Pos	E2+,I1.3+	E2p	E2+: Like	t1
 lawmakers	lawmakers	lawmaker	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t2
 <g/>
@@ -1682,7 +1682,7 @@ hardest	hardest	hard	ADJ	Degree=Sup	O4.5,A12---,S1.2.5+++	O4.5	O4.5: Texture	t54
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t55
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0066-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0066-000020" senti_3="Negative" senti_6="mixed negative" senti_n="0.966">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 represent	represent	represent	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -1723,7 +1723,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0066-000030">
+<s id="tbmm-2014-12-11sit01spe0002par0066-000030" senti_3="Negative" senti_6="negative" senti_n="0.400">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Erdogan	Erdogan	Erdogan	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1778,7 +1778,7 @@ neutral	neutral	neutral	ADJ	Degree=Pos	S5-,O4.1	S5n	S5-: Not part of a group	t40
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0066-000040">
+<s id="tbmm-2014-12-11sit01spe0002par0066-000040" senti_3="Negative" senti_6="negative" senti_n="0.337">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 accordance	accordance	accordance	NOUN	Number=Sing	S7.1-,A6.1+	S7.1n	S7.1-: No power	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1818,7 +1818,7 @@ matter	matter	matter	NOUN	Number=Sing	X4.1,O1	X4.1	X4.1: Mental object: Conceptu
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0067.seg3" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0067-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0067-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.226">
 Despite	Despite	despite	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 his	his	he	PRON	Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs	Z8m	Z8	Z8: Pronouns	t2
 oath	oath	oath	NOUN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t3
@@ -1845,7 +1845,7 @@ himself	himself	himself	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0067-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0067-000020" senti_3="Neutral" senti_6="neutral positive" senti_n="3.020">
 If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
 his	his	he	PRON	Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs	Z8m	Z8	Z8: Pronouns	t2
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
@@ -1894,7 +1894,7 @@ was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0067-000030">
+<s id="tbmm-2014-12-11sit01spe0002par0067-000030" senti_3="Negative" senti_6="mixed negative" senti_n="0.885">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 remember	remember	remember	VERB	VerbForm=Inf	X2.2+	X2.2p	X2.2+: Knowledgeable	t3
@@ -1921,7 +1921,7 @@ President	President	President	PROPN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0067-000040">
+<s id="tbmm-2014-12-11sit01spe0002par0067-000040" senti_3="Negative" senti_6="negative" senti_n="0.119">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 again	again	again	ADV	-	N6+,Z4	N6p	N6+: Frequent	t2
 <g/>
@@ -2019,7 +2019,7 @@ pride	pride	pride	NOUN	Number=Sing	E4.2+/S1.2,S7.2+,S1.2.3+,O4.2+	E4.2p S1.2	E4.
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0068.seg4" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0068-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0068-000010" senti_3="Negative" senti_6="negative" senti_n="0.310">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 pray	pray	pray	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S9/Q2.2	S9 Q2.2	S9: Religion and the supernatural|Q2.2: Speech acts	t2
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -2152,7 +2152,7 @@ countries	countries	country	NOUN	Number=Plur	M7	M7	M7: Places	t94
 <g/>
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t96
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0068-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0068-000020" senti_3="Negative" senti_6="negative" senti_n="0.106">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -2225,7 +2225,7 @@ budget	budget	budget	NOUN	Number=Sing	I1,G1.1/I1,I1.3-	I1	I1: Money generally	t5
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0069.seg5" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0069-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0069-000010" senti_3="Negative" senti_6="negative" senti_n="0.162">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -2283,7 +2283,7 @@ discussed	discussed	discuss	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.1,Q2.2	Q
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0070.seg6" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0070-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0070-000010" senti_3="Negative" senti_6="negative" senti_n="0.092">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 know	know	know	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t3
@@ -2358,7 +2358,7 @@ go	go	go	VERB	VerbForm=Inf	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0071.seg7" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0071-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0071-000010" senti_3="Negative" senti_6="negative" senti_n="0.169">
 <name type="MISC">
 Congressmans	Congressmans	Congressmans	PROPN	Number=Plur	Z99	Z99	Z99: Unmatched	t1
 <g/>
@@ -2438,7 +2438,7 @@ office	office	office	NOUN	Number=Sing	I2.1/H1c,I2.1/H2c,S7.1+,I3.1,S9,S8+	I2.1 H
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t61
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0071-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0071-000020" senti_3="Negative" senti_6="negative" senti_n="0.342">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 goal	goal	goal	NOUN	Number=Sing	K5.1,X7+	K5.1	K5.1: Sports	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -2465,7 +2465,7 @@ ambitions	ambitions	ambition	NOUN	Number=Plur	X7+	X7p	X7+: Wanted	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0071-000030">
+<s id="tbmm-2014-12-11sit01spe0002par0071-000030" senti_3="Negative" senti_6="mixed negative" senti_n="0.612">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 know	know	know	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -2490,7 +2490,7 @@ ground	ground	ground	NOUN	Number=Sing	M6,W3,M7,O3,X2.1	M6	M6: Location and direc
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0072.seg8" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0072-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0072-000010" senti_3="Negative" senti_6="negative" senti_n="0.449">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -2567,7 +2567,7 @@ sails	sails	sail	NOUN	Number=Plur	M4	M4	M4: Sailing, swimming, etc.	t53
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t54
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0072-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0072-000020" senti_3="Neutral" senti_6="neutral positive" senti_n="3.189">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 person	person	person	NOUN	Number=Sing	S2mfc	S2	S2: People	t2
 entrusted	entrusted	entrust	VERB	Tense=Past VerbForm=Part	A9-,S7.1+,S7.4+	A9n	A9-: Giving	t3
@@ -2603,7 +2603,7 @@ digestion	digestion	digestion	NOUN	Number=Sing	F1/B1	F1 B1	F1: Food|B1: Anatomy 
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0073.seg9" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0073-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0073-000010" senti_3="Negative" senti_6="mixed negative" senti_n="1.196">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2667,7 +2667,7 @@ acting	acting	act	VERB	Tense=Pres VerbForm=Part	A1.1.1,T1.1.2,A8,K4	A1.1.1	A1.1.
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t57
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0073-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0073-000020" senti_3="Negative" senti_6="mixed negative" senti_n="0.686">
 If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -2712,7 +2712,7 @@ emphasis	emphasis	emphasis	NOUN	Number=Sing	A11.1+	A11.1p	A11.1+: Important	t36
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0073-000030">
+<s id="tbmm-2014-12-11sit01spe0002par0073-000030" senti_3="Negative" senti_6="mixed negative" senti_n="0.586">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 everyone	everyone	everyone	PRON	Number=Sing	Z8/N5.1+c	Z8 N5.1p	Z8: Pronouns|N5.1+: Entire; maximum	t2
 does	does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t3
@@ -2735,7 +2735,7 @@ deal	deal	deal	NOUN	Number=Sing	N5,Q2.2,A1.1.1,I2.2,K5.2,F3/I2.2	N5	N5: Quantiti
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0073-000040">
+<s id="tbmm-2014-12-11sit01spe0002par0073-000040" senti_3="Negative" senti_6="negative" senti_n="0.168">
 These	These	this	DET	Number=Plur PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 statements	statements	statement	NOUN	Number=Plur	Q2.1,I1/Q1.2	Q2.1	Q2.1: Speech: Communicative	t2
 <g/>
@@ -2768,7 +2768,7 @@ President	President	President	PROPN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0073-000050">
+<s id="tbmm-2014-12-11sit01spe0002par0073-000050" senti_3="Negative" senti_6="mixed negative" senti_n="0.984">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -2801,7 +2801,7 @@ me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	S5-	S5n	S5-: Not part of
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0073-000060">
+<s id="tbmm-2014-12-11sit01spe0002par0073-000060" senti_3="Negative" senti_6="negative" senti_n="0.309">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 clear	clear	clear	ADJ	Degree=Pos	A7+,A10+,O4.3,O4.1,N5.1+,W4	A7p	A7+: Likely	t3
@@ -2839,7 +2839,7 @@ State	State	State	PROPN	Number=Sing	Q2.1	Q2.1	Q2.1: Speech: Communicative	t27
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0073-000070">
+<s id="tbmm-2014-12-11sit01spe0002par0073-000070" senti_3="Neutral" senti_6="neutral negative" senti_n="1.778">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 what	what	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t2
 are	are	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -2873,7 +2873,7 @@ him	him	he	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	A5.4+	A5.
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0074.seg10" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0074-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0074-000010" senti_3="Negative" senti_6="negative" senti_n="0.492">
 Congressmans	Congressmans	congressman	NOUN	Number=Plur	G1.2/S2.2m	G1.2 S2.2	G1.2: Politics|S2.2: People: Male	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2932,7 +2932,7 @@ completed	completed	complete	VERB	Tense=Past VerbForm=Part Voice=Pass	T2-,Q1.2	T
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t43
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0074-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0074-000020" senti_3="Negative" senti_6="negative" senti_n="0.315">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -3007,7 +3007,7 @@ rooms	rooms	room	NOUN	Number=Plur	H2	H2	H2: Parts of buildings	t46
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0074-000030">
+<s id="tbmm-2014-12-11sit01spe0002par0074-000030" senti_3="Negative" senti_6="negative" senti_n="0.042">
 As	As	as	ADV	-	A13	A13	A13: Degree	t1
 much	much	much	ADJ	Degree=Pos	A13.3,N6+	A13.3	A13.3: Degree: Boosters	t2
 as	as	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -3035,7 +3035,7 @@ discussed	discussed	discuss	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.1,Q2.2	Q
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0074-000040">
+<s id="tbmm-2014-12-11sit01spe0002par0074-000040" senti_3="Negative" senti_6="negative" senti_n="0.388">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 his	his	he	PRON	Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs	Z8m	Z8	Z8: Pronouns	t2
 early	early	early	ADJ	Degree=Pos	T4+,T1.1.1	T4p	T4+: Time: Early	t3
@@ -3089,7 +3089,7 @@ palace	palace	palace	NOUN	Number=Sing	H1/S7.1+	H1 S7.1p	H1: Architecture, houses
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0075.seg11" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0075-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0075-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.061">
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -3126,7 +3126,7 @@ rumors	rumors	rumor	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech acts	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0075-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0075-000020" senti_3="Neutral" senti_6="neutral positive" senti_n="3.004">
 <name type="PER">
 Engels	Engels	Engels	PROPN	Number=Plur	Z1	Z1	Z1: Personal names	t1
 </name>
@@ -3149,7 +3149,7 @@ said	said	say	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	Q2.1	Q2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0075-000030">
+<s id="tbmm-2014-12-11sit01spe0002par0075-000030" senti_3="Negative" senti_6="mixed negative" senti_n="0.776">
 Obviously	Obviously	obviously	ADV	-	Z4,A11.2+	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -3166,7 +3166,7 @@ Erdogan	Erdogan	Erdogan	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t9
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0075-000040">
+<s id="tbmm-2014-12-11sit01spe0002par0075-000040" senti_3="Negative" senti_6="mixed negative" senti_n="0.714">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 knows	knows	know	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t2
 how	how	how	SCONJ	PronType=Int	Z5,A13.3	Z5	Z5: Grammatical bin	t3
@@ -3189,7 +3189,7 @@ palace	palace	palace	NOUN	Number=Sing	H1/S7.1+	H1 S7.1p	H1: Architecture, houses
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0076.seg12" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0076-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0076-000010" senti_3="Negative" senti_6="negative" senti_n="0.186">
 Speaking	Speaking	speak	VERB	VerbForm=Ger	Q2.1	Q2.1	Q2.1: Speech: Communicative	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t3
@@ -3238,7 +3238,7 @@ to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t33
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0076-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0076-000020" senti_3="Negative" senti_6="mixed negative" senti_n="1.182">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -3283,7 +3283,7 @@ while	while	while	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t31
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0076-000030">
+<s id="tbmm-2014-12-11sit01spe0002par0076-000030" senti_3="Negative" senti_6="negative" senti_n="0.114">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 current	current	current	ADJ	Degree=Pos	T1.3	T1.3	T1.3: Time: Period	t2
@@ -3299,7 +3299,7 @@ mentality	mentality	mentality	NOUN	Number=Sing	X2.1	X2.1	X2.1: Thought, belief	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0076-000040">
+<s id="tbmm-2014-12-11sit01spe0002par0076-000040" senti_3="Neutral" senti_6="neutral positive" senti_n="3.388">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 let	let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -3353,7 +3353,7 @@ land	land	land	NOUN	Number=Sing	W3,M7	W3	W3: Geographical terms	t36
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0077.seg13" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0077-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0077-000010" senti_3="Negative" senti_6="negative" senti_n="0.019">
 Dear	Dear	dear	ADJ	Degree=Pos	E2+,I1.3+	E2p	E2+: Like	t1
 lawmakers	lawmakers	lawmaker	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t2
 <g/>
@@ -3476,7 +3476,7 @@ power	power	power	NOUN	Number=Sing	S7.1+,O3,S1.2.5+,N2@	S7.1p	S7.1+: In power	t9
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0078.seg14" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0078-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0078-000010" senti_3="Negative" senti_6="mixed negative" senti_n="0.732">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 owns	owns	own	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+	A9p	A9+: Getting and possession	t2
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t3
@@ -3505,7 +3505,7 @@ pride	pride	pride	NOUN	Number=Sing	E4.2+/S1.2,S7.2+,S1.2.3+,O4.2+	E4.2p S1.2	E4.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0078-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0078-000020" senti_3="Negative" senti_6="negative" senti_n="0.173">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -3531,7 +3531,7 @@ costs	costs	cost	NOUN	Number=Plur	I1.3	I1.3	I1.3: Money: Cost and price	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0078-000030">
+<s id="tbmm-2014-12-11sit01spe0002par0078-000030" senti_3="Negative" senti_6="mixed negative" senti_n="0.643">
 Religious	Religious	Religious	ADJ	Degree=Pos	S9	S9	S9: Religion and the supernatural	t1
 rhetoric	rhetoric	rhetoric	NOUN	Number=Sing	Q2.1,Q2.2,Q3	Q2.1	Q2.1: Speech: Communicative	t2
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -3569,7 +3569,7 @@ individuals	individuals	individual	NOUN	Number=Plur	S2mf	S2	S2: People	t32
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0079.seg15" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0079-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0079-000010" senti_3="Negative" senti_6="mixed negative" senti_n="0.803">
 Yes	Yes	yes	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -3598,7 +3598,7 @@ about	about	about	ADP	-	Z5	Z5	Z5: Grammatical bin	t20
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="tbmm-2014-12-11sit01spe0002par0079-000020">
+<s id="tbmm-2014-12-11sit01spe0002par0079-000020" senti_3="Negative" senti_6="negative" senti_n="0.221">
 Go	Go	go	VERB	Mood=Imp VerbForm=Fin	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t1
 tell	tell	tell	VERB	Mood=Imp VerbForm=Fin	Q2.2,Q2.1,X3,A10+	Q2.2	Q2.2: Speech acts	t2
 <name type="PER">
@@ -3653,7 +3653,7 @@ word	word	word	NOUN	Number=Sing	Q3,Q2.1,S9@	Q3	Q3: Language, speech and grammar	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit01spe0002par0080.seg16" lang="English">
-<s id="tbmm-2014-12-11sit01spe0002par0080-000010">
+<s id="tbmm-2014-12-11sit01spe0002par0080-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="1.936">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 him	him	he	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -3701,9 +3701,9 @@ again	again	again	ADV	-	Z4,N6+	Z4	Z4: Discourse Bin	t34
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="tbmm-2014-12-11sit05spe0654par0504" text_id="ParlaMint-TR-en_2014-12-11-tbmm-T24" subcorpus="Reference" lang="English" body="Unicameralism" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 24, Year 5, Session 26" speaker_role="Regular" speaker_id="Mahmut.Tanal" speaker_name="Tanal, Mahmut" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CHP" speaker_party_name="Republican People's Party" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1961">
+<speech id="tbmm-2014-12-11sit05spe0654par0504" text_id="ParlaMint-TR-en_2014-12-11-tbmm-T24" subcorpus="Reference" lang="English" body="Unicameralism" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 24, Year 5, Session 26" speaker_role="Regular" topic="Macroeconomics" speaker_id="Mahmut.Tanal" speaker_name="Tanal, Mahmut" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CHP" speaker_party_name="Republican People's Party" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1961">
 <p id="tbmm-2014-12-11sit05spe0654par0504.seg0" lang="English">
-<s id="tbmm-2014-12-11sit05spe0654par0504-000010">
+<s id="tbmm-2014-12-11sit05spe0654par0504-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.427">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -3742,16 +3742,16 @@ us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t24
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-12-11sit05spe0650par0505" text_id="ParlaMint-TR-en_2014-12-11-tbmm-T24" subcorpus="Reference" lang="English" body="Unicameralism" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 24, Year 5, Session 26" speaker_role="Chairperson" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="1954">
+<speech id="tbmm-2014-12-11sit05spe0650par0505" text_id="ParlaMint-TR-en_2014-12-11-tbmm-T24" subcorpus="Reference" lang="English" body="Unicameralism" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 24, Year 5, Session 26" speaker_role="Chairperson" topic="Government Operations" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="1954">
 <p id="tbmm-2014-12-11sit05spe0650par0505.seg0" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0505-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0505-000010" senti_3="Positive" senti_6="positive" senti_n="4.511">
 Okay	Okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0506.seg1" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0506-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0506-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.991">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -3770,7 +3770,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0507.seg2" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0507-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0507-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.087">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	general	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 TOPLAM	TOPLAM	TOPLAM	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -3779,14 +3779,14 @@ TOPLAM	TOPLAM	TOPLAM	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0508.seg3" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0508-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0508-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0508-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0508-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -3795,14 +3795,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0508-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0508-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0509.seg4" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0509-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0509-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.176">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 chairmanship	chairmanship	chairmanship	NOUN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -3828,7 +3828,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0510.seg5" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0510-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0510-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.357">
 President	President	President	PROPN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1.1: Government|S7.1+: In power|S2: People	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -3871,7 +3871,7 @@ agree	agree	agree	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A6.
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0510-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0510-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -3880,14 +3880,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0510-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0510-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0511.seg6" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0511-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0511-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.385">
 2)	2)	2)	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 President	President	President	PROPN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1.1: Government|S7.1+: In power|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -3910,7 +3910,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0512.seg7" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0512-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0512-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 (A)	(A)	(A)	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -3929,14 +3929,14 @@ ruler	ruler	ruler	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0514.seg8" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0514-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0514-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.265">
 Total	Total	total	ADJ	Degree=Pos	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t1
 allowance	allowance	allowance	NOUN	Number=Sing	I1.1,S7.4+,X4.1	I1.1	I1.1: Money and pay	t2
 36,372,408,44	36,372,408,44	3637240844	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0515.seg9" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0515-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0515-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="1.998">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Budget	Budget	budget	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -3945,7 +3945,7 @@ Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0516.seg10" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0516-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0516-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.241">
 Canceled	Canceled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Fund	Fund	fund	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -3954,7 +3954,7 @@ Fund	Fund	fund	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0517.seg11" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0517-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0517-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.323">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 A	A	a	NUM	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -3968,7 +3968,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	S7.1+/S2mf,O2	S7.1p S2	S7.1+: In power|S2: Pe
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0517-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0517-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -3977,14 +3977,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0517-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0517-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0518.seg12" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0518-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0518-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.056">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Constitutional	Constitutional	constitutional	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4013,7 +4013,7 @@ account	account	account	NOUN	Number=Sing	I1,I1.3,I2.1,Q2.2,Y2	I1	I1: Money gener
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0519.seg13" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0519-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0519-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.500">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -4048,7 +4048,7 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t26
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0522.seg14" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0522-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0522-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.502">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -4064,7 +4064,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0524.seg15" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0524-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0524-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.335">
 01	01	01	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 General	General	General	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4075,7 +4075,7 @@ Service	Service	service	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t4
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0525.seg16" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0525-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0525-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -4096,7 +4096,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0526.seg17" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0526-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0526-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.082">
 03	03	03	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4109,14 +4109,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0527.seg18" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0527-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0527-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0527-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0527-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4125,14 +4125,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0527-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0527-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0528.seg19" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0528-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0528-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.242">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	general	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4141,14 +4141,14 @@ TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0529.seg20" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0529-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0529-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0529-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0529-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4157,14 +4157,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0529-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0529-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0530.seg21" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0530-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0530-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.132">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Supreme	Supreme	Supreme	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4184,7 +4184,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0531.seg22" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0531-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0531-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.238">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -4217,7 +4217,7 @@ agree	agree	agree	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A6.
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0531-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0531-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4226,14 +4226,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0531-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0531-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0532.seg23" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0532-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0532-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.329">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -4250,7 +4250,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0533.seg24" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0533-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0533-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 (A)	(A)	(A)	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -4269,7 +4269,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0535.seg25" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0535-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0535-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.175">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Total	Total	total	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Payment	Payment	payment	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4278,21 +4278,21 @@ Payment	Payment	payment	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0536.seg26" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0536-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0536-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.724">
 Budget	Budget	budget	NOUN	Number=Sing	I1	I1	I1: Money generally	t1
 Expenses	Expenses	expense	NOUN	Number=Plur	I1.3	I1.3	I1.3: Money: Cost and price	t2
 129,777,735,42	129,777,735,42	129777735,42	NUM	NumForm=Digit NumType=Card	Z99	Z99	Z99: Unmatched	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0537.seg27" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0537-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0537-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.702">
 Canceled	Canceled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 Fund	Fund	fund	NOUN	Number=Sing	I1.1	I1.1	I1.1: Money and pay	t2
 14.908.264.58	14.908.264.58	14.908.264.58	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0538.seg28" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0538-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0538-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.323">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 A	A	a	NUM	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -4306,7 +4306,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	S7.1+/S2mf,O2	S7.1p S2	S7.1+: In power|S2: Pe
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0538-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0538-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4315,14 +4315,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0538-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0538-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0539.seg29" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0539-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0539-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.069">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Supreme	Supreme	Supreme	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4346,7 +4346,7 @@ management	management	management	NOUN	Number=Sing	S7.1+c	S7.1p	S7.1+: In power	t
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0540.seg30" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0540-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0540-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.591">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -4386,7 +4386,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0543.seg31" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0543-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0543-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.452">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -4409,7 +4409,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0545.seg32" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0545-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0545-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.340">
 01	01	01	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 General	General	General	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4420,7 +4420,7 @@ Service	Service	service	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t4
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0546.seg33" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0546-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0546-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -4441,7 +4441,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0547.seg34" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0547-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0547-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.033">
 03	03	03	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4454,14 +4454,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0548.seg35" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0548-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0548-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0548-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0548-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4470,14 +4470,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0548-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0548-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0549.seg36" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0549-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0549-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.358">
 09	09	09	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Education	Education	education	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4487,14 +4487,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0550.seg37" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0550-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0550-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0550-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0550-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4503,14 +4503,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0550-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0550-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0551.seg38" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0551-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0551-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.117">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	general	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4519,14 +4519,14 @@ TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0552.seg39" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0552-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0552-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0552-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0552-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4535,14 +4535,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0552-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0552-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0553.seg40" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0553-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0553-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.304">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 court	court	court	NOUN	Number=Sing	G2.1,H3,M7/K5.2	G2.1	G2.1: Law and order	t2
 approved	approved	approve	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	S7.4+,E2+,G1.1	S7.4p	S7.4+: Allowed	t3
@@ -4559,7 +4559,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0554.seg41" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0554-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0554-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.335">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -4581,7 +4581,7 @@ chapters	chapters	chapter	NOUN	Number=Plur	Q4.1,T1.3,S9/S5c,S5+c	Q4.1	Q4.1: The 
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0554-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0554-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4590,14 +4590,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0554-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0554-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0555.seg42" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0555-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0555-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.345">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -4618,7 +4618,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0556.seg43" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0556-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0556-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 (A)	(A)	(A)	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -4637,21 +4637,21 @@ ruler	ruler	ruler	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0558.seg44" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0558-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0558-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.831">
 Total	Total	total	ADJ	Degree=Pos	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t1
 allowance	allowance	allowance	NOUN	Number=Sing	I1.1,S7.4+,X4.1	I1.1	I1.1: Money and pay	t2
 89,653,280.00	89,653,280.00	896532280.0	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0559.seg45" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0559-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0559-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="1.926">
 Budget	Budget	budget	NOUN	Number=Sing	I1	I1	I1: Money generally	t1
 Expenses	Expenses	expense	NOUN	Number=Plur	I1.3	I1.3	I1.3: Money: Cost and price	t2
 82,518,012.22	82,518,012.22	825518012.22	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0560.seg46" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0560-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0560-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.107">
 Canceled	Canceled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 <phr usas_tags="Z2,Z1mf,T1.3" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 Fund	Fund	fund	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
@@ -4660,7 +4660,7 @@ Fund	Fund	fund	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0561.seg47" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0561-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0561-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.323">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 A	A	a	NUM	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -4674,7 +4674,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	S7.1+/S2mf,O2	S7.1p S2	S7.1+: In power|S2: Pe
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0561-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0561-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4683,14 +4683,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0561-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0561-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0562.seg48" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0562-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0562-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.188">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 court	court	court	NOUN	Number=Sing	G2.1,H3,M7/K5.2	G2.1	G2.1: Law and order	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -4711,7 +4711,7 @@ management	management	management	NOUN	Number=Sing	S7.1+c	S7.1p	S7.1+: In power	t
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0563.seg49" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0563-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0563-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.348">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -4739,7 +4739,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t20
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0563-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0563-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4748,14 +4748,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0563-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0563-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0566.seg50" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0566-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0566-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.685">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -4772,7 +4772,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0568.seg51" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0568-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0568-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.363">
 01	01	01	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 General	General	General	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4783,7 +4783,7 @@ Service	Service	service	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t4
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0569.seg52" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0569-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0569-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -4804,7 +4804,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0570.seg53" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0570-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0570-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.219">
 02	02	02	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Defense	Defense	defense	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4814,14 +4814,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0571.seg54" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0571-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0571-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0571-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0571-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4830,14 +4830,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0571-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0571-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0572.seg55" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0572-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0572-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.032">
 03	03	03	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4850,14 +4850,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0573.seg56" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0573-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0573-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0573-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0573-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4866,14 +4866,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0573-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0573-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0574.seg57" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0574-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0574-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.578">
 04	04	04	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Economic	Economic	economic	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4885,14 +4885,14 @@ Services	Services	service	NOUN	Number=Plur	Z2,Z1mf,T1.3	Z2	Z2: Geographical name
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0575.seg58" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0575-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0575-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0575-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0575-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4901,14 +4901,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0575-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0575-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0576.seg59" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0576-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0576-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.033">
 07	07	07	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Health	Health	Health	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4918,14 +4918,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0577.seg60" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0577-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0577-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0577-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0577-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4934,14 +4934,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0577-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0577-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0578.seg61" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0578-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0578-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.125">
 10	10	10	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Social	Social	social	ADJ	Degree=Pos	I1.1/G1.1	I1.1 G1.1	I1.1: Money and pay|G1.1: Government	t2
@@ -4954,14 +4954,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0579.seg62" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0579-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0579-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0579-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0579-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -4970,14 +4970,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0579-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0579-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0580.seg63" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0580-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0580-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.202">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	general	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -4986,14 +4986,14 @@ TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0581.seg64" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0581-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0581-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0581-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0581-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5002,14 +5002,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0581-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0581-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0582.seg65" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0582-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0582-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.186">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 prime	prime	prime	ADJ	Degree=Pos	A11.1+++,A5.1+++,A4.2+	A11.1p	A11.1+: Important	t2
 minister	minister	minister	NOUN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t3
@@ -5029,7 +5029,7 @@ adopted	adopted	adopt	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,S4	A9p	A9+: G
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0583.seg66" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0583-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0583-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.307">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -5055,7 +5055,7 @@ chapters	chapters	chapter	NOUN	Number=Plur	Q4.1,T1.3,S9/S5c,S5+c	Q4.1	Q4.1: The 
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0583-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0583-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5064,14 +5064,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0583-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0583-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0584.seg67" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0584-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0584-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.461">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5097,7 +5097,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0585.seg68" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0585-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0585-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 (A)	(A)	(A)	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -5116,7 +5116,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0587.seg69" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0587-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0587-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.196">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Total	Total	total	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Payment	Payment	payment	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5125,7 +5125,7 @@ Payment	Payment	payment	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0588.seg70" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0588-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0588-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.463">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Budget	Budget	budget	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t1
 Expenses	Expenses	expense	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
@@ -5134,7 +5134,7 @@ Expenses	Expenses	expense	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0589.seg71" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0589-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0589-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.678">
 Canceled	Canceled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Fund	Fund	fund	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5143,7 +5143,7 @@ Fund	Fund	fund	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0590.seg72" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0590-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0590-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.323">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 A	A	a	NUM	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -5157,7 +5157,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	S7.1+/S2mf,O2	S7.1p S2	S7.1+: In power|S2: Pe
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0590-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0590-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5166,14 +5166,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0590-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0590-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0591.seg73" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0591-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0591-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.094">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 prime	prime	prime	ADJ	Degree=Pos	A11.1+++,A5.1+++,A4.2+	A11.1p	A11.1+: Important	t2
 minister	minister	minister	NOUN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t3
@@ -5191,7 +5191,7 @@ adopted	adopted	adopt	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,S4	A9p	A9+: G
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0592.seg74" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0592-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0592-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.082">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -5221,7 +5221,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t22
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0592-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0592-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5230,14 +5230,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0592-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0592-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0594.seg75" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0594-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0594-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.385">
 07.75	07.75	07.75	NUM	-	N1	N1	N1: Numbers	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5251,7 +5251,7 @@ RESPONSIBILITY	RESPONSIBILITY	responsibility	NOUN	Number=Sing	S6+,S7.1+,X6+	S6p	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0595.seg76" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0595-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0595-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.397">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5271,7 +5271,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0597.seg77" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0597-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0597-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.231">
 03	03	03	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5284,14 +5284,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0598.seg78" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0598-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0598-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0598-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0598-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5300,14 +5300,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0598-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0598-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0599.seg79" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0599-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0599-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.146">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	general	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 TOPLAM	TOPLAM	TOPLAM	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5316,14 +5316,14 @@ TOPLAM	TOPLAM	TOPLAM	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0600.seg80" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0600-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0600-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0600-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0600-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5332,14 +5332,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0600-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0600-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0601.seg81" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0601-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0601-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.867">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Undersecretary	Undersecretary	Undersecretary	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -5366,7 +5366,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0602.seg82" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0602-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0602-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.091">
 Undersecretary	Undersecretary	Undersecretary	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -5397,7 +5397,7 @@ chapters	chapters	chapter	NOUN	Number=Plur	Q4.1,T1.3,S9/S5c,S5+c	Q4.1	Q4.1: The 
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0602-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0602-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5406,14 +5406,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0602-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0602-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0603.seg83" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0603-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0603-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.308">
 2)	2)	2)	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 Undersecretary	Undersecretary	Undersecretary	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -5426,7 +5426,7 @@ Agency	Agency	Agency	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0604.seg84" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0604-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0604-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 (A)	(A)	(A)	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -5445,14 +5445,14 @@ ruler	ruler	ruler	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0606.seg85" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0606-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0606-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.823">
 Total	Total	total	ADJ	Degree=Pos	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t1
 allowance	allowance	allowance	NOUN	Number=Sing	I1.1,S7.4+,X4.1	I1.1	I1.1: Money and pay	t2
 958,728,518,64	958,728,518,64	95872851864	NUM	NumForm=Digit NumType=Card	Z99	Z99	Z99: Unmatched	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0607.seg86" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0607-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0607-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.191">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Budget	Budget	budget	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5461,7 +5461,7 @@ Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0608.seg87" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0608-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0608-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.028">
 Cancelled	Cancelled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 <phr usas_tags="Z2,Z1mf,T1.3" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 Fund	Fund	fund	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
@@ -5470,7 +5470,7 @@ Fund	Fund	fund	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0609.seg88" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0609-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0609-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.120">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Fund	Fund	fund	NOUN	Number=Sing	I1.1	I1.1	I1.1: Money and pay	t2
@@ -5486,7 +5486,7 @@ Year	Year	year	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0610.seg89" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0610-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0610-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.323">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 A	A	a	NUM	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -5500,7 +5500,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	S7.1+/S2mf,O2	S7.1p S2	S7.1+: In power|S2: Pe
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0610-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0610-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5509,14 +5509,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0610-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0610-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0611.seg90" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0611-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0611-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.622">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Undersecretary	Undersecretary	Undersecretary	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -5542,7 +5542,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0612.seg91" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0612-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0612-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.217">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Secretary	Secretary	Secretary	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5577,7 +5577,7 @@ sectors	sectors	sector	NOUN	Number=Plur	A4.1,S5+,M7,N2@	A4.1	A4.1: Generally kin
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0612-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0612-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5586,14 +5586,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0612-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0612-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0614.seg92" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0614-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0614-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.456">
 07.76	07.76	07.76	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5608,7 +5608,7 @@ MILK	MILK	milk	NOUN	Number=Sing	F2,O1.2	F2	F2: Drinks and alcohol	t8
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0615.seg93" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0615-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0615-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.383">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5628,7 +5628,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0617.seg94" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0617-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0617-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.311">
 01	01	01	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 General	General	General	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5639,7 +5639,7 @@ Service	Service	service	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t4
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0618.seg95" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0618-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0618-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -5660,7 +5660,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0619.seg96" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0619-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0619-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.190">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	general	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5669,14 +5669,14 @@ TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0620.seg97" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0620-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0620-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0620-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0620-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5685,14 +5685,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0620-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0620-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0621.seg98" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0621-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0621-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.218">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Secretary	Secretary	Secretary	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5731,7 +5731,7 @@ chapters	chapters	chapter	NOUN	Number=Plur	Q4.1,T1.3,S9/S5c,S5+c	Q4.1	Q4.1: The 
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0621-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0621-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5740,14 +5740,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0621-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0621-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0622.seg99" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0622-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0622-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.293">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5770,7 +5770,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0623.seg100" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0623-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0623-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.121">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -5792,14 +5792,14 @@ ruler	ruler	ruler	NOUN	Number=Sing	S7.1+/S2mf,O2	S7.1p S2	S7.1+: In power|S2: Pe
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0625.seg101" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0625-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0625-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.426">
 Total	Total	total	ADJ	Degree=Pos	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t1
 allowance	allowance	allowance	NOUN	Number=Sing	I1.1,S7.4+,X4.1	I1.1	I1.1: Money and pay	t2
 20.166.876.00	20.166.876.00	20.166.876.00	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0626.seg102" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0626-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0626-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.117">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Budget	Budget	budget	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t1
 Expenses	Expenses	expense	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
@@ -5808,14 +5808,14 @@ Expenses	Expenses	expense	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0627.seg103" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0627-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0627-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.893">
 Canceled	Canceled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 Fund	Fund	fund	NOUN	Number=Sing	I1.1,N5+	I1.1	I1.1: Money and pay	t2
 1.945.606.82	1.945.606.82	1.945.606.82	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0628.seg104" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0628-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0628-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.323">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 A	A	a	NUM	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -5829,7 +5829,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	S7.1+/S2mf,O2	S7.1p S2	S7.1+: In power|S2: Pe
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0628-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0628-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -5838,14 +5838,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0628-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0628-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0629.seg105" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0629-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0629-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.063">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Secretary	Secretary	Secretary	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5874,7 +5874,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0630.seg106" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0630-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0630-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.578">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -5920,7 +5920,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0632.seg107" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0632-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0632-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.839">
 07.86	07.86	07.86	NUM	-	N1	N1	N1: Numbers	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5931,7 +5931,7 @@ DISCOVERY	DISCOVERY	DISCOVERY	PROPN	Number=Sing	A10+	A10p	A10+: Open; Finding; S
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0633.seg108" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0633-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0633-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.465">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5956,7 +5956,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0635.seg109" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0635-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0635-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.205">
 01	01	01	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 General	General	General	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5967,7 +5967,7 @@ Service	Service	service	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t4
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0636.seg110" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0636-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0636-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -5988,7 +5988,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0637.seg111" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0637-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0637-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.047">
 02	02	02	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Defense	Defense	defense	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5998,14 +5998,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0638.seg112" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0638-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0638-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0638-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0638-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6014,14 +6014,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0638-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0638-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0639.seg113" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0639-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0639-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.203">
 03	03	03	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6034,14 +6034,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0640.seg114" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0640-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0640-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0640-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0640-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6050,14 +6050,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0640-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0640-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0641.seg115" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0641-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0641-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.124">
 07	07	07	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Health	Health	health	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6067,14 +6067,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0642.seg116" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0642-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0642-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0642-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0642-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6083,14 +6083,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0642-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0642-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0643.seg117" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0643-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0643-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.210">
 08	08	08	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 Rest	Rest	Rest	NOUN	Number=Sing	E3+,K1,T2-/T1.3,O2,N5.1-	E3p	E3+: Calm	t2
 <g/>
@@ -6105,14 +6105,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0644.seg118" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0644-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0644-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0644-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0644-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6121,14 +6121,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0644-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0644-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0645.seg119" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0645-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0645-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.361">
 09	09	09	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Education	Education	education	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6138,14 +6138,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0646.seg120" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0646-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0646-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0646-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0646-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6154,14 +6154,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0646-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0646-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0647.seg121" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0647-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0647-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.178">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	general	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 TOPLAM	TOPLAM	TOPLAM	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6170,14 +6170,14 @@ TOPLAM	TOPLAM	TOPLAM	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0648.seg122" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0648-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0648-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0648-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0648-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6186,14 +6186,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0648-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0648-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0649.seg123" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0649-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0649-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.242">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Ministry	Ministry	Ministry	PROPN	Number=Sing	G1.1c,S9	G1.1	G1.1: Government	t2
@@ -6218,7 +6218,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t16
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0650.seg124" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0650-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0650-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.368">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'd	'd	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
@@ -6250,7 +6250,7 @@ account	account	account	NOUN	Number=Sing	I1,I1.3,I2.1,Q2.2,Y2	I1	I1: Money gener
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0650-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0650-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6259,14 +6259,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0650-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0650-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0651.seg125" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0651-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0651-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.380">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -6289,7 +6289,7 @@ Account	Account	account	PROPN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t14
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0652.seg126" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0652-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0652-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 (A)	(A)	(A)	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -6308,14 +6308,14 @@ ruler	ruler	ruler	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0654.seg127" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0654-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0654-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.396">
 Total	Total	total	ADJ	Degree=Pos	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t1
 allowance	allowance	allowance	NOUN	Number=Sing	I1.1,S7.4+,X4.1	I1.1	I1.1: Money and pay	t2
 4.960.893.631.00	4.960.893.631.00	4.960.893.631.00	NUM	NumForm=Digit NumType=Card	Z99	Z99	Z99: Unmatched	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0655.seg128" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0655-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0655-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="1.692">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Budget	Budget	budget	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6324,7 +6324,7 @@ Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0656.seg129" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0656-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0656-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.743">
 Compensation	Compensation	compensation	NOUN	Number=Sing	S8+	S8p	S8+: Helping	t1
 <phr usas_tags="Z2,Z1mf,T1.3" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 Expenses	Expenses	expense	NOUN	Number=Plur	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
@@ -6333,7 +6333,7 @@ Expenses	Expenses	expense	NOUN	Number=Plur	Z2,Z1mf,T1.3	Z2	Z2: Geographical name
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0657.seg130" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0657-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0657-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.928">
 Cancelled	Cancelled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 <name type="PER">
 Grant	Grant	grant	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
@@ -6342,7 +6342,7 @@ Grant	Grant	grant	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0658.seg131" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0658-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0658-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.323">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 A	A	a	NUM	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -6356,7 +6356,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	S7.1+/S2mf,O2	S7.1p S2	S7.1+: In power|S2: Pe
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0658-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0658-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6365,14 +6365,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0658-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0658-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0659.seg132" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0659-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0659-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.204">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Ministry	Ministry	Ministry	PROPN	Number=Sing	G1.1c,S9	G1.1	G1.1: Government	t2
@@ -6399,7 +6399,7 @@ account	account	account	NOUN	Number=Sing	I1,I1.3,I2.1,Q2.2,Y2	I1	I1: Money gener
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0660.seg133" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0660-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0660-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.485">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'd	'd	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
@@ -6447,7 +6447,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0662.seg134" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0662-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0662-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.235">
 40.18	40.18	40.18	NUM	-	N1	N1	N1: Numbers	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -6460,7 +6460,7 @@ VICTIMS	VICTIMS	victim	NOUN	Number=Plur	Z2,Z3c	Z2	Z2: Geographical names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0663.seg135" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0663-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0663-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.526">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -6479,7 +6479,7 @@ Budget	Budget	budget	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t10
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0665.seg136" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0665-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0665-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.285">
 01	01	01	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 General	General	General	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6490,7 +6490,7 @@ Service	Service	service	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t4
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0666.seg137" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0666-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0666-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6511,7 +6511,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0667.seg138" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0667-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0667-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.169">
 03	03	03	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6524,7 +6524,7 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0668.seg139" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0668-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0668-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6545,7 +6545,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0669.seg140" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0669-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0669-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.235">
 07	07	07	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Health	Health	health	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6555,7 +6555,7 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0670.seg141" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0670-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0670-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6576,7 +6576,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0671.seg142" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0671-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0671-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.030">
 08	08	08	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 Rest	Rest	Rest	NOUN	Number=Sing	E3+,K1,T2-/T1.3,O2,N5.1-	E3p	E3+: Calm	t2
 <g/>
@@ -6591,7 +6591,7 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0672.seg143" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0672-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0672-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6612,7 +6612,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0673.seg144" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0673-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0673-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.105">
 10	10	10	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Social	Social	social	ADJ	Degree=Pos	I1.1/G1.1	I1.1 G1.1	I1.1: Money and pay|G1.1: Government	t2
@@ -6625,7 +6625,7 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0674.seg145" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0674-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0674-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6646,7 +6646,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0675.seg146" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0675-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0675-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.037">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	general	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6655,14 +6655,14 @@ TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0676.seg147" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0676-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0676-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0676-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0676-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6671,14 +6671,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0676-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0676-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0679.seg148" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0679-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0679-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.801">
 03	03	03	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 Equipment	Equipment	equipment	NOUN	Number=Sing	O2	O2	O2: Objects generally	t2
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6690,7 +6690,7 @@ Acquisitions	Acquisitions	acquisition	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal 
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0680.seg149" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0680-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0680-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6711,7 +6711,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0681.seg150" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0681-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0681-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.906">
 <phr usas_tags="N1" usas_cats="N1" usas_glosses="N1: Numbers">
 05	05	05	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 Other	Other	other	ADJ	Degree=Pos	N1	N1	N1: Numbers	t2
@@ -6723,7 +6723,7 @@ Incomes	Incomes	income	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0682.seg151" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0682-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0682-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6744,7 +6744,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0683.seg152" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0683-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0683-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.027">
 06	06	06	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Capital	Capital	Capital	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6754,7 +6754,7 @@ Savings	Savings	Savings	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0684.seg153" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0684-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0684-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6775,7 +6775,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0685.seg154" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0685-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0685-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.202">
 <name type="ORG">
 TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t1
 </name>
@@ -6783,14 +6783,14 @@ TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t1
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0686.seg155" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0686-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0686-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0686-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0686-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -6799,14 +6799,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0686-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0686-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0687.seg156" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0687-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0687-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.076">
 Parts	Parts	part	NOUN	Number=Plur	N5.1-,O2,M7,I3.1,S1.1.3+,K4	N5.1n	N5.1-: Part	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -6830,7 +6830,7 @@ Foundations	Foundations	foundation	PROPN	Number=Plur	T2+,H2,S5+c,A5.2+,B4	T2p	T2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0688.seg157" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0688-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0688-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.390">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -6879,7 +6879,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0689.seg158" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0689-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0689-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.369">
 2)	2)	2)	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	General	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6899,7 +6899,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0690.seg159" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0690-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0690-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 (A)	(A)	(A)	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -6918,14 +6918,14 @@ ruler	ruler	ruler	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0692.seg160" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0692-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0692-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.961">
 Total	Total	total	ADJ	Degree=Pos	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t1
 allowance	allowance	allowance	NOUN	Number=Sing	I1.1,S7.4+,X4.1	I1.1	I1.1: Money and pay	t2
 509,967,333,96	509,967,333,96	509967,363,96	NUM	NumForm=Digit NumType=Card	Z99	Z99	Z99: Unmatched	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0693.seg161" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0693-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0693-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.345">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Budget	Budget	budget	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6934,7 +6934,7 @@ Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0694.seg162" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0694-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0694-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.821">
 Canceled	Canceled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 <phr usas_tags="Z2,Z1mf,T1.3" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 Fund	Fund	fund	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
@@ -6943,7 +6943,7 @@ Fund	Fund	fund	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0695.seg163" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0695-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0695-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.166">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Fund	Fund	fund	NOUN	Number=Sing	I1.1	I1.1	I1.1: Money and pay	t2
@@ -6959,7 +6959,7 @@ Year	Year	year	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0696.seg164" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0696-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0696-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.352">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 A	A	a	NUM	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -6985,7 +6985,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0697.seg165" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0697-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0697-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.788">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -7007,7 +7007,7 @@ B	B	b	NOUN	Number=Sing	Z5,O4.2-/S2mf%	Z5	Z5: Grammatical bin	t10
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0699.seg166" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0699-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0699-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.116">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Budget	Budget	budget	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Profits	Profits	profit	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7017,7 +7017,7 @@ estimated	estimated	estimate	VERB	Tense=Past VerbForm=Part	X6/A7-,N2/A7-	X6 A7n	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0700.seg167" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0700-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0700-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 <phr usas_tags="Z2,Z1mf,T1.3" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 Collection	Collection	Collection	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t1
 554.398.305.88	554.398.305.88	554.398.305.88	NUM	NumForm=Digit NumType=Card	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
@@ -7025,7 +7025,7 @@ Collection	Collection	Collection	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographic
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0701.seg168" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0701-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0701-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.083">
 Ret	Ret	ret	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t2
 Returns	Returns	return	NOUN	Number=Plur	M1,A9-,S1.1.2+,N6,I1.1,G1.1/Q1.2,M3,K5.1,Y2%	M1	M1: Moving, coming and going	t3
@@ -7033,7 +7033,7 @@ Returns	Returns	return	NOUN	Number=Plur	M1,A9-,S1.1.2+,N6,I1.1,G1.1/Q1.2,M3,K5.1
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0702.seg169" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0702-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0702-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.771">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Net	Net	net	ADJ	Degree=Pos	T1.3	T1.3	T1.3: Time: Period	t1
 Collection	Collection	Collection	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -7042,7 +7042,7 @@ Collection	Collection	Collection	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0703.seg170" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0703-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0703-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.376">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 B	B	b	NUM	-	Z5,O4.2-/S2mf%	Z5	Z5: Grammatical bin	t2
@@ -7068,7 +7068,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0704.seg171" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0704-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0704-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.968">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 General	General	General	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7095,7 +7095,7 @@ management	management	management	NOUN	Number=Sing	S7.1+c	S7.1p	S7.1+: In power	t
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0705.seg172" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0705-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0705-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.394">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -7141,7 +7141,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0707.seg173" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0707-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0707-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.876">
 40.61	40.61	40.61	NUM	NumForm=Digit	N1	N1	N1: Numbers	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -7156,7 +7156,7 @@ RIGHTS	RIGHTS	right	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t8
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0708.seg174" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0708-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0708-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.527">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -7174,7 +7174,7 @@ Budget	Budget	Budget	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t1
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0710.seg175" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0710-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0710-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.314">
 01	01	01	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 General	General	General	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7185,14 +7185,14 @@ Service	Service	service	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t4
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0711.seg176" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0711-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0711-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0711-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0711-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -7201,14 +7201,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0711-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0711-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0712.seg177" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0712-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0712-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.236">
 03	03	03	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7221,14 +7221,14 @@ Services	Services	service	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0713.seg178" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0713-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0713-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0713-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0713-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -7237,14 +7237,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0713-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0713-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0714.seg179" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0714-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0714-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.156">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 General	General	general	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 TOPLAM	TOPLAM	TOPLAM	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7253,14 +7253,14 @@ TOPLAM	TOPLAM	TOPLAM	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0715.seg180" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0715-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0715-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0715-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0715-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -7269,14 +7269,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0715-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0715-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0718.seg181" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0718-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0718-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.216">
 04	04	04	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Special	Special	special	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7292,14 +7292,14 @@ Aids	Aids	aids	NOUN	Number=Plur	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t7
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0719.seg182" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0719-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0719-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0719-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0719-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -7308,14 +7308,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0719-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0719-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0720.seg183" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0720-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0720-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.921">
 05	05	05	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <phr usas_tags="T1.2" usas_cats="T1.2" usas_glosses="T1.2: Time: Momentary">
 Other	Other	other	ADJ	Degree=Pos	T1.2	T1.2	T1.2: Time: Momentary	t2
@@ -7325,14 +7325,14 @@ Incomes	Incomes	income	NOUN	Number=Plur	T1.2	T1.2	T1.2: Time: Momentary	t3
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0721.seg184" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0721-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0721-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 favor	favor	favor	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0721-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0721-000020" senti_3="Negative" senti_6="negative" senti_n="0.475">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t2
 do	do	do	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -7341,14 +7341,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t4
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0721-000030">
+<s id="tbmm-2014-12-11sit05spe0650par0721-000030" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Sustained	Sustained	sustain	VERB	Tense=Past VerbForm=Part	T2++,A2.2,S8+,A9+,A1.1.1,B1	T2p	T2+: Time: Beginning	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0722.seg185" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0722-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0722-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.289">
 <name type="ORG">
 TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t1
 </name>
@@ -7356,7 +7356,7 @@ TOPLAM	TOPLAM	toplam	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t1
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0723.seg186" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0723-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0723-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.376">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 B	B	b	NUM	-	Z5,O4.2-/S2mf%	Z5	Z5: Grammatical bin	t2
@@ -7382,7 +7382,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0724.seg187" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0724-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0724-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.975">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Human	Human	human	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7408,7 +7408,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0725.seg188" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0725-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0725-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.377">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 submit	submit	submit	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,S7.1-	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -7456,7 +7456,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0726.seg189" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0726-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0726-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.316">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -7480,7 +7480,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0727.seg190" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0727-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0727-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 (A)	(A)	(A)	NUM	NumForm=Digit NumType=Card	Z9	Z9	Z9: Trash can	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -7499,7 +7499,7 @@ ruler	ruler	ruler	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0729.seg191" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0729-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0729-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.195">
 <phr usas_tags="T1.2" usas_cats="T1.2" usas_glosses="T1.2: Time: Momentary">
 Total	Total	total	ADJ	Degree=Pos	T1.2	T1.2	T1.2: Time: Momentary	t1
 Payment	Payment	payment	NOUN	Number=Sing	T1.2	T1.2	T1.2: Time: Momentary	t2
@@ -7508,7 +7508,7 @@ Payment	Payment	payment	NOUN	Number=Sing	T1.2	T1.2	T1.2: Time: Momentary	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0730.seg192" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0730-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0730-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.047">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Budget	Budget	budget	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7517,7 +7517,7 @@ Expenses	Expenses	expense	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0731.seg193" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0731-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0731-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="2.006">
 Canceled	Canceled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Fund	Fund	fund	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -7526,7 +7526,7 @@ Fund	Fund	fund	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0732.seg194" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0732-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0732-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.352">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 A	A	a	NUM	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -7552,7 +7552,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0733.seg195" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0733-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0733-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.788">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -7574,7 +7574,7 @@ B	B	b	NOUN	Number=Sing	Z5,O4.2-/S2mf%	Z5	Z5: Grammatical bin	t10
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0735.seg196" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0735-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0735-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.896">
 Net	Net	net	ADJ	Degree=Pos	O2,S5+,A1.3+	O2	O2: Objects generally	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Collection	Collection	Collection	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7583,7 +7583,7 @@ Collection	Collection	Collection	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0736.seg197" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0736-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0736-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.376">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 B	B	b	NUM	-	Z5,O4.2-/S2mf%	Z5	Z5: Grammatical bin	t2
@@ -7609,7 +7609,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0737.seg198" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0737-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0737-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.951">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Turkish	Turkish	Turkish	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7635,7 +7635,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0738.seg199" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0738-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0738-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.295">
 <phr usas_tags="G1.1/S2mf" usas_cats="G1.1 S2" usas_glosses="G1.1: Government|S2: People">
 Members	Members	member	NOUN	Number=Plur	G1.1/S2mf	G1.1 S2	G1.1: Government|S2: People	t1
 of	of	of	ADP	-	G1.1/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
@@ -7664,7 +7664,7 @@ approved	approved	approve	VERB	Tense=Past VerbForm=Part Voice=Pass	S7.4+,E2+,G1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0738-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0738-000020" senti_3="Neutral" senti_6="neutral positive" senti_n="2.838">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 wish	wish	wish	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -7676,7 +7676,7 @@ well	well	well	ADV	Degree=Pos	A5.1+,A13.3,A7+,B2+,Z4	A5.1p	A5.1+: Evaluation: Go
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0739.seg200" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0739-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0739-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.305">
 <name type="MISC">
 Congressmans	Congressmans	Congressmans	PROPN	Number=Plur	Z99	Z99	Z99: Unmatched	t1
 <g/>
@@ -7694,7 +7694,7 @@ complete	complete	complete	ADJ	Degree=Pos	N5.1+,T2-,N3.2+	N5.1p	N5.1+: Entire; m
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0740.seg201" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0740-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0740-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.683">
 According	According	accord	VERB	ExtPos=ADP VerbForm=Ger	A9-,A6.1+	A9n	A9-: Giving	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -7734,7 +7734,7 @@ respectively	respectively	respectively	ADV	-	A6.1-	A6.1n	A6.1-: Comparing: Diffe
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="tbmm-2014-12-11sit05spe0650par0740-000020">
+<s id="tbmm-2014-12-11sit05spe0650par0740-000020" senti_3="Neutral" senti_6="neutral negative" senti_n="1.645">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -7750,7 +7750,7 @@ at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
 </s>
 </p>
 <p id="tbmm-2014-12-11sit05spe0650par0741.seg202" lang="English">
-<s id="tbmm-2014-12-11sit05spe0650par0741-000010">
+<s id="tbmm-2014-12-11sit05spe0650par0741-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.741">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 bid	bid	bid	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2

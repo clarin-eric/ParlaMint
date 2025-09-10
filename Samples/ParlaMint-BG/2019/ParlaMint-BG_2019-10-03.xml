@@ -29,13 +29,21 @@
                <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
                <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="83" unit="speeches" xml:lang="bg">83 изказвания</measure>
@@ -48,13 +56,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="bg">Този ресурс е лицензиран под лиценз: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -94,14 +102,16 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="bg">
       <body>
          <div type="debateSection">
-            <u ana="#chair" n="129940" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u1">
+            <u ana="#chair topic:envir" n="129940" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u1">
                <seg xml:id="ParlaMint-BG_2019-10-03.seg1">Има кворум. Откривам заседанието.</seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg2">Продължаваме с точка първа за днешния ден:</seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg3">ВТОРО ГЛАСУВАНЕ НА ЗАКОНОПРОЕКТА ЗА ИЗМЕНЕНИЕ И ДОПЪЛНЕНИЕ НА ЗАКОНА ЗА ЧИСТОТАТА НА АТМОСФЕРНИЯ ВЪЗДУХ.</seg>
@@ -109,20 +119,20 @@
                <seg xml:id="ParlaMint-BG_2019-10-03.seg5">Приет е на първо гласуване на 12 септември 2019 г.</seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg6">Имате думата за представяне на Доклада на Комисията, уважаеми господин Грудев.</seg>
             </u>
-            <u ana="#regular" n="129941" who="#GrudevHristo" xml:id="ParlaMint-BG_2019-10-03.u2">
+            <u ana="#regular topic:envir" n="129941" who="#GrudevHristo" xml:id="ParlaMint-BG_2019-10-03.u2">
                <seg xml:id="ParlaMint-BG_2019-10-03.seg7">Благодаря, господин Председател.</seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg8">Уважаеми колеги, на основание чл. 49, ал. 2 от Правилника за организацията и дейността на Народното събрание предлагам в пленарната зала да бъде допусната госпожа Атанаска Николова – заместник-министър на околната среда и водите, и господин Иван Ангелов – директор на дирекция „Опазване чистотата на въздуха“ в Министерството на околната среда и водите.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#regular" n="130021" who="#ChenchevIvan" xml:id="ParlaMint-BG_2019-10-03.u82">
+            <u ana="#regular topic:lawcr" n="130021" who="#ChenchevIvan" xml:id="ParlaMint-BG_2019-10-03.u82">
                <seg xml:id="ParlaMint-BG_2019-10-03.seg460">Благодаря, уважаеми господин Председател.</seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg461">Дами и господа народни представители! Използвам този текст, за да кажа, че изразявам от мое име и от името на парламентарната ни група задоволство от това, че приехме един добър закон, който беше необходим.</seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg462">Обръщам внимание обаче на факта, че в текстовете, които приехме сега, имаше създаване на така наречените центрове, което, разбира се, беше крайно необходимо. Досега тайните квартири в България по отношение на трафика на хора – беше казано и в Комисията, в стенограмата, не разкривам някаква тайна – са били само в Бургас и Варна. В столицата не е имало тайна квартира.</seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg463">С разкриването на помощните центрове сега, надявам се поне в големите, да кажем, шест областни града да ги има, да бъдат финансово обезпечени, за да може да има по-добър резултат от мерките, които току-що приехме. Благодаря Ви за вниманието.</seg>
             </u>
-            <u ana="#chair" n="130022" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u83">
+            <u ana="#chair topic:mixed" n="130022" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u83">
                <seg xml:id="ParlaMint-BG_2019-10-03.seg464">Благодаря Ви, уважаеми господин Ченчев.</seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg465">Има ли реплики? Няма.</seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg466">Други изказвания? Няма.</seg>

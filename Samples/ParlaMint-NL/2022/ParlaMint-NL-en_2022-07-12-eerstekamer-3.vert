@@ -1,8 +1,8 @@
 <note type="head" content="Wijziging begrotingsstaten Justitie en Veiligheid 2022 (Voorjaarsnota)"/>
 <note type="speaker" content="The President"/>
-<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1" text_id="ParlaMint-NL-en_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="English" body="Upper house" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1" text_id="ParlaMint-NL-en_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="English" body="Upper house" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" topic="Law and Crime" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg1" lang="English">
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.754">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -37,7 +37,7 @@ him	him	he	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2" senti_3="Positive" senti_6="mixed positive" senti_n="4.105">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -62,9 +62,9 @@ recess	recess	recess	NOUN	Number=Sing	I2.1/N5-,H2,A10-	I2.1 N5n	I2.1: Business: 
 </speech>
 <note type="comment" content="The debate will be opened."/>
 <note type="speaker" content="The President"/>
-<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2" text_id="ParlaMint-NL-en_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="English" body="Upper house" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2" text_id="ParlaMint-NL-en_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="English" body="Upper house" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" topic="Other" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg2" lang="English">
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.152">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 give	give	give	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,A1.1.1	A9n	A9-: Giving	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -81,9 +81,9 @@ Hattem	Hattem	Hattem	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t8
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79" text_id="ParlaMint-NL-en_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="English" body="Upper house" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79" text_id="ParlaMint-NL-en_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="English" body="Upper house" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" topic="Other" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg116" lang="English">
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s528">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s528" senti_3="Positive" senti_6="positive" senti_n="4.782">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -95,9 +95,9 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </speech>
 <note type="comment" content="The debate is closed."/>
 <note type="speaker" content="The President"/>
-<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80" text_id="ParlaMint-NL-en_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="English" body="Upper house" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80" text_id="ParlaMint-NL-en_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="English" body="Upper house" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" topic="Other" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg117" lang="English">
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530" senti_3="Neutral" senti_6="neutral positive" senti_n="2.778">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -110,7 +110,7 @@ bill	bill	bill	NOUN	Number=Sing	I1.3,G1.1,Q1.2,L2	I1.3	I1.3: Money: Cost and pri
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531" senti_3="Neutral" senti_6="neutral positive" senti_n="2.583">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 one	one	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -125,7 +125,7 @@ bill	bill	bill	NOUN	Number=Sing	I1.3,G1.1,Q1.2,L2	I1.3	I1.3: Money: Cost and pri
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532" senti_3="Neutral" senti_6="neutral positive" senti_n="3.347">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -134,7 +134,7 @@ case	case	case	NOUN	Number=Sing	A4.1,O2,G2.1,B3,X4.1,Q3	A4.1	A4.1: Generally kin
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533" senti_3="Neutral" senti_6="neutral positive" senti_n="2.677">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 suggest	suggest	suggest	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,Q1.1	Q2.2	Q2.2: Speech acts	t3
@@ -151,7 +151,7 @@ break	break	break	NOUN	Number=Sing	K1/T1.3,T2-,O2,A1.4,A1.1.2	K1 T1.3	K1: Entert
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534" senti_3="Neutral" senti_6="neutral positive" senti_n="3.092">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t2
 propose	propose	propose	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2/X7+,X4.1,G1.2,Q2.2/S4	Q2.2 X7p	Q2.2: Speech acts|X7+: Wanted	t3
@@ -170,7 +170,7 @@ tabled	tabled	tab	VERB	Tense=Past VerbForm=Part Voice=Pass	Q1.2	Q1.2	Q1.2: Paper
 </s>
 </p>
 <p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg118" lang="English">
-<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535">
+<s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535" senti_3="Neutral" senti_6="neutral negative" senti_n="2.388">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>

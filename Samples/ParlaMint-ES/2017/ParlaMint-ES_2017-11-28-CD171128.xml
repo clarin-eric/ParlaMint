@@ -36,9 +36,17 @@
                <persName>Maria del Mar Bonet Ramos</persName>
                <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
@@ -46,7 +54,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="158" xml:lang="es">158 intervenciones</measure>
@@ -60,13 +68,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -110,15 +118,17 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head xml:id="ParlaMint-ES_2017-11-28-CD171128.head1">INCLUSIÓN EN EL ORDEN DEL DÍA - SOLICITUD DE PRÓRROGA DE SUBCOMISIONES: - SOLICITUD DE LA COMISIÓN DE EMPLEO Y SEGURIDAD SOCIAL, PARA QUE SE CONCEDA UNA PRÓRROGA, DE OCHO MESES, DEL PLAZO OTORGADO A LA SUBCOMISIÓN PARA EL ESTUDIO DE LA REFORMA DEL RÉGIMEN ESPECIAL DE TRABAJADORES POR CUENTA PROPIA O AUTÓNOMOS , PARA LA EMISIÓN DE SU INFORME.</head>
-            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u1" ana="#chair">
+            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u1" ana="#chair topic:other">
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p1">Se abre la sesión.</seg>
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2">De conformidad con lo dispuesto por el artículo 68.1 del Reglamento, y con lo acordado por la Junta de Portavoces, esta Presidencia somete al Pleno de la Cámara la modificación del orden del día, en el sentido de incluir como último punto de la sesión del jueves 30 de noviembre la solicitud de una prórroga de ocho meses del plazo otorgado a la Subcomisión para el estudio de la reforma del régimen especial de trabajadores por cuenta propia, o autónomos, para la emisión de su informe. ¿Lo acuerda así la Cámara? <kinesic type="gesture" xml:id="ParlaMint-ES_2017-11-28-CD171128.kinesic1">
                      <desc>Asentimiento</desc>
@@ -131,7 +141,7 @@
          </div>
          <div type="debateSection">
             <head xml:id="ParlaMint-ES_2017-11-28-CD171128.head2">TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO CONFEDERAL DE UNIDOS PODEMOS-EN COMÚ PODEM-EN MAREA, REGULADORA DE LAS PRÁCTICAS ACADÉMICAS UNIVERSITARIAS EXTERNAS.</head>
-            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u2" ana="#chair">
+            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u2" ana="#chair topic:educa">
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1">Comenzamos ahora, señorías, con el punto del orden del día relativo a la toma en consideración de la proposición de ley del Grupo Parlamentario Confederal de Unidos Podemos-En Comú Podem-En Marea, reguladora de las prácticas académicas universitarias externas. Para la presentación de la iniciativa, tiene la palabra, en primer lugar, el señor Rodríguez Rodríguez.</seg>
             </u>
             <gap reason="editorial">
@@ -139,10 +149,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u157" who="#EvaGarcíaSempere" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u157" who="#EvaGarcíaSempere" ana="#regular topic:other">
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u157.p1">Pues la haremos llegar.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u158" ana="#chair">
+            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u158" ana="#chair topic:other">
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p1">Muchas gracias.</seg>
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p2">Se suspende la sesión hasta mañana a las nueve de la mañana.</seg>
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p3">Eran las ocho y treinta minutos de la noche.</seg>

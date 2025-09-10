@@ -16,6 +16,18 @@
                <persName>Costanza Navarretta</persName>
                <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
@@ -27,7 +39,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="300" xml:lang="en">300 speeches</measure>
@@ -38,12 +50,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -65,6 +77,7 @@
                <tagUsage gi="head" occurs="31"/>
                <tagUsage gi="link" occurs="42232"/>
                <tagUsage gi="linkGrp" occurs="1810"/>
+               <tagUsage gi="measure" occurs="1773"/>
                <tagUsage gi="name" occurs="564"/>
                <tagUsage gi="note" occurs="31"/>
                <tagUsage gi="pc" occurs="6001"/>
@@ -87,8 +100,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2022-10-31">
             <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
       </revisionDesc>
@@ -98,9 +113,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-DK_2022-06-02-20211-M119.head1">Punkt 0</head>
             <note type="agendaItem" xml:id="ParlaMint-DK_2022-06-02-20211-M119.note1">2022-06-02-0</note>
-            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20220602101501" ana="#chair #domain.other">
+            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20220602101501" ana="#chair #DK-domain.other topic:other">
                <seg xml:id="ParlaMint-DK_20220602101501.seg1">
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.1">
+                     <measure type="sentiment" quantity="3.826" ana="senti:mixpos" corresp="#ParlaMint-DK_20220602101501.seg1.1"/>
 <w lemma="møde" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20220602101501.seg1.1.1">Mødet</w>
 <w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.1.2">er</w>
 <w lemma="åbne" msd="UPosTag=VERB|Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part" join="right" xml:id="ParlaMint-DK_20220602101501.seg1.1.3">åbnet</w>
@@ -113,6 +129,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.2">
+                     <measure type="sentiment" quantity="3.446" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.2"/>
 <w lemma="jeg" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.2.1">Jeg</w>
 <w lemma="ville" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.2.2">vil</w>
 <w lemma="gerne" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101501.seg1.2.3">gerne</w>
@@ -135,6 +152,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.3">
+                     <measure type="sentiment" quantity="4.321" ana="senti:mixpos" corresp="#ParlaMint-DK_20220602101501.seg1.3"/>
 <w lemma="vi" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.3.1">Vi</w>
 <w lemma="starte" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.3.2">starter</w>
 <w lemma="med" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.3.3">med</w>
@@ -179,6 +197,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.4">
+                     <measure type="sentiment" quantity="0.907" ana="senti:mixneg" corresp="#ParlaMint-DK_20220602101501.seg1.4"/>
 <w lemma="det" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.4.1">Det</w>
 <w lemma="være" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.4.2">er</w>
 <w lemma="med" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.4.3">med</w>
@@ -263,6 +282,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.5">
+                     <measure type="sentiment" quantity="2.305" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602101501.seg1.5"/>
 <w lemma="vores" msd="UPosTag=DET|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.5.1">Vores</w>
 <w lemma="tanke" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Plur" xml:id="ParlaMint-DK_20220602101501.seg1.5.2">tanker</w>
 <w lemma="og" msd="UPosTag=CCONJ" xml:id="ParlaMint-DK_20220602101501.seg1.5.3">og</w>
@@ -295,6 +315,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.6">
+                     <measure type="sentiment" quantity="0.434" ana="senti:negneg" corresp="#ParlaMint-DK_20220602101501.seg1.6"/>
                      <name type="PER">
 <w lemma="Svend" msd="UPosTag=PROPN" xml:id="ParlaMint-DK_20220602101501.seg1.6.1">Svend</w>
 <w lemma="Jakobsen" msd="UPosTag=PROPN" xml:id="ParlaMint-DK_20220602101501.seg1.6.2">Jakobsen</w>
@@ -333,6 +354,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.7">
+                     <measure type="sentiment" quantity="2.664" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.7"/>
 <w lemma="der" msd="UPosTag=ADV|PartType=Inf" xml:id="ParlaMint-DK_20220602101501.seg1.7.1">Der</w>
 <w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.7.2">var</w>
 <w lemma="ikke" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101501.seg1.7.3">ikke</w>
@@ -377,6 +399,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.8">
+                     <measure type="sentiment" quantity="2.604" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.8"/>
 <w lemma="efter" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.8.1">Efter</w>
 <w lemma="at" msd="UPosTag=PART|PartType=Inf" xml:id="ParlaMint-DK_20220602101501.seg1.8.2">at</w>
 <w lemma="have" msd="UPosTag=AUX|VerbForm=Inf|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.8.3">have</w>
@@ -419,6 +442,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.9">
+                     <measure type="sentiment" quantity="2.968" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.9"/>
 <w lemma="allerede" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101501.seg1.9.1">Allerede</w>
 <w lemma="som" msd="UPosTag=ADP|PartType=Inf" xml:id="ParlaMint-DK_20220602101501.seg1.9.2">som</w>
 <w lemma="ung" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20220602101501.seg1.9.3">ung</w>
@@ -495,6 +519,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.10">
+                     <measure type="sentiment" quantity="2.704" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.10"/>
 <w lemma="helt" msd="UPosTag=ADV|Degree=Pos" xml:id="ParlaMint-DK_20220602101501.seg1.10.1">Helt</w>
 <w lemma="tilbage" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101501.seg1.10.2">tilbage</w>
 <w lemma="i" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.10.3">i</w>
@@ -531,6 +556,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.11">
+                     <measure type="sentiment" quantity="2.427" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602101501.seg1.11"/>
 <w lemma="allerede" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101501.seg1.11.1">Allerede</w>
 <w lemma="to" msd="UPosTag=NUM|NumType=Card" xml:id="ParlaMint-DK_20220602101501.seg1.11.2">to</w>
 <w lemma="år" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" xml:id="ParlaMint-DK_20220602101501.seg1.11.3">år</w>
@@ -565,6 +591,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.12">
+                     <measure type="sentiment" quantity="5.405" ana="senti:pospos" corresp="#ParlaMint-DK_20220602101501.seg1.12"/>
 <w lemma="fra" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.12.1">Fra</w>
 <w lemma="1973" msd="UPosTag=NUM|NumType=Card" xml:id="ParlaMint-DK_20220602101501.seg1.12.2">1973</w>
 <w lemma="til" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.12.3">til</w>
@@ -637,6 +664,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.13">
+                     <measure type="sentiment" quantity="2.883" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.13"/>
 <w lemma="han" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.13.1">Han</w>
 <w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.13.2">var</w>
 <w lemma="pragmatisk" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Sing" xml:id="ParlaMint-DK_20220602101501.seg1.13.3">pragmatisk</w>
@@ -665,6 +693,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.14">
+                     <measure type="sentiment" quantity="3.367" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.14"/>
 <w lemma="ud" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101501.seg1.14.1">Ud</w>
 <w lemma="over" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.14.2">over</w>
 <w lemma="boligminister" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20220602101501.seg1.14.3">boligminister</w>
@@ -699,6 +728,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.15">
+                     <measure type="sentiment" quantity="4.625" ana="senti:pospos" corresp="#ParlaMint-DK_20220602101501.seg1.15"/>
 <w lemma="den" msd="UPosTag=DET|Number=Plur|PronType=Dem" xml:id="ParlaMint-DK_20220602101501.seg1.15.1">De</w>
 <w lemma="betroet" msd="UPosTag=ADJ|Degree=Pos|Number=Plur" xml:id="ParlaMint-DK_20220602101501.seg1.15.2">betroede</w>
 <w lemma="opgave" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Plur" xml:id="ParlaMint-DK_20220602101501.seg1.15.3">opgaver</w>
@@ -737,6 +767,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.16">
+                     <measure type="sentiment" quantity="3.261" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.16"/>
 <w lemma="og" msd="UPosTag=CCONJ" xml:id="ParlaMint-DK_20220602101501.seg1.16.1">Og</w>
 <w lemma="så" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101501.seg1.16.2">så</w>
 <w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.16.3">var</w>
@@ -765,6 +796,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.17">
+                     <measure type="sentiment" quantity="4.538" ana="senti:pospos" corresp="#ParlaMint-DK_20220602101501.seg1.17"/>
 <w lemma="den" msd="UPosTag=DET|Gender=Com|Number=Sing|PronType=Dem" xml:id="ParlaMint-DK_20220602101501.seg1.17.1">Den</w>
 <w lemma="22." msd="UPosTag=ADJ|NumType=Ord" xml:id="ParlaMint-DK_20220602101501.seg1.17.2">22.</w>
 <w lemma="december" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20220602101501.seg1.17.3">december</w>
@@ -795,6 +827,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.18">
+                     <measure type="sentiment" quantity="2.695" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.18"/>
 <w lemma="ved" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.18.1">Ved</w>
 <w lemma="den" msd="UPosTag=DET|Gender=Com|Number=Sing|PronType=Dem" xml:id="ParlaMint-DK_20220602101501.seg1.18.2">den</w>
 <w lemma="lejlighed" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20220602101501.seg1.18.3">lejlighed</w>
@@ -833,6 +866,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.19">
+                     <measure type="sentiment" quantity="1.038" ana="senti:mixneg" corresp="#ParlaMint-DK_20220602101501.seg1.19"/>
 <w lemma="frem" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101501.seg1.19.1">Frem</w>
 <w lemma="til" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.19.2">til</w>
 <w lemma="1989" msd="UPosTag=NUM|NumType=Card" xml:id="ParlaMint-DK_20220602101501.seg1.19.3">1989</w>
@@ -883,6 +917,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.20">
+                     <measure type="sentiment" quantity="0.518" ana="senti:mixneg" corresp="#ParlaMint-DK_20220602101501.seg1.20"/>
 <w lemma="men" msd="UPosTag=CCONJ" xml:id="ParlaMint-DK_20220602101501.seg1.20.1">Men</w>
 <w lemma="det" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.20.2">det</w>
 <w lemma="måtte" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.20.3">må</w>
@@ -909,6 +944,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.21">
+                     <measure type="sentiment" quantity="4.407" ana="senti:mixpos" corresp="#ParlaMint-DK_20220602101501.seg1.21"/>
 <w lemma="det" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.21.1">Det</w>
 <w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.21.2">var</w>
 <w lemma="i" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.21.3">i</w>
@@ -977,6 +1013,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.22">
+                     <measure type="sentiment" quantity="3.358" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.22"/>
 <w lemma="jeg" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.22.1">Jeg</w>
 <w lemma="tro" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" join="right" xml:id="ParlaMint-DK_20220602101501.seg1.22.2">tror</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20220602101501.seg1.22.3">,</pc>
@@ -1039,6 +1076,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.23">
+                     <measure type="sentiment" quantity="0.759" ana="senti:mixneg" corresp="#ParlaMint-DK_20220602101501.seg1.23"/>
                      <name type="PER">
 <w lemma="Svend" msd="UPosTag=PROPN" xml:id="ParlaMint-DK_20220602101501.seg1.23.1">Svend</w>
 <w lemma="Jakobsen" msd="UPosTag=PROPN" xml:id="ParlaMint-DK_20220602101501.seg1.23.2">Jakobsen</w>
@@ -1103,6 +1141,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.24">
+                     <measure type="sentiment" quantity="2.715" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101501.seg1.24"/>
 <w lemma="for" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101501.seg1.24.1">For</w>
                      <name type="PER">
 <w lemma="Svend" msd="UPosTag=PROPN" xml:id="ParlaMint-DK_20220602101501.seg1.24.2">Svend</w>
@@ -1135,6 +1174,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.25">
+                     <measure type="sentiment" quantity="0.153" ana="senti:negneg" corresp="#ParlaMint-DK_20220602101501.seg1.25"/>
 <w lemma="han" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.25.1">Han</w>
 <w lemma="have" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.25.2">havde</w>
 <w lemma="en" msd="UPosTag=DET|Gender=Neut|Number=Sing|PronType=Ind" xml:id="ParlaMint-DK_20220602101501.seg1.25.3">et</w>
@@ -1193,6 +1233,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.26">
+                     <measure type="sentiment" quantity="4.310" ana="senti:mixpos" corresp="#ParlaMint-DK_20220602101501.seg1.26"/>
 <w lemma="da" msd="UPosTag=SCONJ" xml:id="ParlaMint-DK_20220602101501.seg1.26.1">Da</w>
 <w lemma="han" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.26.2">han</w>
 <w lemma="runde" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.26.3">rundede</w>
@@ -1239,6 +1280,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.27">
+                     <measure type="sentiment" quantity="4.649" ana="senti:pospos" corresp="#ParlaMint-DK_20220602101501.seg1.27"/>
 <w lemma="det" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20220602101501.seg1.27.1">Det</w>
 <w lemma="blive" msd="UPosTag=AUX|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.27.2">blev</w>
 <w lemma="klart" msd="UPosTag=ADV|Degree=Pos" xml:id="ParlaMint-DK_20220602101501.seg1.27.3">klart</w>
@@ -1311,6 +1353,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.28">
+                     <measure type="sentiment" quantity="3.963" ana="senti:mixpos" corresp="#ParlaMint-DK_20220602101501.seg1.28"/>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20220602101501.seg1.28.1">«</pc>
 <w lemma="og" msd="UPosTag=CCONJ" xml:id="ParlaMint-DK_20220602101501.seg1.28.2">Og</w>
 <w lemma="måske" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101501.seg1.28.3">måske</w>
@@ -1385,6 +1428,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101501.seg1.29">
+                     <measure type="sentiment" quantity="4.725" ana="senti:pospos" corresp="#ParlaMint-DK_20220602101501.seg1.29"/>
 <w lemma="samme" msd="UPosTag=ADJ|Degree=Pos" xml:id="ParlaMint-DK_20220602101501.seg1.29.1">Samme</w>
 <w lemma="egenskab" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Plur" xml:id="ParlaMint-DK_20220602101501.seg1.29.2">egenskaber</w>
 <w lemma="gøre" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101501.seg1.29.3">gjorde</w>
@@ -1478,9 +1522,10 @@
                   </s>
                </seg>
             </u>
-            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20220602101959" ana="#chair #domain.other">
+            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20220602101959" ana="#chair #DK-domain.other topic:other">
                <seg xml:id="ParlaMint-DK_20220602101959.seg2">
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.1">
+                     <measure type="sentiment" quantity="3.630" ana="senti:mixpos" corresp="#ParlaMint-DK_20220602101959.seg2.1"/>
 <w lemma="så" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101959.seg2.1.1">Så</w>
 <w lemma="gå" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101959.seg2.1.2">går</w>
 <w lemma="vi" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs" xml:id="ParlaMint-DK_20220602101959.seg2.1.3">vi</w>
@@ -1501,6 +1546,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.2">
+                     <measure type="sentiment" quantity="1.910" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602101959.seg2.2"/>
 <w lemma="erhvervsminister" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20220602101959.seg2.2.1">Erhvervsministeren</w>
 <pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.2.2">(</pc>
                      <name type="PER">
@@ -1561,6 +1607,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.3">
+                     <measure type="sentiment" quantity="3.103" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101959.seg2.3"/>
 <w lemma="l" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20220602101959.seg2.3.1">L</w>
 <w lemma="146" msd="UPosTag=NUM|NumType=Card" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.3.2">146</w>
 <pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.3.3">)</pc>
@@ -1573,6 +1620,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.4">
+                     <measure type="sentiment" quantity="2.868" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101959.seg2.4"/>
 <w lemma="være" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101959.seg2.4.1">Er</w>
 <w lemma="der" msd="UPosTag=ADV|PartType=Inf" xml:id="ParlaMint-DK_20220602101959.seg2.4.2">der</w>
 <w lemma="nogen" msd="UPosTag=PRON|Gender=Com|Number=Sing|PronType=Ind" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.4.3">nogen</w>
@@ -1599,6 +1647,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.5">
+                     <measure type="sentiment" quantity="1.554" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602101959.seg2.5"/>
 <w lemma="da" msd="UPosTag=SCONJ" xml:id="ParlaMint-DK_20220602101959.seg2.5.1">Da</w>
 <w lemma="det" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20220602101959.seg2.5.2">det</w>
 <w lemma="ikke" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101959.seg2.5.3">ikke</w>
@@ -1623,6 +1672,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.6">
+                     <measure type="sentiment" quantity="1.116" ana="senti:mixneg" corresp="#ParlaMint-DK_20220602101959.seg2.6"/>
 <w lemma="medlem" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" xml:id="ParlaMint-DK_20220602101959.seg2.6.1">Medlemmer</w>
 <w lemma="af" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101959.seg2.6.2">af</w>
                      <name type="ORG">
@@ -1703,6 +1753,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.7">
+                     <measure type="sentiment" quantity="3.064" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101959.seg2.7"/>
 <w lemma="b" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20220602101959.seg2.7.1">B</w>
 <w lemma="100" msd="UPosTag=NUM|NumType=Card" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.7.2">100</w>
 <pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.7.3">)</pc>
@@ -1715,6 +1766,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.8">
+                     <measure type="sentiment" quantity="2.926" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101959.seg2.8"/>
 <w lemma="være" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101959.seg2.8.1">Er</w>
 <w lemma="der" msd="UPosTag=ADV|PartType=Inf" xml:id="ParlaMint-DK_20220602101959.seg2.8.2">der</w>
 <w lemma="nogen" msd="UPosTag=PRON|Gender=Com|Number=Sing|PronType=Ind" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.8.3">nogen</w>
@@ -1741,6 +1793,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.9">
+                     <measure type="sentiment" quantity="1.594" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602101959.seg2.9"/>
 <w lemma="da" msd="UPosTag=SCONJ" xml:id="ParlaMint-DK_20220602101959.seg2.9.1">Da</w>
 <w lemma="det" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20220602101959.seg2.9.2">det</w>
 <w lemma="ikke" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101959.seg2.9.3">ikke</w>
@@ -1765,6 +1818,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.10">
+                     <measure type="sentiment" quantity="1.206" ana="senti:mixneg" corresp="#ParlaMint-DK_20220602101959.seg2.10"/>
 <w lemma="medlem" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" xml:id="ParlaMint-DK_20220602101959.seg2.10.1">Medlemmer</w>
 <w lemma="af" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101959.seg2.10.2">af</w>
                      <name type="ORG">
@@ -1859,6 +1913,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.11">
+                     <measure type="sentiment" quantity="3.141" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101959.seg2.11"/>
 <w lemma="f" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20220602101959.seg2.11.1">F</w>
 <w lemma="40" msd="UPosTag=NUM|NumType=Card" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.11.2">40</w>
 <pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.11.3">)</pc>
@@ -1871,6 +1926,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.12">
+                     <measure type="sentiment" quantity="2.380" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602101959.seg2.12"/>
 <w lemma="forespørgsel" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20220602101959.seg2.12.1">Forespørgslen</w>
 <w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602101959.seg2.12.2">er</w>
 <w lemma="hermed" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602101959.seg2.12.3">hermed</w>
@@ -1885,6 +1941,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.13">
+                     <measure type="sentiment" quantity="1.264" ana="senti:mixneg" corresp="#ParlaMint-DK_20220602101959.seg2.13"/>
 <w lemma="medlem" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" xml:id="ParlaMint-DK_20220602101959.seg2.13.1">Medlemmer</w>
 <w lemma="af" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602101959.seg2.13.2">af</w>
                      <name type="ORG">
@@ -1973,6 +2030,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.14">
+                     <measure type="sentiment" quantity="3.164" ana="senti:neupos" corresp="#ParlaMint-DK_20220602101959.seg2.14"/>
 <w lemma="f" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20220602101959.seg2.14.1">F</w>
 <w lemma="45" msd="UPosTag=NUM|NumType=Card" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.14.2">45</w>
 <pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.14.3">)</pc>
@@ -1985,6 +2043,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602101959.seg2.15">
+                     <measure type="sentiment" quantity="1.877" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602101959.seg2.15"/>
 <w lemma="forespørgsel" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20220602101959.seg2.15.1">Forespørgslen</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20220602101959.seg2.15.2">,</pc>
 <w lemma="der" msd="UPosTag=PRON|PartType=Inf" xml:id="ParlaMint-DK_20220602101959.seg2.15.3">der</w>
@@ -2031,9 +2090,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u who="#EllemannKaren" xml:id="ParlaMint-DK_20220602140123" ana="#chair #domain.Energy">
+            <u who="#EllemannKaren" xml:id="ParlaMint-DK_20220602140123" ana="#chair #DK-domain.Energy topic:mixed">
                <seg xml:id="ParlaMint-DK_20220602140123.seg299">
                   <s xml:id="ParlaMint-DK_20220602140123.seg299.1">
+                     <measure type="sentiment" quantity="4.050" ana="senti:mixpos" corresp="#ParlaMint-DK_20220602140123.seg299.1"/>
 <w lemma="tak" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20220602140123.seg299.1.1">Tak</w>
 <w lemma="til" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602140123.seg299.1.2">til</w>
 <w lemma="minister" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20220602140123.seg299.1.3">ministeren</w>
@@ -2046,6 +2106,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602140123.seg299.2">
+                     <measure type="sentiment" quantity="3.676" ana="senti:mixpos" corresp="#ParlaMint-DK_20220602140123.seg299.2"/>
 <w lemma="klima" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" join="right" xml:id="ParlaMint-DK_20220602140123.seg299.2.1">Klima</w>
 <pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20220602140123.seg299.2.2">-</pc>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20220602140123.seg299.2.3">,</pc>
@@ -2070,6 +2131,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602140123.seg299.3">
+                     <measure type="sentiment" quantity="2.475" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602140123.seg299.3"/>
 <w lemma="der" msd="UPosTag=ADV|PartType=Inf" xml:id="ParlaMint-DK_20220602140123.seg299.3.1">Der</w>
 <w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602140123.seg299.3.2">er</w>
 <w lemma="ikke" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602140123.seg299.3.3">ikke</w>
@@ -2092,6 +2154,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602140123.seg299.4">
+                     <measure type="sentiment" quantity="2.477" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602140123.seg299.4"/>
 <w lemma="da" msd="UPosTag=SCONJ" xml:id="ParlaMint-DK_20220602140123.seg299.4.1">Da</w>
 <w lemma="der" msd="UPosTag=ADV|PartType=Inf" xml:id="ParlaMint-DK_20220602140123.seg299.4.2">der</w>
 <w lemma="ikke" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602140123.seg299.4.3">ikke</w>
@@ -2128,6 +2191,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602140123.seg299.5">
+                     <measure type="sentiment" quantity="2.658" ana="senti:neupos" corresp="#ParlaMint-DK_20220602140123.seg299.5"/>
 <w lemma="afstemning" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20220602140123.seg299.5.1">Afstemningen</w>
 <w lemma="om" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20220602140123.seg299.5.2">om</w>
 <w lemma="den" msd="UPosTag=DET|Number=Plur|PronType=Dem" xml:id="ParlaMint-DK_20220602140123.seg299.5.3">de</w>
@@ -2181,9 +2245,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-DK_2022-06-02-20211-M119.head31">Punkt 0</head>
             <note type="agendaItem" xml:id="ParlaMint-DK_2022-06-02-20211-M119.note31">2022-06-02-0</note>
-            <u who="#EllemannKaren" xml:id="ParlaMint-DK_20220602140145" ana="#chair #domain.other">
+            <u who="#EllemannKaren" xml:id="ParlaMint-DK_20220602140145" ana="#chair #DK-domain.other topic:other">
                <seg xml:id="ParlaMint-DK_20220602140145.seg300">
                   <s xml:id="ParlaMint-DK_20220602140145.seg300.1">
+                     <measure type="sentiment" quantity="2.120" ana="senti:neuneg" corresp="#ParlaMint-DK_20220602140145.seg300.1"/>
 <w lemma="dermed" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20220602140145.seg300.1.1">Dermed</w>
 <w lemma="være" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20220602140145.seg300.1.2">er</w>
 <w lemma="der" msd="UPosTag=ADV|PartType=Inf" xml:id="ParlaMint-DK_20220602140145.seg300.1.3">der</w>
@@ -2210,6 +2275,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-DK_20220602140145.seg300.2">
+                     <measure type="sentiment" quantity="2.622" ana="senti:neupos" corresp="#ParlaMint-DK_20220602140145.seg300.2"/>
 <w lemma="Folketing" msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20220602140145.seg300.2.1">Folketingets</w>
 <w lemma="næste" msd="UPosTag=ADJ|Degree=Pos" xml:id="ParlaMint-DK_20220602140145.seg300.2.2">næste</w>
 <w lemma="møde" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20220602140145.seg300.2.3">møde</w>

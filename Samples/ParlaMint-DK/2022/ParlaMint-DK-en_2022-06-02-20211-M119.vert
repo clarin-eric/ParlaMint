@@ -1,8 +1,8 @@
 <note type="head" content="Punkt 0"/>
 <note type="agendaItem" content="2022-06-02-0"/>
-<speech id="ParlaMint-DK_20220602101501" text_id="ParlaMint-DK-en_2022-06-02-20211-M119" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Regeringen Mette Frederiksen" session="20211" meeting="M119" sitting="-" agenda="-" date="2022-06-02" title="Hansard of the session of the Danish Parliament (Folketinget), 20211, M119 (2022-06-02), preliminary version" speaker_role="Chairperson" speaker_id="KristensenHenrikDam" speaker_name="Kristensen, Henrik Dam" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-DK_20220602101501" text_id="ParlaMint-DK-en_2022-06-02-20211-M119" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Regeringen Mette Frederiksen" session="20211" meeting="M119" sitting="-" agenda="-" date="2022-06-02" title="Hansard of the session of the Danish Parliament (Folketinget), 20211, M119 (2022-06-02), preliminary version" speaker_role="Chairperson" topic="Other" speaker_id="KristensenHenrikDam" speaker_name="Kristensen, Henrik Dam" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-DK_20220602101501.seg1" lang="English">
-<s id="ParlaMint-DK_20220602101501.seg1.1">
+<s id="ParlaMint-DK_20220602101501.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.826">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -10,7 +10,7 @@ open	open	open	ADJ	Degree=Pos	A10+,S1.2.1+,X6-,X5.2+,A7+	A10p	A10+: Open; Findin
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.2">
+<s id="ParlaMint-DK_20220602101501.seg1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.446">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -30,7 +30,7 @@ Chamber	Chamber	Chamber	PROPN	Number=Sing	H2,S5+c,O2	H2	H2: Parts of buildings	t
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.3">
+<s id="ParlaMint-DK_20220602101501.seg1.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.321">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 start	start	start	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2+,E5-,E3-	T2p	T2+: Time: Beginning	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -56,7 +56,7 @@ family	family	family	NOUN	Number=Sing	S4c,A4.1c	S4	S4: Kin	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.4">
+<s id="ParlaMint-DK_20220602101501.seg1.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.907">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -110,7 +110,7 @@ May	May	May	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t33
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.5">
+<s id="ParlaMint-DK_20220602101501.seg1.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.305">
 Our	Our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 thoughts	thoughts	thought	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
@@ -132,7 +132,7 @@ acquaintances	acquaintances	acquaintance	NOUN	Number=Plur	S3.1/S2mf	S3.1 S2	S3.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.6">
+<s id="ParlaMint-DK_20220602101501.seg1.6" senti_3="Negative" senti_6="negative" senti_n="0.434">
 <name type="PER">
 Svend	Svend	Svend	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Jakobsen	Jakobsen	Jakobsen	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -159,7 +159,7 @@ Vendsyssel	Vendsyssel	Vendsyssel	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t16
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.7">
+<s id="ParlaMint-DK_20220602101501.seg1.7" senti_3="Neutral" senti_6="neutral positive" senti_n="2.664">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 could	could	could	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 <g/>
@@ -184,7 +184,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.8">
+<s id="ParlaMint-DK_20220602101501.seg1.8" senti_3="Neutral" senti_6="neutral positive" senti_n="2.604">
 After	After	after	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 working	working	work	VERB	VerbForm=Ger	I3.1,A1.1.1,X9.2+,A2.1+,A2.2	I3.1	I3.1: Work and employment: Generally	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -209,7 +209,7 @@ farms	farms	farm	NOUN	Number=Plur	F4/M7	F4 M7	F4: Farming & Horticulture|M7: Pla
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.9">
+<s id="ParlaMint-DK_20220602101501.seg1.9" senti_3="Neutral" senti_6="neutral positive" senti_n="2.968">
 Already	Already	already	ADV	-	T1.1.1	T1.1.1	T1.1.1: Time: Past	t1
 as	as	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -266,7 +266,7 @@ Democracy	Democracy	Democracy	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.10">
+<s id="ParlaMint-DK_20220602101501.seg1.10" senti_3="Neutral" senti_6="neutral positive" senti_n="2.704">
 As	As	as	ADV	-	A13	A13	A13: Degree	t1
 far	far	far	ADV	Degree=Pos	A13.3,N3.3+,X9.2+	A13.3	A13.3: Degree: Boosters	t2
 back	back	back	ADV	-	M6,N6+,T1.1.1,S1.1.2+	M6	M6: Location and direction	t3
@@ -290,7 +290,7 @@ time	time	time	NOUN	Number=Sing	N4	N4	N4: Linear order	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.11">
+<s id="ParlaMint-DK_20220602101501.seg1.11" senti_3="Neutral" senti_6="neutral negative" senti_n="2.427">
 Two	Two	two	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t1
 years	years	year	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
 later	later	late	ADV	Degree=Cmp	T4--,T1.1.3,N4	T4n	T4-: Time: Late	t3
@@ -317,7 +317,7 @@ ministry	ministry	ministry	NOUN	Number=Sing	G1.1c,S9	G1.1	G1.1: Government	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.12">
+<s id="ParlaMint-DK_20220602101501.seg1.12" senti_3="Positive" senti_6="positive" senti_n="5.405">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 1973	1973	1973	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -357,7 +357,7 @@ responsibility	responsibility	responsibility	NOUN	Number=Sing	S6+,S7.1+,X6+	S6p	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.13">
+<s id="ParlaMint-DK_20220602101501.seg1.13" senti_3="Neutral" senti_6="neutral positive" senti_n="2.883">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 pragmatic	pragmatic	pragmatic	ADJ	Degree=Pos	Q3,S1.2	Q3	Q3: Language, speech and grammar	t3
@@ -375,7 +375,7 @@ material	material	material	NOUN	Number=Sing	O1,B5,O2,X2.2,S1.2	O1	O1: Substances
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.14">
+<s id="ParlaMint-DK_20220602101501.seg1.14" senti_3="Neutral" senti_6="neutral positive" senti_n="3.367">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 addition	addition	addition	NOUN	Number=Sing	N5++,N2	N5p	N5+: Quantities: many/much	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -405,7 +405,7 @@ Finance	Finance	Finance	PROPN	Number=Sing	I1	I1	I1: Money generally	t20
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.15">
+<s id="ParlaMint-DK_20220602101501.seg1.15" senti_3="Positive" senti_6="positive" senti_n="4.625">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 trusted	trusted	trust	VERB	Tense=Past VerbForm=Part	X2.1,A9-,E6+,X2.6	X2.1	X2.1: Thought, belief	t2
 tasks	tasks	task	NOUN	Number=Plur	A1.1.1,P1	A1.1.1	A1.1.1: General actions / making	t3
@@ -427,7 +427,7 @@ work	work	work	NOUN	Number=Sing	I3.1,A1.1.1,Q4,K2,C1	I3.1	I3.1: Work and employm
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.16">
+<s id="ParlaMint-DK_20220602101501.seg1.16" senti_3="Neutral" senti_6="neutral positive" senti_n="3.261">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 then	then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t2
 <name type="PER">
@@ -443,7 +443,7 @@ memory	memory	memory	NOUN	Number=Sing	X2,X2.2+,S7.2+,Y2	X2	X2: Mental actions an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.17">
+<s id="ParlaMint-DK_20220602101501.seg1.17" senti_3="Positive" senti_6="positive" senti_n="4.538">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 22	22	22	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <phr usas_tags="Z2,Z1mf,T1.3" usas_cats="Z2" usas_glosses="Z2: Geographical names">
@@ -462,7 +462,7 @@ Folketing	Folketing	Folketing	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t11
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.18">
+<s id="ParlaMint-DK_20220602101501.seg1.18" senti_3="Neutral" senti_6="neutral positive" senti_n="2.695">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 occasion	occasion	occasion	NOUN	Number=Sing	T1.2,S1.1.1	T1.2	T1.2: Time: Momentary	t3
@@ -482,7 +482,7 @@ politician	politician	politician	NOUN	Number=Sing	G1.2/S2mf	G1.2 S2	G1.2: Politi
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.19">
+<s id="ParlaMint-DK_20220602101501.seg1.19" senti_3="Negative" senti_6="mixed negative" senti_n="1.038">
 Until	Until	until	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 1989	1989	1989	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t3
@@ -528,7 +528,7 @@ Parliament	Parliament	Parliament	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.20">
+<s id="ParlaMint-DK_20220602101501.seg1.20" senti_3="Negative" senti_6="mixed negative" senti_n="0.518">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t3
@@ -544,7 +544,7 @@ challenges	challenges	challenge	NOUN	Number=Plur	A12-,A6.1-,S7.3+,E3-	A12n	A12-:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.21">
+<s id="ParlaMint-DK_20220602101501.seg1.21" senti_3="Positive" senti_6="mixed positive" senti_n="4.407">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 during	during	during	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -589,7 +589,7 @@ Hall	Hall	Hall	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t31
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.22">
+<s id="ParlaMint-DK_20220602101501.seg1.22" senti_3="Neutral" senti_6="neutral positive" senti_n="3.358">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 think	think	think	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -625,7 +625,7 @@ situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existi
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.23">
+<s id="ParlaMint-DK_20220602101501.seg1.23" senti_3="Negative" senti_6="mixed negative" senti_n="0.759">
 <name type="PER">
 Svend	Svend	Svend	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Jakobsen	Jakobsen	Jakobsen	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -668,7 +668,7 @@ to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t30
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.24">
+<s id="ParlaMint-DK_20220602101501.seg1.24" senti_3="Neutral" senti_6="neutral positive" senti_n="2.715">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <name type="PER">
 Svend	Svend	Svend	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -687,7 +687,7 @@ centre	centre	centre	NOUN	Number=Sing	M6,H1c,M7c,G1.2c,K5.1mfn	M6	M6: Location a
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.25">
+<s id="ParlaMint-DK_20220602101501.seg1.25" senti_3="Negative" senti_6="negative" senti_n="0.153">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 had	had	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -725,7 +725,7 @@ result	result	result	NOUN	Number=Sing	A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2	A2.2	A2.2: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.26">
+<s id="ParlaMint-DK_20220602101501.seg1.26" senti_3="Positive" senti_6="mixed positive" senti_n="4.310">
 When	When	when	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -750,7 +750,7 @@ coming	coming	come	VERB	VerbForm=Ger	M1,N3.1,A2.2,A3+,X2.1,A9+,S4,N4,S3.2	M1	M1:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.27">
+<s id="ParlaMint-DK_20220602101501.seg1.27" senti_3="Positive" senti_6="positive" senti_n="4.649">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 clearly	clearly	clearly	ADV	-	A7+,A11.2+,A12+	A7p	A7+: Likely	t3
@@ -791,7 +791,7 @@ performance	performance	performance	NOUN	Number=Sing	K4,X9.2,A1.1.1,A12-	K4	K4: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.28">
+<s id="ParlaMint-DK_20220602101501.seg1.28" senti_3="Positive" senti_6="mixed positive" senti_n="3.963">
 ▪	▪	▪	PUNCT	-	Z99	Z99	Z99: Unmatched	t1
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t2
 perhaps	perhaps	perhaps	ADV	-	A7	A7	A7: Probability	t3
@@ -835,7 +835,7 @@ diligence	diligence	diligence	NOUN	Number=Sing	X5.2+	X5.2p	X5.2+: Interested/exc
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.29">
+<s id="ParlaMint-DK_20220602101501.seg1.29" senti_3="Positive" senti_6="positive" senti_n="4.725">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t2
 qualities	qualities	quality	NOUN	Number=Plur	A5.1,A5.1+,O4.1	A5.1	A5.1: Evaluation: Good/bad	t3
@@ -857,7 +857,7 @@ opponents	opponents	opponent	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t14
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.30">
+<s id="ParlaMint-DK_20220602101501.seg1.30" senti_3="" senti_6="" senti_n="">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 ask	ask	ask	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -883,7 +883,7 @@ memory	memory	memory	NOUN	Number=Sing	X2,X2.2+,S7.2+,Y2	X2	X2: Mental actions an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-DK_20220602101501.seg1.31">
+<s id="ParlaMint-DK_20220602101501.seg1.31" senti_3="" senti_6="" senti_n="">
 Glory	Glory	glory	NOUN	Number=Sing	S7.2+	S7.2p	S7.2+: Respected	t1
 be	be	be	AUX	VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -899,9 +899,9 @@ memory	memory	memory	NOUN	Number=Sing	X2,X2.2+,S7.2+,Y2	X2	X2: Mental actions an
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-DK_20220602101959" text_id="ParlaMint-DK-en_2022-06-02-20211-M119" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Regeringen Mette Frederiksen" session="20211" meeting="M119" sitting="-" agenda="-" date="2022-06-02" title="Hansard of the session of the Danish Parliament (Folketinget), 20211, M119 (2022-06-02), preliminary version" speaker_role="Chairperson" speaker_id="KristensenHenrikDam" speaker_name="Kristensen, Henrik Dam" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-DK_20220602101959" text_id="ParlaMint-DK-en_2022-06-02-20211-M119" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Regeringen Mette Frederiksen" session="20211" meeting="M119" sitting="-" agenda="-" date="2022-06-02" title="Hansard of the session of the Danish Parliament (Folketinget), 20211, M119 (2022-06-02), preliminary version" speaker_role="Chairperson" topic="Other" speaker_id="KristensenHenrikDam" speaker_name="Kristensen, Henrik Dam" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-DK_20220602101959.seg2" lang="English">
-<s id="ParlaMint-DK_20220602101959.seg2.1">
+<s id="ParlaMint-DK_20220602101959.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.630">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 move	move	move	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	M2,M1,A2.1+,E1,H4/A2.1	M2	M2: Putting, pulling, pushing, transporting	t3
@@ -916,7 +916,7 @@ assignments	assignments	assignment	NOUN	Number=Plur	P1,A1.1.1,A9-	P1	P1: Educati
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.2">
+<s id="ParlaMint-DK_20220602101959.seg2.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.910">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -959,7 +959,7 @@ media	media	media	NOUN	Number=Sing	Q4c	Q4	Q4: The Media	t30
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.3">
+<s id="ParlaMint-DK_20220602101959.seg2.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.103">
 L	L	l	SYM	-	Z5	Z5	Z5: Grammatical bin	t1
 146	146	146	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <g/>
@@ -967,7 +967,7 @@ L	L	l	SYM	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.4">
+<s id="ParlaMint-DK_20220602101959.seg2.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.868">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 anyone	anyone	anyone	PRON	Number=Sing	Z8mfc	Z8	Z8: Pronouns	t2
 wish	wish	wish	VERB	VerbForm=Inf	X7+	X7p	X7+: Wanted	t3
@@ -978,7 +978,7 @@ bill	bill	bill	NOUN	Number=Sing	I1.3,G1.1,Q1.2,L2	I1.3	I1.3: Money: Cost and pri
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.5">
+<s id="ParlaMint-DK_20220602101959.seg2.5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.554">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -995,7 +995,7 @@ lapsed	lapsed	lap	VERB	Tense=Past VerbForm=Part	B1/L2,M1,K5.1%	B1 L2	B1: Anatomy
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.6">
+<s id="ParlaMint-DK_20220602101959.seg2.6" senti_3="Negative" senti_6="mixed negative" senti_n="1.116">
 Members	Members	member	NOUN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1049,12 +1049,12 @@ unequivocally	unequivocally	unequivocally	ADV	-	A7+	A7p	A7+: Likely	t39
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.7">
+<s id="ParlaMint-DK_20220602101959.seg2.7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.064">
 B100	B100	B100	NUM	NumForm=Digit NumType=Card	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.8">
+<s id="ParlaMint-DK_20220602101959.seg2.8" senti_3="Neutral" senti_6="neutral positive" senti_n="2.926">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 anyone	anyone	anyone	PRON	Number=Sing	Z8mfc	Z8	Z8: Pronouns	t2
 wish	wish	wish	VERB	VerbForm=Inf	X7+	X7p	X7+: Wanted	t3
@@ -1070,7 +1070,7 @@ resolution	resolution	resolution	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.9">
+<s id="ParlaMint-DK_20220602101959.seg2.9" senti_3="Neutral" senti_6="neutral negative" senti_n="1.594">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1091,7 +1091,7 @@ lapsed	lapsed	lap	VERB	Tense=Past VerbForm=Part	B1/L2,M1,K5.1%	B1 L2	B1: Anatomy
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.10">
+<s id="ParlaMint-DK_20220602101959.seg2.10" senti_3="Negative" senti_6="mixed negative" senti_n="1.206">
 Members	Members	member	NOUN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1162,7 +1162,7 @@ offers	offers	offer	NOUN	Number=Plur	A9-,Q2.2,I1.3-	A9n	A9-: Giving	t49
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.11">
+<s id="ParlaMint-DK_20220602101959.seg2.11" senti_3="Neutral" senti_6="neutral positive" senti_n="3.141">
 F	F	F	PROPN	Number=Sing	Z5	Z5	Z5: Grammatical bin	t1
 40	40	40	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <g/>
@@ -1170,7 +1170,7 @@ F	F	F	PROPN	Number=Sing	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.12">
+<s id="ParlaMint-DK_20220602101959.seg2.12" senti_3="Neutral" senti_6="neutral negative" senti_n="2.380">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 question	question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t2
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1180,7 +1180,7 @@ dropped	dropped	drop	VERB	Tense=Past VerbForm=Part Voice=Pass	M2,M1,N5-/A2.1,O1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.13">
+<s id="ParlaMint-DK_20220602101959.seg2.13" senti_3="Negative" senti_6="mixed negative" senti_n="1.264">
 Members	Members	member	NOUN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1246,7 +1246,7 @@ transition	transition	transition	NOUN	Number=Sing	A2.1+	A2.1p	A2.1+: Change	t43
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t44
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.14">
+<s id="ParlaMint-DK_20220602101959.seg2.14" senti_3="Neutral" senti_6="neutral positive" senti_n="3.164">
 F	F	F	PROPN	Number=Sing	Z5	Z5	Z5: Grammatical bin	t1
 45	45	45	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <g/>
@@ -1254,7 +1254,7 @@ F	F	F	PROPN	Number=Sing	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-DK_20220602101959.seg2.15">
+<s id="ParlaMint-DK_20220602101959.seg2.15" senti_3="Neutral" senti_6="neutral negative" senti_n="1.877">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 question	question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t2
 entered	entered	enter	VERB	Mood=Ind Number=Sing Tense=Past VerbForm=Fin	M1,S5+,Q1.2,T2+,A1.8+	M1	M1: Moving, coming and going	t3
@@ -1279,9 +1279,9 @@ agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents an
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-DK_20220602140123" text_id="ParlaMint-DK-en_2022-06-02-20211-M119" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Regeringen Mette Frederiksen" session="20211" meeting="M119" sitting="-" agenda="-" date="2022-06-02" title="Hansard of the session of the Danish Parliament (Folketinget), 20211, M119 (2022-06-02), preliminary version" speaker_role="Chairperson" speaker_id="EllemannKaren" speaker_name="Ellemann, Karen" speaker_mp="MP" speaker_minister="notMinister" speaker_party="V" speaker_party_name="Venstre" party_status="Opposition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1969">
+<speech id="ParlaMint-DK_20220602140123" text_id="ParlaMint-DK-en_2022-06-02-20211-M119" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Regeringen Mette Frederiksen" session="20211" meeting="M119" sitting="-" agenda="-" date="2022-06-02" title="Hansard of the session of the Danish Parliament (Folketinget), 20211, M119 (2022-06-02), preliminary version" speaker_role="Chairperson" topic="Mix" speaker_id="EllemannKaren" speaker_name="Ellemann, Karen" speaker_mp="MP" speaker_minister="notMinister" speaker_party="V" speaker_party_name="Venstre" party_status="Opposition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1969">
 <p id="ParlaMint-DK_20220602140123.seg299" lang="English">
-<s id="ParlaMint-DK_20220602140123.seg299.1">
+<s id="ParlaMint-DK_20220602140123.seg299.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.050">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1292,7 +1292,7 @@ Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Gov
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-DK_20220602140123.seg299.2">
+<s id="ParlaMint-DK_20220602140123.seg299.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.676">
 Minister	Minister	minister	NOUN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -1314,7 +1314,7 @@ much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t11
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-DK_20220602140123.seg299.3">
+<s id="ParlaMint-DK_20220602140123.seg299.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.475">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -1330,7 +1330,7 @@ Minister	Minister	minister	NOUN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Gove
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-DK_20220602140123.seg299.4">
+<s id="ParlaMint-DK_20220602140123.seg299.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.477">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t2
 one	one	one	NOUN	Number=Sing	Z8,N1	Z8	Z8: Pronouns	t3
@@ -1348,7 +1348,7 @@ closed	closed	close	VERB	Tense=Past VerbForm=Part Voice=Pass	A10-,T2-	A10n	A10-:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-DK_20220602140123.seg299.5">
+<s id="ParlaMint-DK_20220602140123.seg299.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.658">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t2
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1384,9 +1384,9 @@ earlier	earlier	early	ADV	Degree=Cmp	N4,T1.1.1,T4++	N4	N4: Linear order	t22
 </speech>
 <note type="head" content="Punkt 0"/>
 <note type="agendaItem" content="2022-06-02-0"/>
-<speech id="ParlaMint-DK_20220602140145" text_id="ParlaMint-DK-en_2022-06-02-20211-M119" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Regeringen Mette Frederiksen" session="20211" meeting="M119" sitting="-" agenda="-" date="2022-06-02" title="Hansard of the session of the Danish Parliament (Folketinget), 20211, M119 (2022-06-02), preliminary version" speaker_role="Chairperson" speaker_id="EllemannKaren" speaker_name="Ellemann, Karen" speaker_mp="MP" speaker_minister="notMinister" speaker_party="V" speaker_party_name="Venstre" party_status="Opposition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1969">
+<speech id="ParlaMint-DK_20220602140145" text_id="ParlaMint-DK-en_2022-06-02-20211-M119" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Regeringen Mette Frederiksen" session="20211" meeting="M119" sitting="-" agenda="-" date="2022-06-02" title="Hansard of the session of the Danish Parliament (Folketinget), 20211, M119 (2022-06-02), preliminary version" speaker_role="Chairperson" topic="Other" speaker_id="EllemannKaren" speaker_name="Ellemann, Karen" speaker_mp="MP" speaker_minister="notMinister" speaker_party="V" speaker_party_name="Venstre" party_status="Opposition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1969">
 <p id="ParlaMint-DK_20220602140145.seg300" lang="English">
-<s id="ParlaMint-DK_20220602140145.seg300.1">
+<s id="ParlaMint-DK_20220602140145.seg300.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.120">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1401,7 +1401,7 @@ sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Statio
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-DK_20220602140145.seg300.2">
+<s id="ParlaMint-DK_20220602140145.seg300.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.622">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.1.3" usas_cats="T1.1.3" usas_glosses="T1.1.3: Time: Future">
 next	next	next	ADJ	Degree=Pos	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -1436,7 +1436,7 @@ kl.	kl.	kl.	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t18
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-DK_20220602140145.seg300.3">
+<s id="ParlaMint-DK_20220602140145.seg300.3" senti_3="" senti_6="" senti_n="">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 refer	refer	refer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,Q1.2	Q2.2	Q2.2: Speech acts	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3

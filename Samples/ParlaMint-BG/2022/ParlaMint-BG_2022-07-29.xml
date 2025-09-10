@@ -29,13 +29,21 @@
                <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
                <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="165" unit="speeches" xml:lang="bg">165 изказвания</measure>
@@ -48,13 +56,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="bg">Този ресурс е лицензиран под лиценз: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -95,14 +103,16 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war" xml:lang="bg">
       <body>
          <div type="debateSection">
-            <u ana="#chair" n="209854" who="#IvanovMiroslav" xml:id="ParlaMint-BG_2022-07-29.u1">
+            <u ana="#chair topic:other" n="209854" who="#IvanovMiroslav" xml:id="ParlaMint-BG_2022-07-29.u1">
                <seg xml:id="ParlaMint-BG_2022-07-29.seg1">Уважаеми колеги, добро утро! Виждам, че залата е пълна в потенциалния последен ден на това Народно събрание. Моля за регистрация.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg2">Имаме регистрирани 132 народни представители.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg3">Имаме кворум.</seg>
@@ -112,7 +122,7 @@
                </kinesic>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg5">Госпожо Анастасова – за процедура, заповядайте.</seg>
             </u>
-            <u ana="#regular" n="209855" who="#AtanasovaDesislava" xml:id="ParlaMint-BG_2022-07-29.u2">
+            <u ana="#regular topic:other" n="209855" who="#AtanasovaDesislava" xml:id="ParlaMint-BG_2022-07-29.u2">
                <seg xml:id="ParlaMint-BG_2022-07-29.seg6">Благодаря, господин Председател.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg7">Уважаеми колеги, правя процедурно предложение за пренареждане на Програмата от последния ден на дейността на Четиридесет и седмото народно събрание.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg8">Предлагам в днешния пленарен ден първа точка да бъде продължението от вчера на Първо гласуване на законопроекти за изменение и допълнение на Закона за устройство на територията с вносители Костадин Костадинов и група народни представители; Владислав Панев и група народни представители; Снежанка Траянска и група народни представители.</seg>
@@ -131,7 +141,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#regular" n="210017" who="#KostadinovKostadin" xml:id="ParlaMint-BG_2022-07-29.u164">
+            <u ana="#regular topic:gover" n="210017" who="#KostadinovKostadin" xml:id="ParlaMint-BG_2022-07-29.u164">
                <seg xml:id="ParlaMint-BG_2022-07-29.seg969">Уважаеми сънародници! Безвремие е думата, която описва най-точно изминалите вече почти осем месеца, период от време, през който нямаше стремежи, идеали и нямаше видимо развитие и прогрес. Време на илюзии и лъжи, фарс и политически машинации. Време на привидна борба с корупцията, а всъщност подмяна на структурата на така наречената политическа бухалка, репресивна бухалка, предадена с недоволство от стария ГЕРБ на новия ГЕРБ в лицето на „Продължаваме Промяната“, „Демократична България“, БСП и други.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg970">Стремежът за власт и борбата за комисиони от държавни сделки направиха четворната коалиция обаче много бързо тройна. Отстранен беше председателят на Народното събрание, а после и самото правителство с активна помощ от нас, от ВЪЗРАЖДАНЕ.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg971">Поведохме битка срещу Вас, защото Вие не само се опитахте да унищожите държавата, но и не спирате да се опитвате да го правите на принципа „след нас и потоп“. Жаждата за власт в комбинация с политическо лицемерие изложи на истински риск физическото оцеляване на милиони българи.</seg>
@@ -157,7 +167,7 @@
                   <desc>Продължителни ръкопляскания от ВЪЗРАЖДАНЕ.</desc>
                </kinesic>
             </u>
-            <u ana="#chair" n="210018" who="#IvanovMiroslav" xml:id="ParlaMint-BG_2022-07-29.u165">
+            <u ana="#chair topic:gover" n="210018" who="#IvanovMiroslav" xml:id="ParlaMint-BG_2022-07-29.u165">
                <seg xml:id="ParlaMint-BG_2022-07-29.seg990">Благодаря Ви, господин Костадинов.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg991">Уважаеми колеги, няколко думи и от мен.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg992">Днес вероятно е последното пленарно заседание на Четиридесет и седмото народно събрание, което след броени минути ще стане част от историята на българския парламентаризъм. Изминаха почти осем месеца от първия звънец. Това бяха интензивни и наситени откъм събития осем месеца.</seg>

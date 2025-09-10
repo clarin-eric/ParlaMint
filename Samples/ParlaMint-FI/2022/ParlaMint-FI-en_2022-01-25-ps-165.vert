@@ -1,9 +1,9 @@
 <note type="head" content="Hallituksen esitys eduskunnalle yrittäjien työttömyysturvaoikeuden väliaikaiseksi järjestämiseksi"/>
 <note type="relatedDocument" content="Government proposal HE 239/2021 vp"/>
 <note type="relatedDocument" content="Report by the Committee TyVM 19/2021 vp"/>
-<speech id="ParlaMint-FI_2022-01-25-ps-165.u1" text_id="ParlaMint-FI-en_2022-01-25-ps-165" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Minutes of the Finnish Parliament's plenary session 165/2021, 2022-01-25" speaker_role="Chairperson" speaker_id="AnuVehviläinen" speaker_name="Vehviläinen, Anu" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KESK" speaker_party_name="Centre Party" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1963">
+<speech id="ParlaMint-FI_2022-01-25-ps-165.u1" text_id="ParlaMint-FI-en_2022-01-25-ps-165" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Minutes of the Finnish Parliament's plenary session 165/2021, 2022-01-25" speaker_role="Chairperson" topic="Mix" speaker_id="AnuVehviläinen" speaker_name="Vehviläinen, Anu" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KESK" speaker_party_name="Centre Party" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1963">
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg1" lang="English">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.1">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.802">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 second	second	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t2
 item	item	item	NOUN	Number=Sing	O2,Q4,X4.1	O2	O2: Objects generally	t3
@@ -24,7 +24,7 @@ reading	reading	reading	NOUN	Number=Sing	G1.1	G1.1	G1.1: Government	t15
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.2">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.799">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 based	based	base	VERB	Tense=Past VerbForm=Part Voice=Pass	T2+,M6,A2.2	T2p	T2+: Time: Beginning	t3
@@ -51,7 +51,7 @@ vp	vp	vp	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.3">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.329">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 content	content	content	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -67,7 +67,7 @@ decided	decided	decide	VERB	Tense=Past VerbForm=Part Voice=Pass	X6+	X6p	X6+: Dec
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.4">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.089">
 —	—	—	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 General	General	General	ADJ	Degree=Pos	N5+,A4.2-	N5p	N5+: Quantities: many/much	t2
 discussion	discussion	discussion	NOUN	Number=Sing	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t3
@@ -93,9 +93,9 @@ please	please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t13
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-FI_2022-01-25-ps-165.u2" text_id="ParlaMint-FI-en_2022-01-25-ps-165" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Minutes of the Finnish Parliament's plenary session 165/2021, 2022-01-25" speaker_role="Regular" speaker_id="AinoKaisaPekonen" speaker_name="Pekonen, Aino-Kaisa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VAS" speaker_party_name="Left Alliance" party_status="Coalition" party_orientation="Left" speaker_gender="F" speaker_birth="1979">
+<speech id="ParlaMint-FI_2022-01-25-ps-165.u2" text_id="ParlaMint-FI-en_2022-01-25-ps-165" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Minutes of the Finnish Parliament's plenary session 165/2021, 2022-01-25" speaker_role="Regular" topic="Labor" speaker_id="AinoKaisaPekonen" speaker_name="Pekonen, Aino-Kaisa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VAS" speaker_party_name="Left Alliance" party_status="Coalition" party_orientation="Left" speaker_gender="F" speaker_birth="1979">
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg2" lang="English">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.1">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.390">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -109,7 +109,7 @@ President	President	President	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t5
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.2">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.592">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t2
 proposes	proposes	propose	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q2.2/X7+,X4.1,G1.2,Q2.2/S4	Q2.2 X7p	Q2.2: Speech acts|X7+: Wanted	t3
@@ -205,7 +205,7 @@ met	met	meet	VERB	Tense=Past VerbForm=Part Voice=Pass	S3.1,M6,A1.1.1,A6.1+	S3.1	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t76
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.3">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.031">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 provision	provision	provision	NOUN	Number=Sing	A9-,A9+,N4,G2.1	A9n	A9-: Giving	t2
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -221,7 +221,7 @@ February	February	February	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical na
 </s>
 </p>
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg3" lang="English">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg3.4">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg3.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.829">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 proposed	proposed	propose	VERB	Tense=Past VerbForm=Part	Q2.2/X7+,X4.1,G1.2,Q2.2/S4	Q2.2 X7p	Q2.2: Speech acts|X7+: Wanted	t2
 amendment	amendment	amendment	NOUN	Number=Sing	A2.1+	A2.1p	A2.1+: Change	t3
@@ -261,7 +261,7 @@ entrepreneurs	entrepreneurs	entrepreneur	NOUN	Number=Plur	I2.1/S2mf	I2.1 S2	I2.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg3.5">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg3.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.215">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -311,7 +311,7 @@ Act	Act	Act	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t37
 </s>
 </p>
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg4" lang="English">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.6">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.6" senti_3="Negative" senti_6="negative" senti_n="0.489">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 pandemic	pandemic	pandemic	NOUN	Number=Sing	B2-	B2n	B2-: Disease	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -354,7 +354,7 @@ year	year	year	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t29
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.7">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.7" senti_3="Negative" senti_6="mixed negative" senti_n="0.663">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 current	current	current	ADJ	Degree=Pos	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t3
@@ -408,7 +408,7 @@ time	time	time	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t43
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t44
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.8">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.8" senti_3="Neutral" senti_6="neutral negative" senti_n="1.772">
 Restrictions	Restrictions	restriction	NOUN	Number=Plur	A1.7+	A1.7p	A1.7+: Constraint	t1
 <phr usas_tags="X9.2+,M1" usas_cats="X9.2p" usas_glosses="X9.2+: Success">
 make	make	make	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	X9.2+,M1	X9.2p	X9.2+: Success	t2
@@ -442,7 +442,7 @@ restrictions	restrictions	restriction	NOUN	Number=Plur	A1.7+	A1.7p	A1.7+: Constr
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.9">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.9" senti_3="Neutral" senti_6="neutral positive" senti_n="2.502">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -515,7 +515,7 @@ business	business	business	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluati
 </s>
 </p>
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg5" lang="English">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.10">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.10" senti_3="Positive" senti_6="positive" senti_n="4.851">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Committee	Committee	committee	NOUN	Number=Sing	Z2	Z2	Z2: Geographical names	t2
@@ -544,7 +544,7 @@ amendment	amendment	amendment	NOUN	Number=Sing	A2.1+	A2.1p	A2.1+: Change	t23
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.11">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.11" senti_3="Negative" senti_6="negative" senti_n="0.311">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 committee	committee	committee	NOUN	Number=Sing	S7.1+/S5+c	S7.1p S5p	S7.1+: In power|S5+: Belonging to a group	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -593,7 +593,7 @@ Institution	Institution	Institution	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal n
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.12">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.12" senti_3="Neutral" senti_6="neutral negative" senti_n="1.643">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 committee	committee	committee	NOUN	Number=Sing	S7.1+/S5+c	S7.1p S5p	S7.1+: In power|S5+: Belonging to a group	t2
 points	points	point	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A10+,M6,H1	A10p	A10+: Open; Finding; Showing	t3
@@ -635,7 +635,7 @@ time	time	time	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t30
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.13">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.13" senti_3="Neutral" senti_6="neutral negative" senti_n="1.905">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -668,7 +668,7 @@ time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t
 </s>
 </p>
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg6" lang="English">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg6.14">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg6.14" senti_3="Positive" senti_6="mixed positive" senti_n="4.021">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -676,7 +676,7 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg6.15">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg6.15" senti_3="Negative" senti_6="mixed negative" senti_n="1.176">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 report	report	report	NOUN	Number=Sing	Q2.2,X3.2	Q2.2	Q2.2: Speech acts	t2
 contains	contains	contain	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.8+,A1.7+	A1.8p	A1.8+: Inclusion	t3
@@ -688,9 +688,9 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t5
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-FI_2022-01-25-ps-165.u102" text_id="ParlaMint-FI-en_2022-01-25-ps-165" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Minutes of the Finnish Parliament's plenary session 165/2021, 2022-01-25" speaker_role="Regular" speaker_id="MiaLaiho" speaker_name="Laiho, Mia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KOK" speaker_party_name="National Coalition Party" party_status="Opposition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1969">
+<speech id="ParlaMint-FI_2022-01-25-ps-165.u102" text_id="ParlaMint-FI-en_2022-01-25-ps-165" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Minutes of the Finnish Parliament's plenary session 165/2021, 2022-01-25" speaker_role="Regular" topic="Other" speaker_id="MiaLaiho" speaker_name="Laiho, Mia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KOK" speaker_party_name="National Coalition Party" party_status="Opposition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1969">
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg205" lang="English">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg205.1">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg205.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.021">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -698,7 +698,7 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg205.2">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg205.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.616">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 suggest	suggest	suggest	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,Q1.1	Q2.2	Q2.2: Speech acts	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -720,9 +720,9 @@ objection	objection	objection	NOUN	Number=Sing	N6+,T1.2	N6p	N6+: Frequent	t14
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-FI_2022-01-25-ps-165.u103" text_id="ParlaMint-FI-en_2022-01-25-ps-165" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Minutes of the Finnish Parliament's plenary session 165/2021, 2022-01-25" speaker_role="Regular" speaker_id="PiaKauma" speaker_name="Kauma, Pia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KOK" speaker_party_name="National Coalition Party" party_status="Opposition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-FI_2022-01-25-ps-165.u103" text_id="ParlaMint-FI-en_2022-01-25-ps-165" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Minutes of the Finnish Parliament's plenary session 165/2021, 2022-01-25" speaker_role="Regular" topic="Other" speaker_id="PiaKauma" speaker_name="Kauma, Pia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KOK" speaker_party_name="National Coalition Party" party_status="Opposition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg206" lang="English">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg206.1">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg206.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.021">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -730,7 +730,7 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg206.2">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg206.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.467">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2

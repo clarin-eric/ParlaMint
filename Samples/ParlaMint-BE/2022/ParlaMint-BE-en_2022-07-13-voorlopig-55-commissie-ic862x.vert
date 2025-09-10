@@ -1,9 +1,9 @@
 <note type="editorial" content="Questions will be dealt with at 13.02 p.m. The meeting is chaired by Kristien Van Vaerenbergh."/>
 <note type="editorial" content="The development of questions and inquiries begins at 1:03 p.m. The meeting was chaired by Ms. Kristien Van Vaerenbergh."/>
 <note type="speaker" content="The President:"/>
-<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1" text_id="ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 13-07-2022" speaker_role="Chairperson" speaker_id="VanVaerenberghKristien" speaker_name="Van Vaerenbergh, Kristien" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="F" speaker_birth="1978">
+<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1" text_id="ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 13-07-2022" speaker_role="Chairperson" topic="Other" speaker_id="VanVaerenberghKristien" speaker_name="Van Vaerenbergh, Kristien" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="F" speaker_birth="1978">
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg1" lang="English">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6" senti_3="Neutral" senti_6="neutral negative" senti_n="1.726">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Questions	Questions	question	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Nos	Nos	nos	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -27,9 +27,9 @@ postponed	postponed	postpone	VERB	Tense=Past VerbForm=Part Voice=Pass	T1.1.3	T1.
 <note type="editorial" content="01 Question from Roberto D'Amico to Mathieu Michel (Digitalization, Administrative Simplification, Protection of Privacy and Régie des Bâtiments, des Instit. Cultural) on \"The report of the Irish Council for Civil Liberties\" (55028141C)"/>
 <note type="editorial" content="01 Question from Roberto D'Amico to Mathieu Michel (Digitalisation, Administrative Simplification, Privacy and Control of the Buildings, the Cultural Instel.) on the report of the Irish Council for Civil Liberties (55028141C)"/>
 <note type="speaker" content="01.01. Roberto D'Amico (PVDA-PTB):"/>
-<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2" text_id="ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 13-07-2022" speaker_role="Regular" speaker_id="DAmicoRoberto" speaker_name="D'Amico, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PTB" speaker_party_name="Parti du Travail de Belgique" party_status="-" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2" text_id="ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 13-07-2022" speaker_role="Regular" topic="Civil Rights" speaker_id="DAmicoRoberto" speaker_name="D'Amico, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PTB" speaker_party_name="Parti du Travail de Belgique" party_status="-" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg2" lang="English">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11" senti_3="Negative" senti_6="negative" senti_n="-0.005">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 Secretary	Secretary	Secretary	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -63,7 +63,7 @@ recorded	recorded	record	VERB	Tense=Past VerbForm=Part	Q1.2,K3	Q1.2	Q1.2: Paper 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12" senti_3="Neutral" senti_6="neutral negative" senti_n="2.218">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 organisation	organisation	organisation	NOUN	Number=Sing	S5+c,S7.1+	S5p	S5+: Belonging to a group	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -95,7 +95,7 @@ day	day	day	NOUN	Number=Sing	N6	N6	N6: Frequency	t20
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13" senti_3="Neutral" senti_6="neutral negative" senti_n="2.406">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <name type="LOC">
 Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t2
@@ -121,7 +121,7 @@ shares	shares	share	NOUN	Number=Plur	N5.1-,I1.1	N5.1n	N5.1-: Part	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14" senti_3="Negative" senti_6="mixed negative" senti_n="0.670">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -185,7 +185,7 @@ internet	internet	internet	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t47
 </s>
 </p>
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg3" lang="English">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15" senti_3="Neutral" senti_6="neutral negative" senti_n="1.938">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 Secretary	Secretary	Secretary	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -202,7 +202,7 @@ report	report	report	NOUN	Number=Sing	Q2.2,X3.2	Q2.2	Q2.2: Speech acts	t10
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16" senti_3="Neutral" senti_6="neutral negative" senti_n="2.345">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 your	your	you	PRON	Person=2 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -210,7 +210,7 @@ reaction	reaction	reaction	NOUN	Number=Sing	A1.1.1,A6.1-,B2-,Y1	A1.1.1	A1.1.1: G
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17" senti_3="Neutral" senti_6="neutral positive" senti_n="2.864">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -231,7 +231,7 @@ Internet	Internet	Internet	PROPN	Number=Sing	Y2	Y2	Y2: Information technology an
 </name>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18" senti_3="Negative" senti_6="mixed negative" senti_n="1.128">
 Will	Will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 require	require	require	VERB	VerbForm=Inf	X7+,S6+	X7p	X7+: Wanted	t3
@@ -265,9 +265,9 @@ Belgium	Belgium	Belgium	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t21
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6" text_id="ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 13-07-2022" speaker_role="Regular" speaker_id="MichelMathieu" speaker_name="Michel, Mathieu" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6" text_id="ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 13-07-2022" speaker_role="Regular" topic="Civil Rights" speaker_id="MichelMathieu" speaker_name="Michel, Mathieu" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg16" lang="English">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61" senti_3="Neutral" senti_6="neutral positive" senti_n="2.506">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -324,7 +324,7 @@ regulators	regulators	regulator	NOUN	Number=Plur	O2,S7.1+/S2mf	O2	O2: Objects ge
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62" senti_3="Neutral" senti_6="neutral positive" senti_n="2.517">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -371,7 +371,7 @@ level	level	level	NOUN	Number=Sing	N3.7,N5,S5+,A5.1,X9.1,A4.1,S7.1	N3.7	N3.7: Me
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63" senti_3="Neutral" senti_6="neutral negative" senti_n="1.662">
 Once	Once	once	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 complaint	complaint	complaint	NOUN	Number=Sing	Q2.2/E2-,B2-@	Q2.2 E2n	Q2.2: Speech acts|E2-: Dislike	t3
@@ -391,7 +391,7 @@ learned	learned	learn	VERB	Tense=Past VerbForm=Part Voice=Pass	X2.3+,P1	X2.3p	X2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64" senti_3="Neutral" senti_6="neutral positive" senti_n="2.904">
 These	These	this	PRON	Number=Plur PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 could	could	could	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 contribute	contribute	contribute	VERB	VerbForm=Inf	A9-,A2.2,S1.1.3+	A9n	A9-: Giving	t3
@@ -415,7 +415,7 @@ Belgium	Belgium	Belgium	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t16
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65" senti_3="Neutral" senti_6="neutral positive" senti_n="2.964">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 every	every	every	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 thing	thing	thing	NOUN	Number=Sing	O2,X4.1,A7-,S2mf,L2mf	O2	O2: Objects generally	t3
@@ -437,7 +437,7 @@ first	first	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t15
 </s>
 </p>
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg17" lang="English">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66" senti_3="Neutral" senti_6="neutral negative" senti_n="2.442">
 Finally	Finally	finally	ADV	-	N4	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -473,7 +473,7 @@ regard	regard	regard	NOUN	Number=Sing	S7.2+,X2.1	S7.2p	S7.2+: Respected	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67" senti_3="Neutral" senti_6="neutral positive" senti_n="3.289">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 my	my	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 part	part	part	NOUN	Number=Sing	N5.1-,O2,M7,I3.1,S1.1.3+,K4	N5.1n	N5.1-: Part	t3
@@ -525,7 +525,7 @@ law	law	law	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t37
 </s>
 </p>
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg18" lang="English">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68" senti_3="Neutral" senti_6="neutral positive" senti_n="3.153">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -581,7 +581,7 @@ GAFAMs	GAFAMs	GAFAMs	PROPN	Number=Plur	Z99	Z99	Z99: Unmatched	t40
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69" senti_3="Positive" senti_6="positive" senti_n="4.905">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 count	count	count	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	N2,A11.1+	N2	N2: Mathematics	t2
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -633,9 +633,9 @@ ODA	ODA	ODA	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t34
 </p>
 </speech>
 <note type="speaker" content="02.3 Olivier Vajda (Ecolo-Green):"/>
-<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7" text_id="ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 13-07-2022" speaker_role="Regular" speaker_id="VajdaOlivier" speaker_name="Vajda, Olivier" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ecolo" speaker_party_name="Ecologistes Confédérés pour l'Organisation de Luttes Originales" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7" text_id="ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 13-07-2022" speaker_role="Regular" topic="Domestic Commerce" speaker_id="VajdaOlivier" speaker_name="Vajda, Olivier" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ecolo" speaker_party_name="Ecologistes Confédérés pour l'Organisation de Luttes Originales" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg19" lang="English">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71" senti_3="Neutral" senti_6="neutral positive" senti_n="3.436">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -651,7 +651,7 @@ State	State	State	PROPN	Number=Sing	Q2.1	Q2.1	Q2.1: Speech: Communicative	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72" senti_3="Neutral" senti_6="neutral negative" senti_n="1.898">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 note	note	note	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.1,Q1.2	Q2.1	Q2.1: Speech: Communicative	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -683,7 +683,7 @@ GAFAM	GAFAM	GAFAM	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t22
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73" senti_3="Positive" senti_6="mixed positive" senti_n="3.854">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 rest	rest	rest	NOUN	Number=Sing	E3+,K1,T2-/T1.3,O2,N5.1-	E3p	E3+: Calm	t3
@@ -718,7 +718,7 @@ regard	regard	regard	NOUN	Number=Sing	S7.2+,X2.1	S7.2p	S7.2+: Respected	t25
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74" senti_3="Positive" senti_6="positive" senti_n="4.832">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 another	another	another	DET	-	A6.1-,N5++	A6.1n	A6.1-: Comparing: Different	t3

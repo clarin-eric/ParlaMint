@@ -1,12 +1,12 @@
 <note type="speaker" content="Místopředseda PSP Vojtěch Filip"/>
-<speech id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1" text_id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2017" session="-" meeting="ps2017/040" sitting="ps2017/040/02" agenda="ps2017/040/012" date="2020-01-22" title="Parlament České republiky, Poslanecká sněmovna, 2020-01-22, 12. Vládní návrh zákona, kterým se mění zákon č. 280/2009 Sb., daňový řád, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 580/ - druhé čtení" speaker_role="Předsedající" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" party_status="-" party_orientation="Levice a krajní levice" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1" text_id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2017" session="-" meeting="ps2017/040" sitting="ps2017/040/02" agenda="-" date="2020-01-22" title="Parlament České republiky, Poslanecká sněmovna, 2020-01-22, 12. Vládní návrh zákona, kterým se mění zákon č. 280/2009 Sb., daňový řád, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 580/ - druhé čtení" speaker_role="Předsedající" topic="Makroekonomika" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" party_status="-" party_orientation="Levice a krajní levice" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p1" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p1.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p1.s1" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="3.510">
 12	12	12	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	12	NUM	NumForm=Digit NumType=Card	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p1.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p1.s2" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="2.722">
 Vládní	Vládní	vládní	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w1	amod	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2
 návrh	návrh	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2	root	-	-	-	-
 zákona	zákona	zákon	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w3	nmod	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2
@@ -58,7 +58,7 @@ druhé	druhé	druhý	ADJ	Case=Nom Gender=Neut Number=Sing NumType=Ord	w35	amod	�
 </s>
 </p>
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p2" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p2.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p2.s1" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.494">
 Projednávání	Projednávání	projednávání	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	w1	obj	zahájit	VERB	Animacy=Anim Aspect=Perf Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w5
 bodu	bodu	bod	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w2	nmod	projednávání	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	w1
 jsme	jsme	být	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	aux	zahájit	VERB	Animacy=Anim Aspect=Perf Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w5
@@ -104,7 +104,7 @@ Vostrou	Vostrou	Vostroa	PROPN	Case=Acc Gender=Fem NameType=Sur Number=Sing Polar
 </name>
 .	.	.	PUNCT	-	w38	punct	zahájit	VERB	Animacy=Anim Aspect=Perf Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w5
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p2.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p2.s2" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.174">
 Připomínám	Připomínám	připomínat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	doručený	ADJ	Aspect=Perf Gender=Fem,Neut Number=Plur,Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8
@@ -133,7 +133,7 @@ a	a	a	CCONJ	-	w15	cc	580	NUM	NumForm=Digit NumType=Card	w16
 </s>
 </p>
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s1" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="2.756">
 Budeme	Budeme	být	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	w1	aux	pokračovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w2
 pokračovat	pokračovat	pokračovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w2	root	-	-	-	-
 v	v	v	ADP	AdpType=Prep Case=Loc	w3	case	rozprava	NOUN	Case=Loc Gender=Fem Number=Sing Polarity=Pos	w5
@@ -200,7 +200,7 @@ podrobné	podrobné	podrobný	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing Pol
 <g/>
 .	.	.	PUNCT	-	w43	punct	pokračovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w2
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s2" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="3.746">
 Ještě	Ještě	ještě	ADV	-	w1	advmod:emph	dát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 než	než	než	SCONJ	-	w2	mark	dát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 dám	dám	dát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	advcl	požádat	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w10
@@ -220,7 +220,7 @@ klid	klid	klid	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w
 <g/>
 .	.	.	PUNCT	-	w14	punct	požádat	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w10
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s3">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s3" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="3.894">
 Pan	Pan	pan	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1	nsubj	připravený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w10
 kolega	kolega	kolega	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2	flat	pan	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1
 <name type="PER">
@@ -237,13 +237,13 @@ připraven	připraven	připravený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polar
 <g/>
 .	.	.	PUNCT	-	w11	punct	připravený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w10
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s4">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s4" senti_3="Pozitivní" senti_6="pozitivní" senti_n="4.742">
 Dobře	Dobře	dobře	ADV	Degree=Pos Polarity=Pos	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	dobře	ADV	Degree=Pos Polarity=Pos	w1
 </s>
 <note type="vocal:noise" content="Stále velký hluk v sále."/>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s5">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s5" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="2.529">
 Pane	Pane	pan	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Sing Polarity=Pos	w1	nmod	poslanč	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Sing Polarity=Pos	w2
 poslanče	poslanče	poslanč	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Sing Polarity=Pos	w2	vocative	diskutovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w11
 <g/>
@@ -272,7 +272,7 @@ vidím	vidím	vidět	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres 
 .	.	.	PUNCT	-	w20	punct	chvilička	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w5
 </s>
 <note type="comment" content="Sněmovna se utišuje."/>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s6">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3.s6" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="4.115">
 Prosím	Prosím	prosit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	mít	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
@@ -285,9 +285,9 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w4	obj	mít
 </speech>
 <note type="time" content="(11.40 hodin)"/>
 <note type="speaker" content="Poslanec Lukáš Kolářík"/>
-<speech id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2" text_id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2017" session="-" meeting="ps2017/040" sitting="ps2017/040/02" agenda="ps2017/040/012" date="2020-01-22" title="Parlament České republiky, Poslanecká sněmovna, 2020-01-22, 12. Vládní návrh zákona, kterým se mění zákon č. 280/2009 Sb., daňový řád, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 580/ - druhé čtení" speaker_role="Poslanec" speaker_id="LukasKolarik.1984" speaker_name="Kolářík, Lukáš" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Piráti" speaker_party_name="Poslanecký klub České pirátské strany" party_status="Opposition" party_orientation="Střed a středo-levice" speaker_gender="M" speaker_birth="1984">
+<speech id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2" text_id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2017" session="-" meeting="ps2017/040" sitting="ps2017/040/02" agenda="-" date="2020-01-22" title="Parlament České republiky, Poslanecká sněmovna, 2020-01-22, 12. Vládní návrh zákona, kterým se mění zákon č. 280/2009 Sb., daňový řád, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 580/ - druhé čtení" speaker_role="Poslanec" topic="Makroekonomika" speaker_id="LukasKolarik.1984" speaker_name="Kolářík, Lukáš" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Piráti" speaker_party_name="Poslanecký klub České pirátské strany" party_status="Opposition" party_orientation="Střed a středo-levice" speaker_gender="M" speaker_birth="1984">
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1.s1" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="4.273">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 za	za	za	ADP	AdpType=Prep Case=Acc	w2	case	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w3
 slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w3	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -298,7 +298,7 @@ předsedající	předsedající	předsedající	ADJ	Animacy=Anim Aspect=Imp Case
 <g/>
 .	.	.	PUNCT	-	w7	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1.s2" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="3.904">
 Dobrý	Dobrý	dobrý	ADJ	Animacy=Inan Case=Acc Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w1	amod	den	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w2
 den	den	den	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w2	obl	navázat	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w11
 <g/>
@@ -322,7 +322,7 @@ skončil	skončil	skončit	VERB	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos
 <g/>
 .	.	.	PUNCT	-	w18	punct	navázat	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w11
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1.s3">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1.s3" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.235">
 Chtěl	Chtěl	chtít	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w1	root	-	-	-	-
 bych	bych	být	AUX	Mood=Cnd Number=Sing Person=1 VerbForm=Fin	w2	aux	chtít	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w1
 představit	představit	představit	VERB	Aspect=Perf Polarity=Pos VerbForm=Inf	w3	xcomp	chtít	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w1
@@ -335,7 +335,7 @@ tisku	tisku	tisk	NOUN	Animacy=Inan Case=Dat Gender=Masc Number=Sing Polarity=Pos
 <g/>
 .	.	.	PUNCT	-	w10	punct	chtít	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1.s4">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1.s4" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="1.564">
 Protože	Protože	protože	SCONJ	-	w1	mark	zabývat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w6
 se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w2	expl:pv	zabývat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w6
 ve	ve	v	ADP	AdpType=Voc Case=Loc	w3	case	mandát	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing Polarity=Pos	w5
@@ -380,7 +380,7 @@ povinnosti	povinnosti	povinnost	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Po
 </s>
 </p>
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p2" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p2.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p2.s1" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.051">
 Ta	Ta	ten	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	w1	det	úprava	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2
 úprava	úprava	úprava	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2	nsubj	proběhnout	VERB	Aspect=Perf Gender=Fem,Neut Number=Plur,Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3
 proběhla	proběhla	proběhnout	VERB	Aspect=Perf Gender=Fem,Neut Number=Plur,Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3	root	-	-	-	-
@@ -392,7 +392,7 @@ změnami	změnami	změna	NOUN	Case=Ins Gender=Fem Number=Plur Polarity=Pos	w8	ob
 <g/>
 .	.	.	PUNCT	-	w9	punct	proběhnout	VERB	Aspect=Perf Gender=Fem,Neut Number=Plur,Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p2.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p2.s2" senti_3="Negativní" senti_6="negativní" senti_n="0.307">
 V	V	v	ADP	AdpType=Prep Case=Loc	w1	case	podstata	NOUN	Case=Loc Gender=Fem Number=Sing Polarity=Pos	w2
 podstatě	podstatě	podstata	NOUN	Case=Loc Gender=Fem Number=Sing Polarity=Pos	w2	obl	takový	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	w7
 poslední	poslední	poslední	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing Polarity=Pos	w3	nsubj	takový	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	w7
@@ -442,7 +442,7 @@ dlužníka	dlužníka	dlužník	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Si
 <g/>
 .	.	.	PUNCT	-	w42	punct	takový	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	w7
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p2.s3">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p2.s3" senti_3="Negativní" senti_6="negativní" senti_n="0.060">
 Myslím	Myslím	myslit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 si	si	se	PRON	Case=Dat PronType=Prs Reflex=Yes Variant=Short	w2	expl:pv	myslit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 <g/>
@@ -496,7 +496,7 @@ platbami	platbami	platba	NOUN	Case=Ins Gender=Fem Number=Plur Polarity=Pos	w44	o
 </s>
 </p>
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s1" senti_3="Negativní" senti_6="negativní" senti_n="0.204">
 Je	Je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	cop	logický	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing Polarity=Pos	w2
 logické	logické	logický	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing Polarity=Pos	w2	root	-	-	-	-
 <g/>
@@ -570,7 +570,7 @@ dní	dní	den	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur Polarity=Pos	w6
 <g/>
 .	.	.	PUNCT	-	w63	punct	logický	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing Polarity=Pos	w2
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s2" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.198">
 Pak	Pak	pak	ADV	-	w1	advmod	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	root	-	-	-	-
 tam	tam	tam	ADV	PronType=Dem	w3	advmod	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
@@ -579,7 +579,7 @@ strop	strop	strop	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Po
 <g/>
 .	.	.	PUNCT	-	w6	punct	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s3">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s3" senti_3="Negativní" senti_6="negativní" senti_n="0.197">
 To	To	ten	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	w1	nsubj	znamenat	VERB	Aspect=Imp Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3
 by	by	být	AUX	Mood=Cnd VerbForm=Fin	w2	aux	znamenat	VERB	Aspect=Imp Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3
 znamenalo	znamenalo	znamenat	VERB	Aspect=Imp Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3	root	-	-	-	-
@@ -617,7 +617,7 @@ dluhu	dluhu	dluh	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos
 <g/>
 .	.	.	PUNCT	-	w32	punct	znamenat	VERB	Aspect=Imp Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w3
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s4">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s4" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="1.606">
 Protože	Protože	protože	SCONJ	-	w1	mark	vědomý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short	w4
 jsem	jsem	být	AUX	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	cop	vědomý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short	w4
 si	si	se	PRON	Case=Dat PronType=Prs Reflex=Yes Variant=Short	w3	expl:pv	vědomý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short	w4
@@ -648,7 +648,7 @@ varianty	varianty	varianta	NOUN	Case=Acc Gender=Fem Number=Plur Polarity=Pos	w23
 <g/>
 .	.	.	PUNCT	-	w24	punct	připravit	VERB	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w21
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s5">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s5" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="2.953">
 Jedna	Jedna	jeden	NUM	Case=Nom Gender=Fem Number=Sing NumForm=Word NumType=Card NumValue=1,2,3	w1	nummod	varianta	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2
 varianta	varianta	varianta	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2	nsubj	takový	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	w4
 je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	cop	takový	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	w4
@@ -675,7 +675,7 @@ všeobjímající	všeobjímající	všeobjímající	ADJ	Case=Nom Degree=Pos Ge
 <g/>
 .	.	.	PUNCT	-	w21	punct	takový	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	w4
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s6">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3.s6" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="2.719">
 Druhá	Druhá	druhý	ADJ	Case=Nom Gender=Fem Number=Sing NumType=Ord	w1	amod	varianta	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2
 varianta	varianta	varianta	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w2	nsubj	takový	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	w4
 je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	cop	takový	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	w4
@@ -701,7 +701,7 @@ fyzických	fyzických	fyzický	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur Po
 </s>
 </p>
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p4" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p4.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p4.s1" senti_3="Pozitivní" senti_6="pozitivní" senti_n="4.851">
 Takže	Takže	takže	SCONJ	-	w1	mark	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 děkuji	děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	root	-	-	-	-
 za	za	za	ADP	AdpType=Prep Case=Acc	w3	case	podpora	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w4
@@ -712,7 +712,7 @@ návrhů	návrhů	návrh	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur Pola
 <g/>
 .	.	.	PUNCT	-	w8	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p4.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p4.s2" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="4.441">
 Já	Já	já	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	načet	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w6
 je	je	on	PRON	Case=Acc Number=Plur Person=3 PrepCase=Npr PronType=Prs	w2	obj	načet	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w6
 <g/>
@@ -734,7 +734,7 @@ podporu	podporu	podpora	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w16	ob
 <g/>
 .	.	.	PUNCT	-	w17	punct	načet	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w6
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p4.s3">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p4.s3" senti_3="Pozitivní" senti_6="pozitivní" senti_n="4.655">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -742,9 +742,9 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38" text_id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2017" session="-" meeting="ps2017/040" sitting="ps2017/040/02" agenda="ps2017/040/012" date="2020-01-22" title="Parlament České republiky, Poslanecká sněmovna, 2020-01-22, 12. Vládní návrh zákona, kterým se mění zákon č. 280/2009 Sb., daňový řád, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 580/ - druhé čtení" speaker_role="Poslanec" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="Opposition" party_orientation="Středo-pravice a pravice" speaker_gender="M" speaker_birth="1980">
+<speech id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38" text_id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2017" session="-" meeting="ps2017/040" sitting="ps2017/040/02" agenda="-" date="2020-01-22" title="Parlament České republiky, Poslanecká sněmovna, 2020-01-22, 12. Vládní návrh zákona, kterým se mění zákon č. 280/2009 Sb., daňový řád, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 580/ - druhé čtení" speaker_role="Poslanec" topic="Makroekonomika" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="Opposition" party_orientation="Středo-pravice a pravice" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s1" senti_3="Pozitivní" senti_6="pozitivní" senti_n="4.590">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 pěkně	pěkně	pěkně	ADV	Degree=Pos Polarity=Pos	w2	advmod	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 za	za	za	ADP	AdpType=Prep Case=Acc	w3	case	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w4
@@ -752,7 +752,7 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w4	obl:arg	
 <g/>
 .	.	.	PUNCT	-	w5	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s2" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.001">
 Já	Já	já	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	přihlašovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w2	expl:pv	přihlašovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 přihlašuji	přihlašuji	přihlašovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	root	-	-	-	-
@@ -763,7 +763,7 @@ návrhům	návrhům	návrh	NOUN	Animacy=Inan Case=Dat Gender=Masc Number=Plur Po
 <g/>
 .	.	.	PUNCT	-	w8	punct	přihlašovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s3">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s3" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.116">
 První	První	první	ADJ	Case=Nom Gender=Fem Number=Sing NumType=Ord	w1	root	-	-	-	-
 je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	cop	první	ADJ	Case=Nom Gender=Fem Number=Sing NumType=Ord	w1
 v	v	v	ADP	AdpType=Prep Case=Loc	w3	case	systém	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing Polarity=Pos	w4
@@ -774,7 +774,7 @@ pod	pod	pod	ADP	AdpType=Prep Case=Ins	w5	case	číslo	NOUN	Case=Ins Gender=Neut 
 <g/>
 .	.	.	PUNCT	-	w8	punct	první	ADJ	Case=Nom Gender=Fem Number=Sing NumType=Ord	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s4">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s4" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="2.981">
 Jde	Jde	jít	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 o	o	o	ADP	AdpType=Prep Case=Acc	w2	case	vypuštění	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	w3
 vypuštění	vypuštění	vypuštění	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	w3	obl:arg	jít	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -789,7 +789,7 @@ bodu	bodu	bod	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w1
 <g/>
 .	.	.	PUNCT	-	w12	punct	jít	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s5">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s5" senti_3="Negativní" senti_6="negativní" senti_n="0.069">
 Tam	Tam	tam	ADV	PronType=Dem	w1	advmod	zaváděný	ADJ	Animacy=Inan Aspect=Imp Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w7
 jsou	jsou	být	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	aux:pass	zaváděný	ADJ	Animacy=Inan Aspect=Imp Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w7
 podle	podle	podle	ADP	AdpType=Prep Case=Gen	w3	case	názor	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w5
@@ -808,7 +808,7 @@ silnější	silnější	silný	ADJ	Case=Nom Degree=Cmp Gender=Fem Number=Plur Po
 <g/>
 .	.	.	PUNCT	-	w15	punct	zaváděný	ADJ	Animacy=Inan Aspect=Imp Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w7
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s6">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1.s6" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.226">
 Tak	Tak	tak	ADV	PronType=Dem	w1	advmod	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w6
 to	to	ten	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	w2	nsubj	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w6
 je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	cop	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w6
@@ -824,7 +824,7 @@ to	to	ten	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	w10	det	reakce	NOUN	
 </s>
 </p>
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p2" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p2.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p2.s1" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.295">
 Druhým	Druhým	druhý	ADJ	Animacy=Inan Case=Ins Gender=Masc Number=Sing NumType=Ord	w1	root	-	-	-	-
 je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	cop	druhý	ADJ	Animacy=Inan Case=Ins Gender=Masc Number=Sing NumType=Ord	w1
 pozměňovací	pozměňovací	pozměňovací	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w3	amod	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w4
@@ -835,7 +835,7 @@ pod	pod	pod	ADP	AdpType=Prep Case=Ins	w5	case	číslo	NOUN	Case=Ins Gender=Neut 
 <g/>
 .	.	.	PUNCT	-	w8	punct	druhý	ADJ	Animacy=Inan Case=Ins Gender=Masc Number=Sing NumType=Ord	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p2.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p2.s2" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="2.156">
 Za	Za	za	ADP	AdpType=Prep Case=Ins	w1	case	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing Polarity=Pos	w4
 tímto	tímto	tento	DET	Case=Ins Gender=Masc,Neut Number=Sing PronType=Dem	w2	det	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing Polarity=Pos	w4
 pozměňovacím	pozměňovacím	pozměňovací	ADJ	Animacy=Inan Case=Ins Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w3	amod	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing Polarity=Pos	w4
@@ -861,7 +861,7 @@ podané	podané	podaný	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing Polarity
 </s>
 </p>
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p3" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p3.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p3.s1" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.344">
 Nakonec	Nakonec	nakonec	ADV	-	w1	advmod	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w2	expl:pv	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 hlásím	hlásím	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3	root	-	-	-	-
@@ -874,7 +874,7 @@ pod	pod	pod	ADP	AdpType=Prep Case=Ins	w7	case	číslo	NOUN	Case=Ins Gender=Neut 
 <g/>
 .	.	.	PUNCT	-	w10	punct	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p3.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p3.s2" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="3.707">
 To	To	ten	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	w1	nsubj	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w4
 je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	cop	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w4
 pozměňovací	pozměňovací	pozměňovací	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w3	amod	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w4
@@ -892,7 +892,7 @@ daně	daně	daň	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w13	nmod	tvrz
 <g/>
 .	.	.	PUNCT	-	w14	punct	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w4
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p3.s3">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p3.s3" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="4.336">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 za	za	za	ADP	AdpType=Prep Case=Acc	w2	case	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w3
 pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w3	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -902,14 +902,14 @@ pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	
 </p>
 </speech>
 <note type="speaker" content="Místopředseda PSP Petr Fiala"/>
-<speech id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39" text_id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2017" session="-" meeting="ps2017/040" sitting="ps2017/040/02" agenda="ps2017/040/012" date="2020-01-22" title="Parlament České republiky, Poslanecká sněmovna, 2020-01-22, 12. Vládní návrh zákona, kterým se mění zákon č. 280/2009 Sb., daňový řád, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 580/ - druhé čtení" speaker_role="Předsedající" speaker_id="PetrFiala.1964" speaker_name="Fiala, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="Opposition" party_orientation="Středo-pravice a pravice" speaker_gender="M" speaker_birth="1964">
+<speech id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39" text_id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" subcorpus="Referenční" lang="čeština" body="Dolní komora" term="ps2017" session="-" meeting="ps2017/040" sitting="ps2017/040/02" agenda="-" date="2020-01-22" title="Parlament České republiky, Poslanecká sněmovna, 2020-01-22, 12. Vládní návrh zákona, kterým se mění zákon č. 280/2009 Sb., daňový řád, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 580/ - druhé čtení" speaker_role="Předsedající" topic="Ostatní" speaker_id="PetrFiala.1964" speaker_name="Fiala, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="Opposition" party_orientation="Středo-pravice a pravice" speaker_gender="M" speaker_birth="1964">
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s1" senti_3="Pozitivní" senti_6="pozitivní" senti_n="4.655">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s2">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s2" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="2.867">
 Hlásí	Hlásí	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w2	expl:pv	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 ještě	ještě	ještě	ADV	-	w3	advmod	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -920,7 +920,7 @@ rozpravy	rozpravy	rozprava	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w7	
 <g/>
 ?	?	?	PUNCT	-	w8	punct	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s3">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s3" senti_3="Neutrální" senti_6="neutrálně negativní" senti_n="2.451">
 Nehlásí	Nehlásí	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	končit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w5
@@ -930,7 +930,7 @@ končím	končím	končit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity
 <g/>
 .	.	.	PUNCT	-	w6	punct	hlásit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s4">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s4" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="3.078">
 Zájem	Zájem	zájem	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1	root	-	-	-	-
 o	o	o	ADP	AdpType=Prep Case=Acc	w2	case	slovo	NOUN	Case=Acc Gender=Neut Number=Plur Polarity=Pos	w4
 závěrečná	závěrečná	závěrečný	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Plur Polarity=Pos	w3	amod	slovo	NOUN	Case=Acc Gender=Neut Number=Plur Polarity=Pos	w4
@@ -938,7 +938,7 @@ slova	slova	slovo	NOUN	Case=Acc Gender=Neut Number=Plur Polarity=Pos	w4	nmod	zá
 <g/>
 ?	?	?	PUNCT	-	w5	punct	zájem	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s5">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s5" senti_3="Negativní" senti_6="smíšeně negativní" senti_n="0.897">
 Není	Není	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 ani	ani	ani	CCONJ	-	w2	cc	ministryně	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w5
 u	u	u	ADP	AdpType=Prep Case=Gen	w3	case	ministryně	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w5
@@ -953,13 +953,13 @@ zpravodajky	zpravodajky	zpravodajka	NOUN	Case=Gen Gender=Fem Number=Sing Polarit
 <g/>
 .	.	.	PUNCT	-	w11	punct	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s6">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s6" senti_3="Pozitivní" senti_6="pozitivní" senti_n="4.669">
 Oběma	Oběma	oba	NUM	Case=Dat Number=Plur NumForm=Word NumType=Card NumValue=1,2,3	w1	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 děkuji	děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w3	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 </s>
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s7">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1.s7" senti_3="Neutrální" senti_6="neutrálně pozitivní" senti_n="2.682">
 Nezazněl	Nezazněl	zaznít	VERB	Gender=Masc Number=Sing Polarity=Neg Tense=Past VerbForm=Part Voice=Act	w1	root	-	-	-	-
 žádný	žádný	žádný	DET	Case=Nom Gender=Masc Number=Sing PronType=Neg	w2	det	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w3
 návrh	návrh	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w3	nsubj	zaznít	VERB	Gender=Masc Number=Sing Polarity=Neg Tense=Past VerbForm=Part Voice=Act	w1
@@ -983,7 +983,7 @@ návrhu	návrhu	návrh	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polari
 </s>
 </p>
 <p id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p2" lang="čeština">
-<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p2.s1">
+<s id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p2.s1" senti_3="Pozitivní" senti_6="smíšeně pozitivní" senti_n="3.593">
 Nyní	Nyní	nyní	ADV	PronType=Dem	w1	advmod	věnovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w4
 se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w2	expl:pv	věnovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w4
 budeme	budeme	být	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	w3	aux	věnovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w4

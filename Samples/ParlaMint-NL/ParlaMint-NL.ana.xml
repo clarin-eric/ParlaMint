@@ -13,19 +13,31 @@
             <meeting n="35-upper" ana="#parla.upper #parla.term"/>
             <meeting n="36-upper" ana="#parla.upper #parla.term"/>
             <respStmt>
-               <persName xml:lang="nl">Jesse de Does</persName>
+               <persName>Jesse de Does</persName>
                <resp xml:lang="en">Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
             </respStmt>
             <respStmt>
-               <persName xml:lang="nl">Katrien Depuydt</persName>
+               <persName>Katrien Depuydt</persName>
                <resp xml:lang="en">Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="609209" xml:lang="nl">609,209 toespraken</measure>
@@ -38,13 +50,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -89,6 +101,7 @@
                <tagUsage gi="head" occurs="6100"/>
                <tagUsage gi="link" occurs="74217038"/>
                <tagUsage gi="linkGrp" occurs="4418823"/>
+               <tagUsage gi="measure" occurs="4418823"/>
                <tagUsage gi="name" occurs="1892977"/>
                <tagUsage gi="note" occurs="779410"/>
                <tagUsage gi="pc" occurs="7368757"/>
@@ -108,6 +121,8 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-NL-taxonomy-chn.ana.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-topic.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-sentiment.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef replacementPattern="#$1" matchPattern="(.+)" ident="chn">
@@ -115,6 +130,12 @@
             </prefixDef>
             <prefixDef replacementPattern="#$1" matchPattern="(.+)" ident="ud-syn">
                <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+            <prefixDef ident="topic" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Topic taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+            <prefixDef ident="senti" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Sentiment taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
          </listPrefixDef>
          <appInfo>
@@ -136,6 +157,14 @@
                <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
                <desc xml:lang="en">Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP). It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages. Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
                </desc>
+            </application>
+            <application ident="parlacap" version="1.0">
+               <label>ParlaCAP</label>
+               <desc>Automatic annotation with <ref target="https://www.comparativeagendas.net/pages/master-codebook">CAP (Comparative Agendas Project)</ref> major topic labels, produced with the multilingual ParlaCAP classifier, available from <ref target="https://huggingface.co/classla/ParlaCAP-Topic-Classifier">https://huggingface.co/classla/ParlaCAP-Topic-Classifier</ref>.</desc>
+            </application>
+            <application ident="parlasent" version="1.0">
+               <label>ParlaSent</label>
+               <desc>Automatic annotation of sentence-level sentiment, produced with the multilingual ParlaSent classifier, available from <ref target="https://huggingface.co/classla/xlm-r-parlasent">https://huggingface.co/classla/xlm-r-parlasent</ref>.</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -163,8 +192,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-17">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
+         <change when="2025-06-17">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-NL_2017-01-26-tweedekamer-4.ana.xml"/>

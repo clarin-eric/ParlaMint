@@ -1,8 +1,8 @@
 <note type="speaker" content="Presidenza del vice presidente LA RUSSA"/>
 <note type="speaker" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u1" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,Guerra" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)" speaker_role="Presidente" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" party_orientation="Destra verso estrema destra" speaker_gender="M" speaker_birth="1947">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u1" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,Guerra" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)" speaker_role="Presidente" topic="Other" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" party_orientation="Destra verso estrema destra" speaker_gender="M" speaker_birth="1947">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1" lang="italiano">
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.621">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
 seduta	seduta	seduta	NOUN	Gender=Fem Number=Sing	2	nsubj:pass	aprire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
 è	è	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux:pass	aprire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
@@ -16,7 +16,7 @@ ore	ore	ora	NOUN	Gender=Fem Number=Plur	6	obl	aprire	VERB	Gender=Fem Number=Sing
 <g/>
 .	.	.	PUNCT	-	9	punct	aprire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
 </s>
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.730">
 Si	Si	si	PRON	Clitic=Yes Person=3 PronType=Prs	1	expl	dare	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 dia	dia	dare	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 lettura	lettura	lettura	NOUN	Gender=Fem Number=Sing	3	obj	dare	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
@@ -26,7 +26,7 @@ verbale	verbale	verbale	ADJ	Number=Sing	7	amod	processo	NOUN	Gender=Masc Number=
 <g/>
 .	.	.	PUNCT	-	8	punct	dare	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.743">
 <name type="PER">
 DURNWALDER	DURNWALDER	DURNWALDER	PROPN	-	1	nsubj	dare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 <g/>
@@ -48,12 +48,12 @@ precedente	precedente	precedente	ADJ	Number=Sing	17	amod	giorno	NOUN	Gender=Masc
 <g/>
 .	.	.	PUNCT	-	18	punct	dare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 </s>
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.687">
 PRESIDENTE	PRESIDENTE	presidente	NOUN	Gender=Masc Number=Sing	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	presidente	NOUN	Gender=Masc Number=Sing	1
 </s>
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5" senti_3="Neutral" senti_6="neutral postive" senti_n="3.184">
 Non	Non	non	ADV	PronType=Neg	1	advmod	approvare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10
 essendovi	essendo|vi	essere|vi	AUX|PRON	VerbForm=Ger|Clitic=Yes PronType=Prs	2|3	advcl|expl	approvare|osservazione	VERB|NOUN	Gender=Masc Number=Sing Tense=Past VerbForm=Part|Gender=Fem Number=Plur	10|4
 osservazioni	osservazioni	osservazione	NOUN	Gender=Fem Number=Plur	4	nsubj	essere	AUX	VerbForm=Ger	2
@@ -72,9 +72,9 @@ approvato	approvato	approvare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Comunicazioni della Presidenza"/>
 <note type="speaker" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u2" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,Guerra" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)" speaker_role="Presidente" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" party_orientation="Destra verso estrema destra" speaker_gender="M" speaker_birth="1947">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u2" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,Guerra" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)" speaker_role="Presidente" topic="Other" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" party_orientation="Destra verso estrema destra" speaker_gender="M" speaker_birth="1947">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2" lang="italiano">
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.990">
 L'	L'	il	DET	Definite=Def Number=Sing PronType=Art	1	det	elenco	NOUN	Gender=Masc Number=Sing	2
 <g/>
 elenco	elenco	elenco	NOUN	Gender=Masc Number=Sing	2	nsubj:pass	pubblicare	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	24
@@ -118,9 +118,9 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	35	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u22" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,Guerra" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)" speaker_role="Presidente" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="-" party_orientation="Destra verso estrema destra" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u22" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,Guerra" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)" speaker_role="Presidente" topic="Other" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="-" party_orientation="Destra verso estrema destra" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41" lang="italiano">
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.081">
 Le	Le	il	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	1	det	mozione	NOUN	Gender=Fem Number=Plur	2
 mozioni	mozioni	mozione	NOUN	Gender=Fem Number=Plur	2	nsubj:pass	pubblicare	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	43
 <g/>
@@ -181,9 +181,9 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	54	amod	seduta	NOUN	Gender=Fe
 </speech>
 <note type="head" content="Ordine del giorno per la seduta di martedì 13 settembre 2022"/>
 <note type="speaker" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u23" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,Guerra" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)" speaker_role="Presidente" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="-" party_orientation="Destra verso estrema destra" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u23" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,Guerra" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)" speaker_role="Presidente" topic="Other" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="-" party_orientation="Destra verso estrema destra" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42" lang="italiano">
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.595">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Senato	PROPN	-	2
 <name type="ORG">
 Senato	Senato	Senato	PROPN	-	2	nsubj	tornare	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	3

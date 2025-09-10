@@ -1,7 +1,7 @@
 <note type="speaker" content="DEGREES (Elegia Otermin):"/>
-<speech id="ParlaMint-ES-PV_2019-12-20.u0" text_id="ParlaMint-ES-PV-en_2019-12-20" subcorpus="Reference" lang="English" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2019-12-20" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2019-12-20.u0" text_id="ParlaMint-ES-PV-en_2019-12-20" subcorpus="Reference" lang="English" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2019-12-20" speaker_role="Chairperson" topic="Social Welfare" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2019-12-20.seg1" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg1.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg1.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.697">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -12,7 +12,7 @@ everyone	everyone	everyone	PRON	Number=Sing	Z8/N5.1+c	Z8 N5.1p	Z8: Pronouns|N5.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg1.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg1.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.065">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 'll	'll	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -25,13 +25,13 @@ meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg2" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg2.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg2.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.110">
 Preceding	Preceding	precede	VERB	VerbForm=Ger	N4	N4	N4: Linear order	t1
 theme	theme	theme	NOUN	Number=Sing	X4.1,K2,Q1.2,Q3	X4.1	X4.1: Mental object: Conceptual object	t2
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg2.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg2.s2" senti_3="Negative" senti_6="negative" senti_n="0.448">
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 Mortion	Mortion	mortion	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
@@ -67,7 +67,7 @@ EAE	EAE	EAE	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t22
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg2.s3">
+<s id="ParlaMint-ES-PV_2019-12-20.seg2.s3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.338">
 With	With	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 respect	respect	respect	NOUN	Number=Sing	S7.2+,A4.1	S7.2p	S7.2+: Respected	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -112,7 +112,7 @@ Ruler	Ruler	ruler	PROPN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg3" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg3.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg3.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.923">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -141,7 +141,7 @@ together	together	together	ADV	-	S5+,T1.1.2,M6	S5p	S5+: Belonging to a group	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg3.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg3.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.055">
 According	According	accord	VERB	ExtPos=ADP VerbForm=Ger	A9-,A6.1+	A9n	A9-: Giving	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -169,7 +169,7 @@ again	again	again	ADV	-	N6+,Z4	N6p	N6+: Frequent	t19
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg4" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg4.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg4.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.863">
 Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 see	see	see	VERB	Mood=Imp VerbForm=Fin	X3.4,X2.1,S1.1.1,X2.5+,X2.3+,X3,A7+,Z4,S3.2	X3.4	X3.4: Sensory: Sight	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -183,7 +183,7 @@ start	start	start	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg4.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg4.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.216">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -193,7 +193,7 @@ vote	vote	vote	VERB	VerbForm=Inf	G1.2	G1.2	G1.2: Politics	t4
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg5" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg5.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg5.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.305">
 After	After	after	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t3
@@ -206,7 +206,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg5.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg5.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.811">
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 votes	votes	vote	NOUN	Number=Plur	G1.2	G1.2	G1.2: Politics	t2
 given	given	give	VERB	Tense=Past VerbForm=Part	A9-,A1.1.1	A9n	A9-: Giving	t3
@@ -236,9 +236,9 @@ Absences	Absences	Absence	PROPN	Number=Plur	S1.1.3-,A3-	S1.1.3n	S1.1.3-: Non-par
 </p>
 </speech>
 <note type="speaker" content="DEBABES:"/>
-<speech id="ParlaMint-ES-PV_2019-12-20.u1" text_id="ParlaMint-ES-PV-en_2019-12-20" subcorpus="Reference" lang="English" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2019-12-20" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2019-12-20.u1" text_id="ParlaMint-ES-PV-en_2019-12-20" subcorpus="Reference" lang="English" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2019-12-20" speaker_role="Chairperson" topic="Labor" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2019-12-20.seg6" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg6.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg6.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.842">
 Therefore	Therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -263,7 +263,7 @@ cancelled	cancelled	cancel	VERB	Tense=Past VerbForm=Part Voice=Pass	T2-	T2n	T2-:
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg7" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg7.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg7.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.350">
 First	First	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t1
 point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -272,7 +272,7 @@ list	list	list	NOUN	Number=Sing	Q1.2,N4,M4	Q1.2	Q1.2: Paper documents and writin
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg7.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg7.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.971">
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
@@ -302,7 +302,7 @@ Commeracies	Commeracies	Commeracy	PROPN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal nam
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg7.s3">
+<s id="ParlaMint-ES-PV_2019-12-20.seg7.s3" senti_3="Negative" senti_6="mixed negative" senti_n="1.088">
 Discipline	Discipline	discipline	NOUN	Number=Sing	G2.1,A1.7+,P1	G2.1	G2.1: Law and order	t1
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t2
 final	final	final	ADJ	Degree=Pos	N4,T2-	N4	N4: Linear order	t3
@@ -312,7 +312,7 @@ resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t4
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg8" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg8.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg8.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.546">
 Mrs.	Mrs.	Mrs.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="LOC">
 San	San	San	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -331,9 +331,9 @@ bill	bill	bill	NOUN	Number=Sing	I1.3,G1.1,Q1.2,L2	I1.3	I1.3: Money: Cost and pri
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-PV_2019-12-20.u97" text_id="ParlaMint-ES-PV-en_2019-12-20" subcorpus="Reference" lang="English" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2019-12-20" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2019-12-20.u97" text_id="ParlaMint-ES-PV-en_2019-12-20" subcorpus="Reference" lang="English" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2019-12-20" speaker_role="Chairperson" topic="Other" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2019-12-20.seg682" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg682.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg682.s1" senti_3="Negative" senti_6="mixed negative" senti_n="0.937">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -346,7 +346,7 @@ text	text	text	NOUN	Number=Sing	Q1.2,Q4.1	Q1.2	Q1.2: Paper documents and writing
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg683" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg683.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg683.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.514">
 After	After	after	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -371,7 +371,7 @@ together	together	together	ADV	-	S5+,T1.1.2,M6	S5p	S5+: Belonging to a group	t15
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg683.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg683.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.282">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 vote	vote	vote	VERB	VerbForm=Inf	G1.2	G1.2	G1.2: Politics	t3
@@ -380,7 +380,7 @@ vote	vote	vote	VERB	VerbForm=Inf	G1.2	G1.2	G1.2: Politics	t3
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg684" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg684.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg684.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.026">
 After	After	after	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t3
@@ -393,7 +393,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg684.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg684.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.010">
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 votes	votes	vote	NOUN	Number=Plur	G1.2	G1.2	G1.2: Politics	t2
 given	given	give	VERB	Tense=Past VerbForm=Part	A9-,A1.1.1	A9n	A9-: Giving	t3
@@ -428,9 +428,9 @@ Abstations	Abstations	Abstation	PROPN	Number=Plur	Z99	Z99	Z99: Unmatched	t18
 </p>
 </speech>
 <note type="speaker" content="DEBABES:"/>
-<speech id="ParlaMint-ES-PV_2019-12-20.u98" text_id="ParlaMint-ES-PV-en_2019-12-20" subcorpus="Reference" lang="English" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2019-12-20" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2019-12-20.u98" text_id="ParlaMint-ES-PV-en_2019-12-20" subcorpus="Reference" lang="English" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2019-12-20" speaker_role="Chairperson" topic="Other" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2019-12-20.seg685" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg685.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg685.s1" senti_3="Negative" senti_6="mixed negative" senti_n="0.852">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -457,7 +457,7 @@ together	together	together	ADV	-	S5+,T1.1.2,M6	S5p	S5+: Belonging to a group	t15
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg686" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg686.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg686.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.230">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -490,7 +490,7 @@ Christmas	Christmas	Christmas	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t21
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg687" lang="English">
-<s id="ParlaMint-ES-PV_2019-12-20.seg687.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg687.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.779">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 two	two	two	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t3

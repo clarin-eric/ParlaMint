@@ -1,6 +1,6 @@
-<speech id="ParlaMint-BG_2019-10-03.u1" text_id="ParlaMint-BG-en_2019-10-03" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 8, Meeting 304 (2019-10-03)" speaker_role="Chairperson" speaker_id="HristovEmil" speaker_name="Hristov, Emil Marinov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-BG_2019-10-03.u1" text_id="ParlaMint-BG-en_2019-10-03" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 8, Meeting 304 (2019-10-03)" speaker_role="Chairperson" topic="Environment" speaker_id="HristovEmil" speaker_name="Hristov, Emil Marinov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-BG_2019-10-03.seg1" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg1.1">
+<s id="ParlaMint-BG_2019-10-03.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.192">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -9,7 +9,7 @@ quorum	quorum	quorum	NOUN	Number=Sing	G2.1/S5+c,A11.1+/S5+c,S6+/S5+c	G2.1 S5p	G2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg1.2">
+<s id="ParlaMint-BG_2019-10-03.seg1.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.155">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -21,7 +21,7 @@ meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg2" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg2.1">
+<s id="ParlaMint-BG_2019-10-03.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.540">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 continue	continue	continue	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2++	T2p	T2+: Time: Beginning	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -34,7 +34,7 @@ today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultan
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg3" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg3.1">
+<s id="ParlaMint-BG_2019-10-03.seg3.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.674">
 THE	THE	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 SECOND	SECOND	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -62,7 +62,7 @@ AIR	AIR	AIR	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t16
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg4" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg4.1">
+<s id="ParlaMint-BG_2019-10-03.seg4.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.369">
 Importer	Importer	importer	NOUN	Number=Sing	I2.2/S2mf	I2.2 S2	I2.2: Business: Selling|S2: People	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -76,7 +76,7 @@ Ministers	Ministers	Minister	PROPN	Number=Plur	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: G
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg5" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg5.1">
+<s id="ParlaMint-BG_2019-10-03.seg5.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.407">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 adopted	adopted	adopt	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,S4	A9p	A9+: Getting and possession	t3
@@ -95,7 +95,7 @@ September	September	September	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg6" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg6.1">
+<s id="ParlaMint-BG_2019-10-03.seg6.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.409">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -118,9 +118,9 @@ Grudev	Grudev	Grudev	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t12
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2019-10-03.u2" text_id="ParlaMint-BG-en_2019-10-03" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 8, Meeting 304 (2019-10-03)" speaker_role="Regular" speaker_id="GrudevHristo" speaker_name="Grudev, Hristo Grudev" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-BG_2019-10-03.u2" text_id="ParlaMint-BG-en_2019-10-03" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 8, Meeting 304 (2019-10-03)" speaker_role="Regular" topic="Environment" speaker_id="GrudevHristo" speaker_name="Grudev, Hristo Grudev" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-BG_2019-10-03.seg7" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg7.1">
+<s id="ParlaMint-BG_2019-10-03.seg7.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.459">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -136,7 +136,7 @@ Chairman	Chairman	Chairman	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t5
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg8" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg8.1">
+<s id="ParlaMint-BG_2019-10-03.seg8.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.141">
 Dear	Dear	dear	ADJ	Degree=Pos	E2+,I1.3+	E2p	E2+: Like	t1
 colleagues	colleagues	colleague	NOUN	Number=Plur	I3.2/S2mf	I3.2 S2	I3.2: Work and employment: Professionalism|S2: People	t2
 <g/>
@@ -217,9 +217,9 @@ Water	Water	Water	PROPN	Number=Sing	O1.2,W3/M4,B1,C1%	O1.2	O1.2: Substances and 
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BG_2019-10-03.u82" text_id="ParlaMint-BG-en_2019-10-03" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 8, Meeting 304 (2019-10-03)" speaker_role="Regular" speaker_id="ChenchevIvan" speaker_name="Chenchev, Ivan Ivaylov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BSPFB" speaker_party_name="Parliamentary Group: BSP for Bulgaria" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-BG_2019-10-03.u82" text_id="ParlaMint-BG-en_2019-10-03" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 8, Meeting 304 (2019-10-03)" speaker_role="Regular" topic="Law and Crime" speaker_id="ChenchevIvan" speaker_name="Chenchev, Ivan Ivaylov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BSPFB" speaker_party_name="Parliamentary Group: BSP for Bulgaria" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-BG_2019-10-03.seg460" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg460.1">
+<s id="ParlaMint-BG_2019-10-03.seg460.1" senti_3="Positive" senti_6="positive" senti_n="4.701">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -235,7 +235,7 @@ Chairman	Chairman	Chairman	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t5
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg461" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg461.1">
+<s id="ParlaMint-BG_2019-10-03.seg461.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.021">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -249,7 +249,7 @@ House	House	House	PROPN	Number=Sing	H4	H4	H4: Residence	t6
 </name>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg461.2">
+<s id="ParlaMint-BG_2019-10-03.seg461.2" senti_3="Positive" senti_6="positive" senti_n="5.081">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 use	use	use	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A1.5.1,S7.1+	A1.5.1	A1.5.1: Using	t2
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -286,7 +286,7 @@ required	required	require	VERB	Tense=Past VerbForm=Part Voice=Pass	X7+,S6+	X7p	X
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg462" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg462.1">
+<s id="ParlaMint-BG_2019-10-03.seg462.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.465">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -329,7 +329,7 @@ essential	essential	essential	ADJ	Degree=Pos	S6+,A4.2+	S6p	S6+: Strong obligatio
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg462.2">
+<s id="ParlaMint-BG_2019-10-03.seg462.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.543">
 Until	Until	until	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 <g/>
@@ -381,7 +381,7 @@ Varna	Varna	Varna	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t36
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg462.3">
+<s id="ParlaMint-BG_2019-10-03.seg462.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.945">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -396,7 +396,7 @@ D.C	D.C	D.C	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t7
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg463" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg463.1">
+<s id="ParlaMint-BG_2019-10-03.seg463.1" senti_3="Positive" senti_6="positive" senti_n="4.569">
 With	With	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 opening	opening	opening	NOUN	Number=Sing	A1.1.1,T2+,O2,I3.1	A1.1.1	A1.1.1: General actions / making	t3
@@ -455,7 +455,7 @@ adopted	adopted	adopt	VERB	Tense=Past VerbForm=Part	A9+,S4	A9p	A9+: Getting and 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg463.2">
+<s id="ParlaMint-BG_2019-10-03.seg463.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.419">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -468,9 +468,9 @@ attention	attention	attention	NOUN	Number=Sing	X5.1+,S8+	X5.1p	X5.1+: Attentive	
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2019-10-03.u83" text_id="ParlaMint-BG-en_2019-10-03" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 8, Meeting 304 (2019-10-03)" speaker_role="Chairperson" speaker_id="HristovEmil" speaker_name="Hristov, Emil Marinov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-BG_2019-10-03.u83" text_id="ParlaMint-BG-en_2019-10-03" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 8, Meeting 304 (2019-10-03)" speaker_role="Chairperson" topic="Mix" speaker_id="HristovEmil" speaker_name="Hristov, Emil Marinov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-BG_2019-10-03.seg464" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg464.1">
+<s id="ParlaMint-BG_2019-10-03.seg464.1" senti_3="Positive" senti_6="positive" senti_n="4.641">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -489,7 +489,7 @@ Chenchev	Chenchev	Chenchev	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t6
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg465" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg465.1">
+<s id="ParlaMint-BG_2019-10-03.seg465.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.523">
 Are	Are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 any	any	any	DET	-	N5.1+,N5	N5.1p	N5.1+: Entire; maximum	t3
@@ -497,7 +497,7 @@ lines	lines	line	NOUN	Number=Plur	O4.4,A4.1,Q1.3,X4.2,Q3,Q1.2,Q2.1/K4,S4,S7.1,A1
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg465.2">
+<s id="ParlaMint-BG_2019-10-03.seg465.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.015">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 wo	wo	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 <g/>
@@ -507,14 +507,14 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t3
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg466" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg466.1">
+<s id="ParlaMint-BG_2019-10-03.seg466.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.955">
 Any	Any	any	DET	-	N5.1+,N5	N5.1p	N5.1+: Entire; maximum	t1
 other	other	other	ADJ	Degree=Pos	A6.1-	A6.1n	A6.1-: Comparing: Different	t2
 speeches	speeches	speech	NOUN	Number=Plur	Q2.1,Q3	Q2.1	Q2.1: Speech: Communicative	t3
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg466.2">
+<s id="ParlaMint-BG_2019-10-03.seg466.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.015">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 wo	wo	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 <g/>
@@ -524,7 +524,7 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t3
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg467" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg467.1">
+<s id="ParlaMint-BG_2019-10-03.seg467.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.613">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 put	put	put	VERB	VerbForm=Inf	M2,Q2.1,Q2.2,A1.1.1	M2	M2: Putting, pulling, pushing, transporting	t3
@@ -548,7 +548,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg468" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg468.1">
+<s id="ParlaMint-BG_2019-10-03.seg468.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.880">
 Vote	Vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t1
 97	97	97	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 MPs	MPs	mp	NOUN	Number=Plur	G1.1/S2mf,G3/G2.1/S2mf@	G1.1 S2	G1.1: Government|S2: People	t3
@@ -564,7 +564,7 @@ abstentions	abstentions	abstention	NOUN	Number=Plur	G1.2,S1.1.3-,A9-	G1.2	G1.2: 
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg469" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg469.1">
+<s id="ParlaMint-BG_2019-10-03.seg469.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.316">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 motion	motion	motion	NOUN	Number=Sing	M1,Q1.1	M1	M1: Moving, coming and going	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -574,7 +574,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg470" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg470.1">
+<s id="ParlaMint-BG_2019-10-03.seg470.1" senti_3="Positive" senti_6="positive" senti_n="4.790">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -591,7 +591,7 @@ Alexandrova	Alexandrova	Alexandrova	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t6
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg471" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg471.1">
+<s id="ParlaMint-BG_2019-10-03.seg471.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.147">
 Parliamentary	Parliamentary	Parliamentary	ADJ	Degree=Pos	G1.1	G1.1	G1.1: Government	t1
 control	control	control	NOUN	Number=Sing	S7.1+,A1.7+,O2	S7.1p	S7.1+: In power	t2
 messages	messages	message	NOUN	Number=Plur	Q1.1,Q1.3/Y2	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t3
@@ -606,7 +606,7 @@ October	October	October	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg472" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg472.1">
+<s id="ParlaMint-BG_2019-10-03.seg472.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.658">
 1.	1.	1.	X	-	Z99	Z99	Z99: Unmatched	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Deputy	Deputy	deputy	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -640,7 +640,7 @@ Chukolov	Chukolov	Chukolov	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t20
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg473" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg473.1">
+<s id="ParlaMint-BG_2019-10-03.seg473.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.563">
 2	2	2	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -711,7 +711,7 @@ Naydenova	Naydenova	Naydenova	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg474" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg474.1">
+<s id="ParlaMint-BG_2019-10-03.seg474.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.660">
 3	3	3	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -744,7 +744,7 @@ Bachvarova	Bachvarova	Bachvarova	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t20
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg475" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg475.1">
+<s id="ParlaMint-BG_2019-10-03.seg475.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.608">
 4.	4.	4.	X	-	Z99	Z99	Z99: Unmatched	t1
 Culture	Culture	Culture	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 Minister	Minister	Minister	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t3
@@ -771,7 +771,7 @@ Kutev	Kutev	Kutev	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t15
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg476" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg476.1">
+<s id="ParlaMint-BG_2019-10-03.seg476.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.603">
 5	5	5	NUM	-	N1	N1	N1: Numbers	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -812,7 +812,7 @@ Danchev	Danchev	Danchev	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t25
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg477" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg477.1">
+<s id="ParlaMint-BG_2019-10-03.seg477.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.719">
 6.	6.	6.	X	-	Z99	Z99	Z99: Unmatched	t1
 Economy	Economy	economy	NOUN	Number=Sing	I2.1,I1.3-	I2.1	I2.1: Business: Generally	t2
 Minister	Minister	Minister	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t3
@@ -847,7 +847,7 @@ Gokov	Gokov	Gokov	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t20
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg478" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg478.1">
+<s id="ParlaMint-BG_2019-10-03.seg478.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.884">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 basis	basis	basis	NOUN	Number=Sing	A2.2,T2+,X4.2	A2.2	A2.2: Cause	t3
@@ -907,7 +907,7 @@ requested	requested	request	VERB	Tense=Past VerbForm=Part	Q2.2,Q2.1	Q2.2	Q2.2: S
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg479" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg479.1">
+<s id="ParlaMint-BG_2019-10-03.seg479.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.435">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t3
@@ -939,7 +939,7 @@ Paunov	Paunov	Paunov	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t19
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg480" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg480.1">
+<s id="ParlaMint-BG_2019-10-03.seg480.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.148">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -980,7 +980,7 @@ Ivanov	Ivanov	Ivanov	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t26
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg481" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg481.1">
+<s id="ParlaMint-BG_2019-10-03.seg481.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.576">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1019,7 +1019,7 @@ Yotova	Yotova	Yotova	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t22
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg482" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg482.1">
+<s id="ParlaMint-BG_2019-10-03.seg482.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.524">
 <phr usas_tags="A2.2" usas_cats="A2.2" usas_glosses="A2.2: Cause">
 Due	Due	due	ADP	-	A2.2	A2.2	A2.2: Cause	t1
 to	to	to	ADP	-	A2.2	A2.2	A2.2: Cause	t2
@@ -1065,7 +1065,7 @@ Valchev	Valchev	Valchev	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t29
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg483" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg483.1">
+<s id="ParlaMint-BG_2019-10-03.seg483.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.443">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -1113,7 +1113,7 @@ participate	participate	participate	VERB	VerbForm=Inf	S1.1.3+	S1.1.3p	S1.1.3+: P
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg484" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg484.1">
+<s id="ParlaMint-BG_2019-10-03.seg484.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.856">
 <phr usas_tags="A2.2" usas_cats="A2.2" usas_glosses="A2.2: Cause">
 Due	Due	due	ADP	-	A2.2	A2.2	A2.2: Cause	t1
 to	to	to	ADP	-	A2.2	A2.2	A2.2: Cause	t2
@@ -1153,7 +1153,7 @@ participate	participate	participate	VERB	VerbForm=Inf	S1.1.3+	S1.1.3p	S1.1.3+: P
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg485" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg485.1">
+<s id="ParlaMint-BG_2019-10-03.seg485.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.076">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 next	next	next	ADJ	Degree=Pos	N4	N4	N4: Linear order	t2
 regular	regular	regular	ADJ	Degree=Pos	A6.2+,N6+,O4.1,I3.1,T2++,A13.3	A6.2p	A6.2+: Comparing: Usual	t3
@@ -1174,7 +1174,7 @@ at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg486" lang="English">
-<s id="ParlaMint-BG_2019-10-03.seg486.1">
+<s id="ParlaMint-BG_2019-10-03.seg486.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.590">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2

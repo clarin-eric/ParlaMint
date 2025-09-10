@@ -1,7 +1,7 @@
 <note type="head" content="PALABRAS DE LA PRESIDENCIA"/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u1" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u1" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" topic="International Affairs" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p1" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1" senti_3="Positive" senti_6="positive" senti_n="4.557">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -16,7 +16,7 @@ gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t6
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2" senti_3="Positive" senti_6="mixed positive" senti_n="3.846">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -26,7 +26,7 @@ resumed	resumed	resume	VERB	Tense=Past VerbForm=Part Voice=Pass	T2+/N6+	T2p N6p	
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p2" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1" senti_3="Negative" senti_6="negative" senti_n="0.349">
 Before	Before	before	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 begin	begin	begin	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2+	T2p	T2+: Time: Beginning	t3
@@ -86,7 +86,7 @@ celebrated	celebrated	celebrate	VERB	Tense=Past VerbForm=Part Voice=Pass	E4.1+,S
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2" senti_3="Negative" senti_6="negative" senti_n="0.253">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 war	war	war	NOUN	Number=Sing	G3,S7.3	G3	G3: Warfare, defence and the army; weapons	t2
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -108,7 +108,7 @@ Europeans	Europeans	European	PROPN	Number=Plur	Z3	Z3	Z3: Other proper names	t16
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3" senti_3="Negative" senti_6="negative" senti_n="-0.001">
 <name type="LOC">
 Russia	Russia	Russia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t1
 </name>
@@ -154,7 +154,7 @@ territory	territory	territory	NOUN	Number=Sing	M7,A4.1	M7	M7: Places	t33
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4" senti_3="Positive" senti_6="mixed positive" senti_n="4.049">
 Despite	Despite	despite	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -185,7 +185,7 @@ freedom	freedom	freedom	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t18
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p3" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.772">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 defence	defence	defence	NOUN	Number=Sing	S8+,G3,G2.1c,Q2.2,K5.1,S7.3+	S8p	S8+: Helping	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -295,7 +295,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t83
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p4" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.272">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -310,9 +310,9 @@ much	much	much	ADV	-	A13.3,N6+	A13.3	A13.3: Degree: Boosters	t4
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO. . - PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026. ."/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u2" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u2" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" topic="Macroeconomics" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u2.p1" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.665">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 begin	begin	begin	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2+	T2p	T2+: Time: Beginning	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -417,7 +417,7 @@ period	period	period	NOUN	Number=Sing	Z2	Z2	Z2: Geographical names	t74
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u2.p2" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.774">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 agreed	agreed	agree	VERB	Tense=Past VerbForm=Part	A6.1+,Q2.2	A6.1p	A6.1+: Comparing: Similar	t2
 by	by	by	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -438,7 +438,7 @@ cumulatively	cumulatively	cumulatively	ADV	-	N5+/A2.1	N5p A2.1	N5+: Quantities: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.795">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -465,7 +465,7 @@ debate	debate	debate	NOUN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.118">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 give	give	give	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,A1.1.1	A9n	A9-: Giving	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -500,9 +500,9 @@ Service	Service	Service	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t23
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u73" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u73" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" topic="Transportation" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u73.p1" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.850">
 Initiation	Initiation	initiation	NOUN	Number=Sing	S1.1.1,T2+	S1.1.1	S1.1.1: Social Actions, States And Processes	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 legislative	legislative	legislative	ADJ	Degree=Pos	G2.1	G2.1	G2.1: Law and order	t3
@@ -510,7 +510,7 @@ initiatives	initiatives	initiative	NOUN	Number=Plur	A1.1.1	A1.1.1	A1.1.1: Genera
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.552">
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 Voting	Voting	voting	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t1
 of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -562,7 +562,7 @@ Galván	Galván	Galván	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t36
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u73.p2" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.304">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t2
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -573,7 +573,7 @@ begin	begin	begin	VERB	VerbForm=Inf	T2+	T2p	T2+: Time: Beginning	t4
 </p>
 <note type="incident:pause" content="Pause"/>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u73.p3" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.392">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 voting	voting	voting	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t2
 was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -593,9 +593,9 @@ favour	favour	favour	NOUN	Number=Sing	E2++	E2p	E2+: Like	t10
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u74" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u74" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" topic="Other" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p1" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.420">
 Consequently	Consequently	consequently	ADV	-	A2.2	A2.2	A2.2: Cause	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -614,7 +614,7 @@ plenary	plenary	plenary	NOUN	Number=Sing	S1.1.3+++	S1.1.3p	S1.1.3+: Participatin
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p2" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.334">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -629,7 +629,7 @@ much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t5
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p3" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.817">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 rose	rose	rise	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	M1,N5+/A2.1,N3.2+/A2.1,S7.1+/A2.1	M1	M1: Moving, coming and going	t3
@@ -638,7 +638,7 @@ rose	rose	rise	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	M1,N5+
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p4" lang="English">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.592">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 12	12	12	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3

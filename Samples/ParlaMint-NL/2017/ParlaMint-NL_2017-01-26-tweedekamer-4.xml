@@ -15,12 +15,16 @@
                <persName>Ruben van Heusden</persName>
                <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" xml:lang="nl" quantity="243">243 toespraken</measure>
@@ -33,12 +37,12 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,8 +79,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="nl">
@@ -85,12 +91,12 @@
             <head xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.head1">Verbod op winstuitkering door zorgverzekeraars</head>
             <note type="comment" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.note1">Zie vergadering van 24 januari 2017.</note>
             <note type="speaker" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.note2">De voorzitter</note>
-            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.u1">
+            <u who="#KhadijaArib" ana="#chair topic:healt" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.u1">
                <seg xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg1">Ik heet de initiatiefnemers van harte welkom. Het is altijd heel bijzonder om als Kamerlid in vak-K te mogen zitten. Ook hun ondersteuners heet ik van harte welkom. Vandaag is ook de minister van Volksgezondheid, Welzijn en Sport aanwezig. Zij zal bij de behandeling van dit initiatiefvoorstel optreden als adviseur van de Kamer. Afgelopen dinsdag is de eerste termijn van de Kamer aan de orde geweest. Vandaag is aan de orde het antwoord in eerste termijn en de tweede termijn. Er kunnen best stevige discussies worden gevoerd, maar de dag is vandaag nog heel lang. Ik vraag degenen die willen interrumperen, dat steeds bondig te doen. Ik ga het niet limiteren, maar ik vertrouw op enige zelfbeperking.</seg>
             </u>
             <note type="comment" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.note3">De algemene beraadslaging wordt hervat.</note>
             <note type="speaker" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.note4">Mevrouw Bouwmeester (PvdA)</note>
-            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.u2">
+            <u who="#LeaBouwmeester" ana="#regular topic:healt" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.u2">
                <seg xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg2">Voorzitter. Drie partijen, dwars door de coalitie en de oppositie heen, hebben de handen ineengeslagen voor een wetsvoorstel met een belangrijke principiële lading. De afgelopen jaren hebben deze partijen elkaar gevonden in minder marktwerking en meer samenwerking, al wil de ene partij daar wat verder in gaan dan de andere. Dat wij elkaar hier weer vinden, is allesbehalve vreemd of onverwacht. Het idee dat publiek opgebracht geld dat is bestemd voor zorg, ook daadwerkelijk besteed wordt aan goede en toegankelijke zorg, wordt breed gedragen, in de maatschappij, bij de zorgverzekeraars, bij de minister en bij het overgrote deel van deze Kamer.</seg>
                <seg xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg3">Deze wet beoogt datgene vast te leggen, te bestendigen, wat al bijna elf jaar gangbare praktijk is: geen winstuitkering door zorgverzekeraars, niets meer en niets minder. Wij bedanken de partijen voor de lovende woorden, de vragen en de opmerkingen.</seg>
                <seg xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg4">In het vervolg van mijn beantwoording zal ik ingaan op de ontstaansgeschiedenis van het voorstel en de noodzaak ervan. Mevrouw Bruins Slot zal het hebben over de juridische gevolgen en het advies van de Raad van State. En mevrouw Leijten zal reageren op de financiële gevolgen voor zorgverzekeraars.</seg>
@@ -104,12 +110,12 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.u242">
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.u242">
                <seg xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg352">Daarmee zijn wij gekomen aan het eind van dit debat. Het is toch nog op tijd gelukt.</seg>
             </u>
             <note type="comment" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.note308">De algemene beraadslaging wordt gesloten.</note>
             <note type="speaker" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.note309">De voorzitter</note>
-            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.u243">
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.u243">
                <seg xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg353">Ik dank de indieners, want het is een enorm werk om zo'n wetsvoorstel te maken en te verdedigen, zo weet ik uit eigen ervaring. Ook dank voor de voortvarende beantwoording in tweede termijn. Hulde daarvoor, ook aan hun ondersteuners. Het is een bijzonder moment. Ik dank de minister voor het advies. Ik dank de collega's voor het feit dat we er toch in geslaagd zijn om dit zware onderwerp op tijd af te ronden. De stemmingen zijn komende dinsdag.</seg>
             </u>
             <note type="time" xml:id="ParlaMint-NL_2017-01-26-tweedekamer-4.note310">De vergadering wordt van 13.48 uur tot 14.15 uur geschorst.</note>

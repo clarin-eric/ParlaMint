@@ -1,8 +1,8 @@
 <note type="time" content="14.03"/>
 <note type="president" content="Mustafa Şentop"/>
-<speech id="tbmm-2018-11-01sit01spe0001par0001" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="M" speaker_birth="1968">
+<speech id="tbmm-2018-11-01sit01spe0001par0001" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" topic="Diğer" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="M" speaker_birth="1968">
 <p id="tbmm-2018-11-01sit01spe0001par0001.seg0" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0001par0001-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0001-000010" senti_3="Nötr" senti_6="nötr pozitif" senti_n="3.335">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	nmod	millet	NOUN	Case=Nom Number=Sing	t3
 Büyük	Büyük	büyük	ADJ	-	t2	amod	millet	NOUN	Case=Nom Number=Sing	t3
@@ -17,7 +17,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0001par0002.seg1" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0001par0002-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0002-000010" senti_3="Nötr" senti_6="nötr pozitif" senti_n="3.235">
 Toplantı	Toplantı	toplantı	NOUN	Case=Nom Number=Sing	t1	nmod	yet	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t2
 yeter	yeter	yet	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t2	obl	var	ADJ	-	t4
 sayısı	sayısı	sayı	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3	nsubj	var	ADJ	-	t4
@@ -33,7 +33,7 @@ başlıyoruz	başlıyoruz	başla	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plu
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0001par0003.seg2" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0001par0003-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0003-000010" senti_3="Nötr" senti_6="nötr pozitif" senti_n="2.782">
 Gündeme	Gündeme	gündem	NOUN	Case=Dat Number=Sing	t1	nmod	ver	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Fut	t10
 geçmeden	geçmeden	geç	VERB	Polarity=Neg VerbForm=Conv	t2	compound	gündem	NOUN	Case=Dat Number=Sing	t1
 önce	önce	önce	ADP	-	t3	advmod	üç	NUM	-	t4
@@ -51,7 +51,7 @@ vereceğim	vereceğim	ver	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0001par0004.seg3" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0001par0004-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0004-000010" senti_3="Nötr" senti_6="nötr pozitif" senti_n="2.843">
 Gündem	Gündem	gündem	NOUN	Case=Nom Number=Sing	t1	nmod	dış	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
 dışı	dışı	dış	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2	nmod	söz	NOUN	Case=Nom Number=Sing	t4
 ilk	ilk	ilk	ADV	-	t3	amod	söz	NOUN	Case=Nom Number=Sing	t4
@@ -91,7 +91,7 @@ tir	tir	i	AUX	Mood=Gen Number=Sing Person=3	t22	cop	ait	ADP	-	t21
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0001par0005.seg4" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0001par0005-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0005-000010" senti_3="Pozitif" senti_6="karışık pozitif" senti_n="4.019">
 Buyurun	Buyurun	buyur	VERB	Mood=Imp Number=Plur Person=2	t1	nmod	sayın	ADJ	-	t2
 <name type="PER">
 Sayın	Sayın	sayın	ADJ	-	t2	obj	.	PUNCT	-	t4
@@ -103,7 +103,7 @@ Sırakaya	Sırakaya	Sırakaya	PROPN	Case=Nom Number=Sing	t3	compound	sayın	ADJ	
 </p>
 <note type="kinesic:applause" content="AK PARTİ sıralarından alkışlar"/>
 <p id="tbmm-2018-11-01sit01spe0001par0007.seg5" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0001par0007-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0007-000010" senti_3="Nötr" senti_6="nötr pozitif" senti_n="3.425">
 Süreniz	Süreniz	süre	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=2	t1	nsubj	dakika	NOUN	Case=Nom Number=Sing	t3
 beş	beş	beş	NUM	-	t2	nummod	dakika	NOUN	Case=Nom Number=Sing	t3
 dakika	dakika	dakika	NOUN	Case=Nom Number=Sing	t3	root	-	-	-	-
@@ -114,9 +114,9 @@ dır	dır	i	AUX	Mood=Gen Number=Sing Person=3	t4	cop	dakika	NOUN	Case=Nom Number
 </s>
 </p>
 </speech>
-<speech id="tbmm-2018-11-01sit01spe0002par0011" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" speaker_id="Zafer.Sırakaya" speaker_name="Sırakaya, Zafer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="M" speaker_birth="1974">
+<speech id="tbmm-2018-11-01sit01spe0002par0011" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" topic="Karışık" speaker_id="Zafer.Sırakaya" speaker_name="Sırakaya, Zafer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="M" speaker_birth="1974">
 <p id="tbmm-2018-11-01sit01spe0002par0011.seg0" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0002par0011-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000010" senti_3="Pozitif" senti_6="karışık pozitif" senti_n="4.396">
 Sayın	Sayın	sayın	ADJ	-	t1	amod	başkan	NOUN	Case=Nom Number=Sing	t2
 Başkan	Başkan	başkan	NOUN	Case=Nom Number=Sing	t2	nmod	değer	NOUN	Number=Sing	t4
 <g/>
@@ -173,7 +173,7 @@ olmuştur	olmuştur	ol	AUX	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3
 <g/>
 .	.	.	PUNCT	-	t43	punct	ol	AUX	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past	t42
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000020" senti_3="Pozitif" senti_6="pozitif" senti_n="4.665">
 O	O	o	DET	-	t1	det	zaman	NOUN	Case=Nom Number=Plur	t2
 zamanlar	zamanlar	zaman	NOUN	Case=Nom Number=Plur	t2	obl	adım	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t19
 <name type="LOC">
@@ -204,7 +204,7 @@ ydı	ydı	i	AUX	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Past	
 <g/>
 .	.	.	PUNCT	-	t21	punct	adım	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t19
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000030">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000030" senti_3="Negatif" senti_6="negatif" senti_n="0.450">
 Sirkeci’den	Sirkeci’den	sirkeci	NOUN	Case=Abl Number=Sing	t1	obl	yaklaşık	ADJ	-	t3
 <name type="LOC">
 Münih’e	Münih’e	Münih	PROPN	Case=Dat Number=Sing	t2	aux:q	sirkeci	NOUN	Case=Abl Number=Sing	t1
@@ -236,7 +236,7 @@ başlamıştı	başlamıştı	başla	VERB	Aspect=Perf Evident=Nfh Mood=Ind Numbe
 <g/>
 .	.	.	PUNCT	-	t25	punct	başla	VERB	Aspect=Perf Evident=Nfh Mood=Ind Number=Sing Person=3 Tense=Pqp	t24
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000040">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000040" senti_3="Nötr" senti_6="nötr pozitif" senti_n="3.148">
 O	O	o	DET	-	t1	det	zaman	NOUN	Case=Nom Number=Sing	t2
 zaman	zaman	zaman	NOUN	Case=Nom Number=Sing	t2	obl	sür	VERB	Tense=Pres VerbForm=Part	t5
 elli	elli	elli	NUM	-	t3	nmod	sür	VERB	Tense=Pres VerbForm=Part	t5
@@ -258,7 +258,7 @@ bıraktı	bıraktı	bırak	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Pers
 <g/>
 .	.	.	PUNCT	-	t16	punct	bırak	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Past	t15
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000050">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000050" senti_3="Negatif" senti_6="negatif" senti_n="0.136">
 Bu	Bu	bu	DET	-	t1	det	göçmen	ADJ	-	t2
 göçmen	göçmen	göçmen	ADJ	-	t2	obl	var	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Past	t13
 <g/>
@@ -281,7 +281,7 @@ olmadı	olmadı	ol	AUX	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Pola
 <g/>
 .	.	.	PUNCT	-	t17	punct	ol	AUX	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Past	t16
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000060">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000060" senti_3="Negatif" senti_6="negatif" senti_n="-0.067">
 Zira	Zira	zira	ADV	-	t1	nmod	kilometre	NOUN	Case=Equ Number=Plur	t3
 vatanlarından	vatanlarından	vatan	NOUN	Case=Abl Number=Sing Number[psor]=Plur Person[psor]=3	t2	nmod	kilometre	NOUN	Case=Equ Number=Plur	t3
 kilometrelerce	kilometrelerce	kilometre	NOUN	Case=Equ Number=Plur	t3	obl	aile	NOUN	Case=Dat Number=Plur Number[psor]=Sing Person[psor]=3	t5
@@ -318,7 +318,7 @@ oldular	oldular	ol	AUX	Aspect=Perf Evident=Fh Mood=Ind Number=Plur Person=3 Tens
 <g/>
 .	.	.	PUNCT	-	t28	punct	ol	AUX	Aspect=Perf Evident=Fh Mood=Ind Number=Plur Person=3 Tense=Past	t27
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000070">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000070" senti_3="Negatif" senti_6="negatif" senti_n="-0.000">
 Özellikle	Özellikle	özellikle	ADV	-	t1	advmod	kal	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past	t36
 <name type="ORG">
 AK	AK	ak	ADJ	-	t2	amod	iktidar	NOUN	Case=Acc Number=Sing	t4
@@ -369,7 +369,7 @@ kalmıştır	kalmıştır	kal	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing 
 <g/>
 .	.	.	PUNCT	-	t37	punct	kal	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past	t36
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000080">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000080" senti_3="Negatif" senti_6="negatif" senti_n="0.249">
 Yurt	Yurt	yurt	NOUN	Case=Nom Number=Sing	t1	nmod	dış	NOUN	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=3	t2
 dışına	dışına	dış	NOUN	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=3	t2	nmod	gönder	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=1	t5
 iş	iş	iş	NOUN	Case=Nom Number=Sing	t3	nmod	gönder	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=1	t5
@@ -417,7 +417,7 @@ dir	dir	i	AUX	Mood=Gen Number=Sing Person=3	t35	cop	gösterge	NOUN	Case=Nom Numb
 <g/>
 .	.	.	PUNCT	-	t36	punct	gösterge	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t34
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000090">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000090" senti_3="Negatif" senti_6="negatif" senti_n="0.018">
 Keza	Keza	keza	ADV	-	t1	amod	kal	VERB	Number[psor]=Plur Person[psor]=3 Tense=Past VerbForm=Part	t6
 konuya	konuya	konu	NOUN	Case=Dat Number=Sing	t2	acl	kal	VERB	Number[psor]=Plur Person[psor]=3 Tense=Past VerbForm=Part	t6
 bu	bu	bu	DET	-	t3	det	uzak	ADJ	-	t5
@@ -477,7 +477,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 <g/>
 .	.	.	PUNCT	-	t48	punct	devam	NOUN	Case=Nom Number=Sing	t46
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000100">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000100" senti_3="Pozitif" senti_6="karışık pozitif" senti_n="4.432">
 Bu	Bu	bu	DET	-	t1	det	alış	VERB	Aspect=Dur Case=Nom Number=Sing Voice=Pass	t2
 alışılagelmiş	alışılagelmiş	alış	VERB	Aspect=Dur Case=Nom Number=Sing Voice=Pass	t2	nmod	tutum	NOUN	Case=Nom Number=Sing	t3
 tutum	tutum	tutum	NOUN	Case=Nom Number=Sing	t3	nsubj	göster	VERB	Number[psor]=Sing Person[psor]=3 Tense=Past VerbForm=Part	t11
@@ -504,7 +504,7 @@ bulmuştur	bulmuştur	bul	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Pers
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0012.seg1" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0002par0012-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0012-000010" senti_3="Negatif" senti_6="negatif" senti_n="0.011">
 <name type="ORG">
 AK	AK	ak	ADJ	-	t1	amod	parti	NOUN	Case=Nom Number=Sing	t2
 PARTİ	PARTİ	parti	NOUN	Case=Nom Number=Sing	t2	nmod	hükûmet	NOUN	Case=Acc Number=Plur	t3
@@ -583,7 +583,7 @@ kalınmamıştır	kalınmamıştır	kal	VERB	Aspect=Perf Evident=Nfh Mood=Gen Nu
 <g/>
 .	.	.	PUNCT	-	t59	punct	oluş	VERB	Aspect=Perf Evident=Nfh Mood=Ind Number=Sing Person=3 Tense=Past	t51
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0012-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0012-000020" senti_3="Nötr" senti_6="nötr pozitif" senti_n="2.590">
 Şu	Şu	şu	DET	-	t1	det	anla	VERB	Aspect=Imp Evident=Fh Mood=GenNec Number=Sing Person=3 Tense=Pres Voice=Pass	t3
 iyi	iyi	iyi	ADJ	-	t2	amod	anla	VERB	Aspect=Imp Evident=Fh Mood=GenNec Number=Sing Person=3 Tense=Pres Voice=Pass	t3
 anlaşılmalıdır	anlaşılmalıdır	anla	VERB	Aspect=Imp Evident=Fh Mood=GenNec Number=Sing Person=3 Tense=Pres Voice=Pass	t3	nsubj	gel	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Plur Person=3 Tense=Past	t18
@@ -612,7 +612,7 @@ gelmişlerdir	gelmişlerdir	gel	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Plu
 <g/>
 .	.	.	PUNCT	-	t19	punct	gel	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Plur Person=3 Tense=Past	t18
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0012-000030">
+<s id="tbmm-2018-11-01sit01spe0002par0012-000030" senti_3="Pozitif" senti_6="karışık pozitif" senti_n="3.995">
 <name type="LOC">
 Binaenaleyh	Binaenaleyh	binaenaleyh	ADV	-	t1	obj	öğren	VERB	Case=Dat Number=Sing VerbForm=Vnoun	t12
 <g/>
@@ -665,7 +665,7 @@ dirler	dirler	i	AUX	Mood=Gen Number=Plur Person=3	t36	cop	li	NOUN	Case=Nom Numbe
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0013.seg2" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0002par0013-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0013-000010" senti_3="Pozitif" senti_6="karışık pozitif" senti_n="4.481">
 Konsolos	Konsolos	konsolos	NOUN	-	t1	nmod	koy	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Past Voice=Pass	t64
 <g/>
 luk	luk	lik	NOUN	Case=Nom Number=Sing	t2	conj	konsolos	NOUN	-	t1
@@ -748,7 +748,7 @@ konuldu	konuldu	koy	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Te
 <g/>
 .	.	.	PUNCT	-	t65	punct	koy	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Past Voice=Pass	t64
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0013-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0013-000020" senti_3="Nötr" senti_6="nötr nagatif" senti_n="1.853">
 Önümüzde	Önümüzde	ön	NOUN	Case=Loc Number=Sing Number[psor]=Plur Person[psor]=1	t1	obj	süreç	NOUN	Case=Loc Number=Sing	t3
 <g/>
 ki	ki	ki	ADJ	-	t2	case	süreç	NOUN	Case=Loc Number=Sing	t3
@@ -803,7 +803,7 @@ olacaktır	olacaktır	ol	AUX	Aspect=Perf Evident=Fh Mood=Gen Number=Sing Person=
 <g/>
 .	.	.	PUNCT	-	t40	punct	al	VERB	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3 VerbForm=Vnoun	t38
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0013-000030">
+<s id="tbmm-2018-11-01sit01spe0002par0013-000030" senti_3="Negatif" senti_6="karışık negatif" senti_n="0.584">
 Ayrıca	Ayrıca	ayrıca	ADV	-	t1	advmod	ol	AUX	Aspect=Imp Evident=Fh Mood=Nec Number=Plur Person=1 Tense=Pres	t20
 <g/>
 ,	,	,	PUNCT	-	t2	punct	oluş	VERB	Case=Dat Number=Sing VerbForm=Vnoun Voice=CauPass	t10
@@ -837,7 +837,7 @@ olmalıyız	olmalıyız	ol	AUX	Aspect=Imp Evident=Fh Mood=Nec Number=Plur Person
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0014.seg3" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0002par0014-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0014-000010" senti_3="Negatif" senti_6="negatif" senti_n="0.200">
 <name type="LOC">
 Avrupa’da	Avrupa’da	Avrupa	PROPN	Case=Loc Number=Sing	t1	obl	yaşa	VERB	Tense=Pres VerbForm=Part	t2
 </name>
@@ -873,7 +873,7 @@ dir	dir	i	AUX	Mood=Gen Number=Sing Person=3	t25	cop	gözle	VERB	Case=Loc Number=
 <g/>
 .	.	.	PUNCT	-	t26	punct	gözle	VERB	Case=Loc Number=Sing VerbForm=Vnoun Voice=Pass	t24
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0014-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0014-000020" senti_3="Negatif" senti_6="negatif" senti_n="0.066">
 <name type="PER">
 Mesut	Mesut	mesut	ADJ	-	t1	advcl	ol	AUX	Number[psor]=Sing Person[psor]=3 Tense=Past VerbForm=Part	t6
 Özil	Özil	Özil	PROPN	Case=Nom Number=Sing	t2	flat	mesut	ADJ	-	t1
@@ -915,7 +915,7 @@ tir	tir	i	AUX	Mood=Gen Number=Sing Person=3	t28	cop	zedele	VERB	Case=Nom Number=
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0015.seg4" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0002par0015-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0015-000010" senti_3="Nötr" senti_6="nötr nagatif" senti_n="1.950">
 <name type="LOC">
 Alman	Alman	Alman	PROPN	Case=Nom Number=Sing	t1	nmod	makam	NOUN	Case=Abl Number=Sing Number[psor]=Plur Person[psor]=3	t2
 </name>
@@ -938,7 +938,7 @@ beklenmektedir	beklenmektedir	bekle	VERB	Aspect=Prog Evident=Fh Mood=Gen Number=
 <g/>
 .	.	.	PUNCT	-	t16	punct	bekle	VERB	Aspect=Prog Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres Voice=Pass	t15
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0015-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0015-000020" senti_3="Nötr" senti_6="nötr nagatif" senti_n="1.967">
 Bu	Bu	bu	DET	-	t1	det	anlam	NOUN	Case=Loc Number=Sing	t2
 anlamda	anlamda	anlam	NOUN	Case=Loc Number=Sing	t2	nsubj	takip	NOUN	Case=Nom Number=Sing	t11
 <g/>
@@ -964,7 +964,7 @@ alınmalıdır	alınmalıdır	al	VERB	Aspect=Imp Evident=Fh Mood=GenNec Number=S
 <g/>
 .	.	.	PUNCT	-	t20	punct	el	NOUN	Case=Dat Number=Sing	t18
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0015-000030">
+<s id="tbmm-2018-11-01sit01spe0002par0015-000030" senti_3="Negatif" senti_6="negatif" senti_n="0.002">
 Aşırı	Aşırı	aşırı	ADJ	-	t1	amod	sağcı	NOUN	Case=Nom Number=Sing	t2
 <name type="ORG">
 sağcı	sağcı	sağcı	NOUN	Case=Nom Number=Sing	t2	acl	terör	NOUN	Case=Nom Number=Sing	t3
@@ -1013,7 +1013,7 @@ dir	dir	i	AUX	Mood=Gen Number=Sing Person=3	t36	cop	gösterge	NOUN	Case=Nom Numb
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0016.seg5" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0002par0016-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0016-000010" senti_3="Pozitif" senti_6="karışık pozitif" senti_n="3.534">
 <name type="ORG">
 Cezalandırma	Cezalandırma	cezalan	VERB	Case=Nom Number=Sing VerbForm=Vnoun Voice=Cau	t1	nsubj	yöntem	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t13
 </name>
@@ -1037,7 +1037,7 @@ dir	dir	i	AUX	Mood=Gen Number=Sing Person=3	t14	cop	yöntem	NOUN	Case=Nom Number
 <g/>
 .	.	.	PUNCT	-	t15	punct	yöntem	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t13
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0016-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0016-000020" senti_3="Nötr" senti_6="nötr nagatif" senti_n="2.242">
 <name type="ORG">
 NSU	NSU	NSU	PROPN	Abbr=Yes Case=Nom Number=Sing	t1	nmod	süreç	NOUN	Case=Gen Number=Sing Number[psor]=Sing Person[psor]=3	t3
 </name>
@@ -1066,9 +1066,9 @@ tutulması	tutulması	tut	VERB	Case=Nom Number=Sing Number[psor]=Sing Person[pso
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="tbmm-2018-11-01sit01spe0122par0609" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" speaker_id="NazırCihangir.İslam" speaker_name="İslam, Nazır Cihangir" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Saadet" speaker_party_name="Saadet Partisi" party_status="Opposition" party_orientation="Sağ - aşırı sağ arası" speaker_gender="M" speaker_birth="1959">
+<speech id="tbmm-2018-11-01sit01spe0122par0609" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" topic="Diğer" speaker_id="NazırCihangir.İslam" speaker_name="İslam, Nazır Cihangir" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Saadet" speaker_party_name="Saadet Partisi" party_status="Opposition" party_orientation="Sağ - aşırı sağ arası" speaker_gender="M" speaker_birth="1959">
 <p id="tbmm-2018-11-01sit01spe0122par0609.seg0" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0122par0609-000010">
+<s id="tbmm-2018-11-01sit01spe0122par0609-000010" senti_3="Nötr" senti_6="nötr pozitif" senti_n="2.900">
 <name type="ORG">
 Etik	Etik	etik	NOUN	Case=Nom Number=Sing	t1	nsubj	de	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Past	t3
 mesele	mesele	mesele	NOUN	Case=Nom Number=Sing	t2	nsubj	de	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Past	t3
@@ -1086,9 +1086,9 @@ etik	etik	etik	NOUN	Case=Nom Number=Sing	t7	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="tbmm-2018-11-01sit01spe0126par0610" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="M" speaker_birth="1968">
+<speech id="tbmm-2018-11-01sit01spe0126par0610" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" topic="Diğer" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="M" speaker_birth="1968">
 <p id="tbmm-2018-11-01sit01spe0126par0610.seg0" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0126par0610-000010">
+<s id="tbmm-2018-11-01sit01spe0126par0610-000010" senti_3="Nötr" senti_6="nötr nagatif" senti_n="1.624">
 Etik	Etik	etik	NOUN	Case=Nom Number=Sing	t1	nsubj	değil	CCONJ	Polarity=Neg	t2
 değil	değil	değil	CCONJ	Polarity=Neg	t2	aux	var	ADJ	-	t6
 <g/>
@@ -1108,7 +1108,7 @@ kalmıyor	kalmıyor	kal	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0126par0611.seg1" lang="Türkçe">
-<s id="tbmm-2018-11-01sit01spe0126par0611-000010">
+<s id="tbmm-2018-11-01sit01spe0126par0611-000010" senti_3="Nötr" senti_6="nötr pozitif" senti_n="2.766">
 Değer	Değer	değer	NOUN	Number=Sing	t1	nmod	arkadaş	NOUN	Case=Nom Number=Plur	t3
 <g/>
 li	li	li	ADJ	-	t2	case	değer	NOUN	Number=Sing	t1
@@ -1138,7 +1138,7 @@ saat	saat	saat	NOUN	Case=Nom Number=Sing	t23	root	-	-	-	-
 15.	15.	15	ADJ	Case=Nom NumType=Ord Number=Sing	t24	compound	saat	NOUN	Case=Nom Number=Sing	t23
 </name>
 </s>
-<s id="tbmm-2018-11-01sit01spe0126par0611-000020">
+<s id="tbmm-2018-11-01sit01spe0126par0611-000020" senti_3="Nötr" senti_6="nötr nagatif" senti_n="1.569">
 <name type="LOC">
 00’te	00’te	00’te	X	-	t1	nmod	toplan	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t2
 </name>

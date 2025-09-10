@@ -8,12 +8,16 @@
             <meeting n="57" corresp="#parliament.HC" ana="#parla.lower #parla.term #PoGB.57"/>
             <meeting n="2017-09-07" corresp="#parliament.HC" ana="#parla.lower #parla.sitting #parla.meeting.regular"/>
             <respStmt>
-               <persName>Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
                <resp>TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="582">582 speeches</measure>
@@ -24,13 +28,13 @@
                <orgName>CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p>This work is also licensed under the <ref target="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -70,18 +74,20 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head xml:id="ParlaMint-GB_2017-09-07-commons.head1">Membership of the European Economic Area</head>
-            <u xml:id="ParlaMint-GB_2017-09-07-commons.u1" ana="#regular" who="#StephenKinnock">
+            <u xml:id="ParlaMint-GB_2017-09-07-commons.u1" ana="#regular topic:inter" who="#StephenKinnock">
                <seg xml:id="ParlaMint-GB_2017-09-07-commons.seg1">1. What discussions he has had with Cabinet colleagues on plans for the House to vote on continued UK membership of the EEA.</seg>
             </u>
-            <u xml:id="ParlaMint-GB_2017-09-07-commons.u2" ana="#regular" who="#DavidDavis">
+            <u xml:id="ParlaMint-GB_2017-09-07-commons.u2" ana="#regular topic:inter" who="#DavidDavis">
                <seg xml:id="ParlaMint-GB_2017-09-07-commons.seg2">The United Kingdom will no longer participate in the EEA agreement once we leave the European Union. The United Kingdom is a party to the EEA agreement in its capacity as an EU member state, so on exit day the EEA agreement will cease to operate in respect of the UK. It will no longer have any practical relevance to the United Kingdom. We are considering what steps, if any, we might need to take to confirm formally our withdrawal from the EEA agreement as a matter of international law.</seg>
             </u>
             <gap reason="editorial">
@@ -89,10 +95,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u xml:id="ParlaMint-GB_2017-09-07-commons.u581" ana="#regular" who="#RobertBlackman">
+            <u xml:id="ParlaMint-GB_2017-09-07-commons.u581" ana="#regular topic:gover" who="#RobertBlackman">
                <seg xml:id="ParlaMint-GB_2017-09-07-commons.seg958">I thank the Minister for his answers and I understand if he cannot answer this tonight, but will he confirm that the Secretary of State has not given approval for the sale of this asset outside the general rules that apply to the sale of public assets?</seg>
             </u>
-            <u xml:id="ParlaMint-GB_2017-09-07-commons.u582" ana="#regular" who="#MarcusJones">
+            <u xml:id="ParlaMint-GB_2017-09-07-commons.u582" ana="#regular topic:mixed" who="#MarcusJones">
                <seg xml:id="ParlaMint-GB_2017-09-07-commons.seg959">As my hon. Friend knows, in this debate I have covered the requirements for assets that are sold for which the best consideration is not obtained. In this sense, I asked my officials whether any application was made to the Secretary of State in this case and I was informed this afternoon that no such application was made</seg>
                <seg xml:id="ParlaMint-GB_2017-09-07-commons.seg960">On that note, I shall bring my comments to a conclusion and I look forward to meeting my hon. Friend on this matter at a later date</seg>
                <seg xml:id="ParlaMint-GB_2017-09-07-commons.seg961">Question put and agreed to.</seg>

@@ -1,7 +1,7 @@
 <note type="head" content="DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2021."/>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u1" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u1" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" topic="Macroeconomía" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u1.p1" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u1.p1.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u1.p1.s1" senti_3="Positivo" senti_6="positivo" senti_n="4.572">
 <name type="LOC">
 Buenos	Buenos	buen	ADJ	Gender=Masc Number=Plur	w1	amod	día	NOUN	Gender=Masc Number=Plur	w2
 </name>
@@ -12,7 +12,7 @@ señorías	señorías	señoría	NOUN	Gender=Fem Number=Plur	w4	appos	día	NOUN	G
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w5	punct	día	NOUN	Gender=Masc Number=Plur	w2
 </s>
-<s id="ParlaMint-ES_2020-11-12-CD201112.u1.p1.s2">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u1.p1.s2" senti_3="Positivo" senti_6="positivo mixto" senti_n="3.846">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	w1	expl:pass	reanudar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 reanuda	reanuda	reanudar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w3	det	sesión	NOUN	Gender=Fem Number=Sing	w4
@@ -22,7 +22,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	w4	nsubj	reanudar	VERB	Mood=
 </s>
 </p>
 <p id="ParlaMint-ES_2020-11-12-CD201112.u1.p2" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u1.p2.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u1.p2.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.876">
 Continuamos	Continuamos	continuar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 con	con	con	ADP	-	w2	case	punto	NOUN	Gender=Masc Number=Sing	w4
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w3	det	punto	NOUN	Gender=Masc Number=Sing	w4
@@ -50,7 +50,7 @@ año	año	año	NOUN	-	w27	nmod	proyecto	NOUN	Gender=Masc Number=Sing	w15
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w29	punct	continuar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-ES_2020-11-12-CD201112.u1.p2.s2">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u1.p2.s2" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.844">
 En	En	en	ADP	-	w1	case	turno	NOUN	Gender=Masc Number=Sing	w2
 turno	turno	turno	NOUN	Gender=Masc Number=Sing	w2	obl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w21
 de	de	de	ADP	-	w3	case	fijación	NOUN	Gender=Fem Number=Sing	w4
@@ -89,9 +89,9 @@ Robba	Robba	Robba	PROPN	-	w27	flat	Echenique	PROPN	-	w26
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u2" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Diputado/a" speaker_id="PabloEcheniqueRobba" speaker_name="Echenique Robba, Pablo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="UP" speaker_party_name="Unidas Podemos" party_status="Coalition" party_orientation="Izquierda" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u2" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Diputado/a" topic="Otros" speaker_id="PabloEcheniqueRobba" speaker_name="Echenique Robba, Pablo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="UP" speaker_party_name="Unidas Podemos" party_status="Coalition" party_orientation="Izquierda" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u2.p1" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u2.p1.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u2.p1.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.329">
 Gracias	Gracias	gracia	NOUN	-	w1	dep	señora	NOUN	Gender=Fem Number=Sing	w3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	señora	NOUN	Gender=Fem Number=Sing	w3
@@ -102,7 +102,7 @@ presidenta	presidenta	presidenta	NOUN	Gender=Fem Number=Sing	w4	appos	señora	NO
 </s>
 </p>
 <p id="ParlaMint-ES_2020-11-12-CD201112.u2.p2" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u2.p2.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u2.p2.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.355">
 Compatriotas	Compatriotas	compatriota	NOUN	Number=Plur	w1	root	-	-	-	-
 que	que	que	PRON	PronType=Int,Rel	w2	nsubj	seguir	VERB	VerbForm=Ger	w4
 estáis	estáis	estar	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	w3	aux	seguir	VERB	VerbForm=Ger	w4
@@ -130,7 +130,7 @@ lugar	lugar	lugar	NOUN	Gender=Masc Number=Sing	w20	obl	dirigir	VERB	VerbForm=Inf
 .	.	.	PUNCT	PunctType=Peri	w21	punct	compatriota	NOUN	Number=Plur	w1
 </s>
 <note type="vocal:murmuring" content="Rumores"/>
-<s id="ParlaMint-ES_2020-11-12-CD201112.u2.p2.s2">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u2.p2.s2" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.227">
 A	A	a	ADP	-	w1	case	mayoría	NOUN	Gender=Fem Number=Sing	w4
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	mayoría	NOUN	Gender=Fem Number=Sing	w4
 inmensa	inmensa	inmenso	ADJ	Gender=Fem Number=Sing	w3	amod	mayoría	NOUN	Gender=Fem Number=Sing	w4
@@ -141,9 +141,9 @@ mayoría	mayoría	mayoría	NOUN	Gender=Fem Number=Sing	w4	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u43" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u43" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" topic="Macroeconomía" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u43.p1" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p1.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p1.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.066">
 Muchas	Muchas	mucho	DET	Gender=Fem Number=Plur NumType=Card PronType=Ind	w1	det	gracia	NOUN	Gender=Fem Number=Plur	w2
 gracias	gracias	gracia	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -155,7 +155,7 @@ ministra	ministra	ministra	NOUN	Gender=Fem Number=Sing	w5	appos	señora	NOUN	Gen
 </s>
 </p>
 <p id="ParlaMint-ES_2020-11-12-CD201112.u43.p2" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p2.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p2.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="3.595">
 Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	w1	dep	votar	VERB	Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin	w3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	señoría	NOUN	Gender=Fem Number=Plur	w1
@@ -166,7 +166,7 @@ minutos	minutos	minuto	NOUN	Gender=Masc Number=Plur	w6	obl	votar	VERB	Mood=Ind N
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w7	punct	votar	VERB	Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin	w3
 </s>
-<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p2.s2">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p2.s2" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.468">
 Les	Les	él	PRON	Case=Dat Number=Plur Person=3 PronType=Prs	w1	iobj	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 recuerdo	recuerdo	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	votar	VERB	VerbForm=Inf	w6
@@ -191,7 +191,7 @@ pantalla	pantalla	pantalla	NOUN	Gender=Fem Number=Sing	w20	nmod	nombre	NOUN	Gend
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w21	punct	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p2.s3">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p2.s3" senti_3="Neutro" senti_6="neutro negativo" senti_n="1.730">
 Asimismo	Asimismo	asimismo	ADV	-	w1	advmod	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w4
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	asimismo	ADV	-	w1
@@ -224,7 +224,7 @@ escaño	escaño	escaño	NOUN	Gender=Masc Number=Sing	w25	obl	volver	VERB	VerbFor
 </p>
 <note type="incident:pause" content="Pausa"/>
 <p id="ParlaMint-ES_2020-11-12-CD201112.u43.p3" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p3.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p3.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.773">
 Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	w1	dep	proceder	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	señoría	NOUN	Gender=Fem Number=Plur	w1
@@ -292,7 +292,7 @@ Mixto	Mixto	Mixto	PROPN	-	w49	conj	Grupos	PROPN	-	w38
 </p>
 <note type="comment" content="señor Botran y señora Vehí, señora Oramas y señor Martínez Oblanca"/>
 <p id="ParlaMint-ES_2020-11-12-CD201112.u43.p4" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p4.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p4.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.304">
 Comienza	Comienza	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	votación	NOUN	Gender=Fem Number=Sing	w3
 votación	votación	votación	NOUN	Gender=Fem Number=Sing	w3	nsubj	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1
@@ -302,7 +302,7 @@ votación	votación	votación	NOUN	Gender=Fem Number=Sing	w3	nsubj	comenzar	VERB
 </p>
 <note type="incident:pause" content="Pausa"/>
 <p id="ParlaMint-ES_2020-11-12-CD201112.u43.p5" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p5.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u43.p5.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.786">
 Efectuada	Efectuada	efectuar	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w1	advcl	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w5
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	votación	NOUN	Gender=Fem Number=Sing	w3
 votación	votación	votación	NOUN	Gender=Fem Number=Sing	w3	nsubj	efectuar	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w1
@@ -359,9 +359,9 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	w39	amod	voto	
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u44" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u44" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" topic="Macroeconomía" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u44.p1" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u44.p1.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u44.p1.s1" senti_3="Negativo" senti_6="negativo mixto" senti_n="1.205">
 Las	Las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	w1	det	enmienda	NOUN	Gender=Fem Number=Plur	w2
 enmiendas	enmiendas	enmienda	NOUN	Gender=Fem Number=Plur	w2	nsubj	quedar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w23
 a	a	a	ADP	-	w3	case	totalidad	NOUN	Gender=Fem Number=Sing	w5
@@ -390,7 +390,7 @@ rechazadas	rechazadas	rechazado	ADJ	Gender=Fem Number=Plur VerbForm=Part	w24	obj
 </p>
 <note type="kinesic:applause" content="Aplausos de las señoras y los señores diputados de los grupos parlamentarios Socialista y Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, y de los miembros del Gobierno, puestos en pie"/>
 <p id="ParlaMint-ES_2020-11-12-CD201112.u44.p2" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u44.p2.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u44.p2.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.817">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	w1	expl:pass	levantar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 levanta	levanta	levantar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w3	det	sesión	NOUN	Gender=Fem Number=Sing	w4
@@ -400,7 +400,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	w4	nsubj	levantar	VERB	Mood=
 </s>
 </p>
 <p id="ParlaMint-ES_2020-11-12-CD201112.u44.p3" lang="Español">
-<s id="ParlaMint-ES_2020-11-12-CD201112.u44.p3.s1">
+<s id="ParlaMint-ES_2020-11-12-CD201112.u44.p3.s1" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.242">
 Era	Era	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	w1	cop	uno	NUM	Gender=Fem Number=Sing NumType=Card	w3
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	uno	NUM	Gender=Fem Number=Sing NumType=Card	w3
 una	una	uno	NUM	Gender=Fem Number=Sing NumType=Card	w3	root	-	-	-	-

@@ -1,7 +1,7 @@
 <note type="head" content="INCLUSIÓN EN EL ORDEN DEL DÍA - SOLICITUD DE PRÓRROGA DE SUBCOMISIONES: - SOLICITUD DE LA COMISIÓN DE EMPLEO Y SEGURIDAD SOCIAL, PARA QUE SE CONCEDA UNA PRÓRROGA, DE OCHO MESES, DEL PLAZO OTORGADO A LA SUBCOMISIÓN PARA EL ESTUDIO DE LA REFORMA DEL RÉGIMEN ESPECIAL DE TRABAJADORES POR CUENTA PROPIA O AUTÓNOMOS , PARA LA EMISIÓN DE SU INFORME."/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u1" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u1" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" topic="Other" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u1.p1" lang="English">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.670">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -13,7 +13,7 @@ order	order	order	VERB	VerbForm=Inf	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2
 </s>
 </p>
 <p id="ParlaMint-ES_2017-11-28-CD171128.u1.p2" lang="English">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.601">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 accordance	accordance	accordance	NOUN	Number=Sing	S7.1-,A6.1+	S7.1n	S7.1-: No power	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -142,7 +142,7 @@ report	report	report	NOUN	Number=Sing	Q2.2,X3.2	Q2.2	Q2.2: Speech acts	t94
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t95
 </s>
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s2">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.924">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -154,7 +154,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t5
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
 <note type="kinesic:gesture" content="Consent"/>
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s3">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s3" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 amendment	amendment	amendment	NOUN	Number=Sing	A2.1+	A2.1p	A2.1+: Change	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -168,7 +168,7 @@ adopted	adopted	adopt	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,S4	A9p	A9+: G
 </s>
 </p>
 <p id="ParlaMint-ES_2017-11-28-CD171128.u1.p3" lang="English">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p3.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p3.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.061">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 On	On	on	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -240,9 +240,9 @@ sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Statio
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO CONFEDERAL DE UNIDOS PODEMOS-EN COMÚ PODEM-EN MAREA, REGULADORA DE LAS PRÁCTICAS ACADÉMICAS UNIVERSITARIAS EXTERNAS."/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u2" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u2" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" topic="Education" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u2.p1" lang="English">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.772">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 begin	begin	begin	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2+	T2p	T2+: Time: Beginning	t3
@@ -312,7 +312,7 @@ practices	practices	practice	NOUN	Number=Plur	A1.1.1,I3.1/S5+c	A1.1.1	A1.1.1: Ge
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s2">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.060">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -345,9 +345,9 @@ Rodríguez	Rodríguez	Rodríguez	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t19
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u157" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Regular" speaker_id="EvaGarcíaSempere" speaker_name="García Sempere, Eva" speaker_mp="MP" speaker_minister="notMinister" speaker_party="UP" speaker_party_name="Unidas Podemos" party_status="Opposition" party_orientation="Left" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u157" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Regular" topic="Other" speaker_id="EvaGarcíaSempere" speaker_name="García Sempere, Eva" speaker_mp="MP" speaker_minister="notMinister" speaker_party="UP" speaker_party_name="Unidas Podemos" party_status="Opposition" party_orientation="Left" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u157.p1" lang="English">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u157.p1.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u157.p1.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.451">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -364,9 +364,9 @@ there	there	there	ADV	PronType=Dem	M6,T1.2	M6	M6: Location and direction	t7
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u158" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u158" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" topic="Other" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u158.p1" lang="English">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1" senti_3="Positive" senti_6="positive" senti_n="4.807">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -380,7 +380,7 @@ much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t4
 </s>
 </p>
 <p id="ParlaMint-ES_2017-11-28-CD171128.u158.p2" lang="English">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p2.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p2.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.163">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -395,7 +395,7 @@ morning	morning	morning	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t9
 </s>
 </p>
 <p id="ParlaMint-ES_2017-11-28-CD171128.u158.p3" lang="English">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p3.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p3.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.140">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 eight	eight	eight	NUM	NumForm=Word NumType=Card	N1	N1	N1: Numbers	t3

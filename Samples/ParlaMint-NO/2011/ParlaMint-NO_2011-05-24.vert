@@ -41,9 +41,9 @@
 <note type="comment" content="Hvordan vurderer statsråden den internasjonale matvaresituasjonen, og hva mener han at Norge kan gjøre for å bidra til å nå delmål nummer tre i FNs tusenårsmål nummer én om å halvere andelen som lider av kronisk sult mellom 1990 og 2015?»"/>
 <note type="comment" content="13."/>
 <note type="comment" content="Referat"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e94" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" lang="Norsk bokmål" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2010-2011, møtedag 2011-05-24" speaker_role="Chairperson" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-NO_2011-05-24.ud457e94" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" lang="Norsk bokmål" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2010-2011, møtedag 2011-05-24" speaker_role="Chairperson" topic="Other" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e95" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e95.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e95.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.329">
 Før	Før	før	SCONJ	-	1	mark	ta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	6
 sakene	sakene	sak	NOUN	Definite=Def Gender=Fem Number=Plur	2	nsubj:pass	ta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	6
 på	på	på	ADP	-	3	case	kart	NOUN	Definite=Ind Gender=Neut Number=Sing	5
@@ -79,9 +79,9 @@ ferdigbehandlet	ferdigbehandlet	ferdigbehandle	VERB	VerbForm=Part	25	advcl	16.00
 <note type="head" content="Sak nr. 1 [10:00:33]"/>
 <note type="comment" content="Debatt om utenriksministerens redegjørelse om viktige EU- og EØS-saker"/>
 <note type="comment" content="Redegjørelsen holdt i Stortingets møte 19. mai 2011"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e108" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" lang="Norsk bokmål" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2010-2011, møtedag 2011-05-24" speaker_role="Chairperson" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-NO_2011-05-24.ud457e108" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" lang="Norsk bokmål" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2010-2011, møtedag 2011-05-24" speaker_role="Chairperson" topic="Other" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e109" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e109.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e109.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.291">
 Etter	Etter	etter	ADP	-	1	case	ønske	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 ønske	ønske	ønske	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	foreslå	VERB	VerbForm=Inf	9
 fra	fra	fra	ADP	-	3	case	utenriks-	NOUN	-	4
@@ -112,7 +112,7 @@ slik	slik	slik	ADV	-	24	advmod	fordele	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voi
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e111" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e111.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e111.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.611">
 <name type="ORG">
 Arbeiderpartiet	Arbeiderpartiet	Arbeiderpartiet	PROPN	-	1	root	-	-	-	-
 </name>
@@ -166,7 +166,7 @@ minutter	minutter	minutt	NOUN	Definite=Ind Gender=Neut Number=Plur	29	orphan	Ven
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e113" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e113.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e113.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.521">
 Videre	Videre	vid	ADJ	Degree=Cmp	1	advmod	foreslå	VERB	VerbForm=Inf	4
 vil	vil	ville	AUX	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	foreslå	VERB	VerbForm=Inf	4
 presidenten	presidenten	president	NOUN	Definite=Def Gender=Masc Number=Sing	3	nsubj	foreslå	VERB	VerbForm=Inf	4
@@ -196,7 +196,7 @@ taletid	taletid	taletid	NOUN	Definite=Ind Gender=Fem Number=Sing	24	nmod	innlegg
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e115" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e115.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e115.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.594">
 Videre	Videre	vid	ADJ	Degree=Cmp	1	advmod	foreslå	VERB	VerbForm=Part	4
 blir	blir	bli	AUX	Mood=Ind Tense=Pres VerbForm=Fin	2	aux:pass	foreslå	VERB	VerbForm=Part	4
 det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	3	expl	foreslå	VERB	VerbForm=Part	4
@@ -227,7 +227,7 @@ minutter	minutter	minutt	NOUN	Definite=Ind Gender=Neut Number=Plur	24	nmod	talet
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e117" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e117.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e117.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.020">
 –	–	–	PUNCT	-	1	dep	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 Det	Det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	2	nsubj:pass	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 anses	anses	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3	root	-	-	-	-
@@ -237,7 +237,7 @@ vedtatt	vedtatt	vedta	VERB	VerbForm=Part	4	parataxis	anse	VERB	Mood=Ind Tense=Pr
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e119" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e119.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e119.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.633">
 Første	Første	første	ADJ	Definite=Def Degree=Pos Number=Sing	1	amod	taler	NOUN	Definite=Ind Gender=Masc Number=Sing	2
 taler	taler	taler	NOUN	Definite=Ind Gender=Masc Number=Sing	2	nsubj	Svein	PROPN	Gender=Masc	5
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	cop	Svein	PROPN	Gender=Masc	5
@@ -263,9 +263,9 @@ Søreide	Søreide	Søreide	PROPN	-	14	flat:name	Ine	PROPN	-	11
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e1905" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" lang="Norsk bokmål" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2010-2011, møtedag 2011-05-24" speaker_role="Chairperson" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-NO_2011-05-24.ud457e1905" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" lang="Norsk bokmål" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2010-2011, møtedag 2011-05-24" speaker_role="Chairperson" topic="Other" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e1906" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.229">
 I	I	i	ADP	-	1	case	sak	NOUN	Definite=Ind Gender=Fem Number=Sing	2
 sak	sak	sak	NOUN	Definite=Ind Gender=Fem Number=Sing	2	obl	foreligge	VERB	Mood=Ind Tense=Pres VerbForm=Fin	5
 nr.	nr.	nr.	NOUN	Abbr=Yes	3	obl	12	NUM	NumType=Card Number=Plur	4
@@ -295,9 +295,9 @@ voteringstema	voteringstema	voteringstema	NOUN	Definite=Ind Gender=Neut Number=S
 <note type="comment" content="357"/>
 <note type="comment" content="Representantforslag fra stortingsrepresentantene Elisabeth Røbekk Nørve, Frank Bakke-Jensen, Svein Flåtten og Henning Warloe om virkemiddelapparatet for næringsutvikling og innovasjon (Dokument 8:149 S (2010–2011))"/>
 <note type="comment" content="Enst.: Sendes næringskomiteen."/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e1945" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" lang="Norsk bokmål" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2010-2011, møtedag 2011-05-24" speaker_role="Chairperson" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-NO_2011-05-24.ud457e1945" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" lang="Norsk bokmål" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2010-2011, møtedag 2011-05-24" speaker_role="Chairperson" topic="Other" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e1946" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.972">
 Dermed	Dermed	dermed	ADV	-	1	advmod	ferdigbehandle	ADJ	VerbForm=Part	7
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	ferdigbehandle	ADJ	VerbForm=Part	7
 sakene	sakene	sak	NOUN	Definite=Def Gender=Fem Number=Plur	3	nsubj	ferdigbehandle	ADJ	VerbForm=Part	7
@@ -310,7 +310,7 @@ ferdigbehandlet	ferdigbehandlet	ferdigbehandle	ADJ	VerbForm=Part	7	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e1948" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.441">
 Forlanger	Forlanger	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 noen	noen	noen	PRON	Gender=Fem,Masc Number=Sing Person=3 PronType=Ind,Prs	2	nsubj	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1
 ordet	ordet	ord	NOUN	Definite=Def Gender=Neut Number=Sing	3	obj	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1
@@ -320,7 +320,7 @@ heves	heves	heve	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	6	advcl	forlan
 <g/>
 ?	?	?	PUNCT	-	7	punct	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.018">
 –	–	–	PUNCT	-	1	punct	heve	VERB	VerbForm=Part	4
 Møtet	Møtet	møte	NOUN	Definite=Def Gender=Neut Number=Sing	2	nsubj	heve	VERB	VerbForm=Part	4
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	heve	VERB	VerbForm=Part	4

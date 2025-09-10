@@ -1,13 +1,13 @@
 <note type="speaker" content="Sēdes vadītāja."/>
-<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U1" text_id="ParlaMint-LV_2021-02-11-PT13-2193" subcorpus="COVID" lang="latvian" body="Vienpalātas" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-11" speaker_role="Sēdes vadītājs" speaker_id="Beitnere-LeGallaDagmāra" speaker_name="Beitnere-Le Galla, Dagmāra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U1" text_id="ParlaMint-LV_2021-02-11-PT13-2193" subcorpus="COVID" lang="latvian" body="Vienpalātas" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-11" speaker_role="Sēdes vadītājs" topic="Mix" speaker_id="Beitnere-LeGallaDagmāra" speaker_name="Beitnere-Le Galla, Dagmāra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1" lang="latvian">
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.897">
 Godātie	Godātie	godāt	VERB	Aspect=Perf Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part	1	amod	kolēģis	NOUN	Case=Acc Gender=Masc Number=Sing	2
 kolēģi	kolēģi	kolēģis	NOUN	Case=Acc Gender=Masc Number=Sing	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	3	punct	kolēģis	NOUN	Case=Acc Gender=Masc Number=Sing	2
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.192">
 Turpinām	Turpinām	turpināt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 2021.	2021.	2021.	ADJ	NumType=Ord	2	amod	gads	NOUN	Case=Gen Gender=Masc Number=Sing	3
 gada	gada	gads	NOUN	Case=Gen Gender=Masc Number=Sing	3	nmod	janvāris	NOUN	Case=Gen Gender=Masc Number=Sing	5
@@ -19,12 +19,12 @@ sēdi	sēdi	sēdēt	VERB	Evident=Fh Mood=Ind Number=Sing Person=2 Polarity=Pos T
 <g/>
 .	.	.	PUNCT	-	9	punct	turpināt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.069">
 Kolēģi	Kolēģi	kolēģis	NOUN	Case=Nom Gender=Masc Number=Plur	1	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	2	punct	kolēģis	NOUN	Case=Nom Gender=Masc Number=Plur	1
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4" senti_3="Negative" senti_6="mixed negative" senti_n="1.322">
 Informēju	Informēju	informēt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 jūs	jūs	jūs	PRON	Case=Nom Number=Plur Person=2 PronType=Prs	2	obj	informēt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Past VerbForm=Fin Voice=Act	1
 <g/>
@@ -69,7 +69,7 @@ lēmumam	lēmumam	lēmums	NOUN	Case=Dat Gender=Masc Number=Sing	36	nmod	grozīju
 <g/>
 .	.	.	PUNCT	-	37	punct	informēt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Past VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5" senti_3="Neutral" senti_6="neutral postive" senti_n="3.433">
 Lūdzu	Lūdzu	lūgt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 atvērt	atvērt	atvērt	VERB	Polarity=Pos VerbForm=Inf	2	ccomp	lūgt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	1
 sadaļu	sadaļu	sadaļa	NOUN	Case=Acc Gender=Fem Number=Sing	3	obj	atvērt	VERB	Polarity=Pos VerbForm=Inf	2
@@ -78,7 +78,7 @@ procedūru	procedūru	procedūra	NOUN	Case=Acc Gender=Fem Number=Sing	5	nmod	sad
 <g/>
 .	.	.	PUNCT	-	6	punct	lūgt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6" senti_3="Neutral" senti_6="neutral negative" senti_n="2.264">
 Lūdzu	Lūdzu	lūdzu	INTJ	-	1	discourse	runāt	VERB	Evident=Fh Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	8
 <g/>
 ,	,	,	PUNCT	-	2	punct	lūdzu	INTJ	-	1
@@ -106,9 +106,9 @@ pret	pret	pret	ADP	-	14	dep	“	PUNCT	-	13
 </p>
 </speech>
 <note type="speaker" content="K. Feldmans (JK)."/>
-<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U2" text_id="ParlaMint-LV_2021-02-11-PT13-2193" subcorpus="COVID" lang="latvian" body="Vienpalātas" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-11" speaker_role="Deputāts" speaker_id="FeldmansKrišjānis" speaker_name="Feldmans, Krišjānis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U2" text_id="ParlaMint-LV_2021-02-11-PT13-2193" subcorpus="COVID" lang="latvian" body="Vienpalātas" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-11" speaker_role="Deputāts" topic="Other" speaker_id="FeldmansKrišjānis" speaker_name="Feldmans, Krišjānis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1" lang="latvian">
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1" senti_3="Negative" senti_6="negative" senti_n="0.335">
 Es	Es	es	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	runāt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	2
 runāšu	runāšu	runāt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	2	root	-	-	-	-
 “	“	“	PUNCT	-	3	punct	runāt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	2
@@ -121,9 +121,9 @@ pret	pret	pret	ADP	-	4	dep	runāt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U68" text_id="ParlaMint-LV_2021-02-11-PT13-2193" subcorpus="COVID" lang="latvian" body="Vienpalātas" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-11" speaker_role="Deputāts" speaker_id="ZariņšIvars" speaker_name="Zariņš, Ivars" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SASKAŅA" speaker_party_name="SASKAŅA" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U68" text_id="ParlaMint-LV_2021-02-11-PT13-2193" subcorpus="COVID" lang="latvian" body="Vienpalātas" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-11" speaker_role="Deputāts" topic="Health" speaker_id="ZariņšIvars" speaker_name="Zariņš, Ivars" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SASKAŅA" speaker_party_name="SASKAŅA" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1" lang="latvian">
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.195">
 Zinot	Zinot	zināt	VERB	Polarity=Pos VerbForm=Conv	1	advcl	sākt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	24
 <g/>
 ,	,	,	PUNCT	-	2	punct	iet	VERB	Evident=Fh Mood=Ind Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	7
@@ -208,7 +208,7 @@ ievārījusi	ievārījusi	ievārīt	VERB	Aspect=Perf Case=Nom Definite=Ind Degre
 <g/>
 ...	...	.	PUNCT	-	69	punct	sākt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	24
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.095">
 mēs	mēs	mēs	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	sākt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	4
 jau	jau	jau	ADV	-	2	advmod	laikus	ADV	-	3
 laikus	laikus	laikus	ADV	-	3	obl	sākt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	4
@@ -219,7 +219,7 @@ līdzi	līdzi	līdzi	ADV	-	7	case	tas	PRON	Case=Dat Gender=Masc Number=Sing Pers
 <g/>
 .	.	.	PUNCT	-	8	punct	sākt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	4
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.201">
 Arī	Arī	arī	PART	-	1	discourse	šeit	ADV	PronType=Dem	2
 šeit	šeit	šeit	ADV	PronType=Dem	2	obl	uzdot	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part	4
 esam	esam	būt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	3	aux	uzdot	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part	4
@@ -283,7 +283,7 @@ e-veselību	e-veselību	e-veselība	NOUN	Case=Acc Gender=Fem Number=Sing	53	obj	
 <g/>
 .	.	.	PUNCT	-	54	punct	uzdot	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part	4
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4" senti_3="Positive" senti_6="positive" senti_n="4.859">
 Novēlam	Novēlam	novēlēt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 veiksmi	veiksmi	veiksme	NOUN	Case=Acc Gender=Fem Number=Sing	2	obj	novēlēt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	1
 ministram	ministram	ministrs	NOUN	Case=Dat Gender=Masc Number=Sing	3	iobj	novēlēt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	1
@@ -293,7 +293,7 @@ atbildes	atbildes	atbilde	NOUN	Case=Acc Gender=Fem Number=Plur	6	obj	gaidīt	VER
 <g/>
 .	.	.	PUNCT	-	7	punct	novēlēt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5" senti_3="Positive" senti_6="positive" senti_n="4.555">
 Paldies	Paldies	paldies	INTJ	-	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	paldies	INTJ	-	1
@@ -301,9 +301,9 @@ Paldies	Paldies	paldies	INTJ	-	1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="Sēdes vadītāja."/>
-<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U69" text_id="ParlaMint-LV_2021-02-11-PT13-2193" subcorpus="COVID" lang="latvian" body="Vienpalātas" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-11" speaker_role="Sēdes vadītājs" speaker_id="Beitnere-LeGallaDagmāra" speaker_name="Beitnere-Le Galla, Dagmāra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U69" text_id="ParlaMint-LV_2021-02-11-PT13-2193" subcorpus="COVID" lang="latvian" body="Vienpalātas" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-11" speaker_role="Sēdes vadītājs" topic="Transportation" speaker_id="Beitnere-LeGallaDagmāra" speaker_name="Beitnere-Le Galla, Dagmāra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1" lang="latvian">
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.325">
 Pēdējais	Pēdējais	pēdējais	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	1	amod	jautājums	NOUN	Case=Nom Gender=Masc Number=Sing	3
 deputātu	deputātu	deputāts	NOUN	Case=Gen Gender=Masc Number=Plur	2	nmod	jautājums	NOUN	Case=Nom Gender=Masc Number=Sing	3
 jautājums	jautājums	jautājums	NOUN	Case=Nom Gender=Masc Number=Sing	3	nsubj:pass	adresēt	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part	25
@@ -365,7 +365,7 @@ realizāciju	realizāciju	realizācija	NOUN	Case=Acc Gender=Fem Number=Sing	41	c
 <g/>
 .	.	.	PUNCT	-	43	punct	adresēt	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part	25
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.692">
 Jautājums	Jautājums	jautājums	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj:pass	tikt	VERB	Evident=Fh Mood=Ind Person=3 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	2
 tiks	tiks	tikt	VERB	Evident=Fh Mood=Ind Person=3 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	2	root	-	-	-	-
 nodots	nodots	nodot	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part	3	xcomp	tikt	VERB	Evident=Fh Mood=Ind Person=3 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	2
@@ -374,12 +374,12 @@ ministram	ministram	ministrs	NOUN	Case=Dat Gender=Masc Number=Sing	5	iobj	nodot	
 <g/>
 .	.	.	PUNCT	-	6	punct	tikt	VERB	Evident=Fh Mood=Ind Person=3 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3" senti_3="Positive" senti_6="positive" senti_n="4.555">
 Paldies	Paldies	paldies	INTJ	-	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	paldies	INTJ	-	1
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4" senti_3="Neutral" senti_6="neutral postive" senti_n="3.059">
 Vēl	Vēl	vēl	ADV	-	1	orphan	reģistrācija	NOUN	Case=Nom Gender=Fem Number=Sing	4
 deputātu	deputātu	deputāts	NOUN	Case=Gen Gender=Masc Number=Plur	2	nmod	klātbūtne	NOUN	Case=Gen Gender=Fem Number=Sing	3
 klātbūtnes	klātbūtnes	klātbūtne	NOUN	Case=Gen Gender=Fem Number=Sing	3	nmod	reģistrācija	NOUN	Case=Nom Gender=Fem Number=Sing	4
@@ -387,14 +387,14 @@ reģistrācija	reģistrācija	reģistrācija	NOUN	Case=Nom Gender=Fem Number=Sin
 <g/>
 .	.	.	PUNCT	-	5	punct	reģistrācija	NOUN	Case=Nom Gender=Fem Number=Sing	4
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5" senti_3="Neutral" senti_6="neutral postive" senti_n="2.906">
 Tā	Tā	tā	PRON	Case=Nom Gender=Fem Number=Sing Person=3 PronType=Dem	1	nsubj	noslēgties	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Fem Number=Sing Polarity=Pos Reflex=Yes Tense=Past VerbForm=Part	3
 ir	ir	būt	AUX	Evident=Fh Mood=Ind Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	2	discourse	noslēgties	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Fem Number=Sing Polarity=Pos Reflex=Yes Tense=Past VerbForm=Part	3
 noslēgusies	noslēgusies	noslēgties	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Fem Number=Sing Polarity=Pos Reflex=Yes Tense=Past VerbForm=Part	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	noslēgties	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Fem Number=Sing Polarity=Pos Reflex=Yes Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6" senti_3="Positive" senti_6="positive" senti_n="4.585">
 Paldies	Paldies	Paldies	PART	-	1	root	-	-	-	-
 par	par	par	ADP	-	2	case	darbs	NOUN	Case=Acc Gender=Masc Number=Sing	4
 šodienas	šodienas	šodiena	NOUN	Case=Gen Gender=Fem Number=Sing	3	amod	darbs	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -402,13 +402,13 @@ darbu	darbu	darbs	NOUN	Case=Acc Gender=Masc Number=Sing	4	iobj	Paldies	PART	-	1
 <g/>
 .	.	.	PUNCT	-	5	punct	Paldies	PART	-	1
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7" senti_3="Neutral" senti_6="neutral postive" senti_n="3.084">
 Sēdi	Sēdi	sēdēt	VERB	Mood=Imp Number=Sing Person=2 Polarity=Pos VerbForm=Fin Voice=Act	1	obj	slēgt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Past VerbForm=Fin Voice=Act	2
 slēdzu	slēdzu	slēgt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Past VerbForm=Fin Voice=Act	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	slēgt	VERB	Evident=Fh Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Past VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8" senti_3="Neutral" senti_6="neutral postive" senti_n="3.202">
 (	(	(	PUNCT	-	1	punct	pārtraukums	NOUN	Case=Nom Gender=Masc Number=Sing	2
 Pārtraukums	Pārtraukums	pārtraukums	NOUN	Case=Nom Gender=Masc Number=Sing	2	root	-	-	-	-
 <g/>

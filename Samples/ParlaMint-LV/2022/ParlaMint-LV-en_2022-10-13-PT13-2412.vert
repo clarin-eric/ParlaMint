@@ -1,7 +1,7 @@
 <note type="speaker" content="Head of the sitting."/>
-<speech id="ParlaMint-LV_2022-10-13-PT13-2412-U1" text_id="ParlaMint-LV-en_2022-10-13-PT13-2412" subcorpus="COVID,War" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2022-10-13" agenda="-" date="2022-10-13" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2022-10-13" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-LV_2022-10-13-PT13-2412-U1" text_id="ParlaMint-LV-en_2022-10-13-PT13-2412" subcorpus="COVID,War" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2022-10-13" agenda="-" date="2022-10-13" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2022-10-13" speaker_role="Chairperson" topic="Macroeconomics" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1" lang="English">
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.1">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.849">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -13,7 +13,7 @@ Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a 
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.2">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.432">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 invite	invite	invite	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -60,7 +60,7 @@ October	October	October	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.3">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.894">
 First	First	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t3
@@ -80,7 +80,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.4">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.121">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Legal	Legal	legal	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -121,7 +121,7 @@ Court	Court	Court	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.5">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -136,7 +136,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.6">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.6" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -144,7 +144,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.7">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -155,7 +155,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.8">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.8" senti_3="Neutral" senti_6="neutral positive" senti_n="2.932">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -208,7 +208,7 @@ sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Statio
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.9">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.9" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -223,7 +223,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.10">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.10" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -231,7 +231,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.11">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.11" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -242,7 +242,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.12">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.12" senti_3="Neutral" senti_6="neutral positive" senti_n="3.480">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -257,7 +257,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.13">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.13" senti_3="Neutral" senti_6="neutral positive" senti_n="2.880">
 <phr usas_tags="A7+" usas_cats="A7p" usas_glosses="A7+: Likely">
 On	On	on	ADP	-	A7+	A7p	A7+: Likely	t1
 the	the	the	DET	Definite=Def PronType=Art	A7+	A7p	A7+: Likely	t2
@@ -277,7 +277,7 @@ submitted	submitted	submit	VERB	Tense=Past VerbForm=Part	A9-,S7.1-	A9n	A9-: Givi
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.14">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.14" senti_3="Neutral" senti_6="neutral positive" senti_n="2.532">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Presidium	Presidium	Presidium	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
@@ -372,7 +372,7 @@ Commission	Commission	commission	NOUN	Number=Sing	I2.2,G3/S7.1+	I2.2	I2.2: Busin
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t59
 ‘	‘	‘	PUNCT	-	Z5	Z5	Z5: Grammatical bin	t60
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.15">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U1-P1.15" senti_3="Neutral" senti_6="neutral positive" senti_n="3.197">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ”	”	”	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -390,9 +390,9 @@ Valainis	Valainis	Valaini	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t8
 </p>
 </speech>
 <note type="speaker" content="V. Valainis (ZZS)."/>
-<speech id="ParlaMint-LV_2022-10-13-PT13-2412-U2" text_id="ParlaMint-LV-en_2022-10-13-PT13-2412" subcorpus="COVID,War" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2022-10-13" agenda="-" date="2022-10-13" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2022-10-13" speaker_role="Regular" speaker_id="ValainisViktors" speaker_name="Valainis, Viktors" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ZZS" speaker_party_name="Zaļo un Zemnieku savienība" party_status="Opposition" party_orientation="Centre to centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-LV_2022-10-13-PT13-2412-U2" text_id="ParlaMint-LV-en_2022-10-13-PT13-2412" subcorpus="COVID,War" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2022-10-13" agenda="-" date="2022-10-13" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2022-10-13" speaker_role="Regular" topic="Agriculture" speaker_id="ValainisViktors" speaker_name="Valainis, Viktors" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ZZS" speaker_party_name="Zaļo un Zemnieku savienība" party_status="Opposition" party_orientation="Centre to centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1" lang="English">
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.1">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.285">
 Very	Very	very	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 respectful	respectful	respectful	ADJ	Degree=Pos	T1.3	T1.3	T1.3: Time: Period	t2
@@ -406,13 +406,13 @@ Saeima	Saeima	Saeima	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t6
 </name>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.2">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.897">
 Dear	Dear	dear	ADJ	Degree=Pos	E2+,I1.3+	E2p	E2+: Like	t1
 colleagues	colleagues	colleague	NOUN	Number=Plur	I3.2/S2mf	I3.2 S2	I3.2: Work and employment: Professionalism|S2: People	t2
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.3">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.3" senti_3="Positive" senti_6="positive" senti_n="4.890">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.1.1" usas_cats="T1.1.1" usas_glosses="T1.1.1: Time: Past">
 week	week	week	NOUN	Number=Sing	T1.1.1	T1.1.1	T1.1.1: Time: Past	t2
@@ -486,7 +486,7 @@ law	law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t58
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t59
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.4">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.4" senti_3="Positive" senti_6="positive" senti_n="4.974">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <phr usas_tags="A13.3" usas_cats="A13.3" usas_glosses="A13.3: Degree: Boosters">
@@ -500,7 +500,7 @@ too	too	too	ADV	-	N5++,N5.2+,A13.3	N5p	N5+: Quantities: many/much	t8
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.5">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.072">
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t1
 colleagues	colleagues	colleague	NOUN	Number=Plur	I3.2/S2mf	I3.2 S2	I3.2: Work and employment: Professionalism|S2: People	t2
 have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -537,7 +537,7 @@ well	well	well	ADV	Degree=Pos	N5++	N5p	N5+: Quantities: many/much	t26
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.6">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.6" senti_3="Positive" senti_6="mixed positive" senti_n="4.239">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 call	call	call	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,S1.1.1,Q1.3,S9%	Q2.2	Q2.2: Speech acts	t2
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -591,7 +591,7 @@ products	products	product	NOUN	Number=Plur	O2,A1.1.1,A2.2,N2%	O2	O2: Objects gen
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.7">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.149">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 draft	draft	draft	NOUN	Number=Sing	Q1.2,G3,Q1.2/I1	Q1.2	Q1.2: Paper documents and writing	t2
 law	law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t3
@@ -619,7 +619,7 @@ Agriculture	Agriculture	Agriculture	PROPN	Number=Sing	F4	F4	F4: Farming & Hortic
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.8">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.8" senti_3="Positive" senti_6="mixed positive" senti_n="3.532">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 invite	invite	invite	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -648,7 +648,7 @@ over	over	over	ADP	-	Z5	Z5	Z5: Grammatical bin	t19
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.9">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.9" senti_3="Neutral" senti_6="neutral positive" senti_n="2.928">
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t1
 have	have	have	VERB	VerbForm=Inf	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -658,7 +658,7 @@ input	input	input	NOUN	Number=Sing	O2,Q2.2,Y2,A1.1.1,S5+c%	O2	O2: Objects genera
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.10">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U2-P1.10" senti_3="Positive" senti_6="positive" senti_n="4.555">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -669,14 +669,14 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-LV_2022-10-13-PT13-2412-U395" text_id="ParlaMint-LV-en_2022-10-13-PT13-2412" subcorpus="COVID,War" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2022-10-13" agenda="-" date="2022-10-13" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2022-10-13" speaker_role="Guest" speaker_id="VoikaInese" speaker_name="Voika, Inese" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-LV_2022-10-13-PT13-2412-U395" text_id="ParlaMint-LV-en_2022-10-13-PT13-2412" subcorpus="COVID,War" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2022-10-13" agenda="-" date="2022-10-13" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2022-10-13" speaker_role="Guest" topic="Other" speaker_id="VoikaInese" speaker_name="Voika, Inese" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1" lang="English">
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.1">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.069">
 Colleagues	Colleagues	colleague	NOUN	Number=Plur	I3.2/S2mf	I3.2 S2	I3.2: Work and employment: Professionalism|S2: People	t1
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.2">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.542">
 Not	Not	not	PART	-	Z6	Z6	Z6: Negative	t1
 registered	registered	register	VERB	Tense=Past VerbForm=Part Voice=Pass	Q1.2/G1.1,N3.1,A9+,Q2.1,A10+,X2.5+	Q1.2 G1.1	Q1.2: Paper documents and writing|G1.1: Government	t2
 <g/>
@@ -759,7 +759,7 @@ Edvins	Edvins	Edvins	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t39
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.3">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.3" senti_3="Positive" senti_6="positive" senti_n="4.555">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -767,7 +767,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.4">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.007">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="MISC">
 Bible	Bible	Bible	PROPN	Number=Sing	S9/Q4.1,Q1.2	S9 Q4.1	S9: Religion and the supernatural|Q4.1: The Media: Books	t2
@@ -802,7 +802,7 @@ Ribakov	Ribakov	Ribakov	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t18
 <g/>
 ”	”	”	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.5">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U395-P1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.127">
 )	)	)	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="PER">
 Ribakov	Ribakov	Ribakov	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
@@ -814,9 +814,9 @@ is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A
 </p>
 </speech>
 <note type="speaker" content="Head of the sitting."/>
-<speech id="ParlaMint-LV_2022-10-13-PT13-2412-U396" text_id="ParlaMint-LV-en_2022-10-13-PT13-2412" subcorpus="COVID,War" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2022-10-13" agenda="-" date="2022-10-13" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2022-10-13" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-LV_2022-10-13-PT13-2412-U396" text_id="ParlaMint-LV-en_2022-10-13-PT13-2412" subcorpus="COVID,War" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2022-10-13" agenda="-" date="2022-10-13" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2022-10-13" speaker_role="Chairperson" topic="Other" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_2022-10-13-PT13-2412-U396-P1" lang="English">
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U396-P1.1">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U396-P1.1" senti_3="Positive" senti_6="positive" senti_n="4.555">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -824,7 +824,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-LV_2022-10-13-PT13-2412-U396-P1.2">
+<s id="ParlaMint-LV_2022-10-13-PT13-2412-U396-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.084">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2

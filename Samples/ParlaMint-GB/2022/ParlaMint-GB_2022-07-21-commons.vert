@@ -1,7 +1,7 @@
 <note type="head" content="Speaker's Statement"/>
-<speech id="ParlaMint-GB_2022-07-21-commons.u1" text_id="ParlaMint-GB_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Chairperson" speaker_id="LindsayHoyle" speaker_name="Hoyle, Lindsay Harvey" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u1" text_id="ParlaMint-GB_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Chairperson" topic="Government Operations" speaker_id="LindsayHoyle" speaker_name="Hoyle, Lindsay Harvey" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg1" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg1.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg1.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.938">
 Before	Before	before	ADP	-	1	mark	come	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	2	nsubj	come	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 come	come	come	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	advcl	want	VERB	Mood=Ind Tense=Pres VerbForm=Fin	10
@@ -31,7 +31,7 @@ Service	Service	Service	PROPN	Number=Sing	22	nmod	member	NOUN	Number=Plur	18
 </name>
 .	.	.	PUNCT	-	23	punct	want	VERB	Mood=Ind Tense=Pres VerbForm=Fin	10
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg1.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg1.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.087">
 <name type="PER">
 Penny	Penny	penny	NOUN	Number=Sing	1	compound	Young	PROPN	Number=Sing	2
 Young	Young	Young	PROPN	Number=Sing	2	nsubj	retire	VERB	Tense=Pres VerbForm=Part	16
@@ -63,7 +63,7 @@ month	month	month	NOUN	Number=Sing	22	nmod	end	NOUN	Number=Sing	19
 <g/>
 .	.	.	PUNCT	-	23	punct	retire	VERB	Tense=Pres VerbForm=Part	16
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg1.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg1.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.296">
 <name type="PER">
 Isabel	Isabel	Isabel	PROPN	Number=Sing	1	compound	Coman	PROPN	Number=Sing	2
 Coman	Coman	Coman	PROPN	Number=Sing	2	nsubj	leave	VERB	Tense=Pres VerbForm=Part	13
@@ -93,7 +93,7 @@ September	September	September	PROPN	Number=Sing	18	obl	leave	VERB	Tense=Pres Ver
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg2" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg2.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.290">
 <name type="PER">
 Penny	Penny	penny	NOUN	Number=Sing	1	nsubj	come	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
 </name>
@@ -131,7 +131,7 @@ NatCen	NatCen	NatCen	PROPN	Number=Sing	27	appos	organisation	NOUN	Number=Sing	26
 <g/>
 .	.	.	PUNCT	-	28	punct	come	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg2.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg2.2" senti_3="Positive" senti_6="positive" senti_n="5.305">
 In	In	in	ADP	-	1	case	time	NOUN	Number=Sing	3
 her	her	she	DET	Gender=Fem Number=Sing Person=3 Poss=Yes PronType=Prs	2	nmod:poss	time	NOUN	Number=Sing	3
 time	time	time	NOUN	Number=Sing	3	obl	champion	VERB	Tense=Past VerbForm=Part	9
@@ -161,7 +161,7 @@ public	public	public	NOUN	Number=Sing	23	conj	member	NOUN	Number=Plur	20
 <g/>
 .	.	.	PUNCT	-	24	punct	champion	VERB	Tense=Past VerbForm=Part	9
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg2.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg2.3" senti_3="Positive" senti_6="positive" senti_n="5.413">
 She	She	she	PRON	Case=Nom Gender=Fem Number=Sing Person=3 PronType=Prs	1	nsubj:pass	value	VERB	Tense=Past VerbForm=Part Voice=Pass	4
 has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	aux	value	VERB	Tense=Past VerbForm=Part Voice=Pass	4
 been	been	be	VERB	Tense=Past VerbForm=Part	3	aux:pass	value	VERB	Tense=Past VerbForm=Part Voice=Pass	4
@@ -191,7 +191,7 @@ issue	issue	issue	NOUN	Number=Sing	25	nmod	heart	NOUN	Number=Sing	22
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg3" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg3.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg3.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.392">
 <name type="PER">
 Isabel	Isabel	Isabel	PROPN	Number=Sing	1	nsubj	join	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
 </name>
@@ -236,7 +236,7 @@ teams	teams	team	NOUN	Number=Plur	32	dep	project	NOUN	Number=Plur	20
 <g/>
 .	.	.	PUNCT	-	33	punct	join	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg3.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg3.2" senti_3="Positive" senti_6="positive" senti_n="4.820">
 She	She	she	PRON	Case=Nom Gender=Fem Number=Sing Person=3 PronType=Prs	1	nsubj	oversee	VERB	Tense=Past VerbForm=Part	3
 has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	aux	oversee	VERB	Tense=Past VerbForm=Part	3
 overseen	overseen	oversee	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -271,7 +271,7 @@ Parliament	Parliament	Parliament	PROPN	Number=Sing	29	obl	approach	VERB	Mood=Ind
 </name>
 .	.	.	PUNCT	-	30	punct	oversee	VERB	Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg3.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg3.3" senti_3="Positive" senti_6="positive" senti_n="5.421">
 The	The	the	DET	Definite=Def PronType=Art	1	det	insight	NOUN	Number=Sing	2
 insight	insight	insight	NOUN	Number=Sing	2	root	-	-	-	-
 and	and	and	CCONJ	-	3	cc	experience	NOUN	Number=Sing	4
@@ -315,7 +315,7 @@ London	London	London	PROPN	Number=Sing	35	nmod	transport	NOUN	Number=Sing	33
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg4" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg4.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg4.1" senti_3="Positive" senti_6="positive" senti_n="5.401">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	sure	ADJ	Degree=Pos	3
 am	am	be	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	cop	sure	ADJ	Degree=Pos	3
 sure	sure	sure	ADJ	Degree=Pos	3	root	-	-	-	-
@@ -351,14 +351,14 @@ future	future	future	NOUN	Number=Sing	23	obl	wish	VERB	VerbForm=Ger	18
 <note type="-" content="End of debateSection."/>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Free Trade Agreement: India"/>
-<speech id="ParlaMint-GB_2022-07-21-commons.u2" text_id="ParlaMint-GB_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u2" text_id="ParlaMint-GB_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" topic="Foreign Trade" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg5" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg5.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg5.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.767">
 1	1	1	X	-	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	1	X	-	1
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg5.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg5.2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.140">
 What	What	what	DET	PronType=Int	1	det	progress	NOUN	Number=Sing	2
 progress	progress	progress	NOUN	Number=Sing	2	obj	make	VERB	Tense=Past VerbForm=Part	6
 her	her	she	DET	Gender=Fem Number=Sing Person=3 Poss=Yes PronType=Prs	3	nmod:poss	Department	PROPN	Number=Sing	4
@@ -379,9 +379,9 @@ India	India	India	PROPN	Number=Sing	14	nmod	agreement	NOUN	Number=Sing	12
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GB_2022-07-21-commons.u405" text_id="ParlaMint-GB_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="DavidRutley" speaker_name="Rutley, David Henry" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u405" text_id="ParlaMint-GB_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" topic="Social Welfare" speaker_id="DavidRutley" speaker_name="Rutley, David Henry" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg859" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg859.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg859.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.488">
 The	The	the	DET	Definite=Def PronType=Art	1	det	gentleman	NOUN	Number=Sing	3
 hon.	hon.	hon.	NOUN	Number=Sing	2	compound	gentleman	NOUN	Number=Sing	3
 Gentleman	Gentleman	gentleman	NOUN	Number=Sing	3	nsubj	make	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
@@ -392,7 +392,7 @@ point	point	point	NOUN	Number=Sing	7	obj	make	VERB	Mood=Ind Number=Sing Person=3
 <g/>
 .	.	.	PUNCT	-	8	punct	make	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg859.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg859.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	take	VERB	VerbForm=Inf	3
 will	will	will	VERB	VerbForm=Fin	2	aux	take	VERB	VerbForm=Inf	3
 take	take	take	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -407,7 +407,7 @@ up	up	up	ADP	-	11	compound:prt	follow	VERB	VerbForm=Inf	9
 <g/>
 .	.	.	PUNCT	-	12	punct	take	VERB	VerbForm=Inf	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg859.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg859.3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.586">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	reply	VERB	Tense=Past VerbForm=Part	3
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	reply	VERB	Tense=Past VerbForm=Part	3
 replied	replied	reply	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -438,7 +438,7 @@ issues	issues	issue	NOUN	Number=Plur	25	obl	do	VERB	VerbForm=Inf	18
 <g/>
 .	.	.	PUNCT	-	26	punct	reply	VERB	Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg859.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg859.4" senti_3="Positive" senti_6="positive" senti_n="5.208">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	1	nsubj	make	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 makes	makes	make	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 a	a	a	DET	Definite=Ind PronType=Art	3	det	point	NOUN	Number=Sing	5
@@ -455,7 +455,7 @@ that	that	that	DET	Number=Sing PronType=Dem	13	obl	follow	VERB	VerbForm=Inf	10
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg860" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.916">
 The	The	the	DET	Definite=Def PronType=Art	1	det	Department	PROPN	Number=Sing	2
 Department	Department	Department	PROPN	Number=Sing	2	nsubj	able	ADJ	Degree=Pos	5
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	able	ADJ	Degree=Pos	5
@@ -491,7 +491,7 @@ repayment	repayment	repayment	NOUN	Number=Sing	29	nmod	rate	NOUN	Number=Sing	27
 <g/>
 .	.	.	PUNCT	-	30	punct	able	ADJ	Degree=Pos	5
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.009">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	extend	VERB	Tense=Past VerbForm=Part	4
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	extend	VERB	Tense=Past VerbForm=Part	4
 recently	recently	recently	ADV	-	3	advmod	extend	VERB	Tense=Past VerbForm=Part	4
@@ -519,7 +519,7 @@ reviewed	reviewed	review	VERB	Tense=Past VerbForm=Part Voice=Pass	22	advcl	exten
 <g/>
 .	.	.	PUNCT	-	23	punct	extend	VERB	Tense=Past VerbForm=Part	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.3" senti_3="Positive" senti_6="positive" senti_n="4.703">
 To	To	to	PART	-	1	mark	ensure	VERB	VerbForm=Inf	2
 ensure	ensure	ensure	VERB	VerbForm=Inf	2	csubj	get	VERB	VerbForm=Inf	5
 people	people	people	NOUN	Number=Plur	3	obj	ensure	VERB	VerbForm=Inf	2
@@ -553,7 +553,7 @@ support	support	support	NOUN	Number=Sing	28	obj	provide	VERB	VerbForm=Inf	26
 <g/>
 .	.	.	PUNCT	-	29	punct	get	VERB	VerbForm=Inf	5
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.4" senti_3="Positive" senti_6="mixed positive" senti_n="4.012">
 Again	Again	again	ADV	-	1	advmod	acknowledge	VERB	Mood=Ind Tense=Pres VerbForm=Fin	4
 <g/>
 ,	,	,	PUNCT	-	2	punct	acknowledge	VERB	Mood=Ind Tense=Pres VerbForm=Fin	4
@@ -576,7 +576,7 @@ it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	15	obl	foll
 <g/>
 .	.	.	PUNCT	-	16	punct	acknowledge	VERB	Mood=Ind Tense=Pres VerbForm=Fin	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.5" senti_3="Positive" senti_6="mixed positive" senti_n="4.094">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 also	also	also	ADV	-	2	advmod	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -596,7 +596,7 @@ times	times	time	NOUN	Number=Plur	16	obl	manage	VERB	VerbForm=Inf	12
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg861" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.1" senti_3="Positive" senti_6="positive" senti_n="4.773">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 thank	thank	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 the	the	the	DET	Definite=Def PronType=Art	3	det	gentleman	NOUN	Number=Sing	5
@@ -611,7 +611,7 @@ made	made	make	VERB	Mood=Ind Tense=Past VerbForm=Fin	11	parataxis	thank	VERB	Moo
 <g/>
 .	.	.	PUNCT	-	12	punct	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.503">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	1	nsubj	mention	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
 mentioned	mentioned	mention	VERB	Mood=Ind Tense=Past VerbForm=Fin	2	root	-	-	-	-
 the	the	the	DET	Definite=Def PronType=Art	3	det	distinction	NOUN	Number=Sing	4
@@ -631,7 +631,7 @@ debt	debt	debt	NOUN	Number=Sing	16	conj	debt	NOUN	Number=Sing	10
 <g/>
 .	.	.	PUNCT	-	17	punct	mention	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.872">
 Because	Because	because	ADP	-	1	case	legislation	NOUN	Number=Sing	4
 of	of	of	ADP	-	2	fixed	because	ADP	-	1
 existing	existing	exist	VERB	VerbForm=Ger	3	amod	legislation	NOUN	Number=Sing	4
@@ -687,7 +687,7 @@ future	future	future	NOUN	Number=Sing	46	nmod	system	NOUN	Number=Sing	43
 <g/>
 .	.	.	PUNCT	-	47	punct	right	ADJ	Degree=Pos	8
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.946">
 The	The	the	DET	Definite=Def PronType=Art	1	det	intention	NOUN	Number=Sing	2
 intention	intention	intention	NOUN	Number=Sing	2	nsubj	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -731,7 +731,7 @@ recoverable	recoverable	recoverable	ADJ	Degree=Pos	37	dep	move	VERB	VerbForm=Inf
 <g/>
 .	.	.	PUNCT	-	38	punct	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.5" senti_3="Positive" senti_6="mixed positive" senti_n="3.825">
 The	The	the	DET	Definite=Def PronType=Art	1	det	change	NOUN	Number=Plur	5
 2012	2012	2012	NUM	NumType=Card	2	nummod	reform	NOUN	Number=Sing	4
 welfare	welfare	welfare	NOUN	Number=Sing	3	compound	reform	NOUN	Number=Sing	4
@@ -762,7 +762,7 @@ payments	payments	payment	NOUN	Number=Plur	26	nmod	accuracy	NOUN	Number=Sing	23
 <g/>
 .	.	.	PUNCT	-	27	punct	design	VERB	Tense=Past VerbForm=Part Voice=Pass	7
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.523">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	reassure	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 reassure	reassure	reassure	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 the	the	the	DET	Definite=Def PronType=Art	3	det	Member	PROPN	Number=Sing	5
@@ -812,7 +812,7 @@ focus	focus	focus	NOUN	Number=Sing	43	ccomp	be	VERB	Mood=Ind Number=Sing Person=
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg862" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.804">
 The	The	the	DET	Definite=Def PronType=Art	1	det	Department	PROPN	Number=Sing	2
 <name type="ORG">
 Department	Department	Department	PROPN	Number=Sing	2	nsubj	maintain	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
@@ -846,7 +846,7 @@ place	place	place	NOUN	Number=Sing	27	ccomp	assurance	NOUN	Number=Sing	19
 <g/>
 .	.	.	PUNCT	-	28	punct	maintain	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.578">
 Additionally	Additionally	additionally	ADV	-	1	advmod	conduct	VERB	Tense=Past VerbForm=Part	11
 <g/>
 ,	,	,	PUNCT	-	2	punct	conduct	VERB	Tense=Past VerbForm=Part	11
@@ -883,7 +883,7 @@ processes	processes	process	NOUN	Number=Plur	28	conj	improvement	NOUN	Number=Plu
 <g/>
 .	.	.	PUNCT	-	29	punct	conduct	VERB	Tense=Past VerbForm=Part	11
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.242">
 A	A	a	DET	Definite=Ind PronType=Art	1	det	group	NOUN	Number=Sing	4
 senior	senior	senior	ADJ	Degree=Pos	2	amod	group	NOUN	Number=Sing	4
 stakeholder	stakeholder	stakeholder	NOUN	Number=Sing	3	compound	group	NOUN	Number=Sing	4
@@ -901,7 +901,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	12	obj	oversee	VERB	Mood=Ind Number=Sing P
 <g/>
 .	.	.	PUNCT	-	13	punct	oversee	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.4" senti_3="Positive" senti_6="positive" senti_n="5.348">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	confident	ADJ	Degree=Pos	3
 am	am	be	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	cop	confident	ADJ	Degree=Pos	3
 confident	confident	confident	ADJ	Degree=Pos	3	root	-	-	-	-
@@ -916,7 +916,7 @@ taking	taking	take	VERB	Tense=Pres VerbForm=Part	11	ccomp	approach	NOUN	Number=S
 <g/>
 .	.	.	PUNCT	-	12	punct	confident	ADJ	Degree=Pos	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.5" senti_3="Positive" senti_6="mixed positive" senti_n="4.413">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	minimise	VERB	Tense=Pres VerbForm=Part	3
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	minimise	VERB	Tense=Pres VerbForm=Part	3
 minimising	minimising	minimise	VERB	Tense=Pres VerbForm=Part	3	root	-	-	-	-
@@ -939,7 +939,7 @@ occur	occur	occur	VERB	VerbForm=Inf	18	acl:relcl	payment	NOUN	Number=Plur	13
 <g/>
 .	.	.	PUNCT	-	19	punct	minimise	VERB	Tense=Pres VerbForm=Part	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.873">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	need	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 need	need	need	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 to	to	to	PART	-	3	mark	balance	VERB	VerbForm=Inf	4
@@ -962,7 +962,7 @@ appropriately	appropriately	appropriately	ADV	-	19	conj	sensitively	ADV	-	17
 <g/>
 .	.	.	PUNCT	-	20	punct	need	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.7">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.7" senti_3="Neutral" senti_6="neutral postive" senti_n="2.892">
 In	In	in	ADP	-	1	case	context	NOUN	Number=Sing	3
 that	that	that	DET	Number=Sing PronType=Dem	2	det	context	NOUN	Number=Sing	3
 context	context	context	NOUN	Number=Sing	3	obl	think	VERB	VerbForm=Inf	8
@@ -983,7 +983,7 @@ repayable	repayable	repayable	ADJ	Degree=Pos	16	ccomp	unreasonable	ADJ	Degree=Po
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg863" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.829">
 The	The	the	DET	Definite=Def PronType=Art	1	det	Member	PROPN	Number=Sing	3
 hon.	hon.	hon.	PROPN	Number=Sing	2	compound	Member	PROPN	Number=Sing	3
 Member	Member	Member	PROPN	Number=Sing	3	nsubj	ask	VERB	Mood=Ind Tense=Past VerbForm=Fin	5
@@ -1007,7 +1007,7 @@ repaid	repaid	repay	VERB	Tense=Past VerbForm=Part Voice=Pass	20	ccomp	involve	VE
 <g/>
 .	.	.	PUNCT	-	21	punct	ask	VERB	Mood=Ind Tense=Past VerbForm=Fin	5
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.018">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj:pass	train	VERB	Tense=Past VerbForm=Part Voice=Pass	3
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux:pass	train	VERB	Tense=Past VerbForm=Part Voice=Pass	3
 trained	trained	train	VERB	Tense=Past VerbForm=Part Voice=Pass	3	root	-	-	-	-
@@ -1027,7 +1027,7 @@ guide	guide	guide	NOUN	Number=Sing	16	obl	list	VERB	Tense=Past VerbForm=Part	10
 <g/>
 .	.	.	PUNCT	-	17	punct	train	VERB	Tense=Past VerbForm=Part Voice=Pass	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.3" senti_3="Positive" senti_6="positive" senti_n="4.506">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	give	VERB	VerbForm=Inf	3
 can	can	can	VERB	VerbForm=Fin	2	aux	give	VERB	VerbForm=Inf	3
 give	give	give	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -1056,7 +1056,7 @@ undertaken	undertaken	undertake	VERB	Tense=Past VerbForm=Part Voice=Pass	24	conj
 <g/>
 .	.	.	PUNCT	-	25	punct	give	VERB	VerbForm=Inf	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.4" senti_3="Neutral" senti_6="neutral postive" senti_n="3.418">
 The	The	the	DET	Definite=Def PronType=Art	1	det	guidance	NOUN	Number=Sing	2
 guidance	guidance	guidance	NOUN	Number=Sing	2	nsubj:pass	update	VERB	Tense=Past VerbForm=Part Voice=Pass	10
 to	to	to	PART	-	3	case	which	DET	PronType=Rel	4
@@ -1107,7 +1107,7 @@ application	application	application	NOUN	Number=Sing	46	obj	support	VERB	VerbFor
 <g/>
 .	.	.	PUNCT	-	47	punct	update	VERB	Tense=Past VerbForm=Part Voice=Pass	10
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.5" senti_3="Positive" senti_6="positive" senti_n="4.874">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	confident	ADJ	Degree=Pos	3
 am	am	be	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	cop	confident	ADJ	Degree=Pos	3
 confident	confident	confident	ADJ	Degree=Pos	3	root	-	-	-	-
@@ -1136,7 +1136,7 @@ waiver	waiver	waiver	NOUN	Number=Sing	25	nmod	request	NOUN	Number=Sing	23
 <g/>
 .	.	.	PUNCT	-	26	punct	confident	ADJ	Degree=Pos	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.623">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	recognise	VERB	VerbForm=Inf	6
 <g/>
 ,	,	,	PUNCT	-	2	punct	recognise	VERB	VerbForm=Inf	6
@@ -1166,7 +1166,7 @@ debt	debt	debt	NOUN	Number=Sing	24	obj	incur	VERB	Tense=Past VerbForm=Part	23
 <g/>
 .	.	.	PUNCT	-	25	punct	recognise	VERB	VerbForm=Inf	6
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.7">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.7" senti_3="Positive" senti_6="mixed positive" senti_n="3.710">
 Our	Our	we	DET	Number=Plur Person=1 Poss=Yes PronType=Prs	1	nmod:poss	agent	NOUN	Number=Plur	4
 debt	debt	debt	NOUN	Number=Sing	2	compound	management	NOUN	Number=Sing	3
 management	management	management	NOUN	Number=Sing	3	compound	agent	NOUN	Number=Plur	4
@@ -1198,7 +1198,7 @@ customers	customers	customer	NOUN	Number=Plur	26	obj	support	VERB	VerbForm=Inf	2
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg864" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg864.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg864.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.583">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	1	nmod:poss	Department	PROPN	Number=Sing	2
 Department	Department	Department	PROPN	Number=Sing	2	nsubj	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 also	also	also	ADV	-	3	advmod	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
@@ -1222,7 +1222,7 @@ customers	customers	customer	NOUN	Number=Plur	20	obl	provide	VERB	VerbForm=Inf	1
 <g/>
 .	.	.	PUNCT	-	21	punct	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg864.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg864.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.781">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	work	VERB	Tense=Pres VerbForm=Part	3
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	work	VERB	Tense=Pres VerbForm=Part	3
 working	working	work	VERB	Tense=Pres VerbForm=Part	3	root	-	-	-	-
@@ -1260,7 +1260,7 @@ service	service	service	NOUN	Number=Sing	31	nmod	customer	NOUN	Number=Plur	28
 <g/>
 .	.	.	PUNCT	-	32	punct	work	VERB	Tense=Pres VerbForm=Part	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg864.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg864.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.584">
 In	In	in	ADP	-	1	case	addition	NOUN	Number=Sing	2
 addition	addition	addition	NOUN	Number=Sing	2	obl	review	VERB	Tense=Past VerbForm=Part Voice=Pass	13
 <g/>
@@ -1301,7 +1301,7 @@ consideration	consideration	consideration	NOUN	Number=Sing	36	obl	identify	VERB	
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg865" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.119">
 Recovery	Recovery	recovery	NOUN	Number=Sing	1	nsubj:pass	balance	VERB	Tense=Past VerbForm=Part Voice=Pass	7
 of	of	of	ADP	-	2	case	debt	NOUN	Number=Sing	4
 benefit	benefit	benefit	NOUN	Number=Sing	3	compound	debt	NOUN	Number=Sing	4
@@ -1333,7 +1333,7 @@ taxpayer	taxpayer	taxpayer	NOUN	Number=Sing	25	conj	Exchequer	PROPN	Number=Sing	
 <g/>
 .	.	.	PUNCT	-	26	punct	balance	VERB	Tense=Past VerbForm=Part Voice=Pass	7
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.754">
 In	In	in	ADP	-	1	case	April	PROPN	Number=Sing	2
 April	April	April	PROPN	Number=Sing	2	obl	reduce	VERB	Mood=Ind Tense=Past VerbForm=Fin	6
 2021	2021	2021	NUM	NumType=Card	3	nummod	April	PROPN	Number=Sing	2
@@ -1377,7 +1377,7 @@ months	months	month	NOUN	Number=Plur	36	obl	double	VERB	Mood=Ind Tense=Past Verb
 <g/>
 .	.	.	PUNCT	-	37	punct	reduce	VERB	Mood=Ind Tense=Past VerbForm=Fin	6
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.3" senti_3="Positive" senti_6="positive" senti_n="4.645">
 This	This	this	DET	Number=Sing PronType=Dem	1	nsubj	provide	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
 provided	provided	provide	VERB	Mood=Ind Tense=Past VerbForm=Fin	2	root	-	-	-	-
 all	all	all	DET	-	3	det	claimant	NOUN	Number=Plur	7
@@ -1397,7 +1397,7 @@ advance	advance	advance	NOUN	Number=Sing	16	obj	receive	VERB	Mood=Ind Tense=Past
 <g/>
 .	.	.	PUNCT	-	17	punct	provide	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.4" senti_3="Positive" senti_6="positive" senti_n="4.939">
 Such	Such	such	ADJ	Degree=Pos	1	amod	change	NOUN	Number=Plur	2
 changes	changes	change	NOUN	Number=Plur	2	nsubj	help	VERB	Tense=Past VerbForm=Part	4
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	help	VERB	Tense=Past VerbForm=Part	4
@@ -1420,7 +1420,7 @@ month	month	month	NOUN	Number=Sing	19	obl	retain	VERB	Mood=Ind Tense=Pres VerbFo
 <g/>
 .	.	.	PUNCT	-	20	punct	help	VERB	Tense=Past VerbForm=Part	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.5" senti_3="Neutral" senti_6="neutral postive" senti_n="3.436">
 Some	Some	some	DET	-	1	det	people	NOUN	Number=Plur	2
 people	people	people	NOUN	Number=Plur	2	nsubj	advocate	VERB	Tense=Past VerbForm=Part	4
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	advocate	VERB	Tense=Past VerbForm=Part	4
@@ -1449,7 +1449,7 @@ today	today	today	NOUN	Number=Sing	24	obl:tmod	do	VERB	Tense=Past VerbForm=Part	
 <g/>
 .	.	.	PUNCT	-	25	punct	advocate	VERB	Tense=Past VerbForm=Part	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.6" senti_3="Positive" senti_6="positive" senti_n="4.501">
 However	However	however	ADV	-	1	advmod	strike	VERB	Mood=Ind Tense=Pres VerbForm=Fin	11
 <g/>
 ,	,	,	PUNCT	-	2	punct	strike	VERB	Mood=Ind Tense=Pres VerbForm=Fin	11
@@ -1478,7 +1478,7 @@ debt	debt	debt	NOUN	Number=Sing	24	nmod	claimant	NOUN	Number=Plur	22
 <g/>
 .	.	.	PUNCT	-	25	punct	strike	VERB	Mood=Ind Tense=Pres VerbForm=Fin	11
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.7">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.7" senti_3="Negative" senti_6="negative" senti_n="0.084">
 To	To	to	PART	-	1	mark	clear	ADJ	Degree=Pos	3
 be	be	be	VERB	VerbForm=Inf	2	cop	clear	ADJ	Degree=Pos	3
 clear	clear	clear	ADJ	Degree=Pos	3	root	-	-	-	-
@@ -1505,7 +1505,7 @@ fulfilled	fulfilled	fulfil	VERB	Tense=Past VerbForm=Part Voice=Pass	20	acl	payme
 <g/>
 .	.	.	PUNCT	-	21	punct	clear	ADJ	Degree=Pos	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.8">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.8" senti_3="Negative" senti_6="mixed negative" senti_n="1.457">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	think	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 think	think	think	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 that	that	that	ADP	-	3	mark	need	VERB	Mood=Ind Tense=Pres VerbForm=Fin	6
@@ -1527,7 +1527,7 @@ raised	raised	raise	VERB	Tense=Past VerbForm=Part	17	ccomp	concern	NOUN	Number=P
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg866" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.079">
 In	In	in	ADP	-	1	case	addition	NOUN	Number=Sing	2
 addition	addition	addition	NOUN	Number=Sing	2	obl	take	VERB	Tense=Past VerbForm=Part Voice=Pass	21
 <g/>
@@ -1580,7 +1580,7 @@ earnings	earnings	earnings	NOUN	Number=Plur	45	obj	have	VERB	Mood=Ind Number=Sin
 <g/>
 .	.	.	PUNCT	-	46	punct	take	VERB	Tense=Past VerbForm=Part Voice=Pass	21
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.910">
 As	As	as	ADP	-	1	mark	say	VERB	Tense=Past VerbForm=Part	4
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	say	VERB	Tense=Past VerbForm=Part	4
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	say	VERB	Tense=Past VerbForm=Part	4
@@ -1605,7 +1605,7 @@ cause	cause	cause	VERB	VerbForm=Inf	20	acl:relcl	impact	NOUN	Number=Sing	13
 <g/>
 .	.	.	PUNCT	-	21	punct	understand	VERB	Mood=Ind Tense=Pres VerbForm=Fin	8
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.362">
 However	However	however	ADV	-	1	advmod	extend	VERB	VerbForm=Inf	9
 <g/>
 ,	,	,	PUNCT	-	2	punct	extend	VERB	VerbForm=Inf	9
@@ -1651,7 +1651,7 @@ overpayments	overpayments	overpayment	NOUN	Number=Plur	39	obj	repay	VERB	VerbFor
 <g/>
 .	.	.	PUNCT	-	40	punct	extend	VERB	VerbForm=Inf	9
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.4" senti_3="Neutral" senti_6="neutral postive" senti_n="3.097">
 Claimants	Claimants	Claimants	PROPN	Number=Plur	1	nsubj	contact	VERB	VerbForm=Inf	4
 can	can	can	VERB	VerbForm=Fin	2	aux	contact	VERB	VerbForm=Inf	4
 already	already	already	ADV	-	3	advmod	contact	VERB	VerbForm=Inf	4
@@ -1669,7 +1669,7 @@ repayment	repayment	repayment	NOUN	Number=Sing	14	nmod	rate	NOUN	Number=Sing	12
 <g/>
 .	.	.	PUNCT	-	15	punct	contact	VERB	VerbForm=Inf	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.5" senti_3="Neutral" senti_6="neutral postive" senti_n="2.867">
 There	There	there	PRON	-	1	expl	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 no	no	no	DET	-	3	det	amount	NOUN	Number=Sing	5
@@ -1706,7 +1706,7 @@ afford	afford	afford	VERB	VerbForm=Inf	31	xcomp	able	ADJ	Degree=Pos	29
 <g/>
 .	.	.	PUNCT	-	32	punct	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.949">
 That	That	that	DET	Number=Sing PronType=Dem	1	nsubj	consideration	NOUN	Number=Sing	5
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	consideration	NOUN	Number=Sing	5
 an	an	a	DET	Definite=Ind PronType=Art	3	det	consideration	NOUN	Number=Sing	5
@@ -1715,7 +1715,7 @@ consideration	consideration	consideration	NOUN	Number=Sing	5	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg867" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg867.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg867.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.892">
 Moving	Moving	move	VERB	VerbForm=Ger	1	dep	take	VERB	Tense=Past VerbForm=Part	15
 on	on	on	ADP	-	2	case	last	ADJ	Degree=Pos	5
 to	to	to	ADP	-	3	case	last	ADJ	Degree=Pos	5
@@ -1788,7 +1788,7 @@ debt	debt	debt	NOUN	Number=Sing	60	obj	waive	VERB	VerbForm=Ger	58
 <g/>
 .	.	.	PUNCT	-	61	punct	take	VERB	Tense=Past VerbForm=Part	15
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg867.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg867.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.263">
 Such	Such	such	ADJ	Degree=Pos	1	amod	request	NOUN	Number=Plur	2
 requests	requests	request	NOUN	Number=Plur	2	nsubj	rare	ADJ	Degree=Pos	4
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	cop	rare	ADJ	Degree=Pos	4
@@ -1841,7 +1841,7 @@ family	family	family	NOUN	Number=Sing	45	conj	debtor	NOUN	Number=Sing	42
 <g/>
 .	.	.	PUNCT	-	46	punct	rare	ADJ	Degree=Pos	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg867.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg867.3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.309">
 Waivers	Waivers	waiver	NOUN	Number=Plur	1	nsubj:pass	grant	VERB	Tense=Past VerbForm=Part Voice=Pass	3
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux:pass	grant	VERB	Tense=Past VerbForm=Part Voice=Pass	3
 granted	granted	grant	VERB	Tense=Past VerbForm=Part Voice=Pass	3	root	-	-	-	-
@@ -1856,7 +1856,7 @@ State	State	State	PROPN	Number=Sing	11	nmod	Secretary	PROPN	Number=Sing	9
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg868" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg868.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg868.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.264">
 As	As	as	ADP	-	1	mark	low	ADJ	Degree=Pos	7
 a	a	a	DET	Definite=Ind PronType=Art	2	det	number	NOUN	Number=Sing	3
 number	number	number	NOUN	Number=Sing	3	nsubj	low	ADJ	Degree=Pos	7
@@ -1884,7 +1884,7 @@ process	process	process	NOUN	Number=Sing	23	obl	stop	VERB	VerbForm=Inf	18
 <g/>
 .	.	.	PUNCT	-	24	punct	feel	VERB	VerbForm=Inf	13
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg868.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg868.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.138">
 When	When	when	ADV	PronType=Int	1	advmod	receive	VERB	Tense=Past VerbForm=Part Voice=Pass	5
 a	a	a	DET	Definite=Ind PronType=Art	2	det	request	NOUN	Number=Sing	3
 request	request	request	NOUN	Number=Sing	3	nsubj:pass	receive	VERB	Tense=Past VerbForm=Part Voice=Pass	5
@@ -1943,7 +1943,7 @@ claimant	claimant	claimant	NOUN	Number=Sing	52	nmod	journey	NOUN	Number=Sing	48
 <g/>
 .	.	.	PUNCT	-	53	punct	follow	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg868.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg868.3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.809">
 Further	Further	further	ADV	-	1	advmod	suspend	VERB	VerbForm=Inf	10
 along	along	along	ADV	-	2	advmod	process	NOUN	Number=Sing	5
 in	in	in	ADP	-	3	case	process	NOUN	Number=Sing	5
@@ -1996,7 +1996,7 @@ overpayment	overpayment	overpayment	NOUN	Number=Sing	45	nmod	recoverability	NOUN
 <g/>
 .	.	.	PUNCT	-	46	punct	recoverable	ADJ	Degree=Pos	31
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg868.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg868.4" senti_3="Neutral" senti_6="neutral negative" senti_n="1.818">
 The	The	the	DET	Definite=Def PronType=Art	1	det	Department	PROPN	Number=Sing	2
 Department	Department	Department	PROPN	Number=Sing	2	nsubj	responsible	ADJ	Degree=Pos	4
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	responsible	ADJ	Degree=Pos	4
@@ -2029,7 +2029,7 @@ taxpayer	taxpayer	taxpayer	NOUN	Number=Sing	27	obl	owe	VERB	Tense=Past VerbForm=
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg869" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg869.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg869.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.855">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	1	nsubj	worth	ADJ	Degree=Pos	4
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	worth	ADJ	Degree=Pos	4
 also	also	also	ADV	-	3	advmod	worth	ADJ	Degree=Pos	4
@@ -2070,7 +2070,7 @@ debates	debates	debate	NOUN	Number=Plur	35	obl	mention	VERB	Tense=Past VerbForm=
 <g/>
 .	.	.	PUNCT	-	36	punct	worth	ADJ	Degree=Pos	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg869.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg869.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.674">
 The	The	the	DET	Definite=Def PronType=Art	1	det	gentleman	NOUN	Number=Sing	3
 <name type="MISC">
 hon.	hon.	hon.	NOUN	Number=Sing	2	compound	gentleman	NOUN	Number=Sing	3
@@ -2091,7 +2091,7 @@ point	point	point	NOUN	Number=Sing	14	obj	prolong	VERB	VerbForm=Inf	12
 <g/>
 .	.	.	PUNCT	-	15	punct	know	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg869.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg869.3" senti_3="Positive" senti_6="positive" senti_n="4.992">
 Let	Let	let	VERB	VerbForm=Inf	1	root	-	-	-	-
 us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	2	nsubj	use	VERB	VerbForm=Inf	3
 use	use	use	VERB	VerbForm=Inf	3	ccomp	let	VERB	VerbForm=Inf	1
@@ -2104,7 +2104,7 @@ available	available	available	ADJ	Degree=Pos	9	acl:relcl	tool	NOUN	Number=Plur	6
 <g/>
 .	.	.	PUNCT	-	10	punct	let	VERB	VerbForm=Inf	1
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg869.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg869.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.855">
 In	In	in	ADP	-	1	case	Scotland	PROPN	Number=Sing	2
 Scotland	Scotland	Scotland	PROPN	Number=Sing	2	obl	provide	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 <g/>
@@ -2124,7 +2124,7 @@ England	England	England	PROPN	Number=Sing	15	obl	available	ADJ	Degree=Pos	13
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg870" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.1" senti_3="Positive" senti_6="positive" senti_n="4.609">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	recognise	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 recognise	recognise	recognise	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 that	that	that	ADP	-	3	mark	face	VERB	Tense=Pres VerbForm=Part	6
@@ -2172,7 +2172,7 @@ table	table	table	NOUN	Number=Sing	42	obl	put	VERB	Tense=Past VerbForm=Part	36
 <g/>
 .	.	.	PUNCT	-	43	punct	recognise	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.082">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	have	VERB	Tense=Past VerbForm=Part	3
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	have	VERB	Tense=Past VerbForm=Part	3
 had	had	have	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -2211,7 +2211,7 @@ billion	billion	billion	NUM	NumType=Card	31	nummod	£	SYM	-	29
 <g/>
 .	.	.	PUNCT	-	32	punct	have	VERB	Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.697">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	root	-	-	-	-
 as	as	as	ADP	-	2	mark	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	4
 Members	Members	member	NOUN	Number=Plur	3	nsubj	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	4
@@ -2237,7 +2237,7 @@ them	them	they	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	22	obl	available	
 <g/>
 .	.	.	PUNCT	-	23	punct	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.4" senti_3="Neutral" senti_6="neutral postive" senti_n="3.253">
 The	The	the	DET	Definite=Def PronType=Art	1	det	cost	NOUN	Number=Sing	7
 £	£	£	SYM	-	2	dep	means	NOUN	Number=Sing	4
 <g/>
@@ -2280,7 +2280,7 @@ month	month	month	NOUN	Number=Sing	35	nmod	end	NOUN	Number=Sing	32
 <g/>
 .	.	.	PUNCT	-	36	punct	go	VERB	Tense=Past VerbForm=Part	12
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.5" senti_3="Positive" senti_6="mixed positive" senti_n="3.812">
 Claimants	Claimants	Claimants	PROPN	Number=Plur	1	nsubj	get	VERB	VerbForm=Inf	3
 will	will	will	VERB	VerbForm=Fin	2	aux	get	VERB	VerbForm=Inf	3
 get	get	get	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -2314,7 +2314,7 @@ year	year	year	NOUN	Number=Sing	28	nmod	time	NOUN	Number=Sing	26
 <g/>
 .	.	.	PUNCT	-	29	punct	get	VERB	VerbForm=Inf	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.6" senti_3="Neutral" senti_6="neutral postive" senti_n="3.368">
 The	The	the	DET	Definite=Def PronType=Art	1	det	cost	NOUN	Number=Sing	5
 £	£	£	SYM	-	2	dep	disability	NOUN	Number=Sing	4
 <g/>
@@ -2333,7 +2333,7 @@ September	September	September	PROPN	Number=Sing	14	obl	make	VERB	Tense=Past Verb
 <g/>
 .	.	.	PUNCT	-	15	punct	make	VERB	Tense=Past VerbForm=Part Voice=Pass	11
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.7">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.7" senti_3="Positive" senti_6="mixed positive" senti_n="4.283">
 The	The	the	DET	Definite=Def PronType=Art	1	det	bill	NOUN	Number=Plur	3
 energy	energy	energy	NOUN	Number=Sing	2	compound	bill	NOUN	Number=Plur	3
 bills	bills	bill	NOUN	Number=Plur	3	nsubj	support	VERB	Mood=Ind Tense=Pres VerbForm=Fin	4
@@ -2356,7 +2356,7 @@ contract	contract	contract	NOUN	Number=Sing	18	obj	have	VERB	Mood=Ind Tense=Pres
 <g/>
 .	.	.	PUNCT	-	19	punct	provide	VERB	VerbForm=Inf	8
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.8">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.8" senti_3="Positive" senti_6="positive" senti_n="4.562">
 Of	Of	of	ADV	-	1	advmod	receive	VERB	VerbForm=Inf	6
 course	course	course	ADV	-	2	fixed	of	ADV	-	1
 <g/>
@@ -2395,7 +2395,7 @@ payment	payment	payment	NOUN	Number=Sing	29	nmod	top	NOUN	Number=Sing	24
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg871" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg871.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg871.1" senti_3="Positive" senti_6="positive" senti_n="5.074">
 Whatever	Whatever	whatever	DET	PronType=Int	1	root	-	-	-	-
 our	our	we	DET	Number=Plur Person=1 Poss=Yes PronType=Prs	2	nmod:poss	view	NOUN	Number=Plur	3
 views	views	view	NOUN	Number=Plur	3	dep	whatever	DET	PronType=Int	1
@@ -2425,7 +2425,7 @@ available	available	available	ADJ	Degree=Pos	25	ccomp	those	DET	Number=Plur Pron
 <g/>
 .	.	.	PUNCT	-	26	punct	whatever	DET	PronType=Int	1
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg871.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg871.2" senti_3="Positive" senti_6="positive" senti_n="5.146">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	do	VERB	Tense=Pres VerbForm=Part	4
 will	will	will	VERB	VerbForm=Fin	2	aux	do	VERB	Tense=Pres VerbForm=Part	4
 be	be	be	VERB	VerbForm=Inf	3	aux	do	VERB	Tense=Pres VerbForm=Part	4
@@ -2455,7 +2455,7 @@ constituents	constituents	constituent	NOUN	Number=Plur	25	obl	do	VERB	VerbForm=I
 <g/>
 .	.	.	PUNCT	-	26	punct	do	VERB	Tense=Pres VerbForm=Part	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg871.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg871.3" senti_3="Positive" senti_6="positive" senti_n="5.015">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	want	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 want	want	want	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 to	to	to	PART	-	3	mark	put	VERB	VerbForm=Inf	4
@@ -2518,7 +2518,7 @@ times	times	time	NOUN	Number=Plur	53	obl	help	NOUN	Number=Sing	49
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg872" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg872.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg872.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.613">
 Of	Of	of	ADV	-	1	advmod	make	VERB	Tense=Past VerbForm=Part Voice=Pass	8
 course	course	course	ADV	-	2	fixed	of	ADV	-	1
 <g/>
@@ -2539,7 +2539,7 @@ England	England	England	PROPN	Number=Sing	16	nmod	fund	NOUN	Number=Sing	14
 <g/>
 .	.	.	PUNCT	-	17	punct	make	VERB	Tense=Past VerbForm=Part Voice=Pass	8
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg872.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg872.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.613">
 There	There	there	PRON	-	1	expl	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 similar	similar	similar	ADJ	Degree=Pos	3	amod	support	NOUN	Number=Sing	4
@@ -2597,7 +2597,7 @@ Scotland	Scotland	Scotland	PROPN	Number=Sing	42	nmod	£	SYM	-	38
 <g/>
 .	.	.	PUNCT	-	43	punct	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg872.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg872.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.422">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	grateful	ADJ	Degree=Pos	3
 am	am	be	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	cop	grateful	ADJ	Degree=Pos	3
 grateful	grateful	grateful	ADJ	Degree=Pos	3	root	-	-	-	-
@@ -2616,7 +2616,7 @@ debates	debates	debate	NOUN	Number=Plur	15	nmod	lesson	NOUN	Number=Sing	12
 <g/>
 .	.	.	PUNCT	-	16	punct	grateful	ADJ	Degree=Pos	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg872.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg872.4" senti_3="Positive" senti_6="positive" senti_n="4.857">
 None	None	none	NOUN	Number=Sing	1	root	-	-	-	-
 the	the	the	DET	Definite=Def PronType=Art	2	det	put	VERB	Tense=Past VerbForm=Part Voice=Pass	9
 less	less	less	ADV	Degree=Cmp	3	advmod	put	VERB	Tense=Past VerbForm=Part Voice=Pass	9
@@ -2640,7 +2640,7 @@ essentials	essentials	essential	NOUN	Number=Plur	19	nmod	cost	NOUN	Number=Sing	1
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg873" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.1" senti_3="Positive" senti_6="positive" senti_n="5.201">
 To	To	to	PART	-	1	mark	conclude	VERB	VerbForm=Inf	2
 conclude	conclude	conclude	VERB	VerbForm=Inf	2	advcl	hope	VERB	Mood=Ind Tense=Pres VerbForm=Fin	5
 <g/>
@@ -2672,7 +2672,7 @@ debt	debt	debt	NOUN	Number=Sing	25	nmod	recovery	NOUN	Number=Sing	23
 <g/>
 .	.	.	PUNCT	-	26	punct	hope	VERB	Mood=Ind Tense=Pres VerbForm=Fin	5
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.441">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	overlook	VERB	Tense=Pres VerbForm=Part	4
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	overlook	VERB	Tense=Pres VerbForm=Part	4
 not	not	not	ADV	-	3	advmod	overlook	VERB	Tense=Pres VerbForm=Part	4
@@ -2702,7 +2702,7 @@ uncertainty	uncertainty	uncertainty	NOUN	Number=Sing	24	nmod	time	NOUN	Number=Pl
 <g/>
 .	.	.	PUNCT	-	25	punct	overlook	VERB	Tense=Pres VerbForm=Part	4
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.3" senti_3="Positive" senti_6="positive" senti_n="4.827">
 Equally	Equally	equally	ADV	-	1	advmod	strive	VERB	VerbForm=Inf	6
 <g/>
 ,	,	,	PUNCT	-	2	punct	strive	VERB	VerbForm=Inf	6
@@ -2730,7 +2730,7 @@ owe	owe	owe	VERB	Mood=Ind Tense=Pres VerbForm=Fin	23	acl:relcl	debt	NOUN	Number=
 <g/>
 .	.	.	PUNCT	-	24	punct	strive	VERB	VerbForm=Inf	6
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.4" senti_3="Positive" senti_6="positive" senti_n="4.550">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	continue	VERB	VerbForm=Inf	3
 will	will	will	VERB	VerbForm=Fin	2	aux	continue	VERB	VerbForm=Inf	3
 continue	continue	continue	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -2761,7 +2761,7 @@ individual	individual	individual	NOUN	Number=Sing	26	obl	sustainable	ADJ	Degree=
 <g/>
 .	.	.	PUNCT	-	27	punct	continue	VERB	VerbForm=Inf	3
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.5" senti_3="Neutral" senti_6="neutral postive" senti_n="3.099">
 If	If	if	ADP	-	1	mark	concerned	ADJ	Degree=Pos	4
 people	people	people	NOUN	Number=Plur	2	nsubj	concerned	ADJ	Degree=Pos	4
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	cop	concerned	ADJ	Degree=Pos	4
@@ -2794,7 +2794,7 @@ them	them	they	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	28	obl	available	
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg874" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg874.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg874.1" senti_3="Positive" senti_6="positive" senti_n="5.080">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 thank	thank	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 the	the	the	DET	Definite=Def PronType=Art	3	det	staff	NOUN	Number=Sing	4
@@ -2829,7 +2829,7 @@ debates	debates	debate	NOUN	Number=Plur	29	conj	year	NOUN	Number=Sing	25
 <g/>
 .	.	.	PUNCT	-	30	punct	support	NOUN	Number=Sing	22
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg874.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg874.2" senti_3="Positive" senti_6="positive" senti_n="4.672">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	wish	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 wish	wish	wish	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 the	the	the	DET	Definite=Def PronType=Art	3	det	gentleman	NOUN	Number=Sing	5
@@ -2847,7 +2847,7 @@ recess	recess	recess	NOUN	Number=Sing	12	obj	present	VERB	Mood=Ind Tense=Pres Ve
 <g/>
 .	.	.	PUNCT	-	13	punct	wish	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg874.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg874.3" senti_3="Positive" senti_6="positive" senti_n="5.240">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	wish	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 wish	wish	wish	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 to	to	to	PART	-	3	mark	pass	VERB	VerbForm=Inf	4
@@ -2879,7 +2879,7 @@ months	months	month	NOUN	Number=Plur	26	obl	provide	VERB	Tense=Past VerbForm=Par
 <g/>
 .	.	.	PUNCT	-	27	punct	wish	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg874.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg874.4" senti_3="Positive" senti_6="positive" senti_n="5.273">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	1	nsubj:pass	appreciate	VERB	Tense=Past VerbForm=Part Voice=Pass	4
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	aux:pass	appreciate	VERB	Tense=Past VerbForm=Part Voice=Pass	4
 much	much	much	ADV	-	3	advmod	appreciate	VERB	Tense=Past VerbForm=Part Voice=Pass	4
@@ -2894,9 +2894,9 @@ work	work	work	NOUN	Number=Sing	9	obj	do	VERB	Mood=Ind Tense=Pres VerbForm=Fin	7
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2022-07-21-commons.u406" text_id="ParlaMint-GB_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="EleanorLaing" speaker_name="Laing, Eleanor Fulton" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u406" text_id="ParlaMint-GB_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" topic="Other" speaker_id="EleanorLaing" speaker_name="Laing, Eleanor Fulton" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg875" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg875.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg875.1" senti_3="Positive" senti_6="positive" senti_n="5.059">
 As	As	as	ADP	-	1	mark	approach	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	2	nsubj	approach	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 approach	approach	approach	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	advcl	join	VERB	Mood=Ind Tense=Pres VerbForm=Fin	12
@@ -2948,7 +2948,7 @@ summer	summer	summer	NOUN	Number=Sing	44	obl:tmod	help	VERB	Mood=Ind Number=Sing
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg876" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg876.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg876.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.786">
 Question	Question	question	NOUN	Number=Sing	1	compound	put	NOUN	Number=Sing	2
 put	put	put	NOUN	Number=Sing	2	root	-	-	-	-
 and	and	and	CCONJ	-	3	cc	agree	VERB	Mood=Ind Tense=Past VerbForm=Fin	4

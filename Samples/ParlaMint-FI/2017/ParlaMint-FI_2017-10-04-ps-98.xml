@@ -21,13 +21,21 @@
                <resp xml:lang="en">Data cleaning and finalization</resp>
                <resp xml:lang="fi">Datan puhdistaminen ja viimeistely</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="174" xml:lang="fi">puheet</measure>
@@ -41,7 +49,7 @@
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -49,7 +57,7 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -92,8 +100,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#parla.sitting #reference">
@@ -103,7 +113,7 @@
             <note type="relatedDocument" xml:id="ParlaMint-FI_2017-10-04-ps-98.note1">Välikysymys VK 3/2017 vp</note>
             <note type="relatedDocument" xml:id="ParlaMint-FI_2017-10-04-ps-98.note2">Pöytäkirjan liite</note>
             <pb n="1" source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_98+2017+3.aspx"/>
-            <u ana="#chair" who="#MariaLohela" xml:id="ParlaMint-FI_2017-10-04-ps-98.u1">
+            <u ana="#chair topic:trans" who="#MariaLohela" xml:id="ParlaMint-FI_2017-10-04-ps-98.u1">
                <seg xml:id="ParlaMint-FI_2017-10-04-ps-98.seg1">Ainoaan käsittelyyn esitellään päiväjärjestyksen 3. asia. Nyt tehdään päätös edustaja Harry Wallinin ym. välikysymyksestä raideliikenteen nykytilasta ja tulevaisuudesta. Keskustelu välikysymyksestä päättyi 3.10.2017 pidetyssä täysistunnossa. Keskustelussa on edustaja Harry Wallin edustaa Katja Taimelan kannattamana tehnyt ehdotuksen epäluottamuslauseen antamisesta valtioneuvostolle. Ehdotus on monistettuna jaettu edustajille. (Pöytäkirjan liite 3A)</seg>
             </u>
             <gap reason="editorial">
@@ -114,16 +124,16 @@
             <head xml:id="ParlaMint-FI_2017-10-04-ps-98.head2">Hallituksen esitys eduskunnalle laeiksi vuoden 2018 tuloveroasteikosta ja tuloverolain muuttamisesta</head>
             <note type="relatedDocument" xml:id="ParlaMint-FI_2017-10-04-ps-98.note3">Hallituksen esitys HE 107/2017 vp</note>
             <pb n="1" source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_98+2017+4.aspx"/>
-            <u ana="#chair" who="#MariaLohela" xml:id="ParlaMint-FI_2017-10-04-ps-98.u2">
+            <u ana="#chair topic:other" who="#MariaLohela" xml:id="ParlaMint-FI_2017-10-04-ps-98.u2">
                <seg xml:id="ParlaMint-FI_2017-10-04-ps-98.seg2">Lähetekeskustelua varten esitellään päiväjärjestyksen 4. asia. Puhemiesneuvosto ehdottaa, että asia lähetetään valtiovarainvaliokuntaan. Tämän asian yhteydessä sallitaan keskustelu myös päiväjärjestyksen asioista 5—9.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#regular" who="#BenZyskowicz" xml:id="ParlaMint-FI_2017-10-04-ps-98.u173">
+            <u ana="#regular topic:other" who="#BenZyskowicz" xml:id="ParlaMint-FI_2017-10-04-ps-98.u173">
                <seg xml:id="ParlaMint-FI_2017-10-04-ps-98.seg281">Hyvä!</seg>
             </u>
-            <u ana="#chair" who="#MariaLohela" xml:id="ParlaMint-FI_2017-10-04-ps-98.u174">
+            <u ana="#chair topic:other" who="#MariaLohela" xml:id="ParlaMint-FI_2017-10-04-ps-98.u174">
                <seg xml:id="ParlaMint-FI_2017-10-04-ps-98.seg282">Tähän keskusteluun palataan sitten myöhemmin.</seg>
             </u>
          </div>

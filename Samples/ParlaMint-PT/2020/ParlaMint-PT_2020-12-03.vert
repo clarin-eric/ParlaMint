@@ -1,6 +1,6 @@
-<speech id="ParlaMint-PT_2020-12-03.u1" text_id="ParlaMint-PT_2020-12-03" subcorpus="COVID" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 26" speaker_role="Presidente de mesa" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PT_2020-12-03.u1" text_id="ParlaMint-PT_2020-12-03" subcorpus="COVID" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 26" speaker_role="Presidente de mesa" topic="Other" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1949">
 <p id="ParlaMint-PT_2020-12-03.seg1" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg1.s">
+<s id="ParlaMint-PT_2020-12-03.seg1.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.662">
 Boa	Boa	bom	ADJ	Gender=Fem Number=Sing	1	cop	tarde	NOUN	Gender=Fem Number=Sing	2
 tarde	tarde	tarde	NOUN	Gender=Fem Number=Sing	2	root	-	-	-	-
 <g/>
@@ -49,7 +49,7 @@ sessão	sessão	sessão	NOUN	Gender=Fem Number=Sing	29	advmod	.	PUNCT	-	30
 </p>
 <note type="time" content="Eram 15 horas e 3 minutos."/>
 <p id="ParlaMint-PT_2020-12-03.seg2" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg2.s">
+<s id="ParlaMint-PT_2020-12-03.seg2.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.030">
 Antes	Antes	antes	ADP	-	1	dep	ordem	NOUN	Gender=Fem Number=Sing	5
 de	de	de	ADP	-	2	conj	antes	ADP	-	1
 entrarmos	entrarmos	entrar	VERB	Person=1 Number=Plur	3	root	-	-	-	-
@@ -90,9 +90,9 @@ Câmara	Câmara	Câmara	PROPN	-	30	amod	a	ADP	-	p
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2020-12-03.u2" text_id="ParlaMint-PT_2020-12-03" subcorpus="COVID" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 26" speaker_role="Regular" speaker_id="NelsonRicardoEstevesPeralta" speaker_name="Ricardo Esteves Peralta, Nelson" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Esquerda a extrema-esquerda" speaker_gender="M" speaker_birth="1981">
+<speech id="ParlaMint-PT_2020-12-03.u2" text_id="ParlaMint-PT_2020-12-03" subcorpus="COVID" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 26" speaker_role="Regular" topic="Other" speaker_id="NelsonRicardoEstevesPeralta" speaker_name="Ricardo Esteves Peralta, Nelson" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Esquerda a extrema-esquerda" speaker_gender="M" speaker_birth="1981">
 <p id="ParlaMint-PT_2020-12-03.seg3" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg3.s">
+<s id="ParlaMint-PT_2020-12-03.seg3.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.924">
 <name type="PER">
 Sr.	Sr.	sr.	PRON	Gender=Masc Number=Sing	1	det	Presidente	PROPN	-	2
 Presidente	Presidente	Presidente	PROPN	-	2	nsubj	Deputados	PROPN	-	7
@@ -305,7 +305,7 @@ BE	BE	BE	PROPN	-	184	amod	.	PUNCT	-	181
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg4" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg4.s">
+<s id="ParlaMint-PT_2020-12-03.seg4.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.526">
 É	É	ser	VERB	Person=3 Number=Sing	1	cop	Presidente	PROPN	-	5
 tudo	tudo	tudo	PRON	Gender=Masc Number=Sing	2	nsubj	Presidente	PROPN	-	5
 <g/>
@@ -319,9 +319,9 @@ Presidente	Presidente	Presidente	PROPN	-	5	orphan	sr.	PRON	Gender=Masc Number=Si
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PT_2020-12-03.u367" text_id="ParlaMint-PT_2020-12-03" subcorpus="COVID" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 26" speaker_role="Regular" speaker_id="DiogoFeijóoLeãoCamposRodrigues" speaker_name="Feijóo Leão Campos Rodrigues, Diogo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1986">
+<speech id="ParlaMint-PT_2020-12-03.u367" text_id="ParlaMint-PT_2020-12-03" subcorpus="COVID" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 26" speaker_role="Regular" topic="Other" speaker_id="DiogoFeijóoLeãoCamposRodrigues" speaker_name="Feijóo Leão Campos Rodrigues, Diogo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1986">
 <p id="ParlaMint-PT_2020-12-03.seg982" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg982.s">
+<s id="ParlaMint-PT_2020-12-03.seg982.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.930">
 <name type="PER">
 Sr.	Sr.	sr.	PRON	Gender=Masc Number=Sing	1	det	Presidente	PROPN	-	2
 Presidente	Presidente	Presidente	PROPN	-	2	nsubj	Deputados	PROPN	-	7
@@ -366,7 +366,7 @@ PCP	PCP	PCP	PROPN	-	31	amod	.	PUNCT	-	28
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg983" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg983.s">
+<s id="ParlaMint-PT_2020-12-03.seg983.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.113">
 <name type="PER">
 Sr.	Sr.	sr.	PRON	Gender=Masc Number=Sing	1	det	Presidente	PROPN	-	2
 Presidente	Presidente	Presidente	PROPN	-	2	nsubj	presença	NOUN	Gender=Fem Number=Plur	7
@@ -440,9 +440,9 @@ Marques	Marques	Marques	PROPN	-	48	cop	Sérgio	PROPN	-	47
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2020-12-03.u368" text_id="ParlaMint-PT_2020-12-03" subcorpus="COVID" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 26" speaker_role="Presidente de mesa" speaker_id="JoséManuelMarquesdaSilvaPureza" speaker_name="Manuel Marques da Silva Pureza, José" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Esquerda a extrema-esquerda" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PT_2020-12-03.u368" text_id="ParlaMint-PT_2020-12-03" subcorpus="COVID" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 26" speaker_role="Presidente de mesa" topic="Housing" speaker_id="JoséManuelMarquesdaSilvaPureza" speaker_name="Manuel Marques da Silva Pureza, José" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Esquerda a extrema-esquerda" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-PT_2020-12-03.seg984" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg984.s">
+<s id="ParlaMint-PT_2020-12-03.seg984.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.175">
 Sr.as	Sr.as	Sr.as	PROPN	-	1	root	-	-	-	-
 e	e	e	CCONJ	-	2	cc	Srs.	PROPN	-	3
 Srs.	Srs.	Srs.	PROPN	-	3	nsubj	informar	VERB	-	8
@@ -466,7 +466,7 @@ amanhã	amanhã	amanhã	ADV	-	17	orphan	sessão	NOUN	Gender=Fem Number=Sing	15
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg985" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg985.s">
+<s id="ParlaMint-PT_2020-12-03.seg985.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.428">
 O	O	o	DET	Gender=Masc Number=Sing	1	obj	reunir	VERB	Person=3 Number=Sing	3
 Plenário	Plenário	Plenário	PROPN	-	2	obj	reunir	VERB	Person=3 Number=Sing	3
 reúne	reúne	reunir	VERB	Person=3 Number=Sing	3	root	-	-	-	-
@@ -532,7 +532,7 @@ Regimento	Regimento	Regimento	PROPN	-	52	orphan	de	ADP	-	p
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg986" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg986.s">
+<s id="ParlaMint-PT_2020-12-03.seg986.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.791">
 O	O	o	DET	Gender=Masc Number=Sing	1	root	-	-	-	-
 segundo	segundo	segundo	ADJ	Gender=Masc Number=Sing	2	case	ponto	NOUN	Gender=Masc Number=Sing	3
 ponto	ponto	ponto	NOUN	Gender=Masc Number=Sing	3	orphan	o	DET	Gender=Masc Number=Sing	1
@@ -752,7 +752,7 @@ fevereiro	fevereiro	fevereiro	NOUN	Gender=Masc Number=Sing	193	advmod	12	NUM	-	1
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg987" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg987.s">
+<s id="ParlaMint-PT_2020-12-03.seg987.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.819">
 O	O	o	DET	Gender=Masc Number=Sing	1	obj	ponto	NOUN	Gender=Masc Number=Sing	3
 terceiro	terceiro	terceiro	ADJ	Gender=Masc Number=Sing	2	root	-	-	-	-
 ponto	ponto	ponto	NOUN	Gender=Masc Number=Sing	3	xcomp	terceiro	ADJ	Gender=Masc Number=Sing	2
@@ -1030,7 +1030,7 @@ EU	EU	EU	PROPN	-	226	orphan	terceiro	ADJ	Gender=Masc Number=Sing	2
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg988" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg988.s">
+<s id="ParlaMint-PT_2020-12-03.seg988.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.673">
 Haverá	Haverá	haver	VERB	Person=3 Number=Sing	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	dep	haver	VERB	Person=3 Number=Sing	1
@@ -1082,7 +1082,7 @@ de	de	de	ADP	-	40	case	2020	NUM	-	41
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg989" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg989.s">
+<s id="ParlaMint-PT_2020-12-03.seg989.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.492">
 Em	Em	em	ADP	-	1	root	-	-	-	-
 quinto	quinto	quinto	ADJ	Gender=Masc Number=Sing	2	xcomp	em	ADP	-	1
 lugar	lugar	lugar	NOUN	Gender=Masc Number=Sing	3	cop	quinto	ADJ	Gender=Masc Number=Sing	2
@@ -1103,7 +1103,7 @@ emergência	emergência	emergência	NOUN	Gender=Fem Number=Sing	14	orphan	estado
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg990" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg990.s">
+<s id="ParlaMint-PT_2020-12-03.seg990.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.589">
 A	A	a	ADP	-	1	advmod	a	ADP	-	p
 seguir	seguir	seguir	ADP	-	2	dep	a	ADP	-	1
 à	a|a	a	ADP|DET	-|Gender=Fem Number=Sing	p|s	root|obj	-|a	-|ADP	-	-|p
@@ -1180,7 +1180,7 @@ Europeia	Europeia	Europeia	PROPN	-	57	fixed	de	ADP	-	p
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg991" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg991.s">
+<s id="ParlaMint-PT_2020-12-03.seg991.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.787">
 O	O	o	DET	Gender=Masc Number=Sing	1	det	ponto	NOUN	Gender=Masc Number=Sing	2
 ponto	ponto	ponto	NOUN	Gender=Masc Number=Sing	2	nsubj	de	ADP	-	p
 seguinte	seguinte	seguinte	ADJ	Gender=Masc Number=Sing	3	cop	constar	VERB	Person=3 Number=Sing	4
@@ -1216,7 +1216,7 @@ de	de	de	ADP	-	24	fixed	a	ADP	-	p
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg992" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg992.s">
+<s id="ParlaMint-PT_2020-12-03.seg992.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.702">
 Fazem	Fazem	fazer	VERB	Person=3 Number=Plur	1	root	-	-	-	-
 também	também	também	ADV	-	2	advmod	fazer	VERB	Person=3 Number=Plur	1
 parte	parte	partir	VERB	Person=3 Number=Sing	3	punct	fazer	VERB	Person=3 Number=Plur	1
@@ -1535,7 +1535,7 @@ de	de	de	ADP	-	249	dep	maio	NOUN	Gender=Masc Number=Sing	248
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg993" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg993.s">
+<s id="ParlaMint-PT_2020-12-03.seg993.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.737">
 Finalmente	Finalmente	finalmente	ADV	-	1	advmod	constar	VERB	Person=3 Number=Plur	6
 <g/>
 ,	,	,	PUNCT	-	2	dep	finalmente	ADV	-	1
@@ -1551,7 +1551,7 @@ regimentais	regimentais	regimental	ADJ	Gender=Fem Number=Plur	9	dep	ponto	NOUN	G
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg994" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg994.s">
+<s id="ParlaMint-PT_2020-12-03.seg994.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.040">
 Será	Será	ser	VERB	Person=3 Number=Sing	1	cop	dia	NOUN	Gender=Masc Number=Sing	6
 <g/>
 ,	,	,	PUNCT	-	2	dep	dia	NOUN	Gender=Masc Number=Sing	6
@@ -1574,7 +1574,7 @@ tarde	tarde	tarde	NOUN	Gender=Fem Number=Sing	15	orphan	sessão	NOUN	Gender=Fem 
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg995" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg995.s">
+<s id="ParlaMint-PT_2020-12-03.seg995.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.243">
 Peço	Peço	pedir	VERB	Person=1 Number=Sing	1	root	-	-	-	-
 a	a	a	ADP	-	2	case	toda	DET	Gender=Fem Number=Plur	3
 todas	todas	toda	DET	Gender=Fem Number=Plur	3	det	sr.a	NOUN	Gender=Fem Number=Plur	5
@@ -1600,7 +1600,7 @@ atenção	atenção	atenção	NOUN	Gender=Fem Number=Sing	18	orphan	dever,devido
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg996" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg996.s">
+<s id="ParlaMint-PT_2020-12-03.seg996.s" senti_3="Positive" senti_6="positive" senti_n="4.541">
 A	A	a	ADP	-	1	case	toda	DET	Gender=Fem Number=Plur	2
 todas	todas	toda	DET	Gender=Fem Number=Plur	2	root	-	-	-	-
 e	e	e	CCONJ	-	3	orphan	toda	DET	Gender=Fem Number=Plur	2
@@ -1623,7 +1623,7 @@ tarde	tarde	tarde	NOUN	Gender=Fem Number=Sing	17	advmod	de	ADP	-	p
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg997" lang="Portuguese">
-<s id="ParlaMint-PT_2020-12-03.seg997.s">
+<s id="ParlaMint-PT_2020-12-03.seg997.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.901">
 Está	Está	estar	VERB	Person=3 Number=Sing	1	cop	sessão	NOUN	Gender=Fem Number=Sing	4
 encerrada	encerrada	encerrar,encerrado	ADJ	Gender=Fem Number=Sing	2	nsubj	sessão	NOUN	Gender=Fem Number=Sing	4
 a	a	a	DET	Gender=Fem Number=Sing	3	det	sessão	NOUN	Gender=Fem Number=Sing	4

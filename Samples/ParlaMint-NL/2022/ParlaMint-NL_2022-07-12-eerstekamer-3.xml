@@ -15,12 +15,16 @@
                <persName>Ruben van Heusden</persName>
                <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" xml:lang="nl" quantity="80">80 toespraken</measure>
@@ -33,12 +37,12 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,8 +79,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war" xml:lang="nl">
@@ -84,23 +90,23 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.head1">Wijziging begrotingsstaten Justitie en Veiligheid 2022 (Voorjaarsnota)</head>
             <note type="speaker" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.note1">De voorzitter</note>
-            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1">
+            <u who="#JanAnthonieBruijn" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1">
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg1">Ik heet de staatssecretaris van Justitie en Veiligheid van harte welkom in de Eerste Kamer, die voor hem geen onbekend terrein is. Het is toch fijn voor hem dat hij hier, net voor het reces, nog een keer mag langskomen.</seg>
             </u>
             <note type="comment" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.note2">De beraadslaging wordt geopend.</note>
             <note type="speaker" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.note3">De voorzitter</note>
-            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2">
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2">
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg2">Ik geef het woord aan de heer Van Hattem.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79">
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79">
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg116">Dank u wel.</seg>
             </u>
             <note type="comment" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.note111">De beraadslaging wordt gesloten.</note>
             <note type="speaker" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.note112">De voorzitter</note>
-            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80">
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80">
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg117">Ik kom tot afhandeling van het wetsvoorstel. Wenst een van de leden stemming over het wetsvoorstel? Dat is het geval. Dan stel ik voor dat er vanavond na de dinerpauze over het wetsvoorstel wordt gestemd. Ik stel voor dan ook over de ingediende moties te stemmen.</seg>
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg118">Dan schors ik de vergadering voor de lunchpauze tot 13.30 uur.</seg>
             </u>

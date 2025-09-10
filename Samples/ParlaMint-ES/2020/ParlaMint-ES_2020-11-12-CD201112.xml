@@ -36,9 +36,17 @@
                <persName>Maria del Mar Bonet Ramos</persName>
                <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
@@ -46,7 +54,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="44" xml:lang="es">44 intervenciones</measure>
@@ -60,13 +68,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -110,19 +118,21 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
          <div type="debateSection">
             <head xml:id="ParlaMint-ES_2020-11-12-CD201112.head1">DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2021.</head>
-            <u xml:id="ParlaMint-ES_2020-11-12-CD201112.u1" ana="#chair">
+            <u xml:id="ParlaMint-ES_2020-11-12-CD201112.u1" ana="#chair topic:macro">
                <seg xml:id="ParlaMint-ES_2020-11-12-CD201112.u1.p1">Buenos días, señorías. Se reanuda la sesión.</seg>
                <seg xml:id="ParlaMint-ES_2020-11-12-CD201112.u1.p2">Continuamos con el punto relativo al debate de totalidad del proyecto de Ley de Presupuestos Generales del Estado para el año 2021. En turno de fijación de posiciones, por el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, tiene la palabra el señor Echenique Robba.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2020-11-12-CD201112.u2" who="#PabloEcheniqueRobba" ana="#regular">
+            <u xml:id="ParlaMint-ES_2020-11-12-CD201112.u2" who="#PabloEcheniqueRobba" ana="#regular topic:other">
                <seg xml:id="ParlaMint-ES_2020-11-12-CD201112.u2.p1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-11-12-CD201112.u2.p2">Compatriotas que estáis siguiendo este Pleno desde casa, a vosotros y a vosotras me quiero dirigir en primer lugar. <vocal type="murmuring" xml:id="ParlaMint-ES_2020-11-12-CD201112.vocal1">
                      <desc>Rumores</desc>
@@ -131,7 +141,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-ES_2020-11-12-CD201112.u43" ana="#chair">
+            <u xml:id="ParlaMint-ES_2020-11-12-CD201112.u43" ana="#chair topic:macro">
                <seg xml:id="ParlaMint-ES_2020-11-12-CD201112.u43.p1">Muchas gracias, señora ministra.</seg>
                <seg xml:id="ParlaMint-ES_2020-11-12-CD201112.u43.p2">Señorías, votaremos en tres minutos. Les recuerdo que solamente podrán votar desde el escaño que les corresponde, identificado con su nombre en la pantalla. Asimismo, les recuerdo que aquellas señorías que ya han emitido el voto mediante el procedimiento telemático no pueden volver a votar desde su escaño.</seg>
                <incident type="pause" xml:id="ParlaMint-ES_2020-11-12-CD201112.incident17">
@@ -145,7 +155,7 @@
                </incident>
                <seg xml:id="ParlaMint-ES_2020-11-12-CD201112.u43.p5">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 246 votos telemáticos, 348; a favor, 31 más 119 votos telemáticos, 150; en contra, 71 más 127 votos telemáticos, 198.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2020-11-12-CD201112.u44" ana="#chair">
+            <u xml:id="ParlaMint-ES_2020-11-12-CD201112.u44" ana="#chair topic:macro">
                <seg xml:id="ParlaMint-ES_2020-11-12-CD201112.u44.p1">Las enmiendas a la totalidad al proyecto de ley de Presupuestos Generales del Estado para el año 2021 quedan rechazadas.</seg>
                <kinesic type="applause" xml:id="ParlaMint-ES_2020-11-12-CD201112.kinesic49">
                   <desc>Aplausos de las señoras y los señores diputados de los grupos parlamentarios Socialista y Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, y de los miembros del Gobierno, puestos en pie</desc>

@@ -15,12 +15,16 @@
                <persName>Ruben van Heusden</persName>
                <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" xml:lang="nl" quantity="274">274 toespraken</measure>
@@ -33,12 +37,12 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,8 +79,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="nl">
@@ -84,23 +90,23 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.head1">Lekken van gifgas door chemiebedrijf Chemours</head>
             <note type="speaker" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.note1">De voorzitter</note>
-            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1">
+            <u who="#KhadijaArib" ana="#chair topic:envir" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1">
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg1">Goedenavond, dames en heren. We gaan nu beginnen met een debat over giflekkage bij het bedrijf Chemours. Dat debat zal de Kamer voeren met de minister en de staatssecretaris van Infrastructuur en Waterstaat, die ik beiden van harte welkom heet. U heeft allen een spreektijd van vier minuten. Ik geef als eerste het woord aan de heer Laçin van de SP.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.note2">De heer Laçin (SP)</note>
-            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2">
+            <u who="#CemLaçin" ana="#regular topic:envir" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2">
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg2">Voorzitter. Morgen is het precies twee jaar geleden dat ik hier mijn maidenspeech mocht houden. Ook toen ging het over lozingen van chemische en giftige stoffen door Chemours. Mijn centrale vraag toen aan de demissionaire staatssecretaris was: wat gaat u doen om omwonenden te beschermen tegen deze lozingen? Een aantal van die omwonenden waren toen bij het debat, onder wie Hans. Vanavond zijn er ook weer omwonenden: welkom. Hans en vele andere omwonenden zijn in middels het vertrouwen in de politiek op dit vlak volledig kwijt. Dat is niet gek, als we terugblikken op dit dossier in de afgelopen twee jaar. Een paar voorbeelden. GenX zit niet allen in Dordrecht en omgeving in het drinkwater, maar ook in andere delen van het land. Chemours loost nog altijd het kankerverwekkende PFOA, ondanks meerdere dwangsommen van de provincie.</seg>
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg3">Dan het lekken van gifgas PFIB, dat op de NAVO-lijst van chemische wapens staat. Mensen met een moestuin binnen een straal van 1 kilometer van Chemours moesten maar niet te veel groente en fruit uit de eigen tuin eten, omdat dat gevaarlijk kon zijn, volgens het RIVM.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273">
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273">
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg384">Daarmee zijn we gekomen aan het einde van het debat.</seg>
             </u>
             <note type="comment" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.note390">De beraadslaging wordt gesloten.</note>
             <note type="speaker" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.note391">De voorzitter</note>
-            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274">
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274">
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg385">De moties komen aanstaande dinsdag in stemming, voor zover ze dan niet aangehouden zijn. Ik dank u allen voor uw aanwezigheid.</seg>
             </u>
          </div>

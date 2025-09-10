@@ -1,8 +1,8 @@
 <note type="time" content="14.01"/>
 <note type="president" content="Nimetullah Erdoğmuş"/>
-<speech id="tbmm-2022-11-17sit01spe0001par0001" text_id="ParlaMint-TR_2022-11-17-tbmm-T27" subcorpus="COVID,Savaş" lang="Türkçe" body="Tek meclisli" term="27" session="6" meeting="22" sitting="-" agenda="-" date="2022-11-17" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 6, Birleşim 22" speaker_role="Başkan" speaker_id="Nimetullah.Erdoğmuş" speaker_name="Erdoğmuş, Nimetullah" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDP" speaker_party_name="Halkların Demokratik Partisi" party_status="Opposition" party_orientation="Merkez sol - sol arası" speaker_gender="M" speaker_birth="1960">
+<speech id="tbmm-2022-11-17sit01spe0001par0001" text_id="ParlaMint-TR_2022-11-17-tbmm-T27" subcorpus="COVID,Savaş" lang="Türkçe" body="Tek meclisli" term="27" session="6" meeting="22" sitting="-" agenda="-" date="2022-11-17" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 6, Birleşim 22" speaker_role="Başkan" topic="Diğer" speaker_id="Nimetullah.Erdoğmuş" speaker_name="Erdoğmuş, Nimetullah" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDP" speaker_party_name="Halkların Demokratik Partisi" party_status="Opposition" party_orientation="Merkez sol - sol arası" speaker_gender="M" speaker_birth="1960">
 <p id="tbmm-2022-11-17sit01spe0001par0001.seg0" lang="Türkçe">
-<s id="tbmm-2022-11-17sit01spe0001par0001-000010">
+<s id="tbmm-2022-11-17sit01spe0001par0001-000010" senti_3="Nötr" senti_6="nötr pozitif" senti_n="3.267">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	nmod	millet	NOUN	Case=Nom Number=Sing	t3
 Büyük	Büyük	büyük	ADJ	-	t2	amod	millet	NOUN	Case=Nom Number=Sing	t3
@@ -17,7 +17,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 <p id="tbmm-2022-11-17sit01spe0001par0002.seg1" lang="Türkçe">
-<s id="tbmm-2022-11-17sit01spe0001par0002-000010">
+<s id="tbmm-2022-11-17sit01spe0001par0002-000010" senti_3="Negatif" senti_6="karışık negatif" senti_n="0.651">
 <name type="ORG">
 Başkanlık	Başkanlık	başkanlık	NOUN	Case=Nom Number=Sing	t1	nmod	divan	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
 Divanı	Divanı	divan	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2	nmod	teşekkül	NOUN	Case=Nom Number=Sing	t3
@@ -31,7 +31,7 @@ başlayamıyoruz	başlayamıyoruz	başla	VERB	Aspect=Prog Evident=Fh Mood=Pot Nu
 </s>
 </p>
 <p id="tbmm-2022-11-17sit01spe0001par0003.seg2" lang="Türkçe">
-<s id="tbmm-2022-11-17sit01spe0001par0003-000010">
+<s id="tbmm-2022-11-17sit01spe0001par0003-000010" senti_3="Nötr" senti_6="nötr pozitif" senti_n="2.563">
 Bu	Bu	bu	DET	-	t1	det	neden	NOUN	Case=Ins Number=Sing	t2
 nedenle	nedenle	neden	NOUN	Case=Ins Number=Sing	t2	obl	15	ADJ	Case=Nom NumType=Ord Number=Sing	t23
 <g/>
@@ -59,7 +59,7 @@ saat	saat	saat	NOUN	Case=Nom Number=Sing	t22	nsubj	15	ADJ	Case=Nom NumType=Ord N
 15.	15.	15	ADJ	Case=Nom NumType=Ord Number=Sing	t23	root	-	-	-	-
 </name>
 </s>
-<s id="tbmm-2022-11-17sit01spe0001par0003-000020">
+<s id="tbmm-2022-11-17sit01spe0001par0003-000020" senti_3="Nötr" senti_6="nötr nagatif" senti_n="1.569">
 <name type="LOC">
 00’te	00’te	00’te	X	-	t1	nmod	toplan	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t2
 </name>

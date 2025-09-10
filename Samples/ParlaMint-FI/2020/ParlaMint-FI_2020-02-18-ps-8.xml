@@ -21,13 +21,21 @@
                <resp xml:lang="en">Data cleaning and finalization</resp>
                <resp xml:lang="fi">Datan puhdistaminen ja viimeistely</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="104" xml:lang="fi">puheet</measure>
@@ -41,7 +49,7 @@
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -49,7 +57,7 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -92,8 +100,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#parla.sitting #covid">
@@ -102,10 +112,10 @@
             <head xml:id="ParlaMint-FI_2020-02-18-ps-8.head1">Hallituksen esitys eduskunnalle vankeusaikaisen rikollisuuden estämisen ja laitosturvallisuuden ylläpitämisen tehostamista koskevaksi lainsäädännöksi</head>
             <note type="relatedDocument" xml:id="ParlaMint-FI_2020-02-18-ps-8.note1">Hallituksen esitys HE 6/2020 vp</note>
             <pb n="1" source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_8+2020+6.aspx"/>
-            <u ana="#chair" who="#JuhoEerola" xml:id="ParlaMint-FI_2020-02-18-ps-8.u1">
+            <u ana="#chair topic:other" who="#JuhoEerola" xml:id="ParlaMint-FI_2020-02-18-ps-8.u1">
                <seg xml:id="ParlaMint-FI_2020-02-18-ps-8.seg1">Lähetekeskustelua varten esitellään päiväjärjestyksen 6. asia. Puhemiesneuvosto ehdottaa, että asia lähetetään lakivaliokuntaan, jolle perustuslakivaliokunnan ja hallintovaliokunnan on annettava lausunto. Lähetekeskusteluun varataan enintään 30 minuuttia. Asian käsittelyssä noudatetaan aikataulutettujen asioiden osalta sovittuja menettelytapoja.</seg>
             </u>
-            <u ana="#regular" who="#AnnaMajaHenriksson" xml:id="ParlaMint-FI_2020-02-18-ps-8.u2">
+            <u ana="#regular topic:lawcr" who="#AnnaMajaHenriksson" xml:id="ParlaMint-FI_2020-02-18-ps-8.u2">
                <seg xml:id="ParlaMint-FI_2020-02-18-ps-8.seg2">Arvoisa puhemies, värderade talman! Vankeuslain mukaan vankeuden täytäntöönpanon tavoitteena on lisätä vangin valmiuksia rikoksettomaan elämäntapaan edistämällä vangin elämänhallintaa ja sijoittumista yhteiskuntaan sekä estää rikosten tekeminen rangaistusaikana. Esityksen tavoitteena on selkeyttää Rikosseuraamuslaitoksen ja esitutkintaviranomaisten välistä tehtävänjakoa ja parantaa viranomaisten välistä tiedonvaihtoa ja yhteistyötä, jotta vankeusaikainen rikollisuus voitaisiin tehokkaasti estää. Lisäksi tavoitteena on täsmentää vankilaturvallisuutta koskevia säädöksiä. Esitys on valmisteltu oikeusministeriön asettamassa työryhmässä, jossa on ollut edustus muun muassa sisäministeriöstä, Poliisihallituksesta ja keskusrikospoliisista.</seg>
             </u>
             <gap reason="editorial">
@@ -113,11 +123,11 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u ana="#regular" who="#VeijoNiemi" xml:id="ParlaMint-FI_2020-02-18-ps-8.u103">
+            <u ana="#regular topic:trans" who="#VeijoNiemi" xml:id="ParlaMint-FI_2020-02-18-ps-8.u103">
                <seg xml:id="ParlaMint-FI_2020-02-18-ps-8.seg311">Arvoisa puhemies! Itse poliisitaustaisena tiedän, kuinka vaikea aihe tämä edustaja Kiljusen tekemä aloite on. Olen sen kyllä itsekin allekirjoittanut, koska on varsin epäselvä tilanne, kuinka paljon esimerkiksi nämä yksityiset ParkkiPate-firmat kouluttavat näitä henkilöitään pysäköintivalvonnan tietämyksen osalta.</seg>
                <seg xml:id="ParlaMint-FI_2020-02-18-ps-8.seg312">Poliisihan voi yleisellä alueella kirjoittaa pysäköintivirhemaksun. Kunnallinen pysäköintivalvoja voi yleisellä alueella kirjoittaa pysäköintimaksun. Esimerkiksi Tampereellahan jonkun verran myöskin kunnallinen pysäköintivalvonta on tehnyt yksityisille alueille sopimuksia, ja itse koen isona ongelmana esimerkiksi Tampereella tällaisen yksityisen — nimeä mainitsematta — parkkifirman pysäköintivalvonnan. Se on ihan ok, jos pysäköidään yksityisellä kerrostalon pihalla esimerkiksi sellaiselle väylälle, mikä on pelastustie, mutta sitten kun lähdetään menemään näille tolppapaikoille, ja jos sieltä joku tietynlainen lappu taikka muu puuttuu, niin siihen laitetaan suoraan tällainen pysäköintivirhemaksu, ja edustaja Kiljunen mainitsi, mikä työmaa on yrittää saada sitä sitten peruttua. Siinä mielessä, jos ei tätä nyt kokonaan haluta kieltää, niin se vaatii kyllä ehdottomasti asiallisen kouluttamisen ja tietämyksen lisäämisen näille henkilöille, jotka pysäköintiä valvovat yksityisissä pysäköintifirmoissa.</seg>
             </u>
-            <u ana="#regular" who="#KimmoKiljunen" xml:id="ParlaMint-FI_2020-02-18-ps-8.u104">
+            <u ana="#regular topic:lawcr" who="#KimmoKiljunen" xml:id="ParlaMint-FI_2020-02-18-ps-8.u104">
                <seg xml:id="ParlaMint-FI_2020-02-18-ps-8.seg313">Arvoisa puhemies! Edustaja Niemi nosti vielä tärkeän seikan esille: tällaisen kouluttamisen. Lisäisin siihen sen yhdenmukaiset säännöt niin, että se on myös helppo kouluttaa, että tiedetään, mitä edellytetään, että kaikilta edellytetään samanlaista tilannetajua. Otin tuossa omassa esimerkissä senkin ongelman esille näistä firmoista, että onhan se outoa, että kansalaisten kanssa kanssakäyvät nimimerkit, tehdään vahvoja reklamaatioita, vahvoja vaateita esitetään, ja me saamme ParkkiPatelta Susannen kirjeitä koko ajan. Rouva Susanne kirjoittaa, ja perintätoimistossa on Juha-Pekka, asiamies, joka kirjoittaa. Onhan tämä nyt outo tilanne, että me joudutaan Juha-Pekkojen ja Susannien kanssa käymään tällaista juridista keskustelua siitä, onko minulla oikeusturva tässä suojattu vai ei. Eli tämä nyt kuuluisi semmoisena minimikäytänteenä tähän, että olisi luontevaa kanssakäymistä ihmisten välillä, instituutioiden välillä myöskin, eikä tämmöisten nimimerkkien takana.</seg>
                <seg xml:id="ParlaMint-FI_2020-02-18-ps-8.seg314">Puhemies! Halusin tässä käyttää ehkä viimeisen puheenvuoron — niin minä toivon, että se jää viimeiseksi, minä yritin sen tehdä — ja kiittää teitä kaikkia. Keskustelu on ollut tosi hyvä. Saimme yhteisymmärryksen tähän taakse. Toivon vakavasti sitä, että lakivaliokunta ottaa tämän käsittelyyn. Siinä on meillä kaikilla oikeudentunnossa nyt sitten kuitenkin sellaista happamuutta, että tämä asia täytyisi saada kuntoon ja eduskunta voisi tässä nyt näyttää sitä omaa tahtovaltaansa, että kansanedustajankin lakialoitteiden kautta voidaan positiivisia prosesseja viedä eteenpäin. Kiitos ennen kaikkea teille 122:lle, jotka sen allekirjoittivat ja myöskin niille, jotka eivät allekirjoittaneet, mutta ovat tuoneet kantansa tähän keskusteluun esille, koska me tarvitsemme nämä kaikki näkemykset taakse, että saadaan sellainen konsensus, jotta se tyydyttää sitten sekä meitä lainsäätäjiä että myöskin kansakuntaa kokonaisuudessaan.</seg>
             </u>

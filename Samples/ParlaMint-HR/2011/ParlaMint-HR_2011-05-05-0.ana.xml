@@ -25,13 +25,29 @@
                <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
                <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="161" xml:lang="hr">161 govora</measure>
@@ -45,7 +61,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
@@ -53,7 +69,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-25">2025-06-25</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -77,6 +93,7 @@
                <tagUsage gi="gap" occurs="21"/>
                <tagUsage gi="link" occurs="44285"/>
                <tagUsage gi="linkGrp" occurs="1753"/>
+               <tagUsage gi="measure" occurs="1753"/>
                <tagUsage gi="name" occurs="1279"/>
                <tagUsage gi="note" occurs="161"/>
                <tagUsage gi="pc" occurs="3751"/>
@@ -100,19 +117,22 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-25">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2022-12-19">
-            <name>Peter Rupnik</name> Compile from source</change>
+            <name>Peter Rupnik</name>Compile from source</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-HR_2011-05-05-0.ana.note1">Russo, Aleksander</note>
-            <u who="#RussoAleksander" ana="#regular" n="ParlaMint-HR_T6.S23.u72491" xml:id="ParlaMint-HR_2011-05-05-0.u72491">
+            <u who="#RussoAleksander" ana="#regular topic:housi" n="ParlaMint-HR_T6.S23.u72491" xml:id="ParlaMint-HR_2011-05-05-0.u72491">
                <seg xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0">
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.1">
+                     <measure type="sentiment" quantity="3.161" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72491.seg0.1"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.1.1" msd="UPosTag=ADP|Case=Ins" ana="mte:Si" lemma="pred">Pred</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.1.2" msd="UPosTag=PRON|Case=Ins|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pi" lemma="vi">vama</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.1.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
@@ -187,6 +207,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.2">
+                     <measure type="sentiment" quantity="3.718" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72491.seg0.2"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.2.1" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsn" lemma="ovaj">Ovo</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.2.2" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="usklađenje">usklađenje</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.2.3" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel" ana="mte:Pi-nsn" lemma="koji">koje</w>
@@ -241,6 +262,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.3">
+                     <measure type="sentiment" quantity="2.257" ana="senti:neuneg" corresp="#ParlaMint-HR_2011-05-05-0.u72491.seg0.3"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.3.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="zatim" join="right">Zatim</w>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.3.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.3.3" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" ana="mte:Ncnsg" lemma="brisanje">brisanja</w>
@@ -289,6 +311,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.4">
+                     <measure type="sentiment" quantity="2.390" ana="senti:neuneg" corresp="#ParlaMint-HR_2011-05-05-0.u72491.seg0.4"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.4.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="nadalje" join="right">Nadalje</w>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.4.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.4.3" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="predlagati">predlažemo</w>
@@ -359,6 +382,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.5">
+                     <measure type="sentiment" quantity="3.299" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72491.seg0.5"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.5.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="isto">Isto</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.5.2" msd="UPosTag=ADV|Degree=Pos|PronType=Dem" ana="mte:Rgp" lemma="tako">tako</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.5.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="zakon">Zakon</w>
@@ -459,6 +483,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.6">
+                     <measure type="sentiment" quantity="4.475" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72491.seg0.6"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.6.1" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="donošenje">Donošenje</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.6.2" msd="UPosTag=DET|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem" ana="mte:Pd-msg" lemma="ovaj">ovog</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.6.3" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="zakon">Zakona</w>
@@ -549,6 +574,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.7">
+                     <measure type="sentiment" quantity="4.441" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72491.seg0.7"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.7.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="hvala">Hvala</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.7.2" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsny" lemma="lijep" join="right">lijepa</w>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0.7.3" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
@@ -561,9 +587,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-HR_2011-05-05-0.ana.note2">Bebić, Luka</note>
-            <u who="#BebićLuka" ana="#chair" n="ParlaMint-HR_T6.S23.u72492" xml:id="ParlaMint-HR_2011-05-05-0.u72492">
+            <u who="#BebićLuka" ana="#chair topic:housi" n="ParlaMint-HR_T6.S23.u72492" xml:id="ParlaMint-HR_2011-05-05-0.u72492">
                <seg xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0">
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.1">
+                     <measure type="sentiment" quantity="4.511" ana="senti:pospos" corresp="#ParlaMint-HR_2011-05-05-0.u72492.seg0.1"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.1.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="hvala" join="right">Hvala</w>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.1.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -572,6 +599,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.2">
+                     <measure type="sentiment" quantity="3.116" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72492.seg0.2"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.2.1" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3p" lemma="željeti">Žele</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.2.2" msd="UPosTag=PART" ana="mte:Qq" lemma="li">li</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.2.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="izvjestitelj">izvjestitelji</w>
@@ -592,6 +620,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.3">
+                     <measure type="sentiment" quantity="4.026" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72492.seg0.3"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.3.1" msd="UPosTag=PART|Polarity=Pos" ana="mte:Qr" lemma="da" join="right">Da</w>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.3.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -600,6 +629,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.4">
+                     <measure type="sentiment" quantity="3.396" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72492.seg0.4"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.4.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="u">U</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.4.2" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="ime">ime</w>
                      <name type="ORG">
@@ -634,6 +664,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.5">
+                     <measure type="sentiment" quantity="3.427" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72492.seg0.5"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.5.1" msd="UPosTag=VERB|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" ana="mte:Vmm2p" lemma="izvoljeti" join="right">Izvolite</w>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0.5.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -646,9 +677,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#FriščićJosip" ana="#chair" n="ParlaMint-HR_T6.S23.u72652" xml:id="ParlaMint-HR_2011-05-05-0.u72652">
+            <u who="#FriščićJosip" ana="#chair topic:inter" n="ParlaMint-HR_T6.S23.u72652" xml:id="ParlaMint-HR_2011-05-05-0.u72652">
                <seg xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0">
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.1">
+                     <measure type="sentiment" quantity="4.368" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72652.seg0.1"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.1.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="hvala">Hvala</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.1.2" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="lijepo">lijepo</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.1.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="kolega">kolega</w>
@@ -663,6 +695,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.2">
+                     <measure type="sentiment" quantity="3.397" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72652.seg0.2"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.2.1" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="iscrpiti">Iscrpili</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.2.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1p" lemma="biti">smo</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.2.3" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur" ana="mte:Agpfpay" lemma="sav">sve</w>
@@ -715,6 +748,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.3">
+                     <measure type="sentiment" quantity="3.744" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72652.seg0.3"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.3.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="a">A</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.3.2" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="vjerovati">vjerujemo</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.3.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
@@ -753,6 +787,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.4">
+                     <measure type="sentiment" quantity="3.483" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72652.seg0.4"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.4.1" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="obraditi">Obradili</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.4.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1p" lemma="biti">smo</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.4.3" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsay" lemma="sav">sve</w>
@@ -787,6 +822,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.5">
+                     <measure type="sentiment" quantity="4.665" ana="senti:pospos" corresp="#ParlaMint-HR_2011-05-05-0.u72652.seg0.5"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.5.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="značiti">Znači</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.5.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.5.3" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1p" lemma="biti">smo</w>
@@ -821,6 +857,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.6">
+                     <measure type="sentiment" quantity="3.284" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72652.seg0.6"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.6.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="a">A</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.6.2" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsay" lemma="sutrašnji">sutrašnju</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.6.3" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="po">po</w>
@@ -845,6 +882,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.7">
+                     <measure type="sentiment" quantity="3.367" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72652.seg0.7"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.7.1" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsn" lemma="taj">To</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.7.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.7.3" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="izvješće">Izvješće</w>
@@ -893,6 +931,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.8">
+                     <measure type="sentiment" quantity="4.875" ana="senti:pospos" corresp="#ParlaMint-HR_2011-05-05-0.u72652.seg0.8"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.8.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="hvala">Hvala</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.8.2" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pd" lemma="vi">vam</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.8.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="lijepo">lijepo</w>
@@ -915,6 +954,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.9">
+                     <measure type="sentiment" quantity="3.855" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72652.seg0.9"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.9.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zaključivati">Zaključujem</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.9.2" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsay" lemma="današnji">današnju</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0.9.3" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="sjednica" join="right">sjednicu</w>
@@ -929,9 +969,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-HR_2011-05-05-0.ana.note161">Bebić, Luka</note>
-            <u who="#BebićLuka" ana="#regular" n="ParlaMint-HR_T6.S23.u72653" xml:id="ParlaMint-HR_2011-05-05-0.u72653">
+            <u who="#BebićLuka" ana="#regular topic:mixed" n="ParlaMint-HR_T6.S23.u72653" xml:id="ParlaMint-HR_2011-05-05-0.u72653">
                <seg xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0">
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.1">
+                     <measure type="sentiment" quantity="3.159" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg0.1"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.1.1" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="prelaziti">Prelazimo</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.1.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
                      <name type="MISC">
@@ -1000,6 +1041,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.2">
+                     <measure type="sentiment" quantity="3.554" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg0.2"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.2.1" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="predlagatelj">Predlagatelj</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.2.2" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Vlada">Vlada</w>
@@ -1024,6 +1066,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.3">
+                     <measure type="sentiment" quantity="3.282" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg0.3"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.3.1" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="amandman">Amandmane</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.3.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.3.3" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-sm" lemma="podnijeti">podnio</w>
@@ -1098,6 +1141,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.4">
+                     <measure type="sentiment" quantity="3.355" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg0.4"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.4.1" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="poslovnik" join="right">Poslovnika</w>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.4.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -1106,6 +1150,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.5">
+                     <measure type="sentiment" quantity="3.387" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg0.5"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.5.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="davati">Dajem</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.5.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.5.3" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasovanje">glasovanje</w>
@@ -1158,6 +1203,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.6">
+                     <measure type="sentiment" quantity="3.777" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg0.6"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.6.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="moliti">Molim</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.6.2" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="uključiti">uključimo</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.6.3" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
@@ -1174,6 +1220,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.7">
+                     <measure type="sentiment" quantity="3.486" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg0.7"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.7.1" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="rezultat" join="right">Rezultat</w>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.7.2" msd="UPosTag=PUNCT" ana="mte:Z">?</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -1182,6 +1229,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.8">
+                     <measure type="sentiment" quantity="4.531" ana="senti:pospos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg0.8"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.8.1" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem" ana="mte:Pd-msn" lemma="ovaj">Ovaj</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.8.2" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsny" lemma="konačan">konačni</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0.8.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="prijedlog">prijedlog</w>
@@ -1210,12 +1258,14 @@
                </seg>
                <seg xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1">
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.1">
+                     <measure type="sentiment" quantity="3.201" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg1.1"/>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.1.1" msd="UPosTag=PUNCT" ana="mte:Z">…</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
 <link ana="ud-syn:root" target="#ParlaMint-HR_2011-05-05-0.u72653.seg1.1 #ParlaMint-HR_2011-05-05-0.u72653.seg1.1.1"/>
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.2">
+                     <measure type="sentiment" quantity="3.393" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg1.2"/>
                      <gap reason="inaudible" xml:id="ParlaMint-HR_2011-05-05-0.ana.gap20">
                         <desc>Početak nije snimljen.</desc>
                      </gap>
@@ -1317,6 +1367,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.3">
+                     <measure type="sentiment" quantity="2.685" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg1.3"/>
                      <gap reason="inaudible" xml:id="ParlaMint-HR_2011-05-05-0.ana.gap21">
                         <desc>Govornik se ne razumije.</desc>
                      </gap>
@@ -1338,6 +1389,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.4">
+                     <measure type="sentiment" quantity="3.242" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg1.4"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.4.1" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="materijal">Materijale</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.4.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" ana="mte:Var2p" lemma="biti">ste</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.4.3" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="primiti">primili</w>
@@ -1352,6 +1404,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.5">
+                     <measure type="sentiment" quantity="2.969" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg1.5"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.5.1" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="rasprava">Raspravu</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.5.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3p" lemma="biti">su</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.5.3" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="provesti">proveli</w>
@@ -1404,6 +1457,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.6">
+                     <measure type="sentiment" quantity="3.233" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg1.6"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.6.1" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" ana="mte:Ncnpa" lemma="izvješće">Izvješća</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.6.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" ana="mte:Var2p" lemma="biti">ste</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.6.3" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="primiti">primili</w>
@@ -1420,6 +1474,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.7">
+                     <measure type="sentiment" quantity="3.311" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg1.7"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.7.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="željeti">Želi</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.7.2" msd="UPosTag=PART" ana="mte:Qq" lemma="li">li</w>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.7.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="predstavnik">predstavnik</w>
@@ -1444,6 +1499,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.8">
+                     <measure type="sentiment" quantity="3.600" ana="senti:mixpos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg1.8"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.8.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="gospođa">Gospođa</w>
                      <name type="PER">
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.8.2" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Martina">Martina</w>
@@ -1464,6 +1520,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.9">
+                     <measure type="sentiment" quantity="3.427" ana="senti:neupos" corresp="#ParlaMint-HR_2011-05-05-0.u72653.seg1.9"/>
 <w xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.9.1" msd="UPosTag=VERB|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" ana="mte:Vmm2p" lemma="izvoljeti" join="right">Izvolite</w>
 <pc xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1.9.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">

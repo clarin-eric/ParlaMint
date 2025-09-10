@@ -20,9 +20,17 @@
                <resp xml:lang="pl">Pobieranie danych i konwersja do TEI</resp>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="pl">Infrastruktura naukowa CLARIN ERIC</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="pl">Komisja Europejska</orgName>
@@ -38,7 +46,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="413" xml:lang="pl">413 wypowiedzi</measure>
@@ -52,13 +60,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -104,8 +112,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2023-03-28">
             <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
       </revisionDesc>
@@ -116,7 +126,7 @@
             <head xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.head1">46. posiedzenie Sejmu RP 8. kadencji, dzień 3</head>
             <note type="debate" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.note1">Na posiedzeniu przewodniczą wicemarszałkowie Sejmu Ryszard Terlecki, Stanisław Tyszka, Joachim Brudziński i Barbara Dolniak</note>
             <note type="speaker" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.note2">Wicemarszałek Ryszard Terlecki:</note>
-            <u who="#RyszardTerlecki" ana="#chair" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u1">
+            <u who="#RyszardTerlecki" ana="#chair topic:other" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u1">
                <seg xml:id="seg240511">Wznawiam posiedzenie.</seg>
                <seg xml:id="seg240512">Na sekretarzy dzisiejszych obrad powołuję posłów Krzysztofa Kubowa, Artura Sobonia, Marcina Duszka oraz Sylwestra Tułajewa.</seg>
                <seg xml:id="seg240513">W pierwszej części obrad sekretarzami będą posłowie Krzysztof Kubów i Artur Soboń.</seg>
@@ -125,7 +135,7 @@
                <seg xml:id="seg240516">Proszę pana sekretarza o odczytanie komunikatów.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.note3">Sekretarz Poseł Krzysztof Kubów:</note>
-            <u who="#KrzysztofKubów" ana="#regular" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u2">
+            <u who="#KrzysztofKubów" ana="#regular topic:other" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u2">
                <seg xml:id="seg240517">Informuję, że w dniu dzisiejszym odbędą się posiedzenia Komisji:</seg>
                <seg xml:id="seg240518">- Edukacji, Nauki i Młodzieży - godz. 9.30,</seg>
                <seg xml:id="seg240519">- Etyki Poselskiej - godz. 9.30,</seg>
@@ -141,7 +151,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#LidiaGądek" ana="#regular" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u412">
+            <u who="#LidiaGądek" ana="#regular topic:civil" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u412">
                <seg xml:id="seg242957">Pani Marszałek! Wysoka Izbo! Przepraszam i bardzo serdecznie dziękuję za dopisanie mnie do listy mówców. Miałam taki zamiar wcześniej, ale niestety trochę biegiem musiałam wracać spod Pałacu Prezydenckiego.</seg>
                <seg xml:id="seg242958">Popieram panią poseł, wiceprzewodniczącą zespołu, którym mam zaszczyt kierować dzięki wyborowi wspólnemu, i chcę, abyśmy razem dbali o Polaków, o zdrowie Polaków. Natomiast moje oświadczenie chciałabym wygłosić na inną okoliczność.</seg>
                <seg xml:id="seg242959">Szanowni Państwo! Dzisiaj jest bardzo smutny dzień. I ponieważ marszałek Brudziński nie pozwalał nam ani zgłaszać wniosków formalnych, ani zadawać pytań, więc teraz w oświadczeniu chciałabym to powiedzieć.</seg>
@@ -157,7 +167,7 @@
                </kinesic>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.note421">Wicemarszałek Barbara Dolniak:</note>
-            <u who="#BarbaraDolniak" ana="#chair" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u413">
+            <u who="#BarbaraDolniak" ana="#chair topic:other" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u413">
                <seg xml:id="seg242964">Bardzo proszę.</seg>
                <seg xml:id="seg242965">Na tym zakończyliśmy oświadczenia poselskie.</seg>
                <seg xml:id="seg242966">Informacja o wpływie interpelacji, zapytań oraz odpowiedzi na nie dostępna jest w Systemie Informacyjnym Sejmu.</seg>

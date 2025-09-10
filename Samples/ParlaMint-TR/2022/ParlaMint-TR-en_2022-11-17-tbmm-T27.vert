@@ -1,8 +1,8 @@
 <note type="time" content="14.01"/>
 <note type="president" content="Nimethullah Erdoğ"/>
-<speech id="tbmm-2022-11-17sit01spe0001par0001" text_id="ParlaMint-TR-en_2022-11-17-tbmm-T27" subcorpus="COVID,War" lang="English" body="Unicameralism" term="27" session="6" meeting="22" sitting="-" agenda="-" date="2022-11-17" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 6, Session 22" speaker_role="Chairperson" speaker_id="Nimetullah.Erdoğmuş" speaker_name="Erdoğmuş, Nimetullah" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDP" speaker_party_name="Peoples' Democratic Party" party_status="Opposition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1960">
+<speech id="tbmm-2022-11-17sit01spe0001par0001" text_id="ParlaMint-TR-en_2022-11-17-tbmm-T27" subcorpus="COVID,War" lang="English" body="Unicameralism" term="27" session="6" meeting="22" sitting="-" agenda="-" date="2022-11-17" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 6, Session 22" speaker_role="Chairperson" topic="Other" speaker_id="Nimetullah.Erdoğmuş" speaker_name="Erdoğmuş, Nimetullah" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDP" speaker_party_name="Peoples' Democratic Party" party_status="Opposition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1960">
 <p id="tbmm-2022-11-17sit01spe0001par0001.seg0" lang="English">
-<s id="tbmm-2022-11-17sit01spe0001par0001-000010">
+<s id="tbmm-2022-11-17sit01spe0001par0001-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.267">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 opening	opening	open	VERB	Tense=Pres VerbForm=Part	A1.1.1,T2+	A1.1.1	A1.1.1: General actions / making	t3
@@ -23,7 +23,7 @@ Turkey	Turkey	Turkey	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t13
 </s>
 </p>
 <p id="tbmm-2022-11-17sit01spe0001par0002.seg1" lang="English">
-<s id="tbmm-2022-11-17sit01spe0001par0002-000010">
+<s id="tbmm-2022-11-17sit01spe0001par0002-000010" senti_3="Negative" senti_6="mixed negative" senti_n="0.651">
 Since	Since	since	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -51,7 +51,7 @@ work	work	work	NOUN	Number=Sing	I3.1,A1.1.1,Q4,K2,C1	I3.1	I3.1: Work and employm
 </s>
 </p>
 <p id="tbmm-2022-11-17sit01spe0001par0003.seg2" lang="English">
-<s id="tbmm-2022-11-17sit01spe0001par0003-000010">
+<s id="tbmm-2022-11-17sit01spe0001par0003-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.563">
 Therefore	Therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -86,7 +86,7 @@ order	order	order	NOUN	Number=Sing	A5.3+,G2.2+,N4	A5.3p	A5.3+: Evaluation: Accur
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="tbmm-2022-11-17sit01spe0001par0003-000020">
+<s id="tbmm-2022-11-17sit01spe0001par0003-000020" senti_3="Neutral" senti_6="neutral negative" senti_n="1.569">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2

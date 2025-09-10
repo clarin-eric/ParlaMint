@@ -12,12 +12,24 @@
                <persName>Çağrı Çöltekin</persName>
                <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="231" xml:lang="en">231 speeches</measure>
@@ -28,12 +40,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-30">2025-06-30</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -61,6 +73,7 @@
                <tagUsage gi="kinesic" occurs="24"/>
                <tagUsage gi="link" occurs="24399"/>
                <tagUsage gi="linkGrp" occurs="1372"/>
+               <tagUsage gi="measure" occurs="1372"/>
                <tagUsage gi="name" occurs="1197"/>
                <tagUsage gi="note" occurs="25"/>
                <tagUsage gi="pc" occurs="3529"/>
@@ -83,8 +96,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-30">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-22">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="tr">
@@ -92,9 +107,10 @@
          <div type="debateSection">
             <note type="time" xml:id="ParlaMint-TR_2018-11-01-tbmm-T27.ana.note1">14.03</note>
             <note type="president" xml:id="ParlaMint-TR_2018-11-01-tbmm-T27.ana.note2">Mustafa Şentop</note>
-            <u ana="#chair" who="#Mustafa.Şentop" xml:id="tbmm-2018-11-01sit01spe0001par0001">
+            <u ana="#chair topic:other" who="#Mustafa.Şentop" xml:id="tbmm-2018-11-01sit01spe0001par0001">
                <seg xml:id="tbmm-2018-11-01sit01spe0001par0001.seg0">
                   <s xml:id="tbmm-2018-11-01sit01spe0001par0001-000010">
+                     <measure type="sentiment" quantity="3.335" ana="senti:neupos" corresp="#tbmm-2018-11-01sit01spe0001par0001-000010"/>
                      <name type="ORG">
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Türkiye" xml:id="tbmm-2018-11-01sit01spe0001par0001-000010.t1">Türkiye</w>
 <w msd="UPosTag=ADJ" lemma="büyük" xml:id="tbmm-2018-11-01sit01spe0001par0001-000010.t2">Büyük</w>
@@ -119,6 +135,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0001par0002.seg1">
                   <s xml:id="tbmm-2018-11-01sit01spe0001par0002-000010">
+                     <measure type="sentiment" quantity="3.235" ana="senti:neupos" corresp="#tbmm-2018-11-01sit01spe0001par0002-000010"/>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="toplantı" xml:id="tbmm-2018-11-01sit01spe0001par0002-000010.t1">Toplantı</w>
 <w msd="UPosTag=VERB|Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres" lemma="yet" xml:id="tbmm-2018-11-01sit01spe0001par0002-000010.t2">yeter</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemma="sayı" xml:id="tbmm-2018-11-01sit01spe0001par0002-000010.t3">sayısı</w>
@@ -143,6 +160,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0001par0003.seg2">
                   <s xml:id="tbmm-2018-11-01sit01spe0001par0003-000010">
+                     <measure type="sentiment" quantity="2.782" ana="senti:neupos" corresp="#tbmm-2018-11-01sit01spe0001par0003-000010"/>
 <w msd="UPosTag=NOUN|Case=Dat|Number=Sing" lemma="gündem" xml:id="tbmm-2018-11-01sit01spe0001par0003-000010.t1">Gündeme</w>
 <w msd="UPosTag=VERB|Polarity=Neg|VerbForm=Conv" lemma="geç" xml:id="tbmm-2018-11-01sit01spe0001par0003-000010.t2">geçmeden</w>
 <w msd="UPosTag=ADP" lemma="önce" xml:id="tbmm-2018-11-01sit01spe0001par0003-000010.t3">önce</w>
@@ -173,6 +191,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0001par0004.seg3">
                   <s xml:id="tbmm-2018-11-01sit01spe0001par0004-000010">
+                     <measure type="sentiment" quantity="2.843" ana="senti:neupos" corresp="#tbmm-2018-11-01sit01spe0001par0004-000010"/>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="gündem" xml:id="tbmm-2018-11-01sit01spe0001par0004-000010.t1">Gündem</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemma="dış" xml:id="tbmm-2018-11-01sit01spe0001par0004-000010.t2">dışı</w>
 <w msd="UPosTag=ADV" lemma="ilk" xml:id="tbmm-2018-11-01sit01spe0001par0004-000010.t3">ilk</w>
@@ -233,6 +252,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0001par0005.seg4">
                   <s xml:id="tbmm-2018-11-01sit01spe0001par0005-000010">
+                     <measure type="sentiment" quantity="4.019" ana="senti:mixpos" corresp="#tbmm-2018-11-01sit01spe0001par0005-000010"/>
 <w msd="UPosTag=VERB|Mood=Imp|Number=Plur|Person=2" lemma="buyur" xml:id="tbmm-2018-11-01sit01spe0001par0005-000010.t1">Buyurun</w>
                      <name type="PER">
 <w msd="UPosTag=ADJ" lemma="sayın" xml:id="tbmm-2018-11-01sit01spe0001par0005-000010.t2">Sayın</w>
@@ -252,6 +272,7 @@
                </kinesic>
                <seg xml:id="tbmm-2018-11-01sit01spe0001par0007.seg5">
                   <s xml:id="tbmm-2018-11-01sit01spe0001par0007-000010">
+                     <measure type="sentiment" quantity="3.425" ana="senti:neupos" corresp="#tbmm-2018-11-01sit01spe0001par0007-000010"/>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2" lemma="süre" xml:id="tbmm-2018-11-01sit01spe0001par0007-000010.t1">Süreniz</w>
 <w msd="UPosTag=NUM" lemma="beş" xml:id="tbmm-2018-11-01sit01spe0001par0007-000010.t2">beş</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="dakika" xml:id="tbmm-2018-11-01sit01spe0001par0007-000010.t3" join="right">dakika</w>
@@ -267,9 +288,10 @@
                   </s>
                </seg>
             </u>
-            <u ana="#regular" who="#Zafer.Sırakaya" xml:id="tbmm-2018-11-01sit01spe0002par0011">
+            <u ana="#regular topic:mixed" who="#Zafer.Sırakaya" xml:id="tbmm-2018-11-01sit01spe0002par0011">
                <seg xml:id="tbmm-2018-11-01sit01spe0002par0011.seg0">
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000010">
+                     <measure type="sentiment" quantity="4.396" ana="senti:mixpos" corresp="#tbmm-2018-11-01sit01spe0002par0011-000010"/>
 <w msd="UPosTag=ADJ" lemma="sayın" xml:id="tbmm-2018-11-01sit01spe0002par0011-000010.t1">Sayın</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="başkan" xml:id="tbmm-2018-11-01sit01spe0002par0011-000010.t2" join="right">Başkan</w>
 <pc msd="UPosTag=PUNCT" xml:id="tbmm-2018-11-01sit01spe0002par0011-000010.t3">,</pc>
@@ -364,6 +386,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000020">
+                     <measure type="sentiment" quantity="4.665" ana="senti:pospos" corresp="#tbmm-2018-11-01sit01spe0002par0011-000020"/>
 <w msd="UPosTag=DET" lemma="o" xml:id="tbmm-2018-11-01sit01spe0002par0011-000020.t1">O</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Plur" lemma="zaman" xml:id="tbmm-2018-11-01sit01spe0002par0011-000020.t2">zamanlar</w>
                      <name type="LOC">
@@ -416,6 +439,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000030">
+                     <measure type="sentiment" quantity="0.450" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0011-000030"/>
 <w msd="UPosTag=NOUN|Case=Abl|Number=Sing" lemma="sirkeci" xml:id="tbmm-2018-11-01sit01spe0002par0011-000030.t1">Sirkeci’den</w>
                      <name type="LOC">
 <w msd="UPosTag=PROPN|Case=Dat|Number=Sing" lemma="Münih" xml:id="tbmm-2018-11-01sit01spe0002par0011-000030.t2">Münih’e</w>
@@ -472,6 +496,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000040">
+                     <measure type="sentiment" quantity="3.148" ana="senti:neupos" corresp="#tbmm-2018-11-01sit01spe0002par0011-000040"/>
 <w msd="UPosTag=DET" lemma="o" xml:id="tbmm-2018-11-01sit01spe0002par0011-000040.t1">O</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="zaman" xml:id="tbmm-2018-11-01sit01spe0002par0011-000040.t2">zaman</w>
 <w msd="UPosTag=NUM" lemma="elli" xml:id="tbmm-2018-11-01sit01spe0002par0011-000040.t3">elli</w>
@@ -510,6 +535,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000050">
+                     <measure type="sentiment" quantity="0.136" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0011-000050"/>
 <w msd="UPosTag=DET" lemma="bu" xml:id="tbmm-2018-11-01sit01spe0002par0011-000050.t1">Bu</w>
 <w msd="UPosTag=ADJ" lemma="göçmen" xml:id="tbmm-2018-11-01sit01spe0002par0011-000050.t2" join="right">göçmen</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="lik" xml:id="tbmm-2018-11-01sit01spe0002par0011-000050.t3">lik</w>
@@ -550,6 +576,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000060">
+                     <measure type="sentiment" quantity="-0.067" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0011-000060"/>
 <w msd="UPosTag=ADV" lemma="zira" xml:id="tbmm-2018-11-01sit01spe0002par0011-000060.t1">Zira</w>
 <w msd="UPosTag=NOUN|Case=Abl|Number=Sing|Number[psor]=Plur|Person[psor]=3" lemma="vatan" xml:id="tbmm-2018-11-01sit01spe0002par0011-000060.t2">vatanlarından</w>
 <w msd="UPosTag=NOUN|Case=Equ|Number=Plur" lemma="kilometre" xml:id="tbmm-2018-11-01sit01spe0002par0011-000060.t3">kilometrelerce</w>
@@ -612,6 +639,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000070">
+                     <measure type="sentiment" quantity="-0.000" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0011-000070"/>
 <w msd="UPosTag=ADV" lemma="özellikle" xml:id="tbmm-2018-11-01sit01spe0002par0011-000070.t1">Özellikle</w>
                      <name type="ORG">
 <w msd="UPosTag=ADJ" lemma="ak" xml:id="tbmm-2018-11-01sit01spe0002par0011-000070.t2">AK</w>
@@ -696,6 +724,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000080">
+                     <measure type="sentiment" quantity="0.249" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0011-000080"/>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="yurt" xml:id="tbmm-2018-11-01sit01spe0002par0011-000080.t1">Yurt</w>
 <w msd="UPosTag=NOUN|Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemma="dış" xml:id="tbmm-2018-11-01sit01spe0002par0011-000080.t2">dışına</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="iş" xml:id="tbmm-2018-11-01sit01spe0002par0011-000080.t3">iş</w>
@@ -778,6 +807,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000090">
+                     <measure type="sentiment" quantity="0.018" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0011-000090"/>
 <w msd="UPosTag=ADV" lemma="keza" xml:id="tbmm-2018-11-01sit01spe0002par0011-000090.t1">Keza</w>
 <w msd="UPosTag=NOUN|Case=Dat|Number=Sing" lemma="konu" xml:id="tbmm-2018-11-01sit01spe0002par0011-000090.t2">konuya</w>
 <w msd="UPosTag=DET" lemma="bu" xml:id="tbmm-2018-11-01sit01spe0002par0011-000090.t3">bu</w>
@@ -880,6 +910,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0011-000100">
+                     <measure type="sentiment" quantity="4.432" ana="senti:mixpos" corresp="#tbmm-2018-11-01sit01spe0002par0011-000100"/>
 <w msd="UPosTag=DET" lemma="bu" xml:id="tbmm-2018-11-01sit01spe0002par0011-000100.t1">Bu</w>
 <w msd="UPosTag=VERB|Aspect=Dur|Case=Nom|Number=Sing|Voice=Pass" lemma="alış" xml:id="tbmm-2018-11-01sit01spe0002par0011-000100.t2">alışılagelmiş</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="tutum" xml:id="tbmm-2018-11-01sit01spe0002par0011-000100.t3" join="right">tutum</w>
@@ -924,6 +955,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0002par0012.seg1">
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0012-000010">
+                     <measure type="sentiment" quantity="0.011" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0012-000010"/>
                      <name type="ORG">
 <w msd="UPosTag=ADJ" lemma="ak" xml:id="tbmm-2018-11-01sit01spe0002par0012-000010.t1">AK</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="parti" xml:id="tbmm-2018-11-01sit01spe0002par0012-000010.t2">PARTİ</w>
@@ -1054,6 +1086,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0012-000020">
+                     <measure type="sentiment" quantity="2.590" ana="senti:neupos" corresp="#tbmm-2018-11-01sit01spe0002par0012-000020"/>
 <w msd="UPosTag=DET" lemma="şu" xml:id="tbmm-2018-11-01sit01spe0002par0012-000020.t1">Şu</w>
 <w msd="UPosTag=ADJ" lemma="iyi" xml:id="tbmm-2018-11-01sit01spe0002par0012-000020.t2">iyi</w>
 <w msd="UPosTag=VERB|Aspect=Imp|Evident=Fh|Mood=GenNec|Number=Sing|Person=3|Tense=Pres|Voice=Pass" lemma="anla" xml:id="tbmm-2018-11-01sit01spe0002par0012-000020.t3" join="right">anlaşılmalıdır</w>
@@ -1100,6 +1133,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0012-000030">
+                     <measure type="sentiment" quantity="3.995" ana="senti:mixpos" corresp="#tbmm-2018-11-01sit01spe0002par0012-000030"/>
                      <name type="LOC">
 <w msd="UPosTag=ADV" lemma="binaenaleyh" xml:id="tbmm-2018-11-01sit01spe0002par0012-000030.t1" join="right">Binaenaleyh</w>
                      </name>
@@ -1182,6 +1216,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0002par0013.seg2">
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0013-000010">
+                     <measure type="sentiment" quantity="4.481" ana="senti:mixpos" corresp="#tbmm-2018-11-01sit01spe0002par0013-000010"/>
 <w msd="UPosTag=NOUN" lemma="konsolos" xml:id="tbmm-2018-11-01sit01spe0002par0013-000010.t1" join="right">Konsolos</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="lik" xml:id="tbmm-2018-11-01sit01spe0002par0013-000010.t2">luk</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Plur" lemma="reform" xml:id="tbmm-2018-11-01sit01spe0002par0013-000010.t3" join="right">reformları</w>
@@ -1322,6 +1357,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0013-000020">
+                     <measure type="sentiment" quantity="1.853" ana="senti:neuneg" corresp="#tbmm-2018-11-01sit01spe0002par0013-000020"/>
 <w msd="UPosTag=NOUN|Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=1" lemma="ön" xml:id="tbmm-2018-11-01sit01spe0002par0013-000020.t1" join="right">Önümüzde</w>
 <w msd="UPosTag=ADJ" lemma="ki" xml:id="tbmm-2018-11-01sit01spe0002par0013-000020.t2">ki</w>
 <w msd="UPosTag=NOUN|Case=Loc|Number=Sing" lemma="süreç" xml:id="tbmm-2018-11-01sit01spe0002par0013-000020.t3">süreçte</w>
@@ -1412,6 +1448,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0013-000030">
+                     <measure type="sentiment" quantity="0.584" ana="senti:mixneg" corresp="#tbmm-2018-11-01sit01spe0002par0013-000030"/>
 <w msd="UPosTag=ADV" lemma="ayrıca" xml:id="tbmm-2018-11-01sit01spe0002par0013-000030.t1" join="right">Ayrıca</w>
 <pc msd="UPosTag=PUNCT" xml:id="tbmm-2018-11-01sit01spe0002par0013-000030.t2">,</pc>
                      <name type="ORG">
@@ -1466,6 +1503,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0002par0014.seg3">
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0014-000010">
+                     <measure type="sentiment" quantity="0.200" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0014-000010"/>
                      <name type="LOC">
 <w msd="UPosTag=PROPN|Case=Loc|Number=Sing" lemma="Avrupa" xml:id="tbmm-2018-11-01sit01spe0002par0014-000010.t1">Avrupa’da</w>
                      </name>
@@ -1524,6 +1562,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0014-000020">
+                     <measure type="sentiment" quantity="0.066" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0014-000020"/>
                      <name type="PER">
 <w msd="UPosTag=ADJ" lemma="mesut" xml:id="tbmm-2018-11-01sit01spe0002par0014-000020.t1">Mesut</w>
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Özil" xml:id="tbmm-2018-11-01sit01spe0002par0014-000020.t2">Özil</w>
@@ -1592,6 +1631,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0002par0015.seg4">
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0015-000010">
+                     <measure type="sentiment" quantity="1.950" ana="senti:neuneg" corresp="#tbmm-2018-11-01sit01spe0002par0015-000010"/>
                      <name type="LOC">
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Alman" xml:id="tbmm-2018-11-01sit01spe0002par0015-000010.t1">Alman</w>
                      </name>
@@ -1630,6 +1670,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0015-000020">
+                     <measure type="sentiment" quantity="1.967" ana="senti:neuneg" corresp="#tbmm-2018-11-01sit01spe0002par0015-000020"/>
 <w msd="UPosTag=DET" lemma="bu" xml:id="tbmm-2018-11-01sit01spe0002par0015-000020.t1">Bu</w>
 <w msd="UPosTag=NOUN|Case=Loc|Number=Sing" lemma="anlam" xml:id="tbmm-2018-11-01sit01spe0002par0015-000020.t2" join="right">anlamda</w>
 <pc msd="UPosTag=PUNCT" xml:id="tbmm-2018-11-01sit01spe0002par0015-000020.t3">,</pc>
@@ -1676,6 +1717,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0015-000030">
+                     <measure type="sentiment" quantity="0.002" ana="senti:negneg" corresp="#tbmm-2018-11-01sit01spe0002par0015-000030"/>
 <w msd="UPosTag=ADJ" lemma="aşırı" xml:id="tbmm-2018-11-01sit01spe0002par0015-000030.t1">Aşırı</w>
                      <name type="ORG">
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="sağcı" xml:id="tbmm-2018-11-01sit01spe0002par0015-000030.t2">sağcı</w>
@@ -1760,6 +1802,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0002par0016.seg5">
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0016-000010">
+                     <measure type="sentiment" quantity="3.534" ana="senti:mixpos" corresp="#tbmm-2018-11-01sit01spe0002par0016-000010"/>
                      <name type="ORG">
 <w msd="UPosTag=VERB|Case=Nom|Number=Sing|VerbForm=Vnoun|Voice=Cau" lemma="cezalan" xml:id="tbmm-2018-11-01sit01spe0002par0016-000010.t1">Cezalandırma</w>
                      </name>
@@ -1798,6 +1841,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0002par0016-000020">
+                     <measure type="sentiment" quantity="2.242" ana="senti:neuneg" corresp="#tbmm-2018-11-01sit01spe0002par0016-000020"/>
                      <name type="ORG">
 <w msd="UPosTag=PROPN|Abbr=Yes|Case=Nom|Number=Sing" lemma="NSU" xml:id="tbmm-2018-11-01sit01spe0002par0016-000020.t1">NSU</w>
                      </name>
@@ -1848,9 +1892,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#regular" who="#NazırCihangir.İslam" xml:id="tbmm-2018-11-01sit01spe0122par0609">
+            <u ana="#regular topic:other" who="#NazırCihangir.İslam" xml:id="tbmm-2018-11-01sit01spe0122par0609">
                <seg xml:id="tbmm-2018-11-01sit01spe0122par0609.seg0">
                   <s xml:id="tbmm-2018-11-01sit01spe0122par0609-000010">
+                     <measure type="sentiment" quantity="2.900" ana="senti:neupos" corresp="#tbmm-2018-11-01sit01spe0122par0609-000010"/>
                      <name type="ORG">
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="etik" xml:id="tbmm-2018-11-01sit01spe0122par0609-000010.t1">Etik</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="mesele" xml:id="tbmm-2018-11-01sit01spe0122par0609-000010.t2">mesele</w>
@@ -1876,9 +1921,10 @@
                   </s>
                </seg>
             </u>
-            <u ana="#chair" who="#Mustafa.Şentop" xml:id="tbmm-2018-11-01sit01spe0126par0610">
+            <u ana="#chair topic:other" who="#Mustafa.Şentop" xml:id="tbmm-2018-11-01sit01spe0126par0610">
                <seg xml:id="tbmm-2018-11-01sit01spe0126par0610.seg0">
                   <s xml:id="tbmm-2018-11-01sit01spe0126par0610-000010">
+                     <measure type="sentiment" quantity="1.624" ana="senti:neuneg" corresp="#tbmm-2018-11-01sit01spe0126par0610-000010"/>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="etik" xml:id="tbmm-2018-11-01sit01spe0126par0610-000010.t1">Etik</w>
 <w msd="UPosTag=CCONJ|Polarity=Neg" lemma="değil" xml:id="tbmm-2018-11-01sit01spe0126par0610-000010.t2" join="right">değil</w>
 <pc msd="UPosTag=PUNCT" xml:id="tbmm-2018-11-01sit01spe0126par0610-000010.t3">,</pc>
@@ -1909,6 +1955,7 @@
                </seg>
                <seg xml:id="tbmm-2018-11-01sit01spe0126par0611.seg1">
                   <s xml:id="tbmm-2018-11-01sit01spe0126par0611-000010">
+                     <measure type="sentiment" quantity="2.766" ana="senti:neupos" corresp="#tbmm-2018-11-01sit01spe0126par0611-000010"/>
 <w msd="UPosTag=NOUN|Number=Sing" lemma="değer" xml:id="tbmm-2018-11-01sit01spe0126par0611-000010.t1" join="right">Değer</w>
 <w msd="UPosTag=ADJ" lemma="li" xml:id="tbmm-2018-11-01sit01spe0126par0611-000010.t2">li</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Plur" lemma="arkadaş" xml:id="tbmm-2018-11-01sit01spe0126par0611-000010.t3" join="right">arkadaşlar</w>
@@ -1963,6 +2010,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="tbmm-2018-11-01sit01spe0126par0611-000020">
+                     <measure type="sentiment" quantity="1.569" ana="senti:neuneg" corresp="#tbmm-2018-11-01sit01spe0126par0611-000020"/>
                      <name type="LOC">
 <w msd="UPosTag=X" lemma="00’te" xml:id="tbmm-2018-11-01sit01spe0126par0611-000020.t1">00’te</w>
                      </name>

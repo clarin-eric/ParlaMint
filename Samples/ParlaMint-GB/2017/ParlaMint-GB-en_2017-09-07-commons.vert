@@ -1,12 +1,12 @@
 <note type="head" content="Membership of the European Economic Area"/>
-<speech id="ParlaMint-GB_2017-09-07-commons.u1" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="StephenKinnock" speaker_name="Kinnock, Stephen Nathan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u1" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" topic="International Affairs" speaker_id="StephenKinnock" speaker_name="Kinnock, Stephen Nathan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg1" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg1.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg1.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.767">
 1	1	1	X	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg1.2">
+<s id="ParlaMint-GB_2017-09-07-commons.seg1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.723">
 What	What	what	DET	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 discussions	discussions	discussion	NOUN	Number=Plur	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t2
 he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t3
@@ -40,9 +40,9 @@ EEA	EEA	EEA	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t22
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2017-09-07-commons.u2" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="DavidDavis" speaker_name="Davis, David Michael" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u2" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" topic="International Affairs" speaker_id="DavidDavis" speaker_name="Davis, David Michael" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg2" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg2.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg2.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.411">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 United	United	United	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -71,7 +71,7 @@ Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t17
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg2.2">
+<s id="ParlaMint-GB_2017-09-07-commons.seg2.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.426">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 United	United	United	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -119,7 +119,7 @@ UK	UK	UK	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t35
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg2.3">
+<s id="ParlaMint-GB_2017-09-07-commons.seg2.3" senti_3="Negative" senti_6="mixed negative" senti_n="1.055">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 will	will	will	VERB	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 <phr usas_tags="T2-" usas_cats="T2n" usas_glosses="T2-: Time: Ending">
@@ -139,7 +139,7 @@ Kingdom	Kingdom	Kingdom	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t12
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg2.4">
+<s id="ParlaMint-GB_2017-09-07-commons.seg2.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.765">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -181,9 +181,9 @@ law	law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t29
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GB_2017-09-07-commons.u581" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u581" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" topic="Government Operations" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg958" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg958.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg958.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.331">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 thank	thank	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -240,9 +240,9 @@ assets	assets	asset	NOUN	Number=Plur	I1.1,A1.5.2+	I1.1	I1.1: Money and pay	t49
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2017-09-07-commons.u582" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="MarcusJones" speaker_name="Jones, Marcus Charles" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u582" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" topic="Mix" speaker_id="MarcusJones" speaker_name="Jones, Marcus Charles" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg959" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg959.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg959.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.326">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 my	my	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 hon.	hon.	hon.	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t3
@@ -274,7 +274,7 @@ obtained	obtained	obtain	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+	A9p	A9+: G
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg959.2">
+<s id="ParlaMint-GB_2017-09-07-commons.seg959.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.993">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 sense	sense	sense	NOUN	Number=Sing	A4.1,Q3,X3,S1.2.6+,E1,X2.1,X9.1+,A8	A4.1	A4.1: Generally kinds, groups, examples	t3
@@ -316,7 +316,7 @@ made	made	make	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,A9+,A2.2,S6+,A3+,
 </s>
 </p>
 <p id="ParlaMint-GB_2017-09-07-commons.seg960" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg960.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg960.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 note	note	note	NOUN	Number=Sing	Q1.2,K2	Q1.2	Q1.2: Paper documents and writing	t3
@@ -353,7 +353,7 @@ date	date	date	NOUN	Number=Sing	T1.2,S3.2,S3.2/S2mf	T1.2	T1.2: Time: Momentary	t
 </s>
 </p>
 <p id="ParlaMint-GB_2017-09-07-commons.seg961" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg961.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg961.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.786">
 Question	Question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t1
 put	put	put	NOUN	Number=Sing	M2	M2	M2: Putting, pulling, pushing, transporting	t2
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t3

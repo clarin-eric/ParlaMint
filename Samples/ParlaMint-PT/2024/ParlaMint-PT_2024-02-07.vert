@@ -1,6 +1,6 @@
-<speech id="ParlaMint-PT_2024-02-07.u1" text_id="ParlaMint-PT_2024-02-07" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XV Legislatura" session="Sessão 2" meeting="Número 41" sitting="07.02.2024" agenda="-" date="2024-02-07" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 41" speaker_role="Presidente de mesa" speaker_id="AugustoErnestoSantosSilva" speaker_name="Ernesto Santos Silva, Augusto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-PT_2024-02-07.u1" text_id="ParlaMint-PT_2024-02-07" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XV Legislatura" session="Sessão 2" meeting="Número 41" sitting="07.02.2024" agenda="-" date="2024-02-07" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 41" speaker_role="Presidente de mesa" topic="Education" speaker_id="AugustoErnestoSantosSilva" speaker_name="Ernesto Santos Silva, Augusto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-PT_2024-02-07.seg1" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg1.s">
+<s id="ParlaMint-PT_2024-02-07.seg1.s" senti_3="Positive" senti_6="mixed positive" senti_n="4.068">
 Muito	Muito	muito	ADV	-	1	root	-	-	-	-
 boa	boa	bom	ADJ	Gender=Fem Number=Sing	2	cop	tarde	NOUN	Gender=Fem Number=Sing	3
 tarde	tarde	tarde	NOUN	Gender=Fem Number=Sing	3	xcomp	muito	ADV	-	1
@@ -28,7 +28,7 @@ trabalhos	trabalhos	trabalho	NOUN	Gender=Masc Number=Plur	17	orphan	.	PUNCT	-	18
 </p>
 <note type="time" content="Eram 15 horas e 4 minutos."/>
 <p id="ParlaMint-PT_2024-02-07.seg2" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg2.s">
+<s id="ParlaMint-PT_2024-02-07.seg2.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.258">
 Solicito	Solicito	Solicito	PROPN	-	1	root	-	-	-	-
 aos	a|o	a|o	ADP|DET	-	p|s	punct|obj	Solicito	PROPN	-	1
 Srs.	Srs.	Srs.	PROPN	-	3	punct	Solicito	PROPN	-	1
@@ -140,7 +140,7 @@ alteração	alteração	alteração	NOUN	Gender=Fem Number=Sing	92	fixed	a	ADP	-
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg3" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg3.s">
+<s id="ParlaMint-PT_2024-02-07.seg3.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.926">
 Passo	Passo	Passo	PROPN	-	1	root	-	-	-	-
 a	a	a	ADP	-	2	case	ler	VERB	-	3
 ler	ler	ler	VERB	-	3	iobj	Passo	PROPN	-	1
@@ -247,7 +247,7 @@ reponderação	reponderação	reponderação	NOUN	Gender=Fem Number=Sing	78	obj	
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg4" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg4.s">
+<s id="ParlaMint-PT_2024-02-07.seg4.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.206">
 2	2	2	NUM	-	1	root	-	-	-	-
 .	.	.	PUNCT	-	2	punct	2	NUM	-	1
 Com	Com	com	ADV	-	3	dep	2	NUM	-	1
@@ -289,7 +289,7 @@ adolescentes	adolescentes	adolescente	NOUN	Gender=Masc Number=Plur	33	orphan	de	
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg5" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg5.s">
+<s id="ParlaMint-PT_2024-02-07.seg5.s" senti_3="Negative" senti_6="negative" senti_n="0.271">
 Diretamente	Diretamente	diretamente	ADV	-	1	root	-	-	-	-
 ligado	ligado	ligar,ligado	ADJ	Gender=Masc Number=Sing	2	punct	diretamente	ADV	-	1
 à	a|a	a	ADP|DET	-	p|s	punct|obj	diretamente	ADV	-	1
@@ -379,7 +379,7 @@ situações	situações	situação	NOUN	Gender=Fem Number=Plur	75	obj	diferente	
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg6" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg6.s">
+<s id="ParlaMint-PT_2024-02-07.seg6.s" senti_3="Neutral" senti_6="neutral negative" senti_n="1.573">
 3	3	3	NUM	-	1	root	-	-	-	-
 .	.	.	PUNCT	-	2	det	3	NUM	-	1
 É	É	ser	VERB	Person=3 Number=Sing	3	cop	3	NUM	-	1
@@ -424,7 +424,7 @@ médico	médico	médico	NOUN	Gender=Masc Number=Sing	38	nsubj	qualquer	DET	Numbe
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg7" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg7.s">
+<s id="ParlaMint-PT_2024-02-07.seg7.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.491">
 Ora	Ora	ora	ADV	-	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	dep	ora	ADV	-	1
@@ -468,7 +468,7 @@ essencial	essencial	essencial	ADJ	Gender=Fem Number=Sing	35	amod	intervenção	N
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg8" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg8.s">
+<s id="ParlaMint-PT_2024-02-07.seg8.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.092">
 4	4	4	NUM	-	1	root	-	-	-	-
 .	.	.	PUNCT	-	2	punct	4	NUM	-	1
 Mas	Mas	mas	CCONJ	-	3	dep	4	NUM	-	1
@@ -508,7 +508,7 @@ ou	ou	ou	CCONJ	-	33	cc	14	NUM	-	34
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg9" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg9.s">
+<s id="ParlaMint-PT_2024-02-07.seg9.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.025">
 E	E	e	CCONJ	-	1	cc	em	ADP	-	p
 <g/>
 ,	,	,	PUNCT	-	2	root	-	-	-	-
@@ -556,7 +556,7 @@ legais	legais	legal	ADJ	Gender=Masc Number=Plur	38	orphan	,	PUNCT	-	2
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg10" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg10.s">
+<s id="ParlaMint-PT_2024-02-07.seg10.s" senti_3="Negative" senti_6="negative" senti_n="0.222">
 Estando	Estando	estar	VERB	-	1	nsubj	realidade	NOUN	Gender=Fem Number=Plur	4
 em	em	em	ADP	-	2	case	realidade	NOUN	Gender=Fem Number=Plur	4
 causa	causa	causa	NOUN	Gender=Fem Number=Sing	3	dep	realidade	NOUN	Gender=Fem Number=Plur	4
@@ -683,7 +683,7 @@ generoso	generoso	generoso	ADJ	Gender=Masc Number=Sing	111	amod	ideal	NOUN	Gende
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg11" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg11.s">
+<s id="ParlaMint-PT_2024-02-07.seg11.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.907">
 Note	Note	notar	VERB	Person=3 Number=Sing	1	root	-	-	-	-
 -se	-se	-se	PRON	Person=3	2	nsubj	notar	VERB	Person=3 Number=Sing	1
 <g/>
@@ -722,7 +722,7 @@ versadas	versadas	versadas	NOUN	Gender=Fem Number=Plur	29	cop	como	SCONJ	-	27
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg12" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg12.s">
+<s id="ParlaMint-PT_2024-02-07.seg12.s" senti_3="Negative" senti_6="mixed negative" senti_n="1.495">
 No	em|o	em|o	ADP|DET	-	p|s	nsubj|obj	acrescer,acrescido	ADJ	Gender=Masc Number=Sing	6
 mínimo	mínimo	mínimo	NOUN	Gender=Masc Number=Sing	2	root	-	-	-	-
 <g/>
@@ -788,7 +788,7 @@ causa	causa	causa	NOUN	Gender=Fem Number=Sing	53	fixed	conquistar	VERB	Person=3 
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg13" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg13.s">
+<s id="ParlaMint-PT_2024-02-07.seg13.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.517">
 nestes	em|este	em|este	ADP|DET	-	p|s	root|obj	-|em	-|ADP	-	-|p
 termos	termos	termo	NOUN	Gender=Masc Number=Plur	2	xcomp	em	ADP	-	p
 <g/>
@@ -879,7 +879,7 @@ alteração	alteração	alteração	NOUN	Gender=Fem Number=Sing	72	orphan	sua	PR
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg14" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg14.s">
+<s id="ParlaMint-PT_2024-02-07.seg14.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.994">
 Apresento	Apresento	apresento	NOUN	Gender=Masc Number=Sing	1	root	-	-	-	-
 a	a	a	ADP	-	2	case	excelência	VERB	Person=3 Number=Sing	4
 Vossa	Vossa	vossa	NOUN	Gender=Fem Number=Sing	3	nmod	excelência	VERB	Person=3 Number=Sing	4
@@ -910,7 +910,7 @@ Sousa	Sousa	Sousa	PROPN	-	18	fixed	Rebelo	PROPN	-	16
 </p>
 <note type="pause" content="Pausa."/>
 <p id="ParlaMint-PT_2024-02-07.seg15" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg15.s">
+<s id="ParlaMint-PT_2024-02-07.seg15.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.791">
 Passo	Passo	Passo	PROPN	-	1	root	-	-	-	-
 agora	agora	agora	ADV	-	2	dep	Passo	PROPN	-	1
 ao	a|o	a|o	ADP|DET	-	p|s	xcomp|obj	Passo	PROPN	-	1
@@ -995,7 +995,7 @@ Civil	Civil	Civil	PROPN	-	64	fixed	Registo	PROPN	-	63
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg16" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg16.s">
+<s id="ParlaMint-PT_2024-02-07.seg16.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.544">
 Passo	Passo	Passo	PROPN	-	1	nsubj	ler	VERB	-	3
 a	a	a	ADP	-	2	case	ler	VERB	-	3
 ler	ler	ler	VERB	-	3	root	-	-	-	-
@@ -1163,7 +1163,7 @@ decisão	decisão	decisão	NOUN	Gender=Fem Number=Sing	141	advmod	ter	VERB	Perso
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg17" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg17.s">
+<s id="ParlaMint-PT_2024-02-07.seg17.s" senti_3="Negative" senti_6="negative" senti_n="0.162">
 O	O	o	DET	Gender=Masc Number=Sing	1	nsubj	dizer	VERB	Person=3 Number=Sing	4
 mesmo	mesmo	mesmo	ADV	-	2	dep	o	DET	Gender=Masc Number=Sing	1
 se	se	se	PRON	Person=3	3	nsubj	dizer	VERB	Person=3 Number=Sing	4
@@ -1245,7 +1245,7 @@ informados	informados	informar,informado	ADJ	Gender=Masc Number=Plur	73	dep	ou	C
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg18" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg18.s">
+<s id="ParlaMint-PT_2024-02-07.seg18.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.053">
 4	4	4	NUM	-	1	root	-	-	-	-
 .	.	.	PUNCT	-	2	punct	4	NUM	-	1
 Estes	Estes	este	DET	Gender=Masc Number=Plur	3	fixed	4	NUM	-	1
@@ -1356,7 +1356,7 @@ pessoas	pessoas	pessoa	NOUN	Gender=Fem Number=Plur	89	fixed	de	ADP	-	p
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg19" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg19.s">
+<s id="ParlaMint-PT_2024-02-07.seg19.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.936">
 Apresento	Apresento	apresento	NOUN	Gender=Masc Number=Sing	1	root	-	-	-	-
 a	a	a	ADP	-	2	case	excelência	VERB	Person=3 Number=Sing	4
 Vossa	Vossa	vossa	NOUN	Gender=Fem Number=Sing	3	nmod	excelência	VERB	Person=3 Number=Sing	4
@@ -1379,7 +1379,7 @@ Sousa	Sousa	Sousa	PROPN	-	13	orphan	de	ADP	-	12
 </p>
 <note type="pause" content="Pausa."/>
 <p id="ParlaMint-PT_2024-02-07.seg20" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg20.s">
+<s id="ParlaMint-PT_2024-02-07.seg20.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.917">
 Não	Não	não	ADV	-	1	root	-	-	-	-
 havendo	havendo	haver	VERB	-	2	punct	não	ADV	-	1
 expediente	expediente	expediente	ADV	-	3	dep	não	ADV	-	1
@@ -1428,9 +1428,9 @@ Soares	Soares	Soares	PROPN	-	37	orphan	Filipe	PROPN	-	36
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2024-02-07.u2" text_id="ParlaMint-PT_2024-02-07" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XV Legislatura" session="Sessão 2" meeting="Número 41" sitting="07.02.2024" agenda="-" date="2024-02-07" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 41" speaker_role="Regular" speaker_id="PedroFilipeGomesSoares" speaker_name="Filipe Gomes Soares, Pedro" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Esquerda a extrema-esquerda" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-PT_2024-02-07.u2" text_id="ParlaMint-PT_2024-02-07" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XV Legislatura" session="Sessão 2" meeting="Número 41" sitting="07.02.2024" agenda="-" date="2024-02-07" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 41" speaker_role="Regular" topic="Domestic Commerce" speaker_id="PedroFilipeGomesSoares" speaker_name="Filipe Gomes Soares, Pedro" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Esquerda a extrema-esquerda" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-PT_2024-02-07.seg21" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg21.s">
+<s id="ParlaMint-PT_2024-02-07.seg21.s" senti_3="Neutral" senti_6="neutral negative" senti_n="1.908">
 <name type="PER">
 Sr.	Sr.	sr.	PRON	Gender=Masc Number=Sing	1	det	Presidente	PROPN	-	2
 Presidente	Presidente	Presidente	PROPN	-	2	nsubj	Deputados	PROPN	-	7
@@ -1515,7 +1515,7 @@ aumento	aumento	aumento	NOUN	Gender=Masc Number=Sing	68	advmod	.	PUNCT	-	70
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg22" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg22.s">
+<s id="ParlaMint-PT_2024-02-07.seg22.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.972">
 O	O	o	DET	Gender=Masc Number=Sing	1	det	Santander	PROPN	-	2
 <name type="ORG">
 Santander	Santander	Santander	PROPN	-	2	nsubj	Totta	PROPN	-	3
@@ -1614,7 +1614,7 @@ anterior	anterior	anterior	ADJ	Gender=Masc Number=Sing	83	amod	a	ADP	-	p
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg23" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg23.s">
+<s id="ParlaMint-PT_2024-02-07.seg23.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.989">
 São	São	ser	VERB	Person=3 Number=Plur	1	cop	três	NUM	Gender=Masc Number=Plur	2
 três	três	três	NUM	Gender=Masc Number=Plur	2	root	-	-	-	-
 dos	de|o	de|o	ADP|DET	-	p|s	punct|obj	três	NUM	Gender=Masc Number=Plur	2
@@ -1717,7 +1717,7 @@ euros	euros	euro	NOUN	Gender=Masc Number=Plur	84	orphan	651	NUM	-	81
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg24" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg24.s">
+<s id="ParlaMint-PT_2024-02-07.seg24.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.035">
 Prevê	Prevê	prever	VERB	Person=3 Number=Sing	1	root	-	-	-	-
 -se	-se	-se	PRON	Person=3	2	nsubj	prever	VERB	Person=3 Number=Sing	1
 <g/>
@@ -1844,7 +1844,7 @@ lucros	lucros	lucro	NOUN	Gender=Masc Number=Plur	107	punct	este	DET	Gender=Masc 
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg25" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg25.s">
+<s id="ParlaMint-PT_2024-02-07.seg25.s" senti_3="Negative" senti_6="negative" senti_n="0.090">
 Não	Não	não	ADV	-	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	dep	não	ADV	-	1
@@ -1896,7 +1896,7 @@ bancos	bancos	banco	NOUN	Gender=Masc Number=Plur	42	punct	posto	NOUN	Gender=Masc
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg26" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg26.s">
+<s id="ParlaMint-PT_2024-02-07.seg26.s" senti_3="Negative" senti_6="mixed negative" senti_n="1.296">
 Então	Então	então	ADV	-	1	nsubj	explicação	NOUN	Gender=Fem Number=Sing	6
 <g/>
 ,	,	,	PUNCT	-	2	det	qual	PRON	Number=Sing	3
@@ -2015,7 +2015,7 @@ explicada	explicada	explicar,explicado	ADJ	Gender=Fem Number=Sing	101	orphan	equ
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg27" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg27.s">
+<s id="ParlaMint-PT_2024-02-07.seg27.s" senti_3="Negative" senti_6="negative" senti_n="0.255">
 A	A	a	DET	Gender=Fem Number=Sing	1	det	português	ADJ	Gender=Fem Number=Sing	3
 banca	banca	banca	NOUN	Gender=Fem Number=Sing	2	det	português	ADJ	Gender=Fem Number=Sing	3
 portuguesa	portuguesa	português	ADJ	Gender=Fem Number=Sing	3	nsubj	paga	ADJ	Gender=Fem Number=Sing	4
@@ -2102,7 +2102,7 @@ europeia	europeia	europeu	ADJ	Gender=Fem Number=Sing	70	orphan	média	NOUN	Gende
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg28" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg28.s">
+<s id="ParlaMint-PT_2024-02-07.seg28.s" senti_3="Negative" senti_6="negative" senti_n="0.334">
 Por	Por	por	ADP	-	1	case	isso	PRON	Gender=Masc Number=Sing	2
 isso	isso	isso	PRON	Gender=Masc Number=Sing	2	advmod	perceber	VERB	-	6
 <g/>
@@ -2238,7 +2238,7 @@ apresentar	apresentar	apresentar	VERB	-	115	ccomp	extraordinário	ADJ	Gender=Mas
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg29" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg29.s">
+<s id="ParlaMint-PT_2024-02-07.seg29.s" senti_3="Negative" senti_6="negative" senti_n="0.102">
 É	É	ser	VERB	Person=3 Number=Sing	1	cop	abuso	NOUN	Gender=Masc Number=Sing	3
 um	um	um	DET	Gender=Masc Number=Sing	2	advmod	abuso	NOUN	Gender=Masc Number=Sing	3
 abuso	abuso	abuso	NOUN	Gender=Masc Number=Sing	3	root	-	-	-	-
@@ -2279,7 +2279,7 @@ habitação	habitação	habitação	NOUN	Gender=Fem Number=Sing	33	orphan	crédi
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg30" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg30.s">
+<s id="ParlaMint-PT_2024-02-07.seg30.s" senti_3="Negative" senti_6="negative" senti_n="0.280">
 Pergunta	Pergunta	perguntar	VERB	Person=3 Number=Sing	1	root	-	-	-	-
 -se	-se	-se	PRON	Person=3	2	nsubj	perguntar	VERB	Person=3 Number=Sing	1
 o	o	o	DET	Gender=Masc Number=Sing	3	xcomp	perguntar	VERB	Person=3 Number=Sing	1
@@ -2378,7 +2378,7 @@ Socialista	Socialista	Socialista	PROPN	-	75	fixed	Partido	PROPN	-	74
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg31" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg31.s">
+<s id="ParlaMint-PT_2024-02-07.seg31.s" senti_3="Negative" senti_6="negative" senti_n="0.248">
 Não	Não	não	ADV	-	1	root	-	-	-	-
 por	por	por	ADV	-	2	advmod	chegar	VERB	Person=3 Number=Sing	7
 acaso	acaso	acaso	ADV	-	3	dep	por	ADV	-	2
@@ -2435,9 +2435,9 @@ habitação	habitação	habitação	NOUN	Gender=Fem Number=Sing	40	orphan	crédi
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PT_2024-02-07.u57" text_id="ParlaMint-PT_2024-02-07" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XV Legislatura" session="Sessão 2" meeting="Número 41" sitting="07.02.2024" agenda="-" date="2024-02-07" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 41" speaker_role="Regular" speaker_id="AlmaBenedettiCroceRivera" speaker_name="Benedetti Croce Rivera, Alma" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PCP" speaker_party_name="Grupo Parlamentar do Partido Comunista Português" party_status="Opposition" party_orientation="Esquerda a extrema-esquerda" speaker_gender="F" speaker_birth="1991">
+<speech id="ParlaMint-PT_2024-02-07.u57" text_id="ParlaMint-PT_2024-02-07" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XV Legislatura" session="Sessão 2" meeting="Número 41" sitting="07.02.2024" agenda="-" date="2024-02-07" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 41" speaker_role="Regular" topic="Macroeconomics" speaker_id="AlmaBenedettiCroceRivera" speaker_name="Benedetti Croce Rivera, Alma" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PCP" speaker_party_name="Grupo Parlamentar do Partido Comunista Português" party_status="Opposition" party_orientation="Esquerda a extrema-esquerda" speaker_gender="F" speaker_birth="1991">
 <p id="ParlaMint-PT_2024-02-07.seg175" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg175.s">
+<s id="ParlaMint-PT_2024-02-07.seg175.s" senti_3="Negative" senti_6="negative" senti_n="0.307">
 É	É	ser	VERB	Person=3 Number=Sing	1	cop	senhor	NOUN	Gender=Masc Number=Plur	6
 porque	porque	porque	SCONJ	-	2	root	-	-	-	-
 nisto	em|isto	em|isto	ADP|PRON	-	p|s	punct|obj	porque	SCONJ	-	2
@@ -2603,7 +2603,7 @@ povo	povo	povo	NOUN	Gender=Masc Number=Sing	133	fixed	o	DET	Gender=Masc Number=S
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg176" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg176.s">
+<s id="ParlaMint-PT_2024-02-07.seg176.s" senti_3="Negative" senti_6="negative" senti_n="0.360">
 O	O	o	DET	Gender=Masc Number=Sing	1	det	país	NOUN	Gender=Masc Number=Sing	2
 País	País	país	NOUN	Gender=Masc Number=Sing	2	nsubj	aguentar	VERB	Person=3 Number=Sing	4
 não	não	não	ADV	-	3	root	-	-	-	-
@@ -2671,7 +2671,7 @@ política	política	política	NOUN	Gender=Fem Number=Sing	52	orphan	de	ADP	-	51
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg177" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg177.s">
+<s id="ParlaMint-PT_2024-02-07.seg177.s" senti_3="Negative" senti_6="negative" senti_n="0.451">
 Muitos	Muitos	muito	DET	Gender=Masc Number=Plur	1	nsubj	perceber	VERB	Person=3 Number=Plur	3
 já	já	já	ADV	-	2	advmod	que	SCONJ	-	4
 perceberam	perceberam	perceber	VERB	Person=3 Number=Plur	3	root	-	-	-	-
@@ -2717,7 +2717,7 @@ nós	nós	nós	PRON	Gender=Masc Number=Plur	37	orphan	maioria	NOUN	Gender=Fem Nu
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg178" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg178.s">
+<s id="ParlaMint-PT_2024-02-07.seg178.s" senti_3="Negative" senti_6="negative" senti_n="0.223">
 Muitos	Muitos	muito	DET	Gender=Masc Number=Plur	1	nsubj	perceber	VERB	Person=3 Number=Plur	3
 já	já	já	ADV	-	2	root	-	-	-	-
 perceberam	perceberam	perceber	VERB	Person=3 Number=Plur	3	orphan	já	ADV	-	2
@@ -2761,7 +2761,7 @@ tomadas	tomadas	tomar,tomado	ADJ	Gender=Fem Number=Plur	37	advmod	.	PUNCT	-	38
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg179" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg179.s">
+<s id="ParlaMint-PT_2024-02-07.seg179.s" senti_3="Negative" senti_6="mixed negative" senti_n="0.944">
 Muitos	Muitos	muito	DET	Gender=Masc Number=Plur	1	nsubj	deixar	VERB	Person=3 Number=Plur	2
 deixarão	deixarão	deixar	VERB	Person=3 Number=Plur	2	root	-	-	-	-
 de	de	de	ADP	-	3	punct	deixar	VERB	Person=3 Number=Plur	2
@@ -2825,7 +2825,7 @@ protagonistas	protagonistas	protagonista	NOUN	Gender=Masc Number=Plur	57	orphan	
 </s>
 </p>
 <p id="ParlaMint-PT_2024-02-07.seg180" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg180.s">
+<s id="ParlaMint-PT_2024-02-07.seg180.s" senti_3="Negative" senti_6="mixed negative" senti_n="1.461">
 Perante	Perante	perante	ADP	-	1	nsubj	crescente	ADJ	Gender=Fem Number=Plur	3
 as	as	a	DET	Gender=Fem Number=Plur	2	root	-	-	-	-
 crescentes	crescentes	crescente	ADJ	Gender=Fem Number=Plur	3	nmod	incerteza	NOUN	Gender=Fem Number=Plur	4
@@ -2906,9 +2906,9 @@ Unitária	Unitária	Unitária	PROPN	-	67	dep	Democrática	PROPN	-	66
 </p>
 <note type="kinesic:applause" content="Aplausos do PCP."/>
 </speech>
-<speech id="ParlaMint-PT_2024-02-07.u58" text_id="ParlaMint-PT_2024-02-07" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XV Legislatura" session="Sessão 2" meeting="Número 41" sitting="07.02.2024" agenda="-" date="2024-02-07" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 41" speaker_role="Presidente de mesa" speaker_id="AugustoErnestoSantosSilva" speaker_name="Ernesto Santos Silva, Augusto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-PT_2024-02-07.u58" text_id="ParlaMint-PT_2024-02-07" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XV Legislatura" session="Sessão 2" meeting="Número 41" sitting="07.02.2024" agenda="-" date="2024-02-07" title="Minutas da Assembleia da República Portuguesa, Sessão 2, Número 41" speaker_role="Presidente de mesa" topic="Other" speaker_id="AugustoErnestoSantosSilva" speaker_name="Ernesto Santos Silva, Augusto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-PT_2024-02-07.seg181" lang="Portuguese">
-<s id="ParlaMint-PT_2024-02-07.seg181.s">
+<s id="ParlaMint-PT_2024-02-07.seg181.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.203">
 Assim	Assim	assim	ADV	-	1	root	-	-	-	-
 terminamos	terminamos	terminar	VERB	Person=1 Number=Plur	2	cop	assim	ADV	-	1
 o	o	o	DET	Gender=Masc Number=Sing	3	obj	ordem	NOUN	Gender=Fem Number=Sing	8

@@ -6,15 +6,15 @@
 <note type="narrative" content="ПАРУБІЙ А.В."/>
 <note type="time" content="16:02:13"/>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2016-01-26-m1.u1" text_id="ParlaMint-UA_2016-01-26-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2016-01-26" agenda="-" date="2016-01-26" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2016-01-26, номер засідання №1" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Парубій, Андрій Володимирович" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="правоцентристи — праві" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-UA_2016-01-26-m1.u1" text_id="ParlaMint-UA_2016-01-26-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2016-01-26" agenda="-" date="2016-01-26" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2016-01-26, номер засідання №1" speaker_role="головуючий" topic="Інше" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Парубій, Андрій Володимирович" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="правоцентристи — праві" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p1" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.325">
 Шановні	Шановні	шановний	ADJ	Case=Voc Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2
 колеги	колеги	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	w3	punct	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.921">
 Прошу	Прошу	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 заходити	заходити	заходити	VERB	Aspect=Imp VerbForm=Inf	w2	xcomp	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 в	в	в	ADP	Case=Acc	w3	case	зал	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	w4
@@ -26,7 +26,7 @@
 <g/>
 .	.	.	PUNCT	-	w9	punct	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s3" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="2.990">
 Час	Час	час	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	w1	nsubj	завершений	ADJ	Aspect=Perf Case=Nom Gender=Masc Number=Sing VerbForm=Part Voice=Pass	w7
 <g/>
 ,	,	,	PUNCT	-	w2	punct	відведений	ADJ	Aspect=Perf Case=Nom Gender=Masc Number=Sing VerbForm=Part Voice=Pass	w3
@@ -39,7 +39,7 @@
 <g/>
 .	.	.	PUNCT	-	w8	punct	завершений	ADJ	Aspect=Perf Case=Nom Gender=Masc Number=Sing VerbForm=Part Voice=Pass	w7
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s4">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s4" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.515">
 Прошу	Прошу	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 секретаріат	секретаріат	секретаріат	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	w2	obj	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 <name type="ORG">
@@ -61,7 +61,7 @@
 <g/>
 .	.	.	PUNCT	-	w17	punct	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s5">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p1.lang1.s5" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.849">
 Будь	Будь	бути	VERB	Aspect=Imp Mood=Imp Number=Sing Person=2 VerbForm=Fin	w1	root	-	-	-	-
 ласка	ласка	ласка	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w2	fixed	бути	VERB	Aspect=Imp Mood=Imp Number=Sing Person=2 VerbForm=Fin	w1
 <g/>
@@ -69,7 +69,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p2" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p2.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p2.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.492">
 Іванчук	Іванчук	Іванчук	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing	w1	nsubj	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w4
 <name type="PER">
 Володимирович	Володимирович	Володимирович	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing	w2	flat:name	Іванчук	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing	w1
@@ -84,7 +84,7 @@
 <g/>
 .	.	.	PUNCT	-	w9	punct	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p2.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p2.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.121">
 Прошу	Прошу	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 колег	колег	колега	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Plur	w2	obj	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 депутатів	депутатів	депутат	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Plur	w3	nmod	колега	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Plur	w2
@@ -96,7 +96,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p3" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p3.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p3.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.985">
 Шановні	Шановні	шановний	ADJ	Case=Nom Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Plur	w2
 колеги	колеги	колега	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Plur	w2	nsubj	розпочинати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w11
 <g/>
@@ -116,7 +116,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p4" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p4.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p4.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.185">
 Шановні	Шановні	шановний	ADJ	Case=Nom Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Plur	w2
 колеги	колеги	колега	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Plur	w2	nsubj	мати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w7
 <g/>
@@ -148,7 +148,7 @@
 </name>
 .	.	.	PUNCT	-	w21	punct	мати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w7
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p4.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p4.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.948">
 Але	Але	але	CCONJ	-	w1	cc	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w7
 <g/>
 ,	,	,	PUNCT	-	w2	punct	перш	ADV	-	w3
@@ -172,7 +172,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p5" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p5.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p5.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.897">
 Шановні	Шановні	шановний	ADJ	Case=Voc Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2
 колеги	колеги	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -182,7 +182,7 @@
 <g/>
 .	.	.	PUNCT	-	w6	punct	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p5.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p5.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.912">
 Будь	Будь	бути	VERB	Aspect=Imp Mood=Imp Number=Sing Person=2 VerbForm=Fin	w1	parataxis:discourse	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w4
 ласка	ласка	ласка	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w2	fixed	бути	VERB	Aspect=Imp Mood=Imp Number=Sing Person=2 VerbForm=Fin	w1
 <g/>
@@ -199,7 +199,7 @@
 <g/>
 .	.	.	PUNCT	-	w13	punct	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p5.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p5.lang1.s3" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.047">
 Будь	Будь	бути	VERB	Aspect=Imp Mood=Imp Number=Sing Person=2 VerbForm=Fin	w1	root	-	-	-	-
 ласка	ласка	ласка	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w2	fixed	бути	VERB	Aspect=Imp Mood=Imp Number=Sing Person=2 VerbForm=Fin	w1
 <g/>
@@ -211,7 +211,7 @@
 </p>
 <note type="time" content="16:09:29"/>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p6" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p6.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p6.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.564">
 Зареєстровано	Зареєстровано	зареєструвати	VERB	Aspect=Perf Mood=Ind Person=0 VerbForm=Fin	w1	root	-	-	-	-
 336	336	336	NUM	Case=Acc NumType=Card Uninflect=Yes	w2	nummod:gov	депутат	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	w4
 народних	народних	народний	ADJ	Case=Gen Number=Plur	w3	amod	депутат	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	w4
@@ -219,7 +219,7 @@
 <g/>
 .	.	.	PUNCT	-	w5	punct	зареєструвати	VERB	Aspect=Perf Mood=Ind Person=0 VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p6.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p6.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.553">
 І	І	і	CCONJ	-	w1	cc	оголошувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w8
 я	я	я	PRON	Animacy=Anim Case=Nom Number=Sing Person=1 PronType=Prs	w2	nsubj	оголошувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w8
 вечірнє	вечірнє	вечірній	ADJ	Case=Acc Gender=Neut Number=Sing	w3	amod	засідання	NOUN	Animacy=Inan Case=Acc Gender=Neut Number=Sing	w4
@@ -236,7 +236,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p7" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p7.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p7.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.311">
 Як	Як	як	SCONJ	-	w1	mark	говорити	VERB	Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w4
 я	я	я	PRON	Animacy=Anim Case=Nom Number=Sing Person=1 PronType=Prs	w2	nsubj	говорити	VERB	Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w4
 і	і	і	PART	-	w3	discourse	говорити	VERB	Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w4
@@ -253,7 +253,7 @@
 <g/>
 .	.	.	PUNCT	-	w12	punct	зачитати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w10
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p7.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p7.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.014">
 Згідно	Згідно	згідно	ADV	-	w1	advmod	повідомляти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w16
 з	з	з	ADP	Case=Ins	w2	case	заява	NOUN	Animacy=Inan Case=Ins Gender=Fem Number=Sing	w4
 поданою	поданою	поданий	ADJ	Aspect=Perf Case=Ins Gender=Fem Number=Sing VerbForm=Part Voice=Pass	w3	amod	заява	NOUN	Animacy=Inan Case=Ins Gender=Fem Number=Sing	w4
@@ -305,7 +305,7 @@
 </p>
 <note type="kinesic:applause" content="Оплески"/>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p8" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p8.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p8.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.142">
 Заява	Заява	заява	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w1	root	-	-	-	-
 <name type="ORG">
 Голові	Голові	голова	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing	w2	nmod	заява	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w1
@@ -327,7 +327,7 @@
 </name>
 .	.	.	PUNCT	-	w13	punct	заява	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p8.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p8.lang1.s2" senti_3="Нейтральна" senti_6="нейтральна негативна" senti_n="1.988">
 "	"	"	PUNCT	PunctType=Quot	w1	punct	повідомляти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 <g/>
 Повідомляю	Повідомляю	повідомляти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
@@ -371,7 +371,7 @@
 <g/>
 .	.	.	PUNCT	-	w31	punct	повідомляти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p8.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p8.lang1.s3" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.645">
 Андрій	Андрій	Андрій	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing	w1	root	-	-	-	-
 <name type="PER">
 Деркач	Деркач	Деркач	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing	w2	flat:name	Андрій	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing	w1
@@ -383,12 +383,12 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p9" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p9.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p9.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.127">
 Наступне	Наступне	наступний	ADJ	Case=Nom Gender=Neut Number=Sing	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	наступний	ADJ	Case=Nom Gender=Neut Number=Sing	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p9.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p9.lang1.s2" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.350">
 Згідно	Згідно	згідно	ADV	-	w1	advmod	повідомляти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w16
 з	з	з	ADP	Case=Ins	w2	case	заява	NOUN	Animacy=Inan Case=Ins Gender=Fem Number=Sing	w4
 поданою	поданою	поданий	ADJ	Aspect=Perf Case=Ins Gender=Fem Number=Sing VerbForm=Part Voice=Pass	w3	amod	заява	NOUN	Animacy=Inan Case=Ins Gender=Fem Number=Sing	w4
@@ -434,7 +434,7 @@
 <g/>
 .	.	.	PUNCT	-	w33	punct	повідомляти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w16
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p9.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p9.lang1.s3" senti_3="Позитивна" senti_6="позитивна" senti_n="4.904">
 Привітаємо	Привітаємо	привітати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 <name type="PER">
 Вадима	Вадима	Вадим	PROPN	Animacy=Anim Case=Acc Gender=Masc NameType=Giv Number=Sing	w2	obj	привітати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
@@ -446,7 +446,7 @@
 </p>
 <note type="kinesic:applause" content="Оплески"/>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p10" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p10.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p10.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.300">
 Прошу	Прошу	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 уваги	уваги	увага	NOUN	Animacy=Inan Case=Acc Gender=Fem Number=Plur	w2	obj	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 <g/>
@@ -458,7 +458,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p11" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p11.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p11.lang1.s1" senti_3="Негативна" senti_6="змішана негативна" senti_n="1.272">
 Відповідно	Відповідно	відповідно	ADV	Degree=Pos	w1	advmod	повідомляти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w11
 до	до	до	ADP	Case=Gen	w2	case	частина	NOUN	Animacy=Inan Case=Gen Gender=Fem Number=Sing	w3
 частини	частини	частина	NOUN	Animacy=Inan Case=Gen Gender=Fem Number=Sing	w3	obl	відповідно	ADV	Degree=Pos	w1
@@ -515,12 +515,12 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p12" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p12.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p12.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.127">
 Наступне	Наступне	наступний	ADJ	Case=Nom Gender=Neut Number=Sing	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	наступний	ADJ	Case=Nom Gender=Neut Number=Sing	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p12.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p12.lang1.s2" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="2.748">
 Згідно	Згідно	згідно	ADV	-	w1	advmod	повідомляти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w5
 з	з	з	ADP	Case=Ins	w2	case	звернення	NOUN	Animacy=Inan Case=Ins Gender=Neut Number=Sing	w4
 поданим	поданим	поданий	ADJ	Aspect=Perf Case=Ins Gender=Neut Number=Sing VerbForm=Part Voice=Pass	w3	amod	звернення	NOUN	Animacy=Inan Case=Ins Gender=Neut Number=Sing	w4
@@ -543,7 +543,7 @@
 <g/>
 .	.	.	PUNCT	-	w16	punct	повідомляти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w5
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p12.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p12.lang1.s3" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.358">
 Відтепер	Відтепер	відтепер	ADV	PronType=Dem	w1	advmod	мати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 це	це	цей	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	w2	det	об’єднання	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w3
 об’єднання	об’єднання	об’єднання	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w3	nsubj	мати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
@@ -559,7 +559,7 @@
 <g/>
 .	.	.	PUNCT	-	w9	punct	мати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p12.lang1.s4">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p12.lang1.s4" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.317">
 Заява	Заява	заява	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w1	root	-	-	-	-
 від	від	від	ADP	Case=Gen	w2	case	депутат	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing	w4
 народного	народного	народний	ADJ	Case=Gen Gender=Masc Number=Sing	w3	amod	депутат	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing	w4
@@ -590,7 +590,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p13" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p13.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p13.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.280">
 Отже	Отже	отже	PART	-	w1	discourse	оголошений	ADJ	Aspect=Perf Case=Ins Number=Plur VerbForm=Part Voice=Pass	w14
 <g/>
 ,	,	,	PUNCT	-	w2	punct	отже	PART	-	w1
@@ -622,7 +622,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p14" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.217">
 Наступне	Наступне	наступний	ADJ	Case=Nom Gender=Neut Number=Sing	w1	amod	питання	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w2
 питання	питання	питання	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w2	root	-	-	-	-
 порядку	порядку	порядок	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	w3	nmod	питання	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w2
@@ -635,7 +635,7 @@
 <g/>
 .	.	.	PUNCT	-	w10	punct	питання	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s2" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.229">
 Хлопці	Хлопці	хлопець	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w1	vocative	давати	VERB	Aspect=Imp Mood=Imp Number=Plur Person=2 VerbForm=Fin	w5
 <g/>
 ,	,	,	PUNCT	-	w2	punct	дівчина	NOUN	Animacy=Anim Case=Voc Gender=Fem Number=Plur	w3
@@ -649,7 +649,7 @@
 <g/>
 .	.	.	PUNCT	-	w9	punct	давати	VERB	Aspect=Imp Mood=Imp Number=Plur Person=2 VerbForm=Fin	w5
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s3" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.748">
 Я	Я	я	PRON	Animacy=Anim Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	пропонувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 пропоную	пропоную	пропонувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 розглянути	розглянути	розглянути	VERB	Aspect=Perf VerbForm=Inf	w3	xcomp	пропонувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -669,7 +669,7 @@
 <g/>
 .	.	.	PUNCT	-	w15	punct	пропонувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s4">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s4" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.036">
 І	І	і	CCONJ	-	w1	cc	доповідач	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing	w6
 там	там	там	ADV	PronType=Dem	w2	orphan	доповідач	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing	w6
 <g/>
@@ -706,7 +706,7 @@
 <g/>
 .	.	.	PUNCT	-	w27	punct	доповідач	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing	w6
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s5">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s5" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.866">
 Чи	Чи	чи	PART	-	w1	discourse	бути	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 є	є	бути	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 підтримка	підтримка	підтримка	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w3	nsubj	бути	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
@@ -718,7 +718,7 @@
 <g/>
 ?	?	?	PUNCT	-	w8	punct	бути	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s6">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s6" senti_3="Нейтральна" senti_6="нейтральна негативна" senti_n="2.466">
 Я	Я	я	PRON	Animacy=Anim Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	виходити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 виходжу	виходжу	виходити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 з	з	з	ADP	Case=Gen	w3	case	логіка	NOUN	Animacy=Inan Case=Gen Gender=Fem Number=Sing	w5
@@ -744,7 +744,7 @@
 <g/>
 .	.	.	PUNCT	-	w21	punct	виходити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s7">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s7" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.959">
 Підтримується	Підтримується	підтримуватися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w3
@@ -752,14 +752,14 @@
 <g/>
 ?	?	?	PUNCT	-	w4	punct	підтримуватися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s8">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p14.lang1.s8" senti_3="Позитивна" senti_6="позитивна" senti_n="4.796">
 Підтримується	Підтримується	підтримуватися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	підтримуватися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p15" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p15.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p15.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.343">
 Отже	Отже	отже	PART	-	w1	discourse	читання	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w33
 <g/>
 ,	,	,	PUNCT	-	w2	punct	отже	PART	-	w1
@@ -823,7 +823,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u1.p16" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u1.p16.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u1.p16.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.673">
 Андрій	Андрій	Андрій	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing	w1	root	-	-	-	-
 <name type="PER">
 Володимирович	Володимирович	Володимирович	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing	w2	flat:name	Андрій	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing	w1
@@ -839,9 +839,9 @@
 </speech>
 <note type="time" content="16:14:32"/>
 <note type="speaker" content="ІВАНЧУК А.В."/>
-<speech id="ParlaMint-UA_2016-01-26-m1.u2" text_id="ParlaMint-UA_2016-01-26-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2016-01-26" agenda="-" date="2016-01-26" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2016-01-26, номер засідання №1" speaker_role="регулярний" speaker_id="АндрійВолодимировичІванчук.1973" speaker_name="Іванчук, Андрій Володимирович" speaker_mp="MP" speaker_minister="notMinister" speaker_party="фНФ" speaker_party_name="Фракція Політичної партії \"Народний фронт\"" party_status="Coalition" party_orientation="правоцентристи — праві" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-UA_2016-01-26-m1.u2" text_id="ParlaMint-UA_2016-01-26-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2016-01-26" agenda="-" date="2016-01-26" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2016-01-26, номер засідання №1" speaker_role="регулярний" topic="Макроекономіка" speaker_id="АндрійВолодимировичІванчук.1973" speaker_name="Іванчук, Андрій Володимирович" speaker_mp="MP" speaker_minister="notMinister" speaker_party="фНФ" speaker_party_name="Фракція Політичної партії \"Народний фронт\"" party_status="Coalition" party_orientation="правоцентристи — праві" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-UA_2016-01-26-m1.u2.p1" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p1.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p1.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.075">
 Шановний	Шановний	шановний	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	w1	amod	пане	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing	w2
 пане	пане	пане	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing	w2	root	-	-	-	-
 головуючий	головуючий	головуючий	ADJ	Aspect=Imp Case=Nom Gender=Masc Number=Sing Tense=Pres VerbForm=Part Voice=Act	w3	amod	пане	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing	w2
@@ -853,7 +853,7 @@
 <g/>
 !	!	!	PUNCT	-	w8	punct	пане	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p1.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p1.lang1.s2" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.001">
 Комітет	Комітет	комітет	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	w1	nsubj	розглянути	VERB	Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w8
 <name type="ORG">
 Верховної	Верховної	верховний	ADJ	Case=Gen Gender=Fem Number=Sing	w2	amod	рада	PROPN	Animacy=Inan Case=Gen Gender=Fem Number=Sing	w3
@@ -887,7 +887,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u2.p2" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p2.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p2.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.076">
 Хотів	Хотів	хотіти	VERB	Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w1	root	-	-	-	-
 би	би	би	AUX	Mood=Cnd	w2	aux	хотіти	VERB	Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w1
 сказати	сказати	сказати	VERB	Aspect=Perf VerbForm=Inf	w3	xcomp	хотіти	VERB	Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w1
@@ -916,7 +916,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u2.p3" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p3.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p3.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.482">
 На	На	на	ADP	Case=Acc	w1	case	розгляд	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	w3
 ваш	ваш	ваш	DET	Animacy=Inan Case=Acc Gender=Masc Number=Sing Person=2 Poss=Yes PronType=Prs	w2	det	розгляд	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	w3
 розгляд	розгляд	розгляд	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	w3	obl	пропонуватися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
@@ -937,7 +937,7 @@
 <g/>
 .	.	.	PUNCT	-	w17	punct	пропонуватися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p3.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p3.lang1.s2" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="2.639">
 Хотілося	Хотілося	хотітися	VERB	Aspect=Imp Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w1	root	-	-	-	-
 б	б	б	AUX	Mood=Cnd	w2	aux	хотітися	VERB	Aspect=Imp Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w1
 сказати	сказати	сказати	VERB	Aspect=Perf VerbForm=Inf	w3	xcomp	хотітися	VERB	Aspect=Imp Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w1
@@ -964,7 +964,7 @@
 </name>
 .	.	.	PUNCT	-	w20	punct	хотітися	VERB	Aspect=Imp Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p3.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p3.lang1.s3" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.283">
 І	І	і	CCONJ	-	w1	cc	вноситися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 також	також	також	ADV	-	w2	advmod	вноситися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 вноситься	вноситься	вноситися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	root	-	-	-	-
@@ -994,7 +994,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u2.p4" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p4.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p4.lang1.s1" senti_3="Негативна" senti_6="змішана негативна" senti_n="0.536">
 Законопроектом	Законопроектом	законопроект	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing	w1	obl	передбачатися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 також	також	також	ADV	-	w2	advmod	передбачатися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 передбачається	передбачається	передбачатися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	root	-	-	-	-
@@ -1020,7 +1020,7 @@
 <g/>
 .	.	.	PUNCT	-	w23	punct	передбачатися	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p4.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p4.lang1.s2" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.264">
 Це	Це	це	PRON	Animacy=Inan Case=Nom Gender=Neut Number=Sing PronType=Dem	w1	nsubj	мати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 має	має	мати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 на	на	на	ADP	Case=Loc	w3	case	мета	NOUN	Animacy=Inan Case=Loc Gender=Fem Number=Sing	w4
@@ -1047,13 +1047,13 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u2.p5" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.280">
 Головне	Головне	головний	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	w1	root	-	-	-	-
 науково	науково	науковий	ADJ	-	w2	nsubj	головний	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	w1
 <g/>
 .	.	.	PUNCT	-	w3	punct	головний	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.763">
 Головне	Головне	головний	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	w1	amod	управління	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w3
 юридичне	юридичне	юридичний	ADJ	Case=Nom Gender=Neut Number=Sing	w2	amod	управління	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w3
 управління	управління	управління	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w3	nsubj	завізувати	VERB	Aspect=Perf Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w4
@@ -1074,7 +1074,7 @@
 <g/>
 .	.	.	PUNCT	-	w16	punct	завізувати	VERB	Aspect=Perf Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s3" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.118">
 Юридичне	Юридичне	юридичний	ADJ	Case=Nom Gender=Neut Number=Sing	w1	amod	управління	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w2
 управління	управління	управління	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w2	nsubj	наполягати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 наполягає	наполягає	наполягати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	root	-	-	-	-
@@ -1096,7 +1096,7 @@
 <g/>
 .	.	.	PUNCT	-	w16	punct	наполягати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s4">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s4" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.996">
 Врахувати	Врахувати	врахувати	VERB	Aspect=Perf VerbForm=Inf	w1	csubj	треба	ADV	-	w2
 треба	треба	треба	ADV	-	w2	root	-	-	-	-
 його	його	він	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	w3	obj	врахувати	VERB	Aspect=Perf VerbForm=Inf	w1
@@ -1122,7 +1122,7 @@
 <g/>
 .	.	.	PUNCT	-	w20	punct	треба	ADV	-	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s5">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p5.lang1.s5" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.319">
 Дякую	Дякую	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	пані	NOUN	Animacy=Anim Case=Nom Gender=Fem Number=Sing Uninflect=Yes	w3
@@ -1135,7 +1135,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u2.p6" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u2.p6.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u2.p6.lang1.s1" senti_3="Позитивна" senti_6="позитивна" senti_n="4.512">
 І	І	і	CCONJ	-	w1	cc	прийняти	VERB	Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w4
 тому	тому	тому	ADV	PronType=Dem	w2	advmod	прийняти	VERB	Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w4
 комітет	комітет	комітет	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	w3	nsubj	прийняти	VERB	Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin	w4
@@ -1158,9 +1158,9 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-UA_2016-01-26-m1.u73" text_id="ParlaMint-UA_2016-01-26-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2016-01-26" agenda="-" date="2016-01-26" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2016-01-26, номер засідання №1" speaker_role="регулярний" speaker_id="ЛіліяМихайлівнаГриневич.1965" speaker_name="Гриневич, Лілія Михайлівна" speaker_mp="MP" speaker_minister="notMinister" speaker_party="фНФ" speaker_party_name="Фракція Політичної партії \"Народний фронт\"" party_status="Coalition" party_orientation="правоцентристи — праві" speaker_gender="F" speaker_birth="1965">
+<speech id="ParlaMint-UA_2016-01-26-m1.u73" text_id="ParlaMint-UA_2016-01-26-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2016-01-26" agenda="-" date="2016-01-26" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2016-01-26, номер засідання №1" speaker_role="регулярний" topic="Освіта" speaker_id="ЛіліяМихайлівнаГриневич.1965" speaker_name="Гриневич, Лілія Михайлівна" speaker_mp="MP" speaker_minister="notMinister" speaker_party="фНФ" speaker_party_name="Фракція Політичної партії \"Народний фронт\"" party_status="Coalition" party_orientation="правоцентристи — праві" speaker_gender="F" speaker_birth="1965">
 <p id="ParlaMint-UA_2016-01-26-m1.u73.p1" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.885">
 безкоштовної	безкоштовної	безкоштовний	ADJ	Case=Gen Gender=Fem Number=Sing	w1	amod	освіта	NOUN	Animacy=Inan Case=Gen Gender=Fem Number=Sing	w4
 загальної	загальної	загальний	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	w2	amod	освіта	NOUN	Animacy=Inan Case=Gen Gender=Fem Number=Sing	w4
 середньої	середньої	середній	ADJ	Case=Gen Gender=Fem Number=Sing	w3	amod	освіта	NOUN	Animacy=Inan Case=Gen Gender=Fem Number=Sing	w4
@@ -1168,7 +1168,7 @@
 <g/>
 .	.	.	PUNCT	-	w5	punct	освіта	NOUN	Animacy=Inan Case=Gen Gender=Fem Number=Sing	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s2" senti_3="Нейтральна" senti_6="нейтральна негативна" senti_n="1.992">
 Значить	Значить	значити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1	parataxis:discourse	потрібно	ADV	Degree=Pos	w6
 <g/>
 ,	,	,	PUNCT	-	w2	punct	значити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1
@@ -1183,7 +1183,7 @@
 <g/>
 .	.	.	PUNCT	-	w11	punct	потрібно	ADV	Degree=Pos	w6
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s3" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.709">
 І	І	і	CCONJ	-	w1	cc	резерв	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	w8
 ці	ці	цей	DET	Case=Nom Number=Plur PronType=Dem	w2	det	гривня	NOUN	Animacy=Inan Case=Gen Gender=Fem Number=Plur	w5
 235	235	235	NUM	Case=Nom NumType=Card Uninflect=Yes	w3	nummod:gov	мільйон	NUM	Case=Gen Number=Plur NumType=Card	w4
@@ -1197,7 +1197,7 @@
 <g/>
 .	.	.	PUNCT	-	w11	punct	резерв	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	w8
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s4">
+<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s4" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="2.936">
 Ми	Ми	ми	PRON	Animacy=Anim Case=Nom Number=Plur Person=1 PronType=Prs	w1	nsubj	спілкуватися	VERB	Aspect=Imp Mood=Ind Number=Plur Tense=Past VerbForm=Fin	w4
 про	про	про	ADP	Case=Acc	w2	case	це	PRON	Animacy=Inan Case=Acc Gender=Neut Number=Sing PronType=Dem	w3
 це	це	це	PRON	Animacy=Inan Case=Acc Gender=Neut Number=Sing PronType=Dem	w3	obl	спілкуватися	VERB	Aspect=Imp Mood=Ind Number=Plur Tense=Past VerbForm=Fin	w4
@@ -1210,7 +1210,7 @@
 </name>
 .	.	.	PUNCT	-	w8	punct	спілкуватися	VERB	Aspect=Imp Mood=Ind Number=Plur Tense=Past VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s5">
+<s id="ParlaMint-UA_2016-01-26-m1.u73.p1.lang1.s5" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.529">
 Нам	Нам	ми	PRON	Animacy=Anim Case=Dat Number=Plur Person=1 PronType=Prs	w1	obj	необхідно	ADV	Degree=Pos	w2
 необхідно	необхідно	необхідно	ADV	Degree=Pos	w2	root	-	-	-	-
 вирішити	вирішити	вирішити	VERB	Aspect=Perf VerbForm=Inf	w3	csubj	необхідно	ADV	Degree=Pos	w2
@@ -1240,14 +1240,14 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u73.p2" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u73.p2.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u73.p2.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.478">
 Дякую	Дякую	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 за	за	за	ADP	Case=Acc	w2	case	увага	NOUN	Animacy=Inan Case=Acc Gender=Fem Number=Sing	w3
 увагу	увагу	увага	NOUN	Animacy=Inan Case=Acc Gender=Fem Number=Sing	w3	obl	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 <g/>
 .	.	.	PUNCT	-	w4	punct	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u73.p2.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u73.p2.lang1.s2" senti_3="Позитивна" senti_6="позитивна" senti_n="5.272">
 Дуже	Дуже	дуже	ADV	Degree=Pos	w1	advmod	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 прошу	прошу	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 всіх	всіх	весь	DET	Animacy=Anim Case=Acc Number=Plur PronType=Tot	w3	obj	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -1274,16 +1274,16 @@
 </p>
 </speech>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2016-01-26-m1.u74" text_id="ParlaMint-UA_2016-01-26-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2016-01-26" agenda="-" date="2016-01-26" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2016-01-26, номер засідання №1" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Парубій, Андрій Володимирович" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="правоцентристи — праві" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-UA_2016-01-26-m1.u74" text_id="ParlaMint-UA_2016-01-26-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2016-01-26" agenda="-" date="2016-01-26" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2016-01-26, номер засідання №1" speaker_role="головуючий" topic="Освіта" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Парубій, Андрій Володимирович" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="правоцентристи — праві" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p1" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p1.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p1.lang1.s1" senti_3="Позитивна" senti_6="позитивна" senti_n="4.636">
 Дякую	Дякую	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p2" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p2.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p2.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.943">
 Шановні	Шановні	шановний	ADJ	Case=Voc Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2
 колеги	колеги	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2	vocative	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w5
 <g/>
@@ -1296,7 +1296,7 @@
 <g/>
 .	.	.	PUNCT	-	w9	punct	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w5
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p2.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p2.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.760">
 Я	Я	я	PRON	Animacy=Anim Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 прошу	прошу	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 всіх	всіх	весь	DET	Animacy=Anim Case=Acc Number=Plur PronType=Tot	w3	obj	зайти	VERB	Aspect=Perf VerbForm=Inf	w4
@@ -1311,12 +1311,12 @@
 <g/>
 .	.	.	PUNCT	-	w11	punct	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p2.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p2.lang1.s3" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.572">
 Сьомий	Сьомий	сьомий	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	сьомий	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	w1
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p2.lang1.s4">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p2.lang1.s4" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.783">
 Женя	Женя	женя	NOUN	Animacy=Anim Case=Nom Gender=Fem Number=Sing	w1	nsubj	повернутися	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 VerbForm=Fin	w4
 <name type="PER">
 Дейдей	Дейдей	Дейдей	PROPN	Animacy=Anim Case=Nom Gender=Fem NameType=Sur Number=Sing Uninflect=Yes	w2	flat:title	женя	NOUN	Animacy=Anim Case=Nom Gender=Fem Number=Sing	w1
@@ -1341,7 +1341,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p3" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s1" senti_3="Негативна" senti_6="негативна" senti_n="0.304">
 Ми	Ми	ми	PRON	Animacy=Anim Case=Nom Number=Plur Person=1 PronType=Prs	w1	nsubj	могти	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 можемо	можемо	могти	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 його	його	він	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	w3	obj	приймати	VERB	Aspect=Imp VerbForm=Inf	w4
@@ -1355,7 +1355,7 @@
 <g/>
 ?	?	?	PUNCT	-	w10	punct	могти	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.077">
 Колеги	Колеги	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w1	vocative	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w4
 <g/>
 ,	,	,	PUNCT	-	w2	punct	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w1
@@ -1367,7 +1367,7 @@
 <g/>
 .	.	.	PUNCT	-	w8	punct	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s3" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.553">
 Я	Я	я	PRON	Animacy=Anim Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	ставити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 ставлю	ставлю	ставити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 сигнальне	сигнальне	сигнальний	ADJ	Case=Acc Gender=Neut Number=Sing	w3	amod	голосування	NOUN	Animacy=Inan Case=Acc Gender=Neut Number=Sing	w4
@@ -1378,7 +1378,7 @@
 <g/>
 .	.	.	PUNCT	-	w8	punct	ставити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s4">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s4" senti_3="Позитивна" senti_6="позитивна" senti_n="4.547">
 Він	Він	він	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	w1	nsubj	важливий	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	w2
 важливий	важливий	важливий	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	w2	root	-	-	-	-
 <g/>
@@ -1399,7 +1399,7 @@
 <g/>
 .	.	.	PUNCT	-	w16	punct	важливий	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s5">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s5" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.141">
 Я	Я	я	PRON	Animacy=Anim Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 прошу	прошу	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 підтримати	підтримати	підтримати	VERB	Aspect=Perf VerbForm=Inf	w3	xcomp	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -1411,7 +1411,7 @@
 <g/>
 .	.	.	PUNCT	-	w8	punct	просити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s6">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s6" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.242">
 Колеги	Колеги	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w1	vocative	голосувати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w3
 <g/>
 ,	,	,	PUNCT	-	w2	punct	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w1
@@ -1419,7 +1419,7 @@
 <g/>
 !	!	!	PUNCT	-	w4	punct	голосувати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w3
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s7">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p3.lang1.s7" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.291">
 1857	1857	1857	NOUN	Case=Nom NumType=Card Uninflect=Yes	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	голосування	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w4
@@ -1431,7 +1431,7 @@
 </p>
 <note type="time" content="17:58:48"/>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p4" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p4.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p4.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.760">
 За	За	за	ADP	Case=Acc	w1	root	-	-	-	-
 <g/>
 -	-	-	PUNCT	PunctType=Hyph	w2	punct	232	NUM	Case=Nom Gender=Masc NumType=Card Uninflect=Yes	w3
@@ -1440,7 +1440,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p5" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p5.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p5.lang1.s1" senti_3="Позитивна" senti_6="позитивна" senti_n="4.879">
 Дуже	Дуже	дуже	ADV	Degree=Pos	w1	advmod	добре	ADV	Degree=Pos	w2
 добре	добре	добре	ADV	Degree=Pos	w2	root	-	-	-	-
 <g/>
@@ -1448,7 +1448,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p6" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.924">
 Колеги	Колеги	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w1	vocative	давати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w7
 <g/>
 ,	,	,	PUNCT	-	w2	punct	пане	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Sing	w3
@@ -1471,7 +1471,7 @@
 <g/>
 .	.	.	PUNCT	-	w15	punct	давати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w7
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang1.s2" senti_3="Негативна" senti_6="негативна" senti_n="0.200">
 Ми	Ми	ми	PRON	Animacy=Anim Case=Nom Number=Plur Person=1 PronType=Prs	w1	nsubj	проголосувати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w10
 <g/>
 ,	,	,	PUNCT	-	w2	punct	затягнути	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin	w5
@@ -1489,7 +1489,7 @@
 <g/>
 .	.	.	PUNCT	-	w13	punct	проголосувати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w10
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang1.s3">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang1.s3" senti_3="Позитивна" senti_6="позитивна" senti_n="4.790">
 В	В	в	ADP	Case=Gen	w1	case	я	PRON	Animacy=Anim Case=Gen Number=Sing Person=1 PronType=Prs	w2
 мене	мене	я	PRON	Animacy=Anim Case=Gen Number=Sing Person=1 PronType=Prs	w2	obl	бути	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 просто	просто	просто	PART	-	w3	discourse	бути	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
@@ -1510,7 +1510,7 @@
 <g/>
 .	.	.	PUNCT	-	w17	punct	бути	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang1.s4">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang1.s4" senti_3="Негативна" senti_6="змішана негативна" senti_n="0.690">
 Ми	Ми	ми	PRON	Animacy=Anim Case=Nom Number=Plur Person=1 PronType=Prs	w1	nsubj	обговорювати	VERB	Aspect=Imp VerbForm=Inf	w6
 в	в	в	ADP	Case=Acc	w2	case	раз	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	w4
 інший	інший	інший	DET	Animacy=Inan Case=Acc Gender=Masc Number=Sing PronType=Ind	w3	det	раз	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	w4
@@ -1530,14 +1530,14 @@
 <g/>
 .	.	.	PUNCT	-	w16	punct	обговорювати	VERB	Aspect=Imp VerbForm=Inf	w6
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang2.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p6.lang2.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.353">
 Правильно	Правильно	правильный	ADJ	Degree=Pos Gender=Neut Number=Sing Variant=Short	w1	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	w2	punct	правильный	ADJ	Degree=Pos Gender=Neut Number=Sing Variant=Short	w1
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p7" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p7.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p7.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="3.459">
 Я	Я	я	PRON	Animacy=Anim Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	ставити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 ставлю	ставлю	ставити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 на	на	на	ADP	Case=Acc	w3	case	голосування	NOUN	Animacy=Inan Case=Acc Gender=Neut Number=Sing	w4
@@ -1597,7 +1597,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p8" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p8.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p8.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="2.729">
 Шановні	Шановні	шановний	ADJ	Case=Nom Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2
 колеги	колеги	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2	nsubj	виходити	VERB	Aspect=Imp Mood=Imp Number=Plur Person=2 VerbForm=Fin	w5
 <g/>
@@ -1621,7 +1621,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p9" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p9.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p9.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.312">
 Я	Я	я	PRON	Animacy=Anim Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	ставити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 ставлю	ставлю	ставити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 на	на	на	ADP	Case=Acc	w3	case	голосування	NOUN	Animacy=Inan Case=Acc Gender=Neut Number=Sing	w4
@@ -1642,7 +1642,7 @@
 <g/>
 .	.	.	PUNCT	-	w16	punct	ставити	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p9.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p9.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.384">
 Голосуємо	Голосуємо	голосувати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w3
@@ -1664,7 +1664,7 @@
 </p>
 <note type="time" content="18:00:00"/>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p10" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p10.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p10.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.900">
 За	За	за	ADP	Case=Acc	w1	root	-	-	-	-
 <g/>
 -	-	-	PUNCT	PunctType=Hyph	w2	punct	235	NUM	Case=Nom NumType=Card Uninflect=Yes	w3
@@ -1673,7 +1673,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p11" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p11.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p11.lang1.s1" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="4.411">
 Рішення	Рішення	рішення	NOUN	Animacy=Inan Case=Nom Gender=Neut Number=Sing	w1	nsubj	прийнятий	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Pass	w2
 прийняте	прийняте	прийнятий	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Pass	w2	root	-	-	-	-
 <g/>
@@ -1681,7 +1681,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p12" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p12.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p12.lang1.s1" senti_3="Позитивна" senti_6="позитивна" senti_n="5.329">
 Вітаю	Вітаю	вітати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 голову	голову	голова	NOUN	Animacy=Inan Case=Acc Gender=Fem Number=Sing	w2	obj	вітати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
 комітету	комітету	комітет	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	w3	nmod	голова	NOUN	Animacy=Inan Case=Acc Gender=Fem Number=Sing	w2
@@ -1700,7 +1700,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p13" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p13.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p13.lang1.s1" senti_3="Позитивна" senti_6="позитивна" senti_n="5.118">
 Дякую	Дякую	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 за	за	за	ADP	Case=Acc	w2	case	робота	NOUN	Animacy=Inan Case=Acc Gender=Fem Number=Sing	w3
 роботу	роботу	робота	NOUN	Animacy=Inan Case=Acc Gender=Fem Number=Sing	w3	obl	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1
@@ -1717,7 +1717,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p14" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p14.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p14.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна негативна" senti_n="2.178">
 Час	Час	час	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	w1	nsubj	вичерпаний	ADJ	Aspect=Perf Case=Nom Gender=Masc Number=Sing VerbForm=Part Voice=Pass	w9
 <g/>
 ,	,	,	PUNCT	-	w2	punct	передбачений	ADJ	Aspect=Perf Case=Nom Gender=Masc Number=Sing VerbForm=Part Voice=Pass	w3
@@ -1734,7 +1734,7 @@
 <g/>
 .	.	.	PUNCT	-	w10	punct	вичерпаний	ADJ	Aspect=Perf Case=Nom Gender=Masc Number=Sing VerbForm=Part Voice=Pass	w9
 </s>
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p14.lang1.s2">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p14.lang1.s2" senti_3="Позитивна" senti_6="змішана позитивна" senti_n="3.516">
 Завтра	Завтра	завтра	ADV	-	w1	advmod	збиратися	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w3
 ми	ми	ми	PRON	Animacy=Anim Case=Nom Number=Plur Person=1 PronType=Prs	w2	nsubj	збиратися	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w3
 збираємося	збираємося	збиратися	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w3	root	-	-	-	-
@@ -1755,7 +1755,7 @@
 </s>
 </p>
 <p id="ParlaMint-UA_2016-01-26-m1.u74.p15" lang="Українська">
-<s id="ParlaMint-UA_2016-01-26-m1.u74.p15.lang1.s1">
+<s id="ParlaMint-UA_2016-01-26-m1.u74.p15.lang1.s1" senti_3="Нейтральна" senti_6="нейтральна позитивна" senti_n="2.618">
 І	І	і	CCONJ	-	w1	cc	оголошувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w9
 на	на	на	ADP	Case=Loc	w2	case	цей	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	w3
 цьому	цьому	цей	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	w3	obl	оголошувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w9

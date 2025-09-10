@@ -19,19 +19,35 @@
                <resp xml:lang="en">Linguistic annotation</resp>
             </respStmt>
             <respStmt>
-               <persName>Taja Kuzman</persName>
-               <persName>Nikola Ljubešić</persName>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
             </respStmt>
             <respStmt>
-               <persName>Paul Rayson</persName>
-               <persName>Matthew Coole</persName>
-               <persName>John Vidler</persName>
+               <persName ref="https://orcid.org/0000-0002-1257-2191">Paul Rayson</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0003-3442-6862">John Vidler</persName>
                <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="nl">De Europese Commissie</orgName>
@@ -43,7 +59,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="173" xml:lang="en">173 speeches</measure>
@@ -59,7 +75,7 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2006</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -67,7 +83,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -90,6 +106,7 @@
                <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="gap" occurs="11"/>
                <tagUsage gi="kinesic" occurs="2"/>
+               <tagUsage gi="measure" occurs="2433"/>
                <tagUsage gi="name" occurs="1363"/>
                <tagUsage gi="note" occurs="525"/>
                <tagUsage gi="pc" occurs="5209"/>
@@ -118,8 +135,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-13">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2024-05-16">
             <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
          <change when="2021-02-15">
@@ -132,9 +151,10 @@
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note1">The meeting was opened at 2.18 p.m. and chaired by Siegfried Bracke.</note>
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note2">The meeting was called to order at 2.18 p.m. and chaired by Mr. Siegfried Bracke.</note>
             <note type="speaker" xml:lang="en" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note3" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note3">The President shall:</note>
-            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" who="#BrackeSiegfried" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1">
+            <u ana="#chair topic:other" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" who="#BrackeSiegfried" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1">
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4">
+                     <measure type="sentiment" quantity="3.913" ana="senti:mixpos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -144,6 +164,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg2" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg2">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5">
+                     <measure type="sentiment" quantity="3.676" ana="senti:mixpos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5.t3" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
@@ -202,9 +223,10 @@
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note51" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note51">- Ms Annemie Turtelboom to the Prime Minister on "Saudi Arabia's Election to the United Nations Commission on the Status of Women" (No. P2001)</note>
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note52" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note52">- Catherine Fonck to the Prime Minister on "Saudi Arabia's Election to the UN Commission on the Status of Women" (P2002 No.)</note>
             <note type="speaker" xml:lang="en" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note53" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note53">01.01. Wouter De Vriendt (Ecolo-Green):</note>
-            <u ana="#regular" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" who="#DeVriendtWouter" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2">
+            <u ana="#regular topic:civil" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" who="#DeVriendtWouter" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2">
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg3" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg3">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69">
+                     <measure type="sentiment" quantity="2.154" ana="senti:neuneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69"/>
                      <phr type="sem" function="Z1m" ana="sem:Z1">
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t2" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Prime" function="Z1m" ana="sem:Z1">Prime</w>
@@ -242,6 +264,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70">
+                     <measure type="sentiment" quantity="3.421" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">That</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -255,6 +278,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71" n="3" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71">
+                     <measure type="sentiment" quantity="1.114" ana="senti:mixneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71"/>
                      <name type="PER">
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Didier" function="Z1mf,Z3c" ana="sem:Z1">Didier</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Reynder" function="Z1mf,Z3c" ana="sem:Z1">Reynders</w>
@@ -280,6 +304,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg4" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg4">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72">
+                     <measure type="sentiment" quantity="0.002" ana="senti:negneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="woman" function="S2.1f" ana="sem:S2.1">women</w>
@@ -295,6 +320,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73">
+                     <measure type="sentiment" quantity="1.355" ana="senti:mixneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t1" pos="IN" msd="UPosTag=ADP" lemma="without" function="Z5" ana="sem:Z5">Without</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="permission" function="S7.4+" ana="sem:S7.4p">permission</w>
@@ -316,6 +342,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74" n="3" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74">
+                     <measure type="sentiment" quantity="0.010" ana="senti:negneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="woman" function="S2.1f" ana="sem:S2.1">Women</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
@@ -341,6 +368,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg5" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg5">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75">
+                     <measure type="sentiment" quantity="0.385" ana="senti:negneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75"/>
                      <name type="PER">
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Alexander" function="Z1mf,Z3c" ana="sem:Z1">Alexander</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="De" function="Z1mf,Z3c" ana="sem:Z1">De</w>
@@ -359,6 +387,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg6" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg6">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76">
+                     <measure type="sentiment" quantity="0.043" ana="senti:negneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t1" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="UN" function="Z1mf,Z3c" ana="sem:Z1">UN</w>
@@ -384,6 +413,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77">
+                     <measure type="sentiment" quantity="0.137" ana="senti:negneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -437,6 +467,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg7" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg7">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78">
+                     <measure type="sentiment" quantity="0.054" ana="senti:negneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t1" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="here" function="M6,T1.1.2,T1.2" ana="sem:M6" join="right">Here</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
                      <phr type="sem" function="Z1m" ana="sem:Z1">
@@ -462,6 +493,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg8" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg8">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79">
+                     <measure type="sentiment" quantity="0.318" ana="senti:negneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="colleague" function="Z2,Z3c" ana="sem:Z2">Colleagues</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
                      <name type="MISC">
@@ -479,6 +511,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80">
+                     <measure type="sentiment" quantity="0.044" ana="senti:negneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t1" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="throw" function="M2,A2.2,Q2.2,A1.1.1,X2.5-" ana="sem:M2">Throwing</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="woman" function="S2.1f" ana="sem:S2.1" join="right">women</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t3" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
@@ -501,6 +534,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg9" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg9">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81">
+                     <measure type="sentiment" quantity="1.252" ana="senti:mixneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -561,9 +595,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" who="#BrackeSiegfried" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172">
+            <u ana="#chair topic:other" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" who="#BrackeSiegfried" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172">
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1175" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1175">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810">
+                     <measure type="sentiment" quantity="2.552" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t1" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p">Does</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t2" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="anyone" function="Z8mfc" ana="sem:Z8">anyone</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="ask" function="Q2.2" ana="sem:Q2.2">ask</w>
@@ -579,6 +614,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1176" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1176">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812">
+                     <measure type="sentiment" quantity="2.510" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t1" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Is</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t2" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="anyone" function="Z8mfc" ana="sem:Z8">anyone</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="ask" function="Q2.2,I1.3" ana="sem:Q2.2">asking</w>
@@ -598,6 +634,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1177" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1177">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814">
+                     <measure type="sentiment" quantity="3.055" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814.t1" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="starting" function="T2+" ana="sem:T2p">Starting</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -607,6 +644,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1178" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1178">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815">
+                     <measure type="sentiment" quantity="2.809" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815.t1" pos="VB" msd="UPosTag=VERB|Mood=Imp|Person=2|VerbForm=Fin" lemma="start" function="T2+,E5-,E3-" ana="sem:T2p">Start</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="voting" function="G1.2" ana="sem:G1.2" join="right">voting</w>
@@ -615,6 +653,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1179" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1179">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816">
+                     <measure type="sentiment" quantity="3.401" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t1" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p">Did</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t2" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="everyone" function="Z8/N5.1+c" ana="sem:Z8 sem:N5.1p">everyone</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
@@ -627,11 +666,13 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817">
+                     <measure type="sentiment" quantity="3.450" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817"/>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">/</pc>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1180" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1180">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818">
+                     <measure type="sentiment" quantity="2.348" ana="senti:neuneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t1" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p">Did</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t2" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="everyone" function="Z8/N5.1+c" ana="sem:Z8 sem:N5.1p">everyone</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
@@ -646,6 +687,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1181" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1181">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819">
+                     <measure type="sentiment" quantity="3.342" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="end" function="M6,T2-,O2,X7+,N4" ana="sem:M6">End</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
@@ -654,6 +696,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1182" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1182">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820">
+                     <measure type="sentiment" quantity="3.113" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="end" function="M6,T2-,O2,X7+,N4" ana="sem:M6">End</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="voting" function="G1.2" ana="sem:G1.2" join="right">voting</w>
@@ -662,6 +705,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1183" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1183">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821">
+                     <measure type="sentiment" quantity="3.321" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821"/>
                      <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="result" function="Df/A5.1+++mfnc" ana="sem:A5.1p">Result</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
@@ -673,6 +717,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1184" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1184">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822">
+                     <measure type="sentiment" quantity="2.885" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822"/>
                      <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="result" function="Df/A5.1+++mfnc" ana="sem:A5.1p">Result</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
@@ -684,68 +729,81 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1185" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1185">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824">
+                     <measure type="sentiment" quantity="3.147" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824.t1" pos="UH" msd="UPosTag=INTJ" lemma="yes" function="Z4" ana="sem:Z4">Yes</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1186" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1186">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825">
+                     <measure type="sentiment" quantity="3.226" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825.t1" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="129" function="N1" ana="sem:N1">129</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1187" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1187">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826">
+                     <measure type="sentiment" quantity="3.570" ana="senti:mixpos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826.t1" pos="UH" msd="UPosTag=INTJ" lemma="yes" function="Z4" ana="sem:Z4">Yes</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1188" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1188">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827">
+                     <measure type="sentiment" quantity="3.280" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827.t1" pos="UH" msd="UPosTag=INTJ|Polarity=Neg" lemma="no" function="Z4" ana="sem:Z4" join="right">No</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1189" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1189">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828">
+                     <measure type="sentiment" quantity="2.862" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828.t1" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="0" function="Z99" ana="sem:Z99" join="right">0</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</pc>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1190" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1190">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829">
+                     <measure type="sentiment" quantity="3.020" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829.t1" pos="UH" msd="UPosTag=INTJ" lemma="no" function="Z4" ana="sem:Z4">No</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1191" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1191">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830">
+                     <measure type="sentiment" quantity="3.095" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="abstention" function="G1.2,S1.1.3-,A9-" ana="sem:G1.2">Abstentions</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1192" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1192">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831">
+                     <measure type="sentiment" quantity="2.862" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831.t1" pos="LS" msd="UPosTag=X" lemma="0" function="Z9" ana="sem:Z9">0</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1193" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1193">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832">
+                     <measure type="sentiment" quantity="2.492" ana="senti:neuneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="abstension" function="Z99" ana="sem:Z99">Abstensions</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1194" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1194">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833">
+                     <measure type="sentiment" quantity="3.093" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="total" function="A13.2,N5.1+" ana="sem:A13.2">Total</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1195" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1195">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834">
+                     <measure type="sentiment" quantity="3.226" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834.t1" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="129" function="N1" ana="sem:N1">129</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1196" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1196">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835">
+                     <measure type="sentiment" quantity="3.667" ana="senti:mixpos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="total" function="A13.2,N5.1+" ana="sem:A13.2">Total</w>
                   </s>
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1197" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1197">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836">
+                     <measure type="sentiment" quantity="3.205" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t1" pos="RB" msd="UPosTag=ADV" lemma="consequently" function="A2.2" ana="sem:A2.2" join="right">Consequently</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -763,6 +821,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837">
+                     <measure type="sentiment" quantity="2.516" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t3" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
@@ -775,6 +834,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1198" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1198">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838">
+                     <measure type="sentiment" quantity="2.976" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838"/>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2421/5" function="N1" ana="sem:N1" join="right">2421/5</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">)</pc>
@@ -782,6 +842,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1199" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1199">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839">
+                     <measure type="sentiment" quantity="3.199" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t1" pos="RB" msd="UPosTag=ADV" lemma="accordingly" function="A1.2+,A2.2" ana="sem:A1.2p" join="right">Accordingly</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -799,6 +860,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840">
+                     <measure type="sentiment" quantity="2.864" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t3" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
@@ -812,6 +874,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1200" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1200">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841">
+                     <measure type="sentiment" quantity="2.976" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841"/>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2421/5" function="N1" ana="sem:N1" join="right">2421/5</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">)</pc>
@@ -820,9 +883,10 @@
             </u>
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note338" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note338">28 Adoption of the agenda</note>
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note339" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note339">28 Adoption of the agenda</note>
-            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" who="#BrackeSiegfried" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173">
+            <u ana="#chair topic:defen" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" who="#BrackeSiegfried" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173">
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1201" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1201">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844">
+                     <measure type="sentiment" quantity="2.866" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="proceed" function="A1.1.1,T2++,M1" ana="sem:A1.1.1">proceed</w>
@@ -848,6 +912,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1202" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1202">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845">
+                     <measure type="sentiment" quantity="2.735" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="proceed" function="A1.1.1,T2++,M1" ana="sem:A1.1.1">proceed</w>
@@ -875,6 +940,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1203" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1203">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846">
+                     <measure type="sentiment" quantity="1.835" ana="senti:neuneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="propose" function="Q2.2/X7+,X4.1,G1.2,Q2.2/S4" ana="sem:Q2.2 sem:X7p">propose</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
@@ -920,6 +986,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1204" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1204">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847">
+                     <measure type="sentiment" quantity="1.793" ana="senti:neuneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="suggest" function="Q2.2,Q1.1" ana="sem:Q2.2">suggest</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
@@ -962,6 +1029,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1205" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1205">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848">
+                     <measure type="sentiment" quantity="2.356" ana="senti:neuneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="sure" function="A7+,Z4" ana="sem:A7p">sure</w>
@@ -973,6 +1041,7 @@
                   </s>
                   <note type="answer" xml:lang="en" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note340" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note340">No.</note>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850">
+                     <measure type="sentiment" quantity="3.605" ana="senti:mixpos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t2" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="amend" function="A2.1+" ana="sem:A2.1p">amended</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p">agenda</w>
@@ -984,12 +1053,14 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1206" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1206">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851">
+                     <measure type="sentiment" quantity="1.896" ana="senti:neuneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851.t1" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">No</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="observation" function="X3.4,Q2.1/X2.4,X2.1" ana="sem:X3.4" join="right">observation</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <note type="answer" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note341" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note341">No</note>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853">
+                     <measure type="sentiment" quantity="3.236" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p" join="right">agenda</w>
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -1003,6 +1074,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1207" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1207">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854">
+                     <measure type="sentiment" quantity="3.354" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="sitting" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -1010,6 +1082,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855">
+                     <measure type="sentiment" quantity="3.153" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855"/>
                      <phr type="sem" function="T1.1.3" ana="sem:T1.1.3">
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="next" function="T1.1.3" ana="sem:T1.1.3">Next</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="T1.1.3" ana="sem:T1.1.3">meeting</w>
@@ -1029,6 +1102,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1208" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1208">
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856">
+                     <measure type="sentiment" quantity="2.851" ana="senti:neupos" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -1036,6 +1110,7 @@
 <pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857">
+                     <measure type="sentiment" quantity="2.126" ana="senti:neuneg" corresp="#ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857"/>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t1" pos="RB" msd="UPosTag=ADV" lemma="next" function="N4" ana="sem:N4">Next</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t2" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="sit" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
 <w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t3" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>

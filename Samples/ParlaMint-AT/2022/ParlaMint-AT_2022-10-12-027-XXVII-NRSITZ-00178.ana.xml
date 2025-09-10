@@ -38,10 +38,26 @@
                <resp xml:lang="de">Metadaten und Übersetzung</resp>
                <resp xml:lang="en">Metadata and translation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="de">CLARIN-ERIC</orgName>
                <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
@@ -50,7 +66,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="321" xml:lang="de">321 Äußerungen</measure>
@@ -64,13 +80,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-24">2025-06-24</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -99,6 +115,7 @@
                <tagUsage gi="kinesic" occurs="472"/>
                <tagUsage gi="link" occurs="108207"/>
                <tagUsage gi="linkGrp" occurs="6257"/>
+               <tagUsage gi="measure" occurs="6257"/>
                <tagUsage gi="name" occurs="1850"/>
                <tagUsage gi="note" occurs="1180"/>
                <tagUsage gi="pb" occurs="361"/>
@@ -125,10 +142,12 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-24">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-02">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2023-07-14">
-            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+            <name>Hannes Pirker</name>: Converted from source HTML to TEI.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -147,9 +166,10 @@
                <time when="2022-10-12T10:04:24+02:00">10:04:24</time>
             </note>
             <note type="speaker" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ana.note5">Präsident Mag. Wolfgang Sobotka</note>
-            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4759" ana="#chair">
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4759" ana="#chair topic:other">
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s1">
+                     <measure type="sentiment" quantity="3.374" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s1.w1" lemma="mein" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|Poss=Yes|PronType=Prs">Meine</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s1.w2" lemma="sehr" msd="UPosTag=ADV|Degree=Pos">sehr</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s1.w3" lemma="ehren" msd="UPosTag=ADJ|Degree=Pos|Number=Plur">geehrten</w>
@@ -192,6 +212,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s2">
+                     <measure type="sentiment" quantity="4.863" ana="senti:pospos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s2"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s2.w1" lemma="Ich" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s2.w2" lemma="dürfen" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod">darf</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s2.w3" lemma="Sie" msd="UPosTag=PRON|Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs" join="right">Sie</w>
@@ -218,6 +239,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s3">
+                     <measure type="sentiment" quantity="4.709" ana="senti:pospos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s3"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s3.w1" lemma="Ich" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s3.w2" lemma="freuen" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">freue</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s3.w3" lemma="mich" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes">mich</w>
@@ -270,6 +292,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s4">
+                     <measure type="sentiment" quantity="4.502" ana="senti:pospos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s4"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s4.w1" lemma="Ich" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s4.w2" lemma="grüßen" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">grüße</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s4.w3" lemma="die" msd="UPosTag=DET|Case=Acc|Number=Plur|PronType=Art">die</w>
@@ -310,6 +333,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s5">
+                     <measure type="sentiment" quantity="4.575" ana="senti:pospos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s5"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s5.w1" lemma="mein" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs">Mein</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s5.w2" lemma="besondere" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing">besonderer</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s5.w3" lemma="Gruss" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Gruß</w>
@@ -361,6 +385,7 @@
                      <desc>Allgemeiner Beifall.</desc>
                   </kinesic>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s6">
+                     <measure type="sentiment" quantity="4.390" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s6"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s6.w1" lemma="Ich" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s6.w2" lemma="dürfen" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod">darf</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s6.w3" lemma="auch" msd="UPosTag=ADV">auch</w>
@@ -393,6 +418,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s7">
+                     <measure type="sentiment" quantity="4.420" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s7"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s7.w1" lemma="mein" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs">Mein</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s7.w2" lemma="Gruss" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Gruß</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s7.w3" lemma="gelten" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">gilt</w>
@@ -437,6 +463,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8">
+                     <measure type="sentiment" quantity="3.126" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8.w1">Zur<w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8.w2" lemma="zu" msd="UPosTag=ADP|AdpType=Prep|Case=Dat" norm="Zu"/><w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8.w3" lemma="der" msd="UPosTag=DET|Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" norm="der"/></w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8.w4" lemma="Behandlung" msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Geschäftsbehandlung</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8.w5" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
@@ -463,6 +490,7 @@
                   </s>
                   <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4773">Ruf bei der ÖVP:Das fängt schon gut an!</note>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s9">
+                     <measure type="sentiment" quantity="4.145" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s9"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s9.w1" lemma="Ich" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s9.w2" lemma="dürfen" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod">darf</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s9.w3" lemma="ihm" msd="UPosTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs">ihm</w>
@@ -490,9 +518,10 @@
             </note>
             <note type="speaker" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ana.note9">Abgeordneter Mag. Jörg Leichtfried (SPÖ)</note>
             <note type="procedural" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ana.note10">zur Geschäftsbehandlung</note>
-            <u who="#PAD_22694" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4802" ana="#regular">
+            <u who="#PAD_22694" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4802" ana="#regular topic:gover">
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s1">
+                     <measure type="sentiment" quantity="4.459" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s1.w1" lemma="Herr" msd="UPosTag=ADJ|Case=Nom|Gender=Masc|Number=Sing|Person=3">Herr</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s1.w2" lemma="Präsident" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3" join="right">Präsident</w>
 <pc xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s1.w3" msd="UPosTag=PUNCT|PunctType=Peri">!</pc>
@@ -503,6 +532,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s2">
+                     <measure type="sentiment" quantity="4.193" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s2"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s2.w1" lemma="Herr" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing|Person=3">Herr</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s2.w2" lemma="Bundespräsident" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3" join="right">Bundespräsident</w>
 <pc xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s2.w3" msd="UPosTag=PUNCT|PunctType=Peri">!</pc>
@@ -513,6 +543,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s3">
+                     <measure type="sentiment" quantity="4.040" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s3"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s3.w1" lemma="schätzen" msd="UPosTag=ADJ|Degree=Pos|Number=Plur">Geschätzte</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s3.w2" lemma="Dame" msd="UPosTag=NOUN|Gender=Fem|Number=Plur|Person=3">Damen</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s3.w3" lemma="und" msd="UPosTag=CCONJ">und</w>
@@ -533,6 +564,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s4">
+                     <measure type="sentiment" quantity="4.797" ana="senti:pospos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s4"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s4.w1" lemma="Es" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs">Es</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s4.w2" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s4.w3" lemma="mir" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=1|PronType=Prs">mir</w>
@@ -573,6 +605,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s5">
+                     <measure type="sentiment" quantity="2.272" ana="senti:neuneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s5"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s5.w1" lemma="Das" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem">Das</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s5.w2" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s5.w3" lemma="auch" msd="UPosTag=ADV">auch</w>
@@ -618,6 +651,7 @@
                      <desc>Oje-Rufe bei der ÖVP.</desc>
                   </vocal>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s6">
+                     <measure type="sentiment" quantity="0.488" ana="senti:negneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s6"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s6.w1" lemma="Der" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Art">Der</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s6.w2" lemma="Herr" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing">Herr</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s6.w3" lemma="Kanzler" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Bundeskanzler</w>
@@ -651,6 +685,7 @@
                   </kinesic>
                   <pb n="42"/>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s7">
+                     <measure type="sentiment" quantity="0.504" ana="senti:mixneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s7"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s7.w1" lemma="Trotz" msd="UPosTag=ADP|AdpType=Prep">Trotz</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s7.w2" lemma="des" msd="UPosTag=DET|Case=Gen|Gender=Neut|Number=Sing|PronType=Art">des</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s7.w3" lemma="vollständig" msd="UPosTag=ADJ|Degree=Pos|Number=Sing">vollständigen</w>
@@ -709,6 +744,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s8">
+                     <measure type="sentiment" quantity="2.537" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s8"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s8.w1" lemma="Wir" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">Wir</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s8.w2" lemma="haben" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">haben</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s8.w3" lemma="das" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem">das</w>
@@ -777,6 +813,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s9">
+                     <measure type="sentiment" quantity="0.601" ana="senti:mixneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s9"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s9.w1" lemma="Das" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem">Das</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s9.w2" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s9.w3" lemma="anscheinend" msd="UPosTag=ADJ|Degree=Pos|Variant=Short">anscheinend</w>
@@ -813,6 +850,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s10">
+                     <measure type="sentiment" quantity="0.234" ana="senti:negneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s10"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s10.w1" lemma="Die" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s10.w2" lemma="Klimaschutz-" msd="UPosTag=NOUN|Hyph=Yes">Klimaschutz-</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s10.w3" lemma="und" msd="UPosTag=CCONJ">und</w>
@@ -866,6 +904,7 @@
                      <desc>Zwischenrufe der Abgeordneten Disoski und Maurer.</desc>
                   </vocal>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s11">
+                     <measure type="sentiment" quantity="2.099" ana="senti:neuneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s11"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s11.w1" lemma="Die" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s11.w2" lemma="Ministerin" msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Justizministerin</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s11.w3" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
@@ -887,6 +926,7 @@
                   </s>
                   <note type="comment" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ana.note11">Zwischenbemerkung von Bundesministerin Zadić.</note>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s12">
+                     <measure type="sentiment" quantity="2.290" ana="senti:neuneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s12"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s12.w1" lemma="Der" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Art">Der</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s12.w2" lemma="Minister" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Außenminister</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s12.w3" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
@@ -907,6 +947,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s13">
+                     <measure type="sentiment" quantity="2.643" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s13"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s13.w1" lemma="Der" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Art">Der</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s13.w2" lemma="Minister" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Gesundheitsminister</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s13.w3" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
@@ -921,6 +962,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s14">
+                     <measure type="sentiment" quantity="2.721" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s14"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s14.w1" lemma="Der" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Art">Der</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s14.w2" lemma="Minister" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Innenminister</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s14.w3" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
@@ -943,6 +985,7 @@
                      <desc>Präsident Sobotka gibt das Glockenzeichen.</desc>
                   </kinesic>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s15">
+                     <measure type="sentiment" quantity="0.247" ana="senti:negneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s15"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s15.w1" lemma="Sie" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs">Sie</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s15.w2" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin">sind</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s15.w3" lemma="immer" msd="UPosTag=ADV">immer</w>
@@ -975,12 +1018,14 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s16">
+                     <measure type="sentiment" quantity="4.547" ana="senti:pospos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s16"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s16.w1" lemma="schätzen" msd="UPosTag=ADJ|Degree=Pos|Number=Plur">Geschätzte</w>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link ana="ud-syn:root" target="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s16 #ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s16.w1"/>
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s17">
+                     <measure type="sentiment" quantity="1.030" ana="senti:mixneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s17"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s17.w1" lemma="Dame" msd="UPosTag=NOUN|Gender=Fem|Number=Plur|Person=3">Damen</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s17.w2" lemma="und" msd="UPosTag=CCONJ">und</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s17.w3" lemma="Herr" msd="UPosTag=NOUN|Gender=Masc|Number=Plur|Person=3">Herren</w>
@@ -1017,6 +1062,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s18">
+                     <measure type="sentiment" quantity="2.650" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s18"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s18.w1" lemma="nehmen" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin">Nehmen</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s18.w2" lemma="Sie" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs">Sie</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s18.w3" lemma="dieses" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem">dieses</w>
@@ -1035,9 +1081,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27485" ana="#chair">
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27485" ana="#chair topic:other">
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972.s1">
+                     <measure type="sentiment" quantity="2.818" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972.s1.w1" lemma="Wir" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">Wir</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972.s1.w2" lemma="kommen" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">kommen</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972.s1.w3" lemma="zu" msd="UPosTag=ADP|AdpType=Prep|Case=Dat">zu</w>
@@ -1058,6 +1105,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s1">
+                     <measure type="sentiment" quantity="3.753" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s1.w1" lemma="können" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod">Können</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s1.w2" lemma="wir" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">wir</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s1.w3" lemma="abstimmen" msd="UPosTag=VERB|VerbForm=Inf" join="right">abstimmen</w>
@@ -1070,6 +1118,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s2">
+                     <measure type="sentiment" quantity="2.801" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s2"/>
                      <name type="ORG" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ne1845">
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s2.w1" lemma="SPÖ" msd="UPosTag=PROPN|Person=3" join="right">SPÖ</w>
                      </name>
@@ -1080,6 +1129,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s3">
+                     <measure type="sentiment" quantity="0.878" ana="senti:mixneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s3"/>
                      <name type="ORG" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ne1846">
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s3.w1" lemma="Grün" msd="UPosTag=NOUN|Number=Plur|Person=3" join="right">Grüne</w>
                      </name>
@@ -1090,6 +1140,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s4">
+                     <measure type="sentiment" quantity="1.640" ana="senti:neuneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s4"/>
                      <name type="LOC" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ne1847">
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s4.w1" lemma="NEOS" msd="UPosTag=PROPN|Person=3" join="right">NEOS</w>
                      </name>
@@ -1100,6 +1151,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s5">
+                     <measure type="sentiment" quantity="2.356" ana="senti:neuneg" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s5"/>
                      <name type="ORG" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ne1848">
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s5.w1" lemma="FPÖ" msd="UPosTag=PROPN|Person=3" join="right">FPÖ</w>
                      </name>
@@ -1110,6 +1162,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s6">
+                     <measure type="sentiment" quantity="2.718" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s6"/>
                      <name type="ORG" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ne1849">
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s6.w1" lemma="ÖVP" msd="UPosTag=PROPN|Person=3" join="right">ÖVP</w>
                      </name>
@@ -1122,6 +1175,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s1">
+                     <measure type="sentiment" quantity="3.010" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s1.w1" lemma="Wir" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">Wir</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s1.w2" lemma="gelingen" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin">gelangen</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s1.w3" lemma="zu" msd="UPosTag=ADP|AdpType=Prep|Case=Dat">zu</w>
@@ -1138,6 +1192,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s2">
+                     <measure type="sentiment" quantity="2.746" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s2"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s2.w1" lemma="Antrag" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Antrag</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s2.w2" lemma="des" msd="UPosTag=DET|Case=Gen|Gender=Masc|Number=Sing|PronType=Art">des</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s2.w3" lemma="Ausschuss" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing|Person=3">Ausschusses</w>
@@ -1181,6 +1236,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s1">
+                     <measure type="sentiment" quantity="3.992" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s1.w1" lemma="Wer" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=3|PronType=Int">Wer</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s1.w2" lemma="das" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem">das</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s1.w3" lemma="tun" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" join="right">tut</w>
@@ -1207,6 +1263,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s2">
+                     <measure type="sentiment" quantity="4.951" ana="senti:pospos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s2"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s2.w1" lemma="mehr" msd="UPosTag=DET|Degree=Cmp|Person=3|PronType=Ind,Neg,Tot">Mehr</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s2.w2" lemma="Bewegung" msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3" join="right">Bewegung</w>
 <pc xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s2.w3" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
@@ -1243,6 +1300,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s1">
+                     <measure type="sentiment" quantity="3.145" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s1.w1" lemma="Wir" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">Wir</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s1.w2" lemma="kommen" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">kommen</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s1.w3" lemma="zu" msd="UPosTag=ADP|AdpType=Prep|Case=Dat">zu</w>
@@ -1259,6 +1317,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s2">
+                     <measure type="sentiment" quantity="2.731" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s2"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s2.w1" lemma="Antrag" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Antrag</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s2.w2" lemma="des" msd="UPosTag=DET|Case=Gen|Gender=Masc|Number=Sing|PronType=Art">des</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s2.w3" lemma="Ausschuss" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing|Person=3">Ausschusses</w>
@@ -1302,6 +1361,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s1">
+                     <measure type="sentiment" quantity="3.148" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s1.w1" lemma="Wer" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=3|PronType=Int">Wer</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s1.w2" lemma="das" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem">das</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s1.w3" lemma="tun" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" join="right">tut</w>
@@ -1326,6 +1386,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s2">
+                     <measure type="sentiment" quantity="4.286" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s2"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s2.w1" lemma="–" msd="UPosTag=X|Foreign=Yes|Person=3">–</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s2.w2" lemma="Dank" msd="UPosTag=NOUN|Foreign=Yes|Person=3">Danke</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s2.w3" lemma="schön" msd="UPosTag=ADJ|Degree=Pos|Variant=Short" join="right">schön</w>
@@ -1350,6 +1411,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s1">
+                     <measure type="sentiment" quantity="2.965" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s1.w1" lemma="Wir" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">Wir</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s1.w2" lemma="gelingen" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin">gelangen</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s1.w3" lemma="zu" msd="UPosTag=ADP|AdpType=Prep|Case=Dat">zu</w>
@@ -1366,6 +1428,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s2">
+                     <measure type="sentiment" quantity="2.731" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s2"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s2.w1" lemma="Antrag" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Antrag</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s2.w2" lemma="des" msd="UPosTag=DET|Case=Gen|Gender=Masc|Number=Sing|PronType=Art">des</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s2.w3" lemma="Ausschuss" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing|Person=3">Ausschusses</w>
@@ -1409,6 +1472,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s1">
+                     <measure type="sentiment" quantity="3.148" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s1.w1" lemma="Wer" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=3|PronType=Int">Wer</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s1.w2" lemma="das" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem">das</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s1.w3" lemma="tun" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" join="right">tut</w>
@@ -1433,6 +1497,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s2">
+                     <measure type="sentiment" quantity="3.764" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s2"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s2.w1" lemma="–" msd="UPosTag=X">–</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s2.w2" lemma="Das" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem">Das</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s2.w3" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
@@ -1451,6 +1516,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988.s1">
+                     <measure type="sentiment" quantity="3.116" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988.s1.w1" lemma="Die" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988.s1.w2" lemma="Ordnung" msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Tagesordnung</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988.s1.w3" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
@@ -1471,6 +1537,7 @@
                </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995.s1">
+                     <measure type="sentiment" quantity="3.554" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995.s1.w1" lemma="Einlauf" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Einlauf</w>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link ana="ud-syn:root" target="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995.s1 #ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995.s1.w1"/>
@@ -1479,9 +1546,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.ana.note1178">Präsident Mag. Wolfgang Sobotka</note>
-            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27551" ana="#chair">
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27551" ana="#chair topic:other">
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000.s1">
+                     <measure type="sentiment" quantity="2.544" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000.s1.w1" lemma="Ich" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000.s1.w2" lemma="dürfen" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod">darf</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000.s1.w3" lemma="bekannt" msd="UPosTag=ADP|PartType=Vbp">bekannt</w>
@@ -1532,6 +1600,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s1">
+                     <measure type="sentiment" quantity="2.533" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s1.w1" lemma="Die" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Sing|PronType=Art">Die</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s1.w2" lemma="NULL" msd="UPosTag=ADJ|Degree=Sup|Gender=Fem|Number=Sing">nächste</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s1.w3" lemma="Sitzung" msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Sitzung</w>
@@ -1578,6 +1647,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s2">
+                     <measure type="sentiment" quantity="2.994" ana="senti:neupos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s2"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s2.w1" lemma="Die" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s2.w2" lemma="Ordnung" msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Tagesordnung</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s2.w3" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
@@ -1600,6 +1670,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004.s1">
+                     <measure type="sentiment" quantity="4.642" ana="senti:pospos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004.s1.w1" lemma="Ich" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004.s1.w2" lemma="bedanken" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">bedanke</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004.s1.w3" lemma="mich" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes">mich</w>
@@ -1622,6 +1693,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006">
                   <s xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006.s1">
+                     <measure type="sentiment" quantity="3.557" ana="senti:mixpos" corresp="#ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006.s1"/>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006.s1.w1" lemma="Die" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006.s1.w2" lemma="Sitzung" msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Sitzung</w>
 <w xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006.s1.w3" lemma="sein" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>

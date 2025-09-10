@@ -24,13 +24,21 @@
                <persName>Rodolfo Zevallos</persName>
                <resp>Computational Linguistics Specialist</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="ca">Infraestructura de recerca CLARIN</orgName>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="160" xml:lang="ca">160 intervencions</measure>
@@ -44,12 +52,12 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -90,8 +98,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -100,14 +110,14 @@
             <head xml:id="ParlaMint-ES-CT_2018-05-04-0702.head1">Sessió 7.2</head>
             <note type="narrative" xml:id="ParlaMint-ES-CT_2018-05-04-0702.note1">La sessió, suspesa ahir, es reprèn a les nou del matí i sis minuts. Presideix el president del Parlament, acompanyat de tots els membres de la Mesa, la qual és assistida pel secretari general, el lletrat major i el lletrat Fernando Domínguez Garcia.</note>
             <note type="speaker" xml:id="ParlaMint-ES-CT_2018-05-04-0702.note2">El president</note>
-            <u xml:id="ParlaMint-ES-CT_2018-05-04-0702.1.0" who="#TorrentRoger" ana="#chair" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2018-05-04-0702.1.0" who="#TorrentRoger" ana="#chair topic:civil" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2018-05-04-0702.1.0.0" xml:lang="ca">Bon dia, seguim amb l'ordre del dia.</seg>
                <note xml:id="ParlaMint-ES-CT_2018-05-04-0702.note3">Proposta de resolució sobre la defensa dels drets civils i polítics</note>
                <note xml:id="ParlaMint-ES-CT_2018-05-04-0702.note4">250-00146/12</note>
                <seg xml:id="ParlaMint-ES-CT_2018-05-04-0702.1.0.1" xml:lang="ca">El vuitè punt és el debat i votació de la Proposta de resolució sobre la defensa dels drets civils i polítics. Aquesta proposta de resolució està presentada pel Grup Parlamentari Republicà. Per tant, per presentar aquesta iniciativa, en primer lloc té la paraula la senyora Anna Caula, per un temps màxim de deu minuts.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-CT_2018-05-04-0702.note5">Anna Caula i Paretas</note>
-            <u xml:id="ParlaMint-ES-CT_2018-05-04-0702.2.0" who="#CaulaAnna" ana="#regular" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2018-05-04-0702.2.0" who="#CaulaAnna" ana="#regular topic:civil" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2018-05-04-0702.2.0.0" xml:lang="ca">Gràcies, president. Bon i matiner bon dia a tots i totes, sobretot als que sou aquí puntuals avui a les nou del matí. Com puntuals volem ser, des del Grup Republicà, per denunciar els greus esdeveniments que estan passant cada dia al nostre país.</seg>
                <seg xml:id="ParlaMint-ES-CT_2018-05-04-0702.2.0.1" xml:lang="ca">Coneguda ja és per tots la persecució política que pateixen els membres del Govern legítim i diferents diputats d'aquesta cambra i d'altres que han hagut de renunciar a la seva acta. I afegim-hi la persecució diària, la criminalització i l'assenyalament que pateixen, dia sí i dia també, molts ciutadans de Catalunya. La vulneració permanent de drets civils i polítics més elementals que pateix la ciutadania, les nostres institucions i els seus representants són constants. Al nostre parer, fora de tota raó de ser en un estat democràtic.</seg>
                <seg xml:id="ParlaMint-ES-CT_2018-05-04-0702.2.0.2" xml:lang="ca">És per això que, primer de tot, volem enviar tota la nostra solidaritat i escalf a la gent de l'Ateneu Popular de Sarrià, a mecànics, a pallassos, a còmics, a dibuixants, a mestres, als periodistes, als cantants, als impressors, i a tants i tants d'altres ciutadans anònims que reben, en primera persona, dia a dia, aquesta brutal repressió. Ciutadans que, en la seva dignitat, el seu pacifisme i el seu coratge, resisteixen l'embat d'un estat mesquí i roí, sense ànima, agressiu com una fera ferida i que no dubta a fer servir estratègies com la violència, la tergiversació, la manipulació i la mentida, amb l'objectiu de crear por, odi i criminalitzar qualsevol mostra de dissidència política.</seg>
@@ -127,7 +137,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-ES-CT_2018-05-04-0702.159.0" who="#RieraCarles" ana="#regular" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2018-05-04-0702.159.0" who="#RieraCarles" ana="#regular topic:inter" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2018-05-04-0702.159.0.0" xml:lang="ca">Gràcies, president. Li demano la paraula per dues observacions. Una, crec que el secretari ha comès un error al fer referència a l'acta, atès que no és una decisió presa per acord de tots els grups parlamentaris, tenint en compte que el nostre grup es va abstenir, com farà ara, atès que, com vostès saben, ens oposem a la participació a les institucions de l'Estat. I més en l'escenari actual, en què no entenem aquesta decisió, atès que, per una banda, parlar de república i, per una altra, voler encara ocupar escons a les institucions de l'Estat espanyol, ens sembla una incoherència i una incongruència absoluta.</seg>
                <vocal type="murmuring" xml:id="ParlaMint-ES-CT_2018-05-04-0702.vocal32">
                   <desc>Remor de veus.</desc>
@@ -135,7 +145,7 @@
                <seg xml:id="ParlaMint-ES-CT_2018-05-04-0702.159.0.1" xml:lang="ca">Gràcies.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-CT_2018-05-04-0702.note190">El president</note>
-            <u xml:id="ParlaMint-ES-CT_2018-05-04-0702.160.0" who="#TorrentRoger" ana="#chair" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2018-05-04-0702.160.0" who="#TorrentRoger" ana="#chair topic:other" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2018-05-04-0702.160.0.0" xml:lang="ca">Gràcies, senyor Riera. Fet aquest aclariment...</seg>
                <vocal type="murmuring" xml:id="ParlaMint-ES-CT_2018-05-04-0702.vocal33">
                   <desc>Remor de veus.</desc>

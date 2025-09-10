@@ -9,19 +9,19 @@ which are a customisation of the [TEI Guidelines](https://tei-c.org/guidelines/p
 should process the common data in any ParlaMint corpus, despite the differing parliamentary
 systems of the countries, the kind of information included in the corpora, and, of course, language.
 
-The latest version of ParlaMint is [4.1](https://github.com/clarin-eric/ParlaMint/releases/tag/v4.1)
+The latest version of ParlaMint is [5.0](https://github.com/clarin-eric/ParlaMint/releases/tag/v5.0)
 which contains corpora for 29 countries and autonomous regions in original languages as well as machine
 translated to English, and is available from the CLARIN.SI repository:
 
-- [ParlaMint v4.1](http://hdl.handle.net/11356/1912): "plain text", i.e. linguistically unannotated variant of the ParlaMint corpora
-- [ParlaMint.ana v4.1](http://hdl.handle.net/11356/1911): linguistically annotated variant of the ParlaMint corpora
-- [ParlaMint-en.ana v4.1](http://hdl.handle.net/11356/1910): machine translated and linguistically annotated ParlaMint corpora
+- [ParlaMint v5.0](http://hdl.handle.net/11356/2004): "plain text", i.e. linguistically unannotated variant of the ParlaMint corpora
+- [ParlaMint.ana v5.0](http://hdl.handle.net/11356/2005): linguistically annotated variant of the ParlaMint corpora
+- [ParlaMint-en.ana v5.0](http://hdl.handle.net/11356/2006): machine translated and linguistically annotated ParlaMint corpora
 
 Publications connected to ParlaMint are available at the
-[ParlaMint project page](https://www.clarin.eu/parlamint#publications-and%C2%A0presentations).
+[ParlaMint project page](https://www.clarin.eu/parlamint#publications).
 
 The two most comprehensive publication on ParlaMint corpora are the two open access LREV papers describing
-versions 4.1 and 2.1:
+versions 4.1 and 2.1 respectively:
 
 - Tomaž Erjavec, Matyáš Kopp, Nikola Ljubešić, Taja Kuzman, Paul Rayson, Petya Osenova, Maciej
   Ogrodniczuk, Çağrı Çöltekin, Danijel Koržinek, Katja Meden, Jure Skubic, Peter Rupnik, Tommaso
@@ -49,6 +49,9 @@ This Git repository contains the ParlaMint XML schemas, the scripts used to vali
 ParlaMint TEI XML corpora to some useful derived formats, and samples of the ParlaMint corpora.
 Note that there are several branches for different parts of the development.
 
+* The *[Samples](Samples/) folder* contains directories for a particular country or autonomous region
+  that should include samples for all variants and formats of the ParlaMint corpora.
+  The intention is to be able to quickly get an impression of the kind of data included in the corpora.
 * Contributing to ParlaMint repository is described in *[CONTRIBUTING.md](CONTRIBUTING.md) file*
   * git and GitHub setup
   * installing prerequisites
@@ -64,8 +67,6 @@ Note that there are several branches for different parts of the development.
   * convert the TEI encoded corpora to derived formats;
   * add/change common information, currently for V3.0
   * compute some statistics
-* The *[Samples](Samples/) folder* contains directories for a particular country or autonomous region
-  that should include samples for all variants and formats of the ParlaMint corpora
 * The *[Build](Build/) folder* contains the build environemt for a release, and all associated data.
   This consists of the input (source) data, scripts, and Makefile with targets to make a relese.
   Note the the complete corpora are too large to store on GitHub, so most data files are gitignored.
