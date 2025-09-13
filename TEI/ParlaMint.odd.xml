@@ -2637,13 +2637,13 @@
         The encoding of the linguistically annotated version differs from the plain-text one in the following:
         
         <list>
-          <item>All  the corpus root and components file names 
+          <item>All the corpus root and component file names have
           the extension <code>.ana.xml</code>.
-          For example, if the plain-text root has the file name
+          For example, if the TEI plain-text root has the file name
           <code>ParlaMint-CZ.xml</code>, the linguistically annotated one should be
-          <code>ParlaMint-CZ.ana.xml</code>, or 
-          <code>ParlaMint-CZ_2016-04-13.xml</code> and 
-          <code>ParlaMint-CZ_2016-04-13.ana.xml</code></item>
+          <code>ParlaMint-CZ.ana.xml</code>, and if the component plain-text files is 
+          <code>ParlaMint-CZ_2016-04-13.xml</code> the linguistically annotated one is
+          <code>ParlaMint-CZ_2016-04-13.ana.xml</code>.</item>
           
           <item>Because the file ID (i.e. the value of the top level element attribute
           <att>xml:id</att>, as explained in the Section on <ref
@@ -2651,7 +2651,7 @@
           as the file name (cf. the Section on <ref target="#sec-files">File names and
           directory structure</ref>), the previous point also means that the linguistically
           annotated files should have the top level ID suffixed with <code>.ana</code>,
-          e.g. <code>&lt;teiCorpus xml:id="ParlaMint-CZ.ana"&gt;</code></item>
+          e.g. <code>&lt;teiCorpus xml:id="ParlaMint-CZ.ana"&gt;</code>.</item>
 
           <item>The corpus stamp in the main title of the corpus root or components
           (cf. the Section on <ref target="#sec-titleStmt">Title statement</ref>) which is
@@ -2875,7 +2875,7 @@
                 <w lemma="Westminster" msd="UPosTag=PROPN|Number=Sing">Westminster</w>
                 <w join="right" lemma="Hall" msd="UPosTag=PROPN|Number=Sing">Hall</w>
               </name>
-              <w lemma="," msd="UPosTag=PUNCT" >,</w>
+              <pc msd="UPosTag=PUNCT">,</pc>
               ...
             </egXML>
             </p>
@@ -3032,7 +3032,7 @@
           <div xml:id="sec-ana-appInfo">
             <head>Application information for linguistic processing</head>
             
-            <p>As the linguistic analysis of a ParlaMint will be performed by a tool, the
+            <p>As the linguistic analysis of a ParlaMint corpus will be performed by a tool, the
             information on which tool (or tools) have been used should be documented in the
             corpus root TEI header. This information is encoded in the <gi>appInfo</gi> element
             of the <gi>encodingDesc</gi>, as shown in the example below:
