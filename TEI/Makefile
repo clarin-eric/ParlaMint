@@ -1,8 +1,8 @@
 check: prepare val-schema html mount
 
 # Validate and compile ODD to RelaxNG, validate samples, make HTML
-all:	prepare val-schema xml-schemas val-samples html
-xall:	prepare val-schema xml-schemas val-samples html
+all:	prepare val-odd val-schema xml-schemas val-samples html
+xall:	prepare val-odd val-schema xml-schemas val-samples html
 
 # Builds html and pushes it
 deploy:	html
@@ -36,7 +36,9 @@ xml-schemas:	val-schema
 	#Stylesheets/bin/teitodtd        ${SUBSET} ${ODD} ParlaMint.odd.dtd
 	#Stylesheets/bin/teitoxsd        ${SUBSET} ${ODD} ParlaMint.odd.xsd
 
-val:	val-schema val-samples
+val:	val-odd val-schema val-samples
+val-odd:
+	$s -xsl:../Scripts/check-links.xsl tmp/ParlaMint.xml
 val-schema:
 	$j tei_odds.rng tmp/ParlaMint.xml
 
