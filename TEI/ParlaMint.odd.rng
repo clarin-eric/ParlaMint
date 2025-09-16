@@ -5,8 +5,8 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-06-13T15:40:01Z. 2025-06-13. 
-TEI Edition: P5 Version 4.10.0a. Last updated on 24th January 2025, revision 4e6b08ef5 
+Schema generated from ODD source 2025-09-16T15:11:24Z. 2025-09-16. 
+TEI Edition: P5 Version 4.10.0a. Last updated on 10th June 2025, revision 78f0e8312 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/ 
   
 --><!--This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.-->
@@ -255,6 +255,25 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/
          </attribute>
       </optional>
    </define>
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:eg="http://www.tei-c.org/ns/Examples"
+                xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                xmlns:pm="ParlaMint"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                id="declarable"
+                abstract="true">
+      <sch:rule context="$tde[ ancestor::tei:teiHeader                                  and                                  following-sibling::$tde                                  and                                  not( preceding-sibling::$tde ) ]">
+         <sch:report test="../child::$tde[ not( @xml:id ) ]">
+            When there is more than one <sch:name/>, each must have an @xml:id
+          </sch:report>
+         <sch:assert test="count( ../child::$tde[ normalize-space( @default ) = ('1','true') ] ) eq 1">
+            When there is more than one <sch:name/>, one and only one must have a @default of 'true'.
+          </sch:assert>
+      </sch:rule>
+   </sch:pattern>
    <define name="tei_att.duration.w3c.attributes">
       <ref name="tei_att.duration.w3c.attribute.dur"/>
    </define>
@@ -398,7 +417,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-5">
+            id="parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-6">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -1594,7 +1613,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/
       </oneOrMore>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="parlamint-att.calendarSystem-calendar-calendar_attr_on_empty_element-constraint-rule-6">
+            id="parlamint-att.calendarSystem-calendar-calendar_attr_on_empty_element-constraint-rule-7">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -1633,7 +1652,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-p-abstractModel-structure-p-in-ab-or-p-constraint-rule-7">
+                  id="parlamint-p-abstractModel-structure-p-in-ab-or-p-constraint-rule-8">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -1648,7 +1667,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-p-abstractModel-structure-p-in-l-constraint-rule-8">
+                  id="parlamint-p-abstractModel-structure-p-in-l-constraint-rule-9">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -1681,7 +1700,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-9">
+                  id="parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-10">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -1958,7 +1977,7 @@ Measures]</a:documentation>
          <text/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-ref-refAtts-constraint-rule-10">
+                  id="parlamint-ref-refAtts-constraint-rule-11">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -2169,6 +2188,16 @@ Elements]</a:documentation>
                <ref name="tei_date"/>
             </choice>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:bibl"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_teiCorpus">
@@ -2343,6 +2372,17 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_p"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:availability"/>
+         </sch:pattern>
          <attribute name="status">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <choice>
@@ -2368,6 +2408,17 @@ Elements]</a:documentation>
          <optional>
             <ref name="tei_recordingStmt"/>
          </optional>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:sourceDesc"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_encodingDesc">
@@ -2395,6 +2446,17 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_p"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:projectDesc"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_editorialDecl">
@@ -2409,6 +2471,17 @@ Elements]</a:documentation>
                <ref name="tei_segmentation"/>
             </choice>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:editorialDecl"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_correction">
@@ -2417,6 +2490,17 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_p"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:correction"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_normalization">
@@ -2425,6 +2509,17 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_p"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:normalization"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_quotation">
@@ -2433,9 +2528,20 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_p"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:quotation"/>
+         </sch:pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-quotation-quotationContents-constraint-rule-11">
+                  id="parlamint-quotation-quotationContents-constraint-rule-12">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -2457,6 +2563,17 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_p"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:hyphenation"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_segmentation">
@@ -2465,6 +2582,17 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_p"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:segmentation"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_tagsDecl">
@@ -2663,6 +2791,17 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_language"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:langUsage"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_language">
@@ -2696,6 +2835,17 @@ Elements]</a:documentation>
       <element name="textClass">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text classification) groups information which describes the nature or topic of a text in terms of a standard classification scheme, thesaurus, etc. [2.4.3. The Text Classification]</a:documentation>
          <ref name="tei_catRef"/>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:textClass"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_catRef">
@@ -2822,7 +2972,7 @@ Elements]</a:documentation>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-div-abstractModel-structure-div-in-l-constraint-rule-12">
+                  id="parlamint-div-abstractModel-structure-div-in-l-constraint-rule-13">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -2837,7 +2987,7 @@ Elements]</a:documentation>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-13">
+                  id="parlamint-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-14">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -2880,6 +3030,16 @@ Elements]</a:documentation>
                <ref name="tei_include"/>
             </choice>
          </group>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:particDesc"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_settingDesc">
@@ -2888,6 +3048,16 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_setting"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:settingDesc"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_setting">
@@ -2965,6 +3135,16 @@ Elements]</a:documentation>
          <oneOrMore>
             <ref name="tei_media"/>
          </oneOrMore>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:recording"/>
+         </sch:pattern>
          <optional>
             <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
                        name="type"
@@ -3717,6 +3897,17 @@ Elements]</a:documentation>
                <ref name="tei_listRelation"/>
             </optional>
          </group>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:listOrg"/>
+         </sch:pattern>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
@@ -3733,6 +3924,17 @@ Elements]</a:documentation>
                <ref name="tei_event"/>
             </zeroOrMore>
          </group>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:listEvent"/>
+         </sch:pattern>
       </element>
    </define>
    <define name="tei_listPerson">
@@ -3746,6 +3948,17 @@ Elements]</a:documentation>
                <ref name="tei_person"/>
             </oneOrMore>
          </group>
+         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      is-a="declarable">
+            <sch:param name="tde" value="tei:listPerson"/>
+         </sch:pattern>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
@@ -3914,7 +4127,7 @@ Elements]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-relation-ref-or-key-or-name-constraint-rule-14">
+                  id="parlamint-relation-ref-or-key-or-name-constraint-rule-15">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -3928,7 +4141,7 @@ Elements]</a:documentation>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-relation-active-mutual-constraint-rule-15">
+                  id="parlamint-relation-active-mutual-constraint-rule-16">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -3942,7 +4155,7 @@ Elements]</a:documentation>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-relation-active-passive-constraint-rule-16">
+                  id="parlamint-relation-active-passive-constraint-rule-17">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -4087,7 +4300,7 @@ Elements]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-link-linkTargets3-constraint-rule-17">
+                  id="parlamint-link-linkTargets3-constraint-rule-18">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -4211,7 +4424,7 @@ Elements]</a:documentation>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="parlamint-s-noNestedS-constraint-rule-18">
+                  id="parlamint-s-noNestedS-constraint-rule-19">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -4420,7 +4633,7 @@ Elements]</a:documentation>
    <define name="tei_att.global.linking.attribute.next">
       <optional>
          <attribute name="next">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to the next element of a virtual aggregate of which the current element is part.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(next) points to the next element of a virtual aggregate of which the current element is part.</a:documentation>
             <data type="anyURI">
                <param name="pattern">\S+</param>
             </data>
@@ -4472,7 +4685,7 @@ Elements]</a:documentation>
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="parlamint-att.global.source-source-only_1_ODD_source-constraint-rule-19">
+            id="parlamint-att.global.source-source-only_1_ODD_source-constraint-rule-20">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -4570,7 +4783,7 @@ Elements]</a:documentation>
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="parlamint-att.measurement-att-measurement-unitRef-constraint-rule-20">
+            id="parlamint-att.measurement-att-measurement-unitRef-constraint-rule-21">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -4664,7 +4877,7 @@ Elements]</a:documentation>
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="parlamint-att.typed-subtypeTyped-constraint-rule-21">
+            id="parlamint-att.typed-subtypeTyped-constraint-rule-22">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"

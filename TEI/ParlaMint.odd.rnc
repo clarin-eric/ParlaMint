@@ -11,8 +11,8 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2025-06-13T15:40:08Z. 2025-06-13. 
-# TEI Edition: P5 Version 4.10.0a. Last updated on 24th January 2025, revision 4e6b08ef5 
+# Schema generated from ODD source 2025-09-16T15:11:29Z. 2025-09-16. 
+# TEI Edition: P5 Version 4.10.0a. Last updated on 10th June 2025, revision 78f0e8312 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/ 
 #
 
@@ -236,6 +236,41 @@ tei_att.declarable.attribute.default =
       ## This element can only be selected explicitly, unless it is the only one of its kind, in which case it is selected if its parent is selected.
       "false"
   }?
+sch:pattern [
+  id = "declarable"
+  abstract = "true"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context =
+      "$tde[ ancestor::tei:teiHeader                                  and                                  following-sibling::$tde                                  and                                  not( preceding-sibling::$tde ) ]"
+    "\x{a}" ~
+    "         "
+    sch:report [
+      test = "../child::$tde[ not( @xml:id ) ]"
+      "\x{a}" ~
+      "            When there is more than one "
+      sch:name [ ]
+      ", each must have an @xml:id\x{a}" ~
+      "          "
+    ]
+    "\x{a}" ~
+    "         "
+    sch:assert [
+      test =
+        "count( ../child::$tde[ normalize-space( @default ) = ('1','true') ] ) eq 1"
+      "\x{a}" ~
+      "            When there is more than one "
+      sch:name [ ]
+      ", one and only one must have a @default of 'true'.\x{a}" ~
+      "          "
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
 tei_att.duration.w3c.attributes = tei_att.duration.w3c.attribute.dur
 tei_att.duration.w3c.attribute.dur =
   
@@ -333,7 +368,7 @@ tei_att.ranging.attribute.confidence =
   }?
 sch:pattern [
   id =
-    "parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-5"
+    "parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-6"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -677,7 +712,7 @@ tei_model.pPart.data_sequenceRepeatable =
   tei_model.nameLike_sequenceRepeatable+
 sch:pattern [
   id =
-    "parlamint-att.calendarSystem-calendar-calendar_attr_on_empty_element-constraint-rule-6"
+    "parlamint-att.calendarSystem-calendar-calendar_attr_on_empty_element-constraint-rule-7"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -712,7 +747,7 @@ tei_p =
     ((tei_ref | text)+)
     >> sch:pattern [
          id =
-           "parlamint-p-abstractModel-structure-p-in-ab-or-p-constraint-rule-7"
+           "parlamint-p-abstractModel-structure-p-in-ab-or-p-constraint-rule-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -734,7 +769,7 @@ tei_p =
        ]
     >> sch:pattern [
          id =
-           "parlamint-p-abstractModel-structure-p-in-l-constraint-rule-8"
+           "parlamint-p-abstractModel-structure-p-in-l-constraint-rule-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -764,7 +799,7 @@ tei_desc =
     (tei_term?, (text | tei_ref)+)
     >> sch:pattern [
          id =
-           "parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-9"
+           "parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-10"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1008,7 +1043,7 @@ tei_ref =
   element ref {
     text
     >> sch:pattern [
-         id = "parlamint-ref-refAtts-constraint-rule-10"
+         id = "parlamint-ref-refAtts-constraint-rule-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1161,7 +1196,16 @@ tei_bibl =
   
   ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 16.3.2. Declarable Elements]
   element bibl {
-    tei_title+, (tei_edition? | tei_publisher? | tei_idno* | tei_date)+
+    tei_title+,
+    ((tei_edition? | tei_publisher? | tei_idno* | tei_date)+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:bibl" ]
+         "\x{a}" ~
+         "         "
+       ]
   }
 tei_teiCorpus =
   [
@@ -1308,7 +1352,15 @@ tei_availability =
   ## (availability) supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. Publication, Distribution, Licensing, etc.]
   element availability {
     tei_licence,
-    tei_p+,
+    (tei_p+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:availability" ]
+         "\x{a}" ~
+         "         "
+       ],
     
     ##
     attribute status {
@@ -1325,7 +1377,18 @@ tei_licence =
 tei_sourceDesc =
   
   ## (source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]
-  element sourceDesc { tei_bibl+, tei_recordingStmt? }
+  element sourceDesc {
+    tei_bibl+,
+    (tei_recordingStmt?)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:sourceDesc" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_encodingDesc =
   
   ## (encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. [2.3. The Encoding Description 2.1.1. The TEI Header and Its Components]
@@ -1340,32 +1403,78 @@ tei_encodingDesc =
 tei_projectDesc =
   
   ## (project description) describes in detail the aim or purpose for which an electronic file was encoded, together with any other relevant information concerning the process by which it was assembled or collected. [2.3.1. The Project Description 2.3. The Encoding Description 16.3.2. Declarable Elements]
-  element projectDesc { tei_p+ }
+  element projectDesc {
+    (tei_p+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:projectDesc" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_editorialDecl =
   
   ## (editorial practice declaration) provides details of editorial principles and practices applied during the encoding of a text. [2.3.3. The Editorial Practices Declaration 2.3. The Encoding Description 16.3.2. Declarable Elements]
   element editorialDecl {
-    (tei_correction
-     | tei_normalization
-     | tei_hyphenation
-     | tei_quotation
-     | tei_segmentation)+
+    ((tei_correction
+      | tei_normalization
+      | tei_hyphenation
+      | tei_quotation
+      | tei_segmentation)+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:editorialDecl" ]
+         "\x{a}" ~
+         "         "
+       ]
   }
 tei_correction =
   
   ## (correction principles) states how and under what circumstances corrections have been made in the text. [2.3.3. The Editorial Practices Declaration 16.3.2. Declarable Elements]
-  element correction { tei_p+ }
+  element correction {
+    (tei_p+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:correction" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_normalization =
   
   ## (normalization) indicates the extent of normalization or regularization of the original source carried out in converting it to electronic form. [2.3.3. The Editorial Practices Declaration 16.3.2. Declarable Elements]
-  element normalization { tei_p+ }
+  element normalization {
+    (tei_p+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:normalization" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_quotation =
   
   ## (quotation) specifies editorial practice adopted with respect to quotation marks in the original. [2.3.3. The Editorial Practices Declaration 16.3.2. Declarable Elements]
   element quotation {
     (tei_p+)
     >> sch:pattern [
-         id = "parlamint-quotation-quotationContents-constraint-rule-11"
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:quotation" ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "parlamint-quotation-quotationContents-constraint-rule-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1390,11 +1499,31 @@ tei_quotation =
 tei_hyphenation =
   
   ## (hyphenation) summarizes the way in which hyphenation in a source text has been treated in an encoded version of it. [2.3.3. The Editorial Practices Declaration 16.3.2. Declarable Elements]
-  element hyphenation { tei_p+ }
+  element hyphenation {
+    (tei_p+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:hyphenation" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_segmentation =
   
   ## (segmentation) describes the principles according to which the text has been segmented, for example into sentences, tone-units, graphemic strata, etc. [2.3.3. The Editorial Practices Declaration 16.3.2. Declarable Elements]
-  element segmentation { tei_p+ }
+  element segmentation {
+    (tei_p+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:segmentation" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_tagsDecl =
   
   ## (tagging declaration) provides detailed information about the tagging applied to a document. [2.3.4. The Tagging Declaration 2.3. The Encoding Description]
@@ -1546,7 +1675,17 @@ tei_profileDesc =
 tei_langUsage =
   
   ## (language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. [2.4.2. Language Usage 2.4. The Profile Description 16.3.2. Declarable Elements]
-  element langUsage { tei_language+ }
+  element langUsage {
+    (tei_language+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:langUsage" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_language =
   
   ## (language) characterizes a single language or sublanguage used within a text. [2.4.2. Language Usage]
@@ -1576,7 +1715,17 @@ tei_language =
 tei_textClass =
   
   ## (text classification) groups information which describes the nature or topic of a text in terms of a standard classification scheme, thesaurus, etc. [2.4.3. The Text Classification]
-  element textClass { tei_catRef }
+  element textClass {
+    tei_catRef
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:textClass" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_catRef =
   
   ## (category reference) specifies one or more defined categories within some taxonomy or text typology. [2.4.3. The Text Classification]
@@ -1683,7 +1832,7 @@ tei_div =
       | tei_u)+)
     >> sch:pattern [
          id =
-           "parlamint-div-abstractModel-structure-div-in-l-constraint-rule-12"
+           "parlamint-div-abstractModel-structure-div-in-l-constraint-rule-13"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1704,7 +1853,7 @@ tei_div =
        ]
     >> sch:pattern [
          id =
-           "parlamint-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-13"
+           "parlamint-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-14"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1745,12 +1894,30 @@ tei_particDesc =
   
   ## (participation description) describes the identifiable speakers and organisations in a ParlaMint corpus. This informations is given in the corpus root teiHeder. Note that the listPerson and listOrg elements are typically stored in separate files. [16.2. Contextual Information]
   element particDesc {
-    (tei_listOrg | tei_include), (tei_listPerson | tei_include)
+    ((tei_listOrg | tei_include), (tei_listPerson | tei_include))
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:particDesc" ]
+         "\x{a}" ~
+         "         "
+       ]
   }
 tei_settingDesc =
   
   ## (setting description) describes the setting or settings within which a language interaction takes place, or other places otherwise referred to in a text, edition, or metadata. [16.2. Contextual Information 2.4. The Profile Description]
-  element settingDesc { tei_setting+ }
+  element settingDesc {
+    (tei_setting+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:settingDesc" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_setting =
   
   ## describes one particular setting in which a language interaction takes place. [16.2.3. The Setting Description]
@@ -1773,7 +1940,15 @@ tei_recording =
   
   ## (recording event) provides details of an audio or video recording event used as the source of a spoken text, either directly or from a public broadcast. [8.2. Documenting the Source of Transcribed Speech 16.3.2. Declarable Elements]
   element recording {
-    tei_media+,
+    (tei_media+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:recording" ]
+         "\x{a}" ~
+         "         "
+       ],
     
     ## the kind of recording.
     [ a:defaultValue = "audio" ]
@@ -2359,7 +2534,15 @@ tei_listOrg =
   
   ## (list of organizations) contains a list of elements, each of which provides information about an identifiable organisation. [14.2.2. Organizational Names]
   element listOrg {
-    (tei_head*, tei_org+, tei_listRelation?),
+    (tei_head*, tei_org+, tei_listRelation?)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:listOrg" ]
+         "\x{a}" ~
+         "         "
+       ],
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.xmllang,
     empty
@@ -2367,12 +2550,30 @@ tei_listOrg =
 tei_listEvent =
   
   ## (list of events) contains a list of descriptions, each of which provides information about an identifiable event. [14.3.1. Basic Principles]
-  element listEvent { tei_head*, tei_event* }
+  element listEvent {
+    (tei_head*, tei_event*)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:listEvent" ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
 tei_listPerson =
   
   ## (list of persons) contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source. [14.3.2. The Person Element 16.2. Contextual Information 2.4. The Profile Description 16.3.2. Declarable Elements]
   element listPerson {
-    (tei_head*, tei_person+),
+    (tei_head*, tei_person+)
+    >> sch:pattern [
+         is-a = "declarable"
+         "\x{a}" ~
+         "            "
+         sch:param [ name = "tde" value = "tei:listPerson" ]
+         "\x{a}" ~
+         "         "
+       ],
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.xmllang,
     empty
@@ -2525,7 +2726,7 @@ tei_relation =
   element relation {
     empty
     >> sch:pattern [
-         id = "parlamint-relation-ref-or-key-or-name-constraint-rule-14"
+         id = "parlamint-relation-ref-or-key-or-name-constraint-rule-15"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2543,7 +2744,7 @@ tei_relation =
          "         "
        ]
     >> sch:pattern [
-         id = "parlamint-relation-active-mutual-constraint-rule-15"
+         id = "parlamint-relation-active-mutual-constraint-rule-16"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2561,7 +2762,7 @@ tei_relation =
          "         "
        ]
     >> sch:pattern [
-         id = "parlamint-relation-active-passive-constraint-rule-16"
+         id = "parlamint-relation-active-passive-constraint-rule-17"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2700,7 +2901,7 @@ tei_link =
   element link {
     empty
     >> sch:pattern [
-         id = "parlamint-link-linkTargets3-constraint-rule-17"
+         id = "parlamint-link-linkTargets3-constraint-rule-18"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2798,7 +2999,7 @@ tei_s =
      | tei_pb)+,
     (tei_linkGrp?)
     >> sch:pattern [
-         id = "parlamint-s-noNestedS-constraint-rule-18"
+         id = "parlamint-s-noNestedS-constraint-rule-19"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2966,7 +3167,7 @@ tei_att.global.linking.attribute.synch =
   }?
 tei_att.global.linking.attribute.next =
   
-  ## points to the next element of a virtual aggregate of which the current element is part.
+  ## (next) points to the next element of a virtual aggregate of which the current element is part.
   attribute next {
     xsd:anyURI { pattern = "\S+" }
   }?
@@ -2998,7 +3199,7 @@ tei_att.global.source.attribute.source =
   }?
 sch:pattern [
   id =
-    "parlamint-att.global.source-source-only_1_ODD_source-constraint-rule-19"
+    "parlamint-att.global.source-source-only_1_ODD_source-constraint-rule-20"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -3098,7 +3299,7 @@ tei_att.linguistic.attribute.join =
   }?
 sch:pattern [
   id =
-    "parlamint-att.measurement-att-measurement-unitRef-constraint-rule-20"
+    "parlamint-att.measurement-att-measurement-unitRef-constraint-rule-21"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -3169,7 +3370,7 @@ tei_att.typed.attribute.subtype =
     xsd:token { pattern = "[^\p{C}\p{Z}]+" }
   }?
 sch:pattern [
-  id = "parlamint-att.typed-subtypeTyped-constraint-rule-21"
+  id = "parlamint-att.typed-subtypeTyped-constraint-rule-22"
   "\x{a}" ~
   "      "
   sch:rule [
