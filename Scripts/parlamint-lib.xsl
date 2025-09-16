@@ -47,9 +47,9 @@
   <xsl:param name="country-code" select="replace($text_id, '.*?-([^._]+).*', '$1')"/>
   
   <!-- Key in value of element ID -->
-  <xsl:key name="id" match="tei:*" use="@xml:id"/>
+  <xsl:key name="id" match="*" use="@xml:id"/>
   <!-- Key which directly finds local references -->
-  <xsl:key name="idr" match="tei:*" use="concat('#', @xml:id)"/>
+  <xsl:key name="idr" match="*" use="concat('#', @xml:id)"/>
 
   <xsl:variable name="component" select="/tei:TEI"/>
   
