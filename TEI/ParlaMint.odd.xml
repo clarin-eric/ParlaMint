@@ -3201,19 +3201,20 @@
           <div xml:id="sec-ana-prefixDef">
             <head>Prefix definitions</head>
             
-            <p>Pointing attributes, such as <att>ana</att>, take as their value a series of
-            references to the value of <att>xml:id</att> elements in an XML document. If this is
-            the same document, then the reference to the ID is the hash character, <code>#</code>
-            prefixed to the particular ID, e.g. <val>#parla.uni</val>, and if they are in another
-            XML document, then the hash is prefixed with the URL of the document, e.g.
+            <p>Pointing attributes, such as <att>ana</att>, take as their value a reference or
+            space-delimited series of references to a URL and/or the value of <att>xml:id</att>
+            elements. If the reference is to an ID, then it is prefixed the hash character,
+            <code>#</code>, e.g. <val>#parla.uni</val>, and if they are to an ID in another XML
+            document, then the hash follows the URL of the document, e.g.
             <val>https://nl.ijs.si/ME/V6/msd/tables/msd-fslib2-sl.xml#Vmpr1p</val>.</p>
 
-            <p>Because the complete URL tends to be long, which is especially inconvenient
-            when such references are given to every token in a corpus, TEI introduces the so
-            called Extended pointer syntax, whereby the reference to an ID can be given in the
-            form of a prefix, which is separated by a colon from the local part of the ID
-            reference, and the value of this prefix is determined via the <gi>prefixDef</gi>
-            element in the <gi>profileDesc</gi> of the TEI header.</p>
+            <p>Because complete URLs tend to be long, especially inconvenient when such
+            references are given to every token in a corpus, TEI introduces the so called
+            <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SAPU">Abbreviated
+            Pointers</ref>, whereby the reference to an ID can be given in the form of a
+            prefix, which is separated by a colon from the local part of the ID reference, and
+            the value of this prefix is determined via the <gi>prefixDef</gi> element in the
+            <gi>encodingDesc</gi> of the TEI header.</p>
 
             <p>ParlaMint uses this
             mechanism for all linguistic annotations with a closed vocabulary, in particular
@@ -3233,7 +3234,7 @@
                 </prefixDef>
                 <prefixDef ident="mte"
                            matchPattern="(.+)"
-                           replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl.xml#$1">
+                           replacementPattern="https://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl.xml#$1">
                   <p xml:lang="en">Private URIs with this prefix point to feature-structure elements defining the Slovenian MULTEXT-East Version 6 MSDs.</p>
                 </prefixDef>
               </listPrefixDef>
@@ -3256,7 +3257,7 @@
             
             <p>More to the point is the second example, where very short ID references, such as
             <val>mte:Vmpr1p</val> are transformed to
-            <val>https://nl.ijs.si/ME/V6/msd/tables/msd-fslib2-sl.xml#Vmpr1p</val>, as already
+            <val>https://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl#Vmpr1p</val>, as already
             explained in the Section on <ref target="#sec-ana-words">Word-level
             annotation</ref>.</p>
 
@@ -3368,9 +3369,8 @@
         
     </div>
       
-          
-      <!--div xml:id="sec-audio">
-          <head>Audio</head>
+    <!--div xml:id="sec-audio">
+        <head>Audio</head>
           
           <p>The transcription can refer to and align with external audio data using
           the <gi>timeline</gi> element, explained in the Section on <ref
