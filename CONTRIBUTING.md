@@ -7,6 +7,48 @@ Sample data should be pushed to the Data branch of the ParlaMint repository dire
 on Filenames and directory structure](https://clarin-eric.github.io/ParlaMint/#sec-files) of the
 Guidelines.
 
+### Contributing overview
+```mermaid
+flowchart TB
+    %% Styles
+    classDef repo fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:10,ry:10,font-size:20px;
+    classDef fork fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:10,ry:10,font-size:20px;
+    classDef local fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:10,ry:10,font-size:20px;
+    classDef action fill:#c6d887,stroke:#c6d887,stroke-width:2px,rx:10,ry:10,font-size:20px;
+    classDef command fill:#99ccdd,stroke:#99ccdd,stroke-width:2px,rx:10,ry:10,font-size:20px;
+    classDef arrowText font-size:10px;
+    %%style stack fill:none,stroke:none;
+    style stack2 fill:none,stroke:none;
+
+    %% Nodes
+    COMMIT(["commit"]):::command
+    L["**ParlaMint (local)**"]:::local
+    F["**ParlaMint (fork)**"]:::fork
+    G["**clarin-eric/ParlaMint**<br/>data branch"]:::repo
+    LPUSH(["push"]):::command
+    LPULL(["pull"]):::command
+
+    PULL(["pull request"]):::command
+    MERGE(["pull request merge"]):::command
+    VAL(["validate"]):::action
+    SAMPLE(["create sample <br/>and commit"]):::action
+
+    subgraph stack2[ ]
+        direction TB
+        MERGE
+        PULL
+    end
+    %% Links
+    L --- COMMIT --> L
+    L --- LPUSH
+    LPUSH --> F
+    LPULL --- F
+    L ~~~ LPULL --> L
+    F --- PULL --> G
+    PULL --- VAL --> PULL
+    F --- MERGE  --- SAMPLE --> G
+```
+
 ### Setup
 
 - [Create a GitHub account](https://github.com/signup) if you don't have one.
