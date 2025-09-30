@@ -60,7 +60,7 @@
                        @inst | @lemmaRef | @location | @mergedIn | @mutual | @new | @next | @nymRef |
                        @origin | @parent | @parts | @passive | @perf | @period | @prev | @ref |
                        @rendition | @require | @resp | @sameAs | @scheme | @scriptRef | @select |
-                       @since | @source | @spanTo | @start | @synch | @target | @targetEnd | 
+                       @since | @source | @spanTo | @synch | @target | @targetEnd | 
                        @toUnit | @toWhom | @unitRef | @uri | @url | @valueDatcat | @where |
                        @who | @wit">
     <xsl:variable name="message">
