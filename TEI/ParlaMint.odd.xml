@@ -24,7 +24,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2025-09-16</date>
+        <date>2025-09-30</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -81,7 +81,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
-      <change when="2025-09-16">Tomaž Erjavec: Correct some errata found when making the PressMint ODD.</change>
+      <change when="2025-09-30">Tomaž Erjavec: Correct some errata found when making the PressMint ODD.</change>
       <change when="2025-06-13">Tomaž Erjavec: Add discussion on local taxonomy IDs and topic and sentiment taxonomies.</change>
       <change when="2025-02-15">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
       <change when="2025-01-28">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
@@ -115,7 +115,7 @@
           <ref target="https://github.com/clarin-eric/ParlaMint">ParlaMint corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v5.0</docEdition-->
-        <docDate>2025-09-16</docDate>
+        <docDate>2025-09-30</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -394,10 +394,9 @@
             <code>...</code><lb/>
           </eg>
 
-          The lingistically annotated version of the corpus is stored
-          separately, with the main directory and, as mentioned, the
-          corpus root and component filenames having the
-          additional suffix <code>.ana</code>, e.g.
+          The lingistically annotated version of the corpus is stored separately, with the main directory
+          and, as mentioned, the corpus root,  its metadata files for linguistic annotation, and component filenames
+          having the additional suffix <code>.ana</code>, e.g.
 
           <eg xml:id="exa-directories.ana"><lb/>
             <code>ParlaMint-BE.TEI.ana/ParlaMint-BE.ana.xml</code><lb/>
@@ -405,8 +404,8 @@
             <code>ParlaMint-BE.TEI.ana/ParlaMint-BE-listOrg.xml</code><lb/>
             <code>ParlaMint-BE.TEI.ana/ParlaMint-taxonomy-parla.legislature.xml</code><lb/>
             <code>ParlaMint-BE.TEI.ana/ParlaMint-taxonomy-speaker_types.xml</code><lb/>
-            <code>ParlaMint-taxonomy-NER.xml</code><lb/>
-            <code>ParlaMint-taxonomy-UD.xml</code><lb/>
+            <code>ParlaMint-taxonomy-NER.ana.xml</code><lb/>
+            <code>ParlaMint-taxonomy-UD.ana.xml</code><lb/>
             <code>...</code><lb/>
             <code>ParlaMint-BE.TEI.ana/2014/ParlaMint-BE_2014-06-19.ana.xml</code><lb/>
             <code>ParlaMint-BE.TEI.ana/2014/ParlaMint-BE_2014-06-30.ana.xml</code><lb/>
@@ -1214,17 +1213,17 @@
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-classdecl-xinclude"><![CDATA[
 <classDecl>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-      href="ParlaMint-taxonomy-parla.legislature.xml"/>    <!-- Common taxonomy on parliament legislature -->
+      href="ParlaMint-taxonomy-parla.legislature.xml"/>    <!-- Common taxonomy of parliament legislature -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
       href="ParlaMint-CZ-taxonomy-meeting.parts.xml"/>     <!-- CZ-specific taxonomy with additional categories for meetings -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-      href="ParlaMint-taxonomy-speaker_types.xml"/>        <!-- Common taxonomy on types of speakers -->
+      href="ParlaMint-taxonomy-speaker_types.xml"/>        <!-- Common taxonomy of types of speakers -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-      href="ParlaMint-taxonomy-subcorpus.xml"/>            <!-- Common taxonomy on predeterimentd subcorpora -->
+      href="ParlaMint-taxonomy-subcorpus.xml"/>            <!-- Common taxonomy of predeterimentd subcorpora -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-      href="ParlaMint-taxonomy-politicalOrientation.xml"/> <!-- Common taxonomy on L-R political orientations of pol. parties -->
+      href="ParlaMint-taxonomy-politicalOrientation.xml"/> <!-- Common taxonomy on political orientations of political parties -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-      href="ParlaMint-taxonomy-CHES.xml"/>                 <!-- Common taxonomy on CHES variables of pol. parties -->
+      href="ParlaMint-taxonomy-CHES.xml"/>                 <!-- Common taxonomy of CHES variables of political parties -->
 </classDecl>]]></egXML>
 
             As can be seen, three of the taxonomies are general ParlaMint taxonomies, while
@@ -1288,7 +1287,7 @@
             </p>
             
             <p>ParlaMint requires several taxonomies to be defined in the class declaration
-            of the corpus root (as well as a additionaly ones for the linguistically annotated
+            of the corpus root (as well as additional ones for the linguistically annotated
             corpus, as further described in the Section on <ref target="#sec-ana-metadata">Linguistic metadata</ref>).
             As mentioned, these taxonomies are defined globally and available as part of the data on the
             <ref target="https://github.com/clarin-eric/ParlaMint/">ParlaMint GitHub
@@ -2700,7 +2699,7 @@
           
           <item>The linguistically annotated version of the corpus should also have some
           added metadata in the TEI header of the corpus root, which is detailed in the
-          following Section on <ref target="#sec-ana-metadata">Metadata for linguistic
+          Section on <ref target="#sec-ana-metadata">Metadata for linguistic
           annotation</ref>.</item>
 
         </list>
@@ -2709,7 +2708,7 @@
         <div xml:id="sec-ana-markup">
           <head>Linguistic markup</head>
 
-          <p>Linguistic annotation is added only to the text content of <gi>seg</gi> elements
+          <p>Linguistic annotation is added only to the immediate text content of <gi>seg</gi> elements
           inside the speeches, i.e <gi>u</gi> elements. For this text, ParlaMint requires the
           following additional markup to be present:
           <list>
@@ -2718,13 +2717,13 @@
             
             <item>sentences: what is a sentence;</item>
             
-            <item>lemmas: what is the base form of each word;</item>
+            <item>lemmas: the base form of each word;</item>
             
             <item><ref target="https://universaldependencies.org/">Universal
             Dependencies</ref> (UD) part-of-speech and morphological features, and,
             optionally, part-of-speech tags from a different (local) tagset;</item>
             
-            <item>named entities (NE): what is a name, categorised at least into the standard
+            <item>named entities (NE): a name, categorised into the standard
             four NE classes;</item>
             
             <item>the UD dependency syntactic parse of the sentences;</item>
@@ -3245,7 +3244,7 @@
             <p>Because complete URLs tend to be long, especially inconvenient when such
             references are given to every token in a corpus, TEI introduces the so called
             <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SAPU">Abbreviated
-            Pointers</ref>, whereby the reference to an ID can be given in the form of a
+            Pointers</ref>, whereby a reference can be given in the form of a
             prefix, which is separated by a colon from the local part of the ID reference, and
             the value of this prefix is determined via the <gi>prefixDef</gi> element in the
             <gi>encodingDesc</gi> of the TEI header.</p>
@@ -3277,10 +3276,10 @@
             The specialised element for listing prefix definitions, <gi>listPrefixDef</gi> gives a
             series of prefix definitions, i.e. <gi>prefixDef</gi> elements. Each prefix definition
             defines its prefix as the value of the <att>ident</att> attribute, and then specifies
-            a regular expression that matches the part of the ID reference after the prefix in its
+            a regular expression that matches the part of the reference after the prefix in its
             <att>matchPattern</att> attribute, and its substitution as the value of the
             <att>replacementPattern</att> attribute. The first prefix definition thus defines the
-            <code>ud-syn</code> prefix, so for any ID reference with this prefix,
+            <code>ud-syn</code> prefix, so for any reference with this prefix,
             e.g. <val>ud-syn:acl_relcl</val>, the part after the prefix (<code>acl_relcl</code>)
             should be matched against <code>(.+)</code> and the result being the matched part
             (here the entire relation <code>acl_relcl</code>) substituted by
@@ -3289,7 +3288,7 @@
             course trivial, and hardly necessary, but was implemented so that all fixed-vocabulary
             linguistic analyses have the same treatment.</p>
             
-            <p>More to the point is the second example, where very short ID references, such as
+            <p>More to the point is the second example, where very short references, such as
             <val>mte:Vmpr1p</val> are transformed to
             <val>https://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl#Vmpr1p</val>, as already
             explained in the Section on <ref target="#sec-ana-words">Word-level
