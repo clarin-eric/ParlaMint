@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-09-30T13:46:50Z. 2025-09-30. 
+Schema generated from ODD source 2025-10-13T17:37:32Z. 2025-09-30. 
 TEI Edition: P5 Version 4.10.0a. Last updated on 10th June 2025, revision 78f0e8312 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/ 
   
@@ -2669,7 +2669,7 @@ Elements]</a:documentation>
    </define>
    <define name="tei_classDecl">
       <element name="classDecl">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification declarations) contains taxonomies defining classificatory codes used elsewhere in the text. Note that the taxonomies are in ParlaMint typically stored in separate files. [2.3.7. The Classification Declaration 2.3. The Encoding Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification declarations) contains taxonomies defining classificatory codes used elsewhere in the text. Note that in ParlaMint the taxonomies are stored in separate files, so this definition also allows XInclude elements in addition to the taxonomies. [2.3.7. The Classification Declaration 2.3. The Encoding Description]</a:documentation>
          <oneOrMore>
             <choice>
                <ref name="tei_taxonomy"/>
