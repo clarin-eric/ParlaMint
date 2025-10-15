@@ -15,10 +15,10 @@ CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL 
 CORPUS=
 
 # Version number and PID of next ParlaMint release
-VERSION = 5.0
-HANDLE-TEI = http://hdl.handle.net/11356/2004
-HANDLE-ANA = http://hdl.handle.net/11356/2005
-HANDLE-MT  = http://hdl.handle.net/11356/2006
+VERSION = 5.1
+HANDLE-TEI = http://hdl.handle.net/11356/2059
+HANDLE-ANA = http://hdl.handle.net/11356/2058
+HANDLE-MT  = http://hdl.handle.net/11356/2057
 
 # For IL only:
 # VERSION = 1.0
