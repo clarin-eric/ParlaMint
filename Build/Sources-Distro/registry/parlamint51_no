@@ -1,15 +1,16 @@
 MAINTAINER "CLARIN.SI <info@clarin.si>"
-NAME "ParlaMint-EE 5.0 (Estonian parliament)"
-INFO "Estonian parliamentary corpus ParlaMint-EE, 2011-2022 v5.0"
+NAME "ParlaMint-NO 5.1 (Norwegian parliament)"
+INFO "Norwegian parliamentary corpus ParlaMint-NO, 1998-2022 v5.1"
 ENCODING "UTF-8"
-DEFAULTLOCALE "et_EE.UTF-8"
-LANGUAGE "Estonian"
-INFOHREF "http://hdl.handle.net/11356/2005"
+#DEFAULTLOCALE "no_NO.UTF-8" This is no longer supported
+DEFAULTLOCALE "nb_NO.UTF-8" #Bokmal, even though we also have 
+LANGUAGE "Norwegian (Bokmål, Nynorsk)"
+INFOHREF "http://hdl.handle.net/11356/2058"
 TAGSETDOC "https://universaldependencies.org/guidelines.html"
 
-PATH "/data/manatee-data/parlamint50_ee/"
+PATH "/data/manatee-data/parlamint51_no/"
 
-VERTICAL "| zcat /data/vert/ParlaMint-EE.5.0.vert.gz"
+VERTICAL "| zcat /data/vert/ParlaMint-NO.5.1.vert.gz"
 
 DOCSTRUCTURE speech
 MAXDETAIL 10000

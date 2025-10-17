@@ -1,15 +1,15 @@
 MAINTAINER "CLARIN.SI <info@clarin.si>"
-NAME "ParlaMint-ES-PV 5.0 (Basque parliament)"
-INFO "Basque parliamentary corpus ParlaMint-ES-PV, 2015-2022 v5.0"
+NAME "ParlaMint-IT 5.1 (Italian parliament)"
+INFO "Italian parliamentary corpus ParlaMint-IT, 2013-2022 v5.1"
 ENCODING "UTF-8"
-DEFAULTLOCALE "eu_ES.UTF-8"
-LANGUAGE "Basque, Spanish"
-INFOHREF "http://hdl.handle.net/11356/2005"
+DEFAULTLOCALE "it_IT.UTF-8"
+LANGUAGE "Italian"
+INFOHREF "http://hdl.handle.net/11356/2058"
 TAGSETDOC "https://universaldependencies.org/guidelines.html"
 
-PATH "/data/manatee-data/parlamint50_es_pv/"
+PATH "/data/manatee-data/parlamint51_it/"
 
-VERTICAL "| zcat /data/vert/ParlaMint-ES-PV.5.0.vert.gz"
+VERTICAL "| zcat /data/vert/ParlaMint-IT.5.1.vert.gz"
 
 DOCSTRUCTURE speech
 MAXDETAIL 10000

@@ -1,15 +1,15 @@
 MAINTAINER "CLARIN.SI <info@clarin.si>"
-NAME "ParlaMint-GB 5.0 (British parliament)"
-INFO "Great Britain parliamentary corpus ParlaMint-GB, 2015-2022 v5.0"
+NAME "ParlaMint-EE 5.1 (Estonian parliament)"
+INFO "Estonian parliamentary corpus ParlaMint-EE, 2011-2022 v5.1"
 ENCODING "UTF-8"
-DEFAULTLOCALE "en_GB.UTF-8"
-LANGUAGE "English"
-INFOHREF "http://hdl.handle.net/11356/2005"
+DEFAULTLOCALE "et_EE.UTF-8"
+LANGUAGE "Estonian"
+INFOHREF "http://hdl.handle.net/11356/2058"
 TAGSETDOC "https://universaldependencies.org/guidelines.html"
 
-PATH "/data/manatee-data/parlamint50_gb/"
+PATH "/data/manatee-data/parlamint51_ee/"
 
-VERTICAL "| zcat /data/vert/ParlaMint-GB.5.0.vert.gz"
+VERTICAL "| zcat /data/vert/ParlaMint-EE.5.1.vert.gz"
 
 DOCSTRUCTURE speech
 MAXDETAIL 10000

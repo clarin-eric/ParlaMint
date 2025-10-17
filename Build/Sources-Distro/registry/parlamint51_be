@@ -1,15 +1,15 @@
 MAINTAINER "CLARIN.SI <info@clarin.si>"
-NAME "ParlaMint-BA 5.0 (Bosnian parliament)"
-INFO "Bosnian parliamentary corpus ParlaMint-BA, 1998-2022 v5.0"
+NAME "ParlaMint-BE 5.1 (Belgian parliament)"
+INFO "Belgian parliamentary corpus ParlaMint-BE, 2014-2022 v5.1"
 ENCODING "UTF-8"
-DEFAULTLOCALE "bs_BA.UTF-8"
-LANGUAGE "Bosnian"
-INFOHREF "http://hdl.handle.net/11356/2005"
+DEFAULTLOCALE "fr_FR.UTF-8"
+LANGUAGE "Dutch, French"
+INFOHREF "http://hdl.handle.net/11356/2058"
 TAGSETDOC "https://universaldependencies.org/guidelines.html"
 
-PATH "/data/manatee-data/parlamint50_ba/"
+PATH "/data/manatee-data/parlamint51_be/"
 
-VERTICAL "| zcat /data/vert/ParlaMint-BA.5.0.vert.gz"
+VERTICAL "| zcat /data/vert/ParlaMint-BE.5.1.vert.gz"
 
 DOCSTRUCTURE speech
 MAXDETAIL 10000
