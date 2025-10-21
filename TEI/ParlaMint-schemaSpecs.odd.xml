@@ -4569,9 +4569,9 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="classDecl" module="header" mode="change">
-      <desc versionDate="2022-10-13" xml:lang="en">contains taxonomies defining classificatory codes
-    used elsewhere in the text. Note that the taxonomies are in ParlaMint typically stored in
-    separate files.</desc>
+      <desc versionDate="2025-10-01" xml:lang="en">contains taxonomies defining classificatory codes
+    used elsewhere in the text. Note that in ParlaMint the taxonomies are stored in separate files,
+    so this definition also allows XInclude elements in addition to the taxonomies.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="taxonomy"/>
@@ -4606,9 +4606,9 @@
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <classDecl>
           &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-                   href="href="ParlaMint-SI-taxonomy-parla.legislature.xml"/&gt;
+                   href="href="ParlaMint-taxonomy-parla.legislature.xml"/&gt;
           &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-                   href="href="ParlaMint-SI-taxonomy.xml-speaker_types"/&gt;
+                   href="href="ParlaMint-taxonomy-speaker_types.xml"/&gt;
           ...
         </classDecl>
          </egXML>
@@ -5207,9 +5207,9 @@
                <particDesc>
             <!-- listOrg and listPerson are typically stored in separate files -->
             &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-                     href="href="ParlaMint-SI-listOrg.xml"/&gt;
+                     href="ParlaMint-SI-listOrg.xml"/&gt;
             &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-                     href="href="ParlaMint-SI-listPerson.xml"/&gt;
+                     href="ParlaMint-SI-listPerson.xml"/&gt;
           </particDesc>
                <langUsage>
                   <langUsage>
@@ -5466,9 +5466,9 @@
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <particDesc>
           &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-                   href="href="ParlaMint-SI-listOrg.xml"/&gt;
+                   href="ParlaMint-SI-listOrg.xml"/&gt;
           &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-                   href="href="ParlaMint-SI-listPerson.xml"/&gt;
+                   href="ParlaMint-SI-listPerson.xml"/&gt;
         </particDesc>
          </egXML>
       </exemplum>
