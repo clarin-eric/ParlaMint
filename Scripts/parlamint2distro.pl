@@ -603,7 +603,7 @@ sub cp_readme {
     close OUT;
 }
 
-#Read in the appropriate $inFile README, change XX in it to country code, and output it $outFile
+#Copy XML schemas in $schemaDir to $outDir
 sub cp_schema {
     my $schemaDir = shift;
     my $outDir = shift;

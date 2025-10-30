@@ -7,23 +7,23 @@ Note that the complete corpora are to large to be stored on GitHub, so most of t
 
 Here you can find the following directories:
 
-* [Sources-TEI/](Sources-TEI/): source ParlaMint TEI encoded corpora
+* [Sources-Orig/](Sources-Orig/): source ParlaMint TEI encoded corpora with missing metadata,
+  which is taken from TSV files in [Sources-TSV/](Sources-TSV/) to produce full metadata files in [Sources-TEI/](Sources-TEI/)
+* [Sources-TSV/](Sources-TSV/): extra TSV metadata and `listPerson` and `listOrg` XML files that this metadata should be added to,
+  along with the build environment (Makefile) for this metadata enrichment
+* [Sources-TEI/](Sources-TEI/): source ParlaMint TEI encoded corpora with full metadata
   (input to the release pipeline for ParlaMint)
-* [Sources-MT/](Sources-MT/): source CoNLL-U encoded corpora machine translated to Enlgish
- (input to the release pipeline for ParlaMint-en)
+* [Sources-Distro/](Sources-Distro/): supplementary documents included with a ParlaMint release
+* [Sources-CoNLLU/](Sources-CoNLLU/): source CoNLL-U encoded corpora machine translated to English
+  (input to the release pipeline for ParlaMint-en)
+* [Taxonomies/](Taxonomies/): directory for development of common taxonomies
 * [Makefile](Makefile): targets with the release pipeline
-* [bin/](bin/): local scripts used for preparing a ParlaMint release
-* [Docs/](Docs/): supplementary documents included with a ParlaMint release
+* [Scripts/](Scripts/): local scripts used for preparing a ParlaMint release
 * [Logs/](Logs/): logs of the pipeline used to prepare a ParlaMint release
 * [Distro/](Distro/): distribtion directory with corpora ready for a ParlaMint release
   (output of the release pipeline)
-* [Packed/](Packed/): Master corpora packed (i.e. compressed) for a ParlaMint release on a CLARIN repository
-* [Verts/](Verts/): Master vert files joined together into one file per corpus, ready for importing to the concordancers
-* [Test/](Test/): Folder to test data, used for debugging the release pipeline
-* [Temp/](Temp/): Folder for temporary files, used in the release pipeline
+* [Packed/](Packed/): distribtion corpora packed (i.e. compressed) for a ParlaMint release on a CLARIN repository
 * [Metadata/](Metadata/): automatically generated metadata of the corpus
-* [Taxonomies/](Taxonomies/): directory for development of common taxonomies
-* [Ministers/](Ministers/): TSV files and build invironment for inserting minister affiliations into
-  the ParlaMint corpora
-* [Orientations/](Orientations/): TSV files for inserting political orientation of parliamentary groups
-  and political parties minister affiliations into the ParlaMint corpora
+* [Verts/](Verts/): distribtion vertical files joined together into one file per corpus, ready for importing to the concordancers
+* [Test/](Test/): directory for test data, used for debugging the release pipeline
+* [Temp/](Temp/): directory for temporary files, used in the release pipeline

@@ -3,8 +3,9 @@
 The [CLARIN ParlaMint project](https://www.clarin.eu/parlamint)
 compiled comparable parliamentary corpora for a number of countries and languages. 
 
-ParlaMint corpora are interoperable, i.e. encoded to a very constrained common ParlaMint schema, a
-specialisation of the [Parla-CLARIN recommendations](https://clarin-eric.github.io/parla-clarin/),
+ParlaMint corpora are interoperable, i.e. encoded to a very constrained common
+[ParlaMint schema](https://clarin-eric.github.io/ParlaMint/), a specialisation of the
+[Parla-CLARIN recommendations](https://clarin-eric.github.io/parla-clarin/),
 which are a customisation of the [TEI Guidelines](https://tei-c.org/guidelines/p5/).  Common scripts
 should process the common data in any ParlaMint corpus, despite the differing parliamentary
 systems of the countries, the kind of information included in the corpora, and, of course, language.
