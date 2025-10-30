@@ -56,9 +56,9 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <!-- IL doesn't have sentiment, SI has it for u as well, others for s only -->
+    <!-- IL and ES-CN doesn't have sentiment, SI has it for u as well, others for s only -->
     <xsl:variable name="senti3">
-      <xsl:if test="$country-code != 'IL' and (self::tei:s or $country-code = 'SI')">
+      <xsl:if test="$country-code != 'IL' and $country-code != 'ES-CN' and (self::tei:s or $country-code = 'SI')">
         <xsl:call-template name="senti">
           <xsl:with-param name="lang" select="$out-lang"/>
           <xsl:with-param name="type">3</xsl:with-param>
@@ -66,7 +66,7 @@
       </xsl:if>
     </xsl:variable>
     <xsl:variable name="senti6">
-      <xsl:if test="$country-code != 'IL' and (self::tei:s or $country-code = 'SI')">
+      <xsl:if test="$country-code != 'IL' and $country-code != 'ES-CN' and (self::tei:s or $country-code = 'SI')">
         <xsl:call-template name="senti">
           <xsl:with-param name="lang" select="$out-lang"/>
           <xsl:with-param name="type">6</xsl:with-param>
@@ -74,7 +74,7 @@
       </xsl:if>
     </xsl:variable>
     <xsl:variable name="sentin">
-      <xsl:if test="$country-code != 'IL' and (self::tei:s or $country-code = 'SI')">
+      <xsl:if test="$country-code != 'IL' and $country-code != 'ES-CN' and (self::tei:s or $country-code = 'SI')">
         <xsl:call-template name="senti">
           <xsl:with-param name="lang" select="$out-lang"/>
           <xsl:with-param name="type">n</xsl:with-param>
