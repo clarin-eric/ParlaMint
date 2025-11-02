@@ -16,6 +16,14 @@ runs:
           export SAMPLE_SCRIPT=Scripts/corpus2sample.xsl
           echo "SAMPLE_SCRIPT=$SAMPLE_SCRIPT"  >> $GITHUB_ENV
       shell: bash
+    - name: Fix APT sources and update
+      run: |
+        sudo rm -f /etc/apt/sources.list.d/* || true
+        sudo rm -f /etc/apt/apt-mirrors.txt || true
+        echo "deb http://archive.ubuntu.com/ubuntu noble main universe multiverse restricted" | sudo tee /etc/apt/sources.list
+        echo "deb http://archive.ubuntu.com/ubuntu noble-updates main universe multiverse restricted" | sudo tee -a /etc/apt/sources.list
+        echo "deb http://archive.ubuntu.com/ubuntu noble-security main universe multiverse restricted" | sudo tee -a /etc/apt/sources.list
+        sudo apt-get update
     - name: Install deps
       run: |
           sudo apt-get install rename
