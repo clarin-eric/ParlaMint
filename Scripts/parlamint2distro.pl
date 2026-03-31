@@ -143,6 +143,7 @@ $country2lang{'DK'} = 'da';
 $country2lang{'EE'} = 'et';
 $country2lang{'ES'} = 'es';
 $country2lang{'ES-AN'} = 'es';
+$country2lang{'ES-CN'} = 'es';
 $country2lang{'ES-CT'} = 'ca, es';
 $country2lang{'ES-GA'} = 'gl';
 $country2lang{'ES-PV'} = 'eu, es';
@@ -602,7 +603,7 @@ sub cp_readme {
     close OUT;
 }
 
-#Read in the appropriate $inFile README, change XX in it to country code, and output it $outFile
+#Copy XML schemas in $schemaDir to $outDir
 sub cp_schema {
     my $schemaDir = shift;
     my $outDir = shift;

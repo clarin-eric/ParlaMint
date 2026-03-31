@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!-- Prepare a ParlaMint corpus for a release, i.e. fix known and automatically fixable errors in the source corpus -->
-<!-- The script can be used for both corpora in original langauge(s) or for its MTed variant -->
+<!-- The script can be used for both corpora in original langauge(s) or for their MTed variant -->
 <!-- Input is either lingustically analysed (.TEI.ana) or "plain text" (.TEI) corpus root file XIncluding the corpus components
-     Note that .TEI still needs access to .TEI.ana as that it where it takes its word measures
+     Note that .TEI needs access to .TEI.ana as that it where it takes its word extents
      Output is the corresponding .TEI / TEI.ana corpus root and corpus components, in the dicrectory given in the outDir parameter
-     If .TEI is processed, the corresponding TEI.ana directory should be given in the anaDir parameter
+     If .TEI is being processed, the corresponding TEI.ana directory should be given in the anaDir parameter
      STDERR gives a detailed log of changes.
 
      Changes to root file:
@@ -25,7 +25,6 @@
      - change badly formed title (RS)
      - change div/@type for divs without utterances
      - remove empty utterances, segments, notes
-     - assign IDs to segments without them
      - in .ana remove body name tag if name contains no words
      - in .ana remove sentences without tokens
      - in .ana change tag from <w> to <pc> for punctuation
@@ -865,28 +864,6 @@
                          ': removing segment without content for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
   
-  <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
-  <xsl:template mode="comp" match="tei:seg">
-    <xsl:copy>
-      <xsl:apply-templates mode="comp" select="@*"/>
-      <xsl:choose>
-        <xsl:when test="@xml:id"/>
-        <xsl:when test="parent::tei:u/@xml:id">
-          <xsl:attribute name="xml:id">
-            <xsl:value-of select="parent::tei:u/@xml:id"/>
-            <xsl:text>.</xsl:text>
-            <xsl:number/>
-          </xsl:attribute>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
-                               ': seg without ID but utterance also has no ID!')"/>
-        </xsl:otherwise>
-      </xsl:choose>
-      <xsl:apply-templates mode="comp"/>
-    </xsl:copy>
-  </xsl:template>
-      
   <!-- Bug where a sentence contains no tokens, remove sentence -->
   <xsl:template mode="comp" match="tei:s[not(.//tei:w or .//tei:pc)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
