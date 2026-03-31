@@ -82,8 +82,8 @@
   <!-- And a sentence is a sentence, with sentiment -->
   <xsl:template match="tei:s">
     <xsl:value-of select="concat('# sent_id = ', @xml:id, '&#10;')"/>
-    <!-- IL not marked up for sentiment -->
-    <xsl:if test="$country-code != 'IL'">
+    <!-- IL and ES-CN not marked up for sentiment -->
+    <xsl:if test="$country-code != 'IL' and $country-code != 'ES-CN'">
       <xsl:call-template name="all-senti"/>
     </xsl:if>
     <xsl:variable name="text">
@@ -438,4 +438,3 @@
     </xsl:choose>
   </xsl:function>
 </xsl:stylesheet>
-

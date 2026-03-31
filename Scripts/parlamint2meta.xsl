@@ -98,7 +98,7 @@
     </xsl:choose>
     <xsl:choose>
       <!-- IL not marked up for topics -->
-      <xsl:when test="$country-code = 'IL'">-</xsl:when>
+      <xsl:when test="$country-code = 'IL' or $country-code = 'ES-CN' ">-</xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="et:tsv-value(et:topic(@ana))"/>
       </xsl:otherwise>

@@ -25,6 +25,11 @@ HANDLE-MT  = http://hdl.handle.net/11356/2057
 # HANDLE-TEI = http://hdl.handle.net/11356/2032
 # HANDLE-ANA = http://hdl.handle.net/11356/2032
 
+# For ES-CN only:
+# VERSION = 1.0
+# HANDLE-TEI = http://hdl.handle.net/11356/2063
+# HANDLE-ANA = http://hdl.handle.net/11356/2063
+
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
 HERE = ${PARLAMINT}/Build

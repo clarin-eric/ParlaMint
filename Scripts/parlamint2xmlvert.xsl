@@ -49,8 +49,8 @@
             term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
             date="{$at-date}" title="{$title}">
       <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
-      <!-- IL not marked up for topics -->
-      <xsl:if test="$country-code != 'IL'">
+      <!-- IL and ES-CN not marked up for topics -->
+      <xsl:if test="$country-code != 'IL' and $country-code != 'ES-CN'">
         <xsl:attribute name="topic" select="et:topic(@ana)"/>
       </xsl:if>
       <xsl:if test="$country-code = 'DK'">
@@ -192,8 +192,8 @@
   <xsl:template match="tei:s">
     <xsl:copy>
       <xsl:attribute name="id" select="@xml:id"/>
-      <!-- IL does not have sentiment -->
-      <xsl:if test="$country-code != 'IL'">
+      <!-- IL and ES-CN does not have sentiment -->
+      <xsl:if test="$country-code != 'IL' and $country-code != 'ES-CN'">
         <xsl:call-template name="senti-attributes"/>
       </xsl:if>
       <xsl:text>&#10;</xsl:text>
