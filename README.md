@@ -72,5 +72,5 @@ Note that there are several branches for different parts of the development.
   This consists of the input (source) data, scripts, and Makefile with targets to make a relese.
   Note the the complete corpora are too large to store on GitHub, so most data files are gitignored.
   However, the directory or its subdirectories contain
-  various associated resources, e.g. the automatically produced ParlaMint root files, common taxonomies,
+  associated resources, e.g. the automatically produced ParlaMint root files, common taxonomies,
   various metadata on the corpora etc.
