@@ -157,6 +157,31 @@ foreach $gap ( $xml->findnodes("//gap") ) {
   };
 };
 
+  # Deal with the new topic attribute on utterances
+
+
+  # Split the topic for each utterance
+  foreach $utt ( $xml->findnodes("//text//u") ) {
+
+    # Split the topic from the @ana
+    $ana = $utt->getAttribute("ana");
+    if ( $ana =~ /(.*?) (.*)/ ) {
+       @anas = split(" ", $ana);
+       foreach $pana ( @anas ) {
+          if ( $pana =~ /^topic:(.*)/ ) {
+            $topic = $1;
+            $utt->setAttribute("topic", "$topic");
+          } elsif ( $pana =~ /#(chair|regular|guest)/ ) {
+            $role = $pana;
+            $utt->setAttribute("role", "$pana");
+          } else {
+            print "Oops - no idea what $pana is in \@ana";
+          }
+       }
+    };
+
+  };
+
 if ( $xml->findnodes("//pb") ) {
 
   # Already pb'd
@@ -221,6 +246,8 @@ if ( $xml->findnodes("//pb") ) {
           # This is not the first sentence
           $pb->setAttribute("utt", $uttid);
           $pb->setAttribute("who", $utt->getAttribute("who"));
+          $pb->setAttribute("role", $utt->getAttribute("role"));
+          $pb->setAttribute("topic", $utt->getAttribute("topic"));
           $pb->setAttribute("ana", $utt->getAttribute("ana"));
           $pb->setAttribute("corresp", $utt->getAttribute("corresp"));
           $nextpag = $pbcnt; ## Why is thid not +1?
@@ -265,7 +292,8 @@ if ( $xml->findnodes("//pb") ) {
      "Speaker_gender" => "speaker_gender",
      "Speaker_birth" => "speaker_birth",
      "Lang" => "lang",
-     "Party_orientation" => "party_orientation"
+     "Party_orientation" => "party_orientation",
+     "Topic" => "topic"
 );
 
 %setflds = (
@@ -330,7 +358,7 @@ if ( !-e $tsv ) {
       $txt->setAttribute("body", $body);
       $txt->setAttribute("subcorpus", $subcorpus);
     };
-    #  ( $uid,  $title, $date, $body, $term, $session, $meeting, $sitting, $agenda, $subcorpus, $speaker_role, $speaker_MP, $speaker_Minister, $speaker_party, $speaker_party_name, $party_status, $speaker_name, $speaker_gender, $speaker_birth ) = split("\t");
+    #  ( $uid,  $title, $date, $body, $term, $session, $meeting, $sitting, $agenda, $subcorpus, $speaker_role, $speaker_MP, $speaker_Minister, $speaker_party, $speaker_party_name, $party_status, $speaker_name, $speaker_gender, $speaker_birth, $topic ) = split("\t");
     $org{$uid} = $_;
   };
   close FILE;
@@ -343,7 +371,7 @@ if ( !-e $tsv ) {
       ${$ff[$fc]} = $fval;
       $fc++;
     };
-    #  ( $uid,  $title, $date, $body, $term, $session, $meeting, $sitting, $agenda, $subcorpus, $speaker_role, $speaker_MP, $speaker_Minister, $speaker_party, $speaker_party_name, $party_status, $speaker_name, $speaker_gender, $speaker_birth ) = split("\t");
+    #  ( $uid,  $title, $date, $body, $term, $session, $meeting, $sitting, $agenda, $subcorpus, $speaker_role, $speaker_MP, $speaker_Minister, $speaker_party, $speaker_party_name, $party_status, $speaker_name, $speaker_gender, $speaker_birth, $topic ) = split("\t");
     $eng{$uid} = $_;
   };
   close FILE;
@@ -353,6 +381,7 @@ if ( !-e $tsv ) {
   $srcd->addChild($listp);
 
   foreach $utt ( $xml->findnodes("//text//u") ) {
+
     $uid = $utt->findnodes("\@xml:id")->item(0)->value."";
     $corresp = $utt->getAttribute("who")."";
     $spid = substr($corresp, 1);
@@ -370,6 +399,9 @@ if ( !-e $tsv ) {
         ${$ff[$fc]} = $fval;
         $fc++;
       };
+      $topc = $vals[$fld2num{"topic"}];
+      if ( $topc ) { $utt->setAttribute('fulltopic', $topc); };
+
       $spn = $vals[$fld2num{"speaker_name"}];
       $sp2name{$spid} = $spn;
       $nm = $xml->createElement("persName");
@@ -393,6 +425,10 @@ if ( !-e $tsv ) {
           ${$ff[$fc]} = $fval;
           $fc++;
         };
+        $topc = $vals[$fld2num{"topic"}];
+        print "$uid - English topic: $topc";
+        if ( $topc ) { $utt->setAttribute('fulltopic', $topc); };
+
         $nm = $xml->createElement("persName");
         $nm->setAttribute("lang", "eng");
         $nm->appendText($vals[$fld2num{"speaker_name"}]);
@@ -409,12 +445,40 @@ if ( !-e $tsv ) {
       $listp->appendText("\n\t\t");
       $listp->addChild($prs);
 
-    };
+
+    } else {
+
+      # Do topic for known speakers
+      # print $org{$uid};
+      @vals = split("\t", $org{$uid});
+      # ( $uid,  $title, $date, $body, $term, $session, $meeting, $sitting, $agenda, $subcorpus, $speaker_role, $speaker_MP, $speaker_Minister, $speaker_party, $speaker_party_name, $party_status, $speaker_name, $speaker_gender, $speaker_birth ) = split("\t", $org{$uid});
+      foreach $fval ( split("\t", $vals) ) {
+        ${$ff[$fc]} = $fval;
+        $fc++;
+      };
+      $topc = $vals[$fld2num{"topic"}];
+      if ( $topc ) { $utt->setAttribute('fulltopic', $topc); };
+
+      if ( $eng{$uid} ) {
+        #$engs = split("\t", $eng{$uid});
+        #( $uid,  $title, $date, $body, $term, $session, $meeting, $sitting, $agenda, $subcorpus, $speaker_role, $speaker_MP, $speaker_Minister, $speaker_party, $speaker_party_name, $party_status, $speaker_name, $speaker_gender, $speaker_birth ) = split("\t", $eng{$uid});
+        @vals = split("\t", $eng{$uid});
+        $fc = 0;
+        foreach $fval ( split("\t", $vals) ) {
+          ${$ff[$fc]} = $fval;
+          $fc++;
+        };
+        $topc = $vals[$fld2num{"topic"}];
+        if ( $topc ) { $utt->setAttribute('fulltopic', $topc); };
+      };
+    }
+
     if ( $spn ne '') {
       $utt->setAttribute("who", $spn);
     } else {
       print "Unknown speaker: $spid";
     };
+
   };
 
 };
@@ -431,6 +495,8 @@ if ( $dopb || 1==1 ) {
     $pb->setAttribute("corresp", $utt->getAttribute("corresp"));
           $pb->setAttribute("utt", $uttid);
           $pb->setAttribute("who", $utt->getAttribute("who"));
+          $pb->setAttribute("role", $utt->getAttribute("role"));
+          $pb->setAttribute("topic", $utt->getAttribute("topic"));
           $pb->setAttribute("ana", $utt->getAttribute("ana"));
     if ( $debug ) { print $pb->toString; } ;
   };
