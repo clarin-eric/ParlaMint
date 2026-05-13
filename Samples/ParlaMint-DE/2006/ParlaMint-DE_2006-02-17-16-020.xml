@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2006-02-17-16-020">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 16. Wahlperiode, 20. Sitzung [ParlaMint SAMPLE]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 17.02.2006 (20. Sitzung der 16. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 16, Session 20 [ParlaMint SAMPLE]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 2006-02-17 (Session 20 in Legislative Period 16)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="20">20. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.16" n="16">16. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="20">Session 20</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.16" n="16">Legislative Period 16</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 17.02.2006</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 2006-02-17</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2015-10-20">http://webarchiv.bundestag.de/archive/2008/0912/bic/plenarprotokolle/pp/2006/16020a.zip</idno>
+          <date when="2006-02-17">2006-02-17</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="7"/>
+          <tagUsage gi="head" occurs="7"/>
+          <tagUsage gi="note" occurs="236"/>
+          <tagUsage gi="u" occurs="236"/>
+          <tagUsage gi="seg" occurs="1422"/>
+          <tagUsage gi="kinesic" occurs="455"/>
+          <tagUsage gi="vocal" occurs="272"/>
+          <tagUsage gi="incident" occurs="8"/>
+          <tagUsage gi="desc" occurs="735"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="2006-02-17">2006-02-17</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
+  </change>
+      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
+  </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <gap reason="editorial">
+        <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
+      </gap>
+      <div type="debateSection" n="4" ana="#DE-motion #DE-consultation">
+        <head>Beratung des Antrags der Abgeordneten Brigitte Pothmer, Dr. Thea Dückert, Kersti...</head>
+        <note type="speaker">Brigitte Pothmer (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q916571" xml:id="ParlaMint-DE_2006-02-17-16-020.u142" ana="#regular #DE-mp">
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg868">Frau Präsidentin! Meine Damen und Herren! Aus dem Problem der Massenarbeitslosigkeit ist in Deutschland leider längst eine Dauerkatastrophe geworden.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Heinrich L. Kolb [FDP]: Das ist auch in sieben Jahren Rot-Grün nicht besser geworden!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg869">Diese Dramatik wird noch dadurch gesteigert, dass die Zahl der Langzeitarbeitslosen ständig zunimmt. Dabei handelt es sich um eine Gruppe, die überwiegend sehr schlecht ausgebildet ist oder gar keine Ausbildung hat. Aufgrund der wirklich mangelhaften Ausbildungs- und Bildungssituation in Deutschland steigt die Zahl der Langzeitarbeitslosen leider von Jahr zu Jahr. Parallel dazu schwinden die Arbeitsplätze, insbesondere solche mit einfachen Anforderungen. Deshalb muss es vor allen Dingen um eines gehen: zu klären, wie wir die Voraussetzungen dafür schaffen können, dass insbesondere für die Gruppe der gering Qualifizierten Beschäftigungsangebote entstehen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN - Dr. Heinrich L. Kolb [FDP]: Und das habt ihr, nachdem ihr sieben Jahre regiert habt, so plötzlich gemerkt?</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg870">- Herr Kolb, die FDP-Fraktion hat in Deutschland sehr lange mitregiert.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Heinrich L. Kolb [FDP]: Das waren gute Zeiten!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg871">- "Das waren gute Zeiten"? Herr Kolb, über Ihre Definition davon, was gute Zeiten sind, müssen wir hier noch einmal reden. Jedenfalls ist das, was damals gut war,</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Heinrich L. Kolb [FDP]: Bei uns ist die Zahl der sozialversicherungspflichtigen Arbeitsplätze um 3 Millionen gestiegen!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg872">heute offensichtlich schlecht. Sie hängen doch Ihre Fahne nach dem Wind!</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg873">Die Hauptursache für den Mangel an solchen Arbeitsplätzen muss in den hohen Sozialversicherungsbeiträgen gesehen werden. Diese sind übrigens auch unter Schwarz-Gelb ständig angestiegen, Herr Kolb!</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN - Dirk Niebel [FDP]: Sie waren es, die die 5-Millionen-Marke gerissen haben!</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg874">Die hohen Lohnnebenkosten machen diese Arbeitsplätze für die Arbeitgeber unwirtschaftlich und für die Arbeitnehmer unattraktiv. Das Ergebnis ist ein ständiges Anwachsen der Schwarzarbeit.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten des BÜNDNISSES 90/ DIE GRÜNEN</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg875">Wir schlagen mit unserem Progressivmodell vor, die Lohnnebenkosten im unteren Einkommensbereich gezielt zu senken, und zwar nicht um 1 oder 2 Prozentpunkte - das würde gar keine Wirkung entfalten -, sondern nach der Formel "Je geringer das Einkommen, desto geringer auch die Sozialabgaben". Wir glauben, dass wir damit insbesondere im unteren Lohnbereich deutlich bessere Ergebnisse erzielen werden, als es mit dem von der CDU favorisierten Kombilohnmodell je möglich wäre.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg876">Wir lehnen dieses Kombilohnmodell übrigens nicht aus ideologischen Gründen ab. Sie können sich vielleicht noch daran erinnern, dass wir Grünen seinerzeit dafür waren, Kombilohnmodelle auszuprobieren. Aber wir müssen nach der Probephase zur Kenntnis nehmen, wie die Ergebnisse sind:</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Heinrich L. Kolb [FDP]: Und?</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg877">Die Ergebnisse sind grottenschlecht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg878">Deswegen sage ich Ihnen: Lassen Sie die Finger davon! Wir wissen doch inzwischen, dass Kombilohnmodelle geradezu absurd teuer sind: Je nach Ausgestaltung kosten sie 35 000 bis 70 000 Euro pro Jahr.</seg>
+          <vocal type="exclamat">
+            <desc>Dirk Niebel [FDP]: Das ist ja wie ein Steinkohlearbeitsplatz!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg879">Das ist ein Vielfaches von dem, was die Leute in diesem unteren Lohnbereich verdienen.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg880">Kombilohnmodelle setzen außerdem falsche Anreize: Wir haben die berechtigte Sorge, dass durch diese Modelle Arbeit generell zu subventionierter Arbeit würde. Das können wir nicht wollen. Kombilohnmodelle, zumindest in großem Umfang, sind in Deutschland gescheitert; das ist das Ergebnis.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg881">Mit dieser Skepsis stehen wir Grünen wahrlich nicht alleine da. Dass wir uns allerdings in Gemeinschaft mit der FDP wieder finden, lässt mich noch einmal darüber nachdenken, ob wir uns richtig positioniert haben.</seg>
+          <kinesic type="laughter">
+            <desc>Heiterkeit beim BÜNDNIS 90/DIE GRÜNEN - Lachen bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg882">Wenn aber die Bundesagentur für Arbeit dagegen ist, wenn die Arbeitgeberverbände, die Gewerkschaften, die Mitglieder des Sachverständigenrates und große Teile der SPD-Fraktion dagegen sind, dann muss doch klar sein: Die Einführung von Kombilohnmodellen wäre ein großer Fehler.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei Abgeordneten des BÜNDNIS-SES 90/DIE GRÜNEN - Dirk Niebel [FDP]: Wie war das mit der Million Fliegen, die sich nicht irren können?</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Katrin Göring-Eckardt:</note>
+        <u who="#Q48967" xml:id="ParlaMint-DE_2006-02-17-16-020.u143" ana="#chair">
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg883">Sie müssen bitte zum Schluss kommen, Frau Pothmer.</seg>
+        </u>
+        <note type="speaker">Brigitte Pothmer (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q916571" xml:id="ParlaMint-DE_2006-02-17-16-020.u144" ana="#regular #DE-mp">
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg884">Ich komme zum Schluss.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg885">Ich will nur noch darauf hinweisen, dass bei der Einführung unseres Progressivmodells auch die Mini- und die Midijobs, deren Fehler sich im Rahmen der Evaluierung von Hartz IV gezeigt haben, integriert wären. Damit hätten wir den Vorteil, dass alle, die in diesem Bereich arbeiten, sozialversichert wären - ab dem ersten Euro. Das ist sicher nicht umsonst zu haben; nach unseren Schätzungen kostet es etwa 13 Milliarden Euro. Doch das wäre nur ein Bruchteil von dem, was Kombilohnmodelle an Kosten verursachen würden.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg886">Ich danke Ihnen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Katrin Göring-Eckardt:</note>
+        <u who="#Q48967" xml:id="ParlaMint-DE_2006-02-17-16-020.u145" ana="#chair">
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg887">Das Wort hat der Kollege Michael Hennrich, CDU/ CSU-Fraktion.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Michael Hennrich (CDU/CSU):</note>
+        <u who="#Q1240168" xml:id="ParlaMint-DE_2006-02-17-16-020.u146" ana="#regular #DE-mp">
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg888">Frau Präsidentin! Meine sehr verehrten Damen und Herren! Liebe Frau Pothmer, ich fühle mich an alte Zeiten zurückerinnert, als es unter Rot-Grün Schnellschüsse en masse gab, bei denen dann permanent nachgebessert werden musste.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Heinrich L. Kolb [FDP]: Sie wollen es jetzt doch besser machen!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg889">Die SPD hat dazugelernt, sie ist auf den Pfad der Tugend zurückgekehrt und lässt sich Zeit. Bei Ihnen aber muss es immer noch schnell gehen.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg890">Sie legen uns heute ein Modell vor, bei dem allenfalls noch der Name ein gewisses Interesse weckt. Was sich dahinter versteckt, ist aber eine Luftblase.</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Das haben Sie doch gar nicht verstanden!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg891">- Doch, dazu kommen wir jetzt gleich noch.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg892">Ich stimme mit Ihnen überein, dass die Bekämpfung der Arbeitslosigkeit ein ganz zentrales Thema für uns alle ist. Es ist für die Gesellschaft, für die sozialen Sicherungssysteme in unserem Land, für unsere Finanzen und in erster Linie für die Menschen in unserem Land ein zentrales Thema.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg893">Vor einer Woche haben wir den Evaluierungsbericht zu Hartz I bis III diskutiert. Dieses Projekt wurde von Rot-Grün auf den Weg gebracht.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Heinrich L. Kolb [FDP]: Das war nicht so doll!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg894">- Wir müssen jetzt ja Rücksicht auf unseren Koalitionspartner nehmen. Deswegen sagen auch wir nur: Es war nicht ganz so doll.</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Sie haben das doch mit beschlossen!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg895">- Ja, die zentralen Teile. Bei dem, was gescheitert ist, haben wir eben nicht mitgemacht. Denken Sie nur an die Personalserviceagenturen: ein Verriss sondergleichen. Das haben wir vom ersten Tag an angemahnt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg896">Jetzt laufen wir wieder in genau die gleiche Richtung.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg897">Der Evaluierungsbericht zu Hartz I bis III sollte uns deutlich gemacht haben, dass wir jetzt Reformen brauchen, die greifen.</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Richtig!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg898">Da wir Reformen brauchen, die greifen, müssen wir sie auch sachlich durchdiskutieren und erörtern. Wir müssen das Pro und Contra abwägen</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Heinrich L. Kolb [FDP]: Jetzt wird es aber interessant!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg899">und es nicht so machen, wie Sie, nämlich einen Schnellschuss in die Welt setzen und sich dann wieder von der Diskussion verabschieden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU - Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Jetzt doch bitte noch was Inhaltliches! - Dr. Heinrich L. Kolb [FDP]: Bei Ihnen dauert das jetzt wieder vier Jahre!</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg900">- Ja, ja, aber wir sind ja noch am Anfang dieser Legislaturperiode, lieber Herr Kolb.</seg>
+          <vocal type="exclamat">
+            <desc>Dirk Niebel [FDP]: Ich finde, Sie sind schon ganz schön fertig!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg901">Ihre Analyse zum Niedriglohnsektor und zur Beschäftigungsquote ist richtig. Sie sagen, die Beschäftigungsquote im Hinblick auf die Langzeitarbeitslosen und die Geringqualifizierten ist immer noch zu gering. Hier sind wir vollkommen d'accord. In einem entscheidenden Punkt liegen Sie meines Erachtens aber falsch. Wenn Sie sagen, die Lohnzusatzkosten seien der Grund für die schwache Beschäftigung der Geringqualifizierten und der Langzeitarbeitslosen, dann haben Sie das Thema verfehlt. Ich möchte Ihnen das an zwei Beispielen deutlich machen.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg902">Zunächst aus Sicht der Arbeitgeber: Schauen Sie sich das Grenzgebiet zu Tschechien an. Wenn ein Arbeitnehmer in Bayern 8 Euro verdient, während man hinter der Grenze in der Slowakei oder in Tschechien vielleicht zwischen 3 und 5 Euro Lohn erhält, dann spielen Sozialabgaben in Höhe von 10, 15 oder 20 Prozent nur eine absolut untergeordnete Rolle. Dieses Beschäftigungsverhältnis wird nicht attraktiv.</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Ich dachte immer, Sie seien für die Senkung der Lohnnebenkosten!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg903">- Stopp, stopp!</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg904">Das zweite Beispiel ist aus Sicht der Arbeitnehmer: Schauen Sie sich das heutige System mit Hartz IV an. Ein vierköpfiger Familienvater - -</seg>
+          <kinesic type="amusement">
+            <desc>Dr. Heinrich L. Kolb [FDP]: Er hat nur einen! - Weiterer Zuruf von der FDP: Monster! - Heiterkeit im ganzen Hause</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg905">- Sie wissen, wie ich das gemeint habe. - Schauen Sie sich einen Familienvater an, dessen Familie vier Personen umfasst - es sind also zwei Kinder, lieber Herr Kolb - und dessen Stundenlohn, so nehmen Sie an, 9 Euro beträgt. Er arbeitet 160 bis 170 Stunden im Monat. Dadurch kommt er auf einen durchschnittlichen Bruttolohn von circa 1 500 Euro. Das ist genau der Betrag, den er heute schon durch Hartz IV erhalten würde. Auch er hat also keinen Anreiz, eine Tätigkeit aufzunehmen, weil er dieses Geld ja bekommen kann, ohne dass er arbeitet. Auch für ihn spielen die Sozialversicherungsabgaben im Grunde genommen überhaupt keine Rolle. - Das sind nur zwei Beispiele, die ich erwähnen wollte.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg906">Jetzt möchte ich aber auch noch ein paar Fragen zu Ihrem Antrag aufwerfen. Sie haben hier formuliert, dass zusätzliche Steuergelder in Höhe von 13 Milliarden Euro erforderlich sind.</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Ja!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg907">Meine erste Frage lautet: Woher nehmen Sie die?</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Dafür werden wir Ihnen einen Haushaltsvorschlag machen! Da können Sie sich ganz sicher sein!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg908">- Seien Sie doch bitte mal konkret. Wir wollen hier eine ernsthafte und seriöse Politik betreiben. Deshalb bitte ich Sie einmal, diese Frage ganz konkret zu beantworten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg909">Meine zweite Frage, Frau Pothmer: Völlig ungeklärt ist auch, wie sich die Situation im Alter darstellt, wenn die betroffenen Personen keine Rentenversicherungsbeiträge mehr zahlen. Wer keine Rentenversicherungsbeiträge zahlt, erwirbt auch keine Rentenansprüche.</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Das wird durch Steuermittel kompensiert!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg910">- Sie müssen das aber in Bezug zur Erwerbstätigkeit setzen. Wie lösen Sie dieses Problem? Da kommt nur Kopfschütteln und "Weiß ich nicht".</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Kein Kopfschütteln!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg911">Diese Problembereiche zeigen uns deutlich, dass dieser Antrag wenig durchdacht ist. Wie gesagt, damit haben Sie einen Schnellschuss in die Welt abgegeben. Von seriöser Politik haben Sie leider Gottes Abstand genommen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg912">Ich stimme Ihnen völlig zu, dass wir ein Modell brauchen, das Lohndumping eindämmt. Deswegen sollten die Transferleistungen meiner Meinung nach beim Arbeitnehmer und nicht beim Arbeitgeber ankommen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU - Dirk Niebel [FDP]: Das ist das einzig Vernünftige!</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg913">Diese Diskussion müssen und werden wir in der nächsten Zeit seriös führen. Wir haben gesagt, dass wir im Herbst ein Konzept vorlegen.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg914">Aber ich möchte noch auf einen Punkt ganz deutlich hinweisen: Wir dürfen nicht dem Irrglauben unterliegen, zu denken, mit einem Kombilohn- oder Progressivmodell könnten alle Probleme in unserem Land gelöst werden. Wir brauchen flankierende Maßnahmen, um Baustellen wie die Deregulierung am Arbeitsmarkt, den Arbeitsschutz oder den Kündigungsschutz in den Griff zu bekommen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg915">- Ich freue mich, dass Sie applaudieren.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg916">Wir müssen Bürokratie konsequent abbauen. Die Genehmigungsverfahren sind zu lang. Wer sich heute in unserem Land selbstständig machen will, braucht für das Einholen der Genehmigung 46 Tage. In anderen europäischen Ländern - um das einmal zu vergleichen - dauert das zwischen zwei und zehn Tagen. Das ist ein entscheidender Unterschied. Wir müssen darüber hinaus mehr Wert auf Qualifizierung und Weiterbildung legen.</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg917">Ich habe nur einige Punkte angerissen, um deutlich zu machen, wo die Baustellen der Zukunft liegen. Sie haben einen kleinen Teilaspekt herausgegriffen, ohne dies in einem Gesamtzusammenhang zu sehen. Deswegen lehnen wir Ihren Antrag ab.</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Wir sind doch gerade in der ersten Beratung!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg918">Ich hoffe, Sie kehren auf den Pfad der Tugend zurück. Konzentrieren Sie sich wieder auf das Wesentliche und bringen Sie inhaltlich ausgereifte Vorschläge ein!</seg>
+          <seg xml:id="ParlaMint-DE_2006-02-17-16-020.seg919">Herzlichen Dank.</seg>
+        </u>
+        <gap reason="editorial">
+          <desc xml:lang="en">Current agenda item shortened (sampling)</desc>
+        </gap>
+      </div>
+      <gap reason="editorial">
+        <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
+      </gap>
+    </body>
+  </text>
+</TEI>

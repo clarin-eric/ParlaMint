@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2014-10-09-18-057">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 18. Wahlperiode, 57. Sitzung [ParlaMint SAMPLE]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 09.10.2014 (57. Sitzung der 18. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 18, Session 57 [ParlaMint SAMPLE]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 2014-10-09 (Session 57 in Legislative Period 18)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="57">57. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.18" n="18">18. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="57">Session 57</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.18" n="18">Legislative Period 18</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 09.10.2014</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 2014-10-09</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2015-10-20">http://www.bundestag.de/blob/333862/deda8684333585fd828be7a082bbfdc8/18057-data.txt</idno>
+          <date when="2014-10-09">2014-10-09</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="14"/>
+          <tagUsage gi="head" occurs="14"/>
+          <tagUsage gi="note" occurs="252"/>
+          <tagUsage gi="u" occurs="252"/>
+          <tagUsage gi="seg" occurs="2166"/>
+          <tagUsage gi="kinesic" occurs="662"/>
+          <tagUsage gi="vocal" occurs="287"/>
+          <tagUsage gi="incident" occurs="1"/>
+          <tagUsage gi="desc" occurs="950"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="2014-10-09">2014-10-09</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
+  </change>
+      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
+  </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <gap reason="editorial">
+        <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
+      </gap>
+      <div type="debateSection" n="4" ana="#DE-consultation #DE-recommendation #DE-election">
+        <head>Beratung der Vierten Beschlussempfehlung des Wahlprüfungsausschusses</head>
+        <note type="speaker">Dr. Johann Wadephul (CDU/CSU):</note>
+        <u who="#Q1696501" xml:id="ParlaMint-DE_2014-10-09-18-057.u116" ana="#regular #DE-mp">
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1101">Frau Präsidentin! Liebe Kolleginnen und Kollegen! Wir entscheiden heute über die Vierte Beschlussempfehlung des Wahlprüfungsausschusses in dieser Wahlperiode. Sie behandelt die letzten 9 von insgesamt 224 Einsprüchen gegen die Gültigkeit der Bundestagswahl 2013 und gibt Gelegenheit, ein kurzes Zwischenresümee der Arbeit des Wahlprüfungsausschusses zu ziehen, den Dank den Berichterstattern und den Mitgliedern des Ausschusses auszusprechen, die im Übrigen alle sehr gerührt sind, dass Sie, liebe Kolleginnen und Kollegen, in so großer Zahl diesem Bericht zuhören und über die Beschlussempfehlung abstimmen.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1102">In der Sache ist die Beschlussempfehlung auch nicht ohne Bedeutung. Sollten Sie nämlich unserer Empfehlung nicht folgen wollen, hätte diese Sitzung ein jähes Ende. Deswegen sollte sich das jeder genau überlegen.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1103">Der Ausschuss ist froh, dass wir ein Jahr nach der Bundestagswahl und auch angesichts des Umstandes, dass wir erst zu Beginn dieses Jahres mit den Verfahren beginnen konnten, Ihnen jetzt einen abschließenden Bericht vorlegen können.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1104">Keiner der 224 Wahleinsprüche war nach Auffassung des Ausschusses begründet. Begründet wäre er dann gewesen, wenn ein Wahlfehler benannt worden wäre, der entweder Einfluss auf die Sitzverteilung hatte oder das subjektive Wahlrecht der den Einspruch einlegenden Personen beim Wahlakt verletzte. Den Einsprüchen ließen sich solche Fehler allerdings nicht entnehmen.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1105">Ich halte fest: Der Wahlprüfungsausschuss ist jedem Wahlfehler sorgfältig nachgegangen, hat das Bundesministerium des Innern, den Bundeswahlleiter, die Landeswahlleitungen und vereinzelt auch Kreiswahlleitungen um Stellungnahme gebeten.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1106">Im Einzelfall hat es leider, wenn auch in sehr wenigen Fällen, Wahlfehler gegeben. So wurden zum Beispiel in Düsseldorf zum Teil mehrfach derselben Person Briefwahlunterlagen zugesandt. In Oberhausen erhielten rund 30 Menschen Stimmzettel aus dem Jahre 2009. Das Erfreuliche ist, es fiel auf.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1107">Auf die Sitzverteilung hatten diese ärgerlichen Fehler keinen Einfluss, da das gesamte Stimmenaufkommen für die Erst- und Zweitstimmen sehr hoch war. Der Wahlprüfungsausschuss hat gleichwohl die Erwartung, dass die betreffenden Wahlbehörden derartige Fehler in Zukunft vermeiden.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1108">Ich möchte Ihnen mitteilen, welche Einspruchsgegenstände ansonsten typisch waren: nicht oder zu spät zugestellte Briefwahlunterlagen, die repräsentative Wahl-statistik, der Identitätsnachweis im Wahllokal, die Gestaltung des Stimmzettels oder das Schreibmittel in der Wahlkabine.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1109">Zum Teil hat es auch kaum nachvollziehbare Einsprüche gegeben. Ein Bürger hat behauptet, das Wahlergebnis müsse manipuliert gewesen sein. Er hat nämlich 40 Minuten nach Schließung der Wahllokale die TV-Serie "Lindenstraße" geschaut. In dieser Folge war das Wahlergebnis schon adaptiert. Daraus hat er eine Manipulation hergeleitet. Der Wahlprüfungsausschuss hat das natürlich sorgfältig geprüft und ist zu dem Ergebnis gekommen, dass keine Manipulation vorlag. Ich kann das Geheimnis lüften: Es sind einfach mehrere Varianten gedreht worden, und die Verantwortlichen der sendenden TV-Anstalt haben es schlicht und ergreifend geschafft, die richtige Variante zu senden. Damit hatte sich das Thema geklärt.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1110">Meine Damen und Herren, ein großer Teil der Einsprüche hat die Fünfprozentklausel betroffen. Sie wissen, welche Parteien knapp oder auch deutlich die Fünfprozenthürde verpasst haben. Wir haben uns ausführlich damit befasst. Die Ausschussmehrheit ist mit der Rechtsprechung des Bundesverfassungsgerichts der Auffassung, dass die Fünfprozentklausel verfassungskonform ist, weil sie die Bildung einer stabilen Mehrheit für die Wahl einer handlungsfähigen Regierung und deren fortlaufende Unterstützung im deutschen Parlament gewährleistet. Dies ist eine Folge, die die Verfassungsmütter und -väter aus der Weimarer Zeit gezogen haben. Wir halten das nach wie vor für rechtlich in Ordnung und verfassungskonform.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1111">Ein zweiter Punkt, mit dem wir uns in Zukunft befassen sollten, ist das sogenannte Wahlrecht für Betreute; auch einzelne Wahleinsprüche gegen die Europawahl 2014 befassen sich damit. Die Bundesregierung hat dankenswerterweise eine Studie in Auftrag gegeben, in der geprüft werden soll, ob wir hier zu Differenzierungen kommen können; denn nach derzeitiger Rechtslage - diese war für uns maßgeblich - sind volljährige Personen, für die eine Betreuung in allen Angelegenheiten gerichtlich angeordnet ist, nicht wahlberechtigt.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1112">Letzter Punkt ist ein Blick auf die Europawahl. Sie wissen, dass das schon medial diskutiert worden ist: die sogenannte Doppelwahl. Ein früherer Präsident des Bundesverfassungsgerichtes hat in einem großen Nachrichtenmagazin aus dem Norden Deutschlands in Zweifel gezogen, ob die Europawahl angesichts des Umstandes verfassungsgemäß gewesen sein kann, dass immerhin die Möglichkeit bestand, dass 8 Millionen Menschen in der gesamten Europäischen Union je zwei Stimmen abgegeben haben.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1113">Nach bisherigem Erkenntnisstand des Wahlprüfungsausschusses ist in Deutschland bisher allerdings nur eine Person bekannt, die vom Herrn Bundesfinanzminister persönlich belehrt worden ist, dass das wahrscheinlich ein rechtlicher Fehler gewesen ist. Solange wir nicht eine große Zahl weiterer Doppelstimmen erkennen, ist wahrscheinlich nicht zu erwarten, dass dies zu vertieften Prüfungen des Wahlprüfungsausschusses führen wird.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1114">Ich empfehle Ihnen also guten Gewissens, unseren Beschlussempfehlungen zu folgen und damit dafür zu sorgen, dass diese Sitzung ihren Fortgang finden kann.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1115">Herzlichen Dank für Ihre Aufmerksamkeit.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der SPD sowie bei Abgeordneten der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Ulla Schmidt:</note>
+        <u who="#Q61307" xml:id="ParlaMint-DE_2014-10-09-18-057.u117" ana="#chair">
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1116">Vielen Dank. - Wir kommen jetzt zur Abstimmung. Wer stimmt für die Beschlussempfehlung des Wahlprüfungsausschusses? - Wer stimmt dagegen? - Wer enthält sich? - Damit ist die Beschlussempfehlung mit den Stimmen aller Fraktionen angenommen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU und der SPD</desc>
+          </kinesic>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1117">Ich rufe den Tagesordnungspunkt 8 auf:</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1118">Wahl eines Mitglieds des Parlamentarischen Kontrollgremiums gemäß Artikel 45 d des Grundgesetzes</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1119">Drucksache 18/2743</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1120">Die Fraktion der SPD schlägt auf Drucksache 18/2743 den Kollegen Uli Grötsch vor.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1121">Liebe Kolleginnen und Kollegen, bevor wir zur Wahl kommen, bitte ich um Ihre Aufmerksamkeit für einige Hinweise zum Wahlverfahren. Nach § 2 Absatz 3 des Gesetzes über die parlamentarische Kontrolle nachrichtendienstlicher Tätigkeit des Bundes ist gewählt, wer die Stimmen der Mehrheit der Mitglieder des Bundestages auf sich vereint, das heißt, wer mindestens 316 Stimmen erhält.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1122">Die Wahl erfolgt mit Stimmkarte und Wahlausweis. Die Wahl ist offen. Sie können Ihre Stimmkarte also an Ihrem Platz ankreuzen. Den Wahlausweis können Sie, soweit noch nicht geschehen, Ihrem Stimmkartenfach in der Lobby entnehmen. Bitte beachten Sie, dass der Wahlausweis Ihren Namen trägt. Die Stimmkarten wurden im Saal verteilt. Sollten Sie keine Stimmkarte haben, besteht jetzt noch die Möglichkeit, diese von den Plenar-assistenten zu erhalten. Wer noch keine Stimmkarte hat, den bitte ich um ein Handzeichen.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1123">Gültig sind nur Stimmkarten mit einem Kreuz bei "ja", "nein" oder "enthalte mich". Ungültig sind demzufolge Stimmkarten, bei denen kein Kreuz gemacht oder mehr als ein Kreuz gemacht wurde oder ein anderer Name oder sonstige Zusätze vermerkt sind.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1124">Bevor Sie die Stimmkarte in die Wahlurnen werfen, übergeben Sie bitte den Schriftführerinnen und Schriftführern an den Urnen Ihren Wahlausweis. Ich mache darauf aufmerksam, dass die gültige Teilnahme an der Wahl nur dann sichergestellt ist, wenn Sie Ihren Wahlausweis abgegeben haben. Das ist gleichzeitig ein Nachweis, dass Sie teilgenommen haben.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1125">Ich bitte die Schriftführerinnen und Schriftführer, die vorgesehenen Plätze einzunehmen. - Sind alle Plätze an den Urnen besetzt? - Das ist der Fall. Ich eröffne die Wahl.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1126">Ist noch ein Mitglied des Hauses anwesend, das seine Stimme nicht abgegeben hat? - Ich sehe, das ist nicht der Fall. Dann schließen wir die Abstimmung.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1127">Ich schließe die Wahl und bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen. Das Ergebnis der Wahl wird Ihnen später bekannt gegeben.1</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1128">Ich rufe den Tagesordnungspunkt 11 auf:</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1129">Erste Beratung des von den Fraktionen CDU/CSU, SPD, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Neunten Gesetzes zur Änderung des Bundesverfassungsgerichtsgesetzes (9. BVerfGGÄndG)</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1130">Drucksache 18/2737</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1131">Überweisungsvorschlag:</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1132">Ausschuss für Recht und Verbraucherschutz (f)</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1133">Innenausschuss</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1134">Nach einer interfraktionellen Vereinbarung sind für die Aussprache 38 Minuten vorgesehen. - Ich höre keinen Widerspruch. Dann ist das so beschlossen.</seg>
+          <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1135">Ich bitte jetzt alle, Platz zu nehmen, die der Debatte folgen wollen. - Dann rufe ich Dr. Matthias Bartke, SPD-Fraktion, auf.</seg>
+        </u>
+      </div>
+      <gap reason="editorial">
+        <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
+      </gap>
+    </body>
+  </text>
+</TEI>
