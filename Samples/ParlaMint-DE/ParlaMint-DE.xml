@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" xml:id="ParlaMint-DE">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="de" type="main">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages [ParlaMint SAMPLE]</title>
+        <title xml:lang="en" type="main">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag [ParlaMint SAMPLE]</title>
+        <title xml:lang="de" type="sub">Plenarprotokolle des Deutschen Bundestages - 1. bis 20. Wahlperiode (1949 - 2025)</title>
+        <title xml:lang="en" type="sub">Plenary Protocols of the German Bundestag - Legislative Periods 1 to 20 (1949 - 2025)</title>
+        <meeting n="1" corresp="#BT" ana="#parla.lower #parla.term #BT.01"/>
+        <meeting n="2" corresp="#BT" ana="#parla.lower #parla.term #BT.02"/>
+        <meeting n="3" corresp="#BT" ana="#parla.lower #parla.term #BT.03"/>
+        <meeting n="4" corresp="#BT" ana="#parla.lower #parla.term #BT.04"/>
+        <meeting n="5" corresp="#BT" ana="#parla.lower #parla.term #BT.05"/>
+        <meeting n="6" corresp="#BT" ana="#parla.lower #parla.term #BT.06"/>
+        <meeting n="7" corresp="#BT" ana="#parla.lower #parla.term #BT.07"/>
+        <meeting n="8" corresp="#BT" ana="#parla.lower #parla.term #BT.08"/>
+        <meeting n="9" corresp="#BT" ana="#parla.lower #parla.term #BT.09"/>
+        <meeting n="10" corresp="#BT" ana="#parla.lower #parla.term #BT.10"/>
+        <meeting n="11" corresp="#BT" ana="#parla.lower #parla.term #BT.11"/>
+        <meeting n="12" corresp="#BT" ana="#parla.lower #parla.term #BT.12"/>
+        <meeting n="13" corresp="#BT" ana="#parla.lower #parla.term #BT.13"/>
+        <meeting n="14" corresp="#BT" ana="#parla.lower #parla.term #BT.14"/>
+        <meeting n="15" corresp="#BT" ana="#parla.lower #parla.term #BT.15"/>
+        <meeting n="16" corresp="#BT" ana="#parla.lower #parla.term #BT.16"/>
+        <meeting n="17" corresp="#BT" ana="#parla.lower #parla.term #BT.17"/>
+        <meeting n="18" corresp="#BT" ana="#parla.lower #parla.term #BT.18"/>
+        <meeting n="19" corresp="#BT" ana="#parla.lower #parla.term #BT.19"/>
+        <meeting n="20" corresp="#BT" ana="#parla.lower #parla.term #BT.20"/>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+        <sponsor>
+          <desc xml:lang="en">A cooperation with the SOLDISK project at the University of Hildesheim contributed significantly to the data quality of the GermaParl corpus.</desc>
+          <desc xml:lang="de">Eine Kooperation mit dem SOLDISK-Projekt an der Universität Hildesheim hat maßgeblich zur Datenqualität des GermaParl-Korpus beigetragen.</desc>
+        </sponsor>
+        <sponsor>
+          <desc xml:lang="en">The provision of GermaParl in the ParlaMint encoding standard has benefited from continuous exchange with the CLARIN community, in particular with Darja Fišer (Institute of Contemporary History, Ljubljana) and Tomaž Erjavec (Jožef Stefan Institute, Ljubljana). A visiting fellowship at the Institute of Contemporary History (INZ) in Ljubljana contributed to the advancement of GermaParl toward ParlaMint.</desc>
+          <desc xml:lang="de">Die Bereitstellung von GermaParl im ParlaMint Enconding Standard hat vom kontinuierlichen Austausch mit der CLARIN Community, insbesondere mit Darja Fišer (Institute of Contemporary History, Ljubljana) und Tomaž Erjavec (Jožef Stefan Institute, Ljubljana), profitiert. Ein Gastaufenthalt am 'Institute of Contemporary History' in Ljubljana hat zur Weiterentwicklung von GermaParl in das ParlaMint-Format beigetragen.</desc>
+        </sponsor>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="TBA" xml:lang="en">TBA speeches</measure>
+        <measure unit="words" quantity="TBA" xml:lang="en">TBA words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Stenografische Berichte</title>
+          <title type="main" xml:lang="en">German Bundestag - Stenographic Records</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/487966/4078f01fb3198dc3cee8945d6db3b231/pp01-data.zip</idno>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/487968/5792895a5cf4ab51ed94c77157297031/pp02-data.zip</idno>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488218/bfba1a02d1090efc873f9a60f318a162/pp05-data.zip</idno>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488222/b10bae395e887aac9ac08afbd1da62fc/pp07-data.zip</idno>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490374/07ce06f666b624d37b47d2fe6e205ab4/pp10-data.zip</idno>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490376/8775517464dccd8660eb96446d18dd26/pp12-data.zip</idno>
+          <idno type="URI" subtype="parliament" when="2015-10-20">http://webarchiv.bundestag.de/archive/2008/0912/bic/plenarprotokolle/pp/2006/16020a.zip</idno>
+          <idno type="URI" subtype="parliament" when="2015-10-20">http://www.bundestag.de/blob/333862/deda8684333585fd828be7a082bbfdc8/18057-data.txt</idno>
+          <idno type="URI" subtype="parliament" when="2023-12-14">https://www.bundestag.de/resource/blob/927538/1521a72a3b22a16010b002f7da6fa6fa/20077.xml</idno>
+          <date from="1949-09-07" to="2025-03-18">07.09.1949 - 18.03.2025</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>Occasional correction of errors if they prevented the detection of speakers and interjections during corpus preparation. This comprised the correction of OCR errors, typos and obvious mistakes (such as wrong parliamentary group assignments) in the initial plenary protocols. Errors which had no effect on the identification of separate utterances in continuous text were not addressed systematically.</p>
+        </correction>
+        <normalization>
+          <p>Normalization of white space characters. Table of Contents, appendices as well as header lines, footer lines and margins were removed. Some special characters such as bullet points were replaced with white space. Ellipses were replaced by three ordinary full stops. Superfluous white space characters were removed.</p>
+        </normalization>
+        <hyphenation>
+          <p>Line breaks were resolved and hyphens at the end of lines were removed via an heuristical approach where possible.</p>
+        </hyphenation>
+        <quotation>
+          <p>Quotes in continuous text are kept as-is and are not marked up specifically. Special quotation marks were not normalized systematically but occasionally replaced with a standard quotation mark when encoding issues were encountered.</p>
+        </quotation>
+        <segmentation>
+          <p>Protocols were segmented into speeches and paragraphs. Up until the 18th legislative period, individual speeches were identified based on regular expressions. Starting with the 19th legislative period, the segmentation is provided in the raw data. Segmentation of speeches into paragraphs is based on an heuristical approach up until the start of the 13th legislative period. Thereafter, in most protocols (those based on plain text files and XML), segments correspond to paragraphs already found in the raw data. Paragraph segments might be modified or interrupted when necessary to identify speakers or transcriber comments.</p>
+        </segmentation>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="body" occurs="4559"/>
+          <tagUsage gi="desc" occurs="2084996"/>
+          <tagUsage gi="div" occurs="26339"/>
+          <tagUsage gi="gap" occurs="1"/>
+          <tagUsage gi="head" occurs="24923"/>
+          <tagUsage gi="incident" occurs="51768"/>
+          <tagUsage gi="kinesic" occurs="1199566"/>
+          <tagUsage gi="note" occurs="1030057"/>
+          <tagUsage gi="seg" occurs="5159675"/>
+          <tagUsage gi="text" occurs="4559"/>
+          <tagUsage gi="u" occurs="1030057"/>
+          <tagUsage gi="vocal" occurs="833660"/>
+        </namespace>
+      </tagsDecl>
+      <classDecl>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-taxonomy-metadata_sources"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-taxonomy-agenda_item_types"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-taxonomy-custom_speaker_types"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1949-09-07" to="1953-07-03"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Köln</name>
+          <name type="city" xml:lang="en">Cologne</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1953-07-29" to="1953-07-29"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1953-10-06" to="1955-10-12"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin-Charlottenburg</name>
+          <name type="city" xml:lang="en">Berlin-Charlottenburg</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1955-10-19" to="1955-10-20"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1955-10-26" to="1956-10-03"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1956-10-10" to="1956-10-11"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1956-10-24" to="1957-08-29"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1957-10-15" to="1957-10-15"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1957-10-22" to="1958-07-04"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1958-10-01" to="1958-10-03"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1958-10-15" to="1965-04-02"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1965-04-07" to="1965-04-07"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1965-05-05" to="1990-09-21"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1990-10-04" to="1990-10-04"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1990-10-05" to="1990-11-22"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1990-12-20" to="1990-12-20"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1991-01-14" to="1991-04-26"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1991-05-14" to="1991-05-14"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1991-06-04" to="1992-05-08"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1992-05-20" to="1992-05-20"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1992-06-03" to="1994-06-29"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1994-06-30" to="1994-07-01"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1994-07-22" to="1994-09-21"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1994-11-10" to="1994-11-10"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1994-11-15" to="1999-04-15"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1999-04-19" to="1999-04-19"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1999-04-21" to="1999-07-01"/>
+        </setting>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" xml:lang="de" key="DE">Deutschland</name>
+          <name type="country" xml:lang="en" key="DE">Germany</name>
+          <date from="1999-09-08" to="2025-03-18"/>
+        </setting>
+      </settingDesc>
+      <textClass>
+        <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.bi #parla.lower"/>
+      </textClass>
+      <particDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-listOrg.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-listPerson.xml"/>
+      </particDesc>
+      <langUsage>
+        <language ident="de" xml:lang="de">Deutsch</language>
+        <language ident="de" xml:lang="en">German</language>
+        <language ident="en" xml:lang="de">Englisch</language>
+        <language ident="en" xml:lang="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
+  </change>
+      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
+  </change>
+    </revisionDesc>
+  </teiHeader>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1949/ParlaMint-DE_1949-12-02-01-021.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1956/ParlaMint-DE_1956-07-07-02-159.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1967/ParlaMint-DE_1967-09-08-05-120.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1974/ParlaMint-DE_1974-04-25-07-095.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/ParlaMint-DE_1985-11-07-10-171.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1993/ParlaMint-DE_1993-04-28-12-154.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-DE_2006-02-17-16-020.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-DE_2014-10-09-18-057.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-DE_2022-12-16-20-077.xml"/>
+</teiCorpus>
