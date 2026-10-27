@@ -1,0 +1,2008 @@
+# CoNLL-U Representation of Sample of ParlaMint-DE (Beta) / GermaParl v3.0.0-rc4, see https://github.com/PolMine/ParlaMint-DE_beta.
+#
+# newdoc id = ParlaMint-DE_2014-10-09-18-057.u116
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1101
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1101.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.205
+# text = Frau  Präsidentin!
+1	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	compound	_	NER=0
+2	Präsidentin	Präsidentin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1101.s2
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 4.669
+# text = Liebe  Kolleginnen  und  Kollegen!
+1	Liebe	lieb	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	NER=0
+2	Kolleginnen	Kollegin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	NER=0
+3	und	und	CCONJ	KON	_	4	cc	_	NER=0
+4	Kollegen	Kollege	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	NER=0|SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1101.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.877
+# text = Wir  entscheiden  heute  über  die  Vierte  Beschlussempfehlung  des  Wahlprüfungsausschusses  in  dieser  Wahlperiode.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER-O
+2	entscheiden	entscheiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	heute	heute	ADV	ADV	_	2	advmod	_	NER-O
+4	über	über	ADP	APPR	_	7	case	_	NER-O
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER-O
+6	Vierte	Vierte	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	7	amod	_	NER-O
+7	Beschlussempfehlung	Beschlussempfehlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	NER-O
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NER-O
+9	Wahlprüfungsausschusses	Wahlprüfungsausschuss	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NER=B-LOC
+10	in	in	ADP	APPR	_	12	case	_	NER-O
+11	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	NER-O
+12	Wahlperiode	Wahlperiode	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	NER-O|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1101.s4
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.996
+# text = Sie  behandelt  die  letzten  9  von  insgesamt  224  Einsprüchen  gegen  die  Gültigkeit  der  Bundestagswahl  2013  und  gibt  Gelegenheit,  ein  kurzes  Zwischenresümee  der  Arbeit  des  Wahlprüfungsausschusses  zu  ziehen,  den  Dank  den  Berichterstattern  und  den  Mitgliedern  des  Ausschusses  auszusprechen,  die  im  Übrigen  alle  sehr  gerührt  sind,  dass  Sie,  liebe  Kolleginnen  und  Kollegen,  in  so  großer  Zahl  diesem  Bericht  zuhören  und  über  die  Beschlussempfehlung  abstimmen.
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER-O
+2	behandelt	behandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	NER-O
+4	letzten	letzt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	NER-O
+5	9	9	NUM	CARD	NumType=Card	2	obj	_	NER-O
+6	von	von	ADP	APPR	_	9	case	_	NER-O
+7	insgesamt	insgesamt	ADV	ADV	_	8	advmod	_	NER-O
+8	224	224	NUM	CARD	NumType=Card	9	nummod	_	NER-O
+9	Einsprüchen	Einspruch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	NER-O
+10	gegen	gegen	ADP	APPR	_	12	case	_	NER-O
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER-O
+12	Gültigkeit	Gültigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	NER-O
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER-O
+14	Bundestagswahl	Bundestagswahl	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	NER=B-MISC
+15	2013	2013	NUM	CARD	NumType=Card	14	nmod	_	NER=I-MISC
+16	und	und	CCONJ	KON	_	17	cc	_	NER-O
+17	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	NER-O
+18	Gelegenheit	Gelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	NER-O|SpaceAfter=No
+19	,	,	PUNCT	$,	_	28	punct	_	NER-O
+20	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	22	det	_	NER-O
+21	kurzes	kurz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	NER-O
+22	Zwischenresümee	Zwischenresümee	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	NER-O
+23	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	NER-O
+24	Arbeit	Arbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	NER-O
+25	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	NER-O
+26	Wahlprüfungsausschusses	Wahlprüfungsausschuss	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	NER-O
+27	zu	zu	PART	PTKZU	_	28	mark	_	NER-O
+28	ziehen	ziehen	VERB	VVINF	VerbForm=Inf	17	xcomp	_	NER-O|SpaceAfter=No
+29	,	,	PUNCT	$,	_	39	punct	_	NER-O
+30	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	NER-O
+31	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	39	obj	_	NER-O
+32	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	33	det	_	NER-O
+33	Berichterstattern	Berichterstatter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	31	nmod	_	NER-O
+34	und	und	CCONJ	KON	_	36	cc	_	NER-O
+35	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	36	det	_	NER-O
+36	Mitgliedern	Mitglied	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	33	conj	_	NER-O
+37	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	NER-O
+38	Ausschusses	Ausschuß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	NER-O
+39	auszusprechen	aussprechen	VERB	VVIZU	VerbForm=Inf	28	conj	_	NER-O|SpaceAfter=No
+40	,	,	PUNCT	$,	_	47	punct	_	NER-O
+41	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	47	nsubj	_	NER-O
+42-43	im	_	_	_	_	_	_	_	NER-O
+42	in	in	ADP	APPR	_	44	case	_	NA
+43	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	44	det	_	NA
+44	Übrigen	Übrige	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	47	obl	_	NER-O
+45	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	47	det	_	NER-O
+46	sehr	sehr	ADV	ADV	_	47	advmod	_	NER-O
+47	gerührt	rühren	VERB	VVPP	VerbForm=Part	39	acl	_	NER-O
+48	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	NER-O|SpaceAfter=No
+49	,	,	PUNCT	$,	_	64	punct	_	NER-O
+50	dass	dass	SCONJ	KOUS	_	64	mark	_	NER-O
+51	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	64	nsubj	_	NER-O|SpaceAfter=No
+52	,	,	PUNCT	$,	_	54	punct	_	NER-O
+53	liebe	lieben	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	54	amod	_	NER-O
+54	Kolleginnen	Kollegin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	51	appos	_	NER-O
+55	und	und	CCONJ	KON	_	56	cc	_	NER-O
+56	Kollegen	Kollege	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	54	conj	_	NER-O|SpaceAfter=No
+57	,	,	PUNCT	$,	_	54	punct	_	NER-O
+58	in	in	ADP	APPR	_	61	case	_	NER-O
+59	so	so	ADV	ADV	_	60	advmod	_	NER-O
+60	großer	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	61	amod	_	NER-O
+61	Zahl	Zahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	64	obl	_	NER-O
+62	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	63	det	_	NER-O
+63	Bericht	Bericht	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	64	obl:arg	_	NER-O
+64	zuhören	zuhören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	ccomp	_	NER-O
+65	und	und	CCONJ	KON	_	69	cc	_	NER-O
+66	über	über	ADP	APPR	_	68	case	_	NER-O
+67	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	NER-O
+68	Beschlussempfehlung	Beschlussempfehlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	69	obl	_	NER-O
+69	abstimmen	abstimmen	VERB	VVFIN	Number=Plur|VerbForm=Inf	64	conj	_	NER-O|SpaceAfter=No
+70	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1102
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1102.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.956
+# text = In  der  Sache  ist  die  Beschlussempfehlung  auch  nicht  ohne  Bedeutung.
+1	In	in	ADP	APPR	_	3	case	_	NER=0
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=0
+3	Sache	Sache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	NER=0
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	NER=0
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER=0
+6	Beschlussempfehlung	Beschlussempfehlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	NER=0
+7	auch	auch	ADV	ADV	_	8	advmod	_	NER=0
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	NER=0
+9	ohne	ohne	ADP	APPR	_	10	case	_	NER=0
+10	Bedeutung	Bedeutung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1102.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.135
+# text = Sollten  Sie  nämlich  unserer  Empfehlung  nicht  folgen  wollen,  hätte  diese  Sitzung  ein  jähes  Ende.
+1	Sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	NER=0
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	NER=0
+3	nämlich	nämlich	ADV	ADV	_	7	advmod	_	NER=0
+4	unserer	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	NER=0
+5	Empfehlung	Empfehlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl:arg	_	NER=0
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	NER=0
+7	folgen	folgen	VERB	VVINF	VerbForm=Inf	10	ccomp	_	NER=0
+8	wollen	wollen	AUX	VMINF	VerbForm=Inf	7	aux	_	NER=0|SpaceAfter=No
+9	,	,	PUNCT	$,	_	7	punct	_	NER=0
+10	hätte	haben	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	NER=0
+11	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	NER=0
+12	Sitzung	Sitzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	NER=0
+13	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	15	det	_	NER=0
+14	jähes	jäh	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	NER=0
+15	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	NER=0|SpaceAfter=No
+16	.	.	PUNCT	$.	_	10	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1102.s3
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.9
+# text = Deswegen  sollte  sich  das  jeder  genau  überlegen.
+1	Deswegen	deswegen	ADV	PAV	_	7	advmod	_	NER=0
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	NER=0
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	NER=0
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	compound	_	NER=0
+5	jeder	jeder	DET	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	7	nsubj	_	NER=0
+6	genau	genau	ADJ	ADJD	Degree=Pos	7	advmod	_	NER=0
+7	überlegen	überlegen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1103
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1103.s1
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 4.741
+# text = Der  Ausschuss  ist  froh,  dass  wir  ein  Jahr  nach  der  Bundestagswahl  und  auch  angesichts  des  Umstandes,  dass  wir  erst  zu  Beginn  dieses  Jahres  mit  den  Verfahren  beginnen  konnten,  Ihnen  jetzt  einen  abschließenden  Bericht  vorlegen  können.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Ausschuss	Ausschuß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	NER-O
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	NER-O
+4	froh	froh	ADJ	ADJD	Degree=Pos	0	root	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	37	punct	_	NER-O
+6	dass	dass	SCONJ	KOUS	_	37	mark	_	NER-O
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	37	nsubj	_	NER-O
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	NER-O
+9	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	37	obl	_	NER-O
+10	nach	nach	ADP	APPR	_	12	case	_	NER-O
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER-O
+12	Bundestagswahl	Bundestagswahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	37	obl	_	NER=B-MISC
+13	und	und	CCONJ	KON	_	17	cc	_	NER-O
+14	auch	auch	ADV	ADV	_	17	advmod	_	NER-O
+15	angesichts	angesichts	ADP	APPR	_	17	case	_	NER-O
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	NER-O
+17	Umstandes	Umstand	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	conj	_	NER-O|SpaceAfter=No
+18	,	,	PUNCT	$,	_	29	punct	_	NER-O
+19	dass	dass	SCONJ	KOUS	_	29	mark	_	NER-O
+20	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	NER-O
+21	erst	erst	ADV	ADV	_	23	advmod	_	NER-O
+22	zu	zu	ADP	APPR	_	23	case	_	NER-O
+23	Beginn	Beginn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	29	obl	_	NER-O
+24	dieses	dieser	DET	PDAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	25	det	_	NER-O
+25	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	NER-O
+26	mit	mit	ADP	APPR	_	28	case	_	NER-O
+27	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	28	det	_	NER-O
+28	Verfahren	Verfahren	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	29	obl	_	NER-O
+29	beginnen	beginnen	VERB	VVINF	VerbForm=Inf	17	ccomp	_	NER-O
+30	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	NER-O|SpaceAfter=No
+31	,	,	PUNCT	$,	_	29	punct	_	NER-O
+32	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	37	obl:arg	_	NER-O
+33	jetzt	jetzt	ADV	ADV	_	37	advmod	_	NER-O
+34	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	36	det	_	NER-O
+35	abschließenden	abschließend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	NER-O
+36	Bericht	Bericht	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obj	_	NER-O
+37	vorlegen	vorlegen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	NER-O
+38	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	NER-O|SpaceAfter=No
+39	.	.	PUNCT	$.	_	4	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1104
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1104.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.405
+# text = Keiner  der  224  Wahleinsprüche  war  nach  Auffassung  des  Ausschusses  begründet.
+1	Keiner	kein	DET	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	10	nsubj	_	NER-O
+2	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	NER-O
+3	224	224	NUM	CARD	NumType=Card	4	nummod	_	NER-O
+4	Wahleinsprüche	Wahleinspruch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	NER=B-LOC
+5	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	NER-O
+6	nach	nach	ADP	APPR	_	7	case	_	NER-O
+7	Auffassung	Auffassung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	NER-O
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NER-O
+9	Ausschusses	Ausschuß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NER-O
+10	begründet	begründet	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1104.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.481
+# text = Begründet  wäre  er  dann  gewesen,  wenn  ein  Wahlfehler  benannt  worden  wäre,  der  entweder  Einfluss  auf  die  Sitzverteilung  hatte  oder  das  subjektive  Wahlrecht  der  den  Einspruch  einlegenden  Personen  beim  Wahlakt  verletzte.
+1	Begründet	begründen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0
+2	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux:pass	_	NER=0
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj:pass	_	NER=0
+4	dann	dann	ADV	ADV	_	1	advmod	_	NER=0
+5	gewesen	sein	AUX	VAPP	VerbForm=Part	1	aux:pass	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	NER=0
+7	wenn	wenn	SCONJ	KOUS	_	10	mark	_	NER=0
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	NER=0
+9	Wahlfehler	Wahlfehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	NER=0
+10	benannt	benennen	VERB	VVPP	VerbForm=Part	1	advcl	_	NER=0
+11	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	10	aux:pass	_	NER=0
+12	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	NER=0|SpaceAfter=No
+13	,	,	PUNCT	$,	_	20	punct	_	NER=0
+14	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	20	nsubj	_	NER=0
+15	entweder	entweder	CCONJ	KON	_	20	advmod	_	NER=0
+16	Einfluss	Einfluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	NER=0
+17	auf	auf	ADP	APPR	_	19	case	_	NER=0
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	NER=0
+19	Sitzverteilung	Sitzverteilung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	NER=0
+20	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	NER=0
+21	oder	oder	CCONJ	KON	_	33	cc	_	NER=0
+22	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	NER=0
+23	subjektive	subjektiv	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	NER=0
+24	Wahlrecht	Wahlrecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	conj	_	NER=0
+25	der	der	PRON	PRELS	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem,Rel	33	nsubj	_	NER=0
+26	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	NER=0
+27	Einspruch	Einspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obl:arg	_	NER=0
+28	einlegenden	einlegend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	NER=0
+29	Personen	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	33	obj	_	NER=0
+30-31	beim	_	_	_	_	_	_	_	NER=0
+30	bei	bei	ADP	APPR	_	32	case	_	NA
+31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	NA
+32	Wahlakt	Wahlakt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	33	obl	_	NER=0
+33	verletzte	verletzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl	_	NER=0|SpaceAfter=No
+34	.	.	PUNCT	$.	_	1	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1104.s3
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.504
+# text = Den  Einsprüchen  ließen  sich  solche  Fehler  allerdings  nicht  entnehmen.
+1	Den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	2	det	_	NER=0
+2	Einsprüchen	Einspruch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl:arg	_	NER=0
+3	ließen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	NER=0
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	NER=0
+5	solche	solcher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	NER=0
+6	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	NER=0
+7	allerdings	allerdings	ADV	ADV	_	3	advmod	_	NER=0
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	NER=0
+9	entnehmen	entnehmen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1105
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1105.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.562
+# text = Ich  halte  fest:
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	halte	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	fest	fest	ADV	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+4	:	:	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1105.s2
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.49
+# text = Der  Wahlprüfungsausschuss  ist  jedem  Wahlfehler  sorgfältig  nachgegangen,  hat  das  Bundesministerium  des  Innern,  den  Bundeswahlleiter,  die  Landeswahlleitungen  und  vereinzelt  auch  Kreiswahlleitungen  um  Stellungnahme  gebeten.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Wahlprüfungsausschuss	Wahlprüfungsausschuss	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	NER=B-MISC|QID=B-Q17505419
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	NER-O
+4	jedem	jeder	DET	PIAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	NER-O
+5	Wahlfehler	Wahlfehler	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl:arg	_	NER-O
+6	sorgfältig	sorgfältig	ADJ	ADJD	Degree=Pos	7	advmod	_	NER-O
+7	nachgegangen	nachgehen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+8	,	,	PUNCT	$,	_	26	punct	_	NER-O
+9	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	NER-O
+10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	NER-O
+11	Bundesministerium	Bundesministerien	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	26	nsubj	_	NER=B-LOC|QID=B-Q502698
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	NER=I-LOC|QID=I-Q502698
+13	Innern	Innere	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	NER=I-LOC|QID=I-Q502698|SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	NER-O
+15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	NER-O
+16	Bundeswahlleiter	Bundeswahlleiter	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	appos	_	NER=B-LOC|SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	NER-O
+18	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	19	det	_	NER-O
+19	Landeswahlleitungen	Landeswahlleitung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	conj	_	NER-O
+20	und	und	CCONJ	KON	_	23	cc	_	NER-O
+21	vereinzelt	vereinzeln	ADJ	ADJD	Degree=Pos	23	amod	_	NER-O
+22	auch	auch	ADV	ADV	_	23	advmod	_	NER-O
+23	Kreiswahlleitungen	Kreiswahlleitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	conj	_	NER-O
+24	um	um	ADP	APPR	_	25	case	_	NER-O
+25	Stellungnahme	Stellungnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	NER-O
+26	gebeten	bitten	VERB	VVPP	VerbForm=Part	7	conj	_	NER-O|SpaceAfter=No
+27	.	.	PUNCT	$.	_	7	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1106
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1106.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.926
+# text = Im  Einzelfall  hat  es  leider,  wenn  auch  in  sehr  wenigen  Fällen,  Wahlfehler  gegeben.
+1-2	Im	_	_	_	_	_	_	_	NER=0
+1	In	in	ADP	APPR	_	3	case	_	NA
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	NA
+3	Einzelfall	Einzelfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	NER=0
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	NER=0
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	NER=0
+6	leider	leider	ADV	ADV	_	16	advmod	_	NER=0|SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	NER=0
+8	wenn	wenn	SCONJ	KOUS	_	16	mark	_	NER=0
+9	auch	auch	ADV	ADV	_	13	advmod	_	NER=0
+10	in	in	ADP	APPR	_	13	case	_	NER=0
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	NER=0
+12	wenigen	wenig	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	NER=0
+13	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	NER=0|SpaceAfter=No
+14	,	,	PUNCT	$,	_	13	punct	_	NER=0
+15	Wahlfehler	Wahlfehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	obj	_	NER=0
+16	gegeben	geben	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1106.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.686
+# text = So  wurden  zum  Beispiel  in  Düsseldorf  zum  Teil  mehrfach  derselben  Person  Briefwahlunterlagen  zugesandt.
+1	So	so	ADV	ADV	_	15	advmod	_	NER-O
+2	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	15	aux:pass	_	NER-O
+3-4	zum	_	_	_	_	_	_	_	NER-O
+3	zu	zu	ADP	APPR	_	5	case	_	NA
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	NA
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	NER-O
+6	in	in	ADP	APPR	_	7	case	_	NER-O
+7	Düsseldorf	Düsseldorf	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	NER=B-LOC|QID=B-Q1718
+8-9	zum	_	_	_	_	_	_	_	NER-O
+8	zu	zu	ADP	APPR	_	10	case	_	NA
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	NA
+10	Teil	Teil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	NER-O
+11	mehrfach	mehrfach	ADJ	ADJD	Degree=Pos	15	advmod	_	NER-O
+12	derselben	derselbe	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	NER-O
+13	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl:arg	_	NER-O
+14	Briefwahlunterlagen	Briefwahlunterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj:pass	_	NER-O
+15	zugesandt	zusenden	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1106.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.765
+# text = In  Oberhausen  erhielten  rund  30  Menschen  Stimmzettel  aus  dem  Jahre  2009.
+1	In	in	ADP	APPR	_	2	case	_	NER-O
+2	Oberhausen	Oberhausen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	NER=B-LOC|QID=B-Q2838
+3	erhielten	erhalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	NER-O
+4	rund	rund	ADV	ADV	_	5	advmod	_	NER-O
+5	30	30	NUM	CARD	NumType=Card	6	nummod	_	NER-O
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	NER-O
+7	Stimmzettel	Stimmzettel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	obj	_	NER-O
+8	aus	aus	ADP	APPR	_	10	case	_	NER-O
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	NER-O
+10	Jahre	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	NER-O
+11	2009	2009	NUM	CARD	NumType=Card	10	nmod	_	NER-O|SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1106.s4
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.858
+# text = Das  Erfreuliche  ist,  es  fiel  auf.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Erfreuliche	Erfreulich	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	NER=0
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	NER=0
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	NER=0
+6	fiel	fallen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	NER=0
+7	auf	auf	ADP	PTKVZ	_	6	compound:prt	_	NER=0|SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1107
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1107.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.905
+# text = Auf  die  Sitzverteilung  hatten  diese  ärgerlichen  Fehler  keinen  Einfluss,  da  das  gesamte  Stimmenaufkommen  für  die  Erst-  und  Zweitstimmen  sehr  hoch  war.
+1	Auf	auf	ADP	APPR	_	3	case	_	NER=0
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=0
+3	Sitzverteilung	Sitzverteilung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	NER=0
+4	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	NER=0
+5	diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	7	det	_	NER=0
+6	ärgerlichen	ärgerlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	NER=0
+7	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	NER=0
+8	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	9	det	_	NER=0
+9	Einfluss	Einfluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	NER=0|SpaceAfter=No
+10	,	,	PUNCT	$,	_	22	punct	_	NER=0
+11	da	da	SCONJ	KOUS	_	22	mark	_	NER=0
+12	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	NER=0
+13	gesamte	gesamt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	NER=0
+14	Stimmenaufkommen	Stimmenaufkommen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	NER=0
+15	für	für	ADP	APPR	_	17	case	_	NER=0
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	NER=0
+17	Erst	erst	NOUN	TRUNC	_	22	nmod	_	NER=0|SpaceAfter=No
+18	-	-	PUNCT	$(	_	20	punct	_	NER=0
+19	und	und	CCONJ	KON	_	20	cc	_	NER=0
+20	Zweitstimmen	Zweitstimme	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	conj	_	NER=0
+21	sehr	sehr	ADV	ADV	_	22	advmod	_	NER=0
+22	hoch	hoch	ADJ	ADJD	Degree=Pos	4	advcl	_	NER=0
+23	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	NER=0|SpaceAfter=No
+24	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1107.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.389
+# text = Der  Wahlprüfungsausschuss  hat  gleichwohl  die  Erwartung,  dass  die  betreffenden  Wahlbehörden  derartige  Fehler  in  Zukunft  vermeiden.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Wahlprüfungsausschuss	Wahlprüfungsausschuss	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	NER=B-MISC|QID=B-Q17505419
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+4	gleichwohl	gleichwohl	ADV	ADV	_	3	advmod	_	NER-O
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER-O
+6	Erwartung	Erwartung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	NER-O|SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	NER-O
+8	dass	dass	SCONJ	KOUS	_	16	mark	_	NER-O
+9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	NER-O
+10	betreffenden	betreffend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	NER-O
+11	Wahlbehörden	Wahlbehörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	NER-O
+12	derartige	derartig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	NER-O
+13	Fehler	Fehler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	NER-O
+14	in	in	ADP	APPR	_	15	case	_	NER-O
+15	Zukunft	Zukunft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	NER-O
+16	vermeiden	vermeiden	VERB	VVFIN	VerbForm=Inf	6	ccomp	_	NER-O|SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1108
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1108.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.024
+# text = Ich  möchte  Ihnen  mitteilen,  welche  Einspruchsgegenstände  ansonsten  typisch  waren:  nicht  oder  zu  spät  zugestellte  Briefwahlunterlagen,  die  repräsentative  Wahl-statistik,  der  Identitätsnachweis  im  Wahllokal,  die  Gestaltung  des  Stimmzettels  oder  das  Schreibmittel  in  der  Wahlkabine.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	NER=0
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	NER=0
+3	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	obl:arg	_	NER=0
+4	mitteilen	mitteilen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	NER=0
+6	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	7	det	_	NER=0
+7	Einspruchsgegenstände	Einspruchsgegenstand	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	NER=0
+8	ansonsten	ansonsten	ADV	ADV	_	9	advmod	_	NER=0
+9	typisch	typisch	ADJ	ADJD	Degree=Pos	4	ccomp	_	NER=0
+10	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	NER=0|SpaceAfter=No
+11	:	:	PUNCT	$.	_	17	punct	_	NER=0
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	NER=0
+13	oder	oder	CCONJ	KON	_	16	cc	_	NER=0
+14	zu	zu	ADV	PTKA	_	15	advmod	_	NER=0
+15	spät	spät	ADJ	ADJD	Degree=Pos	16	advmod	_	NER=0
+16	zugestellte	zugestellt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	NER=0
+17	Briefwahlunterlagen	Briefwahlunterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	appos	_	NER=0|SpaceAfter=No
+18	,	,	PUNCT	$,	_	23	punct	_	NER=0
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	NER=0
+20	repräsentative	repräsentativ	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	NER=0
+21	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	NER=0|SpaceAfter=No
+22	-	-	PUNCT	$(	_	21	punct	_	NER=0|SpaceAfter=No
+23	statistik	Statistik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	NER=0|SpaceAfter=No
+24	,	,	PUNCT	$,	_	26	punct	_	NER=0
+25	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	NER=0
+26	Identitätsnachweis	Identitätsnachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	NER=0
+27-28	im	_	_	_	_	_	_	_	NER=0
+27	in	in	ADP	APPR	_	29	case	_	NA
+28	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	29	det	_	NA
+29	Wahllokal	Wahllokal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	26	nmod	_	NER=0|SpaceAfter=No
+30	,	,	PUNCT	$,	_	32	punct	_	NER=0
+31	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	NER=0
+32	Gestaltung	Gestaltung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	NER=0
+33	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	34	det	_	NER=0
+34	Stimmzettels	Stimmzettel	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	NER=0
+35	oder	oder	CCONJ	KON	_	37	cc	_	NER=0
+36	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	37	det	_	NER=0
+37	Schreibmittel	Schreibmittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	conj	_	NER=0
+38	in	in	ADP	APPR	_	40	case	_	NER=0
+39	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	NER=0
+40	Wahlkabine	Wahlkabine	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	37	nmod	_	NER=0|SpaceAfter=No
+41	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1109
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1109.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.276
+# text = Zum  Teil  hat  es  auch  kaum  nachvollziehbare  Einsprüche  gegeben.
+1-2	Zum	_	_	_	_	_	_	_	NER=0
+1	Zu	zu	ADP	APPR	_	3	case	_	NA
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	NA
+3	Teil	Teil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NER=0
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	NER=0
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	NER=0
+6	auch	auch	ADV	ADV	_	7	advmod	_	NER=0
+7	kaum	kaum	ADV	ADV	_	10	advmod	_	NER=0
+8	nachvollziehbare	nachvollziehbar	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	NER=0
+9	Einsprüche	Einspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nsubj	_	NER=0
+10	gegeben	geben	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1109.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.194
+# text = Ein  Bürger  hat  behauptet,  das  Wahlergebnis  müsse  manipuliert  gewesen  sein.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Bürger	Bürger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	NER=0
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	NER=0
+4	behauptet	behaupten	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	NER=0
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	NER=0
+7	Wahlergebnis	Wahlergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	NER=0
+8	müsse	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0
+9	manipuliert	manipulieren	VERB	VVPP	VerbForm=Part	4	ccomp	_	NER=0
+10	gewesen	sein	AUX	VAPP	VerbForm=Part	9	aux:pass	_	NER=0
+11	sein	sein	AUX	VAINF	VerbForm=Inf	9	aux	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1109.s3
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.972
+# text = Er  hat  nämlich  40  Minuten  nach  Schließung  der  Wahllokale  die  TV-Serie  "Lindenstraße"  geschaut.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	NER-O
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	NER-O
+3	nämlich	nämlich	ADV	ADV	_	17	advmod	_	NER-O
+4	40	40	NUM	CARD	NumType=Card	5	nummod	_	NER-O
+5	Minuten	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obl	_	NER-O
+6	nach	nach	ADP	APPR	_	7	case	_	NER-O
+7	Schließung	Schließung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	NER-O
+8	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	NER-O
+9	Wahllokale	Wahllokal	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	NER-O
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	NER-O
+11	TV	TV	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	compound	_	NER=B-MISC|QID=B-Q672|SpaceAfter=No
+12	-	-	PUNCT	$(	_	11	punct	_	NER-O|SpaceAfter=No
+13	Serie	Serie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	NER-O
+14	"	"	PUNCT	$(	_	15	punct	_	NER-O|SpaceAfter=No
+15	Lindenstraße	Lindenstraße	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	13	appos	_	NER=B-MISC|QID=B-Q1826121|SpaceAfter=No
+16	"	"	PUNCT	$(	_	15	punct	_	NER-O
+17	geschaut	schauen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1109.s4
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.953
+# text = In  dieser  Folge  war  das  Wahlergebnis  schon  adaptiert.
+1	In	in	ADP	APPR	_	3	case	_	NER=0
+2	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	NER=0
+3	Folge	Folge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	NER=0
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	NER=0
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	NER=0
+6	Wahlergebnis	Wahlergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	NER=0
+7	schon	schon	ADV	ADV	_	8	advmod	_	NER=0
+8	adaptiert	adaptieren	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1109.s5
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.076
+# text = Daraus  hat  er  eine  Manipulation  hergeleitet.
+1	Daraus	daraus	ADV	PAV	PronType=Dem	6	advmod	_	NER=0
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	NER=0
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	NER=0
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	NER=0
+5	Manipulation	Manipulation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	NER=0
+6	hergeleitet	herleiten	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1109.s6
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.625
+# text = Der  Wahlprüfungsausschuss  hat  das  natürlich  sorgfältig  geprüft  und  ist  zu  dem  Ergebnis  gekommen,  dass  keine  Manipulation  vorlag.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Wahlprüfungsausschuss	Wahlprüfungsausschuss	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	NER=B-MISC|QID=B-Q17505419
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	NER-O
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	obj	_	NER-O
+5	natürlich	natürlich	ADJ	ADV	Degree=Pos	7	advmod	_	NER-O
+6	sorgfältig	sorgfältig	ADJ	ADJD	Degree=Pos	7	advmod	_	NER-O
+7	geprüft	prüfen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O
+8	und	und	CCONJ	KON	_	13	cc	_	NER-O
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	NER-O
+10	zu	zu	ADP	APPR	_	12	case	_	NER-O
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	NER-O
+12	Ergebnis	Ergebnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	NER-O
+13	gekommen	kommen	VERB	VVPP	VerbForm=Part	7	conj	_	NER-O|SpaceAfter=No
+14	,	,	PUNCT	$,	_	18	punct	_	NER-O
+15	dass	dass	SCONJ	KOUS	_	18	mark	_	NER-O
+16	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	17	det	_	NER-O
+17	Manipulation	Manipulation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	NER-O
+18	vorlag	vorliegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	ccomp	_	NER-O|SpaceAfter=No
+19	.	.	PUNCT	$.	_	7	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1109.s7
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.131
+# text = Ich  kann  das  Geheimnis  lüften:  Es  sind  einfach  mehrere  Varianten  gedreht  worden,  und  die  Verantwortlichen  der  sendenden  TV-Anstalt  haben  es  schlicht  und  ergreifend  geschafft,  die  richtige  Variante  zu  senden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	NER=0
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	NER=0
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Geheimnis	Geheimnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	NER=0
+5	lüften	lüften	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+6	:	:	PUNCT	$.	_	12	punct	_	NER=0
+7	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	NER=0
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	NER=0
+9	einfach	einfach	ADV	ADV	_	10	advmod	_	NER=0
+10	mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	11	det	_	NER=0
+11	Varianten	Variante	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj:pass	_	NER=0
+12	gedreht	drehen	VERB	VVPP	VerbForm=Part	5	parataxis	_	NER=0
+13	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	12	aux:pass	_	NER=0|SpaceAfter=No
+14	,	,	PUNCT	$,	_	28	punct	_	NER=0
+15	und	und	CCONJ	KON	_	28	cc	_	NER=0
+16	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	17	det	_	NER=0
+17	Verantwortlichen	Verantwortliche	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	NER=0
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	NER=0
+19	sendenden	sendend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	NER=0
+20	TV	TV	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	22	compound	_	NER=0|SpaceAfter=No
+21	-	-	PUNCT	$(	_	20	punct	_	NER=0|SpaceAfter=No
+22	Anstalt	Anstalt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	NER=0
+23	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	NER=0
+24	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	NER=0
+25	schlicht	schlicht	ADJ	ADJD	Degree=Pos	28	advmod	_	NER=0
+26	und	und	CCONJ	KON	_	27	cc	_	NER=0
+27	ergreifend	ergreifend	ADJ	ADJD	Degree=Pos	25	conj	_	NER=0
+28	geschafft	schaffen	VERB	VVPP	VerbForm=Part	5	conj	_	NER=0|SpaceAfter=No
+29	,	,	PUNCT	$,	_	34	punct	_	NER=0
+30	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	NER=0
+31	richtige	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	NER=0
+32	Variante	Variante	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	NER=0
+33	zu	zu	PART	PTKZU	_	34	mark	_	NER=0
+34	senden	senden	VERB	VVINF	VerbForm=Inf	28	xcomp	_	NER=0|SpaceAfter=No
+35	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1109.s8
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.111
+# text = Damit  hatte  sich  das  Thema  geklärt.
+1	Damit	damit	ADV	PAV	PronType=Dem	6	advmod	_	NER=0
+2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	NER=0
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	NER=0
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	NER=0
+5	Thema	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	NER=0
+6	geklärt	klären	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1110
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1110.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.005
+# text = Meine  Damen  und  Herren,  ein  großer  Teil  der  Einsprüche  hat  die  Fünfprozentklausel  betroffen.
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	NER-O
+2	Damen	Dame	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	NER-O
+3	und	und	CCONJ	KON	_	4	cc	_	NER-O
+4	Herren	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	NER-O
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	NER-O
+7	großer	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	NER-O
+8	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	NER-O
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	NER-O
+10	Einsprüche	Einspruch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	NER-O
+11	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	NER-O
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Fünfprozentklausel	Fünfprozentklausel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	NER=B-MISC
+14	betroffen	betreffen	ADJ	ADJD	Degree=Pos	0	root	_	NER-O|SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1110.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.049
+# text = Sie  wissen,  welche  Parteien  knapp  oder  auch  deutlich  die  Fünfprozenthürde  verpasst  haben.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	NER=0
+2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	12	punct	_	NER=0
+4	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	5	det	_	NER=0
+5	Parteien	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	NER=0
+6	knapp	knapp	ADJ	ADJD	Degree=Pos	12	advmod	_	NER=0
+7	oder	oder	CCONJ	KON	_	9	cc	_	NER=0
+8	auch	auch	ADV	ADV	_	9	advmod	_	NER=0
+9	deutlich	deutlich	ADJ	ADJD	Degree=Pos	6	conj	_	NER=0
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER=0
+11	Fünfprozenthürde	Fünfprozenthürde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	NER=0
+12	verpasst	verpassen	VERB	VVPP	VerbForm=Part	2	ccomp	_	NER=0
+13	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	NER=0|SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1110.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.12
+# text = Wir  haben  uns  ausführlich  damit  befasst.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	NER=0
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	NER=0
+3	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	NER=0
+4	ausführlich	ausführlich	ADJ	ADJD	Degree=Pos	6	advmod	_	NER=0
+5	damit	damit	ADV	PAV	PronType=Dem	6	advmod	_	NER=0
+6	befasst	befassen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1110.s4
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.499
+# text = Die  Ausschussmehrheit  ist  mit  der  Rechtsprechung  des  Bundesverfassungsgerichts  der  Auffassung,  dass  die  Fünfprozentklausel  verfassungskonform  ist,  weil  sie  die  Bildung  einer  stabilen  Mehrheit  für  die  Wahl  einer  handlungsfähigen  Regierung  und  deren  fortlaufende  Unterstützung  im  deutschen  Parlament  gewährleistet.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Ausschussmehrheit	Ausschussmehrheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	NER-O
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	NER-O
+4	mit	mit	ADP	APPR	_	6	case	_	NER-O
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER-O
+6	Rechtsprechung	Rechtsprechung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	NER-O
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	NER-O
+8	Bundesverfassungsgerichts	Bundesverfassungsgericht	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	NER=B-LOC
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NER-O
+10	Auffassung	Auffassung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	NER-O|SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	NER-O
+12	dass	dass	SCONJ	KOUS	_	15	mark	_	NER-O
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER-O
+14	Fünfprozentklausel	Fünfprozentklausel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	NER-O
+15	verfassungskonform	verfassungskonform	ADJ	ADJD	Degree=Pos	10	ccomp	_	NER-O
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	NER-O|SpaceAfter=No
+17	,	,	PUNCT	$,	_	39	punct	_	NER-O
+18	weil	weil	SCONJ	KOUS	_	39	mark	_	NER-O
+19	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	39	nsubj	_	NER-O
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	NER-O
+21	Bildung	Bildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	39	obj	_	NER-O
+22	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	24	det	_	NER-O
+23	stabilen	stabil	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	NER-O
+24	Mehrheit	Mehrheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	NER-O
+25	für	für	ADP	APPR	_	27	case	_	NER-O
+26	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	NER-O
+27	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	NER-O
+28	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	30	det	_	NER-O
+29	handlungsfähigen	handlungsfähig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	NER-O
+30	Regierung	Regierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	NER-O
+31	und	und	CCONJ	KON	_	34	cc	_	NER-O
+32	deren	der	PRON	PDAT	Case=Gen|Number=Plur|PronType=Dem,Rel	34	nmod:poss	_	NER-O
+33	fortlaufende	fortlaufend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	NER-O
+34	Unterstützung	Unterstützung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	conj	_	NER-O
+35-36	im	_	_	_	_	_	_	_	NER-O
+35	in	in	ADP	APPR	_	38	case	_	NA
+36	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	38	det	_	NA
+37	deutschen	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	NER=B-ORG
+38	Parlament	Parlament	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	34	nmod	_	NER=I-ORG
+39	gewährleistet	gewährleisten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	NER-O|SpaceAfter=No
+40	.	.	PUNCT	$.	_	10	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1110.s5
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.114
+# text = Dies  ist  eine  Folge,  die  die  Verfassungsmütter  und  -väter  aus  der  Weimarer  Zeit  gezogen  haben.
+1	Dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	NER-O
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	NER-O
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	NER-O
+4	Folge	Folge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	16	punct	_	NER-O
+6	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	16	nsubj	_	NER-O
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	NER-O
+8	Verfassungsmütter	Verfassungsmutter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	NER=B-MISC
+9	und	und	CCONJ	KON	_	11	cc	_	NER-O
+10	-	-	PUNCT	$(	_	11	punct	_	NER-O|SpaceAfter=No
+11	väter	vat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	NER-O
+12	aus	aus	ADP	APPR	_	15	case	_	NER-O
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER-O
+14	Weimarer	Weimarer	PROPN	ADJA	Case=Dat	15	amod	_	NER=B-MISC|QID=B-Q41304
+15	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	NER=I-MISC|QID=I-Q41304
+16	gezogen	ziehen	VERB	VVPP	VerbForm=Part	4	acl	_	NER-O
+17	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	NER-O|SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1110.s6
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 4.616
+# text = Wir  halten  das  nach  wie  vor  für  rechtlich  in  Ordnung  und  verfassungskonform.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	halten	halten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	NER=0
+4	nach	nach	ADP	ADV	_	2	advmod	_	NER=0
+5	wie	wie	CCONJ	KON	_	6	cc	_	NER=0
+6	vor	vor	ADP	ADV	_	4	fixed	_	NER=0
+7	für	für	ADP	APPR	_	8	case	_	NER=0
+8	rechtlich	rechtlich	ADJ	ADJD	Degree=Pos	2	advmod	_	NER=0
+9	in	in	ADP	APPR	_	10	case	_	NER=0
+10	Ordnung	Ordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	NER=0
+11	und	und	CCONJ	KON	_	12	cc	_	NER=0
+12	verfassungskonform	verfassungskonform	ADJ	ADJD	Degree=Pos	10	conj	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1111
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1111.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.716
+# text = Ein  zweiter  Punkt,  mit  dem  wir  uns  in  Zukunft  befassen  sollten,  ist  das  sogenannte  Wahlrecht  für  Betreute;
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	NER=0
+2	zweiter	zweit	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing	3	amod	_	NER=0
+3	Punkt	Punkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	NER=0|SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	NER=0
+5	mit	mit	ADP	APPR	_	6	case	_	NER=0
+6	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	11	obl	_	NER=0
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	NER=0
+8	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	11	obj	_	NER=0
+9	in	in	ADP	APPR	_	10	case	_	NER=0
+10	Zukunft	Zukunft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	NER=0
+11	befassen	befassen	VERB	VVINF	VerbForm=Inf	3	acl	_	NER=0
+12	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	NER=0|SpaceAfter=No
+13	,	,	PUNCT	$,	_	3	punct	_	NER=0
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	NER=0
+15	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	NER=0
+16	sogenannte	sogenannt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	NER=0
+17	Wahlrecht	Wahlrecht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NER=0
+18	für	für	ADP	APPR	_	19	case	_	NER=0
+19	Betreute	Betreute	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	NER=0|SpaceAfter=No
+20	;	;	PUNCT	$.	_	17	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1111.s2
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.88
+# text = auch  einzelne  Wahleinsprüche  gegen  die  Europawahl  2014  befassen  sich  damit.
+1	auch	auch	ADV	ADV	_	3	advmod	_	NER-O
+2	einzelne	einzeln	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	NER-O
+3	Wahleinsprüche	Wahleinspruch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	NER=B-ORG
+4	gegen	gegen	ADP	APPR	_	6	case	_	NER-O
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER-O
+6	Europawahl	Europawahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	NER=B-MISC
+7	2014	2014	NUM	CARD	NumType=Card	6	nmod	_	NER=I-MISC
+8	befassen	befassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	NER-O
+10	damit	damit	ADV	PAV	PronType=Dem	8	advmod	_	NER-O|SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1111.s3
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.742
+# text = Die  Bundesregierung  hat  dankenswerterweise  eine  Studie  in  Auftrag  gegeben,  in  der  geprüft  werden  soll,  ob  wir  hier  zu  Differenzierungen  kommen  können;  denn  nach  derzeitiger  Rechtslage  -  diese  war  für  uns  maßgeblich  -  sind  volljährige  Personen,  für  die  eine  Betreuung  in  allen  Angelegenheiten  gerichtlich  angeordnet  ist,  nicht  wahlberechtigt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Bundesregierung	Bundesregierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	NER=0
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0
+4	dankenswerterweise	dankenswerterweise	ADV	ADV	_	9	advmod	_	NER=0
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	NER=0
+6	Studie	Studie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	NER=0
+7	in	in	ADP	APPR	_	8	case	_	NER=0
+8	Auftrag	Auftrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	NER=0
+9	gegeben	geben	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+10	,	,	PUNCT	$,	_	13	punct	_	NER=0
+11	in	in	ADP	APPR	_	12	case	_	NER=0
+12	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	13	obl	_	NER=0
+13	geprüft	prüfen	VERB	VVPP	VerbForm=Part	8	acl	_	NER=0
+14	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	13	aux:pass	_	NER=0
+15	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	NER=0|SpaceAfter=No
+16	,	,	PUNCT	$,	_	22	punct	_	NER=0
+17	ob	ob	SCONJ	KOUS	_	22	mark	_	NER=0
+18	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	NER=0
+19	hier	hier	ADV	ADV	_	22	advmod	_	NER=0
+20	zu	zu	ADP	APPR	_	21	case	_	NER=0
+21	Differenzierungen	Differenzierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	22	obl	_	NER=0
+22	kommen	kommen	VERB	VVINF	VerbForm=Inf	13	ccomp	_	NER=0
+23	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	NER=0|SpaceAfter=No
+24	;	;	PUNCT	$.	_	34	punct	_	NER=0
+25	denn	denn	CCONJ	KON	_	34	cc	_	NER=0
+26	nach	nach	ADP	APPR	_	28	case	_	NER=0
+27	derzeitiger	derzeitig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	NER=0
+28	Rechtslage	Rechtslage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	34	nmod	_	NER=0
+29	-	-	PUNCT	$(	_	30	punct	_	NER=0
+30	diese	dieser	DET	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	34	nsubj	_	NER=0
+31	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	cop	_	NER=0
+32	für	für	ADP	APPR	_	33	case	_	NER=0
+33	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	34	nmod	_	NER=0
+34	maßgeblich	maßgeblich	ADJ	ADJD	Degree=Pos	52	parataxis	_	NER=0
+35	-	-	PUNCT	$(	_	38	punct	_	NER=0
+36	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	NER=0
+37	volljährige	volljährig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	NER=0
+38	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	52	nsubj	_	NER=0|SpaceAfter=No
+39	,	,	PUNCT	$,	_	48	punct	_	NER=0
+40	für	für	ADP	APPR	_	41	case	_	NER=0
+41	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	48	obl	_	NER=0
+42	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	43	det	_	NER=0
+43	Betreuung	Betreuung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	48	nsubj:pass	_	NER=0
+44	in	in	ADP	APPR	_	46	case	_	NER=0
+45	allen	alle	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Tot	46	det	_	NER=0
+46	Angelegenheiten	Angelegenheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	43	nmod	_	NER=0
+47	gerichtlich	gerichtlich	ADJ	ADJD	Degree=Pos	48	advmod	_	NER=0
+48	angeordnet	anordnen	VERB	VVPP	VerbForm=Part	38	acl	_	NER=0
+49	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux:pass	_	NER=0|SpaceAfter=No
+50	,	,	PUNCT	$,	_	38	punct	_	NER=0
+51	nicht	nicht	PART	PTKNEG	Polarity=Neg	52	advmod	_	NER=0
+52	wahlberechtigt	wahlberechtigt	ADJ	ADJD	Degree=Pos	9	parataxis	_	NER=0|SpaceAfter=No
+53	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1112
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1112.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.13
+# text = Letzter  Punkt  ist  ein  Blick  auf  die  Europawahl.
+1	Letzter	letzt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	NER-O
+2	Punkt	Punkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	NER-O
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER-O
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Blick	Blick	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER-O
+6	auf	auf	ADP	APPR	_	8	case	_	NER-O
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER-O
+8	Europawahl	Europawahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	NER=B-LOC|SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1112.s2
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.238
+# text = Sie  wissen,  dass  das  schon  medial  diskutiert  worden  ist:  die  sogenannte  Doppelwahl.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	NER-O
+2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O|SpaceAfter=No
+3	,	,	PUNCT	$,	_	8	punct	_	NER-O
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	NER-O
+5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj:pass	_	NER-O
+6	schon	schon	ADV	ADV	_	7	advmod	_	NER-O
+7	medial	medial	ADJ	ADJD	Degree=Pos	8	advmod	_	NER-O
+8	diskutiert	diskutieren	VERB	VVPP	VerbForm=Part	2	ccomp	_	NER-O
+9	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	8	aux:pass	_	NER-O
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	NER-O|SpaceAfter=No
+11	:	:	PUNCT	$.	_	14	punct	_	NER-O
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER-O
+13	sogenannte	sogenannt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	NER-O
+14	Doppelwahl	Doppelwahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	NER=B-MISC|SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1112.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.35
+# text = Ein  früherer  Präsident  des  Bundesverfassungsgerichtes  hat  in  einem  großen  Nachrichtenmagazin  aus  dem  Norden  Deutschlands  in  Zweifel  gezogen,  ob  die  Europawahl  angesichts  des  Umstandes  verfassungsgemäß  gewesen  sein  kann,  dass  immerhin  die  Möglichkeit  bestand,  dass  8  Millionen  Menschen  in  der  gesamten  Europäischen  Union  je  zwei  Stimmen  abgegeben  haben.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	NER-O
+2	früherer	früh	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	amod	_	NER-O
+3	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	NER-O
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Bundesverfassungsgerichtes	Bundesverfassungsgericht	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	NER=B-LOC
+6	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	NER-O
+7	in	in	ADP	APPR	_	10	case	_	NER-O
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	NER-O
+9	großen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	NER-O
+10	Nachrichtenmagazin	Nachrichtenmagazin	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	NER-O
+11	aus	aus	ADP	APPR	_	13	case	_	NER-O
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Norden	Norden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	NER-O
+14	Deutschlands	Deutschland	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	NER=B-LOC
+15	in	in	ADP	APPR	_	16	case	_	NER-O
+16	Zweifel	Zweifel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	NER-O
+17	gezogen	ziehen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+18	,	,	PUNCT	$,	_	25	punct	_	NER-O
+19	ob	ob	SCONJ	KOUS	_	25	mark	_	NER-O
+20	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	NER-O
+21	Europawahl	Europawahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	NER-O
+22	angesichts	angesichts	ADP	APPR	_	24	case	_	NER-O
+23	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	NER-O
+24	Umstandes	Umstand	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	NER-O
+25	verfassungsgemäß	verfassungsgemäß	ADJ	ADJD	Degree=Pos	17	ccomp	_	NER-O
+26	gewesen	sein	AUX	VAPP	VerbForm=Part	25	cop	_	NER-O
+27	sein	sein	AUX	VAINF	VerbForm=Inf	25	cop	_	NER-O
+28	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	NER-O|SpaceAfter=No
+29	,	,	PUNCT	$,	_	34	punct	_	NER-O
+30	dass	dass	SCONJ	KOUS	_	34	mark	_	NER-O
+31	immerhin	immerhin	ADV	ADV	_	34	advmod	_	NER-O
+32	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	NER-O
+33	Möglichkeit	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	NER-O
+34	bestand	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	ccomp	_	NER-O|SpaceAfter=No
+35	,	,	PUNCT	$,	_	48	punct	_	NER-O
+36	dass	dass	SCONJ	KOUS	_	48	mark	_	NER-O
+37	8	8	NUM	CARD	NumType=Card	38	nummod	_	NER-O
+38	Millionen	Million	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	39	nmod	_	NER-O
+39	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	48	nsubj	_	NER-O
+40	in	in	ADP	APPR	_	44	case	_	NER-O
+41	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	NER-O
+42	gesamten	gesamt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	NER-O
+43	Europäischen	europäisch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	44	amod	_	NER=B-ORG
+44	Union	Union	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	48	obl	_	NER=I-ORG
+45	je	je	ADV	ADV	_	46	advmod	_	NER-O
+46	zwei	zwei	NUM	CARD	NumType=Card	47	nummod	_	NER-O
+47	Stimmen	Stimme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	48	obj	_	NER-O
+48	abgegeben	abgeben	VERB	VVPP	VerbForm=Part	33	ccomp	_	NER-O
+49	haben	haben	AUX	VAINF	Number=Plur|VerbForm=Inf	48	aux	_	NER-O|SpaceAfter=No
+50	.	.	PUNCT	$.	_	17	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1113
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1113.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.831
+# text = Nach  bisherigem  Erkenntnisstand  des  Wahlprüfungsausschusses  ist  in  Deutschland  bisher  allerdings  nur  eine  Person  bekannt,  die  vom  Herrn  Bundesfinanzminister  persönlich  belehrt  worden  ist,  dass  das  wahrscheinlich  ein  rechtlicher  Fehler  gewesen  ist.
+1	Nach	nach	ADP	APPR	_	3	case	_	NER-O
+2	bisherigem	bisherigem	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	NER-O
+3	Erkenntnisstand	Erkenntnisstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	NER-O
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Wahlprüfungsausschusses	Wahlprüfungsausschuss	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NER=B-LOC
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	NER-O
+7	in	in	ADP	APPR	_	8	case	_	NER-O
+8	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	NER=B-LOC|QID=B-Q183
+9	bisher	bisher	ADV	ADV	_	14	advmod	_	NER-O
+10	allerdings	allerdings	ADV	ADV	_	14	advmod	_	NER-O
+11	nur	nur	ADV	ADV	_	14	advmod	_	NER-O
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Person	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nsubj	_	NER-O
+14	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	NER-O|SpaceAfter=No
+15	,	,	PUNCT	$,	_	22	punct	_	NER-O
+16	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	22	nsubj:pass	_	NER-O
+17-18	vom	_	_	_	_	_	_	_	NER-O
+17	von	von	ADP	APPR	_	20	case	_	NA
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	NA
+19	Herrn	Herr	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	compound	_	NER-O
+20	Bundesfinanzminister	Bundesfinanzminister	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl:agent	_	NER-O
+21	persönlich	persönlich	ADJ	ADJD	Degree=Pos	22	advmod	_	NER-O
+22	belehrt	belehren	VERB	VVPP	VerbForm=Part	13	acl	_	NER-O
+23	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	22	aux:pass	_	NER-O
+24	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	NER-O|SpaceAfter=No
+25	,	,	PUNCT	$,	_	31	punct	_	NER-O
+26	dass	dass	SCONJ	KOUS	_	31	mark	_	NER-O
+27	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	31	nsubj	_	NER-O
+28	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	31	advmod	_	NER-O
+29	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	31	det	_	NER-O
+30	rechtlicher	rechtlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	NER-O
+31	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	ccomp	_	NER-O
+32	gewesen	sein	AUX	VAPP	VerbForm=Part	31	cop	_	NER-O
+33	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	NER-O|SpaceAfter=No
+34	.	.	PUNCT	$.	_	14	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1113.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.343
+# text = Solange  wir  nicht  eine  große  Zahl  weiterer  Doppelstimmen  erkennen,  ist  wahrscheinlich  nicht  zu  erwarten,  dass  dies  zu  vertieften  Prüfungen  des  Wahlprüfungsausschusses  führen  wird.
+1	Solange	solange	SCONJ	KOUS	_	9	mark	_	NER=0
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	NER=0
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	NER=0
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	NER=0
+5	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	NER=0
+6	Zahl	Zahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	NER=0
+7	weiterer	weit	ADJ	ADJA	Case=Gen|Degree=Cmp|Gender=Fem|Number=Plur	8	amod	_	NER=0
+8	Doppelstimmen	Doppelstimme	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	NER=0
+9	erkennen	erkennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	NER=0|SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	NER=0
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	NER=0
+12	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	15	advmod	_	NER=0
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	NER=0
+14	zu	zu	PART	PTKZU	_	15	mark	_	NER=0
+15	erwarten	erwarten	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+16	,	,	PUNCT	$,	_	24	punct	_	NER=0
+17	dass	dass	SCONJ	KOUS	_	24	mark	_	NER=0
+18	dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	24	nsubj	_	NER=0
+19	zu	zu	ADP	APPR	_	21	case	_	NER=0
+20	vertieften	vertiefen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	NER=0
+21	Prüfungen	Prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	24	obl	_	NER=0
+22	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	NER=0
+23	Wahlprüfungsausschusses	Wahlprüfungsausschuss	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	NER=0
+24	führen	führen	VERB	VVINF	VerbForm=Inf	15	ccomp	_	NER=0
+25	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	24	aux	_	NER=0|SpaceAfter=No
+26	.	.	PUNCT	$.	_	15	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1114
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1114.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.389
+# text = Ich  empfehle  Ihnen  also  guten  Gewissens,  unseren  Beschlussempfehlungen  zu  folgen  und  damit  dafür  zu  sorgen,  dass  diese  Sitzung  ihren  Fortgang  finden  kann.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	empfehle	empfehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	obl:arg	_	NER=0
+4	also	also	ADV	ADV	_	2	advmod	_	NER=0
+5	guten	gut	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	NER=0
+6	Gewissens	Gewissen	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	obl:arg	_	NER=0|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	NER=0
+8	unseren	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	NER=0
+9	Beschlussempfehlungen	Beschlussempfehlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obj	_	NER=0
+10	zu	zu	PART	PTKZU	_	11	mark	_	NER=0
+11	folgen	folgen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	NER=0
+12	und	und	CCONJ	KON	_	16	cc	_	NER=0
+13	damit	damit	ADV	PAV	PronType=Dem	16	advmod	_	NER=0
+14	dafür	dafür	ADV	PAV	PronType=Dem	16	advmod	_	NER=0
+15	zu	zu	PART	PTKZU	_	16	mark	_	NER=0
+16	sorgen	sorgen	VERB	VVINF	VerbForm=Inf	11	conj	_	NER=0|SpaceAfter=No
+17	,	,	PUNCT	$,	_	23	punct	_	NER=0
+18	dass	dass	SCONJ	KOUS	_	23	mark	_	NER=0
+19	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	NER=0
+20	Sitzung	Sitzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	NER=0
+21	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	NER=0
+22	Fortgang	Fortgang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	NER=0
+23	finden	finden	VERB	VVINF	VerbForm=Inf	14	acl	_	NER=0
+24	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	NER=0|SpaceAfter=No
+25	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1115
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1115.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.964
+# text = Herzlichen  Dank  für  Ihre  Aufmerksamkeit.
+1	Herzlichen	herzlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	NER=B-MISC
+2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	NER=I-MISC
+3	für	für	ADP	APPR	_	5	case	_	NER=I-MISC
+4	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	NER=I-MISC
+5	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	NER=I-MISC|SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# newdoc id = ParlaMint-DE_2014-10-09-18-057.u117
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1116
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1116.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.32
+# text = Vielen  Dank.  -  Wir  kommen  jetzt  zur  Abstimmung.
+1	Vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	NER=B-MISC
+2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	NER=I-MISC|SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	NER-O
+4	-	-	PUNCT	$(	_	2	punct	_	NER-O
+5	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	NER-O
+6	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+7	jetzt	jetzt	ADV	ADV	_	6	advmod	_	NER-O
+8-9	zur	_	_	_	_	_	_	_	NER-O
+8	zu	zu	ADP	APPR	_	10	case	_	NA
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NA
+10	Abstimmung	Abstimmung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	NER-O|SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1116.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.017
+# text = Wer  stimmt  für  die  Beschlussempfehlung  des  Wahlprüfungsausschusses?
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	2	nsubj	_	NER-O
+2	stimmt	stimmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	für	für	ADP	APPR	_	5	case	_	NER-O
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Beschlussempfehlung	Beschlussempfehlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	NER-O
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER-O
+7	Wahlprüfungsausschusses	Wahlprüfungsausschuss	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	NER=B-LOC|SpaceAfter=No
+8	?	?	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1116.s3
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.322
+# text = -  Wer  stimmt  dagegen?
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	NER=0
+3	stimmt	stimmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+4	dagegen	dagegen	ADV	PAV	PronType=Dem	3	advmod	_	NER=0|SpaceAfter=No
+5	?	?	PUNCT	$.	_	3	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1116.s4
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.544
+# text = -  Wer  enthält  sich?  -  Damit  ist  die  Beschlussempfehlung  mit  den  Stimmen  aller  Fraktionen  angenommen.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	NER=0
+3	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	NER=0
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	NER=0|SpaceAfter=No
+5	?	?	PUNCT	$.	_	3	punct	_	NER=0
+6	-	-	PUNCT	$(	_	3	punct	_	NER=0
+7	Damit	damit	ADV	PAV	PronType=Dem	16	advmod	_	NER=0
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	NER=0
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NER=0
+10	Beschlussempfehlung	Beschlussempfehlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	NER=0
+11	mit	mit	ADP	APPR	_	13	case	_	NER=0
+12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	NER=0
+13	Stimmen	Stimme	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	NER=0
+14	aller	alle	DET	PIAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	15	det	_	NER=0
+15	Fraktionen	Fraktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	NER=0
+16	angenommen	annehmen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1117
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1117.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.146
+# text = Ich  rufe  den  Tagesordnungspunkt  8  auf:
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	rufe	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Tagesordnungspunkt	Tagesordnungspunkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER=0
+5	8	8	NUM	CARD	NumType=Card	4	appos	_	NER=0
+6	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+7	:	:	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1118
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1118.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.891
+# text = Wahl  eines  Mitglieds  des  Parlamentarischen  Kontrollgremiums  gemäß  Artikel  45  d  des  Grundgesetzes
+1	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER-O
+2	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	NER-O
+3	Mitglieds	Mitglied	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	NER-O
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	NER-O
+5	Parlamentarischen	parlamentarisch	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	NER=B-ORG
+6	Kontrollgremiums	Kontrollgremium	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NER=I-ORG
+7	gemäß	gemäß	ADP	APPR	_	8	case	_	NER-O
+8	Artikel	Artikel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	NER-O
+9	45	45	NUM	CARD	NumType=Card	8	appos	_	NER-O
+10	d	d	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	NER-O
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	NER-O
+12	Grundgesetzes	Grundgesetz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1119
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1119.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.816
+# text = Drucksache  18/2743
+1	Drucksache	Drucksache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=0
+2	18/2743	18/2743	NUM	CARD	NumType=Card	1	appos	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1120
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1120.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.09
+# text = Die  Fraktion  der  SPD  schlägt  auf  Drucksache  18/2743  den  Kollegen  Uli  Grötsch  vor.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Fraktion	Fraktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	NER-O
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER-O
+4	SPD	SPD	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	NER=B-ORG|QID=B-Q49768
+5	schlägt	schlagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+6	auf	auf	ADP	APPR	_	7	case	_	NER-O
+7	Drucksache	Drucksache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	NER-O
+8	18/2743	18/2743	NUM	CARD	NumType=Card	7	appos	_	NER-O
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	NER-O
+10	Kollegen	Kollege	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	NER-O
+11	Uli	Uli	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	10	appos	_	NER=B-PER|QID=B-Q15813108
+12	Grötsch	Grötsch	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	11	flat	_	NER=I-PER|QID=I-Q15813108
+13	vor	vor	ADP	PTKVZ	_	5	compound:prt	_	NER-O|SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1121
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1121.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.506
+# text = Liebe  Kolleginnen  und  Kollegen,  bevor  wir  zur  Wahl  kommen,  bitte  ich  um  Ihre  Aufmerksamkeit  für  einige  Hinweise  zum  Wahlverfahren.
+1	Liebe	lieb	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	NER=0
+2	Kolleginnen	Kollegin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	obj	_	NER=0
+3	und	und	CCONJ	KON	_	4	cc	_	NER=0
+4	Kollegen	Kollege	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	11	punct	_	NER=0
+6	bevor	bevor	SCONJ	KOUS	_	11	mark	_	NER=0
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	NER=0
+8-9	zur	_	_	_	_	_	_	_	NER=0
+8	zu	zu	ADP	APPR	_	10	case	_	NA
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NA
+10	Wahl	Wahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	NER=0
+11	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	NER=0|SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	NER=0
+13	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	NER=0
+15	um	um	ADP	APPR	_	17	case	_	NER=0
+16	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	det:poss	_	NER=0
+17	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	NER=0
+18	für	für	ADP	APPR	_	20	case	_	NER=0
+19	einige	einige	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	20	det	_	NER=0
+20	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	NER=0
+21-22	zum	_	_	_	_	_	_	_	NER=0
+21	zu	zu	ADP	APPR	_	23	case	_	NA
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	NA
+23	Wahlverfahren	Wahlverfahren	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	NER=0|SpaceAfter=No
+24	.	.	PUNCT	$.	_	13	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1121.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.516
+# text = Nach  §  2  Absatz  3  des  Gesetzes  über  die  parlamentarische  Kontrolle  nachrichtendienstlicher  Tätigkeit  des  Bundes  ist  gewählt,  wer  die  Stimmen  der  Mehrheit  der  Mitglieder  des  Bundestages  auf  sich  vereint,  das  heißt,  wer  mindestens  316  Stimmen  erhält.
+1	Nach	nach	ADP	APPR	_	2	case	_	NER-O
+2	§	§	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NER-O
+3	2	2	NUM	CARD	NumType=Card	4	nummod	_	NER-O
+4	Absatz	Absatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	NER-O
+5	3	3	NUM	CARD	NumType=Card	4	appos	_	NER-O
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	NER-O
+7	Gesetzes	Gesetz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	NER-O
+8	über	über	ADP	APPR	_	11	case	_	NER-O
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER-O
+10	parlamentarische	parlamentarisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	NER-O
+11	Kontrolle	Kontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	NER-O
+12	nachrichtendienstlicher	nachrichtendienstlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	NER-O
+13	Tätigkeit	Tätigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	NER-O
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	NER-O
+15	Bundes	Bund	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	NER=B-LOC
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	NER-O
+17	gewählt	wählen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+18	,	,	PUNCT	$,	_	30	punct	_	NER-O
+19	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	30	nsubj	_	NER-O
+20	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	21	det	_	NER-O
+21	Stimmen	Stimme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	30	obj	_	NER-O
+22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	NER-O
+23	Mehrheit	Mehrheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	NER-O
+24	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	25	det	_	NER-O
+25	Mitglieder	Mitglied	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	NER-O
+26	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	NER-O
+27	Bundestages	Bundestag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	NER=B-ORG
+28	auf	auf	ADP	APPR	_	29	case	_	NER-O
+29	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	30	obl	_	NER-O
+30	vereint	vereinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	csubj:pass	_	NER-O|SpaceAfter=No
+31	,	,	PUNCT	$,	_	33	punct	_	NER-O
+32	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	33	nsubj	_	NER-O
+33	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	NER-O|SpaceAfter=No
+34	,	,	PUNCT	$,	_	39	punct	_	NER-O
+35	wer	wer	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	39	nsubj	_	NER-O
+36	mindestens	mindestens	ADV	ADV	_	37	advmod	_	NER-O
+37	316	316	NUM	CARD	NumType=Card	38	nummod	_	NER-O
+38	Stimmen	Stimme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	39	obj	_	NER-O
+39	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	NER-O|SpaceAfter=No
+40	.	.	PUNCT	$.	_	17	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1122
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1122.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.969
+# text = Die  Wahl  erfolgt  mit  Stimmkarte  und  Wahlausweis.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	NER-O
+3	erfolgt	erfolgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+4	mit	mit	ADP	APPR	_	5	case	_	NER-O
+5	Stimmkarte	Stimmkarte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	NER=B-PER
+6	und	und	CCONJ	KON	_	7	cc	_	NER-O
+7	Wahlausweis	Wahlausweis	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	conj	_	NER=B-PER|SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1122.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.958
+# text = Die  Wahl  ist  offen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	NER=0
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	NER=0
+4	offen	offen	ADJ	ADJD	Degree=Pos	0	root	_	NER=0|SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1122.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.944
+# text = Sie  können  Ihre  Stimmkarte  also  an  Ihrem  Platz  ankreuzen.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	NER=0
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0
+3	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	NER=0
+4	Stimmkarte	Stimmkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	NER=0
+5	also	also	ADV	ADV	_	9	advmod	_	NER=0
+6	an	an	ADP	APPR	_	8	case	_	NER=0
+7	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	NER=0
+8	Platz	Platz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	NER=0
+9	ankreuzen	ankreuzen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1122.s4
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.224
+# text = Den  Wahlausweis  können  Sie,  soweit  noch  nicht  geschehen,  Ihrem  Stimmkartenfach  in  der  Lobby  entnehmen.
+1	Den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Wahlausweis	Wahlausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	NER=B-MISC
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	NER-O
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	NER-O
+6	soweit	soweit	SCONJ	KOUS	_	9	mark	_	NER-O
+7	noch	noch	ADV	ADV	_	8	advmod	_	NER-O
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	NER-O
+9	geschehen	geschehen	VERB	VVFIN	VerbForm=Inf	16	advcl	_	NER-O|SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	NER-O
+11	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	NER-O
+12	Stimmkartenfach	Stimmkartenfach	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl:arg	_	NER=B-LOC
+13	in	in	ADP	APPR	_	15	case	_	NER-O
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER-O
+15	Lobby	Lobby	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	NER-O
+16	entnehmen	entnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	NER-O|SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1122.s5
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.986
+# text = Bitte  beachten  Sie,  dass  der  Wahlausweis  Ihren  Namen  trägt.
+1	Bitte	bitten	ADV	ADV	_	2	advmod	_	NER=0
+2	beachten	beachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	NER=0|SpaceAfter=No
+4	,	,	PUNCT	$,	_	10	punct	_	NER=0
+5	dass	dass	SCONJ	KOUS	_	10	mark	_	NER=0
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=0
+7	Wahlausweis	Wahlausweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	NER=0
+8	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	NER=0
+9	Namen	Name	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	NER=0
+10	trägt	tragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	NER=0|SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1122.s6
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.954
+# text = Die  Stimmkarten  wurden  im  Saal  verteilt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	NER=0
+2	Stimmkarten	Stimmkarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	NER=0
+3	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	aux:pass	_	NER=0
+4-5	im	_	_	_	_	_	_	_	NER=0
+4	in	in	ADP	APPR	_	6	case	_	NA
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	NA
+6	Saal	Saal	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	NER=0
+7	verteilt	verteilen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1122.s7
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.519
+# text = Sollten  Sie  keine  Stimmkarte  haben,  besteht  jetzt  noch  die  Möglichkeit,  diese  von  den  Plenar-assistenten  zu  erhalten.
+1	Sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	NER-O
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	NER-O
+3	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	4	det	_	NER-O
+4	Stimmkarte	Stimmkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	NER-O
+5	haben	haben	VERB	VAINF	VerbForm=Inf	7	advcl	_	NER-O|SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	NER-O
+7	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+8	jetzt	jetzt	ADV	ADV	_	7	advmod	_	NER-O
+9	noch	noch	ADV	ADV	_	7	advmod	_	NER-O
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER-O
+11	Möglichkeit	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	NER-O|SpaceAfter=No
+12	,	,	PUNCT	$,	_	20	punct	_	NER-O
+13	diese	dieser	DET	PDS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	20	obj	_	NER-O
+14	von	von	ADP	APPR	_	18	case	_	NER-O
+15	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	18	det	_	NER-O
+16	Plenar	Plenar	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	compound	_	NER=B-MISC|SpaceAfter=No
+17	-	-	PUNCT	$(	_	16	punct	_	NER-O|SpaceAfter=No
+18	assistenten	assistent	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	obl	_	NER-O
+19	zu	zu	PART	PTKZU	_	20	mark	_	NER-O
+20	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	11	acl	_	NER-O|SpaceAfter=No
+21	.	.	PUNCT	$.	_	7	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1122.s8
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.636
+# text = Wer  noch  keine  Stimmkarte  hat,  den  bitte  ich  um  ein  Handzeichen.
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	5	nsubj	_	NER=0
+2	noch	noch	ADV	ADV	_	5	advmod	_	NER=0
+3	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	4	det	_	NER=0
+4	Stimmkarte	Stimmkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	NER=0
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	NER=0
+7	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	8	obj	_	NER=0
+8	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	NER=0
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	NER=0
+10	um	um	ADP	APPR	_	12	case	_	NER=0
+11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	12	det	_	NER=0
+12	Handzeichen	Handzeichen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	8	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1123
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1123.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.571
+# text = Gültig  sind  nur  Stimmkarten  mit  einem  Kreuz  bei  "ja",  "nein"  oder  "enthalte  mich".
+1	Gültig	gültig	ADJ	ADJD	Degree=Pos	0	root	_	NER=0
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	NER=0
+3	nur	nur	ADV	ADV	_	1	advmod	_	NER=0
+4	Stimmkarten	Stimmkarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	NER=0
+5	mit	mit	ADP	APPR	_	7	case	_	NER=0
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	NER=0
+7	Kreuz	Kreuz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	NER=0
+8	bei	bei	ADP	APPR	_	10	case	_	NER=0
+9	"	"	PUNCT	$(	_	10	punct	_	NER=0|SpaceAfter=No
+10	ja	ja	ADV	ADV	_	1	nmod	_	NER=0|SpaceAfter=No
+11	"	"	PUNCT	$(	_	10	punct	_	NER=0|SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	NER=0
+13	"	"	PUNCT	$(	_	14	punct	_	NER=0|SpaceAfter=No
+14	nein	nein	ADV	ADV	_	10	conj	_	NER=0|SpaceAfter=No
+15	"	"	PUNCT	$(	_	14	punct	_	NER=0
+16	oder	oder	CCONJ	KON	_	18	cc	_	NER=0
+17	"	"	PUNCT	$(	_	18	punct	_	NER=0|SpaceAfter=No
+18	enthalte	enthalten	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	NER=0
+19	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	NER=0|SpaceAfter=No
+20	"	"	PUNCT	$(	_	18	punct	_	NER=0|SpaceAfter=No
+21	.	.	PUNCT	$.	_	1	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1123.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.899
+# text = Ungültig  sind  demzufolge  Stimmkarten,  bei  denen  kein  Kreuz  gemacht  oder  mehr  als  ein  Kreuz  gemacht  wurde  oder  ein  anderer  Name  oder  sonstige  Zusätze  vermerkt  sind.
+1	Ungültig	ungültig	ADJ	ADJD	Degree=Pos	0	root	_	NER=0
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	NER=0
+3	demzufolge	demzufolge	ADV	ADV	_	1	advmod	_	NER=0
+4	Stimmkarten	Stimmkarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	NER=0
+6	bei	bei	ADP	APPR	_	7	case	_	NER=0
+7	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	10	obl	_	NER=0
+8	kein	kein	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	9	det	_	NER=0
+9	Kreuz	Kreuz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	NER=0
+10	gemacht	machen	VERB	VVPP	VerbForm=Part	4	acl	_	NER=0
+11	oder	oder	CCONJ	KON	_	16	cc	_	NER=0
+12	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	16	advmod	_	NER=0
+13	als	als	ADP	KOKOM	_	15	case	_	NER=0
+14	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	15	det	_	NER=0
+15	Kreuz	Kreuz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	obl	_	NER=0
+16	gemacht	machen	VERB	VVPP	VerbForm=Part	10	conj	_	NER=0
+17	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	16	aux:pass	_	NER=0
+18	oder	oder	CCONJ	KON	_	25	cc	_	NER=0
+19	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	21	det	_	NER=0
+20	anderer	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	NER=0
+21	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	NER=0
+22	oder	oder	CCONJ	KON	_	24	cc	_	NER=0
+23	sonstige	sonstig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	NER=0
+24	Zusätze	Zusatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	conj	_	NER=0
+25	vermerkt	vermerken	VERB	VVPP	VerbForm=Part	10	conj	_	NER=0
+26	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	NER=0|SpaceAfter=No
+27	.	.	PUNCT	$.	_	1	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1124
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1124.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.728
+# text = Bevor  Sie  die  Stimmkarte  in  die  Wahlurnen  werfen,  übergeben  Sie  bitte  den  Schriftführerinnen  und  Schriftführern  an  den  Urnen  Ihren  Wahlausweis.
+1	Bevor	bevor	SCONJ	KOUS	_	8	mark	_	NER=0
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	NER=0
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Stimmkarte	Stimmkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	NER=0
+5	in	in	ADP	APPR	_	7	case	_	NER=0
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	NER=0
+7	Wahlurnen	Wahlurne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	NER=0
+8	werfen	werfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	NER=0|SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	NER=0
+10	übergeben	übergeben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	NER=0
+12	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	NER=0
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	14	det	_	NER=0
+14	Schriftführerinnen	Schriftführerin	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl:arg	_	NER=0
+15	und	und	CCONJ	KON	_	16	cc	_	NER=0
+16	Schriftführern	Schriftführer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	conj	_	NER=0
+17	an	an	ADP	APPR	_	19	case	_	NER=0
+18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	19	det	_	NER=0
+19	Urnen	Urne	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	NER=0
+20	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	NER=0
+21	Wahlausweis	Wahlausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	NER=0|SpaceAfter=No
+22	.	.	PUNCT	$.	_	10	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1124.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.558
+# text = Ich  mache  darauf  aufmerksam,  dass  die  gültige  Teilnahme  an  der  Wahl  nur  dann  sichergestellt  ist,  wenn  Sie  Ihren  Wahlausweis  abgegeben  haben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	mache	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	darauf	darauf	ADV	PAV	PronType=Dem	2	advmod	_	NER=0
+4	aufmerksam	aufmerksam	ADJ	ADJD	Degree=Pos	2	xcomp	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	15	punct	_	NER=0
+6	dass	dass	SCONJ	KOUS	_	15	mark	_	NER=0
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER=0
+8	gültige	gültig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	NER=0
+9	Teilnahme	Teilnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	NER=0
+10	an	an	ADP	APPR	_	12	case	_	NER=0
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER=0
+12	Wahl	Wahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	NER=0
+13	nur	nur	ADV	ADV	_	14	advmod	_	NER=0
+14	dann	dann	ADV	ADV	_	15	advmod	_	NER=0
+15	sichergestellt	sicherstellen	VERB	VVPP	VerbForm=Part	2	ccomp	_	NER=0
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	NER=0|SpaceAfter=No
+17	,	,	PUNCT	$,	_	22	punct	_	NER=0
+18	wenn	wenn	SCONJ	KOUS	_	22	mark	_	NER=0
+19	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	22	nsubj	_	NER=0
+20	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	NER=0
+21	Wahlausweis	Wahlausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	NER=0
+22	abgegeben	abgeben	VERB	VVPP	VerbForm=Part	15	advcl	_	NER=0
+23	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	NER=0|SpaceAfter=No
+24	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1124.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.113
+# text = Das  ist  gleichzeitig  ein  Nachweis,  dass  Sie  teilgenommen  haben.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	NER=0
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER=0
+3	gleichzeitig	gleichzeitig	ADJ	ADJD	Degree=Pos	5	advmod	_	NER=0
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	NER=0
+5	Nachweis	Nachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	NER=0
+7	dass	dass	SCONJ	KOUS	_	9	mark	_	NER=0
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	NER=0
+9	teilgenommen	teilnehmen	VERB	VVPP	VerbForm=Part	5	ccomp	_	NER=0
+10	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0|SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1125
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1125.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.472
+# text = Ich  bitte  die  Schriftführerinnen  und  Schriftführer,  die  vorgesehenen  Plätze  einzunehmen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	NER=0
+4	Schriftführerinnen	Schriftführerin	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	NER=0
+5	und	und	CCONJ	KON	_	6	cc	_	NER=0
+6	Schriftführer	Schriftführer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	NER=0|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	NER=0
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	NER=0
+9	vorgesehenen	vorgesehen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	NER=0
+10	Plätze	Platz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	NER=0
+11	einzunehmen	einnehmen	VERB	VVIZU	VerbForm=Inf	2	xcomp	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1125.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.85
+# text = -  Sind  alle  Plätze  an  den  Urnen  besetzt?
+1	-	-	PUNCT	$(	_	8	punct	_	NER=0
+2	Sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	NER=0
+3	alle	alle	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	4	det	_	NER=0
+4	Plätze	Platz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	NER=0
+5	an	an	ADP	APPR	_	7	case	_	NER=0
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	NER=0
+7	Urnen	Urne	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	NER=0
+8	besetzt	besetzen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1125.s3
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.764
+# text = -  Das  ist  der  Fall.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	NER=0
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER=0
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER=0
+5	Fall	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1125.s4
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.657
+# text = Ich  eröffne  die  Wahl.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	eröffne	eröffnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	NER=0|SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1126
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1126.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.147
+# text = Ist  noch  ein  Mitglied  des  Hauses  anwesend,  das  seine  Stimme  nicht  abgegeben  hat?
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	NER=0
+2	noch	noch	ADV	ADV	_	7	advmod	_	NER=0
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Mitglied	Mitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	NER=0
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	NER=0
+6	Hauses	Haus	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	NER=0
+7	anwesend	anwesend	ADJ	ADJD	Degree=Pos	0	root	_	NER=0|SpaceAfter=No
+8	,	,	PUNCT	$,	_	13	punct	_	NER=0
+9	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	nsubj	_	NER=0
+10	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	NER=0
+11	Stimme	Stimme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	NER=0
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	NER=0
+13	abgegeben	abgeben	VERB	VVPP	VerbForm=Part	6	acl	_	NER=0
+14	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	NER=0|SpaceAfter=No
+15	?	?	PUNCT	$.	_	7	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1126.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.53
+# text = -  Ich  sehe,  das  ist  nicht  der  Fall.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	NER=0
+3	sehe	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0|SpaceAfter=No
+4	,	,	PUNCT	$,	_	9	punct	_	NER=0
+5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	NER=0
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	NER=0
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	NER=0
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NER=0
+9	Fall	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1126.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.337
+# text = Dann  schließen  wir  die  Abstimmung.
+1	Dann	dann	ADV	ADV	_	2	advmod	_	NER=0
+2	schließen	schließen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER=0
+5	Abstimmung	Abstimmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1127
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1127.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.407
+# text = Ich  schließe  die  Wahl  und  bitte  die  Schriftführerinnen  und  Schriftführer,  mit  der  Auszählung  zu  beginnen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	schließe	schließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	NER=0
+5	und	und	CCONJ	KON	_	6	cc	_	NER=0
+6	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	NER=0
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	NER=0
+8	Schriftführerinnen	Schriftführerin	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	NER=0
+9	und	und	CCONJ	KON	_	10	cc	_	NER=0
+10	Schriftführer	Schriftführer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	conj	_	NER=0|SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	NER=0
+12	mit	mit	ADP	APPR	_	14	case	_	NER=0
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER=0
+14	Auszählung	Auszählung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	NER=0
+15	zu	zu	PART	PTKZU	_	16	mark	_	NER=0
+16	beginnen	beginnen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	NER=0|SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1127.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.931
+# text = Das  Ergebnis  der  Wahl  wird  Ihnen  später  bekannt  gegeben.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Ergebnis	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	NER=0
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Wahl	Wahl	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	NER=0
+5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux:pass	_	NER=0
+6	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	9	obl:arg	_	NER=0
+7	später	spät	ADJ	ADJD	Degree=Cmp	9	advmod	_	NER=0
+8	bekannt	bekennen	ADJ	ADJD	Degree=Pos	9	xcomp	_	NER=0
+9	gegeben	geben	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1127.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.998
+# text = 1
+1	1	1	NUM	CARD	NumType=Card	0	root	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1128
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1128.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.173
+# text = Ich  rufe  den  Tagesordnungspunkt  11  auf:
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	rufe	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Tagesordnungspunkt	Tagesordnungspunkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER=0
+5	11	11	NUM	CARD	NumType=Card	4	appos	_	NER=0
+6	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+7	:	:	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1129
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1129.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.329
+# text = Erste  Beratung  des  von  den  Fraktionen  CDU/CSU,  SPD,  DIE  LINKE  und  BÜNDNIS  90/DIE  GRÜNEN  eingebrachten  Entwurfs  eines  Neunten  Gesetzes  zur  Änderung  des  Bundesverfassungsgerichtsgesetzes  (9.  BVerfGGÄndG)
+1	Erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	2	amod	_	NER-O
+2	Beratung	Beratung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER-O
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	NER-O
+4	von	von	ADP	APPR	_	6	case	_	NER-O
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	NER-O
+6	Fraktionen	Fraktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	NER-O
+7	CDU/CSU	CDU/CSU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	appos	_	NER=B-ORG|QID=B-Q1023134|SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	NER-O
+9	SPD	SPD	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	NER=B-ORG|QID=B-Q49768|SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	NER-O
+11	DIE	der	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	NER=B-ORG|QID=B-Q49764
+12	LINKE	LINKE	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	11	flat	_	NER=I-ORG|QID=I-Q49764
+13	und	und	CCONJ	KON	_	14	cc	_	NER-O
+14	BÜNDNIS	BÜNDNIS	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	NER=B-ORG
+15	90/DIE	90/DIE	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	14	flat	_	NER=B-ORG
+16	GRÜNEN	GRÜNEN	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	flat	_	NER=I-ORG
+17	eingebrachten	eingebracht	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	NER-O
+18	Entwurfs	Entwurf	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	NER-O
+19	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	21	det	_	NER-O
+20	Neunten	neunt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	NER=B-MISC
+21	Gesetzes	Gesetz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	NER=I-MISC
+22-23	zur	_	_	_	_	_	_	_	NER-O
+22	zu	zu	ADP	APPR	_	24	case	_	NA
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	NA
+24	Änderung	Änderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	nmod	_	NER-O
+25	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	NER-O
+26	Bundesverfassungsgerichtsgesetzes	Bundesverfassungsgerichtsgesetz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	NER-O
+27	(	(	PUNCT	$(	_	29	punct	_	NER-O|SpaceAfter=No
+28	9.	9.	ADJ	ADJA	Degree=Pos|NumType=Ord	29	amod	_	NER-O
+29	BVerfGGÄndG	BVerfGGÄndG	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	26	appos	_	NER=B-MISC|SpaceAfter=No
+30	)	)	PUNCT	$(	_	29	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1130
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1130.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.98
+# text = Drucksache  18/2737
+1	Drucksache	Drucksache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=0
+2	18/2737	18/2737	NUM	CARD	NumType=Card	1	appos	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1131
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1131.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.004
+# text = Überweisungsvorschlag:
+1	Überweisungsvorschlag	Überweisungsvorschlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=B-ORG|SpaceAfter=No
+2	:	:	PUNCT	$.	_	1	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1132
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1132.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.872
+# text = Ausschuss  für  Recht  und  Verbraucherschutz  (f)
+1	Ausschuss	Ausschuß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0
+2	für	für	ADP	APPR	_	3	case	_	NER=0
+3	Recht	Recht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	NER=0
+4	und	und	CCONJ	KON	_	5	cc	_	NER=0
+5	Verbraucherschutz	Verbraucherschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	NER=0
+6	(	(	PUNCT	$(	_	7	punct	_	NER=0|SpaceAfter=No
+7	f	f	X	XY	_	1	appos	_	NER=0|SpaceAfter=No
+8	)	)	PUNCT	$(	_	7	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1133
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1133.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.922
+# text = Innenausschuss
+1	Innenausschuss	Innenausschuss	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1134
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1134.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.793
+# text = Nach  einer  interfraktionellen  Vereinbarung  sind  für  die  Aussprache  38  Minuten  vorgesehen.
+1	Nach	nach	ADP	APPR	_	4	case	_	NER=0
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	NER=0
+3	interfraktionellen	interfraktionellen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=0
+4	Vereinbarung	Vereinbarung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	NER=0
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	NER=0
+6	für	für	ADP	APPR	_	8	case	_	NER=0
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER=0
+8	Aussprache	Aussprache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	NER=0
+9	38	38	NUM	CARD	NumType=Card	10	nummod	_	NER=0
+10	Minuten	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	nsubj	_	NER=0
+11	vorgesehen	vorsehen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1134.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.658
+# text = -  Ich  höre  keinen  Widerspruch.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	NER=0
+3	höre	hören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+4	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	5	det	_	NER=0
+5	Widerspruch	Widerspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1134.s3
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.971
+# text = Dann  ist  das  so  beschlossen.
+1	Dann	dann	ADV	ADV	_	5	advmod	_	NER=0
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER=0
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	NER=0
+4	so	so	ADV	ADV	_	5	advmod	_	NER=0
+5	beschlossen	beschließen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2014-10-09-18-057.seg1135
+# lang = de
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1135.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.462
+# text = Ich  bitte  jetzt  alle,  Platz  zu  nehmen,  die  der  Debatte  folgen  wollen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	jetzt	jetzt	ADV	ADV	_	2	advmod	_	NER=0
+4	alle	alle	DET	PIS	Case=Acc|Number=Plur|PronType=Tot	2	obj	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	NER=0
+6	Platz	Platz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	NER=0
+7	zu	zu	PART	PTKZU	_	8	mark	_	NER=0
+8	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	4	acl	_	NER=0|SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	NER=0
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	NER=0
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER=0
+12	Debatte	Debatte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl:arg	_	NER=0
+13	folgen	folgen	VERB	VVINF	VerbForm=Inf	6	acl	_	NER=0
+14	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	NER=0|SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2014-10-09-18-057.seg1135.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.956
+# text = -  Dann  rufe  ich  Dr.  Matthias  Bartke,  SPD-Fraktion,  auf.
+1	-	-	PUNCT	$(	_	2	punct	_	NER-O
+2	Dann	dann	ADV	ADV	_	3	advmod	_	NER-O
+3	rufe	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	NER-O
+5	Dr.	Dr.	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	compound	_	NER-O
+6	Matthias	Matthias	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	NER=B-PER|QID=B-Q14947864
+7	Bartke	Bartke	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	6	flat	_	NER=I-PER|QID=I-Q14947864|SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	NER-O
+9	SPD	SPD	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	6	appos	_	NER=B-ORG|QID=B-Q49768|SpaceAfter=No
+10	-	-	PUNCT	$(	_	11	punct	_	NER-O|SpaceAfter=No
+11	Fraktion	Fraktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	flat	_	NER-O|SpaceAfter=No
+12	,	,	PUNCT	$,	_	3	punct	_	NER-O
+13	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	NER-O|SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	NER-O
+

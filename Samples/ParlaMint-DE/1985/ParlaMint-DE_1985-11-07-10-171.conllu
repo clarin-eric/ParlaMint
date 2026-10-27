@@ -1,0 +1,367 @@
+# CoNLL-U Representation of Sample of ParlaMint-DE (Beta) / GermaParl v3.0.0-rc4, see https://github.com/PolMine/ParlaMint-DE_beta.
+#
+# newdoc id = ParlaMint-DE_1985-11-07-10-171.u359
+# newpar id = ParlaMint-DE_1985-11-07-10-171.seg1439
+# lang = de
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1439.s1
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 4.743
+# text = Danke  sehr.
+1	Danke	Dank	NOUN	PTKANT	_	0	root	_	NER=B-PER|QID=B-Q877429
+2	sehr	sehr	ADV	ADV	_	1	advmod	_	NER-O|SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1439.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.134
+# text = Ich  rufe  den  Tagesordnungspunkt  10  auf:
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	rufe	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Tagesordnungspunkt	Tagesordnungspunkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER=0
+5	10	10	NUM	CARD	NumType=Card	4	appos	_	NER=0
+6	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+7	:	:	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_1985-11-07-10-171.seg1440
+# lang = de
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1440.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.196
+# text = Beratung  der  Großen  Anfrage  der  Abgeordneten  Reschke,  Conradi,  Waltemathe,  Müntefering,  Lohmann  (Witten)
+1	Beratung	Beratung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER-O
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER-O
+3	Großen	groß	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	NER-O
+4	Anfrage	Anfrage	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	NER-O
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	NER-O
+6	Abgeordneten	Abgeordnete	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	NER-O
+7	Reschke	Reschke	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	appos	_	NER=B-PER|SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	NER-O
+9	Conradi	Conradi	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	NER=B-PER|QID=B-Q158246|SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	NER-O
+11	Waltemathe	Waltemathe	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	NER=B-PER|QID=B-Q1360501|SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	NER-O
+13	Müntefering	Müntefering	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	NER=B-PER|QID=B-Q58609|SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	NER-O
+15	Lohmann	Lohmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	NER=B-PER|QID=B-Q1581094
+16	(	(	PUNCT	$(	_	17	punct	_	NER-O|SpaceAfter=No
+17	Witten	Witten	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	appos	_	NER=B-LOC|QID=B-Q104309|SpaceAfter=No
+18	)	)	PUNCT	$(	_	17	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_1985-11-07-10-171.seg1441
+# lang = de
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1441.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.338
+# text = ,  Meininghaus,  Menzel,  Polkehn,  Schmitt  (Wiesbaden)
+1	,	,	PUNCT	$,	_	2	punct	_	NER-O
+2	Meininghaus	Meininghaus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=B-LOC|QID=B-Q2645474|SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	NER-O
+4	Menzel	Menzel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	NER=B-PER|QID=B-Q157400|SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	NER-O
+6	Polkehn	Polkehn	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	NER=B-PER|SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	NER-O
+8	Schmitt	Schmitt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	NER=B-LOC|QID=B-Q108886
+9	(	(	PUNCT	$(	_	10	punct	_	NER-O|SpaceAfter=No
+10	Wiesbaden	Wiesbaden	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	8	appos	_	NER=B-LOC|QID=B-Q1721|SpaceAfter=No
+11	)	)	PUNCT	$(	_	10	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_1985-11-07-10-171.seg1442
+# lang = de
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1442.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.757
+# text = ,  Dr.  Sperling,  Huonker,  Wolfram  (Recklinghausen)
+1	,	,	PUNCT	$,	_	2	punct	_	NER-O
+2	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER-O
+3	Sperling	Sperling	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	NER-O|SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	NER-O
+5	Huonker	Huonker	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	NER=B-PER|SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	NER-O
+7	Wolfram	Wolfram	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	NER-O
+8	(	(	PUNCT	$(	_	9	punct	_	NER-O|SpaceAfter=No
+9	Recklinghausen	Recklinghausen	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	7	appos	_	NER=B-LOC|QID=B-Q6214|SpaceAfter=No
+10	)	)	PUNCT	$(	_	9	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_1985-11-07-10-171.seg1443
+# lang = de
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1443.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.26
+# text = und  der  Fraktion  der  SPD  Baulandsituation,  Entwicklung  der  Baulandpreise,  des  Bodenrechts  und  der  Bodensteuern  —  Drucksachen  10/2358,  10/3690  —
+1	und	und	CCONJ	KON	_	3	cc	_	NER-O
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER-O
+3	Fraktion	Fraktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	NER-O
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER-O
+5	SPD	SPD	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	NER=B-ORG|QID=B-Q49768
+6	Baulandsituation	Baulandsituation	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	5	flat	_	NER-O|SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	NER-O
+8	Entwicklung	Entwicklung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	NER-O
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	NER-O
+10	Baulandpreise	Baulandpreis	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	NER-O|SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	NER-O
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Bodenrechts	Bodenrecht	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	NER-O
+14	und	und	CCONJ	KON	_	16	cc	_	NER-O
+15	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	16	det	_	NER-O
+16	Bodensteuern	Bodensteuer	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	10	conj	_	NER-O
+17	—	—	PUNCT	$(	_	18	punct	_	NER-O
+18	Drucksachen	Drucksache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	appos	_	NER-O
+19	10/2358	10/2358	NUM	CARD	NumType=Card	18	appos	_	NER-O|SpaceAfter=No
+20	,	,	PUNCT	$,	_	21	punct	_	NER-O
+21	10/3690	10/3690	NUM	CARD	NumType=Card	18	appos	_	NER-O
+22	—	—	PUNCT	$(	_	18	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_1985-11-07-10-171.seg1444
+# lang = de
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.695
+# text = Das  Wort  wird  offensichtlich  nicht  gewünscht.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Wort	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	NER=0
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	NER=0
+4	offensichtlich	offensichtlich	ADJ	ADJD	Degree=Pos	6	advmod	_	NER=0
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	NER=0
+6	gewünscht	wünschen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s2
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.445
+# text = Interfraktionell  ist  vereinbart  worden,  die  Große  Anfrage  mit  der  Antwort  der  Bundesregierung  ausnahmsweise  und  in  Abweichung  von  der  Geschäftsordnung  an  den  Ausschuß  für  Raumordnung,  Bauwesen  und  Städtebau  zu  überweisen.
+1	Interfraktionell	interfraktionell	ADJ	ADJD	Degree=Pos	3	advmod	_	NER=B-PER
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	NER-O
+3	vereinbart	vereinbaren	VERB	VVPP	VerbForm=Part	0	root	_	NER-O
+4	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	3	aux:pass	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	31	punct	_	NER-O
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER-O
+7	Große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	NER-O
+8	Anfrage	Anfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	NER-O
+9	mit	mit	ADP	APPR	_	11	case	_	NER-O
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER-O
+11	Antwort	Antwort	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	NER-O
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Bundesregierung	Bundesregierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	NER-O
+14	ausnahmsweise	ausnahmsweise	ADV	ADV	_	31	advmod	_	NER-O
+15	und	und	CCONJ	KON	_	17	cc	_	NER-O
+16	in	in	ADP	APPR	_	17	case	_	NER-O
+17	Abweichung	Abweichung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	conj	_	NER-O
+18	von	von	ADP	APPR	_	20	case	_	NER-O
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	NER-O
+20	Geschäftsordnung	Geschäftsordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	NER-O
+21	an	an	ADP	APPR	_	23	case	_	NER-O
+22	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	NER-O
+23	Ausschuß	Ausschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	obl	_	NER-O
+24	für	für	ADP	APPR	_	25	case	_	NER-O
+25	Raumordnung	Raumordnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	NER-O|SpaceAfter=No
+26	,	,	PUNCT	$,	_	27	punct	_	NER-O
+27	Bauwesen	Bauwesen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	conj	_	NER-O
+28	und	und	CCONJ	KON	_	29	cc	_	NER-O
+29	Städtebau	Städtebau	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	conj	_	NER-O
+30	zu	zu	PART	PTKZU	_	31	mark	_	NER-O
+31	überweisen	überweisen	VERB	VVINF	VerbForm=Inf	3	csubj:pass	_	NER-O|SpaceAfter=No
+32	.	.	PUNCT	$.	_	3	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s3
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.283
+# text = Diese  Überweisung  sollte  jedoch  kein  Berufungsfall  werden.
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	NER=0
+2	Überweisung	Überweisung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	NER=0
+3	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	NER=0
+4	jedoch	jedoch	ADV	ADV	_	7	advmod	_	NER=0
+5	kein	kein	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	6	det	_	NER=0
+6	Berufungsfall	Berufungsfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	xcomp	_	NER=0
+7	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s4
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.439
+# text = Ich  mache  zusätzlich  darauf  aufmerksam,  daß  durch  diese  Überweisung  Rechte  der  Fraktionen  oder  Mitglieder  des  Hauses  nach  §  101  der  Geschäftsordnung  nicht  berührt  werden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	mache	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	2	advmod	_	NER=0
+4	darauf	darauf	ADV	PAV	PronType=Dem	2	advmod	_	NER=0
+5	aufmerksam	aufmerksam	ADJ	ADJD	Degree=Pos	2	xcomp	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	24	punct	_	NER=0
+7	daß	daß	SCONJ	KOUS	_	24	mark	_	NER=0
+8	durch	durch	ADP	APPR	_	10	case	_	NER=0
+9	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	NER=0
+10	Überweisung	Überweisung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	NER=0
+11	Rechte	Recht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	24	nsubj:pass	_	NER=0
+12	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	13	det	_	NER=0
+13	Fraktionen	Fraktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	NER=0
+14	oder	oder	CCONJ	KON	_	15	cc	_	NER=0
+15	Mitglieder	Mitglied	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	13	conj	_	NER=0
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	NER=0
+17	Hauses	Haus	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	NER=0
+18	nach	nach	ADP	APPR	_	19	case	_	NER=0
+19	§	§	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	NER=0
+20	101	101	NUM	CARD	NumType=Card	19	appos	_	NER=0
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	NER=0
+22	Geschäftsordnung	Geschäftsordnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	NER=0
+23	nicht	nicht	PART	PTKNEG	Polarity=Neg	24	advmod	_	NER=0
+24	berührt	berühren	VERB	VVPP	VerbForm=Part	2	ccomp	_	NER=0
+25	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|VerbForm=Inf|Voice=Pass	24	aux:pass	_	NER=0|SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s5
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.197
+# text = Ich  gehe  davon  aus,  daß  lediglich  eine  Berichterstattung  erfolgt,  wenn  die  Große  Anfrage  nach  der  Ausschußberatung  erneut  im  Plenum  behandelt  werden  soll.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER-O
+2	gehe	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	davon	davon	ADV	PAV	PronType=Dem	2	advmod	_	NER-O
+4	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	NER-O
+6	daß	daß	SCONJ	KOUS	_	10	mark	_	NER-O
+7	lediglich	lediglich	ADV	ADV	_	10	advmod	_	NER-O
+8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	NER-O
+9	Berichterstattung	Berichterstattung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	NER-O
+10	erfolgt	erfolgen	VERB	VVPP	VerbForm=Part	2	ccomp	_	NER-O|SpaceAfter=No
+11	,	,	PUNCT	$,	_	23	punct	_	NER-O
+12	wenn	wenn	SCONJ	KOUS	_	23	mark	_	NER-O
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER-O
+14	Große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	NER-O
+15	Anfrage	Anfrage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj:pass	_	NER-O
+16	nach	nach	ADP	APPR	_	18	case	_	NER-O
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	NER-O
+18	Ausschußberatung	Ausschußberatung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	NER=B-MISC
+19	erneut	erneut	ADJ	ADV	Degree=Pos	23	advmod	_	NER-O
+20-21	im	_	_	_	_	_	_	_	NER-O
+20	in	in	ADP	APPR	_	22	case	_	NA
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	NA
+22	Plenum	Plenum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	NER-O
+23	behandelt	behandeln	VERB	VVPP	VerbForm=Part	10	advcl	_	NER-O
+24	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	23	aux:pass	_	NER-O
+25	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	NER-O|SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s6
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.783
+# text = Gibt  es  dazu  anderweitige  Vorschläge?  —
+1	Gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	NER=0
+3	dazu	dazu	ADV	PAV	PronType=Dem	1	advmod	_	NER=0
+4	anderweitige	anderweitig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	NER=0
+5	Vorschläge	Vorschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	NER=0|SpaceAfter=No
+6	?	?	PUNCT	$.	_	1	punct	_	NER=0
+7	—	—	PUNCT	$(	_	1	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s7
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.73
+# text = Das  ist  offensichtlich  nicht  der  Fall.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	NER=0
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	NER=0
+3	offensichtlich	offensichtlich	ADJ	ADJD	Degree=Pos	6	advmod	_	NER=0
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	NER=0
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	NER=0
+6	Fall	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s8
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.116
+# text = Dann  ist  die  Überweisung  mit  den  von  mir  genannten  Konditionen  und  Einschränkungen  so  beschlossen.
+1	Dann	dann	ADV	ADV	_	14	advmod	_	NER=0
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	NER=0
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Überweisung	Überweisung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	NER=0
+5	mit	mit	ADP	APPR	_	10	case	_	NER=0
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	NER=0
+7	von	von	ADP	APPR	_	8	case	_	NER=0
+8	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	nmod	_	NER=0
+9	genannten	genannt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	NER=0
+10	Konditionen	Kondition	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	NER=0
+11	und	und	CCONJ	KON	_	12	cc	_	NER=0
+12	Einschränkungen	Einschränkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	conj	_	NER=0
+13	so	so	ADV	ADV	_	14	advmod	_	NER=0
+14	beschlossen	beschlossen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s9
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.319
+# text = Wir  sind  am  Ende  der  heutigen  Tagesordnung.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3-4	am	_	_	_	_	_	_	_	NER=0
+3	an	an	ADP	APPR	_	5	case	_	NA
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	NA
+5	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	NER=0
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER=0
+7	heutigen	heutig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	NER=0
+8	Tagesordnung	Tagesordnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	NER=0|SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s10
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.151
+# text = Ich  berufe  die  nächste  Sitzung  des  Deutschen  Bundestages  auf  morgen,  Freitag,  den  8.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER-O
+2	berufe	berufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER-O
+4	nächste	nah	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	NER-O
+5	Sitzung	Sitzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	NER-O
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER-O
+7	Deutschen	deutsch	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	NER=B-ORG
+8	Bundestages	Bundestag	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	NER=I-ORG
+9	auf	auf	ADP	APPR	_	10	case	_	NER-O
+10	morgen	morgen	ADV	ADV	_	2	advmod	_	NER-O|SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	NER-O
+12	Freitag	Freitag	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	NER-O|SpaceAfter=No
+13	,	,	PUNCT	$,	_	15	punct	_	NER-O
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	NER-O
+15	8	8	NUM	CARD	NumType=Card	12	appos	_	NER-O|SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s11
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.039
+# text = November  1985,  8  Uhr  ein  und  wünsche  Ihnen  einen  angenehmen  Abend.
+1	November	November	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	dep	_	NER=0
+2	1985	1985	NUM	CARD	NumType=Card	1	nmod	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	NER=0
+4	8	8	NUM	CARD	NumType=Card	5	nummod	_	NER=0
+5	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	NER=0
+6	ein	ein	ADV	PTKVZ	_	1	compound:prt	_	NER=0
+7	und	und	CCONJ	KON	_	8	cc	_	NER=0
+8	wünsche	wünschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+9	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	obl:arg	_	NER=0
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	NER=0
+11	angenehmen	angenehm	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	NER=0
+12	Abend	Abend	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	8	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1985-11-07-10-171.seg1444.s12
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.557
+# text = Die  Sitzung  ist  geschlossen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Sitzung	Sitzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	NER=0
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	NER=0
+4	geschlossen	schließen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	NER=0
+

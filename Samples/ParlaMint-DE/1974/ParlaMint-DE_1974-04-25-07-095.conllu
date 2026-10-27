@@ -1,0 +1,470 @@
+# CoNLL-U Representation of Sample of ParlaMint-DE (Beta) / GermaParl v3.0.0-rc4, see https://github.com/PolMine/ParlaMint-DE_beta.
+#
+# newdoc id = ParlaMint-DE_1974-04-25-07-095.u60
+# newpar id = ParlaMint-DE_1974-04-25-07-095.seg231
+# lang = de
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg231.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.053
+# text = Meine  Damen  und  Herren,  wir  setzen  die  Sitzung  fort.
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	NER=B-MISC
+2	Damen	Dame	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	NER=I-MISC
+3	und	und	CCONJ	KON	_	4	cc	_	NER=I-MISC
+4	Herren	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	NER=I-MISC|SpaceAfter=No
+5	,	,	PUNCT	$,	_	2	punct	_	NER-O
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	NER-O
+7	setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	appos	_	NER-O
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER-O
+9	Sitzung	Sitzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	NER-O
+10	fort	fort	ADV	PTKVZ	_	7	compound:prt	_	NER-O|SpaceAfter=No
+11	.	.	PUNCT	$.	_	7	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg231.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.497
+# text = Ich  rufe  Punkt  1  auf:
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	rufe	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	Punkt	Punkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER=0
+4	1	1	NUM	CARD	NumType=Card	3	appos	_	NER=0
+5	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+6	:	:	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_1974-04-25-07-095.seg232
+# lang = de
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg232.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.412
+# text = Fragestunde  —  Drucksache  7/2008  Es  sind  noch  einige  Fragen  aus  dem  Geschäftsbereich  des  Bundesministers  für  Ernährung,  Landwirtschaft  und  Forsten  unbeantwortet.
+1	Fragestunde	Fragestunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	dep	_	NER-O
+2	—	—	PUNCT	$(	_	3	punct	_	NER-O
+3	Drucksache	Drucksache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NER-O
+4	7/2008	7/2008	NUM	CARD	NumType=Card	3	appos	_	NER-O
+5	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	punct	_	NER-O
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	NER-O
+7	noch	noch	ADV	ADV	_	21	advmod	_	NER-O
+8	einige	einige	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	NER-O
+9	Fragen	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	NER-O
+10	aus	aus	ADP	APPR	_	12	case	_	NER-O
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	NER-O
+12	Geschäftsbereich	Geschäftsbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	NER-O
+13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	NER-O
+14	Bundesministers	Bundesminister	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	NER=B-ORG
+15	für	für	ADP	APPR	_	16	case	_	NER=I-ORG
+16	Ernährung	Ernährung	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	NER=I-ORG|SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	NER=I-ORG
+18	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	NER=I-ORG
+19	und	und	CCONJ	KON	_	20	cc	_	NER=I-ORG
+20	Forsten	Forst|Forsten	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	NER=I-ORG
+21	unbeantwortet	unbeantwortet	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+22	.	.	PUNCT	$.	_	21	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg232.s2
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.323
+# text = Ich  höre  aber  gerade,  daß  Herr  Minister  Ertl  noch  auf  dem  Weg  von  Köln  hierher  ist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER-O
+2	höre	hören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	aber	aber	ADV	ADV	_	2	advmod	_	NER-O
+4	gerade	gerade	ADV	ADV	_	2	advmod	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	17	punct	_	NER-O
+6	daß	daß	SCONJ	KOUS	_	17	mark	_	NER-O
+7	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	NER-O
+8	Minister	Minister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	NER-O
+9	Ertl	Ertl	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	NER=B-PER|QID=B-Q697001
+10	noch	noch	ADV	ADV	_	17	advmod	_	NER-O
+11	auf	auf	ADP	APPR	_	13	case	_	NER-O
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Weg	Weg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NER-O
+14	von	von	ADP	APPR	_	15	case	_	NER-O
+15	Köln	Köln	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	NER=B-LOC|QID=B-Q365
+16	hierher	hierher	ADV	PAV	_	17	advmod	_	NER-O
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	NER-O|SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg232.s3
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.203
+# text = Können  wir  deshalb  jetzt  die  Fragen  aus  dem  nächsten  Ressort,  dem  Geschäftsbereich  des  Bundeskanzlers  und  des  Bundeskanzleramts,  behandeln  mit  der  Maßgabe,  daß  Kollegen,  die  sich  darauf  verlassen  haben,  daß  zunächst  die  Landwirtschaft  drankommt  und  daher  jetzt  abwesend  sind,  nachher  noch  die  Chance  haben,  daß  der  Aufruf  ihrer  Fragen  nachgeholt  wird?
+1	Können	Können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	NER-O
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	NER-O
+3	deshalb	deshalb	ADV	PAV	_	20	advmod	_	NER-O
+4	jetzt	jetzt	ADV	ADV	_	20	advmod	_	NER-O
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	NER-O
+6	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	NER-O
+7	aus	aus	ADP	APPR	_	10	case	_	NER-O
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	NER-O
+9	nächsten	nah	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	10	amod	_	NER-O
+10	Ressort	Ressort	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	NER-O|SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	NER-O
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Geschäftsbereich	Geschäftsbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	appos	_	NER-O
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	NER-O
+15	Bundeskanzlers	Bundeskanzler	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	NER-O
+16	und	und	CCONJ	KON	_	18	cc	_	NER-O
+17	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	NER-O
+18	Bundeskanzleramts	Bundeskanzleramt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	15	conj	_	NER=B-ORG|SpaceAfter=No
+19	,	,	PUNCT	$,	_	13	punct	_	NER-O
+20	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	0	root	_	NER-O
+21	mit	mit	ADP	APPR	_	23	case	_	NER-O
+22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	NER-O
+23	Maßgabe	Maßgabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	NER-O|SpaceAfter=No
+24	,	,	PUNCT	$,	_	31	punct	_	NER-O
+25	daß	daß	SCONJ	KOUS	_	31	mark	_	NER-O
+26	Kollegen	Kollege	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	49	nsubj	_	NER-O|SpaceAfter=No
+27	,	,	PUNCT	$,	_	31	punct	_	NER-O
+28	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	31	nsubj	_	NER-O
+29	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	31	obj	_	NER-O
+30	darauf	darauf	ADV	PAV	PronType=Dem	31	advmod	_	NER-O
+31	verlassen	verlassen	VERB	VVPP	VerbForm=Part	26	acl	_	NER-O
+32	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	NER-O|SpaceAfter=No
+33	,	,	PUNCT	$,	_	38	punct	_	NER-O
+34	daß	daß	SCONJ	KOUS	_	38	mark	_	NER-O
+35	zunächst	zunächst	ADV	ADV	_	38	advmod	_	NER-O
+36	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	NER-O
+37	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	NER-O
+38	drankommt	drankommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	NER-O
+39	und	und	CCONJ	KON	_	42	cc	_	NER-O
+40	daher	daher	ADV	PAV	PronType=Dem	42	advmod	_	NER-O
+41	jetzt	jetzt	ADV	ADV	_	42	advmod	_	NER-O
+42	abwesend	abwesend	ADJ	ADJD	Degree=Pos	38	conj	_	NER-O
+43	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	NER-O|SpaceAfter=No
+44	,	,	PUNCT	$,	_	49	punct	_	NER-O
+45	nachher	nachher	ADV	ADV	_	49	advmod	_	NER-O
+46	noch	noch	ADV	ADV	_	49	advmod	_	NER-O
+47	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	NER-O
+48	Chance	Chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	49	obj	_	NER-O
+49	haben	haben	VERB	VAINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	NER-O|SpaceAfter=No
+50	,	,	PUNCT	$,	_	56	punct	_	NER-O
+51	daß	daß	SCONJ	KOUS	_	56	mark	_	NER-O
+52	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	NER-O
+53	Aufruf	Aufruf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	56	nsubj:pass	_	NER-O
+54	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	55	det:poss	_	NER-O
+55	Fragen	Frage	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	53	nmod	_	NER-O
+56	nachgeholt	nachholen	VERB	VVPP	VerbForm=Part	49	ccomp	_	NER-O
+57	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	56	aux:pass	_	NER-O|SpaceAfter=No
+58	?	?	PUNCT	$.	_	20	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg232.s4
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.265
+# text = Das  würde  bedeuten,  Herr  Staatssekretär  Ravens,  daß  Sie  eventuell  bereit  sein  müßten,  noch  ein  bißchen  länger  zu  bleiben,  damit  diese  Chance  eingeräumt  werden  kann.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	NER-O
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	NER-O
+3	bedeuten	bedeuten	VERB	VVINF	VerbForm=Inf	0	root	_	NER-O|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	NER-O
+5	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	NER-O
+6	Staatssekretär	Staatssekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	NER-O
+7	Ravens	Ravens	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	NER=B-PER|QID=B-Q26404861|SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	NER-O
+9	daß	daß	SCONJ	KOUS	_	12	mark	_	NER-O
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nsubj	_	NER-O
+11	eventuell	eventuell	ADV	ADV	_	12	advmod	_	NER-O
+12	bereit	bereit	ADJ	ADJD	Degree=Pos	3	ccomp	_	NER-O
+13	sein	sein	AUX	VAINF	VerbForm=Inf	12	cop	_	NER-O
+14	müßten	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	NER-O|SpaceAfter=No
+15	,	,	PUNCT	$,	_	21	punct	_	NER-O
+16	noch	noch	ADV	ADV	_	21	advmod	_	NER-O
+17	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	18	det	_	NER-O
+18	bißchen	bisschen	ADV	ADV	_	19	advmod	_	NER-O
+19	länger	lang	ADJ	ADJD	Degree=Cmp	21	xcomp	_	NER-O
+20	zu	zu	PART	PTKZU	_	21	mark	_	NER-O
+21	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	12	xcomp	_	NER-O|SpaceAfter=No
+22	,	,	PUNCT	$,	_	26	punct	_	NER-O
+23	damit	damit	SCONJ	KOUS	_	26	mark	_	NER-O
+24	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	NER-O
+25	Chance	Chance	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj:pass	_	NER-O
+26	eingeräumt	einräumen	VERB	VVPP	VerbForm=Part	21	advcl	_	NER-O
+27	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	26	aux:pass	_	NER-O
+28	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	NER-O|SpaceAfter=No
+29	.	.	PUNCT	$.	_	3	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg232.s5
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.363
+# text = —
+1	—	—	PUNCT	$(	_	0	root	_	NER=0
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg232.s6
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.534
+# text = Wenn  dagegen  kein  Widerspruch  besteht,  dann  rufe  ich  jetzt  die  Fragen  aus  dem  Geschäftsbereich  des  Bundeskanzlers  und  des  Bundeskanzleramts  auf.
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	NER-O
+2	dagegen	dagegen	ADV	PAV	PronType=Dem	5	advmod	_	NER-O
+3	kein	kein	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	4	det	_	NER-O
+4	Widerspruch	Widerspruch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	NER-O
+5	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	NER-O|SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	NER-O
+7	dann	dann	ADV	ADV	_	8	advmod	_	NER-O
+8	rufe	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	NER-O
+10	jetzt	jetzt	ADV	ADV	_	8	advmod	_	NER-O
+11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	NER-O
+12	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	NER-O
+13	aus	aus	ADP	APPR	_	15	case	_	NER-O
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	NER-O
+15	Geschäftsbereich	Geschäftsbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	NER-O
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	NER-O
+17	Bundeskanzlers	Bundeskanzler	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	NER-O
+18	und	und	CCONJ	KON	_	20	cc	_	NER-O
+19	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	NER-O
+20	Bundeskanzleramts	Bundeskanzleramt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	17	conj	_	NER=B-ORG
+21	auf	auf	ADP	PTKVZ	_	8	compound:prt	_	NER-O|SpaceAfter=No
+22	.	.	PUNCT	$.	_	8	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg232.s7
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.465
+# text = Die  Frage  98  des  Abgeordneten  Dr.  Aigner  soll  schriftlich  beantwortet  werden.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	NER-O
+3	98	98	NUM	CARD	NumType=Card	2	appos	_	NER-O
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Abgeordneten	Abgeordnete	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	NER=B-ORG
+6	Dr.	Dr.	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	5	appos	_	NER=B-PER
+7	Aigner	Aigner	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	NER=I-PER
+8	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	NER-O
+9	schriftlich	schriftlich	ADJ	ADJD	Degree=Pos	10	advmod	_	NER-O
+10	beantwortet	beantworten	VERB	VVPP	VerbForm=Part	0	root	_	NER-O
+11	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	10	aux:pass	_	NER-O|SpaceAfter=No
+12	.	.	PUNCT	$.	_	10	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg232.s8
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.022
+# text = Die  Antwort  wird  als  Anlage  abgedruckt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Antwort	Antwort	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	NER=0
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	NER=0
+4	als	als	ADP	KOKOM	_	5	case	_	NER=0
+5	Anlage	Anlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	NER=0
+6	abgedruckt	abdrucken	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg232.s9
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.741
+# text = Ich  rufe  die  Frage  99  des  Abgeordneten  Geisenhofer  auf:
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER-O
+2	rufe	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER-O
+4	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	NER-O
+5	99	99	NUM	CARD	NumType=Card	4	appos	_	NER-O
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER-O
+7	Abgeordneten	Abgeordnete	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER-O
+8	Geisenhofer	Geisenhofer	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	7	appos	_	NER=B-PER|QID=B-Q1449615
+9	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	NER-O|SpaceAfter=No
+10	:	:	PUNCT	$.	_	2	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_1974-04-25-07-095.seg233
+# lang = de
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg233.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.075
+# text = Treffen  Pressemeldungen  zu,  Bundesminister  Bahr  sei  wahrend  seines  letzten  Moskaubesuchs  bedeutet  worden,  im  Fall  der  Errichtung  des  Umweltbundesamts  in  Berlin  sei  mit  neuen  Behinderungen  im  Transitverkehr  zu  rechnen,  worauf  auch  Staastsekretär  Gaus  von  Ost-Berlin  hingewiesen  worden  sei,  und  wie  hat  die  Bundesregierung  —  bejahendenfalls  —  darauf  reagiert?
+1	Treffen	Treffen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nmod	_	NER-O
+2	Pressemeldungen	Pressemeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	NER-O
+3	zu	zu	ADP	PTKVZ	_	2	compound:prt	_	NER-O|SpaceAfter=No
+4	,	,	PUNCT	$,	_	12	punct	_	NER-O
+5	Bundesminister	Bundesminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	NER=B-PER
+6	Bahr	Bahr	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	NER=I-PER
+7	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	NER-O
+8	wahrend	wahrend	ADP	APPR	_	11	case	_	NER-O
+9	seines	sein	DET	PPOSAT	Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	NER-O
+10	letzten	letzt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	NER-O
+11	Moskaubesuchs	Moskaubesuch	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	NER-O
+12	bedeutet	bedeuten	VERB	VVPP	VerbForm=Part	2	parataxis	_	NER-O
+13	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	12	aux:pass	_	NER-O|SpaceAfter=No
+14	,	,	PUNCT	$,	_	32	punct	_	NER-O
+15-16	im	_	_	_	_	_	_	_	NER-O
+15	in	in	ADP	APPR	_	17	case	_	NA
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	NA
+17	Fall	Fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	32	obl	_	NER-O
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	NER-O
+19	Errichtung	Errichtung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	NER-O
+20	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	NER-O
+21	Umweltbundesamts	Umweltbundesamt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	NER=B-ORG
+22	in	in	ADP	APPR	_	23	case	_	NER=I-ORG
+23	Berlin	Berlin	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	NER=B-LOC|QID=B-Q64
+24	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	NER-O
+25	mit	mit	ADP	APPR	_	27	case	_	NER-O
+26	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	NER-O
+27	Behinderungen	Behinderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	32	obl	_	NER-O
+28-29	im	_	_	_	_	_	_	_	NER-O
+28	in	in	ADP	APPR	_	30	case	_	NA
+29	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	NA
+30	Transitverkehr	Transitverkehr	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	27	nmod	_	NER-O
+31	zu	zu	PART	PTKZU	_	32	mark	_	NER-O
+32	rechnen	rechnen	VERB	VVINF	VerbForm=Inf	12	conj	_	NER-O|SpaceAfter=No
+33	,	,	PUNCT	$,	_	42	punct	_	NER-O
+34	worauf	worauf	ADV	PWAV	PronType=Int	42	advmod	_	NER-O
+35	auch	auch	ADV	ADV	_	42	advmod	_	NER-O
+36	Staastsekretär	Staastsekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	42	nsubj:pass	_	NER=B-PER
+37	Gaus	Gau	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	36	appos	_	NER=I-PER
+38	von	von	ADP	APPR	_	39	case	_	NER=I-PER
+39	Ost	Ost	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	42	obl:agent	_	NER=I-PER|SpaceAfter=No
+40	-	-	PUNCT	$(	_	41	punct	_	NER-O|SpaceAfter=No
+41	Berlin	Berlin	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	39	flat	_	NER=B-LOC
+42	hingewiesen	hinweisen	VERB	VVPP	VerbForm=Part	32	advcl	_	NER-O
+43	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	42	aux:pass	_	NER-O
+44	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	NER-O|SpaceAfter=No
+45	,	,	PUNCT	$,	_	55	punct	_	NER-O
+46	und	und	CCONJ	KON	_	55	cc	_	NER-O
+47	wie	wie	ADV	KOUS	_	55	advmod	_	NER-O
+48	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux	_	NER-O
+49	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	NER-O
+50	Bundesregierung	Bundesregierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	55	nsubj	_	NER-O
+51	—	—	PUNCT	$(	_	52	punct	_	NER-O
+52	bejahendenfalls	bejahendenfalls	ADV	ADV	_	55	advmod	_	NER-O
+53	—	—	PUNCT	$(	_	52	punct	_	NER-O
+54	darauf	darauf	ADV	PAV	PronType=Dem	55	advmod	_	NER-O
+55	reagiert	reagieren	VERB	VVPP	VerbForm=Part	42	conj	_	NER-O|SpaceAfter=No
+56	?	?	PUNCT	$.	_	55	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg233.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.323
+# text = Bitte  schön,  Herr  Staatssekretär  Ravens  zur  Beantwortung!
+1	Bitte	Bitte	INTJ	ITJ	_	2	advmod	_	NER-O
+2	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	NER-O|SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	NER-O
+4	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	NER-O
+5	Staatssekretär	Staatssekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	NER-O
+6	Ravens	Ravens	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	NER=B-PER|QID=B-Q26404861
+7-8	zur	_	_	_	_	_	_	_	NER-O
+7	zu	zu	ADP	APPR	_	9	case	_	NA
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NA
+9	Beantwortung	Beantwortung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	NER-O|SpaceAfter=No
+10	!	!	PUNCT	$.	_	2	punct	_	NER-O
+
+# newdoc id = ParlaMint-DE_1974-04-25-07-095.u61
+# newpar id = ParlaMint-DE_1974-04-25-07-095.seg234
+# lang = de
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg234.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.237
+# text = Herr  Kollege,  derartige  Pressemeldungen  treffen  nicht  zu.
+1	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	NER=0
+2	Kollege	Kollege	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	NER=0
+4	derartige	derartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	NER=0
+5	Pressemeldungen	Pressemeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	NER=0
+6	treffen	treffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	appos	_	NER=0
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	NER=0
+8	zu	zu	ADP	PTKVZ	_	6	compound:prt	_	NER=0|SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg234.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.576
+# text = Bei  den  Gesprächen  in  Moskau  wurde  von  beiden  Seiten  beachtet,  daß  für  Fragen  der  Aktivitäten  des  Bundes  in  West-Berlin  die  Drei  Mächte  die  Gesprächspartner  der  Bundesregierung  sind.
+1	Bei	bei	ADP	APPR	_	3	case	_	NER-O
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	NER-O
+3	Gesprächen	Gespräch	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	NER-O
+4	in	in	ADP	APPR	_	5	case	_	NER-O
+5	Moskau	Moskau	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	NER=B-LOC|QID=B-Q649
+6	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	10	aux:pass	_	NER-O
+7	von	von	ADP	APPR	_	9	case	_	NER-O
+8	beiden	beide	DET	PIAT	Case=Dat|Gender=Fem|NumType=Card|Number=Plur|PronType=Tot	9	det	_	NER-O
+9	Seiten	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl:agent	_	NER-O
+10	beachtet	beachten	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+11	,	,	PUNCT	$,	_	27	punct	_	NER-O
+12	daß	daß	SCONJ	KOUS	_	27	mark	_	NER-O
+13	für	für	ADP	APPR	_	14	case	_	NER-O
+14	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	nmod	_	NER-O
+15	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	16	det	_	NER-O
+16	Aktivitäten	Aktivität	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	NER-O
+17	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	NER-O
+18	Bundes	Bund	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	NER=B-LOC
+19	in	in	ADP	APPR	_	20	case	_	NER-O
+20	West	West	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	NER=B-LOC|SpaceAfter=No
+21	-	-	PUNCT	$(	_	22	punct	_	NER-O|SpaceAfter=No
+22	Berlin	Berlin	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	flat	_	NER=B-LOC
+23	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	25	det	_	NER-O
+24	Drei	drei	NUM	CARD	NumType=Card	25	nummod	_	NER-O
+25	Mächte	Macht	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	NER-O
+26	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	27	det	_	NER-O
+27	Gesprächspartner	Gesprächspartner	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	csubj:pass	_	NER-O
+28	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	NER-O
+29	Bundesregierung	Bundesregierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	NER-O
+30	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	NER-O|SpaceAfter=No
+31	.	.	PUNCT	$.	_	10	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg234.s3
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.344
+# text = Die  unterschiedliche  Auffassung  darüber,  ob  die  Errichtung  eines  solchen  Amtes  in  West-Berlin  mit  dem  Viermächteabkommen  vereinbar  sei,  ist  nach  Kenntnis  der  Bundesregierung  nicht  ausgeräumt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER-O
+2	unterschiedliche	unterschiedlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	NER-O
+3	Auffassung	Auffassung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	NER-O
+4	darüber	darüber	ADV	PAV	PronType=Dem	3	advmod	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	19	punct	_	NER-O
+6	ob	ob	SCONJ	KOUS	_	19	mark	_	NER-O
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER-O
+8	Errichtung	Errichtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	NER-O
+9	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	11	det	_	NER-O
+10	solchen	solcher	DET	PIAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	NER-O
+11	Amtes	Amt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	NER-O
+12	in	in	ADP	APPR	_	13	case	_	NER-O
+13	West	West	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	NER=B-LOC|SpaceAfter=No
+14	-	-	PUNCT	$(	_	15	punct	_	NER-O|SpaceAfter=No
+15	Berlin	Berlin	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	NER=B-LOC
+16	mit	mit	ADP	APPR	_	18	case	_	NER-O
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	NER-O
+18	Viermächteabkommen	Viermächteabkommen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	NER=B-MISC
+19	vereinbar	vereinbar	ADJ	ADJD	Degree=Pos	3	ccomp	_	NER-O
+20	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	NER-O|SpaceAfter=No
+21	,	,	PUNCT	$,	_	19	punct	_	NER-O
+22	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	NER-O
+23	nach	nach	ADP	APPR	_	24	case	_	NER-O
+24	Kenntnis	Kenntnis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	nmod	_	NER-O
+25	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	NER-O
+26	Bundesregierung	Bundesregierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	NER-O
+27	nicht	nicht	PART	PTKNEG	Polarity=Neg	28	advmod	_	NER-O
+28	ausgeräumt	ausräumen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+29	.	.	PUNCT	$.	_	28	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1974-04-25-07-095.seg234.s4
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.423
+# text = Die  Vertreter  der  Bundesregierung  haben  bei  jeder  sich  bietenden  Gelegenheit  darauf  hingewiesen,  daß  sie  die  Auffassung  der  Drei  Mächte  teilen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	NER=0
+2	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	NER=0
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Bundesregierung	Bundesregierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	NER=0
+5	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	NER=0
+6	bei	bei	ADP	APPR	_	10	case	_	NER=0
+7	jeder	jeder	DET	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Tot	10	det	_	NER=0
+8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	NER=0
+9	bietenden	bietend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	NER=0
+10	Gelegenheit	Gelegenheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	NER=0
+11	darauf	darauf	ADV	PAV	PronType=Dem	12	advmod	_	NER=0
+12	hingewiesen	hinweisen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+13	,	,	PUNCT	$,	_	21	punct	_	NER=0
+14	daß	daß	SCONJ	KOUS	_	21	mark	_	NER=0
+15	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	NER=0
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	NER=0
+17	Auffassung	Auffassung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	NER=0
+18	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	20	det	_	NER=0
+19	Drei	drei	NUM	CARD	NumType=Card	20	nummod	_	NER=0
+20	Mächte	Macht	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	NER=0
+21	teilen	teilen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	NER=0|SpaceAfter=No
+22	.	.	PUNCT	$.	_	12	punct	_	NER=0
+

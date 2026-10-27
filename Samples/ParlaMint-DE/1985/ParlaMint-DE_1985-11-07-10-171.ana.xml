@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1985-11-07-10-171.ana">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 10. Wahlperiode, 171. Sitzung [ParlaMint.ana SAMPLE]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 07.11.1985 (171. Sitzung der 10. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 10, Session 171 [ParlaMint.ana SAMPLE]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1985-11-07 (Session 171 in Legislative Period 10)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="171">171. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.10" n="10">10. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="171">Session 171</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.10" n="10">Legislative Period 10</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format; Ursprüngliche Implementierung der automatisierten linguistischen Annotation</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format; Initial implementation of the automated linguistic annotation</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen, Weiterentwicklung des Workflows für die automatisierte linguistische Annotation für ParlaMint, einschließlich der automatisierten Annotation von Sentiment auf Satzebene</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period, advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections, advancement of the automatic linguistic annotation workflow for ParlaMint, including the automated annotation of sentence-level sentiment</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>
+                    </p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                    </p>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 07.11.1985</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1985-11-07</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490374/07ce06f666b624d37b47d2fe6e205ab4/pp10-data.zip</idno>
+          <date when="1985-11-07">1985-11-07</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="10"/>
+          <tagUsage gi="head" occurs="10"/>
+          <tagUsage gi="note" occurs="359"/>
+          <tagUsage gi="u" occurs="359"/>
+          <tagUsage gi="seg" occurs="1444"/>
+          <tagUsage gi="kinesic" occurs="331"/>
+          <tagUsage gi="vocal" occurs="455"/>
+          <tagUsage gi="incident" occurs="11"/>
+          <tagUsage gi="desc" occurs="797"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1985-11-07">1985-11-07</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-26"><name>Christoph Leonhardt</name>: Additional modifications towards valid ParlaMint encoding.</change>
+      <change when="2026-10-19"><name>Christoph Leonhardt</name>: First linguistically annotated beta version of ParlaMint-DE, including sentiment annotation.</change>
+      <change when="2026-10-19"><name>Christoph Leonhardt</name>: Additional modifications towards valid ParlaMint encoding and inclusion of topic information.</change>
+      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.</change>
+      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="10" ana="#DE-consultation">
+        <gap reason="editorial" xml:id="ParlaMint-DE_1985-11-07-10-171.gap1">
+          <desc xml:lang="en">Preceding agenda items omitted (sampling)</desc>
+        </gap>
+        <head>Beratung der Großen Anfrage der Abgeordneten Reschke, Conradi, Waltemathe, Müntefering, Lohmann (Witten) , Meininghaus, Menzel, Polkehn, Schmitt (Wiesbaden) , Dr. Sperling, Huonker, Wolfram (Recklinghausen) und der Fraktion der SPD Baulandsituation, Entwicklung der Baulandpreise, des Bodenrechts und der Bodensteuern — Drucksachen 10/2358, 10/3690 —</head>
+        <note type="speaker" xml:id="ParlaMint-DE_1985-11-07-10-171.note359">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1985-11-07-10-171.u359" ana="#chair topic:housi">
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439">
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s1">
+              <measure type="sentiment" quantity="4.743" ana="senti:pospos" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1439.s1"/>
+              <name type="PER" ref="http://www.wikidata.org/entity/Q877429" xml:id="ParlaMint-DE_1985-11-07-10-171.ne1">
+                <measure type="entity-score" quantity="-1.633" corresp="#ParlaMint-DE_1985-11-07-10-171.ne1"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s1.w1" lemma="Dank" pos="PTKANT" msd="UPosTag=NOUN">Danke</w>
+              </name>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s1.w2" lemma="sehr" pos="ADV" msd="UPosTag=ADV" join="right">sehr</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s1.w3" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s1 ParlaMint-DE_1985-11-07-10-171.seg1439.s1.w1"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s1.w1 ParlaMint-DE_1985-11-07-10-171.seg1439.s1.w2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s1.w1 ParlaMint-DE_1985-11-07-10-171.seg1439.s1.w3"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s2">
+              <measure type="sentiment" quantity="3.134" ana="senti:neupos" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1439.s2"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w1" lemma="ich" pos="PPER" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w2" lemma="rufen" pos="VVFIN" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">rufe</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w3" lemma="der" pos="ART" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">den</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w4" lemma="Tagesordnungspunkt" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing">Tagesordnungspunkt</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w5" lemma="10" pos="CARD" msd="UPosTag=NUM|NumType=Card">10</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w6" lemma="auf" pos="PTKVZ" msd="UPosTag=ADP" join="right">auf</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w7" lemma=":" pos="$." msd="UPosTag=PUNCT">:</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w2 ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s2 ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w2"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w4 ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w3"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w2 ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w4"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w4 ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w5"/>
+                <link ana="ud-syn:compound:prt" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w2 ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w2 ParlaMint-DE_1985-11-07-10-171.seg1439.s2.w7"/>
+              </linkGrp>
+            </s>
+          </seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440">
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1">
+              <measure type="sentiment" quantity="2.196" ana="senti:neuneg" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w1" lemma="Beratung" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing">Beratung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w2" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w3" lemma="groß" pos="ADJA" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing">Großen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w4" lemma="Anfrage" pos="NN" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing">Anfrage</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w5" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Number=Plur|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w6" lemma="Abgeordnete" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur">Abgeordneten</w>
+              <name type="PER" xml:id="ParlaMint-DE_1985-11-07-10-171.ne2">
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w7" lemma="Reschke" pos="NE" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" join="right">Reschke</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w8" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <name type="PER" ref="http://www.wikidata.org/entity/Q158246" xml:id="ParlaMint-DE_1985-11-07-10-171.ne3">
+                <measure type="entity-score" quantity="-1.04" corresp="#ParlaMint-DE_1985-11-07-10-171.ne3"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w9" lemma="Conradi" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" join="right">Conradi</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w10" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <name type="PER" ref="http://www.wikidata.org/entity/Q1360501" xml:id="ParlaMint-DE_1985-11-07-10-171.ne4">
+                <measure type="entity-score" quantity="-0.763" corresp="#ParlaMint-DE_1985-11-07-10-171.ne4"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w11" lemma="Waltemathe" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" join="right">Waltemathe</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w12" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <name type="PER" ref="http://www.wikidata.org/entity/Q58609" xml:id="ParlaMint-DE_1985-11-07-10-171.ne5">
+                <measure type="entity-score" quantity="0.076" corresp="#ParlaMint-DE_1985-11-07-10-171.ne5"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w13" lemma="Müntefering" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" join="right">Müntefering</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w14" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <name type="PER" ref="http://www.wikidata.org/entity/Q1581094" xml:id="ParlaMint-DE_1985-11-07-10-171.ne6">
+                <measure type="entity-score" quantity="-0.87" corresp="#ParlaMint-DE_1985-11-07-10-171.ne6"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w15" lemma="Lohmann" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing">Lohmann</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w16" lemma="(" pos="$(" msd="UPosTag=PUNCT" join="right">(</pc>
+              <name type="LOC" ref="http://www.wikidata.org/entity/Q104309" xml:id="ParlaMint-DE_1985-11-07-10-171.ne7">
+                <measure type="entity-score" quantity="-0.142" corresp="#ParlaMint-DE_1985-11-07-10-171.ne7"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w17" lemma="Witten" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Neut|Number=Sing" join="right">Witten</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w18" lemma=")" pos="$(" msd="UPosTag=PUNCT">)</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w1"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w4 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w2"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w4 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w3"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w1 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w4"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w6 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w5"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w4 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w6"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w6 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w7"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w9 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w8"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w7 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w9"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w11 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w10"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w7 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w11"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w13 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w12"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w7 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w13"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w15 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w14"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w7 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w15"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w17 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w16"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w15 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w17"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w17 ParlaMint-DE_1985-11-07-10-171.seg1440.s1.w18"/>
+              </linkGrp>
+            </s>
+          </seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441">
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1">
+              <measure type="sentiment" quantity="2.338" ana="senti:neuneg" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1"/>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w1" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <name type="LOC" ref="http://www.wikidata.org/entity/Q2645474" xml:id="ParlaMint-DE_1985-11-07-10-171.ne8">
+                <measure type="entity-score" quantity="-0.619" corresp="#ParlaMint-DE_1985-11-07-10-171.ne8"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w2" lemma="Meininghaus" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" join="right">Meininghaus</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w3" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <name type="PER" ref="http://www.wikidata.org/entity/Q157400" xml:id="ParlaMint-DE_1985-11-07-10-171.ne9">
+                <measure type="entity-score" quantity="-0.537" corresp="#ParlaMint-DE_1985-11-07-10-171.ne9"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w4" lemma="Menzel" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" join="right">Menzel</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w5" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <name type="PER" xml:id="ParlaMint-DE_1985-11-07-10-171.ne10">
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w6" lemma="Polkehn" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" join="right">Polkehn</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w7" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <name type="LOC" ref="http://www.wikidata.org/entity/Q108886" xml:id="ParlaMint-DE_1985-11-07-10-171.ne11">
+                <measure type="entity-score" quantity="-0.339" corresp="#ParlaMint-DE_1985-11-07-10-171.ne11"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w8" lemma="Schmitt" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing">Schmitt</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w9" lemma="(" pos="$(" msd="UPosTag=PUNCT" join="right">(</pc>
+              <name type="LOC" ref="http://www.wikidata.org/entity/Q1721" xml:id="ParlaMint-DE_1985-11-07-10-171.ne12">
+                <measure type="entity-score" quantity="0.383" corresp="#ParlaMint-DE_1985-11-07-10-171.ne12"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w10" lemma="Wiesbaden" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Neut|Number=Sing" join="right">Wiesbaden</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w11" lemma=")" pos="$(" msd="UPosTag=PUNCT">)</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w2 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w4 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w3"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w2 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w6 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w5"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w2 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w8 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w7"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w2 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w8"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w10 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w9"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w8 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w10"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w10 ParlaMint-DE_1985-11-07-10-171.seg1441.s1.w11"/>
+              </linkGrp>
+            </s>
+          </seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442">
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1">
+              <measure type="sentiment" quantity="2.757" ana="senti:neupos" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1"/>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w1" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w2" lemma="Dr." pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing">Dr.</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w3" lemma="Sperling" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" join="right">Sperling</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w4" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <name type="PER" xml:id="ParlaMint-DE_1985-11-07-10-171.ne13">
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w5" lemma="Huonker" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" join="right">Huonker</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w6" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w7" lemma="Wolfram" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing">Wolfram</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w8" lemma="(" pos="$(" msd="UPosTag=PUNCT" join="right">(</pc>
+              <name type="LOC" ref="http://www.wikidata.org/entity/Q6214" xml:id="ParlaMint-DE_1985-11-07-10-171.ne14">
+                <measure type="entity-score" quantity="-0.173" corresp="#ParlaMint-DE_1985-11-07-10-171.ne14"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w9" lemma="Recklinghausen" pos="NE" msd="UPosTag=PROPN|Case=Nom|Gender=Neut|Number=Sing" join="right">Recklinghausen</w>
+              </name>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w10" lemma=")" pos="$(" msd="UPosTag=PUNCT">)</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w2 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w2"/>
+                <link ana="ud-syn:flat" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w2 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w3"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w5 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w4"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w2 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w5"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w7 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w6"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w2 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w7"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w9 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w8"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w7 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w9"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w9 ParlaMint-DE_1985-11-07-10-171.seg1442.s1.w10"/>
+              </linkGrp>
+            </s>
+          </seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443">
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1">
+              <measure type="sentiment" quantity="2.26" ana="senti:neuneg" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w1" lemma="und" pos="KON" msd="UPosTag=CCONJ">und</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w2" lemma="der" pos="ART" msd="UPosTag=DET|Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w3" lemma="Fraktion" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing">Fraktion</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w4" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">der</w>
+              <name type="ORG" ref="http://www.wikidata.org/entity/Q49768" xml:id="ParlaMint-DE_1985-11-07-10-171.ne15">
+                <measure type="entity-score" quantity="-0.188" corresp="#ParlaMint-DE_1985-11-07-10-171.ne15"/>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w5" lemma="SPD" pos="NE" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing">SPD</w>
+              </name>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w6" lemma="Baulandsituation" pos="NN" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" join="right">Baulandsituation</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w7" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w8" lemma="Entwicklung" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing">Entwicklung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w9" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Number=Plur|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w10" lemma="Baulandpreis" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" join="right">Baulandpreise</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w11" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w12" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">des</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w13" lemma="Bodenrecht" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">Bodenrechts</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w14" lemma="und" pos="KON" msd="UPosTag=CCONJ">und</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w15" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Number=Plur|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w16" lemma="Bodensteuer" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur">Bodensteuern</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w17" lemma="—" pos="$(" msd="UPosTag=PUNCT">—</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w18" lemma="Drucksache" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur">Drucksachen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w19" lemma="10/2358" pos="CARD" msd="UPosTag=NUM|NumType=Card" join="right">10/2358</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w20" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w21" lemma="10/3690" pos="CARD" msd="UPosTag=NUM|NumType=Card">10/3690</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w22" lemma="—" pos="$(" msd="UPosTag=PUNCT">—</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:cc" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w3 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w1"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w3 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w2"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w3"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w5 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w4"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w3 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w5"/>
+                <link ana="ud-syn:flat" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w5 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w8 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w7"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w3 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w8"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w10 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w9"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w8 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w10"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w13 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w11"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w13 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w12"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w10 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w13"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w16 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w14"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w16 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w15"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w10 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w16"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w18 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w17"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w16 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w18"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w18 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w19"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w21 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w20"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w18 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w21"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w18 ParlaMint-DE_1985-11-07-10-171.seg1443.s1.w22"/>
+              </linkGrp>
+            </s>
+          </seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444">
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s1">
+              <measure type="sentiment" quantity="0.695" ana="senti:mixneg" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s1"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w1" lemma="der" pos="ART" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art">Das</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w2" lemma="Wort" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing">Wort</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w3" lemma="werden" pos="VAFIN" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass">wird</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w4" lemma="offensichtlich" pos="ADJD" msd="UPosTag=ADJ|Degree=Pos">offensichtlich</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w5" lemma="nicht" pos="PTKNEG" msd="UPosTag=PART|Polarity=Neg">nicht</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w6" lemma="wünschen" pos="VVPP" msd="UPosTag=VERB|VerbForm=Part" join="right">gewünscht</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w7" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w1"/>
+                <link ana="ud-syn:nsubj:pass" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w2"/>
+                <link ana="ud-syn:aux:pass" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w3"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w4"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w5"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s1 ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s1.w7"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2">
+              <measure type="sentiment" quantity="2.445" ana="senti:neuneg" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2"/>
+              <name type="PER" xml:id="ParlaMint-DE_1985-11-07-10-171.ne16">
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w1" lemma="interfraktionell" pos="ADJD" msd="UPosTag=ADJ|Degree=Pos">Interfraktionell</w>
+              </name>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w2" lemma="sein" pos="VAFIN" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w3" lemma="vereinbaren" pos="VVPP" msd="UPosTag=VERB|VerbForm=Part">vereinbart</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w4" lemma="werden" pos="VAPP" msd="UPosTag=AUX|VerbForm=Part|Voice=Pass" join="right">worden</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w5" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w6" lemma="der" pos="ART" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">die</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w7" lemma="groß" pos="ADJA" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing">Große</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w8" lemma="Anfrage" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing">Anfrage</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w9" lemma="mit" pos="APPR" msd="UPosTag=ADP">mit</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w10" lemma="der" pos="ART" msd="UPosTag=DET|Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w11" lemma="Antwort" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing">Antwort</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w12" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w13" lemma="Bundesregierung" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">Bundesregierung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w14" lemma="ausnahmsweise" pos="ADV" msd="UPosTag=ADV">ausnahmsweise</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w15" lemma="und" pos="KON" msd="UPosTag=CCONJ">und</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w16" lemma="in" pos="APPR" msd="UPosTag=ADP">in</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w17" lemma="Abweichung" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing">Abweichung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w18" lemma="von" pos="APPR" msd="UPosTag=ADP">von</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w19" lemma="der" pos="ART" msd="UPosTag=DET|Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w20" lemma="Geschäftsordnung" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing">Geschäftsordnung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w21" lemma="an" pos="APPR" msd="UPosTag=ADP">an</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w22" lemma="der" pos="ART" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">den</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w23" lemma="Ausschuß" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing">Ausschuß</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w24" lemma="für" pos="APPR" msd="UPosTag=ADP">für</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w25" lemma="Raumordnung" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" join="right">Raumordnung</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w26" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w27" lemma="Bauwesen" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing">Bauwesen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w28" lemma="und" pos="KON" msd="UPosTag=CCONJ">und</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w29" lemma="Städtebau" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing">Städtebau</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w30" lemma="zu" pos="PTKZU" msd="UPosTag=PART">zu</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w31" lemma="überweisen" pos="VVINF" msd="UPosTag=VERB|VerbForm=Inf" join="right">überweisen</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w32" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w3 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w1"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w3 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w2"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w3"/>
+                <link ana="ud-syn:aux:pass" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w3 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w31 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w5"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w6"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w7"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w31 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w8"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w11 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w9"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w11 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w10"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w11"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w13 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w12"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w11 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w13"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w31 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w14"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w17 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w15"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w17 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w16"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w11 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w17"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w20 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w18"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w20 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w19"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w17 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w20"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w23 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w21"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w23 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w22"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w31 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w23"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w25 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w24"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w23 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w25"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w27 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w26"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w25 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w27"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w29 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w28"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w25 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w29"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w31 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w30"/>
+                <link ana="ud-syn:csubj:pass" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w3 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w31"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w3 ParlaMint-DE_1985-11-07-10-171.seg1444.s2.w32"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s3">
+              <measure type="sentiment" quantity="2.283" ana="senti:neuneg" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s3"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w1" lemma="dieser" pos="PDAT" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem">Diese</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w2" lemma="Überweisung" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing">Überweisung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w3" lemma="sollen" pos="VMFIN" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin">sollte</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w4" lemma="jedoch" pos="ADV" msd="UPosTag=ADV">jedoch</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w5" lemma="kein" pos="PIAT" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg">kein</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w6" lemma="Berufungsfall" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing">Berufungsfall</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w7" lemma="werden" pos="VAINF" msd="UPosTag=VERB|VerbForm=Inf" join="right">werden</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w8" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w1"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w7 ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w2"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w7 ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w3"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w7 ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w4"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w5"/>
+                <link ana="ud-syn:xcomp" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w7 ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w6"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s3 ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w7"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w7 ParlaMint-DE_1985-11-07-10-171.seg1444.s3.w8"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4">
+              <measure type="sentiment" quantity="2.439" ana="senti:neuneg" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w1" lemma="ich" pos="PPER" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w2" lemma="machen" pos="VVFIN" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">mache</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w3" lemma="zusätzlich" pos="ADJD" msd="UPosTag=ADJ|Degree=Pos">zusätzlich</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w4" lemma="darauf" pos="PAV" msd="UPosTag=ADV|PronType=Dem">darauf</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w5" lemma="aufmerksam" pos="ADJD" msd="UPosTag=ADJ|Degree=Pos" join="right">aufmerksam</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w6" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w7" lemma="daß" pos="KOUS" msd="UPosTag=SCONJ">daß</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w8" lemma="durch" pos="APPR" msd="UPosTag=ADP">durch</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w9" lemma="dieser" pos="PDAT" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Sing|PronType=Dem">diese</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w10" lemma="Überweisung" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing">Überweisung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w11" lemma="Recht" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Plur">Rechte</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w12" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Number=Plur|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w13" lemma="Fraktion" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur">Fraktionen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w14" lemma="oder" pos="KON" msd="UPosTag=CCONJ">oder</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w15" lemma="Mitglied" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur">Mitglieder</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w16" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art">des</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w17" lemma="Haus" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing">Hauses</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w18" lemma="nach" pos="APPR" msd="UPosTag=ADP">nach</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w19" lemma="§" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing">§</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w20" lemma="101" pos="CARD" msd="UPosTag=NUM|NumType=Card">101</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w21" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w22" lemma="Geschäftsordnung" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">Geschäftsordnung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w23" lemma="nicht" pos="PTKNEG" msd="UPosTag=PART|Polarity=Neg">nicht</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w24" lemma="berühren" pos="VVPP" msd="UPosTag=VERB|VerbForm=Part">berührt</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w25" lemma="werden" pos="VAFIN" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|VerbForm=Inf|Voice=Pass" join="right">werden</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w26" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w2"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w3"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w4"/>
+                <link ana="ud-syn:xcomp" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w5"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w6"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w7"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w8"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w9"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w10"/>
+                <link ana="ud-syn:nsubj:pass" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w11"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w13 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w12"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w11 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w13"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w15 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w14"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w13 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w15"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w17 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w16"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w13 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w17"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w19 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w18"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w19"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w19 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w20"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w22 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w21"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w19 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w22"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w23"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w24"/>
+                <link ana="ud-syn:aux:pass" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w25"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s4.w26"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5">
+              <measure type="sentiment" quantity="2.197" ana="senti:neuneg" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w1" lemma="ich" pos="PPER" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w2" lemma="gehen" pos="VVFIN" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">gehe</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w3" lemma="davon" pos="PAV" msd="UPosTag=ADV|PronType=Dem">davon</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w4" lemma="aus" pos="PTKVZ" msd="UPosTag=ADP" join="right">aus</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w5" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w6" lemma="daß" pos="KOUS" msd="UPosTag=SCONJ">daß</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w7" lemma="lediglich" pos="ADV" msd="UPosTag=ADV">lediglich</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w8" lemma="ein" pos="ART" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art">eine</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w9" lemma="Berichterstattung" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing">Berichterstattung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w10" lemma="erfolgen" pos="VVPP" msd="UPosTag=VERB|VerbForm=Part" join="right">erfolgt</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w11" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w12" lemma="wenn" pos="KOUS" msd="UPosTag=SCONJ">wenn</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w13" lemma="der" pos="ART" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">die</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w14" lemma="groß" pos="ADJA" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing">Große</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w15" lemma="Anfrage" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing">Anfrage</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w16" lemma="nach" pos="APPR" msd="UPosTag=ADP">nach</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w17" lemma="der" pos="ART" msd="UPosTag=DET|Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">der</w>
+              <name type="MISC" xml:id="ParlaMint-DE_1985-11-07-10-171.ne17">
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w18" lemma="Ausschußberatung" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing">Ausschußberatung</w>
+              </name>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w19" lemma="erneut" pos="ADV" msd="UPosTag=ADJ|Degree=Pos">erneut</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w20">im<w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w21" norm="in" lemma="in" pos="APPR" msd="UPosTag=ADP"/>
+                                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w22" norm="dem" lemma="der" pos="ART" msd="UPosTag=DET|Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art"/>
+                            </w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w23" lemma="Plenum" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Neut|Number=Sing">Plenum</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24" lemma="behandeln" pos="VVPP" msd="UPosTag=VERB|VerbForm=Part">behandelt</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w25" lemma="werden" pos="VAINF" msd="UPosTag=AUX|VerbForm=Inf|Voice=Pass">werden</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w26" lemma="sollen" pos="VMFIN" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" join="right">soll</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w27" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w2"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w3"/>
+                <link ana="ud-syn:compound:prt" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w5"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w6"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w7"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w9 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w8"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w9"/>
+                <link ana="ud-syn:ccomp" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w10"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w11"/>
+                <link ana="ud-syn:mark" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w12"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w15 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w13"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w15 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w14"/>
+                <link ana="ud-syn:nsubj:pass" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w15"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w18 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w16"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w18 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w17"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w18"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w19"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w23 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w21"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w23 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w22"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w23"/>
+                <link ana="ud-syn:advcl" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24"/>
+                <link ana="ud-syn:aux:pass" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w25"/>
+                <link ana="ud-syn:aux" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w24 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w26"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s5.w27"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s6">
+              <measure type="sentiment" quantity="2.783" ana="senti:neupos" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s6"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w1" lemma="geben" pos="VVFIN" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">Gibt</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w2" lemma="es" pos="PPER" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs">es</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w3" lemma="dazu" pos="PAV" msd="UPosTag=ADV|PronType=Dem">dazu</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w4" lemma="anderweitig" pos="ADJA" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur">anderweitige</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w5" lemma="Vorschlag" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" join="right">Vorschläge</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w6" lemma="?" pos="$." msd="UPosTag=PUNCT">?</pc>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w7" lemma="—" pos="$(" msd="UPosTag=PUNCT">—</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s6 ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w1"/>
+                <link ana="ud-syn:expl" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w1 ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w2"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w1 ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w3"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w5 ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w4"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w1 ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w5"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w1 ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w1 ParlaMint-DE_1985-11-07-10-171.seg1444.s6.w7"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s7">
+              <measure type="sentiment" quantity="0.73" ana="senti:mixneg" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s7"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w1" lemma="der" pos="PDS" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel">Das</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w2" lemma="sein" pos="VAFIN" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w3" lemma="offensichtlich" pos="ADJD" msd="UPosTag=ADJ|Degree=Pos">offensichtlich</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w4" lemma="nicht" pos="PTKNEG" msd="UPosTag=PART|Polarity=Neg">nicht</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w5" lemma="der" pos="ART" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w6" lemma="Fall" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" join="right">Fall</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w7" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w1"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w2"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w3"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w4"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w5"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s7 ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w6"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s7.w7"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8">
+              <measure type="sentiment" quantity="3.116" ana="senti:neupos" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w1" lemma="dann" pos="ADV" msd="UPosTag=ADV">Dann</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w2" lemma="sein" pos="VAFIN" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w3" lemma="der" pos="ART" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">die</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w4" lemma="Überweisung" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing">Überweisung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w5" lemma="mit" pos="APPR" msd="UPosTag=ADP">mit</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w6" lemma="der" pos="ART" msd="UPosTag=DET|Case=Dat|Definite=Def|Number=Plur|PronType=Art">den</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w7" lemma="von" pos="APPR" msd="UPosTag=ADP">von</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w8" lemma="ich" pos="PPER" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=1|PronType=Prs">mir</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w9" lemma="genannt" pos="ADJA" msd="UPosTag=ADJ|Case=Dat|Degree=Pos|Gender=Fem|Number=Plur">genannten</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w10" lemma="Kondition" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Plur">Konditionen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w11" lemma="und" pos="KON" msd="UPosTag=CCONJ">und</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w12" lemma="Einschränkung" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Plur">Einschränkungen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w13" lemma="so" pos="ADV" msd="UPosTag=ADV">so</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w14" lemma="beschlossen" pos="VVPP" msd="UPosTag=ADJ|Degree=Pos|VerbForm=Part" join="right">beschlossen</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w15" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w14 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w1"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w14 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w2"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w4 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w3"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w14 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w4"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w5"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w6"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w7"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w9 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w8"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w9"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w14 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w10"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w12 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w11"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w12"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w14 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w13"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w14"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w14 ParlaMint-DE_1985-11-07-10-171.seg1444.s8.w15"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9">
+              <measure type="sentiment" quantity="3.319" ana="senti:neupos" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w1" lemma="wir" pos="PPER" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">Wir</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w2" lemma="sein" pos="VAFIN" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">sind</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w3">am<w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w4" norm="an" lemma="an" pos="APPR" msd="UPosTag=ADP"/>
+                                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w5" norm="dem" lemma="der" pos="ART" msd="UPosTag=DET|Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art"/>
+                            </w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w6" lemma="Ende" pos="NN" msd="UPosTag=NOUN|Case=Dat|Gender=Neut|Number=Sing">Ende</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w7" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">der</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w8" lemma="heutig" pos="ADJA" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing">heutigen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w9" lemma="Tagesordnung" pos="NN" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" join="right">Tagesordnung</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w10" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9 ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w2"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w4"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w5"/>
+                <link ana="ud-syn:obl" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w6"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w9 ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w7"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w9 ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w8"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w6 ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w9"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s9.w10"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10">
+              <measure type="sentiment" quantity="3.151" ana="senti:neupos" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w1" lemma="ich" pos="PPER" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w2" lemma="berufen" pos="VVFIN" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">berufe</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w3" lemma="der" pos="ART" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">die</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w4" lemma="nah" pos="ADJA" msd="UPosTag=ADJ|Case=Acc|Degree=Sup|Gender=Fem|Number=Sing">nächste</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w5" lemma="Sitzung" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing">Sitzung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w6" lemma="der" pos="ART" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">des</w>
+              <name type="ORG" xml:id="ParlaMint-DE_1985-11-07-10-171.ne18">
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w7" lemma="deutsch" pos="ADJA" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing">Deutschen</w>
+                <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w8" lemma="Bundestag" pos="NN" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing">Bundestages</w>
+              </name>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w9" lemma="auf" pos="APPR" msd="UPosTag=ADP">auf</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w10" lemma="morgen" pos="ADV" msd="UPosTag=ADV" join="right">morgen</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w11" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w12" lemma="Freitag" pos="NN" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" join="right">Freitag</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w13" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w14" lemma="der" pos="ART" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">den</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w15" lemma="8" pos="CARD" msd="UPosTag=NUM|NumType=Card" join="right">8</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w16" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w1"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w2"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w5 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w3"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w5 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w4"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w5"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w6"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w7"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w5 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w8"/>
+                <link ana="ud-syn:case" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w9"/>
+                <link ana="ud-syn:advmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w10"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w12 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w11"/>
+                <link ana="ud-syn:conj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w10 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w12"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w15 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w13"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w15 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w14"/>
+                <link ana="ud-syn:appos" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w12 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w15"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w15 ParlaMint-DE_1985-11-07-10-171.seg1444.s10.w16"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11">
+              <measure type="sentiment" quantity="3.039" ana="senti:neupos" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w1" lemma="November" pos="NN" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing">November</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w2" lemma="1985" pos="CARD" msd="UPosTag=NUM|NumType=Card" join="right">1985</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w3" lemma="," pos="$," msd="UPosTag=PUNCT">,</pc>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w4" lemma="8" pos="CARD" msd="UPosTag=NUM|NumType=Card">8</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w5" lemma="Uhr" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing">Uhr</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w6" lemma="ein" pos="PTKVZ" msd="UPosTag=ADV">ein</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w7" lemma="und" pos="KON" msd="UPosTag=CCONJ">und</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w8" lemma="wünschen" pos="VVFIN" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">wünsche</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w9" lemma="Sie" pos="PPER" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs">Ihnen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w10" lemma="ein" pos="ART" msd="UPosTag=DET|Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art">einen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w11" lemma="angenehm" pos="ADJA" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing">angenehmen</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w12" lemma="Abend" pos="NN" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" join="right">Abend</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w13" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:dep" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w1"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w1 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w2"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w5 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w3"/>
+                <link ana="ud-syn:nummod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w5 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w4"/>
+                <link ana="ud-syn:nmod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w1 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w5"/>
+                <link ana="ud-syn:compound:prt" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w1 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w6"/>
+                <link ana="ud-syn:cc" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w7"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w8"/>
+                <link ana="ud-syn:obl:arg" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w9"/>
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w12 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w10"/>
+                <link ana="ud-syn:amod" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w12 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w11"/>
+                <link ana="ud-syn:obj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w12"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w8 ParlaMint-DE_1985-11-07-10-171.seg1444.s11.w13"/>
+              </linkGrp>
+            </s>
+            <s xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s12">
+              <measure type="sentiment" quantity="3.557" ana="senti:mixpos" corresp="#ParlaMint-DE_1985-11-07-10-171.seg1444.s12"/>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w1" lemma="der" pos="ART" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">Die</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w2" lemma="Sitzung" pos="NN" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing">Sitzung</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w3" lemma="sein" pos="VAFIN" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
+              <w xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w4" lemma="schließen" pos="VVPP" msd="UPosTag=ADJ|Degree=Pos|VerbForm=Part" join="right">geschlossen</w>
+              <pc xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w5" lemma="." pos="$." msd="UPosTag=PUNCT">.</pc>
+              <linkGrp targFunc="head argument" type="UD-SYN">
+                <link ana="ud-syn:det" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w2 ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w1"/>
+                <link ana="ud-syn:nsubj" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w4 ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w2"/>
+                <link ana="ud-syn:cop" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w4 ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w3"/>
+                <link ana="ud-syn:root" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s12 ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w4"/>
+                <link ana="ud-syn:punct" target="#ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w4 ParlaMint-DE_1985-11-07-10-171.seg1444.s12.w5"/>
+              </linkGrp>
+            </s>
+          </seg>
+        </u>
+        <incident type="editorial" xml:id="ParlaMint-DE_1985-11-07-10-171.incident11">
+          <desc>Schluß der Sitzung: 21.18 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2667 @@
+# CoNLL-U Representation of Sample of ParlaMint-DE (Beta) / GermaParl v3.0.0-rc4, see https://github.com/PolMine/ParlaMint-DE_beta.
+#
+# newdoc id = ParlaMint-DE_2006-02-17-16-020.u142
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg868
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg868.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.205
+# text = Frau  Präsidentin!
+1	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	compound	_	NER=0
+2	Präsidentin	Präsidentin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg868.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.819
+# text = Meine  Damen  und  Herren!
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	NER=0
+2	Damen	Dame	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	NER=0
+3	und	und	CCONJ	KON	_	4	cc	_	NER=0
+4	Herren	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	NER=0|SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg868.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = -0.026
+# text = Aus  dem  Problem  der  Massenarbeitslosigkeit  ist  in  Deutschland  leider  längst  eine  Dauerkatastrophe  geworden.
+1	Aus	aus	ADP	APPR	_	3	case	_	NER-O
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	NER-O
+3	Problem	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	NER-O
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Massenarbeitslosigkeit	Massenarbeitslosigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	NER-O
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	NER-O
+7	in	in	ADP	APPR	_	8	case	_	NER-O
+8	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	NER=B-LOC|QID=B-Q183
+9	leider	leider	ADV	ADV	_	13	advmod	_	NER-O
+10	längst	längst	ADV	ADV	_	13	advmod	_	NER-O
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	NER-O
+12	Dauerkatastrophe	Dauerkatastrophe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nsubj	_	NER-O
+13	geworden	werden	VERB	VAPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg869
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg869.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.022
+# text = Diese  Dramatik  wird  noch  dadurch  gesteigert,  dass  die  Zahl  der  Langzeitarbeitslosen  ständig  zunimmt.
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	NER-O
+2	Dramatik	Dramatik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	NER-O
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	NER-O
+4	noch	noch	ADV	ADV	_	5	advmod	_	NER-O
+5	dadurch	dadurch	ADV	PAV	PronType=Dem	6	advmod	_	NER-O
+6	gesteigert	steigern	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+7	,	,	PUNCT	$,	_	14	punct	_	NER-O
+8	dass	dass	SCONJ	KOUS	_	14	mark	_	NER-O
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NER-O
+10	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	NER-O
+11	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	12	det	_	NER-O
+12	Langzeitarbeitslosen	Langzeitarbeitslose	NOUN	NN	Case=Gen|Number=Plur	10	nmod	_	NER=B-LOC
+13	ständig	ständig	ADJ	ADJD	Degree=Pos	14	advmod	_	NER-O
+14	zunimmt	zunehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	NER-O|SpaceAfter=No
+15	.	.	PUNCT	$.	_	6	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg869.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.04
+# text = Dabei  handelt  es  sich  um  eine  Gruppe,  die  überwiegend  sehr  schlecht  ausgebildet  ist  oder  gar  keine  Ausbildung  hat.
+1	Dabei	dabei	ADV	PAV	_	2	advmod	_	NER=0
+2	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=0
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	NER=0
+5	um	um	ADP	APPR	_	7	case	_	NER=0
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	NER=0
+7	Gruppe	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	NER=0|SpaceAfter=No
+8	,	,	PUNCT	$,	_	13	punct	_	NER=0
+9	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	13	nsubj	_	NER=0
+10	überwiegend	überwiegend	ADJ	ADJD	Degree=Pos	13	advmod	_	NER=0
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	NER=0
+12	schlecht	schlecht	ADJ	ADJD	Degree=Pos	13	advmod	_	NER=0
+13	ausgebildet	ausbilden	ADJ	VVPP	Degree=Pos|VerbForm=Part	7	acl	_	NER=0
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	NER=0
+15	oder	oder	CCONJ	KON	_	19	cc	_	NER=0
+16	gar	gar	ADV	ADV	_	17	advmod	_	NER=0
+17	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	18	det	_	NER=0
+18	Ausbildung	Ausbildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	NER=0
+19	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	NER=0|SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg869.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = -0.04
+# text = Aufgrund  der  wirklich  mangelhaften  Ausbildungs-  und  Bildungssituation  in  Deutschland  steigt  die  Zahl  der  Langzeitarbeitslosen  leider  von  Jahr  zu  Jahr.
+1	Aufgrund	aufgrund	ADP	APPR	_	5	case	_	NER-O
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER-O
+3	wirklich	wirklich	ADJ	ADV	Degree=Pos	4	advmod	_	NER-O
+4	mangelhaften	mangelhaft	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	NER-O
+5	Ausbildungs	Ausbildungs	NOUN	TRUNC	_	11	obl	_	NER-O|SpaceAfter=No
+6	-	-	PUNCT	$(	_	8	punct	_	NER-O
+7	und	und	CCONJ	KON	_	8	cc	_	NER-O
+8	Bildungssituation	Bildungssituation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	NER-O
+9	in	in	ADP	APPR	_	10	case	_	NER-O
+10	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	NER=B-LOC|QID=B-Q183
+11	steigt	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	NER-O
+14	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	15	det	_	NER-O
+15	Langzeitarbeitslosen	Langzeitarbeitslose	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	NER=B-LOC
+16	leider	leider	ADV	ADV	_	11	advmod	_	NER-O
+17	von	von	ADP	APPR	_	18	case	_	NER-O
+18	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	NER=B-MISC
+19	zu	zu	ADP	APPR	_	20	case	_	NER=I-MISC
+20	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	NER=I-MISC|SpaceAfter=No
+21	.	.	PUNCT	$.	_	11	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg869.s4
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.454
+# text = Parallel  dazu  schwinden  die  Arbeitsplätze,  insbesondere  solche  mit  einfachen  Anforderungen.
+1	Parallel	parallel	ADJ	ADJD	Degree=Pos	2	advmod	_	NER=0
+2	dazu	dazu	ADV	PAV	PronType=Dem	3	advmod	_	NER=0
+3	schwinden	schwinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	NER=0
+5	Arbeitsplätze	Arbeitsplatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	NER=0
+7	insbesondere	insbesondere	ADV	ADV	_	8	advmod	_	NER=0
+8	solche	solcher	DET	PIS	Case=Nom|Number=Plur|PronType=Dem	5	appos	_	NER=0
+9	mit	mit	ADP	APPR	_	11	case	_	NER=0
+10	einfachen	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	NER=0
+11	Anforderungen	Anforderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg869.s5
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.674
+# text = Deshalb  muss  es  vor  allen  Dingen  um  eines  gehen:  zu  klären,  wie  wir  die  Voraussetzungen  dafür  schaffen  können,  dass  insbesondere  für  die  Gruppe  der  gering  Qualifizierten  Beschäftigungsangebote  entstehen.
+1	Deshalb	deshalb	ADV	PAV	_	9	advmod	_	NER=0
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	NER=0
+4	vor	vor	ADP	APPR	_	6	case	_	NER=0
+5	allen	alle	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Tot	6	det	_	NER=0
+6	Dingen	Ding	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	NER=0
+7	um	um	ADP	APPR	_	8	case	_	NER=0
+8	eines	ein	DET	PIS	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	obl	_	NER=0
+9	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+10	:	:	PUNCT	$.	_	12	punct	_	NER=0
+11	zu	zu	PART	PTKZU	_	12	mark	_	NER=0
+12	klären	klären	VERB	VVINF	VerbForm=Inf	9	xcomp	_	NER=0|SpaceAfter=No
+13	,	,	PUNCT	$,	_	19	punct	_	NER=0
+14	wie	wie	SCONJ	KOUS	_	19	mark	_	NER=0
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	NER=0
+16	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	NER=0
+17	Voraussetzungen	Voraussetzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	NER=0
+18	dafür	dafür	ADV	PAV	PronType=Dem	19	advmod	_	NER=0
+19	schaffen	schaffen	VERB	VVINF	VerbForm=Inf	12	ccomp	_	NER=0
+20	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	NER=0|SpaceAfter=No
+21	,	,	PUNCT	$,	_	31	punct	_	NER=0
+22	dass	dass	SCONJ	KOUS	_	31	mark	_	NER=0
+23	insbesondere	insbesondere	ADV	ADV	_	31	advmod	_	NER=0
+24	für	für	ADP	APPR	_	26	case	_	NER=0
+25	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	NER=0
+26	Gruppe	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obl	_	NER=0
+27	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	NER=0
+28	gering	gering	ADJ	ADJD	Degree=Pos	29	amod	_	NER=0
+29	Qualifizierten	Qualifizierte	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	NER=0
+30	Beschäftigungsangebote	Beschäftigungsangebot	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	31	nsubj	_	NER=0
+31	entstehen	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	NER=0|SpaceAfter=No
+32	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg870
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg870.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.838
+# text = -  Herr  Kolb,  die  FDP-Fraktion  hat  in  Deutschland  sehr  lange  mitregiert.
+1	-	-	PUNCT	$(	_	2	punct	_	NER-O
+2	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	NER-O
+3	Kolb	Kolb	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	NER=B-PER|QID=B-Q15434709|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	NER-O
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER-O
+6	FDP	FDP	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	8	compound	_	NER=B-ORG|SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	NER-O|SpaceAfter=No
+8	Fraktion	Fraktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	NER-O
+9	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	NER-O
+10	in	in	ADP	APPR	_	11	case	_	NER-O
+11	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	NER=B-LOC|QID=B-Q183
+12	sehr	sehr	ADV	ADV	_	13	advmod	_	NER-O
+13	lange	lange	ADV	ADV	_	14	advmod	_	NER-O
+14	mitregiert	mitregieren	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg871
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg871.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.741
+# text = -  "Das  waren  gute  Zeiten"?
+1	-	-	PUNCT	$(	_	3	punct	_	NER=0
+2	"	"	PUNCT	$(	_	6	punct	_	NER=0|SpaceAfter=No
+3	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	NER=0
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	NER=0
+5	gute	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	NER=0
+6	Zeiten	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	NER=0|SpaceAfter=No
+7	"	"	PUNCT	$(	_	6	punct	_	NER=0|SpaceAfter=No
+8	?	?	PUNCT	$.	_	6	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg871.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.324
+# text = Herr  Kolb,  über  Ihre  Definition  davon,  was  gute  Zeiten  sind,  müssen  wir  hier  noch  einmal  reden.
+1	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	NER-O
+2	Kolb	Kolb	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	NER=B-PER|QID=B-Q15434709|SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	NER-O
+4	über	über	ADP	APPR	_	6	case	_	NER-O
+5	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	NER-O
+6	Definition	Definition	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	NER-O
+7	davon	davon	ADV	PAV	PronType=Dem	6	advmod	_	NER-O|SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	NER-O
+9	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	NER-O
+10	gute	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	NER-O
+11	Zeiten	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	NER-O
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	NER-O|SpaceAfter=No
+13	,	,	PUNCT	$,	_	2	punct	_	NER-O
+14	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	NER-O
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	iobj	_	NER-O
+16	hier	hier	ADV	ADV	_	19	advmod	_	NER-O
+17	noch	noch	ADV	ADV	_	18	advmod	_	NER-O
+18	einmal	einmal	ADV	ADV	_	19	advmod	_	NER-O
+19	reden	reden	VERB	VVINF	VerbForm=Inf	0	root	_	NER-O|SpaceAfter=No
+20	.	.	PUNCT	$.	_	19	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg871.s3
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 5.27
+# text = Jedenfalls  ist  das,  was  damals  gut  war,
+1	Jedenfalls	jedenfalls	ADV	ADV	_	3	advmod	_	NER=0
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	NER=0
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	0	root	_	NER=0|SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	NER=0
+5	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj	_	NER=0
+6	damals	damals	ADV	ADV	_	7	advmod	_	NER=0
+7	gut	gut	ADJ	ADJD	Degree=Pos	3	acl	_	NER=0
+8	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	NER=0|SpaceAfter=No
+9	,	,	PUNCT	$,	_	3	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg872
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg872.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.171
+# text = heute  offensichtlich  schlecht.
+1	heute	heute	ADV	ADV	_	3	advmod	_	NER=0
+2	offensichtlich	offensichtlich	ADJ	ADJD	Degree=Pos	3	advmod	_	NER=0
+3	schlecht	schlecht	ADJ	ADJD	Degree=Pos	0	root	_	NER=0|SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg872.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.265
+# text = Sie  hängen  doch  Ihre  Fahne  nach  dem  Wind!
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	NER=0
+2	hängen	hängen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	doch	doch	ADV	ADV	_	2	advmod	_	NER=0
+4	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	NER=0
+5	Fahne	Fahne	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	NER=0
+6	nach	nach	ADP	APPR	_	8	case	_	NER=0
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER=0
+8	Wind	Wind	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NER=0|SpaceAfter=No
+9	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg873
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg873.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.125
+# text = Die  Hauptursache  für  den  Mangel  an  solchen  Arbeitsplätzen  muss  in  den  hohen  Sozialversicherungsbeiträgen  gesehen  werden.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Hauptursache	Hauptursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	NER=0
+3	für	für	ADP	APPR	_	5	case	_	NER=0
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER=0
+5	Mangel	Mangel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	NER=0
+6	an	an	ADP	APPR	_	8	case	_	NER=0
+7	solchen	solcher	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	NER=0
+8	Arbeitsplätzen	Arbeitsplatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	NER=0
+9	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	NER=0
+10	in	in	ADP	APPR	_	13	case	_	NER=0
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	NER=0
+12	hohen	hoch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	NER=0
+13	Sozialversicherungsbeiträgen	Sozialversicherungsbeitrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	NER=0
+14	gesehen	sehen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0
+15	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	14	aux:pass	_	NER=0|SpaceAfter=No
+16	.	.	PUNCT	$.	_	14	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg873.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.418
+# text = Diese  sind  übrigens  auch  unter  Schwarz-Gelb  ständig  angestiegen,  Herr  Kolb!
+1	Diese	dieser	DET	PDS	Case=Nom|Number=Plur|PronType=Dem	10	nsubj	_	NER-O
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	NER-O
+3	übrigens	übrigens	ADV	ADV	_	10	advmod	_	NER-O
+4	auch	auch	ADV	ADV	_	10	advmod	_	NER-O
+5	unter	unter	ADP	APPR	_	6	case	_	NER-O
+6	Schwarz	Schwarz	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	NER-O|SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	NER-O|SpaceAfter=No
+8	Gelb	Gelb	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	6	flat	_	NER-O
+9	ständig	ständig	ADJ	ADJD	Degree=Pos	10	advmod	_	NER-O
+10	angestiegen	ansteigen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	NER-O
+12	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	compound	_	NER-O
+13	Kolb	Kolb	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	NER=B-PER|QID=B-Q15434709|SpaceAfter=No
+14	!	!	PUNCT	$.	_	10	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg874
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg874.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.122
+# text = Die  hohen  Lohnnebenkosten  machen  diese  Arbeitsplätze  für  die  Arbeitgeber  unwirtschaftlich  und  für  die  Arbeitnehmer  unattraktiv.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	NER=0
+2	hohen	hoch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	NER=0
+3	Lohnnebenkosten	Lohnnebenkosten	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	NER=0
+4	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+5	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	NER=0
+6	Arbeitsplätze	Arbeitsplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	NER=0
+7	für	für	ADP	APPR	_	9	case	_	NER=0
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	NER=0
+9	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	NER=0
+10	unwirtschaftlich	unwirtschaftlich	ADJ	ADJD	Degree=Pos	4	xcomp	_	NER=0
+11	und	und	CCONJ	KON	_	15	cc	_	NER=0
+12	für	für	ADP	APPR	_	14	case	_	NER=0
+13	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	14	det	_	NER=0
+14	Arbeitnehmer	Arbeitnehmer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	NER=0
+15	unattraktiv	unattraktiv	ADJ	ADJD	Degree=Pos	10	conj	_	NER=0|SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg874.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.061
+# text = Das  Ergebnis  ist  ein  ständiges  Anwachsen  der  Schwarzarbeit.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Ergebnis	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	NER=0
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	NER=0
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	NER=0
+5	ständiges	ständig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	NER=0
+6	Anwachsen	Anwachs	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NER=0
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER=0
+8	Schwarzarbeit	Schwarzarbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	NER=0|SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg875
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg875.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.538
+# text = Wir  schlagen  mit  unserem  Progressivmodell  vor,  die  Lohnnebenkosten  im  unteren  Einkommensbereich  gezielt  zu  senken,  und  zwar  nicht  um  1  oder  2  Prozentpunkte  -  das  würde  gar  keine  Wirkung  entfalten  -,  sondern  nach  der  Formel  "Je  geringer  das  Einkommen,  desto  geringer  auch  die  Sozialabgaben".
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	schlagen	schlagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	mit	mit	ADP	APPR	_	5	case	_	NER=0
+4	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	NER=0
+5	Progressivmodell	Progressivmodell	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	NER=0
+6	vor	vor	ADP	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	NER=0
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	NER=0
+9	Lohnnebenkosten	Lohnnebenkosten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	NER=0
+10-11	im	_	_	_	_	_	_	_	NER=0
+10	in	in	ADP	APPR	_	13	case	_	NA
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NA
+12	unteren	unter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	NER=0
+13	Einkommensbereich	Einkommensbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	NER=0
+14	gezielt	gezielt	ADJ	ADJD	Degree=Pos	16	advmod	_	NER=0
+15	zu	zu	PART	PTKZU	_	16	mark	_	NER=0
+16	senken	senken	VERB	VVINF	VerbForm=Inf	2	xcomp	_	NER=0|SpaceAfter=No
+17	,	,	PUNCT	$,	_	25	punct	_	NER=0
+18	und	und	CCONJ	KON	_	25	cc	_	NER=0
+19	zwar	zwar	ADV	ADV	_	25	advmod	_	NER=0
+20	nicht	nicht	PART	PTKNEG	Polarity=Neg	25	advmod	_	NER=0
+21	um	um	ADP	APPR	_	25	case	_	NER=0
+22	1	1	NUM	CARD	NumType=Card	25	nummod	_	NER=0
+23	oder	oder	CCONJ	KON	_	24	cc	_	NER=0
+24	2	2	NUM	CARD	NumType=Card	22	conj	_	NER=0
+25	Prozentpunkte	Prozentpunkt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	NER=0
+26	-	-	PUNCT	$(	_	32	punct	_	NER=0
+27	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	32	nsubj	_	NER=0
+28	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux	_	NER=0
+29	gar	gar	ADV	ADV	_	32	advmod	_	NER=0
+30	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	31	det	_	NER=0
+31	Wirkung	Wirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	NER=0
+32	entfalten	entfalten	VERB	VVINF	VerbForm=Inf	2	conj	_	NER=0
+33	-	-	PUNCT	$(	_	38	punct	_	NER=0|SpaceAfter=No
+34	,	,	PUNCT	$,	_	38	punct	_	NER=0
+35	sondern	sondern	CCONJ	KON	_	38	cc	_	NER=0
+36	nach	nach	ADP	APPR	_	38	case	_	NER=0
+37	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	NER=0
+38	Formel	Formel	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	conj	_	NER=0
+39	"	"	PUNCT	$(	_	41	punct	_	NER=0|SpaceAfter=No
+40	Je	je	ADV	ADV	_	41	advmod	_	NER=0
+41	geringer	gering	ADJ	ADJD	Degree=Cmp	38	parataxis	_	NER=0
+42	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	43	det	_	NER=0
+43	Einkommen	Einkommen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	41	nsubj	_	NER=0|SpaceAfter=No
+44	,	,	PUNCT	$,	_	46	punct	_	NER=0
+45	desto	desto	CCONJ	KON	_	46	cc	_	NER=0
+46	geringer	gering	ADJ	ADJD	Degree=Cmp	41	conj	_	NER=0
+47	auch	auch	ADV	ADV	_	49	advmod	_	NER=0
+48	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	49	det	_	NER=0
+49	Sozialabgaben	Sozialabgabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	46	nsubj	_	NER=0|SpaceAfter=No
+50	"	"	PUNCT	$(	_	41	punct	_	NER=0|SpaceAfter=No
+51	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg875.s2
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 4.601
+# text = Wir  glauben,  dass  wir  damit  insbesondere  im  unteren  Lohnbereich  deutlich  bessere  Ergebnisse  erzielen  werden,  als  es  mit  dem  von  der  CDU  favorisierten  Kombilohnmodell  je  möglich  wäre.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER-O
+2	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O|SpaceAfter=No
+3	,	,	PUNCT	$,	_	15	punct	_	NER-O
+4	dass	dass	SCONJ	KOUS	_	15	mark	_	NER-O
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	NER-O
+6	damit	damit	ADV	PAV	PronType=Dem	15	advmod	_	NER-O
+7	insbesondere	insbesondere	ADV	ADV	_	11	advmod	_	NER-O
+8-9	im	_	_	_	_	_	_	_	NER-O
+8	in	in	ADP	APPR	_	11	case	_	NA
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	NA
+10	unteren	unter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	NER-O
+11	Lohnbereich	Lohnbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	NER=B-PER
+12	deutlich	deutlich	ADJ	ADJD	Degree=Pos	15	advmod	_	NER-O
+13	bessere	gut	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	14	amod	_	NER-O
+14	Ergebnisse	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	NER-O
+15	erzielen	erzielen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	NER-O
+16	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux	_	NER-O|SpaceAfter=No
+17	,	,	PUNCT	$,	_	28	punct	_	NER-O
+18	als	als	SCONJ	KOUS	_	28	mark	_	NER-O
+19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	NER-O
+20	mit	mit	ADP	APPR	_	26	case	_	NER-O
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	NER-O
+22	von	von	ADP	APPR	_	24	case	_	NER-O
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	NER-O
+24	CDU	CDU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	NER=B-ORG|QID=B-Q49762
+25	favorisierten	favorisiert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	NER-O
+26	Kombilohnmodell	Kombilohnmodell	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	nmod	_	NER=B-PER
+27	je	je	ADV	ADV	_	28	advmod	_	NER-O
+28	möglich	möglich	ADJ	ADJD	Degree=Pos	15	advcl	_	NER-O
+29	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	NER-O|SpaceAfter=No
+30	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg876
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg876.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.978
+# text = Wir  lehnen  dieses  Kombilohnmodell  übrigens  nicht  aus  ideologischen  Gründen  ab.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER-O
+2	lehnen	lehnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	NER-O
+4	Kombilohnmodell	Kombilohnmodell	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	NER=B-PER
+5	übrigens	übrigens	ADV	ADV	_	6	advmod	_	NER-O
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	NER-O
+7	aus	aus	ADP	APPR	_	9	case	_	NER-O
+8	ideologischen	ideologisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	NER-O
+9	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	NER-O
+10	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	NER-O|SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg876.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.181
+# text = Sie  können  sich  vielleicht  noch  daran  erinnern,  dass  wir  Grünen  seinerzeit  dafür  waren,  Kombilohnmodelle  auszuprobieren.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	NER-O
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	NER-O
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	NER-O
+4	vielleicht	vielleicht	ADV	ADV	_	5	advmod	_	NER-O
+5	noch	noch	ADV	ADV	_	7	advmod	_	NER-O
+6	daran	daran	ADV	PAV	PronType=Dem	7	advmod	_	NER-O
+7	erinnern	erinnern	VERB	VVINF	VerbForm=Inf	0	root	_	NER-O|SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	NER-O
+9	dass	dass	SCONJ	KOUS	_	14	mark	_	NER-O
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	NER=B-ORG
+11	Grünen	Grüne	NOUN	NN	Case=Nom|Number=Plur	14	obl:arg	_	NER=I-ORG
+12	seinerzeit	seinerzeit	ADV	ADV	_	14	advmod	_	NER-O
+13	dafür	dafür	ADV	PAV	PronType=Dem	14	advmod	_	NER-O
+14	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	NER-O|SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	NER-O
+16	Kombilohnmodelle	Kombilohnmodell	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	obj	_	NER-O
+17	auszuprobieren	ausprobieren	VERB	VVIZU	VerbForm=Inf	14	xcomp	_	NER-O|SpaceAfter=No
+18	.	.	PUNCT	$.	_	7	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg876.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.656
+# text = Aber  wir  müssen  nach  der  Probephase  zur  Kenntnis  nehmen,  wie  die  Ergebnisse  sind:
+1	Aber	aber	CCONJ	KON	_	10	cc	_	NER=0
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	NER=0
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	NER=0
+4	nach	nach	ADP	APPR	_	6	case	_	NER=0
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER=0
+6	Probephase	Probephase	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	NER=0
+7-8	zur	_	_	_	_	_	_	_	NER=0
+7	zu	zu	ADP	APPR	_	9	case	_	NA
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NA
+9	Kenntnis	Kenntnis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	NER=0
+10	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	NER=0
+12	wie	wie	SCONJ	KOUS	_	15	mark	_	NER=0
+13	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	NER=0
+14	Ergebnisse	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	NER=0
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	NER=0|SpaceAfter=No
+16	:	:	PUNCT	$.	_	10	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg877
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg877.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.089
+# text = Die  Ergebnisse  sind  grottenschlecht.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	NER=0
+2	Ergebnisse	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	NER=0
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	NER=0
+4	grottenschlecht	grottenschlecht	ADJ	ADJD	Degree=Pos	0	root	_	NER=0|SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg878
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg878.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.059
+# text = Deswegen  sage  ich  Ihnen:  Lassen  Sie  die  Finger  davon!
+1	Deswegen	deswegen	ADV	PAV	_	2	advmod	_	NER=0
+2	sage	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+4	Ihnen	Sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	obl:arg	_	NER=0|SpaceAfter=No
+5	:	:	PUNCT	$.	_	6	punct	_	NER=0
+6	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	NER=0
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	NER=0
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	NER=0
+9	Finger	Finger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	NER=0
+10	davon	davon	ADV	PAV	PronType=Dem	6	advmod	_	NER=0|SpaceAfter=No
+11	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg878.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.239
+# text = Wir  wissen  doch  inzwischen,  dass  Kombilohnmodelle  geradezu  absurd  teuer  sind:  Je  nach  Ausgestaltung  kosten  sie  35  000  bis  70  000  Euro  pro  Jahr.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER-O
+2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	doch	doch	ADV	ADV	_	2	advmod	_	NER-O
+4	inzwischen	inzwischen	ADV	ADV	_	2	advmod	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	NER-O
+6	dass	dass	SCONJ	KOUS	_	10	mark	_	NER-O
+7	Kombilohnmodelle	Kombilohnmodell	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	NER=B-LOC
+8	geradezu	geradezu	ADV	ADV	_	10	advmod	_	NER-O
+9	absurd	absurd	ADJ	ADJD	Degree=Pos	10	advmod	_	NER-O
+10	teuer	teuer	ADJ	ADJD	Degree=Pos	2	ccomp	_	NER-O
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	NER-O|SpaceAfter=No
+12	:	:	PUNCT	$.	_	16	punct	_	NER-O
+13	Je	je	ADV	ADV	_	15	advmod	_	NER-O
+14	nach	nach	ADP	APPR	_	15	case	_	NER-O
+15	Ausgestaltung	Ausgestaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	NER-O
+16	kosten	kosten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	NER-O
+17	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	NER-O
+18	35	35	NUM	CARD	NumType=Card	23	nummod	_	NER-O
+19	000	000	NUM	CARD	NumType=Card	23	nummod	_	NER-O
+20	bis	bis	ADP	KON	_	21	case	_	NER-O
+21	70	70	NUM	CARD	NumType=Card	22	nmod	_	NER-O
+22	000	000	NUM	CARD	NumType=Card	23	nmod	_	NER-O
+23	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	NER-O
+24	pro	pro	ADP	APPR	_	25	case	_	NER-O
+25	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	nmod	_	NER-O|SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg879
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg879.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.721
+# text = Das  ist  ein  Vielfaches  von  dem,  was  die  Leute  in  diesem  unteren  Lohnbereich  verdienen.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	NER-O
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	NER-O
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	NER-O
+4	Vielfaches	Vielfache	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NER-O
+5	von	von	ADP	APPR	_	6	case	_	NER-O
+6	dem	der	PRON	PDS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nmod	_	NER-O|SpaceAfter=No
+7	,	,	PUNCT	$,	_	15	punct	_	NER-O
+8	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	15	obj	_	NER-O
+9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	NER-O
+10	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	15	nsubj	_	NER-O
+11	in	in	ADP	APPR	_	14	case	_	NER-O
+12	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	NER-O
+13	unteren	unter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	NER-O
+14	Lohnbereich	Lohnbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	NER=B-PER
+15	verdienen	verdienen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	NER-O|SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg880
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg880.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.114
+# text = Kombilohnmodelle  setzen  außerdem  falsche  Anreize:  Wir  haben  die  berechtigte  Sorge,  dass  durch  diese  Modelle  Arbeit  generell  zu  subventionierter  Arbeit  würde.
+1	Kombilohnmodelle	Kombilohnmodell	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	NER=B-LOC
+2	setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	außerdem	außerdem	ADV	PAV	_	2	advmod	_	NER-O
+4	falsche	falsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	NER-O
+5	Anreize	Anreiz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	NER-O|SpaceAfter=No
+6	:	:	PUNCT	$.	_	8	punct	_	NER-O
+7	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	NER-O
+8	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	NER-O
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER-O
+10	berechtigte	berechtigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	NER-O
+11	Sorge	Sorge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	NER-O|SpaceAfter=No
+12	,	,	PUNCT	$,	_	21	punct	_	NER-O
+13	dass	dass	SCONJ	KOUS	_	21	mark	_	NER-O
+14	durch	durch	ADP	APPR	_	16	case	_	NER-O
+15	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	16	det	_	NER-O
+16	Modelle	Modell	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	21	nmod	_	NER-O
+17	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nsubj	_	NER-O
+18	generell	generell	ADJ	ADJD	Degree=Pos	21	advmod	_	NER-O
+19	zu	zu	ADP	APPR	_	21	case	_	NER-O
+20	subventionierter	subventioniert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	NER-O
+21	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	ccomp	_	NER-O
+22	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	NER-O|SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg880.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.24
+# text = Das  können  wir  nicht  wollen.
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	obj	_	NER=0
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	NER=0
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	NER=0
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	NER=0
+5	wollen	wollen	AUX	VMINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg880.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.28
+# text = Kombilohnmodelle,  zumindest  in  großem  Umfang,  sind  in  Deutschland  gescheitert;
+1	Kombilohnmodelle	Kombilohnmodell	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	NER=B-LOC|SpaceAfter=No
+2	,	,	PUNCT	$,	_	6	punct	_	NER-O
+3	zumindest	zumindest	ADV	ADV	_	6	advmod	_	NER-O
+4	in	in	ADP	APPR	_	6	case	_	NER-O
+5	großem	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	NER-O
+6	Umfang	Umfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	NER-O|SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	NER-O
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	NER-O
+9	in	in	ADP	APPR	_	10	case	_	NER-O
+10	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	NER=B-LOC|QID=B-Q183
+11	gescheitert	scheitern	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+12	;	;	PUNCT	$.	_	11	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg880.s4
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.167
+# text = das  ist  das  Ergebnis.
+1	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	NER=0
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	NER=0
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Ergebnis	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg881
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg881.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.176
+# text = Mit  dieser  Skepsis  stehen  wir  Grünen  wahrlich  nicht  alleine  da.
+1	Mit	mit	ADP	APPR	_	3	case	_	NER-O
+2	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	NER-O
+3	Skepsis	Skepsis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	NER-O
+4	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	NER=B-ORG
+6	Grünen	Grüne	NOUN	NN	Case=Nom|Number=Plur	4	obl:arg	_	NER=I-ORG
+7	wahrlich	wahrlich	ADV	ADV	_	8	advmod	_	NER-O
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	NER-O
+9	alleine	alleine	ADV	ADV	_	4	advmod	_	NER-O
+10	da	da	ADV	ADV	_	4	advmod	_	NER-O|SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg881.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.078
+# text = Dass  wir  uns  allerdings  in  Gemeinschaft  mit  der  FDP  wieder  finden,  lässt  mich  noch  einmal  darüber  nachdenken,  ob  wir  uns  richtig  positioniert  haben.
+1	Dass	daß	SCONJ	KOUS	_	11	mark	_	NER-O
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	NER-O
+3	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	11	obj	_	NER-O
+4	allerdings	allerdings	ADV	ADV	_	11	advmod	_	NER-O
+5	in	in	ADP	APPR	_	6	case	_	NER-O
+6	Gemeinschaft	Gemeinschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	NER=B-ORG
+7	mit	mit	ADP	APPR	_	9	case	_	NER-O
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER-O
+9	FDP	FDP	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	NER=B-ORG|QID=B-Q13124
+10	wieder	wieder	ADV	ADV	_	11	advmod	_	NER-O
+11	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	NER-O|SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	NER-O
+13	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+14	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	NER-O
+15	noch	noch	ADV	ADV	_	16	advmod	_	NER-O
+16	einmal	einmal	ADV	ADV	_	13	advmod	_	NER-O
+17	darüber	darüber	ADV	PAV	PronType=Dem	13	advmod	_	NER-O
+18	nachdenken	nachdenken	VERB	VVINF	VerbForm=Inf	13	xcomp	_	NER-O|SpaceAfter=No
+19	,	,	PUNCT	$,	_	24	punct	_	NER-O
+20	ob	ob	SCONJ	KOUS	_	24	mark	_	NER-O
+21	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	NER-O
+22	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	24	obj	_	NER-O
+23	richtig	richtig	ADJ	ADJD	Degree=Pos	24	advmod	_	NER-O
+24	positioniert	positionieren	VERB	VVPP	VerbForm=Part	17	acl	_	NER-O
+25	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	NER-O|SpaceAfter=No
+26	.	.	PUNCT	$.	_	13	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg882
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg882.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = -0.019
+# text = Wenn  aber  die  Bundesagentur  für  Arbeit  dagegen  ist,  wenn  die  Arbeitgeberverbände,  die  Gewerkschaften,  die  Mitglieder  des  Sachverständigenrates  und  große  Teile  der  SPD-Fraktion  dagegen  sind,  dann  muss  doch  klar  sein:
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	NER-O
+2	aber	aber	ADV	ADV	_	8	advmod	_	NER-O
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER-O
+4	Bundesagentur	Bundesagentur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	NER=B-ORG
+5	für	für	ADP	APPR	_	6	case	_	NER=I-ORG
+6	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	NER=I-ORG
+7	dagegen	dagegen	ADV	PAV	PronType=Dem	8	advmod	_	NER=I-ORG
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	NER=I-ORG|SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	NER-O
+10	wenn	wenn	SCONJ	KOUS	_	29	mark	_	NER-O
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	NER-O
+12	Arbeitgeberverbände	Arbeitgeberverband	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	NER-O|SpaceAfter=No
+13	,	,	PUNCT	$,	_	15	punct	_	NER-O
+14	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	15	det	_	NER-O
+15	Gewerkschaften	Gewerkschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	appos	_	NER=B-ORG|SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	NER-O
+17	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	18	det	_	NER-O
+18	Mitglieder	Mitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	conj	_	NER-O
+19	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	NER-O
+20	Sachverständigenrates	Sachverständigenrat	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	NER-O
+21	und	und	CCONJ	KON	_	23	cc	_	NER-O
+22	große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	NER-O
+23	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	conj	_	NER-O
+24	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	NER-O
+25	SPD	SPD	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	NER=B-ORG|QID=B-Q49768|SpaceAfter=No
+26	-	-	PUNCT	$(	_	27	punct	_	NER-O|SpaceAfter=No
+27	Fraktion	Fraktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	25	flat	_	NER-O
+28	dagegen	dagegen	ADV	PAV	PronType=Dem	29	advmod	_	NER-O
+29	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	NER-O|SpaceAfter=No
+30	,	,	PUNCT	$,	_	29	punct	_	NER-O
+31	dann	dann	ADV	ADV	_	34	advmod	_	NER-O
+32	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	NER-O
+33	doch	doch	ADV	ADV	_	34	advmod	_	NER-O
+34	klar	klar	ADJ	ADJD	Degree=Pos	0	root	_	NER-O
+35	sein	sein	AUX	VAINF	VerbForm=Inf	34	cop	_	NER-O|SpaceAfter=No
+36	:	:	PUNCT	$.	_	34	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg882.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.267
+# text = Die  Einführung  von  Kombilohnmodellen  wäre  ein  großer  Fehler.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Einführung	Einführung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	NER=0
+3	von	von	ADP	APPR	_	4	case	_	NER=0
+4	Kombilohnmodellen	Kombilohnmodell	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	NER=0
+5	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	NER=0
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	NER=0
+7	großer	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	NER=0
+8	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	NER=0
+
+# newdoc id = ParlaMint-DE_2006-02-17-16-020.u143
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg883
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg883.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.49
+# text = Sie  müssen  bitte  zum  Schluss  kommen,  Frau  Pothmer.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	NER-O
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	NER-O
+3	bitte	bitten	ADV	ADV	_	7	advmod	_	NER-O
+4-5	zum	_	_	_	_	_	_	_	NER-O
+4	zu	zu	ADP	APPR	_	6	case	_	NA
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	NA
+6	Schluss	Schluß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	NER-O
+7	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	NER-O|SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	NER-O
+9	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	NER-O
+10	Pothmer	Pothmer	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	NER=B-PER|QID=B-Q916571|SpaceAfter=No
+11	.	.	PUNCT	$.	_	7	punct	_	NER-O
+
+# newdoc id = ParlaMint-DE_2006-02-17-16-020.u144
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg884
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg884.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.463
+# text = Ich  komme  zum  Schluss.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	komme	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3-4	zum	_	_	_	_	_	_	_	NER=0
+3	zu	zu	ADP	APPR	_	5	case	_	NA
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NA
+5	Schluss	Schluß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg885
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg885.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.873
+# text = Ich  will  nur  noch  darauf  hinweisen,  dass  bei  der  Einführung  unseres  Progressivmodells  auch  die  Mini-  und  die  Midijobs,  deren  Fehler  sich  im  Rahmen  der  Evaluierung  von  Hartz  IV  gezeigt  haben,  integriert  wären.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	NER-O
+2	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	NER-O
+3	nur	nur	ADV	ADV	_	4	advmod	_	NER-O
+4	noch	noch	ADV	ADV	_	6	advmod	_	NER-O
+5	darauf	darauf	ADV	PAV	PronType=Dem	6	advmod	_	NER-O
+6	hinweisen	hinweisen	VERB	VVINF	VerbForm=Inf	0	root	_	NER-O|SpaceAfter=No
+7	,	,	PUNCT	$,	_	36	punct	_	NER-O
+8	dass	dass	SCONJ	KOUS	_	36	mark	_	NER-O
+9	bei	bei	ADP	APPR	_	11	case	_	NER-O
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER-O
+11	Einführung	Einführung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	obl	_	NER-O
+12	unseres	unser	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	NER-O
+13	Progressivmodells	Progressivmodell	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	NER-O
+14	auch	auch	ADV	ADV	_	16	advmod	_	NER-O
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	NER-O
+16	Mini	Mini	NOUN	TRUNC	_	36	nsubj:pass	_	NER=B-MISC|QID=B-Q53807|SpaceAfter=No
+17	-	-	PUNCT	$(	_	20	punct	_	NER-O
+18	und	und	CCONJ	KON	_	20	cc	_	NER-O
+19	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	20	det	_	NER-O
+20	Midijobs	Midijob	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	conj	_	NER-O|SpaceAfter=No
+21	,	,	PUNCT	$,	_	33	punct	_	NER-O
+22	deren	der	PRON	PRELAT	Case=Gen|Number=Plur|PronType=Dem,Rel	23	nmod:poss	_	NER-O
+23	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	NER-O
+24	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	33	obj	_	NER-O
+25-26	im	_	_	_	_	_	_	_	NER-O
+25	in	in	ADP	APPR	_	27	case	_	NA
+26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	NA
+27	Rahmen	Rahmen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	33	obl	_	NER-O
+28	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	NER-O
+29	Evaluierung	Evaluierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	NER-O
+30	von	von	ADP	APPR	_	31	case	_	NER-O
+31	Hartz	Hartz	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	NER=B-MISC
+32	IV	IV	PROPN	CARD	NumType=Card	31	flat	_	NER=I-MISC
+33	gezeigt	zeigen	VERB	VVPP	VerbForm=Part	20	acl	_	NER-O
+34	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	NER-O|SpaceAfter=No
+35	,	,	PUNCT	$,	_	33	punct	_	NER-O
+36	integriert	integrieren	VERB	VVPP	VerbForm=Part	6	ccomp	_	NER-O
+37	wären	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	36	aux:pass	_	NER-O|SpaceAfter=No
+38	.	.	PUNCT	$.	_	6	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg885.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.248
+# text = Damit  hätten  wir  den  Vorteil,  dass  alle,  die  in  diesem  Bereich  arbeiten,  sozialversichert  wären  -  ab  dem  ersten  Euro.
+1	Damit	damit	ADV	PAV	PronType=Dem	2	advmod	_	NER=0
+2	hätten	haben	VERB	VAFIN	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	NER=0
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER=0
+5	Vorteil	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	16	punct	_	NER=0
+7	dass	dass	SCONJ	KOUS	_	16	mark	_	NER=0
+8	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	16	nsubj	_	NER=0|SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	NER=0
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	14	nsubj	_	NER=0
+11	in	in	ADP	APPR	_	13	case	_	NER=0
+12	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	NER=0
+13	Bereich	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	NER=0
+14	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	NER=0|SpaceAfter=No
+15	,	,	PUNCT	$,	_	14	punct	_	NER=0
+16	sozialversichert	sozialversichert	ADJ	ADJD	Degree=Pos	5	ccomp	_	NER=0
+17	wären	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	NER=0
+18	-	-	PUNCT	$(	_	22	punct	_	NER=0
+19	ab	ab	ADP	APPR	_	22	case	_	NER=0
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	NER=0
+21	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing	22	amod	_	NER=0
+22	Euro	Euro	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	NER=0|SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg885.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.529
+# text = Das  ist  sicher  nicht  umsonst  zu  haben;
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	NER=0
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	NER=0
+3	sicher	sicher	ADJ	ADV	Degree=Pos	4	advmod	_	NER=0
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	NER=0
+5	umsonst	umsonst	ADV	ADV	_	7	advmod	_	NER=0
+6	zu	zu	PART	PTKZU	_	7	mark	_	NER=0
+7	haben	haben	AUX	VAINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+8	;	;	PUNCT	$.	_	7	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg885.s4
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.876
+# text = nach  unseren  Schätzungen  kostet  es  etwa  13  Milliarden  Euro.
+1	nach	nach	ADP	APPR	_	3	case	_	NER=0
+2	unseren	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	NER=0
+3	Schätzungen	Schätzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	NER=0
+4	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	NER=0
+6	etwa	etwa	ADV	ADV	_	7	advmod	_	NER=0
+7	13	13	NUM	CARD	NumType=Card	8	nummod	_	NER=0
+8	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	NER=0
+9	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg885.s5
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.321
+# text = Doch  das  wäre  nur  ein  Bruchteil  von  dem,  was  Kombilohnmodelle  an  Kosten  verursachen  würden.
+1	Doch	doch	CCONJ	KON	_	6	cc	_	NER-O
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	NER-O
+3	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	NER-O
+4	nur	nur	ADV	ADV	_	6	advmod	_	NER-O
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	NER-O
+6	Bruchteil	Bruchteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER-O
+7	von	von	ADP	APPR	_	8	case	_	NER-O
+8	dem	der	PRON	PDS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nmod	_	NER-O|SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	NER-O
+10	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	14	nsubj	_	NER-O
+11	Kombilohnmodelle	Kombilohnmodell	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	obj	_	NER=B-LOC
+12	an	an	ADP	APPR	_	13	case	_	NER-O
+13	Kosten	Kosten	NOUN	NN	Case=Dat|Number=Plur	14	obl	_	NER-O
+14	verursachen	verursachen	VERB	VVINF	VerbForm=Inf	6	acl	_	NER-O
+15	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	NER-O|SpaceAfter=No
+16	.	.	PUNCT	$.	_	6	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg886
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg886.s1
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 4.644
+# text = Ich  danke  Ihnen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	danke	danken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	Ihnen	Sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	obl:arg	_	NER=0|SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newdoc id = ParlaMint-DE_2006-02-17-16-020.u145
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg887
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg887.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.6
+# text = Das  Wort  hat  der  Kollege  Michael  Hennrich,  CDU/  CSU-Fraktion.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Wort	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	NER-O
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Kollege	Kollege	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	NER-O
+6	Michael	Michael	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	NER=B-PER|QID=B-Q1240168
+7	Hennrich	Hennrich	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	NER=I-PER|QID=I-Q1240168|SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	NER-O
+9	CDU/	CDU/	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	NER=B-PER
+10	CSU	CSU	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	NER=B-ORG|SpaceAfter=No
+11	-	-	PUNCT	$(	_	12	punct	_	NER-O|SpaceAfter=No
+12	Fraktion	Fraktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	NER-O|SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	NER-O
+
+# newdoc id = ParlaMint-DE_2006-02-17-16-020.u146
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg888
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg888.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.205
+# text = Frau  Präsidentin!
+1	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	compound	_	NER=0
+2	Präsidentin	Präsidentin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg888.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.367
+# text = Meine  sehr  verehrten  Damen  und  Herren!
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	NER=0
+2	sehr	sehr	ADV	ADV	_	3	advmod	_	NER=0
+3	verehrten	verehren	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	NER=0
+4	Damen	Dame	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	NER=0
+5	und	und	CCONJ	KON	_	6	cc	_	NER=0
+6	Herren	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	NER=0|SpaceAfter=No
+7	!	!	PUNCT	$.	_	4	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg888.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.167
+# text = Liebe  Frau  Pothmer,  ich  fühle  mich  an  alte  Zeiten  zurückerinnert,  als  es  unter  Rot-Grün  Schnellschüsse  en  masse  gab,  bei  denen  dann  permanent  nachgebessert  werden  musste.
+1	Liebe	lieb	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	NER=0
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	dep	_	NER=0
+3	Pothmer	Pothmer	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	NER=0|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	NER=0
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	NER=0
+6	fühle	fühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	NER=0
+8	an	an	ADP	APPR	_	10	case	_	NER=0
+9	alte	alt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	NER=0
+10	Zeiten	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	NER=0
+11	zurückerinnert	zurückerinnern	VERB	VVPP	VerbForm=Part	6	xcomp	_	NER=0|SpaceAfter=No
+12	,	,	PUNCT	$,	_	22	punct	_	NER=0
+13	als	als	SCONJ	KOUS	_	22	mark	_	NER=0
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	NER=0
+15	unter	unter	ADP	APPR	_	16	case	_	NER=0
+16	Rot	Rot	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	NER=0|SpaceAfter=No
+17	-	-	PUNCT	$(	_	16	punct	_	NER=0|SpaceAfter=No
+18	Grün	Grün	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	flat	_	NER=0
+19	Schnellschüsse	Schnellschuss	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	compound	_	NER=0
+20	en	en	PROPN	NE	Number=Sing	21	compound	_	NER=0
+21	masse	maß	NOUN	NN	Number=Sing	22	obj	_	NER=0
+22	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	NER=0|SpaceAfter=No
+23	,	,	PUNCT	$,	_	28	punct	_	NER=0
+24	bei	bei	ADP	APPR	_	25	case	_	NER=0
+25	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	28	obl	_	NER=0
+26	dann	dann	ADV	ADV	_	28	advmod	_	NER=0
+27	permanent	permanent	ADJ	ADJD	Degree=Pos	28	advmod	_	NER=0
+28	nachgebessert	nachbessern	VERB	VVPP	VerbForm=Part	21	acl	_	NER=0
+29	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	28	aux:pass	_	NER=0
+30	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	NER=0|SpaceAfter=No
+31	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg889
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg889.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.396
+# text = Die  SPD  hat  dazugelernt,  sie  ist  auf  den  Pfad  der  Tugend  zurückgekehrt  und  lässt  sich  Zeit.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER-O
+2	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	NER=B-ORG|QID=B-Q49768
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	NER-O
+4	dazugelernt	dazulernen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	13	punct	_	NER-O
+6	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	NER-O
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	NER-O
+8	auf	auf	ADP	APPR	_	10	case	_	NER-O
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	NER-O
+10	Pfad	Pfad	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	NER-O
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER-O
+12	Tugend	Tugend	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	NER-O
+13	zurückgekehrt	zurückkehren	VERB	VVPP	VerbForm=Part	4	ccomp	_	NER-O
+14	und	und	CCONJ	KON	_	15	cc	_	NER-O
+15	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	NER-O
+16	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	expl:pv	_	NER-O
+17	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	NER=B-MISC|QID=B-Q157142|SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg889.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.214
+# text = Bei  Ihnen  aber  muss  es  immer  noch  schnell  gehen.
+1	Bei	bei	ADP	APPR	_	2	case	_	NER=0
+2	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	9	obl	_	NER=0
+3	aber	aber	ADV	ADV	_	9	advmod	_	NER=0
+4	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	NER=0
+6	immer	immer	ADV	ADV	_	7	advmod	_	NER=0
+7	noch	noch	ADV	ADV	_	8	advmod	_	NER=0
+8	schnell	schnell	ADJ	ADJD	Degree=Pos	9	advmod	_	NER=0
+9	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg890
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg890.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.633
+# text = Sie  legen  uns  heute  ein  Modell  vor,  bei  dem  allenfalls  noch  der  Name  ein  gewisses  Interesse  weckt.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	NER=0
+2	legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obl:arg	_	NER=0
+4	heute	heute	ADV	ADV	_	2	advmod	_	NER=0
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	NER=0
+6	Modell	Modell	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	NER=0
+7	vor	vor	ADP	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+8	,	,	PUNCT	$,	_	18	punct	_	NER=0
+9	bei	bei	ADP	APPR	_	10	case	_	NER=0
+10	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	18	obl	_	NER=0
+11	allenfalls	allenfalls	ADV	ADV	_	18	advmod	_	NER=0
+12	noch	noch	ADV	ADV	_	18	advmod	_	NER=0
+13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	NER=0
+14	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	NER=0
+15	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	17	det	_	NER=0
+16	gewisses	gewiß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	NER=0
+17	Interesse	Interesse	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	NER=0
+18	weckt	wecken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	NER=0|SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg890.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.228
+# text = Was  sich  dahinter  versteckt,  ist  aber  eine  Luftblase.
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	NER=0
+2	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	NER=0
+3	dahinter	dahinter	ADV	ADV	_	4	advmod	_	NER=0
+4	versteckt	verstecken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	csubj	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	NER=0
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	NER=0
+7	aber	aber	ADV	ADV	_	9	advmod	_	NER=0
+8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	NER=0
+9	Luftblase	Luftblase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg891
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg891.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.319
+# text = -  Doch,  dazu  kommen  wir  jetzt  gleich  noch.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Doch	doch	ADV	ADV	_	5	advmod	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	NER=0
+4	dazu	dazu	ADV	PAV	PronType=Dem	5	advmod	_	NER=0
+5	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	NER=0
+7	jetzt	jetzt	ADV	ADV	_	5	advmod	_	NER=0
+8	gleich	gleich	ADV	ADV	_	9	advmod	_	NER=0
+9	noch	noch	ADV	ADV	_	5	advmod	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg892
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg892.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.156
+# text = Ich  stimme  mit  Ihnen  überein,  dass  die  Bekämpfung  der  Arbeitslosigkeit  ein  ganz  zentrales  Thema  für  uns  alle  ist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	stimme	stimmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	mit	mit	ADP	APPR	_	4	case	_	NER=0
+4	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	2	obl	_	NER=0
+5	überein	überein	ADV	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	15	punct	_	NER=0
+7	dass	dass	SCONJ	KOUS	_	15	mark	_	NER=0
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER=0
+9	Bekämpfung	Bekämpfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	NER=0
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER=0
+11	Arbeitslosigkeit	Arbeitslosigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	NER=0
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	15	det	_	NER=0
+13	ganz	ganz	ADV	ADV	_	14	advmod	_	NER=0
+14	zentrales	zentral	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	NER=0
+15	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	ccomp	_	NER=0
+16	für	für	ADP	APPR	_	17	case	_	NER=0
+17	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	nmod	_	NER=0
+18	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	15	nmod	_	NER=0
+19	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	NER=0|SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg892.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.209
+# text = Es  ist  für  die  Gesellschaft,  für  die  sozialen  Sicherungssysteme  in  unserem  Land,  für  unsere  Finanzen  und  in  erster  Linie  für  die  Menschen  in  unserem  Land  ein  zentrales  Thema.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	NER-O
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	NER-O
+3	für	für	ADP	APPR	_	5	case	_	NER-O
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Gesellschaft	Gesellschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	NER-O|SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	NER-O
+7	für	für	ADP	APPR	_	10	case	_	NER-O
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	NER-O
+9	sozialen	sozial	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	NER=B-MISC
+10	Sicherungssysteme	Sicherungssystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	nmod	_	NER-O
+11	in	in	ADP	APPR	_	13	case	_	NER-O
+12	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	NER-O
+13	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	NER-O|SpaceAfter=No
+14	,	,	PUNCT	$,	_	10	punct	_	NER-O
+15	für	für	ADP	APPR	_	17	case	_	NER-O
+16	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det:poss	_	NER-O
+17	Finanzen	Finanz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	conj	_	NER-O
+18	und	und	CCONJ	KON	_	21	cc	_	NER-O
+19	in	in	ADP	APPR	_	21	case	_	NER-O
+20	erster	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	21	amod	_	NER-O
+21	Linie	Linie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	conj	_	NER-O
+22	für	für	ADP	APPR	_	24	case	_	NER-O
+23	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	24	det	_	NER-O
+24	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	nmod	_	NER-O
+25	in	in	ADP	APPR	_	27	case	_	NER-O
+26	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	27	det:poss	_	NER-O
+27	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	NER-O
+28	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	30	det	_	NER-O
+29	zentrales	zentral	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	NER-O
+30	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	NER-O|SpaceAfter=No
+31	.	.	PUNCT	$.	_	30	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg893
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg893.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.928
+# text = Vor  einer  Woche  haben  wir  den  Evaluierungsbericht  zu  Hartz  I  bis  III  diskutiert.
+1	Vor	vor	ADP	APPR	_	3	case	_	NER-O
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	NER-O
+3	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	NER-O
+4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	NER-O
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	NER-O
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER-O
+7	Evaluierungsbericht	Evaluierungsbericht	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	NER-O
+8	zu	zu	ADP	APPR	_	9	case	_	NER-O
+9	Hartz	Hartz	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	NER=B-MISC
+10	I	I	PROPN	CARD	Case=Dat	9	appos	_	NER=I-MISC
+11	bis	bis	ADP	APPR	_	12	case	_	NER=I-MISC
+12	III	III	PROPN	CARD	NumType=Card	9	nmod	_	NER=I-MISC
+13	diskutiert	diskutieren	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg893.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.04
+# text = Dieses  Projekt  wurde  von  Rot-Grün  auf  den  Weg  gebracht.
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	NER=0
+2	Projekt	Projekt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	NER=0
+3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	aux:pass	_	NER=0
+4	von	von	ADP	APPR	_	5	case	_	NER=0
+5	Rot	Rot	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl:agent	_	NER=0|SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	NER=0|SpaceAfter=No
+7	Grün	Grün	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	5	flat	_	NER=0
+8	auf	auf	ADP	APPR	_	10	case	_	NER=0
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	NER=0
+10	Weg	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	NER=0
+11	gebracht	bringen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg894
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg894.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.498
+# text = -
+1	-	-	PUNCT	$(	_	0	root	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg894.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.651
+# text = Wir  müssen  jetzt  ja  Rücksicht  auf  unseren  Koalitionspartner  nehmen.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	NER=0
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0
+3	jetzt	jetzt	ADV	ADV	_	9	advmod	_	NER=0
+4	ja	ja	ADV	ADV	_	9	advmod	_	NER=0
+5	Rücksicht	Rücksicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	NER=0
+6	auf	auf	ADP	APPR	_	8	case	_	NER=0
+7	unseren	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	NER=0
+8	Koalitionspartner	Koalitionspartner	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	NER=0
+9	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg894.s3
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.595
+# text = Deswegen  sagen  auch  wir  nur:  Es  war  nicht  ganz  so  doll.
+1	Deswegen	deswegen	ADV	PAV	_	2	advmod	_	NER=0
+2	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	auch	auch	ADV	ADV	_	2	advmod	_	NER=0
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+5	nur	nur	ADV	ADV	_	2	advmod	_	NER=0|SpaceAfter=No
+6	:	:	PUNCT	$.	_	12	punct	_	NER=0
+7	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	NER=0
+8	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	NER=0
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	NER=0
+10	ganz	ganz	ADV	ADV	_	11	advmod	_	NER=0
+11	so	so	ADV	ADV	_	12	advmod	_	NER=0
+12	doll	doll	ADJ	ADJD	Degree=Pos	2	parataxis	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg895
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg895.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.271
+# text = -  Ja,  die  zentralen  Teile.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Ja	Ja	ADV	ADV	_	0	root	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	NER=0
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	NER=0
+5	zentralen	zentral	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	NER=0
+6	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	appos	_	NER=0|SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg895.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.343
+# text = Bei  dem,  was  gescheitert  ist,  haben  wir  eben  nicht  mitgemacht.
+1	Bei	bei	ADP	APPR	_	2	case	_	NER=0
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	NER=0
+4	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	NER=0
+5	gescheitert	scheitern	ADJ	VVPP	Degree=Pos|VerbForm=Part	12	advcl	_	NER=0
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER=0|SpaceAfter=No
+7	,	,	PUNCT	$,	_	5	punct	_	NER=0
+8	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	NER=0
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	NER=0
+10	eben	eben	ADV	ADV	_	11	advmod	_	NER=0
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	NER=0
+12	mitgemacht	mitmachen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg895.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.211
+# text = Denken  Sie  nur  an  die  Personalserviceagenturen:  ein  Verriss  sondergleichen.
+1	Denken	Denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	NER=0
+3	nur	nur	ADV	ADV	_	1	advmod	_	NER=0
+4	an	an	ADP	APPR	_	6	case	_	NER=0
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	NER=0
+6	Personalserviceagenturen	Personalserviceagentur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	obl	_	NER=0|SpaceAfter=No
+7	:	:	PUNCT	$.	_	10	punct	_	NER=0
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	NER=0
+9	Verriss	Verriss	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	NER=0
+10	sondergleichen	sondergleichen	VERB	VVINF	VerbForm=Inf	1	parataxis	_	NER=0|SpaceAfter=No
+11	.	.	PUNCT	$.	_	1	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg895.s4
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.412
+# text = Das  haben  wir  vom  ersten  Tag  an  angemahnt.
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	obj	_	NER=0
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	NER=0
+4-5	vom	_	_	_	_	_	_	_	NER=0
+4	von	von	ADP	APPR	_	7	case	_	NA
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NA
+6	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing	7	amod	_	NER=0
+7	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	NER=0
+8	an	an	ADP	APZR	_	7	case	_	NER=0
+9	angemahnt	anmahnen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg896
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg896.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.594
+# text = Jetzt  laufen  wir  wieder  in  genau  die  gleiche  Richtung.
+1	Jetzt	jetzt	ADV	ADV	_	2	advmod	_	NER=0
+2	laufen	laufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+4	wieder	wieder	ADV	ADV	_	2	advmod	_	NER=0
+5	in	in	ADP	APPR	_	9	case	_	NER=0
+6	genau	genau	ADV	ADV	_	9	advmod	_	NER=0
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER=0
+8	gleiche	gleich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	NER=0
+9	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg897
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg897.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.409
+# text = Der  Evaluierungsbericht  zu  Hartz  I  bis  III  sollte  uns  deutlich  gemacht  haben,  dass  wir  jetzt  Reformen  brauchen,  die  greifen.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Evaluierungsbericht	Evaluierungsbericht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	NER-O
+3	zu	zu	ADP	APPR	_	4	case	_	NER-O
+4	Hartz	Hartz	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	NER=B-MISC
+5	I	I	PROPN	CARD	NumType=Card	4	appos	_	NER=I-MISC
+6	bis	bis	ADP	APPR	_	7	case	_	NER=I-MISC
+7	III	III	PROPN	CARD	NumType=Card	4	nmod	_	NER=I-MISC
+8	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	NER-O
+9	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	obl:arg	_	NER-O
+10	deutlich	deutlich	ADJ	ADJD	Degree=Pos	11	advmod	_	NER-O
+11	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O
+12	haben	haben	AUX	VAINF	VerbForm=Inf	11	aux	_	NER-O|SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	NER-O
+14	dass	dass	SCONJ	KOUS	_	18	mark	_	NER-O
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	NER-O
+16	jetzt	jetzt	ADV	ADV	_	18	advmod	_	NER-O
+17	Reformen	Reform	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	NER-O
+18	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	NER-O|SpaceAfter=No
+19	,	,	PUNCT	$,	_	21	punct	_	NER-O
+20	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	21	nsubj	_	NER-O
+21	greifen	greifen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	NER-O|SpaceAfter=No
+22	.	.	PUNCT	$.	_	11	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg898
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg898.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.523
+# text = Da  wir  Reformen  brauchen,  die  greifen,  müssen  wir  sie  auch  sachlich  durchdiskutieren  und  erörtern.
+1	Da	da	SCONJ	KOUS	_	4	mark	_	NER=0
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	NER=0
+3	Reformen	Reform	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	NER=0
+4	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	NER=0
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	7	nsubj	_	NER=0
+7	greifen	greifen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	NER=0|SpaceAfter=No
+8	,	,	PUNCT	$,	_	4	punct	_	NER=0
+9	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	NER=0
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	NER=0
+11	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	NER=0
+12	auch	auch	ADV	ADV	_	13	advmod	_	NER=0
+13	sachlich	sachlich	ADJ	ADJD	Degree=Pos	14	advmod	_	NER=0
+14	durchdiskutieren	durchdiskutieren	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0
+15	und	und	CCONJ	KON	_	16	cc	_	NER=0
+16	erörtern	erörtern	VERB	VVINF	VerbForm=Inf	14	conj	_	NER=0|SpaceAfter=No
+17	.	.	PUNCT	$.	_	14	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg898.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.524
+# text = Wir  müssen  das  Pro  und  Contra  abwägen
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	NER-O
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	NER-O
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	NER-O
+4	Pro	pro	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	NER=B-ORG|QID=B-Q67677
+5	und	und	CCONJ	KON	_	6	cc	_	NER-O
+6	Contra	Contra	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	4	conj	_	NER=B-MISC|QID=B-Q286810
+7	abwägen	abwägen	VERB	VVINF	VerbForm=Inf	0	root	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg899
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg899.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.216
+# text = und  es  nicht  so  machen,  wie  Sie,  nämlich  einen  Schnellschuss  in  die  Welt  setzen  und  sich  dann  wieder  von  der  Diskussion  verabschieden.
+1	und	und	CCONJ	KON	_	5	cc	_	NER=0
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	NER=0
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	NER=0
+4	so	so	ADV	ADV	_	5	advmod	_	NER=0
+5	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	16	punct	_	NER=0
+7	wie	wie	SCONJ	KOUS	_	16	mark	_	NER=0
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	NER=0|SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	NER=0
+10	nämlich	nämlich	ADV	ADV	_	16	advmod	_	NER=0
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	NER=0
+12	Schnellschuss	Schnellschuss	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	NER=0
+13	in	in	ADP	APPR	_	15	case	_	NER=0
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER=0
+15	Welt	Welt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	NER=0
+16	setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	NER=0
+17	und	und	CCONJ	KON	_	24	cc	_	NER=0
+18	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	NER=0
+19	dann	dann	ADV	ADV	_	24	advmod	_	NER=0
+20	wieder	wieder	ADV	ADV	_	24	advmod	_	NER=0
+21	von	von	ADP	APPR	_	23	case	_	NER=0
+22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	NER=0
+23	Diskussion	Diskussion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	NER=0
+24	verabschieden	verabscheiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	NER=0|SpaceAfter=No
+25	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg900
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg900.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.046
+# text = -  Ja,  ja,  aber  wir  sind  ja  noch  am  Anfang  dieser  Legislaturperiode,  lieber  Herr  Kolb.
+1	-	-	PUNCT	$(	_	2	punct	_	NER-O
+2	Ja	Ja	ADV	ADV	_	0	root	_	NER-O|SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	NER-O
+4	ja	ja	ADV	ADV	_	2	advmod	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	NER-O
+6	aber	aber	CCONJ	KON	_	8	cc	_	NER-O
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	NER-O
+8	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	appos	_	NER-O
+9	ja	ja	ADV	ADV	_	10	advmod	_	NER-O
+10	noch	noch	ADV	ADV	_	8	advmod	_	NER-O
+11-12	am	_	_	_	_	_	_	_	NER-O
+11	an	an	ADP	APPR	_	13	case	_	NA
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NA
+13	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	NER-O
+14	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	NER-O
+15	Legislaturperiode	Legislaturperiode	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	NER-O|SpaceAfter=No
+16	,	,	PUNCT	$,	_	19	punct	_	NER-O
+17	lieber	lieb	ADV	ADV	_	19	advmod	_	NER-O
+18	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	compound	_	NER=B-PER
+19	Kolb	Kolb	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	NER=I-PER|SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg901
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg901.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.893
+# text = Ihre  Analyse  zum  Niedriglohnsektor  und  zur  Beschäftigungsquote  ist  richtig.
+1	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	NER=0
+2	Analyse	Analyse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	NER=0
+3-4	zum	_	_	_	_	_	_	_	NER=0
+3	zu	zu	ADP	APPR	_	5	case	_	NA
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NA
+5	Niedriglohnsektor	Niedriglohnsektor	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	NER=0
+6	und	und	CCONJ	KON	_	9	cc	_	NER=0
+7-8	zur	_	_	_	_	_	_	_	NER=0
+7	zu	zu	ADP	APPR	_	9	case	_	NA
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NA
+9	Beschäftigungsquote	Beschäftigungsquote	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	NER=0
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	NER=0
+11	richtig	richtig	ADJ	ADJD	Degree=Pos	0	root	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg901.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.334
+# text = Sie  sagen,  die  Beschäftigungsquote  im  Hinblick  auf  die  Langzeitarbeitslosen  und  die  Geringqualifizierten  ist  immer  noch  zu  gering.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	NER=0
+2	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	19	punct	_	NER=0
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER=0
+5	Beschäftigungsquote	Beschäftigungsquote	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	NER=0
+6-7	im	_	_	_	_	_	_	_	NER=0
+6	in	in	ADP	APPR	_	8	case	_	NA
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	NA
+8	Hinblick	Hinblick	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	NER=0
+9	auf	auf	ADP	APPR	_	11	case	_	NER=0
+10	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	NER=0
+11	Langzeitarbeitslosen	Langzeitarbeitslose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	NER=0
+12	und	und	CCONJ	KON	_	14	cc	_	NER=0
+13	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	14	det	_	NER=0
+14	Geringqualifizierten	Geringqualifizierten	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	conj	_	NER=0
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	NER=0
+16	immer	immer	ADV	ADV	_	17	advmod	_	NER=0
+17	noch	noch	ADV	ADV	_	18	advmod	_	NER=0
+18	zu	zu	ADV	PTKA	_	19	advmod	_	NER=0
+19	gering	gering	ADJ	ADJD	Degree=Pos	2	ccomp	_	NER=0|SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg901.s3
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 5.309
+# text = Hier  sind  wir  vollkommen  d'accord.
+1	Hier	hier	ADV	ADV	_	5	advmod	_	NER=0
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	NER=0
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	NER=0
+4	vollkommen	vollkommen	ADJ	ADJD	Degree=Pos	5	advmod	_	NER=0
+5	d'	d'	PROPN	NE	Foreign=Yes	0	root	_	NER=0|SpaceAfter=No
+6	accord	accord	PROPN	NE	Foreign=Yes	5	flat	_	NER=0|SpaceAfter=No
+7	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg901.s4
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.159
+# text = In  einem  entscheidenden  Punkt  liegen  Sie  meines  Erachtens  aber  falsch.
+1	In	in	ADP	APPR	_	4	case	_	NER=0
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	NER=0
+3	entscheidenden	entscheidend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	NER=0
+4	Punkt	Punkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NER=0
+5	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	NER=0
+7	meines	mein	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	NER=0
+8	Erachtens	Erachten	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	obl:arg	_	NER=0
+9	aber	aber	ADV	ADV	_	5	advmod	_	NER=0
+10	falsch	falsch	ADJ	ADJD	Degree=Pos	5	xcomp	_	NER=0|SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg901.s5
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.112
+# text = Wenn  Sie  sagen,  die  Lohnzusatzkosten  seien  der  Grund  für  die  schwache  Beschäftigung  der  Geringqualifizierten  und  der  Langzeitarbeitslosen,  dann  haben  Sie  das  Thema  verfehlt.
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	NER-O
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	NER-O
+3	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	NER-O|SpaceAfter=No
+4	,	,	PUNCT	$,	_	9	punct	_	NER-O
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	NER-O
+6	Lohnzusatzkosten	Lohnzusatzkosten	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	NER=B-LOC
+7	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	NER-O
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NER-O
+9	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	NER-O
+10	für	für	ADP	APPR	_	13	case	_	NER-O
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	NER-O
+12	schwache	schwach	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	NER-O
+13	Beschäftigung	Beschäftigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	NER-O
+14	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	15	det	_	NER-O
+15	Geringqualifizierten	Geringqualifizierten	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	NER-O
+16	und	und	CCONJ	KON	_	18	cc	_	NER-O
+17	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	18	det	_	NER-O
+18	Langzeitarbeitslosen	Langzeitarbeitslose	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	15	conj	_	NER-O|SpaceAfter=No
+19	,	,	PUNCT	$,	_	9	punct	_	NER-O
+20	dann	dann	ADV	ADV	_	25	advmod	_	NER-O
+21	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	NER-O
+22	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	25	nsubj	_	NER-O
+23	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	NER-O
+24	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	NER-O
+25	verfehlt	verfehlen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+26	.	.	PUNCT	$.	_	25	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg901.s6
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.903
+# text = Ich  möchte  Ihnen  das  an  zwei  Beispielen  deutlich  machen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	NER=0
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	NER=0
+3	Ihnen	Sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	9	obl:arg	_	NER=0
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	obj	_	NER=0
+5	an	an	ADP	APPR	_	7	case	_	NER=0
+6	zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	NER=0
+7	Beispielen	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	NER=0
+8	deutlich	deutlich	ADJ	ADJD	Degree=Pos	9	advmod	_	NER=0
+9	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg902
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg902.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.243
+# text = Zunächst  aus  Sicht  der  Arbeitgeber:  Schauen  Sie  sich  das  Grenzgebiet  zu  Tschechien  an.
+1	Zunächst	zunächst	ADV	ADV	_	3	advmod	_	NER-O
+2	aus	aus	ADP	APPR	_	3	case	_	NER-O
+3	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	NER-O
+4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	5	det	_	NER-O
+5	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	NER-O|SpaceAfter=No
+6	:	:	PUNCT	$.	_	3	punct	_	NER-O
+7	Schauen	Schau	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	NER-O
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obl:arg	_	NER-O
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	NER-O
+11	Grenzgebiet	Grenzgebiet	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	NER-O
+12	zu	zu	ADP	APPR	_	13	case	_	NER-O
+13	Tschechien	Tschechien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	NER=B-LOC|QID=B-Q213
+14	an	an	ADP	PTKVZ	_	7	compound:prt	_	NER-O|SpaceAfter=No
+15	.	.	PUNCT	$.	_	7	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg902.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.391
+# text = Wenn  ein  Arbeitnehmer  in  Bayern  8  Euro  verdient,  während  man  hinter  der  Grenze  in  der  Slowakei  oder  in  Tschechien  vielleicht  zwischen  3  und  5  Euro  Lohn  erhält,  dann  spielen  Sozialabgaben  in  Höhe  von  10,  15  oder  20  Prozent  nur  eine  absolut  untergeordnete  Rolle.
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	NER-O
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	NER-O
+3	Arbeitnehmer	Arbeitnehmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	NER-O
+4	in	in	ADP	APPR	_	5	case	_	NER-O
+5	Bayern	Bayern	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	NER=B-LOC|QID=B-Q980
+6	8	8	NUM	CARD	NumType=Card	7	nummod	_	NER-O
+7	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	NER-O
+8	verdient	verdienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	NER-O|SpaceAfter=No
+9	,	,	PUNCT	$,	_	28	punct	_	NER-O
+10	während	während	SCONJ	KOUS	_	28	mark	_	NER-O
+11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	28	nsubj	_	NER-O
+12	hinter	hinter	ADP	APPR	_	14	case	_	NER-O
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER-O
+14	Grenze	Grenze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	obl	_	NER-O
+15	in	in	ADP	APPR	_	17	case	_	NER-O
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	NER-O
+17	Slowakei	Slowakei	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	NER=B-LOC|QID=B-Q214
+18	oder	oder	CCONJ	KON	_	20	cc	_	NER-O
+19	in	in	ADP	APPR	_	20	case	_	NER-O
+20	Tschechien	Tschechien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	17	conj	_	NER=B-LOC|QID=B-Q213
+21	vielleicht	vielleicht	ADV	ADV	_	28	advmod	_	NER-O
+22	zwischen	zwischen	ADP	APPR	_	26	case	_	NER-O
+23	3	3	NUM	CARD	NumType=Card	26	nummod	_	NER-O
+24	und	und	CCONJ	KON	_	25	cc	_	NER-O
+25	5	5	NUM	CARD	NumType=Card	23	conj	_	NER-O
+26	Euro	Euro	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	28	obl	_	NER-O
+27	Lohn	Lohn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	NER-O
+28	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	NER-O|SpaceAfter=No
+29	,	,	PUNCT	$,	_	28	punct	_	NER-O
+30	dann	dann	ADV	ADV	_	31	advmod	_	NER-O
+31	spielen	spielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+32	Sozialabgaben	Sozialabgabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	NER-O
+33	in	in	ADP	APPR	_	34	case	_	NER-O
+34	Höhe	Höhe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	nmod	_	NER-O
+35	von	von	ADP	APPR	_	41	case	_	NER-O
+36	10	10	NUM	CARD	NumType=Card	41	nummod	_	NER-O|SpaceAfter=No
+37	,	,	PUNCT	$,	_	38	punct	_	NER-O
+38	15	15	NUM	CARD	NumType=Card	36	conj	_	NER-O
+39	oder	oder	CCONJ	KON	_	40	cc	_	NER-O
+40	20	20	NUM	CARD	NumType=Card	36	conj	_	NER-O
+41	Prozent	Prozent	NOUN	NN	Gender=Neut|Number=Plur	34	nmod	_	NER-O
+42	nur	nur	ADV	ADV	_	31	advmod	_	NER-O
+43	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	46	det	_	NER-O
+44	absolut	absolut	ADJ	ADJD	Degree=Pos	45	advmod	_	NER-O
+45	untergeordnete	untergeordnet	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	NER-O
+46	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	NER-O|SpaceAfter=No
+47	.	.	PUNCT	$.	_	31	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg902.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.16
+# text = Dieses  Beschäftigungsverhältnis  wird  nicht  attraktiv.
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	NER=0
+2	Beschäftigungsverhältnis	Beschäftigungsverhältnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	NER=0
+3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	NER=0
+5	attraktiv	attraktiv	ADJ	ADJD	Degree=Pos	3	xcomp	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg903
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg903.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.304
+# text = -  Stopp,  stopp!
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Stopp	Stopp	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	NER=0
+4	stopp	stoppen	ADJ	ADJD	Degree=Pos	2	appos	_	NER=0|SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg904
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg904.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.529
+# text = Das  zweite  Beispiel  ist  aus  Sicht  der  Arbeitnehmer:  Schauen  Sie  sich  das  heutige  System  mit  Hartz  IV  an.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	NER-O
+2	zweite	zweit	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	3	amod	_	NER-O
+3	Beispiel	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	NER-O
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+5	aus	aus	ADP	APPR	_	6	case	_	NER-O
+6	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	NER-O
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	NER-O
+8	Arbeitnehmer	Arbeitnehmer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	NER-O|SpaceAfter=No
+9	:	:	PUNCT	$.	_	10	punct	_	NER-O
+10	Schauen	Schau	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	NER-O
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	NER-O
+12	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obl:arg	_	NER-O
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	NER-O
+14	heutige	heutig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	NER-O
+15	System	System	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	NER-O
+16	mit	mit	ADP	APPR	_	17	case	_	NER-O
+17	Hartz	Hartz	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	NER=B-PER
+18	IV	IV	PROPN	CARD	NumType=Card	17	appos	_	NER=I-PER
+19	an	an	ADP	PTKVZ	_	10	compound:prt	_	NER-O|SpaceAfter=No
+20	.	.	PUNCT	$.	_	10	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg904.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.05
+# text = Ein  vierköpfiger  Familienvater  -  -
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	NER=0
+2	vierköpfiger	vierköpfig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	NER=0
+3	Familienvater	Familienvater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0
+4	-	-	PUNCT	$(	_	3	punct	_	NER=0
+5	-	-	PUNCT	$(	_	3	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg905
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg905.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.969
+# text = -  Sie  wissen,  wie  ich  das  gemeint  habe.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	NER=0
+3	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0|SpaceAfter=No
+4	,	,	PUNCT	$,	_	8	punct	_	NER=0
+5	wie	wie	SCONJ	KOUS	_	8	mark	_	NER=0
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	NER=0
+7	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	obj	_	NER=0
+8	gemeint	meinen	VERB	VVPP	VerbForm=Part	3	ccomp	_	NER=0
+9	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg905.s2
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.902
+# text = -  Schauen  Sie  sich  einen  Familienvater  an,  dessen  Familie  vier  Personen  umfasst  -  es  sind  also  zwei  Kinder,  lieber  Herr  Kolb  -  und  dessen  Stundenlohn,  so  nehmen  Sie  an,  9  Euro  beträgt.
+1	-	-	PUNCT	$(	_	2	punct	_	NER-O
+2	Schauen	Schau	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	NER-O
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obl:arg	_	NER-O
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	NER-O
+6	Familienvater	Familienvater	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER-O
+7	an	an	ADP	PTKVZ	_	2	compound:prt	_	NER-O|SpaceAfter=No
+8	,	,	PUNCT	$,	_	13	punct	_	NER-O
+9	dessen	der	PRON	PRELAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	10	nmod	_	NER-O
+10	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	NER-O
+11	vier	vier	NUM	CARD	NumType=Card	12	nummod	_	NER-O
+12	Personen	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	NER-O
+13	umfasst	umfassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	NER-O
+14	-	-	PUNCT	$(	_	19	punct	_	NER-O
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	NER-O
+16	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	NER-O
+17	also	also	ADV	ADV	_	19	advmod	_	NER-O
+18	zwei	zwei	NUM	CARD	NumType=Card	19	nummod	_	NER-O
+19	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	conj	_	NER-O|SpaceAfter=No
+20	,	,	PUNCT	$,	_	23	punct	_	NER-O
+21	lieber	lieb	ADV	ADV	_	23	advmod	_	NER-O
+22	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	NER-O
+23	Kolb	Kolb	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	NER=B-PER|QID=B-Q15434709
+24	-	-	PUNCT	$(	_	27	punct	_	NER-O
+25	und	und	CCONJ	KON	_	27	cc	_	NER-O
+26	dessen	der	PRON	PRELAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	27	nmod	_	NER-O
+27	Stundenlohn	Stundenlohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	conj	_	NER-O|SpaceAfter=No
+28	,	,	PUNCT	$,	_	30	punct	_	NER-O
+29	so	so	ADV	ADV	_	30	advmod	_	NER-O
+30	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	NER-O
+31	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	30	nsubj	_	NER-O
+32	an	an	ADP	PTKVZ	_	30	compound:prt	_	NER-O|SpaceAfter=No
+33	,	,	PUNCT	$,	_	36	punct	_	NER-O
+34	9	9	NUM	CARD	NumType=Card	35	nummod	_	NER-O
+35	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	36	obj	_	NER-O
+36	beträgt	betragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	xcomp	_	NER-O|SpaceAfter=No
+37	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg905.s3
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.468
+# text = Er  arbeitet  160  bis  170  Stunden  im  Monat.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=0
+2	arbeitet	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	160	160	NUM	CARD	NumType=Card	6	nummod	_	NER=0
+4	bis	bis	ADP	KON	_	5	case	_	NER=0
+5	170	170	NUM	CARD	NumType=Card	3	nmod	_	NER=0
+6	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	NER=0
+7-8	im	_	_	_	_	_	_	_	NER=0
+7	in	in	ADP	APPR	_	9	case	_	NA
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NA
+9	Monat	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg905.s4
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.863
+# text = Dadurch  kommt  er  auf  einen  durchschnittlichen  Bruttolohn  von  circa  1  500  Euro.
+1	Dadurch	dadurch	ADV	PAV	PronType=Dem	2	advmod	_	NER=0
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=0
+4	auf	auf	ADP	APPR	_	7	case	_	NER=0
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	NER=0
+6	durchschnittlichen	durchschnittlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	NER=0
+7	Bruttolohn	Bruttolohn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	NER=0
+8	von	von	ADP	APPR	_	12	case	_	NER=0
+9	circa	circa	ADV	ADV	_	10	advmod	_	NER=0
+10	1	1	NUM	CARD	NumType=Card	11	nummod	_	NER=0
+11	500	500	NUM	CARD	NumType=Card	12	nummod	_	NER=0
+12	Euro	Euro	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg905.s5
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.564
+# text = Das  ist  genau  der  Betrag,  den  er  heute  schon  durch  Hartz  IV  erhalten  würde.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	NER-O
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER-O
+3	genau	genau	ADV	ADV	_	5	advmod	_	NER-O
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Betrag	Betrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER-O|SpaceAfter=No
+6	,	,	PUNCT	$,	_	14	punct	_	NER-O
+7	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	14	obj	_	NER-O
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	NER-O
+9	heute	heute	ADV	ADV	_	14	advmod	_	NER-O
+10	schon	schon	ADV	ADV	_	14	advmod	_	NER-O
+11	durch	durch	ADP	APPR	_	12	case	_	NER-O
+12	Hartz	Hartz	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	NER=B-MISC
+13	IV	IV	PROPN	CARD	NumType=Card	12	appos	_	NER=I-MISC
+14	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	5	acl	_	NER-O
+15	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	NER-O|SpaceAfter=No
+16	.	.	PUNCT	$.	_	5	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg905.s6
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.251
+# text = Auch  er  hat  also  keinen  Anreiz,  eine  Tätigkeit  aufzunehmen,  weil  er  dieses  Geld  ja  bekommen  kann,  ohne  dass  er  arbeitet.
+1	Auch	auch	ADV	ADV	_	2	advmod	_	NER=0
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	NER=0
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+4	also	also	ADV	ADV	_	3	advmod	_	NER=0
+5	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	6	det	_	NER=0
+6	Anreiz	Anreiz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	NER=0|SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	NER=0
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	NER=0
+9	Tätigkeit	Tätigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	NER=0
+10	aufzunehmen	aufnehmen	VERB	VVIZU	VerbForm=Inf	6	xcomp	_	NER=0|SpaceAfter=No
+11	,	,	PUNCT	$,	_	17	punct	_	NER=0
+12	weil	weil	SCONJ	KOUS	_	17	mark	_	NER=0
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	NER=0
+14	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	NER=0
+15	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	NER=0
+16	ja	ja	ADV	ADV	_	17	advmod	_	NER=0
+17	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	3	advcl	_	NER=0
+18	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	NER=0|SpaceAfter=No
+19	,	,	PUNCT	$,	_	23	punct	_	NER=0
+20	ohne	ohne	ADP	KOUI	_	23	mark	_	NER=0
+21	dass	dass	SCONJ	KOUS	_	23	mark	_	NER=0
+22	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	NER=0
+23	arbeitet	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	NER=0|SpaceAfter=No
+24	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg905.s7
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.206
+# text = Auch  für  ihn  spielen  die  Sozialversicherungsabgaben  im  Grunde  genommen  überhaupt  keine  Rolle.
+1	Auch	auch	ADV	ADV	_	3	advmod	_	NER-O
+2	für	für	ADP	APPR	_	3	case	_	NER-O
+3	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	NER-O
+4	spielen	spielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	NER-O
+6	Sozialversicherungsabgaben	Sozialversicherungsabgabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	NER=B-MISC
+7-8	im	_	_	_	_	_	_	_	NER-O
+7	in	in	ADP	APPR	_	9	case	_	NA
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NA
+9	Grunde	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	NER-O
+10	genommen	nehmen	VERB	VVPP	VerbForm=Part	4	advmod	_	NER-O
+11	überhaupt	überhaupt	ADV	ADV	_	4	advmod	_	NER-O
+12	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	13	det	_	NER-O
+13	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	NER-O|SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg905.s8
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.318
+# text = -  Das  sind  nur  zwei  Beispiele,  die  ich  erwähnen  wollte.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	NER=0
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	NER=0
+4	nur	nur	ADV	ADV	_	6	advmod	_	NER=0
+5	zwei	zwei	NUM	CARD	NumType=Card	6	nummod	_	NER=0
+6	Beispiele	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	NER=0|SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	NER=0
+8	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	10	obj	_	NER=0
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	NER=0
+10	erwähnen	erwähnen	VERB	VVINF	VerbForm=Inf	6	acl	_	NER=0
+11	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg906
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg906.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.006
+# text = Jetzt  möchte  ich  aber  auch  noch  ein  paar  Fragen  zu  Ihrem  Antrag  aufwerfen.
+1	Jetzt	jetzt	ADV	ADV	_	13	advmod	_	NER=0
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	NER=0
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	NER=0
+4	aber	aber	ADV	ADV	_	13	advmod	_	NER=0
+5	auch	auch	ADV	ADV	_	6	advmod	_	NER=0
+6	noch	noch	ADV	ADV	_	13	advmod	_	NER=0
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	NER=0
+8	paar	paar	ADJ	PIAT	Degree=Pos	9	nmod	_	NER=0
+9	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	NER=0
+10	zu	zu	ADP	APPR	_	12	case	_	NER=0
+11	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	NER=0
+12	Antrag	Antrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	NER=0
+13	aufwerfen	aufwerfen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg906.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.127
+# text = Sie  haben  hier  formuliert,  dass  zusätzliche  Steuergelder  in  Höhe  von  13  Milliarden  Euro  erforderlich  sind.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	NER=0
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	NER=0
+3	hier	hier	ADV	ADV	_	4	advmod	_	NER=0
+4	formuliert	formulieren	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	15	punct	_	NER=0
+6	dass	dass	SCONJ	KOUS	_	15	mark	_	NER=0
+7	zusätzliche	zusätzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	NER=0
+8	Steuergelder	Steuergeld	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	NER=0
+9	in	in	ADP	APPR	_	10	case	_	NER=0
+10	Höhe	Höhe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	NER=0
+11	von	von	ADP	APPR	_	14	case	_	NER=0
+12	13	13	NUM	CARD	NumType=Card	13	nummod	_	NER=0
+13	Milliarden	Milliarde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	NER=0
+14	Euro	Euro	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	NER=0
+15	erforderlich	erforderlich	ADJ	ADJD	Degree=Pos	4	ccomp	_	NER=0
+16	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	NER=0|SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg907
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg907.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.474
+# text = Meine  erste  Frage  lautet:  Woher  nehmen  Sie  die?
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	NER=0
+2	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	3	amod	_	NER=0
+3	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	NER=0
+4	lautet	lauten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0|SpaceAfter=No
+5	:	:	PUNCT	$.	_	7	punct	_	NER=0
+6	Woher	woher	ADV	PWAV	PronType=Int	7	advmod	_	NER=0
+7	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	NER=0
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	NER=0
+9	die	der	PRON	PDS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	7	obj	_	NER=0|SpaceAfter=No
+10	?	?	PUNCT	$.	_	7	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg908
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg908.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.108
+# text = -  Seien  Sie  doch  bitte  mal  konkret.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Seien	seien	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	NER=0
+4	doch	doch	ADV	ADV	_	2	advmod	_	NER=0
+5	bitte	bitten	ADV	ADV	_	2	advmod	_	NER=0
+6	mal	mal	ADV	ADV	_	2	advmod	_	NER=0
+7	konkret	konkret	ADJ	ADJD	Degree=Pos	2	advmod	_	NER=0|SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg908.s2
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 4.67
+# text = Wir  wollen  hier  eine  ernsthafte  und  seriöse  Politik  betreiben.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	NER=0
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0
+3	hier	hier	ADV	ADV	_	9	advmod	_	NER=0
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	NER=0
+5	ernsthafte	ernsthaft	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	NER=0
+6	und	und	CCONJ	KON	_	7	cc	_	NER=0
+7	seriöse	seriös	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	NER=0
+8	Politik	Politik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	NER=0
+9	betreiben	betreiben	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg908.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.585
+# text = Deshalb  bitte  ich  Sie  einmal,  diese  Frage  ganz  konkret  zu  beantworten.
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	NER=0
+2	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+4	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	obj	_	NER=0
+5	einmal	einmal	ADV	ADV	_	2	advmod	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	NER=0
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	NER=0
+8	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	NER=0
+9	ganz	ganz	ADV	ADV	_	10	advmod	_	NER=0
+10	konkret	konkret	ADJ	ADJD	Degree=Pos	12	advmod	_	NER=0
+11	zu	zu	PART	PTKZU	_	12	mark	_	NER=0
+12	beantworten	beantworten	VERB	VVINF	VerbForm=Inf	2	xcomp	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg909
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg909.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.395
+# text = Meine  zweite  Frage,  Frau  Pothmer:  Völlig  ungeklärt  ist  auch,  wie  sich  die  Situation  im  Alter  darstellt,  wenn  die  betroffenen  Personen  keine  Rentenversicherungsbeiträge  mehr  zahlen.
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	NER=B-PER|QID=B-Q502807
+2	zweite	zweit	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	3	amod	_	NER-O
+3	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER-O|SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	NER-O
+5	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	NER-O
+6	Pothmer	Pothmer	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	NER=B-PER|QID=B-Q916571|SpaceAfter=No
+7	:	:	PUNCT	$.	_	9	punct	_	NER-O
+8	Völlig	völlig	ADJ	ADJD	Degree=Pos	9	advmod	_	NER-O
+9	ungeklärt	ungeklärt	ADJ	ADJD	Degree=Pos	3	parataxis	_	NER-O
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	NER-O
+11	auch	auch	ADV	ADV	_	9	advmod	_	NER-O|SpaceAfter=No
+12	,	,	PUNCT	$,	_	20	punct	_	NER-O
+13	wie	wie	SCONJ	KOUS	_	20	mark	_	NER-O
+14	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	NER-O
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	NER-O
+16	Situation	Situation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	NER-O
+17-18	im	_	_	_	_	_	_	_	NER-O
+17	in	in	ADP	APPR	_	19	case	_	NA
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	NA
+19	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	NER-O
+20	darstellt	darstellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	csubj	_	NER-O|SpaceAfter=No
+21	,	,	PUNCT	$,	_	29	punct	_	NER-O
+22	wenn	wenn	SCONJ	KOUS	_	29	mark	_	NER-O
+23	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	25	det	_	NER-O
+24	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	NER-O
+25	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	29	nsubj	_	NER-O
+26	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	27	det	_	NER-O
+27	Rentenversicherungsbeiträge	Rentenversicherungsbeitrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	obj	_	NER-O
+28	mehr	mehr	ADV	ADV	_	29	advmod	_	NER-O
+29	zahlen	zahlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	NER-O|SpaceAfter=No
+30	.	.	PUNCT	$.	_	3	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg909.s2
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.51
+# text = Wer  keine  Rentenversicherungsbeiträge  zahlt,  erwirbt  auch  keine  Rentenansprüche.
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	4	nsubj	_	NER=0
+2	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	3	det	_	NER=0
+3	Rentenversicherungsbeiträge	Rentenversicherungsbeitrag	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	NER=0
+4	zahlt	zahlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	csubj	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	NER=0
+6	erwirbt	erwerben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+7	auch	auch	ADV	ADV	_	6	advmod	_	NER=0
+8	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	9	det	_	NER=0
+9	Rentenansprüche	Rentenanspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg910
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg910.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.498
+# text = -
+1	-	-	PUNCT	$(	_	0	root	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg910.s2
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.215
+# text = Sie  müssen  das  aber  in  Bezug  zur  Erwerbstätigkeit  setzen.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	NER=0
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	NER=0
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	obj	_	NER=0
+4	aber	aber	ADV	ADV	_	10	advmod	_	NER=0
+5	in	in	ADP	APPR	_	6	case	_	NER=0
+6	Bezug	Bezug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NER=0
+7-8	zur	_	_	_	_	_	_	_	NER=0
+7	zu	zu	ADP	APPR	_	9	case	_	NA
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NA
+9	Erwerbstätigkeit	Erwerbstätigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	NER=0
+10	setzen	setzen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg910.s3
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.595
+# text = Wie  lösen  Sie  dieses  Problem?
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	NER=0
+2	lösen	lösen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	NER=0
+4	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	NER=0
+5	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	NER=0|SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg910.s4
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.42
+# text = Da  kommt  nur  Kopfschütteln  und  "Weiß  ich  nicht".
+1	Da	da	ADV	ADV	_	2	advmod	_	NER=0
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	nur	nur	ADV	ADV	_	2	advmod	_	NER=0
+4	Kopfschütteln	Kopfschütteln	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	NER=0
+5	und	und	CCONJ	KON	_	7	cc	_	NER=0
+6	"	"	PUNCT	$(	_	7	punct	_	NER=0|SpaceAfter=No
+7	Weiß	Weiß	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	NER=0
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	NER=0
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	NER=0|SpaceAfter=No
+10	"	"	PUNCT	$(	_	7	punct	_	NER=0|SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg911
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg911.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.039
+# text = Diese  Problembereiche  zeigen  uns  deutlich,  dass  dieser  Antrag  wenig  durchdacht  ist.
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	NER=0
+2	Problembereiche	Problembereich	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	NER=0
+3	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+4	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	obl:arg	_	NER=0
+5	deutlich	deutlich	ADJ	ADJD	Degree=Pos	3	xcomp	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	NER=0
+7	dass	dass	SCONJ	KOUS	_	11	mark	_	NER=0
+8	dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	NER=0
+9	Antrag	Antrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	NER=0
+10	wenig	wenig	DET	PIS	PronType=Ind	11	advmod	_	NER=0
+11	durchdacht	durchdenken	ADJ	ADJD	Degree=Pos	3	ccomp	_	NER=0
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg911.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.644
+# text = Wie  gesagt,  damit  haben  Sie  einen  Schnellschuss  in  die  Welt  abgegeben.
+1	Wie	wie	ADV	KOUS	PronType=Int	2	advmod	_	NER=0
+2	gesagt	sagen	VERB	VVPP	VerbForm=Part	12	advcl	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	NER=0
+4	damit	damit	ADV	PAV	PronType=Dem	12	advmod	_	NER=0
+5	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	NER=0
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	NER=0
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	NER=0
+8	Schnellschuss	Schnellschuss	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	NER=0
+9	in	in	ADP	APPR	_	11	case	_	NER=0
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER=0
+11	Welt	Welt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	NER=0
+12	abgegeben	abgeben	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg911.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.091
+# text = Von  seriöser  Politik  haben  Sie  leider  Gottes  Abstand  genommen.
+1	Von	von	ADP	APPR	_	3	case	_	NER=0
+2	seriöser	seriös	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	NER=0
+3	Politik	Politik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	NER=0
+4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	NER=0
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	NER=0
+6	leider	leider	ADV	ADV	_	9	advmod	_	NER=0
+7	Gottes	Gott	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	NER=0
+8	Abstand	Abstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	NER=0
+9	genommen	nehmen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg912
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg912.s1
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 4.711
+# text = Ich  stimme  Ihnen  völlig  zu,  dass  wir  ein  Modell  brauchen,  das  Lohndumping  eindämmt.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	stimme	stimmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	Ihnen	Sie	PRON	PRF	Case=Dat|Number=Plur|Person=2|PronType=Prs	2	obl:arg	_	NER=0
+4	völlig	völlig	ADJ	ADJD	Degree=Pos	2	advmod	_	NER=0
+5	zu	zu	ADP	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	NER=0
+7	dass	dass	SCONJ	KOUS	_	11	mark	_	NER=0
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	NER=0
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	NER=0
+10	Modell	Modell	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	NER=0
+11	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	NER=0|SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	NER=0
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	NER=0
+14	Lohndumping	Lohndumping	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	NER=0
+15	eindämmt	eindämmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	NER=0|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg912.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.231
+# text = Deswegen  sollten  die  Transferleistungen  meiner  Meinung  nach  beim  Arbeitnehmer  und  nicht  beim  Arbeitgeber  ankommen.
+1	Deswegen	deswegen	ADV	PAV	_	16	advmod	_	NER=0
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	NER=0
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	NER=0
+4	Transferleistungen	Transferleistung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	NER=0
+5	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	NER=0
+6	Meinung	Meinung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	NER=0
+7	nach	nach	ADP	APPO	_	6	case	_	NER=0
+8-9	beim	_	_	_	_	_	_	_	NER=0
+8	bei	bei	ADP	APPR	_	10	case	_	NA
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	NA
+10	Arbeitnehmer	Arbeitnehmer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	NER=0
+11	und	und	CCONJ	KON	_	15	cc	_	NER=0
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	NER=0
+13-14	beim	_	_	_	_	_	_	_	NER=0
+13	bei	bei	ADP	APPR	_	15	case	_	NA
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	NA
+15	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	conj	_	NER=0
+16	ankommen	ankommen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg913
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg913.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.191
+# text = Diese  Diskussion  müssen  und  werden  wir  in  der  nächsten  Zeit  seriös  führen.
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	NER=0
+2	Diskussion	Diskussion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	NER=0
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	NER=0
+4	und	und	CCONJ	KON	_	12	cc	_	NER=0
+5	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	NER=0
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	NER=0
+7	in	in	ADP	APPR	_	10	case	_	NER=0
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NER=0
+9	nächsten	nah	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	10	amod	_	NER=0
+10	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	NER=0
+11	seriös	seriös	ADJ	ADJD	Degree=Pos	12	advmod	_	NER=0
+12	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg913.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.53
+# text = Wir  haben  gesagt,  dass  wir  im  Herbst  ein  Konzept  vorlegen.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	NER=0
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	NER=0
+3	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+4	,	,	PUNCT	$,	_	12	punct	_	NER=0
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	NER=0
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	NER=0
+7-8	im	_	_	_	_	_	_	_	NER=0
+7	in	in	ADP	APPR	_	9	case	_	NA
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NA
+9	Herbst	Herbst	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	NER=0
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	NER=0
+11	Konzept	Konzept	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	NER=0
+12	vorlegen	vorlegen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg914
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg914.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.483
+# text = Aber  ich  möchte  noch  auf  einen  Punkt  ganz  deutlich  hinweisen:  Wir  dürfen  nicht  dem  Irrglauben  unterliegen,  zu  denken,  mit  einem  Kombilohn-  oder  Progressivmodell  könnten  alle  Probleme  in  unserem  Land  gelöst  werden.
+1	Aber	aber	CCONJ	KON	_	10	cc	_	NER=0
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	NER=0
+3	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	NER=0
+4	noch	noch	ADV	ADV	_	10	advmod	_	NER=0
+5	auf	auf	ADP	APPR	_	7	case	_	NER=0
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	NER=0
+7	Punkt	Punkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	NER=0
+8	ganz	ganz	ADV	ADV	_	9	advmod	_	NER=0
+9	deutlich	deutlich	ADJ	ADJD	Degree=Pos	10	advmod	_	NER=0
+10	hinweisen	hinweisen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+11	:	:	PUNCT	$.	_	17	punct	_	NER=0
+12	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	NER=0
+13	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	NER=0
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	NER=0
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	NER=0
+16	Irrglauben	Irrglaube	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl:arg	_	NER=0
+17	unterliegen	unterliegen	VERB	VVINF	VerbForm=Inf	10	ccomp	_	NER=0|SpaceAfter=No
+18	,	,	PUNCT	$,	_	20	punct	_	NER=0
+19	zu	zu	PART	PTKZU	_	20	mark	_	NER=0
+20	denken	denken	VERB	VVINF	VerbForm=Inf	17	xcomp	_	NER=0|SpaceAfter=No
+21	,	,	PUNCT	$,	_	34	punct	_	NER=0
+22	mit	mit	ADP	APPR	_	24	case	_	NER=0
+23	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	24	det	_	NER=0
+24	Kombilohn	Kombilohn	NOUN	TRUNC	_	34	obl	_	NER=0|SpaceAfter=No
+25	-	-	PUNCT	$(	_	27	punct	_	NER=0
+26	oder	oder	CCONJ	KON	_	27	cc	_	NER=0
+27	Progressivmodell	Progressivmodell	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	conj	_	NER=0
+28	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	34	aux	_	NER=0
+29	alle	alle	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Tot	30	det	_	NER=0
+30	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	34	nsubj:pass	_	NER=0
+31	in	in	ADP	APPR	_	33	case	_	NER=0
+32	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	33	det:poss	_	NER=0
+33	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	30	nmod	_	NER=0
+34	gelöst	lösen	VERB	VVPP	VerbForm=Part	17	conj	_	NER=0
+35	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	34	aux:pass	_	NER=0|SpaceAfter=No
+36	.	.	PUNCT	$.	_	10	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg914.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.568
+# text = Wir  brauchen  flankierende  Maßnahmen,  um  Baustellen  wie  die  Deregulierung  am  Arbeitsmarkt,  den  Arbeitsschutz  oder  den  Kündigungsschutz  in  den  Griff  zu  bekommen.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	flankierende	flankierend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	NER=0
+4	Maßnahmen	Maßnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	24	punct	_	NER=0
+6	um	um	ADP	KOUI	_	24	mark	_	NER=0
+7	Baustellen	Baustelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	NER=0
+8	wie	wie	ADP	KOKOM	_	10	case	_	NER=0
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NER=0
+10	Deregulierung	Deregulierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	NER=0
+11-12	am	_	_	_	_	_	_	_	NER=0
+11	an	an	ADP	APPR	_	13	case	_	NA
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NA
+13	Arbeitsmarkt	Arbeitsmarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	NER=0|SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	NER=0
+15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	NER=0
+16	Arbeitsschutz	Arbeitsschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	NER=0
+17	oder	oder	CCONJ	KON	_	19	cc	_	NER=0
+18	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	NER=0
+19	Kündigungsschutz	Kündigungsschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	NER=0
+20	in	in	ADP	APPR	_	22	case	_	NER=0
+21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	NER=0
+22	Griff	Griff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obl	_	NER=0
+23	zu	zu	PART	PTKZU	_	24	mark	_	NER=0
+24	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	2	advcl	_	NER=0|SpaceAfter=No
+25	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg915
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg915.s1
+# senti_3 = Positive
+# senti_6 = positive
+# senti_n = 5.167
+# text = -  Ich  freue  mich,  dass  Sie  applaudieren.
+1	-	-	PUNCT	$(	_	2	punct	_	NER=0
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	NER=0
+3	freue	freuen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	NER=0|SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	NER=0
+6	dass	dass	SCONJ	KOUS	_	8	mark	_	NER=0
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	NER=0
+8	applaudieren	applaudieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	NER=0|SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg916
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg916.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.582
+# text = Wir  müssen  Bürokratie  konsequent  abbauen.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	NER=0
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	NER=0
+3	Bürokratie	Bürokratie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	NER=0
+4	konsequent	konsequent	ADJ	ADJD	Degree=Pos	5	advmod	_	NER=0
+5	abbauen	abbauen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg916.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.584
+# text = Die  Genehmigungsverfahren  sind  zu  lang.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	NER=0
+2	Genehmigungsverfahren	Genehmigungsverfahren	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	NER=0
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER=0
+4	zu	zu	ADV	PTKA	_	5	advmod	_	NER=0
+5	lang	lang	ADJ	ADJD	Degree=Pos	0	root	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg916.s3
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.335
+# text = Wer  sich  heute  in  unserem  Land  selbstständig  machen  will,  braucht  für  das  Einholen  der  Genehmigung  46  Tage.
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	8	nsubj	_	NER=0
+2	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	NER=0
+3	heute	heute	ADV	ADV	_	8	advmod	_	NER=0
+4	in	in	ADP	APPR	_	6	case	_	NER=0
+5	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	NER=0
+6	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	NER=0
+7	selbstständig	selbständig	ADJ	ADJD	Degree=Pos	8	xcomp	_	NER=0
+8	machen	machen	VERB	VVINF	VerbForm=Inf	11	csubj	_	NER=0
+9	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	NER=0|SpaceAfter=No
+10	,	,	PUNCT	$,	_	8	punct	_	NER=0
+11	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+12	für	für	ADP	APPR	_	14	case	_	NER=0
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	NER=0
+14	Einholen	Einhole	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	NER=0
+15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	NER=0
+16	Genehmigung	Genehmigung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	NER=0
+17	46	46	NUM	CARD	NumType=Card	18	nummod	_	NER=0
+18	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	NER=0|SpaceAfter=No
+19	.	.	PUNCT	$.	_	11	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg916.s4
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.202
+# text = In  anderen  europäischen  Ländern  -  um  das  einmal  zu  vergleichen  -  dauert  das  zwischen  zwei  und  zehn  Tagen.
+1	In	in	ADP	APPR	_	4	case	_	NER-O
+2	anderen	anderer	DET	ADJA	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	NER-O
+3	europäischen	europäisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	NER=B-LOC
+4	Ländern	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	NER=I-LOC
+5	-	-	PUNCT	$(	_	10	punct	_	NER-O
+6	um	um	ADP	KOUI	_	10	mark	_	NER-O
+7	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	obj	_	NER-O
+8	einmal	einmal	ADV	ADV	_	10	advmod	_	NER-O
+9	zu	zu	PART	PTKZU	_	10	mark	_	NER-O
+10	vergleichen	vergleichen	VERB	VVINF	VerbForm=Inf	4	advcl	_	NER-O
+11	-	-	PUNCT	$(	_	10	punct	_	NER-O
+12	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+13	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	12	nsubj	_	NER-O
+14	zwischen	zwischen	ADP	APPR	_	18	case	_	NER-O
+15	zwei	zwei	NUM	CARD	NumType=Card	18	nummod	_	NER-O
+16	und	und	CCONJ	KON	_	17	cc	_	NER-O
+17	zehn	zehn	NUM	CARD	NumType=Card	15	conj	_	NER-O
+18	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	NER-O|SpaceAfter=No
+19	.	.	PUNCT	$.	_	12	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg916.s5
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.472
+# text = Das  ist  ein  entscheidender  Unterschied.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	NER=0
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER=0
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	NER=0
+4	entscheidender	entscheidend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	NER=0
+5	Unterschied	Unterschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg916.s6
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.481
+# text = Wir  müssen  darüber  hinaus  mehr  Wert  auf  Qualifizierung  und  Weiterbildung  legen.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	NER=0
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	NER=0
+3	darüber	darüber	ADV	PAV	PronType=Dem	11	advmod	_	NER=0
+4	hinaus	hinaus	ADV	ADV	_	3	advmod	_	NER=0
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	NER=0
+6	Wert	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	NER=0
+7	auf	auf	ADP	APPR	_	8	case	_	NER=0
+8	Qualifizierung	Qualifizierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	NER=0
+9	und	und	CCONJ	KON	_	10	cc	_	NER=0
+10	Weiterbildung	Weiterbildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	NER=0
+11	legen	legen	VERB	VVINF	VerbForm=Inf	0	root	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg917
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg917.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.761
+# text = Ich  habe  nur  einige  Punkte  angerissen,  um  deutlich  zu  machen,  wo  die  Baustellen  der  Zukunft  liegen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	NER=0
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	NER=0
+3	nur	nur	ADV	ADV	_	4	advmod	_	NER=0
+4	einige	einige	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	NER=0
+5	Punkte	Punkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	NER=0
+6	angerissen	anreißen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	NER=0
+8	um	um	ADP	KOUI	_	11	mark	_	NER=0
+9	deutlich	deutlich	ADJ	ADJD	Degree=Pos	11	advmod	_	NER=0
+10	zu	zu	PART	PTKZU	_	11	mark	_	NER=0
+11	machen	machen	VERB	VVINF	VerbForm=Inf	6	advcl	_	NER=0|SpaceAfter=No
+12	,	,	PUNCT	$,	_	18	punct	_	NER=0
+13	wo	wo	ADV	PWAV	PronType=Int	18	advmod	_	NER=0
+14	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	15	det	_	NER=0
+15	Baustellen	Baustelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	NER=0
+16	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	NER=0
+17	Zukunft	Zukunft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	NER=0
+18	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	NER=0|SpaceAfter=No
+19	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg917.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.394
+# text = Sie  haben  einen  kleinen  Teilaspekt  herausgegriffen,  ohne  dies  in  einem  Gesamtzusammenhang  zu  sehen.
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	NER=0
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	NER=0
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	NER=0
+4	kleinen	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	NER=0
+5	Teilaspekt	Teilaspekt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	NER=0
+6	herausgegriffen	herausgreifen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+7	,	,	PUNCT	$,	_	14	punct	_	NER=0
+8	ohne	ohne	ADP	KOUI	_	14	mark	_	NER=0
+9	dies	dieser	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	obj	_	NER=0
+10	in	in	ADP	APPR	_	12	case	_	NER=0
+11	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	NER=0
+12	Gesamtzusammenhang	Gesamtzusammenhang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	NER=0
+13	zu	zu	PART	PTKZU	_	14	mark	_	NER=0
+14	sehen	sehen	VERB	VVINF	VerbForm=Inf	6	advcl	_	NER=0|SpaceAfter=No
+15	.	.	PUNCT	$.	_	6	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg917.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.291
+# text = Deswegen  lehnen  wir  Ihren  Antrag  ab.
+1	Deswegen	deswegen	ADV	PAV	_	2	advmod	_	NER=0
+2	lehnen	lehnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+4	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	NER=0
+5	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER=0
+6	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg918
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg918.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.281
+# text = Ich  hoffe,  Sie  kehren  auf  den  Pfad  der  Tugend  zurück.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	hoffe	hoffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	NER=0
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	NER=0
+5	kehren	kehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	NER=0
+6	auf	auf	ADP	APPR	_	8	case	_	NER=0
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER=0
+8	Pfad	Pfad	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	NER=0
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NER=0
+10	Tugend	Tugend	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	NER=0
+11	zurück	zurück	ADV	PTKVZ	_	5	compound:prt	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg918.s2
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.287
+# text = Konzentrieren  Sie  sich  wieder  auf  das  Wesentliche  und  bringen  Sie  inhaltlich  ausgereifte  Vorschläge  ein!
+1	Konzentrieren	konzentrieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	NER=0
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	NER=0
+4	wieder	wieder	ADV	ADV	_	1	advmod	_	NER=0
+5	auf	auf	ADP	APPR	_	7	case	_	NER=0
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	NER=0
+7	Wesentliche	Wesentliche	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	NER=0
+8	und	und	CCONJ	KON	_	9	cc	_	NER=0
+9	bringen	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	NER=0
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	NER=0
+11	inhaltlich	inhaltlich	ADJ	ADJD	Degree=Pos	9	advmod	_	NER=0
+12	ausgereifte	ausgereift	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	NER=0
+13	Vorschläge	Vorschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	NER=0
+14	ein	ein	ADV	PTKVZ	_	9	compound:prt	_	NER=0|SpaceAfter=No
+15	!	!	PUNCT	$.	_	1	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_2006-02-17-16-020.seg919
+# lang = de
+# sent_id = ParlaMint-DE_2006-02-17-16-020.seg919.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.806
+# text = Herzlichen  Dank.
+1	Herzlichen	herzlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	NER=0
+2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	NER=0
+

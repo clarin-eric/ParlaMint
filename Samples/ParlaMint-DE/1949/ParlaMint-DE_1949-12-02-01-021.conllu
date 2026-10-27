@@ -1,0 +1,277 @@
+# CoNLL-U Representation of Sample of ParlaMint-DE (Beta) / GermaParl v3.0.0-rc4, see https://github.com/PolMine/ParlaMint-DE_beta.
+#
+# newdoc id = ParlaMint-DE_1949-12-02-01-021.u1
+# newpar id = ParlaMint-DE_1949-12-02-01-021.seg1
+# lang = de
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg1.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.881
+# text = Ich  eröffne  die  21.  Sitzung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	eröffne	eröffnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER=0
+4	21.	21.	ADJ	ADJA	Degree=Pos|NumType=Ord	5	amod	_	NER=0
+5	Sitzung	Sitzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	NER=0|SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg1.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.784
+# text = Wir  kommen  nunmehr  zur  Abstimmung  über  den  Antrag  zu  Punkt  14  der  Tagesordnung  der  vorigen  Sitzung:
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	nunmehr	nunmehr	ADV	ADV	_	2	advmod	_	NER=0
+4-5	zur	_	_	_	_	_	_	_	NER=0
+4	zu	zu	ADP	APPR	_	6	case	_	NA
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NA
+6	Abstimmung	Abstimmung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	NER=0
+7	über	über	ADP	APPR	_	9	case	_	NER=0
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NER=0
+9	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	NER=0
+10	zu	zu	ADP	APPR	_	11	case	_	NER=0
+11	Punkt	Punkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	NER=0
+12	14	14	NUM	CARD	NumType=Card	11	appos	_	NER=0
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER=0
+14	Tagesordnung	Tagesordnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	NER=0
+15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	NER=0
+16	vorigen	vorig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	NER=0
+17	Sitzung	Sitzung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	NER=0|SpaceAfter=No
+18	:	:	PUNCT	$.	_	2	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_1949-12-02-01-021.seg2
+# lang = de
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg2.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.401
+# text = Mündlicher  Bericht  des  Ausschusses  für  Heimatvertriebene  über  den  Antrag  der  Fraktion  des  Zentrums  und  über  den  Antrag  der  Fraktion  der  CDU/CSU  betreffend  Wartegeld  und  Pensionen  der  ostvertriebenen  Beamten  (Drucksachen  Nr.  210,  20  und  29  Ziffern  3  und  5).
+1	Mündlicher	fündlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	NER-O
+2	Bericht	Bericht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER-O
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	NER-O
+4	Ausschusses	Ausschuß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	NER=B-MISC
+5	für	für	ADP	APPR	_	6	case	_	NER=I-MISC
+6	Heimatvertriebene	Heimatvertriebener	NOUN	NN	Case=Acc|Number=Plur	4	nmod	_	NER=I-MISC
+7	über	über	ADP	APPR	_	9	case	_	NER-O
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NER-O
+9	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	NER-O
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER-O
+11	Fraktion	Fraktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	NER-O
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Zentrums	Zentrum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	NER=B-ORG
+14	und	und	CCONJ	KON	_	17	cc	_	NER-O
+15	über	über	ADP	APPR	_	17	case	_	NER-O
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	NER-O
+17	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	NER-O
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	NER-O
+19	Fraktion	Fraktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	NER-O
+20	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	NER-O
+21	CDU/CSU	CDU/CSU	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	NER=B-ORG|QID=B-Q1023134
+22	betreffend	betreffend	ADP	APPR	_	23	case	_	NER-O
+23	Wartegeld	Wartegeld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	NER-O
+24	und	und	CCONJ	KON	_	25	cc	_	NER-O
+25	Pensionen	Pension	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	conj	_	NER-O
+26	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	28	det	_	NER-O
+27	ostvertriebenen	ostvertrieben	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	NER-O
+28	Beamten	Beamter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	NER-O
+29	(	(	PUNCT	$(	_	30	punct	_	NER-O|SpaceAfter=No
+30	Drucksachen	Drucksache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	28	appos	_	NER-O
+31	Nr.	Nr.	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	30	appos	_	NER-O
+32	210	210	PROPN	CARD	NumType=Card	31	appos	_	NER-O|SpaceAfter=No
+33	,	,	PUNCT	$,	_	34	punct	_	NER-O
+34	20	20	NUM	CARD	NumType=Card	31	conj	_	NER-O
+35	und	und	CCONJ	KON	_	37	cc	_	NER-O
+36	29	29	NUM	CARD	NumType=Card	37	nummod	_	NER-O
+37	Ziffern	Ziffer	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	30	conj	_	NER-O
+38	3	3	NUM	CARD	NumType=Card	37	appos	_	NER-O
+39	und	und	CCONJ	KON	_	40	cc	_	NER-O
+40	5	5	NUM	CARD	NumType=Card	38	conj	_	NER-O|SpaceAfter=No
+41	)	)	PUNCT	$(	_	30	punct	_	NER-O|SpaceAfter=No
+42	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_1949-12-02-01-021.seg3
+# lang = de
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg3.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.363
+# text = —
+1	—	—	PUNCT	$(	_	0	root	_	NER=0
+
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg3.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.554
+# text = Es  liegt  eine  Meldung  zur  Geschäftsordnung  von  Herrn  Abgeordneten  Strauss  vor.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	NER-O
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	NER-O
+4	Meldung	Meldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	NER-O
+5-6	zur	_	_	_	_	_	_	_	NER-O
+5	zu	zu	ADP	APPR	_	7	case	_	NA
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NA
+7	Geschäftsordnung	Geschäftsordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	NER-O
+8	von	von	ADP	APPR	_	10	case	_	NER-O
+9	Herrn	Herr	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	compound	_	NER-O
+10	Abgeordneten	Abgeordnete	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	NER-O
+11	Strauss	Strauß	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	appos	_	NER=B-PER|QID=B-Q519984
+12	vor	vor	ADP	PTKVZ	_	2	compound:prt	_	NER-O|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# newdoc id = ParlaMint-DE_1949-12-02-01-021.u2
+# newpar id = ParlaMint-DE_1949-12-02-01-021.seg4
+# lang = de
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg4.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.459
+# text = Herr  Präsident!
+1	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	NER=0
+2	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=0|SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg4.s2
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.819
+# text = Meine  Damen  und  Herren!
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	NER=0
+2	Damen	Dame	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	NER=0
+3	und	und	CCONJ	KON	_	4	cc	_	NER=0
+4	Herren	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	NER=0|SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg4.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.27
+# text = Ein  Angehöriger  meiner  Fraktion  hat  die  Beschlußfähigkeit  des  Hauses  bezweifelt.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Angehöriger	Angehörige	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	NER-O
+3	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	NER-O
+4	Fraktion	Fraktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	NER-O
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	NER-O
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER-O
+7	Beschlußfähigkeit	Beschlußfähigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	NER=B-MISC
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	NER=I-MISC
+9	Hauses	Haus	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	NER=I-MISC
+10	bezweifelt	bezweifeln	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg4.s4
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.508
+# text = Seine  Überzeugung,  daß  zu  der  Abstimmung  über  eine  so  wichtige  Angelegenheit  die  Anwesenheit  der  Mehrheit  des  Hauses  notwendig  ist,  ist  richtig.
+1	Seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	NER=0
+2	Überzeugung	Überzeugung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	19	punct	_	NER=0
+4	daß	daß	SCONJ	KOUS	_	19	mark	_	NER=0
+5	zu	zu	ADP	APPR	_	7	case	_	NER=0
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER=0
+7	Abstimmung	Abstimmung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	NER=0
+8	über	über	ADP	APPR	_	12	case	_	NER=0
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	NER=0
+10	so	so	ADV	ADV	_	11	advmod	_	NER=0
+11	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	NER=0
+12	Angelegenheit	Angelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	NER=0
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER=0
+14	Anwesenheit	Anwesenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nsubj	_	NER=0
+15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	NER=0
+16	Mehrheit	Mehrheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	NER=0
+17	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	NER=0
+18	Hauses	Haus	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	NER=0
+19	notwendig	notwendig	ADJ	ADJD	Degree=Pos	2	ccomp	_	NER=0
+20	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	NER=0|SpaceAfter=No
+21	,	,	PUNCT	$,	_	19	punct	_	NER=0
+22	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	NER=0
+23	richtig	richtig	ADJ	ADJD	Degree=Pos	0	root	_	NER=0|SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg4.s5
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.819
+# text = Politisch  stelle  ich  dazu  fest,  daß  meine  Fraktion  diese  Abstimmung  wünscht.
+1	Politisch	politisch	ADJ	ADJD	Degree=Pos	2	advmod	_	NER=0
+2	stelle	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+4	dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	NER=0
+5	fest	fest	ADV	PTKVZ	_	2	compound:prt	_	NER=0|SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	NER=0
+7	daß	daß	SCONJ	KOUS	_	12	mark	_	NER=0
+8	meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	NER=0
+9	Fraktion	Fraktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	NER=0
+10	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	NER=0
+11	Abstimmung	Abstimmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	NER=0
+12	wünscht	wünschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg4.s6
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.384
+# text = Ich  bitte,  diesen  Wunsch  als  Antrag  zu  betrachten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	9	punct	_	NER=0
+4	diesen	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	NER=0
+5	Wunsch	Wunsch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	NER=0
+6	als	als	ADP	KOKOM	_	7	case	_	NER=0
+7	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	NER=0
+8	zu	zu	PART	PTKZU	_	9	mark	_	NER=0
+9	betrachten	betrachten	VERB	VVINF	VerbForm=Inf	2	xcomp	_	NER=0|SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# newdoc id = ParlaMint-DE_1949-12-02-01-021.u3
+# newpar id = ParlaMint-DE_1949-12-02-01-021.seg5
+# lang = de
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg5.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.313
+# text = Das  Wort  zur  Geschäftsordnung  hat  Herr  Abgeordneter  Dr.  Falkner.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Wort	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	obj	_	NER-O
+3-4	zur	_	_	_	_	_	_	_	NER-O
+3	zu	zu	ADP	APPR	_	5	case	_	NA
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NA
+5	Geschäftsordnung	Geschäftsordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	NER-O
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+7	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	NER-O
+8	Abgeordneter	Abgeordnete	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	NER-O
+9	Dr.	Dr.	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	NER=B-PER
+10	Falkner	Falkner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	NER=I-PER|SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	NER-O
+
+# newdoc id = ParlaMint-DE_1949-12-02-01-021.u4
+# newpar id = ParlaMint-DE_1949-12-02-01-021.seg6
+# lang = de
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg6.s1
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.459
+# text = Ich  verzichte  darauf!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	verzichte	verzichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	darauf	darauf	ADV	PAV	PronType=Dem	2	advmod	_	NER=0|SpaceAfter=No
+4	!	!	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1949-12-02-01-021.seg6.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.734
+# text = Es  ist  durch  die  Erklärung  des  Herrn  Abgeordneten  Strauss  vorweggenommen.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	NER-O
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	NER-O
+3	durch	durch	ADP	APPR	_	5	case	_	NER-O
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER-O
+5	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	NER-O
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER-O
+7	Herrn	Herr	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	compound	_	NER-O
+8	Abgeordneten	Abgeordnete	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	NER-O
+9	Strauss	Strauß	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	NER=B-PER|QID=B-Q519984
+10	vorweggenommen	vorwegnehmen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	NER-O
+

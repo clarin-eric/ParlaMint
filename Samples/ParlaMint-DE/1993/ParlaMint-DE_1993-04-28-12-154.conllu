@@ -1,0 +1,553 @@
+# CoNLL-U Representation of Sample of ParlaMint-DE (Beta) / GermaParl v3.0.0-rc4, see https://github.com/PolMine/ParlaMint-DE_beta.
+#
+# newdoc id = ParlaMint-DE_1993-04-28-12-154.u70
+# newpar id = ParlaMint-DE_1993-04-28-12-154.seg73
+# lang = de
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg73.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 2.424
+# text = Damit  sind  wir  inklusive  der  zehn  Zusatzminuten  am  Ende  der  Zeit,  die  für  die  Regierungsbefragung  vorgesehen  war.
+1	Damit	damit	ADV	PAV	PronType=Dem	2	advmod	_	NER-O
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER-O
+4	inklusive	inklusive	ADP	APPR	_	7	case	_	NER-O
+5	der	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	NER-O
+6	zehn	zehn	NUM	CARD	NumType=Card	7	nummod	_	NER-O
+7	Zusatzminuten	Zusatzminute	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	NER-O
+8-9	am	_	_	_	_	_	_	_	NER-O
+8	an	an	ADP	APPR	_	10	case	_	NA
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	NA
+10	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	NER-O
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER-O
+12	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	NER=B-MISC|QID=B-Q157142|SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	NER-O
+14	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	18	nsubj	_	NER-O
+15	für	für	ADP	APPR	_	17	case	_	NER-O
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	NER-O
+17	Regierungsbefragung	Regierungsbefragung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	NER-O
+18	vorgesehen	vorsehen	ADJ	VVPP	Degree=Pos|VerbForm=Part	12	acl	_	NER-O
+19	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	NER-O|SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg73.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.971
+# text = Wir  kommen  zu  Tagesordnungspunkt  2:  Fragestunde  —  Drucksache  12/4791  —
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=0
+2	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	zu	zu	ADP	APPR	_	4	case	_	NER=0
+4	Tagesordnungspunkt	Tagesordnungspunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NER=0
+5	2	2	NUM	CARD	NumType=Card	4	appos	_	NER=0|SpaceAfter=No
+6	:	:	PUNCT	$.	_	7	punct	_	NER=0
+7	Fragestunde	Fragestunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	NER=0
+8	—	—	PUNCT	$(	_	9	punct	_	NER=0
+9	Drucksache	Drucksache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	NER=0
+10	12/4791	12/4791	NUM	CARD	NumType=Card	9	appos	_	NER=0
+11	—	—	PUNCT	$(	_	7	punct	_	NER=0
+
+# newpar id = ParlaMint-DE_1993-04-28-12-154.seg74
+# lang = de
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg74.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.744
+# text = Ich  rufe  den  Geschäftsbereich  des  Bundesministers  der  Finanzen  auf.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER-O
+2	rufe	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	NER-O
+4	Geschäftsbereich	Geschäftsbereich	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER-O
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	NER-O
+6	Bundesministers	Bundesminister	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=B-ORG
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	NER=I-ORG
+8	Finanzen	Finanz	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	NER=I-ORG
+9	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	NER-O|SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg74.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.084
+# text = Zur  Beantwortung  der  Fragen  steht  uns  der  Parlamentarische  Staatssekretär  Dr.  Joachim  Grünewald  zur  Verfügung.
+1-2	Zur	_	_	_	_	_	_	_	NER-O
+1	Zu	zu	ADP	APPR	_	3	case	_	NA
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NA
+3	Beantwortung	Beantwortung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	NER-O
+4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	5	det	_	NER-O
+5	Fragen	Frage	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	NER-O
+6	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+7	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	obl:arg	_	NER-O
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	NER-O
+9	Parlamentarische	Parlamentarische	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	NER=B-ORG
+10	Staatssekretär	Staatssekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	NER-O
+11	Dr.	Dr.	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	NER-O
+12	Joachim	Joachim	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	NER=B-PER|QID=B-Q1690121
+13	Grünewald	Grünewald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	NER=I-PER|QID=I-Q1690121
+14-15	zur	_	_	_	_	_	_	_	NER-O
+14	zu	zu	ADP	APPR	_	16	case	_	NA
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	NA
+16	Verfügung	Verfügung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	NER-O|SpaceAfter=No
+17	.	.	PUNCT	$.	_	6	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg74.s3
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.016
+# text = Herr  Parlamentarischer  Staatssekretär,  ich  bitte  Sie  um  Beantwortung  der  Frage  1  des  Kollegen  Kubatschka:
+1	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	NER-O
+2	Parlamentarischer	Parlamentarischer	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	NER-O
+3	Staatssekretär	Staatssekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER-O|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	NER-O
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	NER-O
+6	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	appos	_	NER-O
+7	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	obj	_	NER-O
+8	um	um	ADP	APPR	_	9	case	_	NER-O
+9	Beantwortung	Beantwortung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	NER-O
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER-O
+11	Frage	Frage	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	NER-O
+12	1	1	NUM	CARD	NumType=Card	11	appos	_	NER-O
+13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	NER-O
+14	Kollegen	Kollege	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	NER-O
+15	Kubatschka	Kubatschka	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	14	appos	_	NER=B-PER|QID=B-Q105435|SpaceAfter=No
+16	:	:	PUNCT	$.	_	6	punct	_	NER-O
+
+# newpar id = ParlaMint-DE_1993-04-28-12-154.seg75
+# lang = de
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg75.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.711
+# text = Wie  beurteilt  die  Bundesregierung  den  starken  Anstieg  der  Herstellung  und  Verbreitung  von  Falschgeld,  vor  allem  bei  den  100-  und  200-DM-Noten  der  als  fälschungssicher  geltenden  neuen  Banknotenserien,  und  was  wird  sie  dagegen  unternehmen?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	NER=0
+2	beurteilt	beurteilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=0
+4	Bundesregierung	Bundesregierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	NER=0
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=0
+6	starken	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	NER=0
+7	Anstieg	Anstieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER=0
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER=0
+9	Herstellung	Herstellung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	NER=0
+10	und	und	CCONJ	KON	_	11	cc	_	NER=0
+11	Verbreitung	Verbreitung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	conj	_	NER=0
+12	von	von	ADP	APPR	_	13	case	_	NER=0
+13	Falschgeld	Falschgeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	NER=0|SpaceAfter=No
+14	,	,	PUNCT	$,	_	23	punct	_	NER=0
+15	vor	vor	ADP	APPR	_	16	case	_	NER=0
+16	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	23	nmod	_	NER=0
+17	bei	bei	ADP	APPR	_	23	case	_	NER=0
+18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	23	det	_	NER=0
+19	100-	100-	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	23	compound	_	NER=0
+20	und	und	CCONJ	KON	_	21	cc	_	NER=0
+21	200-DM	200-DM	PROPN	NN	Case=Dat|Gender=Fem|Number=Plur	19	conj	_	NER=0|SpaceAfter=No
+22	-	-	PUNCT	$(	_	21	punct	_	NER=0|SpaceAfter=No
+23	Noten	Note	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	NER=0
+24	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	NER=0
+25	als	als	ADP	KOKOM	_	26	case	_	NER=0
+26	fälschungssicher	fälschungssicher	ADJ	ADJD	Degree=Pos	27	advmod	_	NER=0
+27	geltenden	geltend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	NER=0
+28	neuen	neu	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	NER=0
+29	Banknotenserien	Banknotenserie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	NER=0|SpaceAfter=No
+30	,	,	PUNCT	$,	_	36	punct	_	NER=0
+31	und	und	CCONJ	KON	_	36	cc	_	NER=0
+32	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	36	obj	_	NER=0
+33	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	NER=0
+34	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	NER=0
+35	dagegen	dagegen	ADV	PAV	PronType=Dem	36	advmod	_	NER=0
+36	unternehmen	unternehmen	VERB	VVINF	VerbForm=Inf	2	conj	_	NER=0|SpaceAfter=No
+37	?	?	PUNCT	$.	_	2	punct	_	NER=0
+
+# newdoc id = ParlaMint-DE_1993-04-28-12-154.u71
+# newpar id = ParlaMint-DE_1993-04-28-12-154.seg76
+# lang = de
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg76.s1
+# senti_3 = Neutral
+# senti_6 = neutral negative
+# senti_n = 1.827
+# text = Herr  Kollege  Kubatschka,  die  Ausgabe  und  fälschungssichere  Gestaltung  von  Banknoten  fällt  in  die  ausschließliche  Zuständigkeit  der  Deutschen  Bundesbank.
+1	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	NER-O
+2	Kollege	Kollege	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	NER-O
+3	Kubatschka	Kubatschka	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	NER=B-PER|QID=B-Q105435|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	NER-O
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER-O
+6	Ausgabe	Ausgabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	NER-O
+7	und	und	CCONJ	KON	_	9	cc	_	NER-O
+8	fälschungssichere	fälschungssicher	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	NER-O
+9	Gestaltung	Gestaltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	NER-O
+10	von	von	ADP	APPR	_	11	case	_	NER-O
+11	Banknoten	Banknote	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	NER-O
+12	fällt	fallen|fällen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+13	in	in	ADP	APPR	_	16	case	_	NER-O
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	NER-O
+15	ausschließliche	ausschließlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	NER-O
+16	Zuständigkeit	Zuständigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	NER-O
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	NER-O
+18	Deutschen	deutsch	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	NER=B-ORG
+19	Bundesbank	Bundesbank	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	NER=I-ORG|SpaceAfter=No
+20	.	.	PUNCT	$.	_	12	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg76.s2
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.614
+# text = Die  Deutsche  Bundesbank  hat  bereits  vor  der  Ausgabe  der  neuen  Banknoten  in  enger  Zusammenarbeit  mit  der  Polizei  und  dem  Bundeskriminalamt  eine  Reihe  von  Maßnahmen  ergriffen,  um  dem  Wachstum  des  Falschgeldanfalls  entgegenzuwirken.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER-O
+2	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	NER=B-ORG|QID=B-Q162222
+3	Bundesbank	Bundesbank	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	NER=I-ORG|QID=I-Q162222
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	NER-O
+5	bereits	bereits	ADV	ADV	_	25	advmod	_	NER-O
+6	vor	vor	ADP	APPR	_	8	case	_	NER-O
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER-O
+8	Ausgabe	Ausgabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	NER-O
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	NER-O
+10	neuen	neu	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	NER-O
+11	Banknoten	Banknote	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	NER-O
+12	in	in	ADP	APPR	_	14	case	_	NER-O
+13	enger	eng	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	NER-O
+14	Zusammenarbeit	Zusammenarbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	NER-O
+15	mit	mit	ADP	APPR	_	17	case	_	NER-O
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	NER-O
+17	Polizei	Polizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	NER-O
+18	und	und	CCONJ	KON	_	20	cc	_	NER-O
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	NER-O
+20	Bundeskriminalamt	Bundeskriminalamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	conj	_	NER=B-LOC|QID=B-Q56030
+21	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	22	det	_	NER-O
+22	Reihe	Reihe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	NER-O
+23	von	von	ADP	APPR	_	24	case	_	NER-O
+24	Maßnahmen	Maßnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	22	nmod	_	NER-O
+25	ergriffen	ergreifen	VERB	VVPP	VerbForm=Part	0	root	_	NER-O|SpaceAfter=No
+26	,	,	PUNCT	$,	_	32	punct	_	NER-O
+27	um	um	ADP	KOUI	_	32	mark	_	NER-O
+28	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	29	det	_	NER-O
+29	Wachstum	Wachstum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	32	obl:arg	_	NER-O
+30	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	NER-O
+31	Falschgeldanfalls	Falschgeldanfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	NER-O
+32	entgegenzuwirken	entgegenwirken	VERB	VVIZU	VerbForm=Inf	25	advcl	_	NER-O|SpaceAfter=No
+33	.	.	PUNCT	$.	_	25	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg76.s3
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 3.858
+# text = Die  neuen  Banknoten  enthalten  mehr  und  leichter  prüfbare  Sicherheitsmerkmale  als  die  alten.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	NER=0
+2	neuen	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	NER=0
+3	Banknoten	Banknote	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	NER=0
+4	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	9	det	_	NER=0
+6	und	und	CCONJ	KON	_	7	cc	_	NER=0
+7	leichter	leicht	ADJ	ADJD	Degree=Cmp	8	advmod	_	NER=0
+8	prüfbare	prüfbar	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	NER=0
+9	Sicherheitsmerkmale	Sicherheitsmerkmal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	NER=0
+10	als	als	ADP	KOKOM	_	12	case	_	NER=0
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	NER=0
+12	alten	alt	NOUN	ADJA	Case=Nom|Number=Plur	9	nmod	_	NER=0|SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg76.s4
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 3.336
+# text = Die  Bundesbank  bemüht  sich,  die  Bevölkerung  hierüber  umfassend  zu  unterrichten,  um  die  Erkennung  von  Falschgeld  zu  verbessern.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Bundesbank	Bundesbank	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	NER=B-ORG|QID=B-Q162222
+3	bemüht	bemühen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	NER-O|SpaceAfter=No
+5	,	,	PUNCT	$,	_	11	punct	_	NER-O
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER-O
+7	Bevölkerung	Bevölkerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	NER-O
+8	hierüber	hierüber	ADV	ADV	_	11	advmod	_	NER-O
+9	umfassend	umfassend	ADJ	ADJD	Degree=Pos	11	advmod	_	NER-O
+10	zu	zu	PART	PTKZU	_	11	mark	_	NER-O
+11	unterrichten	unterrichten	VERB	VVINF	VerbForm=Inf	3	xcomp	_	NER-O|SpaceAfter=No
+12	,	,	PUNCT	$,	_	19	punct	_	NER-O
+13	um	um	ADP	KOUI	_	19	mark	_	NER-O
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER-O
+15	Erkennung	Erkennung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	NER-O
+16	von	von	ADP	APPR	_	17	case	_	NER-O
+17	Falschgeld	Falschgeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	NER-O
+18	zu	zu	PART	PTKZU	_	19	mark	_	NER-O
+19	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	11	advcl	_	NER-O|SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg76.s5
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.175
+# text = Außerdem  konnte  durch  technische  Weiterentwicklungen  die  Fälschungssicherheit  der  Banknoten  erhöht  werden.
+1	Außerdem	außerdem	ADV	PAV	_	10	advmod	_	NER=0
+2	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	NER=0
+3	durch	durch	ADP	APPR	_	5	case	_	NER=0
+4	technische	technisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	NER=0
+5	Weiterentwicklungen	Weiterentwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	NER=0
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER=0
+7	Fälschungssicherheit	Fälschungssicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nsubj:pass	_	NER=0
+8	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	NER=0
+9	Banknoten	Banknote	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	NER=0
+10	erhöht	erhöhen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0
+11	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	10	aux:pass	_	NER=0|SpaceAfter=No
+12	.	.	PUNCT	$.	_	10	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg76.s6
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.816
+# text = Ein  Beispiel  hierfür  ist  der  changierende  Farbeffekt  in  den  Wertzahlen  der  im  Oktober  1992  herausgegebenen  500-DM-  und  1  000-DM-Banknoten.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	2	det	_	NER=0
+2	Beispiel	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NER=0
+3	hierfür	hierfür	ADV	PAV	_	2	advmod	_	NER=0
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	NER=0
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=0
+6	changierende	changierend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	NER=0
+7	Farbeffekt	Farbeffekt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	NER=0
+8	in	in	ADP	APPR	_	10	case	_	NER=0
+9	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	NER=0
+10	Wertzahlen	Wertzahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	NER=0
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	NER=0
+12-13	im	_	_	_	_	_	_	_	NER=0
+12	in	in	ADP	APPR	_	14	case	_	NA
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	NA
+14	Oktober	Oktober	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	NER=0
+15	1992	1992	NUM	CARD	NumType=Card	14	nmod	_	NER=0
+16	herausgegebenen	herausgegeben	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	NER=0
+17	500-DM-	500-DM-	PROPN	NN	_	10	nmod	_	NER=0
+18	und	und	CCONJ	KON	_	20	cc	_	NER=0
+19	1	1	NUM	CARD	NumType=Card	20	nummod	_	NER=0
+20	000-DM	000-DM	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	17	conj	_	NER=0|SpaceAfter=No
+21	-	-	PUNCT	$(	_	22	punct	_	NER=0|SpaceAfter=No
+22	Banknoten	Banknote	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	flat	_	NER=0|SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg76.s7
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.992
+# text = Darüber  hinaus  wollen  die  Hersteller  von  Farbkopiergeräten  noch  in  diesem  Jahr  integrierte  Schutzverfahren  in  den  Geräten  installieren,  die  ein  Kopieren  von  Banknoten  verhindern.
+1	Darüber	darüber	ADV	PAV	PronType=Dem	17	advmod	_	NER-O
+2	hinaus	hinaus	ADV	ADV	_	1	advmod	_	NER-O
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	NER-O
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	NER-O
+5	Hersteller	Hersteller	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	NER-O
+6	von	von	ADP	APPR	_	7	case	_	NER-O
+7	Farbkopiergeräten	Farbkopiergerät	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	NER=B-ORG
+8	noch	noch	ADV	ADV	_	17	advmod	_	NER-O
+9	in	in	ADP	APPR	_	11	case	_	NER-O
+10	diesem	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	NER-O
+11	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	NER-O
+12	integrierte	integriert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	NER-O
+13	Schutzverfahren	Schutzverfahren	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	NER-O
+14	in	in	ADP	APPR	_	16	case	_	NER-O
+15	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	16	det	_	NER-O
+16	Geräten	Gerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	nmod	_	NER-O
+17	installieren	installieren	VERB	VVINF	VerbForm=Inf	0	root	_	NER-O|SpaceAfter=No
+18	,	,	PUNCT	$,	_	24	punct	_	NER-O
+19	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	24	nsubj	_	NER-O
+20	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	21	det	_	NER-O
+21	Kopieren	Kopieren	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	NER-O
+22	von	von	ADP	APPR	_	23	case	_	NER-O
+23	Banknoten	Banknote	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	21	nmod	_	NER-O
+24	verhindern	verhindern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	NER-O|SpaceAfter=No
+25	.	.	PUNCT	$.	_	17	punct	_	NER-O
+
+# newdoc id = ParlaMint-DE_1993-04-28-12-154.u72
+# newpar id = ParlaMint-DE_1993-04-28-12-154.seg77
+# lang = de
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg77.s1
+# senti_3 = Neutral
+# senti_6 = neutral positive
+# senti_n = 2.623
+# text = Zusatzfrage,  Herr  Kollege  Kubatschka.
+1	Zusatzfrage	Zusatzfrage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER-O|SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	NER-O
+3	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	NER-O
+4	Kollege	Kollege	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NER-O
+5	Kubatschka	Kubatschka	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	NER=B-PER|QID=B-Q105435|SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	NER-O
+
+# newdoc id = ParlaMint-DE_1993-04-28-12-154.u73
+# newpar id = ParlaMint-DE_1993-04-28-12-154.seg78
+# lang = de
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg78.s1
+# senti_3 = Positive
+# senti_6 = mixed positive
+# senti_n = 4.155
+# text = Herr  Staatssekretär,  Sie  haben  uns  sehr  viele  Maßnahmen  aufgezählt,  die  wirken  sollten.
+1	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	NER=0
+2	Staatssekretär	Staatssekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	NER=0|SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	NER=0
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	NER=0
+5	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	NER=0
+6	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obl:arg	_	NER=0
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	NER=0
+8	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	NER=0
+9	Maßnahmen	Maßnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	NER=0
+10	aufgezählt	aufzählen	VERB	VVPP	VerbForm=Part	0	root	_	NER=0|SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	NER=0
+12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	NER=0
+13	wirken	wirken	VERB	VVINF	VerbForm=Inf	9	acl	_	NER=0
+14	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	NER=0|SpaceAfter=No
+15	.	.	PUNCT	$.	_	10	punct	_	NER=0
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg78.s2
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.132
+# text = Wie  erklären  Sie  sich  dann  die  Tatsache,  daß  beispielsweise  die  100-DM-Banknoten  teilweise  nicht  mehr  genommen  werden,  weil  die  Menschen  Angst  haben,  einen  „falschen  Fünfziger"  angedreht  zu  bekommen?
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	NER=0
+2	erklären	erklären	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=0
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	NER=0
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obl:arg	_	NER=0
+5	dann	dann	ADV	ADV	_	2	advmod	_	NER=0
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER=0
+7	Tatsache	Tatsache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	NER=0|SpaceAfter=No
+8	,	,	PUNCT	$,	_	18	punct	_	NER=0
+9	daß	daß	SCONJ	KOUS	_	18	mark	_	NER=0
+10	beispielsweise	beispielsweise	ADV	ADV	_	18	advmod	_	NER=0
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	NER=0
+12	100-DM	100-DM	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj:pass	_	NER=0|SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	NER=0|SpaceAfter=No
+14	Banknoten	Banknote	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	flat	_	NER=0
+15	teilweise	teilweise	ADV	ADV	_	16	advmod	_	NER=0
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	18	advmod	_	NER=0
+17	mehr	mehr	ADV	ADV	_	16	advmod	_	NER=0
+18	genommen	nehmen	VERB	VVPP	VerbForm=Part	7	ccomp	_	NER=0
+19	werden	werden	AUX	VAFIN	Number=Plur|VerbForm=Inf|Voice=Pass	18	aux:pass	_	NER=0|SpaceAfter=No
+20	,	,	PUNCT	$,	_	25	punct	_	NER=0
+21	weil	weil	SCONJ	KOUS	_	25	mark	_	NER=0
+22	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	23	det	_	NER=0
+23	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	NER=0
+24	Angst	Angst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	NER=0
+25	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	NER=0|SpaceAfter=No
+26	,	,	PUNCT	$,	_	34	punct	_	NER=0
+27	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	30	det	_	NER=0
+28	„	"	PUNCT	$(	_	30	punct	_	NER=0|SpaceAfter=No
+29	falschen	falsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	NER=0
+30	Fünfziger	Fünfziger	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	32	obj	_	NER=0|SpaceAfter=No
+31	"	"	PUNCT	$(	_	30	punct	_	NER=0
+32	angedreht	andrehen	VERB	VVPP	VerbForm=Part	34	xcomp	_	NER=0
+33	zu	zu	PART	PTKZU	_	34	mark	_	NER=0
+34	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	25	xcomp	_	NER=0|SpaceAfter=No
+35	?	?	PUNCT	$.	_	2	punct	_	NER=0
+
+# newdoc id = ParlaMint-DE_1993-04-28-12-154.u74
+# newpar id = ParlaMint-DE_1993-04-28-12-154.seg79
+# lang = de
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg79.s1
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 0.64
+# text = Das  Problem  ist  uns  wie  auch  der  Deutschen  Bundesbank  bekannt  und  in  diesen  Tagen  in  der  öffentlichen  Diskussion  besonders  virulent.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	NER-O
+2	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	NER-O
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	NER-O
+4	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	10	obl:arg	_	NER-O
+5	wie	wie	ADP	KOKOM	_	9	case	_	NER-O
+6	auch	auch	ADV	ADV	_	9	advmod	_	NER-O
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER-O
+8	Deutschen	deutsch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	NER=B-ORG
+9	Bundesbank	Bundesbank	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	NER=I-ORG
+10	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	NER-O
+11	und	und	CCONJ	KON	_	20	cc	_	NER-O
+12	in	in	ADP	APPR	_	14	case	_	NER-O
+13	diesen	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	14	det	_	NER-O
+14	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	nmod	_	NER-O
+15	in	in	ADP	APPR	_	18	case	_	NER-O
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	NER-O
+17	öffentlichen	öffentlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	NER-O
+18	Diskussion	Diskussion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	NER-O
+19	besonders	besonders	ADV	ADV	_	20	advmod	_	NER-O
+20	virulent	virulent	ADJ	ADJD	Degree=Pos	10	conj	_	NER-O|SpaceAfter=No
+21	.	.	PUNCT	$.	_	10	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg79.s2
+# senti_3 = Negative
+# senti_6 = mixed negative
+# senti_n = 1.499
+# text = Deshalb  habe  ich  auch  die  entsprechenden  Zahlen  zur  Hand:  Bei  der  Deutschen  Bundesbank  wurden  im  Jahre  1992  etwa  14  000  Banknoten  im  Gesamtwert  von  2,5  Millionen  DM  als  falsch  erkannt  und  dann  natürlich  aus  dem  Zahlungsverkehr  gezogen.
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	NER-O
+2	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER-O
+4	auch	auch	ADV	ADV	_	2	advmod	_	NER-O
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	NER-O
+6	entsprechenden	entsprechend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	NER-O
+7	Zahlen	Zahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	NER-O
+8-9	zur	_	_	_	_	_	_	_	NER-O
+8	zu	zu	ADP	APPR	_	10	case	_	NA
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NA
+10	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	NER-O|SpaceAfter=No
+11	:	:	PUNCT	$.	_	34	punct	_	NER-O
+12	Bei	bei	ADP	APPR	_	15	case	_	NER-O
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER-O
+14	Deutschen	deutsch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	15	amod	_	NER=B-ORG
+15	Bundesbank	Bundesbank	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	34	obl	_	NER=I-ORG
+16	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	34	aux:pass	_	NER-O
+17-18	im	_	_	_	_	_	_	_	NER-O
+17	in	in	ADP	APPR	_	19	case	_	NA
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	NA
+19	Jahre	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	34	obl	_	NER-O
+20	1992	1992	NUM	CARD	NumType=Card	19	nmod	_	NER-O
+21	etwa	etwa	ADV	ADV	_	22	advmod	_	NER-O
+22	14	14	NUM	CARD	NumType=Card	23	nummod	_	NER-O
+23	000	000	NUM	CARD	NumType=Card	24	nummod	_	NER-O
+24	Banknoten	Banknote	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	34	nsubj:pass	_	NER-O
+25-26	im	_	_	_	_	_	_	_	NER-O
+25	in	in	ADP	APPR	_	27	case	_	NA
+26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	NA
+27	Gesamtwert	Gesamtwert	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	nmod	_	NER-O
+28	von	von	ADP	APPR	_	31	case	_	NER-O
+29	2,5	2,5	NUM	CARD	NumType=Card	30	nummod	_	NER-O
+30	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	31	nmod	_	NER-O
+31	DM	DM	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	27	nmod	_	NER-O
+32	als	als	ADP	KOKOM	_	33	case	_	NER-O
+33	falsch	falsch	ADJ	ADJD	Degree=Pos	34	advmod	_	NER-O
+34	erkannt	erkennen	VERB	VVPP	VerbForm=Part	2	conj	_	NER-O
+35	und	und	CCONJ	KON	_	41	cc	_	NER-O
+36	dann	dann	ADV	ADV	_	41	advmod	_	NER-O
+37	natürlich	natürlich	ADJ	ADV	Degree=Pos	41	advmod	_	NER-O
+38	aus	aus	ADP	APPR	_	40	case	_	NER-O
+39	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	NER-O
+40	Zahlungsverkehr	Zahlungsverkehr	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	41	obl	_	NER-O
+41	gezogen	ziehen	VERB	VVPP	VerbForm=Part	34	conj	_	NER-O|SpaceAfter=No
+42	.	.	PUNCT	$.	_	2	punct	_	NER-O
+
+# sent_id = ParlaMint-DE_1993-04-28-12-154.seg79.s3
+# senti_3 = Negative
+# senti_6 = negative
+# senti_n = 0.452
+# text = Beim  gesamten  Notenumlauf  —  etwa  2,2  Milliarden  einzelne  Banknoten  in  einem  Gesamtwert  von  213  Milliarden  DM  —  kommen  also,  über  den  Daumen  gepeilt,  etwa  sieben  Fälschungen  auf  eine  Millionen  Banknoten.
+1-2	Beim	_	_	_	_	_	_	_	NER-O
+1	Bei	bei	ADP	APPR	_	4	case	_	NA
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	NA
+3	gesamten	gesamt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	NER-O
+4	Notenumlauf	Notenumlauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	25	obl	_	NER=B-LOC
+5	—	—	PUNCT	$(	_	10	punct	_	NER-O
+6	etwa	etwa	ADV	ADV	_	7	advmod	_	NER-O
+7	2,2	2,2	NUM	CARD	NumType=Card	8	nummod	_	NER-O
+8	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	NER-O
+9	einzelne	einzeln	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	NER-O
+10	Banknoten	Banknote	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	NER-O
+11	in	in	ADP	APPR	_	13	case	_	NER-O
+12	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	13	det	_	NER-O
+13	Gesamtwert	Gesamtwert	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	NER-O
+14	von	von	ADP	APPR	_	17	case	_	NER-O
+15	213	213	NUM	CARD	NumType=Card	16	nummod	_	NER-O
+16	Milliarden	Milliarde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	NER-O
+17	DM	DM	PROPN	NN	Case=Dat	13	nmod	_	NER-O
+18	—	—	PUNCT	$(	_	4	punct	_	NER-O
+19	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER-O
+20	also	also	ADV	ADV	_	19	advmod	_	NER-O|SpaceAfter=No
+21	,	,	PUNCT	$,	_	25	punct	_	NER-O
+22	über	über	ADP	APPR	_	24	case	_	NER-O
+23	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	NER-O
+24	Daumen	Daumen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	NER-O
+25	gepeilt	peilen	VERB	VVPP	VerbForm=Part	19	conj	_	NER-O|SpaceAfter=No
+26	,	,	PUNCT	$,	_	29	punct	_	NER-O
+27	etwa	etwa	ADV	ADV	_	28	advmod	_	NER-O
+28	sieben	sieben	NUM	CARD	NumType=Card	29	nummod	_	NER-O
+29	Fälschungen	Fälschung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	25	obj	_	NER-O
+30	auf	auf	ADP	APPR	_	33	case	_	NER-O
+31	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	32	det	_	NER-O
+32	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	33	nmod	_	NER-O
+33	Banknoten	Banknote	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	nmod	_	NER-O|SpaceAfter=No
+34	.	.	PUNCT	$.	_	25	punct	_	NER-O
+
