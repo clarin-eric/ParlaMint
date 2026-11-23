@@ -137,6 +137,7 @@ $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'bs';
 $country2lang{'BE'} = 'nl, fr';
 $country2lang{'BG'} = 'bg';
+$country2lang{'CH'} = 'de, fr, it';
 $country2lang{'CZ'} = 'cs';
 $country2lang{'DE'} = 'de';
 $country2lang{'DK'} = 'da';
@@ -168,6 +169,7 @@ $country2lang{'SI'} = 'sl';
 $country2lang{'SK'} = 'sk';
 $country2lang{'TR'} = 'tr';
 $country2lang{'UA'} = 'uk, ru';
+$country2lang{'ZA'} = 'en';
 # Fake country for testing:
 $country2lang{'XX'} = 'hr'; 
 

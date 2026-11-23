@@ -6,7 +6,7 @@
 #PARLIAMENTS = IL
 
 #All Parliaments
-PARLIAMENTS = AT BE BG CZ DE DK EE ES ES-CN ES-CT ES-GA ES-PV FI FR GB GR HR HU IL IS IT LV NL NO PL PT SE SI TR BA RS UA
+PARLIAMENTS = AT BE BG CH CZ DE DK EE ES ES-CN ES-CT ES-GA ES-PV FI FR GB GR HR HU IL IS IT LT LV NL NO PL PT RO SE SI SK TR BA RS UA ZA
 
 #Parliaments for V5.0
 # PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA
@@ -104,6 +104,13 @@ setup-parliament-CanaryIslands:
 
 setup-parliament-Germany:
 	make setup-parliament PARLIAMENT-NAME='Germany' PARLIAMENT-CODE='DE' LANG-LIST='de (German)'
+
+setup-parliament-newInParlaMint2026:
+	make setup-parliament PARLIAMENT-NAME='Switzerland' PARLIAMENT-CODE='CH' LANG-LIST='de (German), fr (French), it (Italian)'
+	make setup-parliament PARLIAMENT-NAME='Lithuania' PARLIAMENT-CODE='LT' LANG-LIST='lt (Lithuanian)'
+	make setup-parliament PARLIAMENT-NAME='Romania' PARLIAMENT-CODE='RO' LANG-LIST='ro (Romanian)'
+	make setup-parliament PARLIAMENT-NAME='South Africa' PARLIAMENT-CODE='ZA' LANG-LIST='en (English)'
+	make setup-parliament PARLIAMENT-NAME='Slovakia' PARLIAMENT-CODE='SK' LANG-LIST='sk (Slovak)'
 
 ## initTaxonomies-XX ## initialize taxonomies in folder ParlaMint-XX
 #### parameter LANG-CODE-LIST can contain space separated list of languages
